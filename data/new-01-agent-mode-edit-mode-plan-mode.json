@@ -1,0 +1,1501 @@
+{
+  "title": "GH-300 新範囲クイズ: Agent Mode / Edit Mode / Plan Mode",
+  "description": "Agent Mode・Edit Mode・Plan Mode の違い・使い方・制約に関するクイズ（50問）",
+  "questions": [
+    {
+      "questionNumber": 1,
+      "type": "single",
+      "prompt": "Agent Mode が最も適しているユースケースはどれですか？",
+      "options": [
+        {
+          "id": "A",
+          "text": "特定のファイルを素早く変更したい場合"
+        },
+        {
+          "id": "B",
+          "text": "コードに関する質問に答えてほしい場合"
+        },
+        {
+          "id": "C",
+          "text": "複数のステップや反復、エラー処理を含む複雑なタスクを自律的に実行させたい場合"
+        },
+        {
+          "id": "D",
+          "text": "コード変更前に詳細な実装計画を立てたい場合"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "explanation": "Agent Mode はタスクが複雑で複数ステップ・反復処理・エラーハンドリングを要する場合、また MCP サーバーなど外部アプリとの統合が必要な場合に最適です。Copilot が自律的にどのファイルを変更するか判断し、ターミナルコマンドも実行します。\n\n📖 公式ドキュメント「[Chat in IDE - Agent mode](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide#agent-mode)」には「Agent mode is best suited to use cases where: Your task is complex, and involves multiple steps, iterations, and error handling. You want Copilot to determine the necessary steps to take to complete the task.」と記載されているため、正解は **C** です。"
+    },
+    {
+      "questionNumber": 2,
+      "type": "single",
+      "prompt": "Edit Mode が最も適しているユースケースはどれですか？",
+      "options": [
+        {
+          "id": "A",
+          "text": "複雑なマルチステップタスクを自律的に実行したい場合"
+        },
+        {
+          "id": "B",
+          "text": "特定のファイルセットへの素早い更新を細かく制御したい場合"
+        },
+        {
+          "id": "C",
+          "text": "実装前に詳細な計画を立てたい場合"
+        },
+        {
+          "id": "D",
+          "text": "コードベース全体にわたる大規模なリファクタリングを自律的に行いたい場合"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "explanation": "Edit Mode（現在は非推奨）は、ユーザーが working set としてファイルを明示的に指定し、変更対象を細かく制御できるため、定義済みファイルセットへの素早い変更に適していました。現在はマルチファイル編集には Agent Mode の使用が推奨されています。\n\n📖 公式ドキュメント「[Local agents - Edit mode (deprecated)](https://code.visualstudio.com/docs/copilot/agents/local-agents#edit-mode-deprecated)」には「Edit mode is deprecated. Use Agent mode for multi-file code edits instead.」と記載されているため、正解は **B** です。"
+    },
+    {
+      "questionNumber": 3,
+      "type": "single",
+      "prompt": "Plan Mode の計画フェーズ中、Copilot はコード変更を行いますか？",
+      "options": [
+        {
+          "id": "A",
+          "text": "いいえ、読み取り専用ツールのみを使用して計画を作成する"
+        },
+        {
+          "id": "B",
+          "text": "はい、すぐにコード変更を開始する"
+        },
+        {
+          "id": "C",
+          "text": "はい、ただしユーザーが承認したファイルのみ変更する"
+        },
+        {
+          "id": "D",
+          "text": "はい、ただし1ファイルのみ変更する"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Plan Mode の計画エージェントはコード変更を行わず、読み取り専用ツールとコードベース分析のみを使用してタスクを調査し、実装計画を作成します。コード変更はユーザーが計画を承認した後にのみ実行されます。\n\n📖 公式ドキュメント「[Chat in IDE - Plan mode](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide#plan-mode)」には「The plan agent does not make any code changes until the plan is reviewed and approved by you.」と記載されているため、正解は **A** です。"
+    },
+    {
+      "questionNumber": 4,
+      "type": "single",
+      "prompt": "Agent Mode でどのファイルを変更するかを決定するのは誰ですか？",
+      "options": [
+        {
+          "id": "A",
+          "text": "ユーザーが working set を指定して決定する"
+        },
+        {
+          "id": "B",
+          "text": "Copilot が自律的に判断して決定する"
+        },
+        {
+          "id": "C",
+          "text": "IDE のリンターが判断して決定する"
+        },
+        {
+          "id": "D",
+          "text": "管理者が事前に設定したルールで決定する"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "explanation": "Agent Mode では Copilot が自律的に変更が必要なファイルを判断します。ユーザーがファイルを指定する（working set）のは非推奨となった Edit Mode の特徴であり、Agent Mode ではそのような指定は不要です。\n\n📖 公式ドキュメント「[Local agents - Agent](https://code.visualstudio.com/docs/copilot/agents/local-agents#agent)」には「The AI operates autonomously, determining the relevant context and files to edit, planning the work needed, and iterating to resolve problems as they arise.」と記載されているため、正解は **B** です。"
+    },
+    {
+      "questionNumber": 5,
+      "type": "single",
+      "prompt": "Edit Mode の「working set」とは何ですか？",
+      "options": [
+        {
+          "id": "A",
+          "text": "AI モデルのコンテキストウィンドウのサイズ"
+        },
+        {
+          "id": "B",
+          "text": "Copilot が実行できるターミナルコマンドのセット"
+        },
+        {
+          "id": "C",
+          "text": "ユーザーが Copilot に変更を許可するファイルのセット"
+        },
+        {
+          "id": "D",
+          "text": "リポジトリ内のすべてのファイルのセット"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "explanation": "Edit Mode（現在は非推奨）の working set は、ユーザーが Copilot に変更を許可するファイルの集合です。Agent Mode ではファイル指定は不要で Copilot が自律的に判断します。\n\n📖 公式ドキュメント「[Local agents - Edit mode (deprecated)](https://code.visualstudio.com/docs/copilot/agents/local-agents#edit-mode-deprecated)」には「Edit mode is deprecated. Use Agent mode for multi-file code edits instead.」と記載されており、Edit Mode の working set はユーザーが変更対象ファイルを明示的に管理する仕組みであったため、正解は **C** です。"
+    },
+    {
+      "questionNumber": 6,
+      "type": "single",
+      "prompt": "Edit Mode（Copilot Edits）が利用可能な IDE の組み合わせはどれですか？",
+      "options": [
+        {
+          "id": "A",
+          "text": "VS Code のみ"
+        },
+        {
+          "id": "B",
+          "text": "VS Code と Visual Studio"
+        },
+        {
+          "id": "C",
+          "text": "VS Code と JetBrains IDEs"
+        },
+        {
+          "id": "D",
+          "text": "Copilot Chat が対応するすべての IDE"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "explanation": "旧「Copilot Edits」パネル（working set を用いる Edit Mode）は VS Code と JetBrains IDEs で利用可能でした。VS Code では現在 deprecated となり Agent Mode に統合されています。Visual Studio（非 VS Code）では Agent Mode が VS 17.14 から利用可能ですが、working set 概念を持つ Edit Mode は提供されていません。\n\n📖 公式ドキュメント「[Local agents - Edit mode (deprecated)](https://code.visualstudio.com/docs/copilot/agents/local-agents#edit-mode-deprecated)」には「Edit mode is deprecated. Use Agent mode for multi-file code edits instead. You can restore Edit mode by enabling the chat.editMode.hidden setting.」と記載されているため、正解は **C** です。"
+    },
+    {
+      "questionNumber": 7,
+      "type": "single",
+      "prompt": "Agent Mode でユーザーがプロンプトを送信したとき、プレミアムリクエストはどのようにカウントされますか？",
+      "options": [
+        {
+          "id": "A",
+          "text": "0（常に無料）"
+        },
+        {
+          "id": "B",
+          "text": "1 リクエスト（モデルの乗数倍）"
+        },
+        {
+          "id": "C",
+          "text": "変更したファイル数と同じ数のリクエスト"
+        },
+        {
+          "id": "D",
+          "text": "Copilot が実行したツール呼び出しの数と同じ数"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "explanation": "Agent Mode ではユーザーが入力したプロンプト 1 件につき、選択したモデルの乗数を掛けた値が 1 プレミアムリクエストとして消費されます。含まれているモデルの乗数は 0 なので使用時はプレミアムリクエストは消費されません。\n\n📖 公式ドキュメント「[Chat in IDE - Agent mode](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide#agent-mode)」には「each prompt you enter counts as one premium request, multiplied by the model's multiplier. For example, if you're using the included model—which has a multiplier of 0—your prompts won't consume any premium requests.」と記載されているため、正解は **B** です。"
+    },
+    {
+      "questionNumber": 8,
+      "type": "single",
+      "prompt": "Agent Mode で Copilot が実行するフォローアップのツール呼び出し（tool calls）はプレミアムリクエストとして課金されますか？",
+      "options": [
+        {
+          "id": "A",
+          "text": "はい、ツール呼び出しごとに 1 リクエスト課金される"
+        },
+        {
+          "id": "B",
+          "text": "はい、ただし通常の半額の料金"
+        },
+        {
+          "id": "C",
+          "text": "使用するモデルによって異なる"
+        },
+        {
+          "id": "D",
+          "text": "いいえ、課金されるのはユーザーが入力したプロンプトのみ"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "explanation": "プレミアムリクエストの課金対象はユーザーが入力したプロンプトのみです。エージェントが自律的に実行するツール呼び出しやバックグラウンド処理は課金されません。\n\n📖 公式ドキュメント「[Chat in IDE - Agent mode](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide#agent-mode)」には「these follow-up actions do not count toward your premium request usage. Only the prompts you enter are billed—tool calls or background steps taken by the agent are not charged.」と記載されているため、正解は **D** です。"
+    },
+    {
+      "questionNumber": 9,
+      "type": "single",
+      "prompt": "Plan Mode の計画が完成した後、「Start Implementation」をクリックするとどうなりますか？",
+      "options": [
+        {
+          "id": "A",
+          "text": "Copilot Chat が Agent Mode に切り替わり、実装計画に基づいて実装が開始される"
+        },
+        {
+          "id": "B",
+          "text": "変更がリポジトリにコミットされる"
+        },
+        {
+          "id": "C",
+          "text": "計画が GitHub の Issue として作成される"
+        },
+        {
+          "id": "D",
+          "text": "Edit Mode が有効になる"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "「Start Implementation」をクリックすると、Copilot Chat が Agent Mode に切り替わり、作成した実装計画に基づいてエージェントセッションが開始されコード変更が実行されます。\n\n📖 公式ドキュメント「[Chat in IDE - Plan mode](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide#plan-mode)」には「Click Start Implementation to switch Copilot Chat to agent mode and start an agent session to implement the required changes, based on the implementation plan.」と記載されているため、正解は **A** です。"
+    },
+    {
+      "questionNumber": 10,
+      "type": "single",
+      "prompt": "Plan Mode が実装計画を自動的に保存するファイルパスはどれですか？",
+      "options": [
+        {
+          "id": "A",
+          "text": ".copilot/plan.md"
+        },
+        {
+          "id": "B",
+          "text": ".github/plan.md"
+        },
+        {
+          "id": "C",
+          "text": "/memories/session/plan.md"
+        },
+        {
+          "id": "D",
+          "text": "docs/implementation-plan.md"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "explanation": "Plan Mode の計画エージェントは実装計画をセッションメモリファイルに自動保存します。セッションメモリはセッション終了時にクリアされるため、次のセッションでは利用できません。\n\n📖 公式ドキュメント「[Planning with agents in VS Code](https://code.visualstudio.com/docs/copilot/agents/planning)」には「The Plan agent automatically saves its implementation plan to a session memory file (/memories/session/plan.md).」と記載されているため、正解は **C** です。"
+    },
+    {
+      "questionNumber": 11,
+      "type": "single",
+      "prompt": "Plan Mode に切り替えてすぐに計画を開始できるスラッシュコマンドはどれですか？",
+      "options": [
+        {
+          "id": "A",
+          "text": "/agent"
+        },
+        {
+          "id": "B",
+          "text": "/task"
+        },
+        {
+          "id": "C",
+          "text": "/implement"
+        },
+        {
+          "id": "D",
+          "text": "/plan"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "explanation": "VS Code では `/plan` スラッシュコマンドを使用することで、Plan Mode への切り替えとタスク記述を 1 ステップで実行できます。\n\n📖 公式ドキュメント「[Planning with agents in VS Code](https://code.visualstudio.com/docs/copilot/agents/planning)」には「Alternatively, type /plan followed by your task description to switch to the Plan agent and start planning in one step.」と記載されているため、正解は **D** です。"
+    },
+    {
+      "questionNumber": 12,
+      "type": "single",
+      "prompt": "組織管理者は Agent Mode をユーザーの IDE で無効化できますか？",
+      "options": [
+        {
+          "id": "A",
+          "text": "いいえ、Agent Mode は常に利用可能"
+        },
+        {
+          "id": "B",
+          "text": "はい、組織設定を通じて無効化できる"
+        },
+        {
+          "id": "C",
+          "text": "GitHub Enterprise プランのみで無効化可能"
+        },
+        {
+          "id": "D",
+          "text": "特定のリポジトリのみで無効化可能"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "explanation": "組織またはエンタープライズの管理者は Agent Mode を含む Copilot エージェント機能を無効化できます。Agent Mode のドロップダウンが表示されない場合、管理者によって無効化されている可能性があります。\n\n📖 公式ドキュメント「[Agents overview](https://code.visualstudio.com/docs/copilot/agents/overview)」には「Enable agents in your VS Code settings (chat.agent.enabled). Your organization might also disable agents - contact your admin to enable this functionality.」と記載されているため、正解は **B** です。"
+    },
+    {
+      "questionNumber": 13,
+      "type": "single",
+      "prompt": "VS Code のローカルエージェントドキュメントにおいて、Edit Mode はどのように説明されていますか？",
+      "options": [
+        {
+          "id": "A",
+          "text": "マルチファイル編集に推奨されるモード"
+        },
+        {
+          "id": "B",
+          "text": "パブリックプレビューとして利用可能"
+        },
+        {
+          "id": "C",
+          "text": "単一ファイル編集専用のモード"
+        },
+        {
+          "id": "D",
+          "text": "非推奨（deprecated）であり、Agent Mode に置き換えられた"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "explanation": "VS Code のローカルエージェントドキュメントでは Edit Mode は「非推奨（deprecated）」と明記されており、マルチファイルコード編集には Agent Mode の使用が推奨されています。`chat.editMode.hidden` 設定で一時的に復元できます。\n\n📖 公式ドキュメント「[Local agents - Edit mode (deprecated)](https://code.visualstudio.com/docs/copilot/agents/local-agents#edit-mode-deprecated)」には「Edit mode is deprecated. Use Agent mode for multi-file code edits instead. You can restore Edit mode by enabling the chat.editMode.hidden setting.」と記載されているため、正解は **D** です。"
+    },
+    {
+      "questionNumber": 14,
+      "type": "single",
+      "prompt": "Plan Mode は主にどの IDE で利用可能ですか？",
+      "options": [
+        {
+          "id": "A",
+          "text": "VS Code のみ"
+        },
+        {
+          "id": "B",
+          "text": "すべての Copilot Chat 対応 IDE"
+        },
+        {
+          "id": "C",
+          "text": "VS Code と Visual Studio"
+        },
+        {
+          "id": "D",
+          "text": "VS Code と JetBrains IDEs"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Plan Mode（計画エージェント）は VS Code のローカルエージェントとして実装されており、主に VS Code で利用可能です。GitHub 公式ドキュメントもこの機能を VS Code ドキュメントで詳述しています。\n\n📖 公式ドキュメント「[Planning with agents in VS Code](https://code.visualstudio.com/docs/copilot/agents/planning)」には「The plan agent enables you to create detailed implementation plans before starting the implementation to ensure all requirements are met.」と VS Code 固有の機能として記載されているため、正解は **A** です。"
+    },
+    {
+      "questionNumber": 15,
+      "type": "single",
+      "prompt": "Agent Mode でデフォルト（含まれている）モデルを使用した場合、プレミアムリクエストの消費量はどうなりますか？",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 プレミアムリクエスト消費される"
+        },
+        {
+          "id": "B",
+          "text": "0.5 プレミアムリクエスト消費される"
+        },
+        {
+          "id": "C",
+          "text": "0（消費されない）"
+        },
+        {
+          "id": "D",
+          "text": "モデルの使用時間に応じて課金される"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "explanation": "含まれているモデル（GPT-5 mini・GPT-4.1・GPT-4o）のモデル乗数は 0 です。有料プランでこれらのモデルを使用する場合、Agent Mode でプロンプトを送信してもプレミアムリクエストは消費されません。\n\n📖 公式ドキュメント「[Copilot requests - Model multipliers](https://docs.github.com/en/copilot/concepts/billing/copilot-requests#model-multipliers)」には「GPT-5 mini, GPT-4.1 and GPT-4o are the included models, and do not consume any premium requests if you are on a paid plan.」と記載されているため、正解は **C** です。"
+    },
+    {
+      "questionNumber": 16,
+      "type": "single",
+      "prompt": "VS Code でコパイロットチャットビューを開くキーボードショートカットはどれですか？",
+      "options": [
+        {
+          "id": "A",
+          "text": "Shift+Ctrl+P"
+        },
+        {
+          "id": "B",
+          "text": "Ctrl+Alt+I（Windows/Linux）または ⌃⌘I（Mac）"
+        },
+        {
+          "id": "C",
+          "text": "Ctrl+Shift+G"
+        },
+        {
+          "id": "D",
+          "text": "Alt+C"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "explanation": "VS Code でチャットビューを開くキーボードショートカットは Windows/Linux では Ctrl+Alt+I、Mac では ⌃⌘I（Control+Command+I）です。インラインチャットを開くショートカット（Ctrl+I / ⌘I）とは異なります。\n\n📖 公式ドキュメント「[Chat in VS Code](https://code.visualstudio.com/docs/copilot/chat/chat-agent-mode)」には「Chat view: ⌃⌘I (Windows, Linux Ctrl+Alt+I) — Multi-turn conversations, agentic workflows, multi-file edits.」と記載されているため、正解は **B** です。"
+    },
+    {
+      "questionNumber": 17,
+      "type": "single",
+      "prompt": "VS Code エージェントセッションの「Autopilot」パーミッションレベルの説明として正しいものはどれですか？",
+      "options": [
+        {
+          "id": "A",
+          "text": "すべてのツール呼び出しを自動承認し、質問にも自動応答し、タスクが完了するまで完全自律で動作する"
+        },
+        {
+          "id": "B",
+          "text": "すべてのツール呼び出しを読み取り専用モードで実行する"
+        },
+        {
+          "id": "C",
+          "text": "ファイル変更のたびに手動承認が必要"
+        },
+        {
+          "id": "D",
+          "text": "Cloud Agent モードに自動で切り替える"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Autopilot パーミッションレベル（プレビュー）はすべてのツール呼び出しを自動承認し、質問にも自動応答して、タスクが完了するまでエージェントが完全に自律的に動作し続けます。Bypass Approvals との違いは質問への自動応答が有効になる点です。\n\n📖 公式ドキュメント「[Agent tools - Permission levels](https://code.visualstudio.com/docs/copilot/agents/agent-tools#permission-levels)」には「Autopilot (Preview): Auto-approves all tool calls without showing confirmation dialogs and auto-responds to clarifying questions. The agent continues working autonomously until the task is completed.」と記載されているため、正解は **A** です。"
+    },
+    {
+      "questionNumber": 18,
+      "type": "single",
+      "prompt": "Agent Mode において、Copilot がターミナルコマンドを提案する際のデフォルトの動作はどれですか？",
+      "options": [
+        {
+          "id": "A",
+          "text": "コマンドはユーザーの確認なしに自動実行される"
+        },
+        {
+          "id": "B",
+          "text": "ターミナルコマンドのスクリプトファイルが作成され、後で実行できる"
+        },
+        {
+          "id": "C",
+          "text": "Enterprise プランのみターミナルコマンドが利用可能"
+        },
+        {
+          "id": "D",
+          "text": "ユーザーがコマンドの実行を許可するかどうかを確認する必要がある"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "explanation": "デフォルト設定（Default Approvals）では、Agent Mode で Copilot がターミナルコマンドなどのツールを実行しようとする際、ユーザーの確認が必要です。Bypass Approvals または Autopilot を使用すると自動承認されます。\n\n📖 公式ドキュメント「[Agent tools - Permission levels](https://code.visualstudio.com/docs/copilot/agents/agent-tools#permission-levels)」には「Default Approvals: Uses your configured approval settings. Tools that require approval show a confirmation dialog before they run.」と記載されているため、正解は **D** です。"
+    },
+    {
+      "questionNumber": 19,
+      "type": "single",
+      "prompt": "VS Code のサブエージェント（subagent）に関する説明として正しいものはどれですか？",
+      "options": [
+        {
+          "id": "A",
+          "text": "クラウドで動作するコーディングエージェント"
+        },
+        {
+          "id": "B",
+          "text": "別の組織が提供するサードパーティエージェント"
+        },
+        {
+          "id": "C",
+          "text": "Plan Mode のエージェントの別名"
+        },
+        {
+          "id": "D",
+          "text": "メインチャットセッション内で独自のコンテキストウィンドウを持つ独立したエージェント"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "explanation": "サブエージェントは独自のコンテキストウィンドウを持つ独立したエージェントで、メインチャットセッション内でユーザーからのフィードバックを待たずに独立して動作し、完了後に結果をメインセッションに返します。\n\n📖 公式ドキュメント「[Chat in IDE - Using subagents](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide#using-subagents)」には「You can use subagents to delegate tasks to an isolated agent with its own context window within your chat session. The subagent operates independently without pausing for user feedback and returns the final result to the main chat session.」と記載されているため、正解は **D** です。"
+    },
+    {
+      "questionNumber": 20,
+      "type": "single",
+      "prompt": "サブエージェントは他のサブエージェントを作成できますか？",
+      "options": [
+        {
+          "id": "A",
+          "text": "いいえ、サブエージェントは他のサブエージェントを作成できない"
+        },
+        {
+          "id": "B",
+          "text": "はい、最大 3 レベルまで作成できる"
+        },
+        {
+          "id": "C",
+          "text": "はい、ただし Enterprise プランのみ"
+        },
+        {
+          "id": "D",
+          "text": "`runSubagent` ツールが有効な場合のみ作成できる"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式ドキュメントにサブエージェントは他のサブエージェントを作成できないと明記されています。`runSubagent` ツールはメインセッションがサブエージェントを起動するためのツールであり、サブエージェント自身が別のサブエージェントを作成するものではありません。\n\n📖 公式ドキュメント「[Chat in IDE - Using subagents](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide#using-subagents)」には「Subagents use the same tools and AI model as the main session, but they cannot create other subagents.」と記載されているため、正解は **A** です。"
+    },
+    {
+      "questionNumber": 21,
+      "type": "single",
+      "prompt": "Plan Mode で計画が完成した後、「Open in Editor」をクリックするとどうなりますか？",
+      "options": [
+        {
+          "id": "A",
+          "text": "計画がリポジトリの新しいブランチにコミットされる"
+        },
+        {
+          "id": "B",
+          "text": "Copilot Chat が Agent Mode に切り替わり、エディタのタブに Markdown 形式で計画の詳細が生成される"
+        },
+        {
+          "id": "C",
+          "text": "計画がクラウドエージェントに送信される"
+        },
+        {
+          "id": "D",
+          "text": "Edit Mode が有効になり、計画がプロンプトとして使用される"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "explanation": "「Open in Editor」をクリックすると、Copilot Chat が Agent Mode に切り替わり、実装計画の詳細を含む Markdown がエディタのタブに生成されます。このファイルを参考に自分で実装を進めたり、Markdown ファイルとして保存できます。\n\n📖 公式ドキュメント「[Chat in IDE - Plan mode](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide#plan-mode)」には「Click Open in Editor to switch Copilot Chat to agent mode and start an agent session that generates Markdown, in a tab of your editor, with the details of the implementation plan.」と記載されているため、正解は **B** です。"
+    },
+    {
+      "questionNumber": 22,
+      "type": "single",
+      "prompt": "Plan Mode の計画エージェントが生成する計画草案に含まれる内容として正しいものはどれですか？",
+      "options": [
+        {
+          "id": "A",
+          "text": "完成したコードの変更"
+        },
+        {
+          "id": "B",
+          "text": "テストスクリプトと CI/CD の設定"
+        },
+        {
+          "id": "C",
+          "text": "高レベルのサマリー、実装ステップの内訳、曖昧な要件に関するオープンな質問"
+        },
+        {
+          "id": "D",
+          "text": "Git コミットメッセージのテンプレート"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "explanation": "Plan Mode の計画エージェントは、タスクの高レベルなサマリー、実装・検証のステップの内訳、そして曖昧な要件に関するオープンな質問を含む計画草案を標準化されたフォーマットで提示します。\n\n📖 公式ドキュメント「[Chat in IDE - Plan mode](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide#plan-mode)」には「The plan provides a high-level summary and a breakdown of steps, including any open questions for clarification.」および「Break down the task into manageable, actionable steps and include open questions about ambiguous requirements.」と記載されているため、正解は **C** です。"
+    },
+    {
+      "questionNumber": 23,
+      "type": "single",
+      "prompt": "Visual Studio（VS Code ではない）で Copilot Edits（Agent Mode）が利用可能になったのはどのバージョンからですか？",
+      "options": [
+        {
+          "id": "A",
+          "text": "Visual Studio 17.8"
+        },
+        {
+          "id": "B",
+          "text": "Visual Studio 17.10"
+        },
+        {
+          "id": "C",
+          "text": "Visual Studio 17.14（パブリックプレビュー）"
+        },
+        {
+          "id": "D",
+          "text": "Visual Studio 2019"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "explanation": "Visual Studio での GitHub Copilot Agent Mode は Visual Studio 2022 バージョン 17.14 から利用可能です。17.10 以降は Copilot Chat が組み込みとなりましたが、Agent Mode は 17.14 で追加されました。\n\n📖 公式ドキュメント「[Copilot agent mode in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/ide/copilot-agent-mode)」には「Prerequisites: You need Visual Studio 2022 version 17.14 or later.」と記載されているため、正解は **C** です。"
+    },
+    {
+      "questionNumber": 24,
+      "type": "single",
+      "prompt": "VS Code において `@` シンボルをチャットプロンプトで使用すると何ができますか？",
+      "options": [
+        {
+          "id": "A",
+          "text": "ファイルを参照する"
+        },
+        {
+          "id": "B",
+          "text": "スラッシュコマンドを呼び出す"
+        },
+        {
+          "id": "C",
+          "text": "チャット参加者（特定ドメインの専門家）を呼び出す"
+        },
+        {
+          "id": "D",
+          "text": "ターミナルコマンドを実行する"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "explanation": "VS Code のチャットで `@` を入力すると、`@vscode`、`@terminal` などのチャット参加者（chat participants）を呼び出せます。`#` はファイルや変数などのコンテキスト参照、`/` はスラッシュコマンドに使用します。\n\n📖 公式ドキュメント「[Chat in IDE - Chat participants](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide#chat-participants)」には「you can manually specify a chat participant to scope your prompt to a specific domain. To do this, type @ in the chat prompt box, followed by a chat participant name.」と記載されているため、正解は **C** です。"
+    },
+    {
+      "questionNumber": 25,
+      "type": "single",
+      "prompt": "Copilot Chat の Ask Mode の主な目的は何ですか？",
+      "options": [
+        {
+          "id": "A",
+          "text": "コードベース、コーディング、一般技術概念に関する質問に答える"
+        },
+        {
+          "id": "B",
+          "text": "コードを自律的に変更する"
+        },
+        {
+          "id": "C",
+          "text": "実装計画を作成する"
+        },
+        {
+          "id": "D",
+          "text": "ターミナルコマンドを実行する"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Ask Mode はコードベース、コーディング、一般的な技術概念に関する質問への回答に最適化されています。ファイルの変更は行わず、コードの動作理解やアイデア探索、コーディングタスクのサポートに使用します。\n\n📖 公式ドキュメント「[Chat in IDE - Ask mode](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide#ask-mode)」には「Ask mode is optimized for answering questions about your codebase, coding, and general technology concepts. Use ask mode when you want to understand how something works, explore ideas, or get help with coding tasks.」と記載されているため、正解は **A** です。"
+    },
+    {
+      "questionNumber": 26,
+      "type": "single",
+      "prompt": "VS Code エージェントセッションの「Bypass Approvals」パーミッションレベルを選択した場合の動作はどれですか？",
+      "options": [
+        {
+          "id": "A",
+          "text": "すべてのツール呼び出しを自動承認するが、エージェントが確認の質問をすることがある"
+        },
+        {
+          "id": "B",
+          "text": "読み取り専用のツールのみ自動承認する"
+        },
+        {
+          "id": "C",
+          "text": "すべてのツール呼び出し・質問への応答も自動化され完全自律で動作する"
+        },
+        {
+          "id": "D",
+          "text": "ファイル変更のみ自動承認し、ターミナルコマンドは手動承認する"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "「Bypass Approvals」はすべてのツール呼び出しを確認ダイアログなしに自動承認しますが、エージェントは作業中に確認の質問をすることがあります。「Autopilot」はさらに進んで質問への応答まで自動化しますが、「Bypass Approvals」にはその機能はありません。\n\n📖 公式ドキュメント「[Agents overview - Choose a permission level](https://code.visualstudio.com/docs/copilot/agents/overview#choose-a-permission-level)」には「**Bypass Approvals**: Auto-approves all tool calls without confirmation dialogs. The agent might ask clarifying questions as it works.」と記載されているため、正解は **A** です。"
+    },
+    {
+      "questionNumber": 27,
+      "type": "single",
+      "prompt": "Agent Mode において MCP サーバーを活用することは可能ですか？",
+      "options": [
+        {
+          "id": "A",
+          "text": "いいえ、Agent Mode は外部ツールと連携できない"
+        },
+        {
+          "id": "B",
+          "text": "Enterprise プランのみで利用可能"
+        },
+        {
+          "id": "C",
+          "text": "Cloud Agent 版のみで利用可能"
+        },
+        {
+          "id": "D",
+          "text": "はい、外部アプリケーションとの統合は Agent Mode のユースケースの一つ"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "explanation": "Agent Mode のユースケースとして「MCP サーバーなど外部アプリケーションとの統合が必要なタスク」が公式ドキュメントに明記されています。外部ツールとの連携は Agent Mode が得意とする典型的なシナリオです。\n\n📖 公式ドキュメント「[Copilot features - Agent mode](https://docs.github.com/en/copilot/get-started/features#agent-mode)」には「Agent mode is best suited to use cases where: ... The task requires Copilot to integrate with external applications, such as an MCP server.」と記載されているため、正解は **D** です。"
+    },
+    {
+      "questionNumber": 28,
+      "type": "single",
+      "prompt": "サブエージェントはメインセッションとは異なる AI モデルやツールを使用しますか？",
+      "options": [
+        {
+          "id": "A",
+          "text": "はい、サブエージェントはより上位のモデルを使用する"
+        },
+        {
+          "id": "B",
+          "text": "はい、サブエージェントは読み取り専用ツールのみ使用できる"
+        },
+        {
+          "id": "C",
+          "text": "管理者設定によって異なる"
+        },
+        {
+          "id": "D",
+          "text": "いいえ、サブエージェントはメインセッションと同じツールと AI モデルを使用する"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "explanation": "サブエージェントはメインセッションと同じツールと AI モデルを使用しますが、独自のコンテキストウィンドウで独立して動作します。サブエージェント自身が他のサブエージェントを作成することはできません。\n\n📖 公式ドキュメント「[Chat in IDE - Using subagents](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide#using-subagents)」には「Subagents use the same tools and AI model as the main session, but they cannot create other subagents.」と記載されているため、正解は **D** です。"
+    },
+    {
+      "questionNumber": 29,
+      "type": "single",
+      "prompt": "Copilot Edits（Agent Mode を含む）が利用可能な IDE の組み合わせとして GitHub ドキュメントに記載されているものはどれですか？",
+      "options": [
+        {
+          "id": "A",
+          "text": "VS Code のみ"
+        },
+        {
+          "id": "B",
+          "text": "VS Code と Visual Studio と JetBrains IDEs"
+        },
+        {
+          "id": "C",
+          "text": "VS Code と JetBrains IDEs のみ"
+        },
+        {
+          "id": "D",
+          "text": "すべての Copilot Chat 対応 IDE"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "explanation": "GitHub ドキュメントの機能ページによると、Copilot Edits（Agent Mode を含む）は VS Code・Visual Studio・JetBrains IDEs の 3 つで利用可能です。Visual Studio のみや JetBrains のみといった組み合わせは記載されていません。\n\n📖 公式ドキュメント「[Copilot features - Copilot Edits](https://docs.github.com/en/copilot/get-started/features#copilot-edits)」には「Copilot Edits is available in Visual Studio Code, Visual Studio, and JetBrains IDEs.」と記載されているため、正解は **B** です。"
+    },
+    {
+      "questionNumber": 30,
+      "type": "single",
+      "prompt": "VS Code でエディタや統合ターミナル内にインラインチャットを直接開くキーボードショートカットはどれですか？",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ctrl+Shift+I または Cmd+Shift+I"
+        },
+        {
+          "id": "B",
+          "text": "Ctrl+Alt+I または ⌃⌘I（Mac）"
+        },
+        {
+          "id": "C",
+          "text": "Ctrl+Enter または Cmd+Enter"
+        },
+        {
+          "id": "D",
+          "text": "Ctrl+I（Windows/Linux）または ⌘I（Mac）"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "explanation": "VS Code でエディタや統合ターミナル内に直接インラインチャットを開くショートカットは⌘I（Mac）/ Ctrl+I（Windows/Linux）です。Quick Chat（Shift+Option+Command+L）や Chat view（Ctrl+Alt+I）とは異なります。\n\n📖 公式ドキュメント「[Chat in IDE - Additional ways to access Copilot Chat](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide#additional-ways-to-access-copilot-chat)」には「**Inline:** To start an inline chat directly in the editor or integrated terminal, enter Command+i (Mac) / Ctrl+i (Windows/Linux).」と記載されているため、正解は **D** です。"
+    },
+    {
+      "questionNumber": 31,
+      "type": "multiple",
+      "prompt": "GitHub ドキュメントで「Copilot Edits」のモードとして記載されているものをすべて選んでください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Edit Mode"
+        },
+        {
+          "id": "B",
+          "text": "Agent Mode"
+        },
+        {
+          "id": "C",
+          "text": "Ask Mode"
+        },
+        {
+          "id": "D",
+          "text": "Plan Mode"
+        },
+        {
+          "id": "E",
+          "text": "Review Mode"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B"
+      ],
+      "explanation": "Copilot Edits のモードは Edit mode と Agent mode の 2 種類のみです。Ask mode と Plan mode は Copilot Chat（チャットビュー）のモードであり、Copilot Edits のモードではありません。\n\n📖 公式ドキュメント「[Copilot features - Copilot Edits](https://docs.github.com/en/copilot/get-started/features#copilot-edits)」には「Copilot Edits has the following modes: Edit mode / Agent mode」と記載されているため、正解は **A・B** です。",
+      "selectionCount": 2
+    },
+    {
+      "questionNumber": 32,
+      "type": "multiple",
+      "prompt": "VS Code の Copilot Chat でモードドロップダウン（agents dropdown）にデフォルトで表示されるモードをすべて選んでください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ask"
+        },
+        {
+          "id": "B",
+          "text": "Plan"
+        },
+        {
+          "id": "C",
+          "text": "Edit"
+        },
+        {
+          "id": "D",
+          "text": "Agent"
+        },
+        {
+          "id": "E",
+          "text": "Review"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation": "VS Code の Copilot Chat チャットビューでエージェントドロップダウンに表示されるデフォルトモードは「Agent」「Plan」「Ask」の 3 種類です。Edit Mode は Copilot Edits の機能であり、このドロップダウンには表示されません。\n\n📖 公式ドキュメント「[Chat in IDE - Copilot Chat agents](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide#copilot-chat-agents)」には「You can use Copilot Chat in the following modes: Agent mode / Plan mode / Ask mode」と記載されているため、正解は **A・B・D** です。",
+      "selectionCount": 3
+    },
+    {
+      "questionNumber": 33,
+      "type": "multiple",
+      "prompt": "Agent Mode について正しい説明をすべて選んでください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Copilot が変更するファイルを自律的に決定する"
+        },
+        {
+          "id": "B",
+          "text": "Copilot がターミナルコマンドを提案・実行できる"
+        },
+        {
+          "id": "C",
+          "text": "ユーザーが必ず working set でファイルを指定する必要がある"
+        },
+        {
+          "id": "D",
+          "text": "ユーザーが入力するプロンプトはプレミアムリクエストとして課金される"
+        },
+        {
+          "id": "E",
+          "text": "ツール呼び出しはすべて追加のプレミアムリクエストとして課金される"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation": "Agent Mode では Copilot が変更するファイルを自律的に判断し（A）、ターミナルコマンドの提案・実行も可能（B）です。ユーザーが入力するプロンプトはプレミアムリクエストとして課金されますが（D）、ツール呼び出しやバックグラウンド処理は課金されません。\n\n📖 公式ドキュメント「[Chat in IDE - Agent mode](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide#agent-mode)」には「In agent mode, Copilot determines which files to make changes to, offers code changes and terminal commands ... each prompt you enter counts as one premium request, multiplied by the model's multiplier. Only the prompts you enter are billed—tool calls or background steps taken by the agent are not charged.」と記載されているため、正解は **A・B・D** です。",
+      "selectionCount": 3
+    },
+    {
+      "questionNumber": 34,
+      "type": "multiple",
+      "prompt": "Plan Mode について正しい説明をすべて選んでください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "計画フェーズで使用するのは読み取り専用ツールのみ"
+        },
+        {
+          "id": "B",
+          "text": "計画の作成中にコード変更が行われる"
+        },
+        {
+          "id": "C",
+          "text": "計画完了後に Agent Mode へ引き継ぐことができる"
+        },
+        {
+          "id": "D",
+          "text": "実装計画はセッションメモリファイルに自動保存される"
+        },
+        {
+          "id": "E",
+          "text": "JetBrains IDEs でも Plan Mode が利用可能"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explanation": "Plan Mode は読み取り専用ツールのみを使用して調査・計画を行い（A）、計画が承認されるまでコード変更は行いません。完成した計画は「Start Implementation」で Agent Mode へ引き継ぐことができ（C）、実装計画はセッションメモリファイル（/memories/session/plan.md）に自動保存されます（D）。Plan Mode は現時点で VS Code のみで利用可能であり、JetBrains IDEs では利用できません。\n\n📖 公式ドキュメント「[Planning with agents in VS Code](https://code.visualstudio.com/docs/copilot/agents/planning)」には「The plan agent does not make any code changes until the plan is reviewed and approved by you. The Plan agent automatically saves its implementation plan to a session memory file (/memories/session/plan.md).」と記載されているため、正解は **A・C・D** です。",
+      "selectionCount": 3
+    },
+    {
+      "questionNumber": 35,
+      "type": "multiple",
+      "prompt": "Plan Mode で実装計画が完成した後にユーザーが取れる行動をすべて選んでください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "「Start Implementation」をクリックして Agent Mode に切り替える"
+        },
+        {
+          "id": "B",
+          "text": "「Open in Editor」をクリックして Markdown 形式の計画をエディタに表示する"
+        },
+        {
+          "id": "C",
+          "text": "変更を直接コミットする"
+        },
+        {
+          "id": "D",
+          "text": "計画をチーム討議のために Markdown ファイルとして保存する"
+        },
+        {
+          "id": "E",
+          "text": "計画をさらに反復・改良する"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explanation": "計画完成後は「Start Implementation」で Agent Mode に切り替えて実装を開始（A）、「Open in Editor」で Markdown 形式の計画をエディタに表示（B）、Markdown ファイルとして保存（D）、または計画をさらに反復・改良（E）することができます。計画フェーズ中にコードを直接コミットすることはできません（C は誤り）。\n\n📖 公式ドキュメント「[Chat in IDE - Plan mode](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide#plan-mode)」には「Once the plan is complete you can: Click **Start Implementation** to switch Copilot Chat to agent mode ... Click **Open in Editor** to switch Copilot Chat to agent mode and start an agent session that generates Markdown ... save the plan as a Markdown file for later use.」と記載されているため、正解は **A・B・D・E** です。",
+      "selectionCount": 4
+    },
+    {
+      "questionNumber": 36,
+      "type": "multiple",
+      "prompt": "VS Code のサブエージェントについて正しい説明をすべて選んでください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "独自のコンテキストウィンドウを持つ独立したエージェントとして動作する"
+        },
+        {
+          "id": "B",
+          "text": "ユーザーからのフィードバックを待たずに独立して実行される"
+        },
+        {
+          "id": "C",
+          "text": "最終結果をメインチャットセッションに返す"
+        },
+        {
+          "id": "D",
+          "text": "他のサブエージェントを作成できる"
+        },
+        {
+          "id": "E",
+          "text": "メインセッションと同じツールと AI モデルを使用する"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explanation": "サブエージェントは独自のコンテキストウィンドウを持ち（A）、ユーザーフィードバックなしで独立して実行され（B）、完了後に結果をメインセッションに返します（C）。メインセッションと同じツールと AI モデルを使用しますが（E）、サブエージェント自身が他のサブエージェントを作成することはできません（D は誤り）。\n\n📖 公式ドキュメント「[Chat in IDE - Using subagents](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide#using-subagents)」には「The subagent operates independently without pausing for user feedback and returns the final result to the main chat session. Subagents use the same tools and AI model as the main session, but they cannot create other subagents.」と記載されているため、正解は **A・B・C・E** です。",
+      "selectionCount": 4
+    },
+    {
+      "questionNumber": 37,
+      "type": "multiple",
+      "prompt": "VS Code のエージェントセッションで利用可能なパーミッションレベルをすべて選んでください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Default Approvals（デフォルト承認）"
+        },
+        {
+          "id": "B",
+          "text": "Bypass Approvals（承認バイパス）"
+        },
+        {
+          "id": "C",
+          "text": "Autopilot（自動操縦、プレビュー）"
+        },
+        {
+          "id": "D",
+          "text": "Read-only（読み取り専用）"
+        },
+        {
+          "id": "E",
+          "text": "Admin（管理者）"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "VS Code のエージェントセッションには「Default Approvals（デフォルト承認）」「Bypass Approvals（承認バイパス）」「Autopilot（自動操縦、プレビュー）」の 3 つのパーミッションレベルが用意されています。Read-only や Admin といったレベルは公式ドキュメントに記載されていません。\n\n📖 公式ドキュメント「[Agents overview - Choose a permission level](https://code.visualstudio.com/docs/copilot/agents/overview#choose-a-permission-level)」には「**Default Approvals** / **Bypass Approvals** / **Autopilot** (Preview)」と記載されているため、正解は **A・B・C** です。",
+      "selectionCount": 3
+    },
+    {
+      "questionNumber": 38,
+      "type": "multiple",
+      "prompt": "VS Code に組み込まれているビルトインエージェントをすべて選んでください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Agent"
+        },
+        {
+          "id": "B",
+          "text": "Plan"
+        },
+        {
+          "id": "C",
+          "text": "Review"
+        },
+        {
+          "id": "D",
+          "text": "Ask"
+        },
+        {
+          "id": "E",
+          "text": "Debug"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation": "VS Code のローカルエージェントには「Agent（自律コード変更）」「Plan（実装計画作成）」「Ask（質問応答）」の3 つのビルトインエージェントがあります。Review や Debug はビルトインエージェントとして提供されていません。\n\n📖 公式ドキュメント「[Agents overview - Choose an agent](https://code.visualstudio.com/docs/copilot/agents/overview#choose-an-agent)」には「VS Code has three built-in agents: **Agent**: autonomously plans and implements changes across files, runs terminal commands, and invokes tools. **Plan**: creates a structured, step-by-step implementation plan before writing any code. **Ask**: answers questions about coding concepts, your codebase, or VS Code itself without making file changes.」と記載されているため、正解は **A・B・D** です。",
+      "selectionCount": 3
+    },
+    {
+      "questionNumber": 39,
+      "type": "multiple",
+      "prompt": "Agent Mode でのプレミアムリクエスト課金について正しい説明をすべて選んでください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "ユーザーが入力するプロンプトごとに 1 プレミアムリクエスト（モデル乗数倍）が課金される"
+        },
+        {
+          "id": "B",
+          "text": "ツール呼び出しはプレミアムリクエストとして課金されない"
+        },
+        {
+          "id": "C",
+          "text": "デフォルト（含まれている）モデルの乗数は 0 なので、使用してもプレミアムリクエストは消費されない"
+        },
+        {
+          "id": "D",
+          "text": "エージェントが行うすべての操作がプレミアムリクエストとして課金される"
+        },
+        {
+          "id": "E",
+          "text": "ターミナルコマンドの実行は別途課金される"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "Agent Mode の課金はユーザーが入力するプロンプト 1 つにつき 1 プレミアムリクエスト（モデル乗数倍）です（A）。ツール呼び出しやバックグラウンド処理は追加課金されません（B）。デフォルト（included）モデルの乗数は 0 のため、そのモデルを使う限りプレミアムリクエストは消費されません（C）。\n\n📖 公式ドキュメント「[Chat in IDE - Agent mode](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide#agent-mode)」には「each prompt you enter counts as one premium request, multiplied by the model's multiplier. For example, if you're using the included model—which has a multiplier of 0—your prompts won't consume any premium requests. Only the prompts you enter are billed—tool calls or background steps taken by the agent are not charged.」と記載されているため、正解は **A・B・C** です。",
+      "selectionCount": 3
+    },
+    {
+      "questionNumber": 40,
+      "type": "multiple",
+      "prompt": "VS Code のチャットプロンプトで `#` を使って明示的に参照できるものをすべて選んでください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "#file（特定ファイル）"
+        },
+        {
+          "id": "B",
+          "text": "#codebase（コードベース全体）"
+        },
+        {
+          "id": "C",
+          "text": "#terminalSelection（ターミナルの選択テキスト）"
+        },
+        {
+          "id": "D",
+          "text": "#fetch（URL のフェッチ）"
+        },
+        {
+          "id": "E",
+          "text": "#agent（エージェント指定）"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "VS Code のチャットプロンプトでは `#file`（特定ファイル）、`#codebase`（コードベース全体）、`#terminalSelection`（ターミナルの選択テキスト）、`#fetch`（URL のフェッチ）が利用可能です。`#agent` はチャット変数として存在しません。\n\n📖 公式ドキュメント「[Chat overview - Add context to your prompts](https://code.visualstudio.com/docs/copilot/copilot-edits#add-context-to-your-prompts)」には「type `#` in the chat input to explicitly reference files (`#file`), folders, symbols, your codebase (`#codebase`), terminal output (`#terminalSelection`), or tools like `#fetch`.」と記載されているため、正解は **A・B・C・D** です。",
+      "selectionCount": 4
+    },
+    {
+      "questionNumber": 41,
+      "type": "multiple",
+      "prompt": "Agent Mode と Edit Mode の違いについて正しい説明をすべて選んでください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Agent Mode は変更するファイルを自律的に決定するが、Edit Mode はユーザーがファイルを指定する"
+        },
+        {
+          "id": "B",
+          "text": "Agent Mode はターミナルコマンドを実行できるが、Edit Mode は自律的なターミナルコマンド実行をしない"
+        },
+        {
+          "id": "C",
+          "text": "Edit Mode はユーザーが LLM リクエスト数を完全に制御できるが、Agent Mode は制御できない"
+        },
+        {
+          "id": "D",
+          "text": "Edit Mode はすべての IDE で利用可能だが、Agent Mode は VS Code のみ"
+        },
+        {
+          "id": "E",
+          "text": "Plan Mode を使わなければ Agent Mode は利用できない"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "Agent Mode は変更するファイルを自律的に決定し（A）、ターミナルコマンドも実行できます（B）。Edit Mode はユーザーがファイル（working set）を指定し、LLM リクエスト数を完全に制御できます（C）。Agent Mode は VS Code・Visual Studio・JetBrains で利用可能であり、VS Code のみではありません（D は誤り）。Plan Mode を使わなくても Agent Mode は直接利用できます（E は誤り）。\n\n📖 公式ドキュメント「[Copilot features - Copilot Edits](https://docs.github.com/en/copilot/get-started/features#copilot-edits)」には「In agent mode, Copilot determines which files to make changes to ... In edit mode, you choose which files Copilot can make changes to ... You want full control over the number of LLM requests Copilot uses.」と記載されているため、正解は **A・B・C** です。",
+      "selectionCount": 3
+    },
+    {
+      "questionNumber": 42,
+      "type": "multiple",
+      "prompt": "Edit Mode（Copilot Edits）の working set へのファイルの追加方法として正しいものをすべて選んでください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "「Add all open files」ボタンですべての開いているファイルを追加"
+        },
+        {
+          "id": "B",
+          "text": "ファイルを個別に検索して追加"
+        },
+        {
+          "id": "C",
+          "text": "Agent Mode が自動的に最適なファイルを追加する"
+        },
+        {
+          "id": "D",
+          "text": "リポジトリ内のすべてのファイルが自動的に追加される"
+        },
+        {
+          "id": "E",
+          "text": "JetBrains では、ファイルをドラッグしてチャットプロンプトボックスにドロップして参照を追加"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explanation": "Edit Mode の working set へのファイル追加は「Add all open files」ボタンでの一括追加（A）、個別検索での追加（B）が可能で、JetBrains IDEs ではファイルをチャットプロンプトボックスにドラッグ＆ドロップして参照を追加できます（E）。Agent Mode は working set を使わず自律的にファイルを判断します（C は誤り）。\n\n📖 公式ドキュメント「[Copilot features - Edit mode](https://docs.github.com/en/copilot/get-started/features#edit-mode)」には「In edit mode, you choose which files Copilot can make changes to, provide context to Copilot with each iteration, and decide whether or not to accept the suggested edits after each turn.」と記載されているため、正解は **A・B・E** です。",
+      "selectionCount": 3
+    },
+    {
+      "questionNumber": 43,
+      "type": "multiple",
+      "prompt": "VS Code の Copilot Chat でサブエージェントを呼び出す方法をすべて選んでください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Copilot が自動的にプロンプトの内容を分析してサブエージェントに委譲（自動委譲）"
+        },
+        {
+          "id": "B",
+          "text": "プロンプト内でサブエージェントを直接指定して呼び出し（直接呼び出し）"
+        },
+        {
+          "id": "C",
+          "text": "`#runSubagent` ツールを呼び出す"
+        },
+        {
+          "id": "D",
+          "text": "`/delegate` コマンドを使用する"
+        },
+        {
+          "id": "E",
+          "text": "`@subagent` チャット参加者を呼び出す"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "サブエージェントの呼び出し方法は 3 種類：Copilot が自動的に判断して委譲する「自動委譲」（A）、プロンプト内でサブエージェントを直接指定する「直接呼び出し」（B）、`#runSubagent` ツールを明示的に呼び出す方法（C）です。`/delegate` コマンドや `@subagent` はサブエージェント呼び出しの方法ではありません。\n\n📖 公式ドキュメント「[Chat in IDE - Invoking subagents](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide#invoking-subagents)」には「Subagents can be invoked in different ways: **Automatic delegation** ... **Direct invocation** ... **Calling the #runSubagent tool**.」と記載されているため、正解は **A・B・C** です。",
+      "selectionCount": 3
+    },
+    {
+      "questionNumber": 44,
+      "type": "multiple",
+      "prompt": "GitHub ドキュメントに記載されている Copilot Chat が利用可能な環境をすべて選んでください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "GitHub ウェブサイト"
+        },
+        {
+          "id": "B",
+          "text": "GitHub Mobile"
+        },
+        {
+          "id": "C",
+          "text": "VS Code などの対応 IDE"
+        },
+        {
+          "id": "D",
+          "text": "Windows Terminal"
+        },
+        {
+          "id": "E",
+          "text": "GitHub Actions"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "GitHub ドキュメントによると、Copilot Chat は GitHub ウェブサイト、GitHub Mobile、VS Code・Visual Studio・JetBrains IDEs・Eclipse・Xcode などの対応 IDE、Windows Terminal で利用可能です。GitHub Actions は Copilot Chat の対応環境として記載されていません。\n\n📖 公式ドキュメント「[Copilot features - Copilot Chat](https://docs.github.com/en/copilot/get-started/features#copilot-chat)」には「GitHub Copilot Chat is available on the GitHub website, in GitHub Mobile, in supported IDEs (Visual Studio Code, Visual Studio, JetBrains IDEs, Eclipse IDE, and Xcode), and in Windows Terminal.」と記載されているため、正解は **A・B・C・D** です。",
+      "selectionCount": 4
+    },
+    {
+      "questionNumber": 45,
+      "type": "multiple",
+      "prompt": "サブエージェントの活用に最適なユースケースをすべて選んでください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "メインセッションを中断せずに複雑な調査・分析タスクを委譲したい場合"
+        },
+        {
+          "id": "B",
+          "text": "メインのコンテキストウィンドウを汚さずに大量の情報や複数のドキュメントを処理したい場合"
+        },
+        {
+          "id": "C",
+          "text": "コンテキストを混在させずに異なるアプローチを独立して探求したい場合"
+        },
+        {
+          "id": "D",
+          "text": "GitHub でプルリクエストを直接作成したい場合"
+        },
+        {
+          "id": "E",
+          "text": "CI/CD パイプラインを自動実行したい場合"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "サブエージェントは、複雑な調査・分析タスクをメインセッションを中断せずに委譲（A）、大量の情報処理によるプライマリコンテキストの汚染防止（B）、異なるアプローチを独立して探求（C）といったシナリオに最適です。GitHub でのプルリクエスト作成は Cloud Agent の用途であり、サブエージェントの用途ではありません。\n\n📖 公式ドキュメント「[Chat in IDE - Using subagents](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide#using-subagents)」には「Subagents are best suited for situations where: You want to delegate complex, multi-step tasks like research or analysis without interrupting your main session. You need to process large amounts of information or multiple documents that would clutter your primary context window. You want to explore different approaches or perspectives independently without mixing contexts together.」と記載されているため、正解は **A・B・C** です。",
+      "selectionCount": 3
+    },
+    {
+      "questionNumber": 46,
+      "type": "multiple",
+      "prompt": "Copilot Chat に画像を添付する際にサポートされているファイル形式をすべて選んでください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "JPEG (.jpg, .jpeg)"
+        },
+        {
+          "id": "B",
+          "text": "PNG (.png)"
+        },
+        {
+          "id": "C",
+          "text": "GIF (.gif)"
+        },
+        {
+          "id": "D",
+          "text": "WEBP (.webp)"
+        },
+        {
+          "id": "E",
+          "text": "SVG (.svg)"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "Copilot Chat に添付できる画像ファイル形式は JPEG（.jpg/.jpeg）、PNG（.png）、GIF（.gif）、WEBP（.webp）の 4 種類です。SVG 形式はサポートされていません。Business/Enterprise プランの場合は組織・企業の「Editor preview features」設定の有効化が必要です。\n\n📖 公式ドキュメント「[Chat in IDE - Using images in Copilot Chat](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide#using-images-in-copilot-chat)」には「The following types of image file are supported: JPEG (`.jpg`, `.jpeg`), PNG (`.png`), GIF (`.gif`), or WEBP (`.webp`).」と記載されているため、正解は **A・B・C・D** です。",
+      "selectionCount": 4
+    },
+    {
+      "questionNumber": 47,
+      "type": "multiple",
+      "prompt": "Plan Mode のカスタマイズ・設定として可能なことをすべて選んでください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "アーキテクチャガイドラインや計画成果物を定義するカスタム計画エージェントの作成"
+        },
+        {
+          "id": "B",
+          "text": "計画フェーズと実装フェーズに使用する AI モデルを個別に設定する"
+        },
+        {
+          "id": "C",
+          "text": "実験的機能として、計画エージェントに MCP サーバー経由で追加ツールを提供する"
+        },
+        {
+          "id": "D",
+          "text": "計画フェーズ中に自動的にコードをコミットする"
+        },
+        {
+          "id": "E",
+          "text": "計画エージェントの言語出力スタイルを変更する"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "Plan Mode では、カスタム計画エージェントの作成（A）、`chat.planAgent.defaultModel` による計画・実装フェーズのモデル個別設定（B）、`github.copilot.chat.planAgent.additionalTools` によるMCP サーバー経由でのツール追加（実験的機能）（C）が可能です。計画フェーズ中にコードを自動コミットする機能はありません（D は誤り）。\n\n📖 公式ドキュメント「[Planning with agents in VS Code - Customize planning](https://code.visualstudio.com/docs/copilot/agents/planning#customize-planning)」には「Create a custom planning agent ... Choose models for planning and implementation. Use the `chat.planAgent.defaultModel` setting ... Add extra tools to the plan agent (experimental). Use the `github.copilot.chat.planAgent.additionalTools` setting ...」と記載されているため、正解は **A・B・C** です。",
+      "selectionCount": 3
+    },
+    {
+      "questionNumber": 48,
+      "type": "multiple",
+      "prompt": "VS Code でエージェントタイプ間のハンドオフに関して正しい説明をすべて選んでください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "チャット入力ボックスのセッションタイプドロップダウンから別のエージェントタイプを選択する"
+        },
+        {
+          "id": "B",
+          "text": "Copilot CLI セッションでは `/delegate` コマンドで Cloud Agent に委譲できる"
+        },
+        {
+          "id": "C",
+          "text": "エージェントタイプを切り替えると、新しいセッションが作成されるが会話の履歴とコンテキストは引き継がれる"
+        },
+        {
+          "id": "D",
+          "text": "ハンドオフ後も元のセッションを引き続き使用できる"
+        },
+        {
+          "id": "E",
+          "text": "Plan Mode から「Start Implementation」で Agent Mode にハンドオフできる"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explanation": "エージェントタイプ間のハンドオフはセッションタイプドロップダウンから別のエージェントを選択して行います（A）。Copilot CLI セッションでは `/delegate` コマンドで Cloud Agent に委譲できます（B）。ハンドオフ時は新しいセッションが作成されますが、会話の履歴とコンテキストは引き継がれます（C）。元のセッションはハンドオフ後にアーカイブされるため引き続き使用はできません（D は誤り）。Plan Mode から「Start Implementation」で Agent Mode にハンドオフできます（E）。\n\n📖 公式ドキュメント「[Agents overview - Hand off a session to another agent](https://code.visualstudio.com/docs/copilot/agents/overview#hand-off-a-session-to-another-agent)」には「To hand off a local agent session, select a different agent type from the session type dropdown in the chat input box. VS Code creates a new session, carrying over the full conversation history and context. The original session is archived after handoff. In a Copilot CLI session, delegate to a cloud agent by entering the `/delegate` command.」と記載されているため、正解は **A・B・C・E** です。",
+      "selectionCount": 4
+    },
+    {
+      "questionNumber": 49,
+      "type": "multiple",
+      "prompt": "Copilot のインライン候補（コード補完）が対応しているが、Copilot Chat 対応 IDE（VS Code, Visual Studio, JetBrains, Eclipse, Xcode）に含まれない環境をすべて選んでください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Azure Data Studio"
+        },
+        {
+          "id": "B",
+          "text": "Vim/Neovim"
+        },
+        {
+          "id": "C",
+          "text": "Windows Terminal"
+        },
+        {
+          "id": "D",
+          "text": "GitHub Mobile"
+        },
+        {
+          "id": "E",
+          "text": "GitHub ウェブサイト"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B"
+      ],
+      "explanation": "インライン候補（コード補完）は VS Code・Visual Studio・JetBrains IDEs に加え、Azure Data Studio（A）と Vim/Neovim（B）でも利用可能ですが、これらは Copilot Chat 対応 IDE（VS Code・Visual Studio・JetBrains・Eclipse・Xcode）には含まれていません。Windows Terminal は Chat 対応環境ですが、インライン候補には対応していません。\n\n📖 公式ドキュメント「[Copilot features - Inline suggestions](https://docs.github.com/en/copilot/get-started/features#inline-suggestions)」には「Autocomplete-style suggestions from Copilot in supported IDEs (Visual Studio Code, Visual Studio, JetBrains IDEs, Azure Data Studio, Xcode, Vim/Neovim, and Eclipse).」と記載されているため、Copilot Chat 対応 IDE（VS Code・Visual Studio・JetBrains・Eclipse・Xcode）と比較すると Azure Data Studio と Vim/Neovim のみがインライン候補対応でチャット非対応であり、正解は **A・B** です。",
+      "selectionCount": 2
+    },
+    {
+      "questionNumber": 50,
+      "type": "multiple",
+      "prompt": "Copilot Edits（Agent Mode と Edit Mode）に関する正しい説明をすべて選んでください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Agent Mode は VS Code、Visual Studio（17.14+ プレビュー）、JetBrains IDEs で利用可能"
+        },
+        {
+          "id": "B",
+          "text": "Edit Mode は VS Code と JetBrains IDEs のみで利用可能"
+        },
+        {
+          "id": "C",
+          "text": "Plan Mode は Copilot Edits のモードの一つ"
+        },
+        {
+          "id": "D",
+          "text": "VS Code では Edit Mode は非推奨となり、マルチファイル編集には Agent Mode が推奨されている"
+        },
+        {
+          "id": "E",
+          "text": "Agent Mode も Edit Mode も、ユーザーは最終的に変更を承認または却下できる"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explanation": "Agent Mode は VS Code・Visual Studio（17.14+ プレビュー）・JetBrains IDEs で利用可能です（A）。Edit Mode は VS Code と JetBrains IDEs のみで利用可能です（B）。Plan Mode は Copilot Chat のモードであり、Copilot Edits のモードではありません（C は誤り）。VS Code では Edit Mode は非推奨となり、マルチファイル編集には Agent Mode が推奨されています（D）。どちらのモードでもユーザーは最終的に変更を承認または却下できます（E）。\n\n📖 公式ドキュメント「[Copilot features - Copilot Edits](https://docs.github.com/en/copilot/get-started/features#copilot-edits)」には「Copilot Edits is available in Visual Studio Code, Visual Studio, and JetBrains IDEs. Edit mode is only available in Visual Studio Code and JetBrains IDEs. Copilot Edits has the following modes: Edit mode / Agent mode」と記載されているため、正解は **A・B・D・E** です。",
+      "selectionCount": 4
+    }
+  ]
+}

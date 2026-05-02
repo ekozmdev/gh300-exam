@@ -1,0 +1,307 @@
+{
+  "title": "GH-300 難問クイズ: Section 5 - Apply Prompt Engineering and Context Crafting",
+  "description": "プロンプト設計、custom instructions、repository instructions、Copilot Spaces の使い分けに関する難問（10問）",
+  "questions": [
+    {
+      "questionNumber": 1,
+      "type": "single",
+      "prompt": "Copilot Chat 向けプロンプトの基本構造として、公式ドキュメントが推奨するものはどれですか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "まず細かい制約だけを書き、全体の目的は曖昧なままにする"
+        },
+        {
+          "id": "B",
+          "text": "最初に広い目的やシナリオを示し、その後で具体的な要件を列挙する"
+        },
+        {
+          "id": "C",
+          "text": "前提や要件は書かず、チャット履歴だけに判断させる"
+        },
+        {
+          "id": "D",
+          "text": "まず model 名を指定し、実装内容は Copilot に完全に推測させる"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "explanation": "正解は **B** です。公式ドキュメントは、まず広い goal や scenario を説明し、その後で具体的な requirements を列挙することを推奨しています。\n\n出典: [Prompt engineering for GitHub Copilot Chat](https://docs.github.com/en/copilot/concepts/prompting/prompt-engineering)"
+    },
+    {
+      "questionNumber": 2,
+      "type": "multiple",
+      "selectionCount": 3,
+      "prompt": "Copilot に意図を伝えるための examples として公式ドキュメントが挙げているものを 3 つ選んでください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "example input data"
+        },
+        {
+          "id": "B",
+          "text": "example outputs"
+        },
+        {
+          "id": "C",
+          "text": "example implementations"
+        },
+        {
+          "id": "D",
+          "text": "repository の star 数"
+        },
+        {
+          "id": "E",
+          "text": "organization billing invoice"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "正解は **A、B、C** です。公式ドキュメントでは、example input data、example outputs、example implementations を示すと Copilot が意図を理解しやすくなると説明されています。unit tests も例として機能します。\n\n出典: [Prompt engineering for GitHub Copilot Chat](https://docs.github.com/en/copilot/concepts/prompting/prompt-engineering)"
+    },
+    {
+      "questionNumber": 3,
+      "type": "single",
+      "prompt": "曖昧な質問 `What does this do?` を避ける理由として、公式ドキュメントに最も合うものはどれですか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "`this` が現在ファイル、直前の応答、特定コードブロックなど複数に解釈され得るため"
+        },
+        {
+          "id": "B",
+          "text": "英語の疑問文は Copilot Chat でサポートされていないため"
+        },
+        {
+          "id": "C",
+          "text": "Copilot Chat はコード説明のユースケースをサポートしていないため"
+        },
+        {
+          "id": "D",
+          "text": "`this` を含む prompt は必ず content filter によって拒否されるため"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "正解は **A** です。公式ドキュメントは、`this` のような曖昧な語が現在ファイル、直前の応答、特定のコードブロックなど複数の対象を指し得るため、具体的な対象を示すよう推奨しています。\n\n出典: [Prompt engineering for GitHub Copilot Chat](https://docs.github.com/en/copilot/concepts/prompting/prompt-engineering)"
+    },
+    {
+      "questionNumber": 4,
+      "type": "multiple",
+      "selectionCount": 4,
+      "prompt": "プロンプトエンジニアリングのベストプラクティスとして正しいものを 4 つ選んでください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "複雑なタスクを小さく単純なタスクに分割する"
+        },
+        {
+          "id": "B",
+          "text": "関連するコードを明示する"
+        },
+        {
+          "id": "C",
+          "text": "チャット履歴を関連性のある状態に保つ"
+        },
+        {
+          "id": "D",
+          "text": "試行錯誤して反復する"
+        },
+        {
+          "id": "E",
+          "text": "意図的に曖昧さを増やして Copilot に推測させる"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "正解は **A、B、C、D** です。公式ドキュメントでは、複雑なタスクを分割する、関連コードを示す、履歴を relevant に保つ、experiment and iterate するなどが推奨されています。曖昧さを増やすのは逆効果です。\n\n出典: [Prompt engineering for GitHub Copilot Chat](https://docs.github.com/en/copilot/concepts/prompting/prompt-engineering)"
+    },
+    {
+      "questionNumber": 5,
+      "type": "single",
+      "prompt": "複数の custom instructions が適用される場合の優先順位として、公式ドキュメントに最も合うものはどれですか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Organization instructions > Repository instructions > Personal instructions"
+        },
+        {
+          "id": "B",
+          "text": "Personal instructions > Repository custom instructions（path-specific、repository-wide、agent instructions）> Organization custom instructions"
+        },
+        {
+          "id": "C",
+          "text": "Repository-wide instructions > Organization instructions > Personal instructions > Agent instructions"
+        },
+        {
+          "id": "D",
+          "text": "Agent instructions だけが使われ、personal / repository / organization は無視される"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "explanation": "正解は **B** です。公式ドキュメントでは、Personal instructions が最優先、次に repository custom instructions、その中では path-specific、repository-wide、agent instructions の順、最後に organization custom instructions と説明されています。ただし、関連する instruction sets は Copilot に提供されます。\n\n出典: [About customizing GitHub Copilot responses](https://docs.github.com/en/copilot/concepts/prompting/response-customization)"
+    },
+    {
+      "questionNumber": 6,
+      "type": "multiple",
+      "selectionCount": 4,
+      "prompt": "Repository custom instructions / agent instructions のファイルとして公式ドキュメントに登場するものを 4 つ選んでください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "`.github/copilot-instructions.md`"
+        },
+        {
+          "id": "B",
+          "text": "`.github/instructions/**/*.instructions.md`"
+        },
+        {
+          "id": "C",
+          "text": "`AGENTS.md`"
+        },
+        {
+          "id": "D",
+          "text": "repository root の `CLAUDE.md` または `GEMINI.md`"
+        },
+        {
+          "id": "E",
+          "text": "`.git/config`"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "正解は **A、B、C、D** です。Repository instructions には repository-wide の `.github/copilot-instructions.md`、path-specific の `.github/instructions/**/*.instructions.md`、agent instructions の `AGENTS.md` などがあります。代替として root の `CLAUDE.md` / `GEMINI.md` も説明されています。\n\n出典: [About customizing GitHub Copilot responses](https://docs.github.com/en/copilot/concepts/prompting/response-customization), [Adding repository custom instructions for GitHub Copilot](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-repository-instructions)"
+    },
+    {
+      "questionNumber": 7,
+      "type": "single",
+      "prompt": "`AGENTS.md` が複数ある場合の agent instructions の扱いとして、公式ドキュメントに最も合うものはどれですか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "repository 内のすべての `AGENTS.md` が常に同じ優先度で結合される"
+        },
+        {
+          "id": "B",
+          "text": "Copilot が作業している場所に最も近い `AGENTS.md` が優先される"
+        },
+        {
+          "id": "C",
+          "text": "`AGENTS.md` は repository root に 1 つだけ置ける"
+        },
+        {
+          "id": "D",
+          "text": "`AGENTS.md` は Copilot code review 専用で、AI agents には使われない"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "explanation": "正解は **B** です。公式ドキュメントでは、`AGENTS.md` は repository 内のどこにでも 1 つ以上配置でき、Copilot が作業している directory tree で最も近い `AGENTS.md` が優先されると説明されています。\n\n出典: [Adding repository custom instructions for GitHub Copilot](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-repository-instructions)"
+    },
+    {
+      "questionNumber": 8,
+      "type": "multiple",
+      "selectionCount": 4,
+      "prompt": "Copilot Spaces について正しいものを 4 つ選んでください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Copilot が質問に答えるために使う context を整理できる"
+        },
+        {
+          "id": "B",
+          "text": "repositories、code、pull requests、issues、free-text、images、file uploads などを含められる"
+        },
+        {
+          "id": "C",
+          "text": "Space の context に基づいて Copilot に質問できる"
+        },
+        {
+          "id": "D",
+          "text": "team や public に共有して collaboration / knowledge sharing に使える"
+        },
+        {
+          "id": "E",
+          "text": "GitHub Copilot license がないユーザーだけが作成できる"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "正解は **A、B、C、D** です。Copilot Spaces は Copilot が使う context を整理する機能で、repositories、code、PR、issues、free-text、images、file uploads などを含められます。context に基づいて質問したり、team や public に共有したりできます。\n\n出典: [About GitHub Copilot Spaces](https://docs.github.com/en/copilot/concepts/context/spaces)"
+    },
+    {
+      "questionNumber": 9,
+      "type": "single",
+      "prompt": "Copilot Spaces の共有について、公式ドキュメントに最も合うものはどれですか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "organization-owned spaces は organization members と共有でき、admin/editor/viewer のアクセスレベルを選べる"
+        },
+        {
+          "id": "B",
+          "text": "individual-owned spaces は必ず organization 全体に公開される"
+        },
+        {
+          "id": "C",
+          "text": "publicly shared spaces では、viewer は権限のない source もすべて見られる"
+        },
+        {
+          "id": "D",
+          "text": "Spaces は共有機能を持たず、常に作成者だけが見られる"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "正解は **A** です。organization-owned spaces は organization members と共有でき、admin/editor/viewer のアクセスレベルを選択できます。individual-owned spaces は public、特定ユーザー、private の選択肢があり、publicly shared spaces の viewer も自分がアクセス可能な sources だけを見られます。\n\n出典: [About GitHub Copilot Spaces](https://docs.github.com/en/copilot/concepts/context/spaces)"
+    },
+    {
+      "questionNumber": 10,
+      "type": "single",
+      "prompt": "Copilot Spaces の利用場所と課金・使用量への影響として最も正しいものはどれですか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Spaces は Copilot Chat in GitHub で利用でき、IDE では GitHub MCP server 経由で Spaces の context を活用できる。Space 内の質問は Copilot Chat requests として数えられる"
+        },
+        {
+          "id": "B",
+          "text": "Spaces は GitHub Mobile でのみ使え、usage quota には一切影響しない"
+        },
+        {
+          "id": "C",
+          "text": "Spaces は GitHub Actions の artifact としてのみ使われ、Copilot Chat とは関係しない"
+        },
+        {
+          "id": "D",
+          "text": "Spaces で premium model を使っても premium usage quota には影響しない"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "正解は **A** です。Spaces は Copilot Chat in GitHub で使え、IDE では GitHub MCP server を通じて Spaces の context を活用できます。Space 内の質問は Copilot Chat requests として数えられ、premium model を使う場合は premium usage quota にも影響します。\n\n出典: [About GitHub Copilot Spaces](https://docs.github.com/en/copilot/concepts/context/spaces)"
+    }
+  ]
+}

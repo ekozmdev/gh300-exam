@@ -3,6 +3,39 @@
 > 2026年4月2日時点で確認した最新情報です。
 > 最新版の一次ソースは Microsoft Learn の GH-300 学習ガイドで、最終更新日は `2026-02-19` です。
 
+## クイズアプリ
+
+このリポジトリには、`data/*.json` の問題セットをブラウザで解ける React + Vite アプリを同梱しています。
+
+### クイズを追加する
+
+1 ファイル 1 問題セットとして、`data/任意の名前.json` を追加します。JSON 形式は `.agents/skills/quiz-json-output/references/quiz-json-format.md` を参照してください。
+
+検証は次で実行できます。
+
+```bash
+npm run validate:quizzes
+```
+
+### ローカルで確認する
+
+```bash
+npm install
+npm run dev
+```
+
+### GitHub Pages に公開する
+
+このリポジトリは `.github/workflows/deploy.yml` で GitHub Pages にデプロイします。
+
+1. `data/*.json` とアプリ関連ファイルを `main` ブランチへ push する
+2. GitHub の `Settings` -> `Pages` を開く
+3. `Build and deployment` の `Source` を `GitHub Actions` にする
+4. `Actions` タブで `Deploy to GitHub Pages` が成功するのを待つ
+5. `Settings` -> `Pages` に表示される公開 URL を開く
+
+ビルド時の Vite `base` は GitHub Actions 上でリポジトリ名から自動設定します。ユーザーサイトやカスタムドメインで `/` に固定したい場合は、build 時に `BASE_PATH=/` を指定してください。
+
 ## 結論
 
 - 現在の **GH-300** は **GitHub Copilot** 試験です。

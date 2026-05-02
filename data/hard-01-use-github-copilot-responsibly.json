@@ -1,0 +1,304 @@
+{
+  "title": "GH-300 難問クイズ: Section 1 - Use GitHub Copilot Responsibly",
+  "description": "責任ある Copilot 利用、Copilot Chat、Copilot code review の入力・制限・フィードバックに関する難問（10問）",
+  "questions": [
+    {
+      "questionNumber": 1,
+      "type": "single",
+      "prompt": "GitHub Copilot code review のプロンプト作成に関する説明として、公式ドキュメントに最も合うものはどれですか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "コード差分だけを使い、pull request のタイトルや本文、カスタム命令は使わない"
+        },
+        {
+          "id": "B",
+          "text": "コード変更に加えて、pull request のタイトルや本文などの関連コンテキスト、定義済みのカスタム命令を組み合わせる"
+        },
+        {
+          "id": "C",
+          "text": "監査ログとブランチ保護ルールだけを使い、コード差分はモデルに送らない"
+        },
+        {
+          "id": "D",
+          "text": "GitHub Actions の実行ログだけを入力として使い、pull request の情報は使わない"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "explanation": "正解は **B** です。公式ドキュメントでは、Copilot code review はコード変更に加えて pull request のタイトルや本文などの関連コンテキスト、定義済みのカスタム命令を組み合わせてプロンプトを作ると説明されています。\n\n出典: [Responsible use of GitHub Copilot code review](https://docs.github.com/en/copilot/responsible-use/code-review)"
+    },
+    {
+      "questionNumber": 2,
+      "type": "single",
+      "prompt": "Copilot code review の repository custom instructions について、公式ドキュメントに照らして最も正しいものはどれですか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "pull request の head ブランチにある命令だけを読み、文字数制限はない"
+        },
+        {
+          "id": "B",
+          "text": "base ブランチの命令を使い、各カスタム命令ファイルの先頭 4,000 文字だけが code review に影響する"
+        },
+        {
+          "id": "C",
+          "text": "organization custom instructions だけを読み、repository custom instructions は無視する"
+        },
+        {
+          "id": "D",
+          "text": "Copilot Chat と Copilot cloud agent にも同じ 4,000 文字制限が必ず適用される"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "explanation": "正解は **B** です。Copilot code review は pull request の base ブランチ側の custom instructions を使います。また code review は各 custom instruction file の先頭 4,000 文字のみを読みます。この制限は Copilot Chat や Copilot cloud agent には適用されないと明記されています。\n\n出典: [Using GitHub Copilot code review](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/request-a-code-review/use-code-review)"
+    },
+    {
+      "questionNumber": 3,
+      "type": "multiple",
+      "selectionCount": 3,
+      "prompt": "GitHub 上の Copilot Chat について、公式ドキュメントの説明として正しいものを 3 つ選んでください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "GitHub 上で、コーディング関連の質問をして回答を受け取るためのチャットインターフェースである"
+        },
+        {
+          "id": "B",
+          "text": "コーディング以外の一般情報を提供することが主目的である"
+        },
+        {
+          "id": "C",
+          "text": "回答生成時に、リポジトリデータや Bing の検索結果などの追加コンテキストを使う場合がある"
+        },
+        {
+          "id": "D",
+          "text": "生成された回答は常に正確なので、ユーザーによる検証は不要である"
+        },
+        {
+          "id": "E",
+          "text": "ユーザーは、生成された回答が正確で適切かをレビューし検証する責任がある"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explanation": "正解は **A、C、E** です。Copilot Chat in GitHub はコーディング関連の質問向けで、リポジトリデータや検索結果などを追加コンテキストとして使う場合があります。一方で、回答が常に正確とは限らないため、ユーザーがレビューし検証する必要があります。\n\n出典: [Responsible use of GitHub Copilot Chat in GitHub](https://docs.github.com/en/copilot/responsible-use/chat-in-github)"
+    },
+    {
+      "questionNumber": 4,
+      "type": "single",
+      "prompt": "Copilot code review の false positive に関する説明として最も正しいものはどれですか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "false positive は code review では起こらないため、指摘はそのまま修正すべきである"
+        },
+        {
+          "id": "B",
+          "text": "存在しない問題やコードの誤解に基づく指摘があり得るため、対応前に慎重に確認する必要がある"
+        },
+        {
+          "id": "C",
+          "text": "false positive が起きるのは Copilot Chat だけで、code review では起きない"
+        },
+        {
+          "id": "D",
+          "text": "false positive があった場合、GitHub Actions のすべての workflow を無効化することが推奨される"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "explanation": "正解は **B** です。公式ドキュメントでは、Copilot code review には hallucination のリスクがあり、存在しない問題やコードの誤解に基づく指摘があり得るため、変更前にコメントを慎重に確認すべきとされています。\n\n出典: [Responsible use of GitHub Copilot code review](https://docs.github.com/en/copilot/responsible-use/code-review)"
+    },
+    {
+      "questionNumber": 5,
+      "type": "multiple",
+      "selectionCount": 3,
+      "prompt": "Copilot code review の出力や表示について、公式ドキュメントの説明として正しいものを 3 つ選んでください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "応答は自然言語の提案やコード提案の形を取り得る"
+        },
+        {
+          "id": "B",
+          "text": "GitHub 上の pull request review または対応エディタ内で、特定ファイルの特定行に紐づくフィードバックとして提示される"
+        },
+        {
+          "id": "C",
+          "text": "コード提案がある場合、suggested change として提示されることがある"
+        },
+        {
+          "id": "D",
+          "text": "Copilot のコメントは常に pull request 全体に 1 件だけ付与され、行単位には紐づかない"
+        },
+        {
+          "id": "E",
+          "text": "Copilot はレビュー結果を直接 main ブランチへ commit する"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "正解は **A、B、C** です。Copilot code review の応答は自然言語提案やコード提案になり得ます。表示は対応エディタまたは GitHub の pull request review として行われ、コード提案は suggested change として適用できる形で提示されることがあります。\n\n出典: [Responsible use of GitHub Copilot code review](https://docs.github.com/en/copilot/responsible-use/code-review)"
+    },
+    {
+      "questionNumber": 6,
+      "type": "single",
+      "prompt": "Copilot Chat in GitHub の input processing と response generation の説明として最も正しいものはどれですか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "ユーザー入力は前処理されず、現在時刻やリポジトリ名などのコンテキストも一切付加されない"
+        },
+        {
+          "id": "B",
+          "text": "ユーザー入力は前処理され、現在日時や閲覧中リポジトリ名などのコンテキストと組み合わされ、モデルは必要に応じて追加コンテキストを集める"
+        },
+        {
+          "id": "C",
+          "text": "Copilot Chat はコードスニペットを入力として受け取れず、自然言語だけを扱う"
+        },
+        {
+          "id": "D",
+          "text": "Copilot Chat は回答生成時に GitHub 上のリポジトリデータを使うことはない"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "explanation": "正解は **B** です。公式ドキュメントでは、ユーザー入力は前処理され、現在日時や閲覧中リポジトリ名などのコンテキストと組み合わされます。またモデルは、リポジトリデータや Bing 検索結果などの追加コンテキストを取得する場合があります。\n\n出典: [Responsible use of GitHub Copilot Chat in GitHub](https://docs.github.com/en/copilot/responsible-use/chat-in-github)"
+    },
+    {
+      "questionNumber": 7,
+      "type": "multiple",
+      "selectionCount": 3,
+      "prompt": "Copilot からの不適切または疑わしいレビューコメントに対する責任ある対応として正しいものを 3 つ選んでください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "内容を確認し、実際の問題かどうかを判断してから変更する"
+        },
+        {
+          "id": "B",
+          "text": "コメント内の thumbs up / thumbs down でフィードバックを送る"
+        },
+        {
+          "id": "C",
+          "text": "提案コードがある場合でも、適用前に正確性や安全性を確認する"
+        },
+        {
+          "id": "D",
+          "text": "Copilot の指摘は人間のレビューより常に優先し、議論せずに反映する"
+        },
+        {
+          "id": "E",
+          "text": "疑わしいコメントが 1 件でもあれば、すべての pull request を自動で close する"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "正解は **A、B、C** です。Copilot code review の出力には誤検知や不正確な提案があり得るため、行動前にレビューする必要があります。問題や制限に遭遇した場合は、コメントの thumbs up / thumbs down でフィードバックできます。\n\n出典: [Responsible use of GitHub Copilot code review](https://docs.github.com/en/copilot/responsible-use/code-review), [Using GitHub Copilot code review](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/request-a-code-review/use-code-review)"
+    },
+    {
+      "questionNumber": 8,
+      "type": "single",
+      "prompt": "Copilot code review を custom instructions でカスタマイズする目的として、公式ドキュメントに最も合うものはどれですか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Copilot に repository の billing 設定を変更させるため"
+        },
+        {
+          "id": "B",
+          "text": "コーディングスタイルやベストプラクティスを Copilot に理解させるため"
+        },
+        {
+          "id": "C",
+          "text": "review comments を監査ログに保存しないようにするため"
+        },
+        {
+          "id": "D",
+          "text": "Copilot が pull request を自動承認できるようにするため"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "explanation": "正解は **B** です。公式ドキュメントでは、Copilot code review は custom instructions によって、コーディングスタイルやベストプラクティスを理解できるようにカスタマイズできると説明されています。\n\n出典: [Responsible use of GitHub Copilot code review](https://docs.github.com/en/copilot/responsible-use/code-review)"
+    },
+    {
+      "questionNumber": 9,
+      "type": "multiple",
+      "selectionCount": 3,
+      "prompt": "Copilot code review の限界やリスクとして正しいものを 3 つ選んでください。",
+      "options": [
+        {
+          "id": "A",
+          "text": "レビュー対象のすべての問題を必ず検出できるわけではない"
+        },
+        {
+          "id": "B",
+          "text": "存在しない問題を指摘する可能性がある"
+        },
+        {
+          "id": "C",
+          "text": "提案コードが不正確または安全でない可能性がある"
+        },
+        {
+          "id": "D",
+          "text": "コード変更を一切読まず、監査ログだけでレビューする"
+        },
+        {
+          "id": "E",
+          "text": "人間のレビューやテストを常に完全に置き換える"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "正解は **A、B、C** です。Copilot code review は役立つ補助ですが、false positive や不正確な提案があり得ます。したがって、人間による確認やテストを前提に使う必要があります。\n\n出典: [Responsible use of GitHub Copilot code review](https://docs.github.com/en/copilot/responsible-use/code-review)"
+    },
+    {
+      "questionNumber": 10,
+      "type": "single",
+      "prompt": "Copilot Chat in GitHub の対象用途として、公式ドキュメントに最も合う説明はどれですか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "非コーディング分野の一般情報を提供することを主目的とする"
+        },
+        {
+          "id": "B",
+          "text": "コーディング関連の質問に回答するためのものであり、非コーディング質問やコーディング外の一般情報提供を目的としていない"
+        },
+        {
+          "id": "C",
+          "text": "GitHub billing の設定変更だけに使う"
+        },
+        {
+          "id": "D",
+          "text": "GitHub Support への問い合わせを自動作成するためだけのチャットである"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "explanation": "正解は **B** です。Copilot Chat in GitHub はコーディング関連の質問に答えるためのもので、コーディング以外の質問や一般情報の提供を目的としていません。\n\n出典: [Responsible use of GitHub Copilot Chat in GitHub](https://docs.github.com/en/copilot/responsible-use/chat-in-github)"
+    }
+  ]
+}
