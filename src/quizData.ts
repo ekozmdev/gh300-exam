@@ -1,6 +1,6 @@
 import type { QuizSet } from './types'
 
-const quizModules = import.meta.glob('../../data/*.json', {
+const quizModules = import.meta.glob('../data/*.json', {
   eager: true,
   import: 'default',
 }) as Record<string, unknown>
