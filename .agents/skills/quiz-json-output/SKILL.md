@@ -10,7 +10,7 @@ description: Generate quiz-set JSON for this repository's browser quiz app from 
 ## When To Use
 
 - ユーザーが文書、メモ、Markdown、Web ページ、または URL からクイズ JSON を作りたいとき
-- 出力をそのまま `data/*.json` に置ける形式へ揃えたいとき
+- 出力をそのまま `quiz-app/data/*.json` に置ける形式へ揃えたいとき
 - 生成した JSON がアプリ想定どおりか検証したいとき
 
 ## Output Contract
@@ -94,10 +94,10 @@ description: Generate quiz-set JSON for this repository's browser quiz app from 
 4. JSON を出力する
    ユーザーが別形式を明示しない限り、説明文を混ぜず JSON 本体だけを返す。
 5. 検証する
-   返す前に必ず次を実行する。ルート `package.json` には依存しません。
+   返す前に必ず次を実行する。`quiz-app/package.json` には依存しません。
 
 ```bash
-node .agents/skills/quiz-json-output/scripts/validate-quiz-json.mjs path/to/file.json
+node .agents/skills/quiz-json-output/scripts/validate-quiz-json.mjs quiz-app/data/path-to-file.json
 ```
 
 ファイルを作らずに確認したい場合は標準入力でもよいです。

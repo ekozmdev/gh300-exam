@@ -5,21 +5,23 @@
 
 ## クイズアプリ
 
-このリポジトリには、`data/*.json` の問題セットをブラウザで解ける React + Vite アプリを同梱しています。
+このリポジトリには、`quiz-app/data/*.json` の問題セットをブラウザで解ける React + Vite アプリを `quiz-app/` に同梱しています。
 
 ### クイズを追加する
 
-1 ファイル 1 問題セットとして、`data/任意の名前.json` を追加します。JSON 形式は `.agents/skills/quiz-json-output/references/quiz-json-format.md` を参照してください。
+1 ファイル 1 問題セットとして、`quiz-app/data/任意の名前.json` を追加します。JSON 形式は `.agents/skills/quiz-json-output/references/quiz-json-format.md` を参照してください。
 
 検証は次で実行できます。
 
 ```bash
+cd quiz-app
 npm run validate:quizzes
 ```
 
 ### ローカルで確認する
 
 ```bash
+cd quiz-app
 npm install
 npm run dev
 ```
@@ -28,7 +30,7 @@ npm run dev
 
 このリポジトリは `.github/workflows/deploy.yml` で GitHub Pages にデプロイします。
 
-1. `data/*.json` とアプリ関連ファイルを `main` ブランチへ push する
+1. `quiz-app/data/*.json` と `quiz-app/` 配下のアプリ関連ファイルを `main` ブランチへ push する
 2. GitHub の `Settings` -> `Pages` を開く
 3. `Build and deployment` の `Source` を `GitHub Actions` にする
 4. `Actions` タブで `Deploy to GitHub Pages` が成功するのを待つ
