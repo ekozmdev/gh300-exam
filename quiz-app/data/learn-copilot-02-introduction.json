@@ -1,546 +1,546 @@
 {
   "title": "Microsoft Learn GitHub Copilot 基本編: GitHub Copilot の概要",
-  "description": "Microsoft Learn「GitHub Copilot の概要」に基づく確認クイズ（20問）",
+  "description": "Microsoft Learn「GitHub Copilot の概要」に基づく詳細確認クイズ（20問）",
   "questions": [
     {
       "questionNumber": 1,
       "type": "single",
-      "prompt": "GitHub Copilot を最もよく表す説明はどれか。",
+      "prompt": "モジュールのユニット数として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "インライン提案とチャットでコード生成、理解、リファクタリング、デバッグを支援する AI コーディングアシスタント"
+          "text": "7 ユニット"
         },
         {
           "id": "B",
-          "text": "Copilot Chat は IDE 内の質問に限定され、GitHub.com の PR 要約や CLI 支援とは別系統の機能である"
+          "text": "5 ユニット"
         },
         {
           "id": "C",
-          "text": "Issue ラベルだけを自動分類するツール"
+          "text": "8 ユニット"
         },
         {
           "id": "D",
-          "text": "CI を置き換えるビルドサーバー"
+          "text": "6 ユニット"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot は IDE や GitHub などで開発作業を支援する AI アシスタントです。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 2,
       "type": "single",
-      "prompt": "Copilot が「AI ペアプログラマ」と呼ばれる理由はどれか。",
+      "prompt": "学習目的に含まれるプラン比較として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "開発者の文脈に応じてコード候補や説明をリアルタイムで提供するため"
+          "text": "Individual、Business、Enterprise の違いを学習する"
         },
         {
           "id": "B",
-          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
+          "text": "Free、Actions、Packages の違いを学習する"
         },
         {
           "id": "C",
-          "text": "単体で本番リリースを完了するため"
+          "text": "Pro、Codespaces、Pages の違いだけを学習する"
         },
         {
           "id": "D",
-          "text": "GitHub アカウントを不要にするため"
+          "text": "Enterprise Server と Enterprise Cloud の移行だけを学習する"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot は開発者と並走し、コード補完、説明、テスト生成などを支援します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 3,
       "type": "single",
-      "prompt": "GitHub Copilot が利用できる代表的なエディター環境はどれか。",
+      "prompt": "前提条件として明示されているものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Visual Studio Code、Visual Studio、Vim/Neovim、JetBrains IDE"
+          "text": "GitHub アカウントと GitHub の基礎についての基本的な理解"
         },
         {
           "id": "B",
-          "text": "GitHub Pages のみ"
+          "text": "Copilot Business 管理者権限"
         },
         {
           "id": "C",
-          "text": "Microsoft Excel のみ"
+          "text": "GitHub Actions runner の作成権限"
         },
         {
           "id": "D",
-          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
+          "text": "C# Dev Kit と .NET SDK"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot は主要な IDE やエディター拡張として利用できます。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 4,
       "type": "single",
-      "prompt": "Copilot Chat でできることとして適切なものはどれか。",
+      "prompt": "モジュールの説明にある Copilot の支援対象として正しい組み合わせはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "コードについて質問し、エラー説明、テスト生成、実装方針の相談を行う"
+          "text": "コードの生成、理解、リファクタリング、デバッグ"
         },
         {
           "id": "B",
-          "text": "Copilot Chat は IDE 内の質問に限定され、GitHub.com の PR 要約や CLI 支援とは別系統の機能である"
+          "text": "請求、監査ログ、SAML 証明書、Pages デプロイ"
         },
         {
           "id": "C",
-          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
+          "text": "Docker イメージ署名、Kubernetes 配布、MCP OAuth"
         },
         {
           "id": "D",
-          "text": "全 PR を無条件マージする"
+          "text": "PRU 購入、LFS 課金、Runner グループ管理"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot Chat はコードコンテキストを踏まえた会話型の支援を提供します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 5,
       "type": "single",
-      "prompt": "Copilot pull request 要約の主な利点はどれか。",
+      "prompt": "Copilot の体験として説明されている 2 つはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "PR の変更意図を説明し、レビュー担当者の理解を助ける"
+          "text": "インライン提案と会話型チャット エクスペリエンス"
         },
         {
           "id": "B",
-          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
+          "text": "GitHub Pages と Discussions"
         },
         {
           "id": "C",
-          "text": "CI を停止する"
+          "text": "MCP tools と resources"
         },
         {
           "id": "D",
-          "text": "差分を見えなくする"
+          "text": "Actions cache と artifacts"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "PR 要約は変更内容の理解を助ける補助であり、レビュー自体の代替ではありません。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 6,
       "type": "single",
-      "prompt": "Copilot によるコードレビュー支援の例として適切なものはどれか。",
+      "prompt": "ユニット一覧に含まれるものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "潜在的な問題、エッジケース、改善点を提案する"
+          "text": "GitHub Copilot、AI ペア プログラマ"
         },
         {
           "id": "B",
-          "text": "人間の承認なしで全変更を取り込む"
+          "text": "GitHub MCP Server を Docker で起動する"
         },
         {
           "id": "C",
-          "text": "セキュリティチェックを無効化する"
+          "text": "Copilot Cloud Agent の firewall を構成する"
         },
         {
           "id": "D",
-          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
+          "text": "PRU の料金表を読む"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot はレビューの補助として、問題や改善案を示すことができます。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 7,
       "type": "single",
-      "prompt": "CLI 用の Copilot の用途として正しいものはどれか。",
+      "prompt": "ユニット一覧に含まれる演習はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "コマンド候補、シェルスクリプト、エラーや出力の説明を得る"
+          "text": "GitHub Copilot と VS Code を使用して、AI で生成されたコード候補を使って開発する"
         },
         {
           "id": "B",
-          "text": "Copilot Chat は IDE 内の質問に限定され、GitHub.com の PR 要約や CLI 支援とは別系統の機能である"
+          "text": "Cloud Agent で copilot-setup-steps.yml を作る"
         },
         {
           "id": "C",
-          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
+          "text": "MCP と GitHub Copilot を統合する"
         },
         {
           "id": "D",
-          "text": "すべての端末権限の無制限化"
+          "text": "Copilot Spaces で部族知識を民主化する"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "CLI 用 Copilot はターミナル作業の説明やコマンド生成を支援します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 8,
       "type": "single",
-      "prompt": "Copilot Spaces の説明として適切なものはどれか。",
+      "prompt": "Copilot をトリガーする方法について学ぶ目的はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "プロジェクトの文脈を持つ専用の共同作業場所"
+          "text": "コード提案やチャットなどの開始方法を理解するため"
         },
         {
           "id": "B",
-          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
+          "text": "GitHub Actions の schedule を作るため"
         },
         {
           "id": "C",
-          "text": "Copilot の提案は GitHub.com 上だけで利用でき、IDE や CLI からは利用できない"
+          "text": "OAuth アプリを取り消すため"
         },
         {
           "id": "D",
-          "text": "GitHub Actions の代替ランナー"
+          "text": "Runner の label を自動生成するため"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Spaces はプロジェクト構造や要件を踏まえた会話・計画に使うコンテキスト豊かな環境です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 9,
       "type": "single",
-      "prompt": "Copilot コーディングエージェントの役割はどれか。",
+      "prompt": "構成とトラブルシューティングで確認する範囲として最も合うものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "指示に基づいて複数ステップのコーディングタスクを進める"
+          "text": "Copilot の設定、構成、利用できない場合の確認"
         },
         {
           "id": "B",
-          "text": "GitHub の全権限を昇格する"
+          "text": "MCP のリモート OAuth 制限だけ"
         },
         {
           "id": "C",
-          "text": "レビューなしで本番デプロイする"
+          "text": "Cloud Agent の draft PR 承認だけ"
         },
         {
           "id": "D",
-          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
+          "text": "単体テストの Smart Action だけ"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "コーディングエージェントは、関連ファイル生成や機能実装などの複数ステップ作業を支援します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 10,
       "type": "single",
-      "prompt": "Copilot Free の特徴として Microsoft Learn ページで説明されているものはどれか。",
+      "prompt": "対象ロールに含まれる組み合わせとして正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "月次制限付きのコード補完とチャット要求を提供する"
+          "text": "DevOps エンジニア、管理者、開発者、ソリューション アーキテクト、Student"
         },
         {
           "id": "B",
-          "text": "常に Enterprise 機能をすべて提供する"
+          "text": "AI エンジニアだけ"
         },
         {
           "id": "C",
-          "text": "GitHub アカウントなしで使える"
+          "text": "セキュリティ監査担当者だけ"
         },
         {
           "id": "D",
-          "text": "Business 管理機能をすべて含む"
+          "text": "GitHub billing manager だけ"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Free は個人が始めやすいプランで、利用量に制限があります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 11,
       "type": "single",
-      "prompt": "Copilot Pro の対象として最も適切なものはどれか。",
+      "prompt": "モジュールに Azure が表示されていることから言える最も正確なことはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "無料プランを超える機能や利用量を必要とする個人開発者"
+          "text": "技術タグとして Azure も表示されるが、主題は GitHub Copilot の概要である"
         },
         {
           "id": "B",
-          "text": "Organization の一元管理だけが目的の管理者"
+          "text": "Azure OpenAI のデプロイ手順が中心である"
         },
         {
           "id": "C",
-          "text": "GitHub を使わない利用者"
+          "text": "Azure Pipelines の YAML が中心である"
         },
         {
           "id": "D",
-          "text": "CI 専用の実行環境"
+          "text": "Azure 課金アカウントが前提条件である"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Pro は個人向けに、より多い利用量や高度な支援を提供するプランです。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 12,
       "type": "single",
-      "prompt": "Copilot Pro+ の特徴として適切なものはどれか。",
+      "prompt": "「コードの提案を提供することでコード作成に役立つ」学習目的の解釈として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Pro の機能に加えて追加のプレミアムリクエスト容量や優先度の高いアクセスを提供する"
+          "text": "エディター文脈に基づく提案を理解する"
         },
         {
           "id": "B",
-          "text": "Free より機能を減らす"
+          "text": "Cloud Agent の MCP tools を登録する"
         },
         {
           "id": "C",
-          "text": "Organization ポリシーだけを提供する"
+          "text": "PRU を追加購入する"
         },
         {
           "id": "D",
-          "text": "Copilot Chat を無効化する"
+          "text": "LFS の checkout 設定を覚える"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Pro+ はより高い利用ニーズを持つ個人向けに、追加容量や優先アクセスを含みます。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 13,
       "type": "single",
-      "prompt": "Copilot Business が向いている利用者はどれか。",
+      "prompt": "モジュール評価の説明として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Copilot アクセスを組織で管理し、セキュリティやコンプライアンス機能を使いたい組織"
+          "text": "サインインしてすべての質問に正しく回答するとプロファイルのパス指定を取得できる"
         },
         {
           "id": "B",
-          "text": "個人の無料利用だけをしたい人"
+          "text": "評価は VS Code のみで実行する"
         },
         {
           "id": "C",
-          "text": "GitHub を使わないチーム"
+          "text": "評価は GitHub CLI の copilot コマンドで実行する"
         },
         {
           "id": "D",
-          "text": "コード補完を一切使わない組織"
+          "text": "評価には Organization owner が必要である"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Business は組織メンバーの利用管理、ポリシー制御、セキュリティ機能に重点があります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 14,
       "type": "single",
-      "prompt": "Copilot Enterprise の特徴として適切なものはどれか。",
+      "prompt": "このモジュールの範囲外に近いものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Business 機能に加え、より深い GitHub Enterprise Cloud 統合やパーソナル化を提供する"
+          "text": "copilot-setup-steps ジョブの許可キー一覧"
         },
         {
           "id": "B",
-          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
+          "text": "Copilot のトリガー方法"
         },
         {
           "id": "C",
-          "text": "個人無料利用だけを対象にする"
+          "text": "Copilot の構成"
         },
         {
           "id": "D",
-          "text": "Pull request 支援を禁止する"
+          "text": "Copilot のプラン差"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Enterprise は大規模組織向けに、より深い統合やコードベースに基づく支援を提供します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 15,
       "type": "single",
-      "prompt": "Copilot をトリガーする方法として自然なものはどれか。",
+      "prompt": "「AI ペア プログラマ」というユニット名から問われる内容として最も妥当なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "コードやコメントの文脈、チャットの質問、スラッシュコマンドなどを使う"
+          "text": "開発者の作業に並走して提案や説明を行う Copilot の位置づけ"
         },
         {
           "id": "B",
-          "text": "Copilot の提案は GitHub.com 上だけで利用でき、IDE や CLI からは利用できない"
+          "text": "GitHub Actions のペア runner 構成"
         },
         {
           "id": "C",
-          "text": "Copilot Chat は IDE 内の質問に限定され、GitHub.com の PR 要約や CLI 支援とは別系統の機能である"
+          "text": "MCP サーバーのペアリング"
         },
         {
           "id": "D",
-          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
+          "text": "二人のレビュワー承認ルール"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot はエディターの文脈やチャット入力、コマンドから支援を開始できます。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 16,
       "type": "single",
-      "prompt": "Copilot の設定・構成で確認する観点として適切なものはどれか。",
+      "prompt": "「Copilot と対話する」ユニットで中心になる内容として妥当なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "アカウント、拡張機能、サブスクリプション、組織ポリシー"
+          "text": "チャットなどで自然言語から支援を受ける方法"
         },
         {
           "id": "B",
-          "text": "Copilot Chat は IDE 内の質問に限定され、GitHub.com の PR 要約や CLI 支援とは別系統の機能である"
+          "text": "Git LFS の lfs:true 設定"
         },
         {
           "id": "C",
-          "text": "キーボードのメーカーだけ"
+          "text": "署名付きコミットの履歴書き換え"
         },
         {
           "id": "D",
-          "text": "Copilot の提案は GitHub.com 上だけで利用でき、IDE や CLI からは利用できない"
+          "text": "OAuth を必要とする remote MCP の扱い"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot が動かない場合は認証、拡張機能、契約、管理者ポリシーなどを確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 17,
       "type": "single",
-      "prompt": "Copilot のトラブルシューティングで最初に確認すべきことはどれか。",
+      "prompt": "トラブルシューティングの対象としてこのモジュールに自然なのはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "サインイン状態、拡張機能の有効化、利用権限、ネットワークや設定"
+          "text": "Copilot が利用できない、提案が出ない、構成が正しくない場合の確認"
         },
         {
           "id": "B",
-          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
+          "text": "Cloud Agent の firewall allowlist のみ"
         },
         {
           "id": "C",
-          "text": "Issue をすべて閉じる"
+          "text": "MCP の prompts 非対応のみ"
         },
         {
           "id": "D",
-          "text": "Copilot Chat は IDE 内の質問に限定され、GitHub.com の PR 要約や CLI 支援とは別系統の機能である"
+          "text": "C# テストの assertion だけ"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "基本的な接続・権限・設定の問題が、Copilot 利用不可の原因になることがあります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 18,
       "type": "single",
-      "prompt": "Copilot の提案を受け入れる前に必要な行動はどれか。",
+      "prompt": "このモジュールの説明文が強調する「開発環境から直接」の意味として最も近いものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "提案内容を読み、プロジェクト要件や品質に合うか確認する"
+          "text": "IDE など普段の開発場所でコード支援を受けられる"
         },
         {
           "id": "B",
-          "text": "Copilot の提案は GitHub.com 上だけで利用でき、IDE や CLI からは利用できない"
+          "text": "GitHub.com 以外では使えない"
         },
         {
           "id": "C",
-          "text": "Copilot Chat は IDE 内の質問に限定され、GitHub.com の PR 要約や CLI 支援とは別系統の機能である"
+          "text": "CI 実行後だけ利用できる"
         },
         {
           "id": "D",
-          "text": "Copilot の提案は構文上正しければ、プロジェクト要件への適合確認を省略できる"
+          "text": "ローカルには拡張機能を入れない"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot の提案は補助であり、最終的な品質判断は開発者が行います。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 19,
       "type": "single",
-      "prompt": "Copilot が開発ライフサイクル全体を支援できる理由はどれか。",
+      "prompt": "このモジュールで扱うプラン比較の粒度として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "補完、チャット、PR 要約、レビュー支援、CLI、Spaces、エージェントなど複数の接点があるため"
+          "text": "Individual、Business、Enterprise の違い"
         },
         {
           "id": "B",
-          "text": "コード補完以外を一切提供しないため"
+          "text": "Free と Trial の支払い方式だけ"
         },
         {
           "id": "C",
-          "text": "GitHub.com では使えないため"
+          "text": "Pro+ と Enterprise の PRU だけ"
         },
         {
           "id": "D",
-          "text": "ターミナル作業を対象外にするため"
+          "text": "Actions Free minutes と runner サイズだけ"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot はエディター内補完にとどまらず、会話、レビュー、CLI、計画などにも広がっています。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 20,
       "type": "single",
-      "prompt": "GitHub Copilot の概要として最も適切なまとめはどれか。",
+      "prompt": "このモジュールのまとめとして最も正確なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "複数環境で開発者を支援する AI アシスタントだが、提案の検証は利用者が行う"
+          "text": "Copilot の概要、対話方法、プラン、構成、トラブルシューティングを扱う"
         },
         {
           "id": "B",
-          "text": "人間の判断を完全に不要にする"
+          "text": "Cloud Agent のセキュリティモデルだけを扱う"
         },
         {
           "id": "C",
-          "text": "GitHub の権限管理をすべて自動化する"
+          "text": "MCP の VS Code JSON だけを扱う"
         },
         {
           "id": "D",
-          "text": "コード以外の文脈を一切扱えない"
+          "text": "単体テスト生成だけを扱う"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot は強力な支援ツールですが、品質・安全性・適合性の確認は開発者とチームの責任です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     }
   ]
 }

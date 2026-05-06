@@ -1,546 +1,546 @@
 {
   "title": "Microsoft Learn GitHub Copilot 基本編: 開発者ユースケース",
-  "description": "Microsoft Learn「GitHub Copilot を使用した AI の開発者ユース ケース」に基づく確認クイズ（20問）",
+  "description": "Microsoft Learn「GitHub Copilot を使用した AI の開発者ユース ケース」に基づく詳細確認クイズ（20問）",
   "questions": [
     {
       "questionNumber": 1,
       "type": "single",
-      "prompt": "開発者ユースケースの焦点について最も適切な説明はどれか。",
+      "prompt": "このモジュールの「ユニット数」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Copilot が SDLC 全体で開発者の生産性を支援する方法を理解すること"
+          "text": "7 ユニット"
         },
         {
           "id": "B",
-          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
+          "text": "5 ユニット"
         },
         {
           "id": "C",
-          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
+          "text": "6 ユニット"
         },
         {
           "id": "D",
-          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
+          "text": "8 ユニット"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "開発者ユースケースの焦点では、Copilot が SDLC 全体で開発者の生産性を支援する方法を理解することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 2,
       "type": "single",
-      "prompt": "ワークフロー統合について最も適切な説明はどれか。",
+      "prompt": "このモジュールの「難易度」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "開発者の普段の IDE、GitHub、CLI 作業に Copilot を組み込むこと"
+          "text": "中級"
         },
         {
           "id": "B",
-          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
+          "text": "初級"
         },
         {
           "id": "C",
-          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
+          "text": "上級"
         },
         {
           "id": "D",
-          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
+          "text": "管理者向け"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "ワークフロー統合では、開発者の普段の IDE、GitHub、CLI 作業に Copilot を組み込むことが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 3,
       "type": "single",
-      "prompt": "個人の好みへの適応について最も適切な説明はどれか。",
+      "prompt": "このモジュールの「主題」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "コーディングスタイルや作業方法に合わせて支援を受けること"
+          "text": "Copilot が AI 機能で開発者の生産性を効率化する方法"
         },
         {
           "id": "B",
-          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
+          "text": "7 ユニット"
         },
         {
           "id": "C",
-          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
+          "text": "中級"
         },
         {
           "id": "D",
-          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
+          "text": "ソフトウェア開発ライフサイクルを強化する"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "個人の好みへの適応では、コーディングスタイルや作業方法に合わせて支援を受けることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 4,
       "type": "single",
-      "prompt": "要件理解について最も適切な説明はどれか。",
+      "prompt": "このモジュールの「SDLC」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "自然言語から仕様の整理や実装方針の検討を支援すること"
+          "text": "ソフトウェア開発ライフサイクルを強化する"
         },
         {
           "id": "B",
-          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
+          "text": "7 ユニット"
         },
         {
           "id": "C",
-          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
+          "text": "中級"
         },
         {
           "id": "D",
-          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
+          "text": "Copilot が AI 機能で開発者の生産性を効率化する方法"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "要件理解では、自然言語から仕様の整理や実装方針の検討を支援することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 5,
       "type": "single",
-      "prompt": "設計支援について最も適切な説明はどれか。",
+      "prompt": "このモジュールの「好み」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "設計案、トレードオフ、影響範囲を相談できること"
+          "text": "開発者の好みに合わせて調整する"
         },
         {
           "id": "B",
-          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
+          "text": "7 ユニット"
         },
         {
           "id": "C",
-          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
+          "text": "中級"
         },
         {
           "id": "D",
-          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
+          "text": "Copilot が AI 機能で開発者の生産性を効率化する方法"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "設計支援では、設計案、トレードオフ、影響範囲を相談できることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 6,
       "type": "single",
-      "prompt": "実装支援について最も適切な説明はどれか。",
+      "prompt": "このモジュールの「制限」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "コード補完、関数生成、既存コード修正を支援すること"
+          "text": "主な制限事項を特定する"
         },
         {
           "id": "B",
-          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
+          "text": "7 ユニット"
         },
         {
           "id": "C",
-          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
+          "text": "中級"
         },
         {
           "id": "D",
-          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
+          "text": "Copilot が AI 機能で開発者の生産性を効率化する方法"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "実装支援では、コード補完、関数生成、既存コード修正を支援することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 7,
       "type": "single",
-      "prompt": "テスト支援について最も適切な説明はどれか。",
+      "prompt": "このモジュールの「測定」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "単体テストやエッジケースの候補を生成できること"
+          "text": "生産性の向上を効果的に測定する"
         },
         {
           "id": "B",
-          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
+          "text": "7 ユニット"
         },
         {
           "id": "C",
-          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
+          "text": "中級"
         },
         {
           "id": "D",
-          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
+          "text": "Copilot が AI 機能で開発者の生産性を効率化する方法"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "テスト支援では、単体テストやエッジケースの候補を生成できることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 8,
       "type": "single",
-      "prompt": "デバッグ支援について最も適切な説明はどれか。",
+      "prompt": "このモジュールの「学習目的」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "エラーやログから原因候補と修正案を出せること"
+          "text": "開発者ワークフローに統合される具体的な方法を特定する"
         },
         {
           "id": "B",
-          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
+          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
         },
         {
           "id": "C",
-          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
+          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
         },
         {
           "id": "D",
-          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
+          "text": "Copilot の提案をレビュー不要でマージできるようにする"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "デバッグ支援では、エラーやログから原因候補と修正案を出せることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 9,
       "type": "single",
-      "prompt": "ドキュメント支援について最も適切な説明はどれか。",
+      "prompt": "このモジュールの「学習目的」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "コード説明、README、コメント作成を支援すること"
+          "text": "SDLC の各ステージへの潜在的影響を説明する"
         },
         {
           "id": "B",
-          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
+          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
         },
         {
           "id": "C",
-          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
+          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
         },
         {
           "id": "D",
-          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
+          "text": "Copilot の提案をレビュー不要でマージできるようにする"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "ドキュメント支援では、コード説明、README、コメント作成を支援することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 10,
       "type": "single",
-      "prompt": "レビュー支援について最も適切な説明はどれか。",
+      "prompt": "このモジュールの「学習目的」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "PR 要約、レビュー観点、改善提案に役立つこと"
+          "text": "AI 支援コーディングの制限を評価し開発効率への影響を測定する"
         },
         {
           "id": "B",
-          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
+          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
         },
         {
           "id": "C",
-          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
+          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
         },
         {
           "id": "D",
-          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
+          "text": "Copilot の提案をレビュー不要でマージできるようにする"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "レビュー支援では、PR 要約、レビュー観点、改善提案に役立つことが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 11,
       "type": "single",
-      "prompt": "SDLC での影響について最も適切な説明はどれか。",
+      "prompt": "このモジュールの「前提」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "計画、実装、テスト、レビュー、保守に影響を与え得ること"
+          "text": "ソフトウェア開発の概念とプラクティスの基本的な理解"
         },
         {
           "id": "B",
-          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
+          "text": "Copilot Business または Enterprise の組織管理者権限"
         },
         {
           "id": "C",
-          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
+          "text": "GitHub Actions の大きな runner を作成する権限"
         },
         {
           "id": "D",
-          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
+          "text": "MCP サーバーを Docker でローカル実行した経験"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "SDLC での影響では、計画、実装、テスト、レビュー、保守に影響を与え得ることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 12,
       "type": "single",
-      "prompt": "生産性測定について最も適切な説明はどれか。",
+      "prompt": "このモジュールの「前提」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "速度だけでなく品質、満足度、レビュー時間なども見ること"
+          "text": "少なくとも 1 つのプログラミング言語の知識"
         },
         {
           "id": "B",
-          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
+          "text": "Copilot Business または Enterprise の組織管理者権限"
         },
         {
           "id": "C",
-          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
+          "text": "GitHub Actions の大きな runner を作成する権限"
         },
         {
           "id": "D",
-          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
+          "text": "MCP サーバーを Docker でローカル実行した経験"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "生産性測定では、速度だけでなく品質、満足度、レビュー時間なども見ることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 13,
       "type": "single",
-      "prompt": "制限事項について最も適切な説明はどれか。",
+      "prompt": "このモジュールの「前提」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Copilot は文脈を誤解したり不正確な提案を出す可能性があること"
+          "text": "GitHub アカウントと GitHub の機能に関する基本的な知識"
         },
         {
           "id": "B",
-          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
+          "text": "Copilot Business または Enterprise の組織管理者権限"
         },
         {
           "id": "C",
-          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
+          "text": "GitHub Actions の大きな runner を作成する権限"
         },
         {
           "id": "D",
-          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
+          "text": "MCP サーバーを Docker でローカル実行した経験"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "制限事項では、Copilot は文脈を誤解したり不正確な提案を出す可能性があることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 14,
       "type": "single",
-      "prompt": "影響測定について最も適切な説明はどれか。",
+      "prompt": "このモジュールの「Copilot Free」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "導入前後の作業時間、PR サイクル、欠陥率などを比較すること"
+          "text": "学習目的では使用制限がある Copilot Free で十分なはず"
         },
         {
           "id": "B",
-          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
+          "text": "7 ユニット"
         },
         {
           "id": "C",
-          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
+          "text": "中級"
         },
         {
           "id": "D",
-          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
+          "text": "Copilot が AI 機能で開発者の生産性を効率化する方法"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "影響測定では、導入前後の作業時間、PR サイクル、欠陥率などを比較することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 15,
       "type": "single",
-      "prompt": "責任ある利用について最も適切な説明はどれか。",
+      "prompt": "このモジュールの「ユニット」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "生成物をレビューし、セキュリティとライセンスを確認すること"
+          "text": "AI を使用して開発者の生産性を向上させる"
         },
         {
           "id": "B",
-          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
+          "text": "7 ユニット"
         },
         {
           "id": "C",
-          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
+          "text": "中級"
         },
         {
           "id": "D",
-          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
+          "text": "Copilot が AI 機能で開発者の生産性を効率化する方法"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "責任ある利用では、生成物をレビューし、セキュリティとライセンスを確認することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 16,
       "type": "single",
-      "prompt": "開発者体験について最も適切な説明はどれか。",
+      "prompt": "このモジュールの「ユニット」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "反復作業を減らし、より価値の高い作業に集中しやすくすること"
+          "text": "開発者の設定に合わせる"
         },
         {
           "id": "B",
-          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
+          "text": "7 ユニット"
         },
         {
           "id": "C",
-          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
+          "text": "中級"
         },
         {
           "id": "D",
-          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
+          "text": "Copilot が AI 機能で開発者の生産性を効率化する方法"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "開発者体験では、反復作業を減らし、より価値の高い作業に集中しやすくすることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 17,
       "type": "single",
-      "prompt": "チーム利用について最も適切な説明はどれか。",
+      "prompt": "このモジュールの「ユニット」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "共通プロンプトやレビュー方針で支援のばらつきを減らせること"
+          "text": "SDLC における AI"
         },
         {
           "id": "B",
-          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
+          "text": "7 ユニット"
         },
         {
           "id": "C",
-          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
+          "text": "中級"
         },
         {
           "id": "D",
-          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
+          "text": "Copilot が AI 機能で開発者の生産性を効率化する方法"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "チーム利用では、共通プロンプトやレビュー方針で支援のばらつきを減らせることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 18,
       "type": "single",
-      "prompt": "制約の明示について最も適切な説明はどれか。",
+      "prompt": "このモジュールの「ユニット」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "プロジェクト標準、使用技術、禁止事項を伝えること"
+          "text": "制限事項を理解し、影響を測定する"
         },
         {
           "id": "B",
-          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
+          "text": "7 ユニット"
         },
         {
           "id": "C",
-          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
+          "text": "中級"
         },
         {
           "id": "D",
-          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
+          "text": "Copilot が AI 機能で開発者の生産性を効率化する方法"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "制約の明示では、プロジェクト標準、使用技術、禁止事項を伝えることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 19,
       "type": "single",
-      "prompt": "過信のリスクについて最も適切な説明はどれか。",
+      "prompt": "このモジュールの「範囲外」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "AI 出力を無条件に採用すると品質低下や脆弱性につながること"
+          "text": "MCP サーバーの OAuth 制限"
         },
         {
           "id": "B",
-          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
+          "text": "7 ユニット"
         },
         {
           "id": "C",
-          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
+          "text": "中級"
         },
         {
           "id": "D",
-          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
+          "text": "Copilot が AI 機能で開発者の生産性を効率化する方法"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "過信のリスクでは、AI 出力を無条件に採用すると品質低下や脆弱性につながることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 20,
       "type": "single",
-      "prompt": "まとめについて最も適切な説明はどれか。",
+      "prompt": "このモジュールの「まとめ」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Copilot を SDLC に組み込み、制限を理解して効果を測定すること"
+          "text": "ユースケース、SDLC、制限、影響測定を扱う"
         },
         {
           "id": "B",
-          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
+          "text": "7 ユニット"
         },
         {
           "id": "C",
-          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
+          "text": "中級"
         },
         {
           "id": "D",
-          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
+          "text": "Copilot が AI 機能で開発者の生産性を効率化する方法"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "まとめでは、Copilot を SDLC に組み込み、制限を理解して効果を測定することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     }
   ]
 }

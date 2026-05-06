@@ -1,546 +1,546 @@
 {
   "title": "Microsoft Learn GitHub Copilot 基本編: 責任ある AI",
-  "description": "Microsoft Learn「GitHub Copilot を使用した責任ある AI」に基づく確認クイズ（20問）",
+  "description": "Microsoft Learn「GitHub Copilot を使用した責任ある AI」に基づく詳細確認クイズ（20問）",
   "questions": [
     {
       "questionNumber": 1,
       "type": "single",
-      "prompt": "GitHub Copilot の文脈で「責任ある AI」が重視する中心的な考え方はどれか。",
+      "prompt": "モジュールのユニット数として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "安全で信頼でき、倫理的な方法で AI を開発・評価・利用すること"
+          "text": "5 ユニット"
         },
         {
           "id": "B",
-          "text": "透明性だけを満たせば、公平性やプライバシーの検証は省略できる"
+          "text": "7 ユニット"
         },
         {
           "id": "C",
-          "text": "AI の判断を常に人間の判断より優先すること"
+          "text": "8 ユニット"
         },
         {
           "id": "D",
-          "text": "生成速度だけを最大化すること"
+          "text": "6 ユニット"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "責任ある AI は、AI の利点を活用しながら公平性、信頼性、透明性、説明責任などを守るための考え方です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 2,
       "type": "single",
-      "prompt": "AI リスクを軽減する方法として適切なものはどれか。",
+      "prompt": "モジュールの難易度として表示されているものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "ガバナンス、透明性、人による監視を組み込む"
+          "text": "初級"
         },
         {
           "id": "B",
-          "text": "人間のレビューを後工程へ移せば、AI の出力は自動的に説明責任を満たす"
+          "text": "中級"
         },
         {
           "id": "C",
-          "text": "出力の根拠を確認しない"
+          "text": "上級"
         },
         {
           "id": "D",
-          "text": "AI にすべての意思決定を委任する"
+          "text": "基礎ではなく管理者向けのみ"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "AI は偏りやプライバシー侵害などのリスクを持つため、統制と監視を設計に組み込む必要があります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 3,
       "type": "single",
-      "prompt": "Microsoft と GitHub の責任ある AI 原則に含まれないものはどれか。",
+      "prompt": "対象ロールに含まれる組み合わせとして正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "無制限の自動化"
+          "text": "AI エンジニア、開発者、DevOps エンジニア、Student"
         },
         {
           "id": "B",
-          "text": "公平性"
+          "text": "管理者、監査担当者、営業担当者のみ"
         },
         {
           "id": "C",
-          "text": "信頼性と安全性"
+          "text": "ソリューション アーキテクトのみ"
         },
         {
           "id": "D",
-          "text": "透明性"
+          "text": "GitHub Enterprise 管理者のみ"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "6 原則は公平性、信頼性と安全性、プライバシーとセキュリティ、包括性、透明性、説明責任です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 4,
       "type": "single",
-      "prompt": "「公平性」の原則で重視されることはどれか。",
+      "prompt": "前提条件として明示されているものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "同じような状況のユーザーやグループを一貫して公平に扱うこと"
+          "text": "生成 AI の基本的な理解"
         },
         {
           "id": "B",
-          "text": "一部の利用者だけに高品質な結果を返すこと"
+          "text": "GitHub Actions の高度な管理経験"
         },
         {
           "id": "C",
-          "text": "偏りを検出しないこと"
+          "text": "C# Dev Kit のセットアップ経験"
         },
         {
           "id": "D",
-          "text": "出力のばらつきを意図的に増やすこと"
+          "text": "Copilot Business 管理者権限"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公平性では、偏ったデータやモデル挙動が特定グループへ不利な影響を与えないようにします。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 5,
       "type": "single",
-      "prompt": "公平性を高めるための実践として適切なものはどれか。",
+      "prompt": "このモジュールが扱う Copilot の文脈として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "トレーニングデータを確認し、ユーザーセグメントごとに性能を監視する"
+          "text": "開発者向け生成 AI ツールとしての GitHub Copilot の責任ある使用"
         },
         {
           "id": "B",
-          "text": "特定グループのデータだけで評価する"
+          "text": "Copilot CLI のコマンド構文だけ"
         },
         {
           "id": "C",
-          "text": "不公平な影響を検出しても放置する"
+          "text": "Copilot Spaces の共有権限だけ"
         },
         {
           "id": "D",
-          "text": "データの偏りをレビュー対象外にする"
+          "text": "GitHub MCP Server の Docker 構成だけ"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "偏りの検出、バランスの取れたテスト、性能監視は公平性のリスク低減に役立ちます。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 6,
       "type": "single",
-      "prompt": "「信頼性と安全性」の説明として最も適切なものはどれか。",
+      "prompt": "学習目的に含まれるものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "AI システムが意図したとおり一貫して動作し、有害な結果を抑えること"
+          "text": "AI に関連する制限事項を特定し、リスクを軽減する"
         },
         {
           "id": "B",
-          "text": "AI が常に新しい仕様を自動決定すること"
+          "text": "MCP サーバーを JSON で宣言する"
         },
         {
           "id": "C",
-          "text": "失敗時の挙動を設計しないこと"
+          "text": "copilot-setup-steps.yml を作成する"
         },
         {
           "id": "D",
-          "text": "危険な出力をユーザーに任せて放置すること"
+          "text": "PRU の消費量だけを最適化する"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "信頼性は一貫した動作、安全性は意図しない損害の最小化に関係します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 7,
       "type": "single",
-      "prompt": "「プライバシーとセキュリティ」の原則で適切な対応はどれか。",
+      "prompt": "学習目的に含まれる透明性・説明責任の位置づけとして正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "必要なデータだけを収集し、機密データを保護する"
+          "text": "信頼を築き、ユーザーの信頼を維持するために重要である"
         },
         {
           "id": "B",
-          "text": "利用目的を説明せずにデータを集める"
+          "text": "CI を不要にするための代替策である"
         },
         {
           "id": "C",
-          "text": "個人データをログに出す"
+          "text": "GitHub Actions の承認ゲートを自動化するためだけに必要である"
         },
         {
           "id": "D",
-          "text": "暗号化やアクセス制御を省く"
+          "text": "コード補完の速度を上げるためだけの設定である"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "AI 利用ではデータ最小化、同意、匿名化、暗号化、アクセス制御が重要です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 8,
       "type": "single",
-      "prompt": "機密データの保護として本文で扱われる考え方はどれか。",
+      "prompt": "AI 生成コードについて学習目的が求める確認はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "転送中および保存時の暗号化とキー管理を行う"
+          "text": "倫理基準とプロジェクト固有の要件に適合していることを保証する"
         },
         {
           "id": "B",
-          "text": "鍵をリポジトリに保存する"
+          "text": "生成元モデル名だけを記録する"
         },
         {
           "id": "C",
-          "text": "生成コードの安全性はモデル側で保証されるため、利用者側の確認は主に不要である"
+          "text": "すべての提案を受け入れる"
         },
         {
           "id": "D",
-          "text": "キーをローテーションしない"
+          "text": "公開コード一致だけを見れば十分とする"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "機密データは暗号化し、キーは安全な保管、アクセス制御、ローテーションで保護します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 9,
       "type": "single",
-      "prompt": "「包括性」の原則が求めるものはどれか。",
+      "prompt": "ユニット一覧に含まれるものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "多様なユーザーが AI システムを利用でき、恩恵を受けられること"
+          "text": "AI リスクを軽減する"
         },
         {
           "id": "B",
-          "text": "特定地域のユーザーを前提から除外すること"
+          "text": "Copilot CLI をインストールする"
         },
         {
           "id": "C",
-          "text": "アクセシビリティを考慮しないこと"
+          "text": "MCP サーバーを Docker で起動する"
         },
         {
           "id": "D",
-          "text": "少数言語や障碍への配慮を不要とすること"
+          "text": "PRU を購入する"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "包括性では、能力、言語、地域、文化などの違いにかかわらず利用できる設計を目指します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 10,
       "type": "single",
-      "prompt": "包括的な AI の例として適切なものはどれか。",
+      "prompt": "ユニット一覧に含まれる Microsoft/GitHub の原則数として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "スクリーンリーダーや字幕など代替の対話手段を提供する"
+          "text": "6 つの原則"
         },
         {
           "id": "B",
-          "text": "視覚障碍者の利用を想定しない"
+          "text": "3 つの原則"
         },
         {
           "id": "C",
-          "text": "主要言語以外を常に除外する"
+          "text": "8 つの原則"
         },
         {
           "id": "D",
-          "text": "限られた接続環境をすべて拒否する"
+          "text": "12 個のチェックリスト"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "アクセシビリティや地域・言語への配慮は、包括性の具体的な実践です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 11,
       "type": "single",
-      "prompt": "「透明性」の原則で重要なことはどれか。",
+      "prompt": "責任ある AI の主眼として最も近いものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "AI システムの機能、制限、設計上の理由を理解可能に説明する"
+          "text": "倫理的・運用上のリスクを軽減しながら Copilot を活用する"
         },
         {
           "id": "B",
-          "text": "モデルの制限を隠す"
+          "text": "Copilot の提案をレビュー不要にする"
         },
         {
           "id": "C",
-          "text": "監査ログを残さない"
+          "text": "Copilot の利用量制限だけを管理する"
         },
         {
           "id": "D",
-          "text": "ユーザーに何も説明しない"
+          "text": "Cloud Agent の runner サイズだけを選ぶ"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "透明性は信頼、説明責任、公平性、安全性を支えるため、文書化や監査可能性が重要です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 12,
       "type": "single",
-      "prompt": "透明性を高める実践として適切なものはどれか。",
+      "prompt": "モジュール評価の説明として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "データやモデルを文書化し、ログや監査機能を用意する"
+          "text": "サインインして質問に正しく回答するとプロファイルのパス指定を取得できる"
         },
         {
           "id": "B",
-          "text": "意思決定の根拠を残さない"
+          "text": "評価は GitHub Actions 上でだけ実行される"
         },
         {
           "id": "C",
-          "text": "検証フレームワークを作らない"
+          "text": "評価はローカル VS Code 拡張でのみ表示される"
         },
         {
           "id": "D",
-          "text": "制限事項を利用者に伝えない"
+          "text": "評価には Enterprise 管理者権限が必須である"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "文書化、検証、ログ、監査は AI システムを理解可能にし、説明責任を支えます。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 13,
       "type": "single",
-      "prompt": "「説明責任」の原則として正しいものはどれか。",
+      "prompt": "このモジュールで直接扱わない主題はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "AI システムを作成・展開・利用する側が結果に責任を持つ"
+          "text": "GitHub MCP Server の VS Code 構成"
         },
         {
           "id": "B",
-          "text": "AI がすべての責任を負う"
+          "text": "責任ある AI の原則"
         },
         {
           "id": "C",
-          "text": "利用者は出力を検証してはいけない"
+          "text": "AI リスクの軽減"
         },
         {
           "id": "D",
-          "text": "リスクの継続監視は不要である"
+          "text": "透明性と説明責任"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "AI の作成者や展開する組織は、システムの動作、監視、リスク軽減に責任を持ちます。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 14,
       "type": "single",
-      "prompt": "Copilot が生成したコードに対して責任ある利用として必要な行動はどれか。",
+      "prompt": "責任ある AI の「適用」の文脈として適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "プロジェクト要件、倫理基準、セキュリティに合うか確認する"
+          "text": "Copilot を使う開発作業で、提案のリスクと限界を踏まえて判断する"
         },
         {
           "id": "B",
-          "text": "人間のレビューを後工程へ移せば、AI の出力は自動的に説明責任を満たす"
+          "text": "Copilot が生成したコードをすべて正解とみなす"
         },
         {
           "id": "C",
-          "text": "ライセンスや品質を確認しない"
+          "text": "モデルに法的責任を移す"
         },
         {
           "id": "D",
-          "text": "セキュリティ上の懸念を無視する"
+          "text": "GitHub Actions の runner 種類だけを見る"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "生成コードは便利ですが、品質、セキュリティ、規約、プロジェクト固有要件に合うか人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 15,
       "type": "single",
-      "prompt": "AI の透明性と説明責任が信頼に関係する理由はどれか。",
+      "prompt": "このモジュールの主な対象に Student が含まれる意味として妥当なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "利用者がシステムの能力と限界を理解し、結果を検証できるため"
+          "text": "生成 AI の責任ある使い方を学習者にも理解させる入門モジュールである"
         },
         {
           "id": "B",
-          "text": "AI の出力を常に隠せるため"
+          "text": "学生だけが利用できる Copilot Free 専用モジュールである"
         },
         {
           "id": "C",
-          "text": "誤りを追跡できなくするため"
+          "text": "学校アカウントでなければ評価できない"
         },
         {
           "id": "D",
-          "text": "人間の監視を排除できるため"
+          "text": "教育機関の管理者設定だけを扱う"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "能力や制限を理解でき、監査できることは AI システムへの信頼維持に重要です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 16,
       "type": "single",
-      "prompt": "AI の偏りに対する適切な姿勢はどれか。",
+      "prompt": "学習目的に含まれる「ベストプラクティス」の対象として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "偏りを検出し、影響を評価し、必要な制御で軽減する"
+          "text": "AI 生成コードが倫理基準とプロジェクト要件に合うことを確認する実践"
         },
         {
           "id": "B",
-          "text": "偏りは必ず存在しないと仮定する"
+          "text": "LFS を有効化する YAML の書き方"
         },
         {
           "id": "C",
-          "text": "特定グループへの影響を測らない"
+          "text": "MCP の OAuth 設定"
         },
         {
           "id": "D",
-          "text": "偏りを検出しても修正しない"
+          "text": "PRU の請求レポート作成"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "責任ある AI では、偏りを前提にレビューし、データ、評価、監視、制御で軽減します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 17,
       "type": "single",
-      "prompt": "Copilot で秘密情報を扱うときの適切な方針はどれか。",
+      "prompt": "リスク軽減の対象として最もこのモジュールに合うものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "秘密情報をプロンプトに貼らず、安全な管理手段を使う"
+          "text": "AI 使用に伴う潜在的な倫理的および運用上のリスク"
         },
         {
           "id": "B",
-          "text": "人間のレビューを後工程へ移せば、AI の出力は自動的に説明責任を満たす"
+          "text": "GitHub Pages のビルド時間"
         },
         {
           "id": "C",
-          "text": "API キーをコメントに残す"
+          "text": "VS Code のテーマ設定"
         },
         {
           "id": "D",
-          "text": "認証情報をエラー再現用に公開する"
+          "text": "Docker Hub のイメージサイズ"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "プライバシーとセキュリティの観点から、認証情報や個人情報の露出は避けます。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 18,
       "type": "single",
-      "prompt": "AI リスク管理で「人による監視」が必要な理由はどれか。",
+      "prompt": "モジュールのまとめに向けた到達点として適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "AI の提案には誤りや予期しない影響があり得るため"
+          "text": "Copilot の効果的利用と責任ある判断を両立できる"
         },
         {
           "id": "B",
-          "text": "AI はコードを生成できないため"
+          "text": "MCP だけで GitHub 操作を自動化できる"
         },
         {
           "id": "C",
-          "text": "人間が一切判断しないため"
+          "text": "単体テストを C# Dev Kit だけで生成できる"
         },
         {
           "id": "D",
-          "text": "監視すると透明性が下がるため"
+          "text": "Cloud Agent の PR を自動承認できる"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "AI 出力は支援材料であり、最終判断、レビュー、承認は人間と組織の責任です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 19,
       "type": "single",
-      "prompt": "責任ある AI の原則を Copilot 利用に適用する目的はどれか。",
+      "prompt": "このモジュールが「GitHub Copilot」を扱う理由として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "生産性向上とリスク低減を両立するため"
+          "text": "開発者向け生成 AI ツールとして、コード提案の利用判断が倫理・運用リスクに直結するため"
         },
         {
           "id": "B",
-          "text": "Copilot を使わないため"
+          "text": "GitHub Copilot が唯一の Git クライアントであるため"
         },
         {
           "id": "C",
-          "text": "レビュー工程をなくすため"
+          "text": "Copilot が GitHub Actions の代替だから"
         },
         {
           "id": "D",
-          "text": "全ての判断を AI に移すため"
+          "text": "Copilot が Azure 課金を管理するから"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "責任ある AI は、AI の価値を活かしながら倫理的・運用上のリスクを抑えるための実践です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 20,
       "type": "single",
-      "prompt": "責任ある AI のまとめとして最も適切なものはどれか。",
+      "prompt": "このモジュールの範囲を最も正確に表すものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "公平性、信頼性、安全性、プライバシー、包括性、透明性、説明責任を意識して AI を使う"
+          "text": "責任ある AI の原則、AI リスク、生成コード確認、透明性と説明責任"
         },
         {
           "id": "B",
-          "text": "速度だけを評価する"
+          "text": "コード補完ショートカット、CLI コマンド、MCP JSON、Runner 課金"
         },
         {
           "id": "C",
-          "text": "生成コードの安全性はモデル側で保証されるため、利用者側の確認は主に不要である"
+          "text": "PR テンプレート、Release Notes、Dependabot、Pages"
         },
         {
           "id": "D",
-          "text": "生成物の所有や影響を考慮しない"
+          "text": "Docker Compose、Kubernetes、Terraform、Azure Pipelines"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "責任ある AI は複数の原則を組み合わせ、AI を安全で信頼できる形で利用するための土台です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     }
   ]
 }

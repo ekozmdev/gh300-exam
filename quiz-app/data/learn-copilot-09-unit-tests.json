@@ -1,546 +1,546 @@
 {
   "title": "Microsoft Learn GitHub Copilot 基本編: 単体テスト開発",
-  "description": "Microsoft Learn「GitHub Copilot ツールを使用して単体テストを開発する」に基づく確認クイズ（20問）",
+  "description": "Microsoft Learn「GitHub Copilot ツールを使用して単体テストを開発する」に基づく詳細確認クイズ（20問）",
   "questions": [
     {
       "questionNumber": 1,
       "type": "single",
-      "prompt": "単体テスト開発の目的について最も適切な説明はどれか。",
+      "prompt": "このモジュールの「ユニット数」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Copilot と Copilot Chat を使って単体テスト作成を支援すること"
+          "text": "8 ユニット"
         },
         {
           "id": "B",
-          "text": "/setupTests は失敗テストの修正を主目的にするため、テスト環境の初期設定には使わない"
+          "text": "5 ユニット"
         },
         {
           "id": "C",
-          "text": "Smart Action のテスト生成結果はそのまま正解なので、テスト名や assertion の確認は不要である"
+          "text": "6 ユニット"
         },
         {
           "id": "D",
-          "text": "Agent モードでテストを生成する場合、ターミナルコマンドや作成ファイルの確認は避けるべきである"
+          "text": "7 ユニット"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "単体テスト開発の目的では、Copilot と Copilot Chat を使って単体テスト作成を支援することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
     {
       "questionNumber": 2,
       "type": "single",
-      "prompt": "対象環境について最も適切な説明はどれか。",
+      "prompt": "このモジュールの「難易度」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Visual Studio Code、.NET SDK、C# Dev Kit などを使って演習すること"
+          "text": "中級"
         },
         {
           "id": "B",
-          "text": "Smart Action のテスト生成結果はそのまま正解なので、テスト名や assertion の確認は不要である"
+          "text": "初級"
         },
         {
           "id": "C",
-          "text": "Agent モードでテストを生成する場合、ターミナルコマンドや作成ファイルの確認は避けるべきである"
+          "text": "上級"
         },
         {
           "id": "D",
-          "text": "/setupTests は失敗テストの修正を主目的にするため、テスト環境の初期設定には使わない"
+          "text": "管理者向け"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "対象環境では、Visual Studio Code、.NET SDK、C# Dev Kit などを使って演習することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
     {
       "questionNumber": 3,
       "type": "single",
-      "prompt": "テストプロジェクトについて最も適切な説明はどれか。",
+      "prompt": "このモジュールの「主題」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "アプリケーションとは別にテスト用プロジェクトを作成して実行すること"
+          "text": "GitHub Copilot と Copilot Chat を使用して単体テストを作成する"
         },
         {
           "id": "B",
-          "text": "Agent モードでテストを生成する場合、ターミナルコマンドや作成ファイルの確認は避けるべきである"
+          "text": "中級"
         },
         {
           "id": "C",
-          "text": "/setupTests は失敗テストの修正を主目的にするため、テスト環境の初期設定には使わない"
+          "text": "単体テスト プロジェクトを作成し、Visual Studio Code で単体テストを実行する"
         },
         {
           "id": "D",
-          "text": "Smart Action のテスト生成結果はそのまま正解なので、テスト名や assertion の確認は不要である"
+          "text": "Visual Studio Code で GitHub Copilot を使用して単体テストを作成する"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "テストプロジェクトでは、アプリケーションとは別にテスト用プロジェクトを作成して実行することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
     {
       "questionNumber": 4,
       "type": "single",
-      "prompt": "Smart Actionについて最も適切な説明はどれか。",
+      "prompt": "このモジュールの「演習」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "テスト生成のスマートアクションで対象コードからテストを作ること"
+          "text": "単体テスト プロジェクトを作成し、Visual Studio Code で単体テストを実行する"
         },
         {
           "id": "B",
-          "text": "/setupTests は失敗テストの修正を主目的にするため、テスト環境の初期設定には使わない"
+          "text": "中級"
         },
         {
           "id": "C",
-          "text": "Smart Action のテスト生成結果はそのまま正解なので、テスト名や assertion の確認は不要である"
+          "text": "GitHub Copilot と Copilot Chat を使用して単体テストを作成する"
         },
         {
           "id": "D",
-          "text": "Agent モードでテストを生成する場合、ターミナルコマンドや作成ファイルの確認は避けるべきである"
+          "text": "Visual Studio Code で GitHub Copilot を使用して単体テストを作成する"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Smart Actionでは、テスト生成のスマートアクションで対象コードからテストを作ることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
     {
       "questionNumber": 5,
       "type": "single",
-      "prompt": "インラインチャットについて最も適切な説明はどれか。",
+      "prompt": "このモジュールの「学習目的」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "コード付近でテスト生成や改善を自然言語で依頼すること"
+          "text": "Visual Studio Code で GitHub Copilot を使用して単体テストを作成する"
         },
         {
           "id": "B",
-          "text": "Smart Action のテスト生成結果はそのまま正解なので、テスト名や assertion の確認は不要である"
+          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
         },
         {
           "id": "C",
-          "text": "Agent モードでテストを生成する場合、ターミナルコマンドや作成ファイルの確認は避けるべきである"
+          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
         },
         {
           "id": "D",
-          "text": "/setupTests は失敗テストの修正を主目的にするため、テスト環境の初期設定には使わない"
+          "text": "Copilot の提案をレビュー不要でマージできるようにする"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "インラインチャットでは、コード付近でテスト生成や改善を自然言語で依頼することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
     {
       "questionNumber": 6,
       "type": "single",
-      "prompt": "チャットビューについて最も適切な説明はどれか。",
+      "prompt": "このモジュールの「学習目的」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "広い文脈でテスト戦略やケース追加を相談すること"
+          "text": "エッジ ケースと特定の条件を対象とする単体テストを作成する"
         },
         {
           "id": "B",
-          "text": "Agent モードでテストを生成する場合、ターミナルコマンドや作成ファイルの確認は避けるべきである"
+          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
         },
         {
           "id": "C",
-          "text": "/setupTests は失敗テストの修正を主目的にするため、テスト環境の初期設定には使わない"
+          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
         },
         {
           "id": "D",
-          "text": "Smart Action のテスト生成結果はそのまま正解なので、テスト名や assertion の確認は不要である"
+          "text": "Copilot の提案をレビュー不要でマージできるようにする"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "チャットビューでは、広い文脈でテスト戦略やケース追加を相談することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
     {
       "questionNumber": 7,
       "type": "single",
-      "prompt": "エッジケースについて最も適切な説明はどれか。",
+      "prompt": "このモジュールの「学習目的」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "境界値、null、例外、特殊条件を対象にすること"
+          "text": "Visual Studio Code、.NET SDK、C# Dev Kit でテストプロジェクトを作成し、ビルドと実行を確認する"
         },
         {
           "id": "B",
-          "text": "/setupTests は失敗テストの修正を主目的にするため、テスト環境の初期設定には使わない"
+          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
         },
         {
           "id": "C",
-          "text": "Smart Action のテスト生成結果はそのまま正解なので、テスト名や assertion の確認は不要である"
+          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
         },
         {
           "id": "D",
-          "text": "Agent モードでテストを生成する場合、ターミナルコマンドや作成ファイルの確認は避けるべきである"
+          "text": "Copilot の提案をレビュー不要でマージできるようにする"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "エッジケースでは、境界値、null、例外、特殊条件を対象にすることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
     {
       "questionNumber": 8,
       "type": "single",
-      "prompt": "特定条件について最も適切な説明はどれか。",
+      "prompt": "このモジュールの「推奨経験」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "仕様で重要な分岐や入力条件を明示してテストさせること"
+          "text": "1 年以上のソフトウェア開発経験"
         },
         {
           "id": "B",
-          "text": "Smart Action のテスト生成結果はそのまま正解なので、テスト名や assertion の確認は不要である"
+          "text": "Copilot Business または Enterprise の組織管理者権限"
         },
         {
           "id": "C",
-          "text": "Agent モードでテストを生成する場合、ターミナルコマンドや作成ファイルの確認は避けるべきである"
+          "text": "GitHub Actions の大きな runner を作成する権限"
         },
         {
           "id": "D",
-          "text": "/setupTests は失敗テストの修正を主目的にするため、テスト環境の初期設定には使わない"
+          "text": "MCP サーバーを Docker でローカル実行した経験"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "特定条件では、仕様で重要な分岐や入力条件を明示してテストさせることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
     {
       "questionNumber": 9,
       "type": "single",
-      "prompt": "ビルド確認について最も適切な説明はどれか。",
+      "prompt": "このモジュールの「推奨経験」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "生成されたテストが正常にビルドできるか確認すること"
+          "text": "VS Code と C# Dev Kit による C# アプリ開発経験"
         },
         {
           "id": "B",
-          "text": "Agent モードでテストを生成する場合、ターミナルコマンドや作成ファイルの確認は避けるべきである"
+          "text": "Copilot Business または Enterprise の組織管理者権限"
         },
         {
           "id": "C",
-          "text": "/setupTests は失敗テストの修正を主目的にするため、テスト環境の初期設定には使わない"
+          "text": "GitHub Actions の大きな runner を作成する権限"
         },
         {
           "id": "D",
-          "text": "Smart Action のテスト生成結果はそのまま正解なので、テスト名や assertion の確認は不要である"
+          "text": "MCP サーバーを Docker でローカル実行した経験"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "ビルド確認では、生成されたテストが正常にビルドできるか確認することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
     {
       "questionNumber": 10,
       "type": "single",
-      "prompt": "テスト実行について最も適切な説明はどれか。",
+      "prompt": "このモジュールの「サブスクリプション」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "テストを実行して期待どおり成功・失敗するか確認すること"
+          "text": "GitHub Copilot のアクティブなサブスクリプション"
         },
         {
           "id": "B",
-          "text": "/setupTests は失敗テストの修正を主目的にするため、テスト環境の初期設定には使わない"
+          "text": "Copilot Business または Enterprise の組織管理者権限"
         },
         {
           "id": "C",
-          "text": "Smart Action のテスト生成結果はそのまま正解なので、テスト名や assertion の確認は不要である"
+          "text": "GitHub Actions の大きな runner を作成する権限"
         },
         {
           "id": "D",
-          "text": "Agent モードでテストを生成する場合、ターミナルコマンドや作成ファイルの確認は避けるべきである"
+          "text": "MCP サーバーを Docker でローカル実行した経験"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "テスト実行では、テストを実行して期待どおり成功・失敗するか確認することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
     {
       "questionNumber": 11,
       "type": "single",
-      "prompt": "失敗時の対応について最も適切な説明はどれか。",
+      "prompt": "このモジュールの「Free」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "エラー内容を読み、テストか実装のどちらを直すべきか判断すること"
+          "text": "このトレーニングでは Copilot Free プランで十分"
         },
         {
           "id": "B",
-          "text": "Smart Action のテスト生成結果はそのまま正解なので、テスト名や assertion の確認は不要である"
+          "text": "中級"
         },
         {
           "id": "C",
-          "text": "Agent モードでテストを生成する場合、ターミナルコマンドや作成ファイルの確認は避けるべきである"
+          "text": "GitHub Copilot と Copilot Chat を使用して単体テストを作成する"
         },
         {
           "id": "D",
-          "text": "/setupTests は失敗テストの修正を主目的にするため、テスト環境の初期設定には使わない"
+          "text": "単体テスト プロジェクトを作成し、Visual Studio Code で単体テストを実行する"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "失敗時の対応では、エラー内容を読み、テストか実装のどちらを直すべきか判断することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
     {
       "questionNumber": 12,
       "type": "single",
-      "prompt": "既存コード理解について最も適切な説明はどれか。",
+      "prompt": "このモジュールの「試用条件」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Copilot に対象メソッドの動作を説明させてからテストを作ること"
+          "text": "Copilot Pro 30日試用では支払い形式が要求される"
         },
         {
           "id": "B",
-          "text": "Agent モードでテストを生成する場合、ターミナルコマンドや作成ファイルの確認は避けるべきである"
+          "text": "中級"
         },
         {
           "id": "C",
-          "text": "/setupTests は失敗テストの修正を主目的にするため、テスト環境の初期設定には使わない"
+          "text": "GitHub Copilot と Copilot Chat を使用して単体テストを作成する"
         },
         {
           "id": "D",
-          "text": "Smart Action のテスト生成結果はそのまま正解なので、テスト名や assertion の確認は不要である"
+          "text": "単体テスト プロジェクトを作成し、Visual Studio Code で単体テストを実行する"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "既存コード理解では、Copilot に対象メソッドの動作を説明させてからテストを作ることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
     {
       "questionNumber": 13,
       "type": "single",
-      "prompt": "アサーションについて最も適切な説明はどれか。",
+      "prompt": "このモジュールの「前提経験」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "期待結果を明確に検証する assertion を含めること"
+          "text": "VS Code で Copilot を使ってコード説明、デバッグ、生成を行った経験"
         },
         {
           "id": "B",
-          "text": "/setupTests は失敗テストの修正を主目的にするため、テスト環境の初期設定には使わない"
+          "text": "Copilot Business または Enterprise の組織管理者権限"
         },
         {
           "id": "C",
-          "text": "Smart Action のテスト生成結果はそのまま正解なので、テスト名や assertion の確認は不要である"
+          "text": "GitHub Actions の大きな runner を作成する権限"
         },
         {
           "id": "D",
-          "text": "Agent モードでテストを生成する場合、ターミナルコマンドや作成ファイルの確認は避けるべきである"
+          "text": "MCP サーバーを Docker でローカル実行した経験"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "アサーションでは、期待結果を明確に検証する assertion を含めることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
     {
       "questionNumber": 14,
       "type": "single",
-      "prompt": "Arrange-Act-Assertについて最も適切な説明はどれか。",
+      "prompt": "このモジュールの「ユニット」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "準備、実行、検証の構造でテストを読みやすくすること"
+          "text": "単体テスト ツールと環境を確認する"
         },
         {
           "id": "B",
-          "text": "Smart Action のテスト生成結果はそのまま正解なので、テスト名や assertion の確認は不要である"
+          "text": "中級"
         },
         {
           "id": "C",
-          "text": "Agent モードでテストを生成する場合、ターミナルコマンドや作成ファイルの確認は避けるべきである"
+          "text": "GitHub Copilot と Copilot Chat を使用して単体テストを作成する"
         },
         {
           "id": "D",
-          "text": "/setupTests は失敗テストの修正を主目的にするため、テスト環境の初期設定には使わない"
+          "text": "単体テスト プロジェクトを作成し、Visual Studio Code で単体テストを実行する"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Arrange-Act-Assertでは、準備、実行、検証の構造でテストを読みやすくすることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
     {
       "questionNumber": 15,
       "type": "single",
-      "prompt": "テスト名について最も適切な説明はどれか。",
+      "prompt": "このモジュールの「ユニット」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "何を検証するテストか分かる名前にすること"
+          "text": "テストの生成スマート アクションを使用して単体テストを作成する"
         },
         {
           "id": "B",
-          "text": "Agent モードでテストを生成する場合、ターミナルコマンドや作成ファイルの確認は避けるべきである"
+          "text": "中級"
         },
         {
           "id": "C",
-          "text": "/setupTests は失敗テストの修正を主目的にするため、テスト環境の初期設定には使わない"
+          "text": "GitHub Copilot と Copilot Chat を使用して単体テストを作成する"
         },
         {
           "id": "D",
-          "text": "Smart Action のテスト生成結果はそのまま正解なので、テスト名や assertion の確認は不要である"
+          "text": "単体テスト プロジェクトを作成し、Visual Studio Code で単体テストを実行する"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "テスト名では、何を検証するテストか分かる名前にすることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
     {
       "questionNumber": 16,
       "type": "single",
-      "prompt": "テスト品質について最も適切な説明はどれか。",
+      "prompt": "このモジュールの「ユニット」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "生成テストも重複、脆弱性、意味のない assertion を確認すること"
+          "text": "インライン チャットを使用して単体テストを作成する"
         },
         {
           "id": "B",
-          "text": "/setupTests は失敗テストの修正を主目的にするため、テスト環境の初期設定には使わない"
+          "text": "中級"
         },
         {
           "id": "C",
-          "text": "Smart Action のテスト生成結果はそのまま正解なので、テスト名や assertion の確認は不要である"
+          "text": "GitHub Copilot と Copilot Chat を使用して単体テストを作成する"
         },
         {
           "id": "D",
-          "text": "Agent モードでテストを生成する場合、ターミナルコマンドや作成ファイルの確認は避けるべきである"
+          "text": "単体テスト プロジェクトを作成し、Visual Studio Code で単体テストを実行する"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "テスト品質では、生成テストも重複、脆弱性、意味のない assertion を確認することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
     {
       "questionNumber": 17,
       "type": "single",
-      "prompt": "カバレッジについて最も適切な説明はどれか。",
+      "prompt": "このモジュールの「ユニット」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "重要な正常系と異常系をバランスよく増やすこと"
+          "text": "チャット ビュー モードを使用して単体テストを作成する"
         },
         {
           "id": "B",
-          "text": "Smart Action のテスト生成結果はそのまま正解なので、テスト名や assertion の確認は不要である"
+          "text": "中級"
         },
         {
           "id": "C",
-          "text": "Agent モードでテストを生成する場合、ターミナルコマンドや作成ファイルの確認は避けるべきである"
+          "text": "GitHub Copilot と Copilot Chat を使用して単体テストを作成する"
         },
         {
           "id": "D",
-          "text": "/setupTests は失敗テストの修正を主目的にするため、テスト環境の初期設定には使わない"
+          "text": "単体テスト プロジェクトを作成し、Visual Studio Code で単体テストを実行する"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "カバレッジでは、重要な正常系と異常系をバランスよく増やすことが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
     {
       "questionNumber": 18,
       "type": "single",
-      "prompt": "Copilot Freeについて最も適切な説明はどれか。",
+      "prompt": "このモジュールの「演習ユニット」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "学習目的では Free プランでも十分な場合があること"
+          "text": "GitHub Copilotを使用して単体テストを開発する"
         },
         {
           "id": "B",
-          "text": "Agent モードでテストを生成する場合、ターミナルコマンドや作成ファイルの確認は避けるべきである"
+          "text": "中級"
         },
         {
           "id": "C",
-          "text": "/setupTests は失敗テストの修正を主目的にするため、テスト環境の初期設定には使わない"
+          "text": "GitHub Copilot と Copilot Chat を使用して単体テストを作成する"
         },
         {
           "id": "D",
-          "text": "Smart Action のテスト生成結果はそのまま正解なので、テスト名や assertion の確認は不要である"
+          "text": "単体テスト プロジェクトを作成し、Visual Studio Code で単体テストを実行する"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot Freeでは、学習目的では Free プランでも十分な場合があることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
     {
       "questionNumber": 19,
       "type": "single",
-      "prompt": "前提経験について最も適切な説明はどれか。",
+      "prompt": "このモジュールの「範囲外」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "C#、VS Code、Copilot の基本利用経験があると理解しやすいこと"
+          "text": "Cloud Agent の copilot/ ブランチ制限"
         },
         {
           "id": "B",
-          "text": "/setupTests は失敗テストの修正を主目的にするため、テスト環境の初期設定には使わない"
+          "text": "8 ユニット"
         },
         {
           "id": "C",
-          "text": "Smart Action のテスト生成結果はそのまま正解なので、テスト名や assertion の確認は不要である"
+          "text": "中級"
         },
         {
           "id": "D",
-          "text": "Agent モードでテストを生成する場合、ターミナルコマンドや作成ファイルの確認は避けるべきである"
+          "text": "GitHub Copilot と Copilot Chat を使用して単体テストを作成する"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "前提経験では、C#、VS Code、Copilot の基本利用経験があると理解しやすいことが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
     {
       "questionNumber": 20,
       "type": "single",
-      "prompt": "まとめについて最も適切な説明はどれか。",
+      "prompt": "このモジュールの「まとめ」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Copilot でテストを生成し、ビルドと実行で必ず検証すること"
+          "text": "Copilot でテストを作り、ビルドと実行を確認する"
         },
         {
           "id": "B",
-          "text": "Smart Action のテスト生成結果はそのまま正解なので、テスト名や assertion の確認は不要である"
+          "text": "中級"
         },
         {
           "id": "C",
-          "text": "Agent モードでテストを生成する場合、ターミナルコマンドや作成ファイルの確認は避けるべきである"
+          "text": "GitHub Copilot と Copilot Chat を使用して単体テストを作成する"
         },
         {
           "id": "D",
-          "text": "/setupTests は失敗テストの修正を主目的にするため、テスト環境の初期設定には使わない"
+          "text": "単体テスト プロジェクトを作成し、Visual Studio Code で単体テストを実行する"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "まとめでは、Copilot でテストを生成し、ビルドと実行で必ず検証することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     }
   ]
 }

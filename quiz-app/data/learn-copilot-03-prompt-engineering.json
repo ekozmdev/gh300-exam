@@ -1,546 +1,546 @@
 {
   "title": "Microsoft Learn GitHub Copilot 基本編: プロンプト エンジニアリング",
-  "description": "Microsoft Learn「GitHub Copilot を使用したプロンプト エンジニアリングの概要」に基づく確認クイズ（20問）",
+  "description": "Microsoft Learn「GitHub Copilot を使用したプロンプト エンジニアリングの概要」に基づく詳細確認クイズ（20問）",
   "questions": [
     {
       "questionNumber": 1,
       "type": "single",
-      "prompt": "プロンプト エンジニアリングの説明として最も適切なものはどれか。",
+      "prompt": "このモジュールの「ユニット数」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "自然言語の依頼を長くすればするほど、Copilot が自動的に最適な設計判断まで完了する手法"
+          "text": "7 ユニット"
         },
         {
           "id": "B",
-          "text": "プロジェクト固有のニーズに合う、構文・機能・文脈に適したコード生成へ Copilot を導く明確な指示を作るプロセス"
+          "text": "5 ユニット"
         },
         {
           "id": "C",
-          "text": "モデルの学習データを利用者が直接編集し、リポジトリ固有のコード規約を恒久的に埋め込む作業"
+          "text": "6 ユニット"
         },
         {
           "id": "D",
-          "text": "選択範囲や開いているファイルの文脈は使われないため、プロンプトだけで全情報を再入力する必要がある"
+          "text": "8 ユニット"
         }
       ],
       "correctAnswers": [
-        "B"
+        "A"
       ],
-      "explanation": "正解は B。公式ドキュメントでは、プロンプト エンジニアリングを、プロジェクト固有のニーズに合わせて文脈に適したコードを生成できるよう AI を導く明確な指示作成のプロセスとして説明しています。https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/2-prompt-engineering-foundations-best-practices"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
     {
       "questionNumber": 2,
       "type": "single",
-      "prompt": "4 つの S のうち「Surround」に最も近い実践はどれか。",
+      "prompt": "このモジュールの「前提 IDE」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "1 つのプロンプトで複数の設計課題をまとめて依頼し、全体最適を狙う"
+          "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
         },
         {
           "id": "B",
-          "text": "プロンプトをできるだけ短くし、対象ファイルや関連コードは明示しない"
+          "text": "Copilot Business または Enterprise の組織管理者権限"
         },
         {
           "id": "C",
-          "text": "わかりやすいファイル名を使い、関連ファイルを開いたままにして文脈を与える"
+          "text": "GitHub Actions の大きな runner を作成する権限"
         },
         {
           "id": "D",
-          "text": "生成されたコードの周辺にコメントを追加し、あとから人間が意図を推測できるようにする"
+          "text": "MCP サーバーを Docker でローカル実行した経験"
         }
       ],
       "correctAnswers": [
-        "C"
+        "A"
       ],
-      "explanation": "正解は C。公式ドキュメントでは 4 つの S の 1 つとして Surround を挙げ、わかりやすいファイル名や関連ファイルを開いた状態が Copilot に豊かなコンテキストを与えると説明しています。https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/2-prompt-engineering-foundations-best-practices"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
     {
       "questionNumber": 3,
       "type": "single",
-      "prompt": "「短くする (Short)」の原則として最も適切な解釈はどれか。",
+      "prompt": "このモジュールの「処理フロー」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "具体性を残しつつ簡潔にし、明確さと過度な複雑化の回避を両立する"
+          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
         },
         {
           "id": "B",
-          "text": "単語数を最小にするため、制約や期待出力は省略する"
+          "text": "7 ユニット"
         },
         {
           "id": "C",
-          "text": "会話履歴を長く保持し、毎回すべての前提を再掲する"
+          "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
         },
         {
           "id": "D",
-          "text": "プロンプトを短くする代わりに、関連ファイルはすべて閉じる"
+          "text": "ロール プロンプトやチャット履歴管理などのベスト プラクティス"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "正解は A。公式ドキュメントでは Short を、具体的でありながら簡潔で要点を捉えたプロンプトにすることとし、Copilot のオーバーロードや対話の複雑化を避ける考え方として説明しています。https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/2-prompt-engineering-foundations-best-practices"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
     {
       "questionNumber": 4,
       "type": "single",
-      "prompt": "例をプロンプトに含める効果として、公式ドキュメントの説明に最も合うものはどれか。",
+      "prompt": "このモジュールの「学習目的」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Copilot の基礎モデルをその場で再学習させ、以後の全ユーザーに同じ規約を適用する"
+          "text": "ロール プロンプトやチャット履歴管理などのベスト プラクティス"
         },
         {
           "id": "B",
-          "text": "抽象的な要件を具体化し、パターン理解を助け、初期提案の精度を上げやすくする"
+          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
         },
         {
           "id": "C",
-          "text": "プロンプトの長さ制限を回避し、任意の量のコードを必ず扱えるようにする"
+          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
         },
         {
           "id": "D",
-          "text": "テストケースがなくても生成コードが正しいことを保証する"
+          "text": "Copilot の提案をレビュー不要でマージできるようにする"
         }
       ],
       "correctAnswers": [
-        "B"
+        "A"
       ],
-      "explanation": "正解は B。公式ドキュメントでは、適切な例は要件や期待を明確にし、Copilot がパターンを理解して、より少ない修正で正確な初期提案を出す助けになると説明しています。https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/2-prompt-engineering-foundations-best-practices"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
     {
       "questionNumber": 5,
       "type": "single",
-      "prompt": "ゼロショット、ワンショット、少数ショット学習の違いとして最も適切なものはどれか。",
+      "prompt": "このモジュールの「データ単元」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "ゼロショットは例なし、ワンショットは単一例、少数ショットは複数例を与えて応答を導く"
+          "text": "GitHub Copilot データ"
         },
         {
           "id": "B",
-          "text": "ゼロショットはテストなし、ワンショットは単体テストのみ、少数ショットは結合テストまで求める"
+          "text": "7 ユニット"
         },
         {
           "id": "C",
-          "text": "ゼロショットは Chat 専用、ワンショットは補完専用、少数ショットは CLI 専用で使う"
+          "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
         },
         {
           "id": "D",
-          "text": "ゼロショットは短い会話、ワンショットは 1 PR、少数ショットは複数 PR を対象にする"
+          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "正解は A。公式ドキュメントでは、ゼロショットは具体例なし、ワンショットは単一の例、少数ショットは複数の例を提供して Copilot の応答を導く方法として説明しています。https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/2-prompt-engineering-foundations-best-practices"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
     {
       "questionNumber": 6,
       "type": "single",
-      "prompt": "長い Copilot Chat 履歴を扱う場合の推奨として最も適切なものはどれか。",
+      "prompt": "このモジュールの「LLM 単元」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "完全な履歴を毎回貼り直すことで、PRU の使用量を一定に保つ"
+          "text": "GitHub Copilot 大規模言語モデル (LLM)"
         },
         {
           "id": "B",
-          "text": "会話が長くなったら文脈を要約し、必要ならリセットして重要情報だけで再開する"
+          "text": "7 ユニット"
         },
         {
           "id": "C",
-          "text": "前の作業への参照を避け、すべての実装を毎回再生成させる"
+          "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
         },
         {
           "id": "D",
-          "text": "履歴が長いほど精度が必ず上がるため、会話は分割しない"
+          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
         }
       ],
       "correctAnswers": [
-        "B"
+        "A"
       ],
-      "explanation": "正解は B。公式ドキュメントでは、長い会話履歴は非効率でコストがかかる場合があり、文脈の要約、会話のリセット、前作業への簡潔な参照で管理すると説明しています。https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/2-prompt-engineering-foundations-best-practices"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
     {
       "questionNumber": 7,
       "type": "single",
-      "prompt": "公式ドキュメントが示す、長いプロンプトと PRU に関する説明として正しいものはどれか。",
+      "prompt": "このモジュールの「目的」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "長いプロンプトは常に 1 PRU 未満になり、短いプロンプトほど PRU が増える"
+          "text": "コード提案の精度と関連性を確保し開発サイクルを加速"
         },
         {
           "id": "B",
-          "text": "完全な会話履歴を含む長いプロンプトでは 1 ターンあたり 2 から 3 PRU を使うことがあり、要約やリセットで 1 PRU に近づけられる"
+          "text": "7 ユニット"
         },
         {
           "id": "C",
-          "text": "PRU はコード補完だけに関係し、Copilot Chat の履歴管理とは無関係である"
+          "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
         },
         {
           "id": "D",
-          "text": "PRU を減らすには、関連ファイルを増やしてモデルに全情報を渡すのが推奨される"
+          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
         }
       ],
       "correctAnswers": [
-        "B"
+        "A"
       ],
-      "explanation": "正解は B。公式ドキュメントでは、完全な会話履歴を含む長いプロンプトは 1 ターンあたり 2 から 3 PRU を使用する場合があり、要約やリセットで要求ごとに 1 PRU に近づけると説明しています。https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/2-prompt-engineering-foundations-best-practices"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
     {
       "questionNumber": 8,
       "type": "single",
-      "prompt": "ロールプロンプトの説明として最も適切なものはどれか。",
+      "prompt": "このモジュールの「プロンプト関係」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Copilot に特定の専門家として振る舞うよう指示し、セキュリティや性能などの観点を応答に反映させる"
+          "text": "プロンプトと Copilot 応答の複雑な関係を理解する"
         },
         {
           "id": "B",
-          "text": "リポジトリの権限ロールを変更し、Copilot が非公開コードへ追加アクセスできるようにする"
+          "text": "7 ユニット"
         },
         {
           "id": "C",
-          "text": "生成コードの所有者を Copilot に設定し、人間のレビュー責任をなくす"
+          "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
         },
         {
           "id": "D",
-          "text": "モデルを別の LLM に切り替えるための管理者専用コマンドである"
+          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "正解は A。公式ドキュメントでは、セキュリティ専門家、パフォーマンス最適化、テスト専門家などの役割を与えることで、対象領域に合った品質と関連性を高められると説明しています。https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/2-prompt-engineering-foundations-best-practices"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
     {
       "questionNumber": 9,
       "type": "single",
-      "prompt": "Copilot のインバウンド フローで収集されるコンテキストとして、公式ドキュメントに含まれるものはどれか。",
+      "prompt": "このモジュールの「コメント活用」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "カーソル前後のコード、ファイル名と種類、隣接する開いているタブ、プロジェクト構造や言語・フレームワーク情報"
+          "text": "コーディングコメントを実用的なコードに変換する"
         },
         {
           "id": "B",
-          "text": "ユーザーのブラウザー履歴、メール本文、カレンダー予定、ローカル端末の全ファイル"
+          "text": "7 ユニット"
         },
         {
           "id": "C",
-          "text": "過去に拒否されたすべての提案と、他ユーザーのプライベートリポジトリの実装"
+          "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
         },
         {
           "id": "D",
-          "text": "公開コードの完全なコピーと、管理者が無効化したフィルター設定"
+          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "正解は A。公式ドキュメントでは、プロンプトと同時に、カーソル前後のコード、ファイル名と種類、隣接タブ、プロジェクト構造、言語やフレームワークなどを収集すると説明しています。https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/3-github-copilot-user-prompt-process-flow"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
     {
       "questionNumber": 10,
       "type": "single",
-      "prompt": "FIM (Fill-in-the-Middle) 手法の説明として最も適切なものはどれか。",
+      "prompt": "このモジュールの「前提」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "公開コードと 150 文字以上一致する提案を常に返すための後処理"
+          "text": "基本的なコーディングの知識"
         },
         {
           "id": "B",
-          "text": "プロンプトを Azure テナントへ送る前に暗号化せず短縮する処理"
+          "text": "Copilot Business または Enterprise の組織管理者権限"
         },
         {
           "id": "C",
-          "text": "先行コードと後続コードの両方を考慮し、より広い文脈でコード提案を生成しやすくする前処理"
+          "text": "GitHub Actions の大きな runner を作成する権限"
         },
         {
           "id": "D",
-          "text": "選択範囲や開いているファイルの文脈は使われないため、プロンプトだけで全情報を再入力する必要がある"
+          "text": "MCP サーバーを Docker でローカル実行した経験"
         }
       ],
       "correctAnswers": [
-        "C"
+        "A"
       ],
-      "explanation": "正解は C。公式ドキュメントでは、FIM は前処理として先行と後続のコードコンテキストを考慮し、Copilot がより広範なコンテキストを利用して関連性の高い提案を生成するための手法と説明しています。https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/3-github-copilot-user-prompt-process-flow"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
     {
       "questionNumber": 11,
       "type": "single",
-      "prompt": "プロキシ フィルターの役割として最も適切なものはどれか。",
+      "prompt": "このモジュールの「GitHub アカウント」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "コード候補をユーザーの IDE に表示するために、Markdown の書式だけを整える"
+          "text": "コード エディターを Copilot に接続するために必要"
         },
         {
           "id": "B",
-          "text": "GitHub 所有の Microsoft Azure テナント上のプロキシで、プロンプトハッキングやシステム操作の試みを防ぐ"
+          "text": "7 ユニット"
         },
         {
           "id": "C",
-          "text": "Individual サブスクライバーの共有設定を強制的にオンにする"
+          "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
         },
         {
           "id": "D",
-          "text": "モデルの全レイヤーを毎回再トレーニングして、応答精度を上げる"
+          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
         }
       ],
       "correctAnswers": [
-        "B"
+        "A"
       ],
-      "explanation": "正解は B。公式ドキュメントでは、構築されたプロンプトが GitHub 所有の Microsoft Azure テナントでホストされるプロキシに渡され、プロンプトハッキングやシステム操作の試みを阻止すると説明しています。https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/3-github-copilot-user-prompt-process-flow"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
     {
       "questionNumber": 12,
       "type": "single",
-      "prompt": "有害性フィルタリングの対象として公式ドキュメントに挙げられているものはどれか。",
+      "prompt": "このモジュールの「対象ロール」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "ヘイトスピーチや不適切な内容、名前・住所・ID 番号などの個人データ"
+          "text": "開発者、DevOps エンジニア、Student"
         },
         {
           "id": "B",
-          "text": "すべての未使用 import と、プロジェクトで利用していない依存関係"
+          "text": "AI エンジニア、セキュリティ監査担当者、営業担当者"
         },
         {
           "id": "C",
-          "text": "スタイルガイドに合わない変数名や、テストカバレッジ不足の関数"
+          "text": "管理者のみ"
         },
         {
           "id": "D",
-          "text": "Issue のラベル不足や、PR テンプレートの未入力項目"
+          "text": "Student のみ"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "正解は A。公式ドキュメントでは、意図抽出とコード生成の前にコンテンツフィルターがあり、ヘイトスピーチなどの不適切な内容や個人データを検出・除外する仕組みとして説明しています。https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/3-github-copilot-user-prompt-process-flow"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
     {
       "questionNumber": 13,
       "type": "single",
-      "prompt": "公開コードとの一致フィルターについて、公式ドキュメントの説明に合うものはどれか。",
+      "prompt": "このモジュールの「モジュール評価」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "常に有効で、50 文字を超えるすべての提案を GitHub の公開コードと照合して破棄する"
+          "text": "サインインして正答するとプロファイルのパス指定を取得できる"
         },
         {
           "id": "B",
-          "text": "管理者が必要に応じて有効化でき、150 文字を超える提案が公開コードに似ている場合に返さないようにできる"
+          "text": "7 ユニット"
         },
         {
           "id": "C",
-          "text": "個人データの検出専用で、コードの類似性や公開コードとは関係しない"
+          "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
         },
         {
           "id": "D",
-          "text": "選択範囲や開いているファイルの文脈は使われないため、プロンプトだけで全情報を再入力する必要がある"
+          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
         }
       ],
       "correctAnswers": [
-        "B"
+        "A"
       ],
-      "explanation": "正解は B。公式ドキュメントでは、管理者が任意で、Copilot からの 150 文字を超える提案が GitHub の公開コードによく似ている場合に返さないフィルターを有効にできると説明しています。https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/3-github-copilot-user-prompt-process-flow"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
     {
       "questionNumber": 14,
       "type": "single",
-      "prompt": "コード エディター内の GitHub Copilot のコード提案に関するデータ処理として正しいものはどれか。",
+      "prompt": "このモジュールの「範囲外」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "提案に使うプロンプトやコード文脈を、基本モデルのトレーニング目的では保持せず、提案後に破棄する"
+          "text": "Cloud Agent の copilot-setup-steps.yml の許可キー"
         },
         {
           "id": "B",
-          "text": "すべてのプロンプトを永久保存し、既定で基本モデルの再学習に使う"
+          "text": "7 ユニット"
         },
         {
           "id": "C",
-          "text": "コード提案と Copilot Chat の保持ポリシーは常に同一で、28 日固定である"
+          "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
         },
         {
           "id": "D",
-          "text": "保持されるかどうかはファイル拡張子だけで決まり、サブスクリプション設定とは無関係である"
+          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "正解は A。公式ドキュメントでは、コード エディター内の GitHub Copilot は、コード提案に使うプロンプトやその他コンテキストを基本モデルのトレーニング目的では保持せず、提案を返した後に破棄すると説明しています。https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/4-github-copilot-data"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
     {
       "questionNumber": 15,
       "type": "single",
-      "prompt": "GitHub Copilot Individual のプロンプト共有について、公式ドキュメントの説明に合うものはどれか。",
+      "prompt": "このモジュールの「コンテキスト」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Individual サブスクライバーは、GitHub とのプロンプト共有をオプトアウトできる"
+          "text": "コンテキスト分析で応答を最適化する"
         },
         {
           "id": "B",
-          "text": "Individual ではプロンプト共有は常に無効で、ユーザー設定は存在しない"
+          "text": "7 ユニット"
         },
         {
           "id": "C",
-          "text": "プロンプト共有の可否は、PR の公開・非公開だけで自動決定される"
+          "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
         },
         {
           "id": "D",
-          "text": "オプトアウトできるのは Organization 所有リポジトリだけである"
+          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "正解は A。公式ドキュメントでは、GitHub Copilot Individual のサブスクライバーは GitHub とのプロンプト共有をオプトアウトでき、そうしない場合は基本モデルの微調整に使われると説明しています。https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/4-github-copilot-data"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
     {
       "questionNumber": 16,
       "type": "single",
-      "prompt": "コード エディター外で使われる Copilot Chat のデータ保持として、公式ドキュメントの説明に合うものはどれか。",
+      "prompt": "このモジュールの「フィルター」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "プロンプト、提案、関連コンテキストは通常 24 時間だけ保持される"
+          "text": "コンテンツ フィルター処理が処理フローに含まれる"
         },
         {
           "id": "B",
-          "text": "GitHub では通常、プロンプト、提案、関連コンテキストを 28 日間保持する"
+          "text": "7 ユニット"
         },
         {
           "id": "C",
-          "text": "Copilot Chat の会話履歴はコード補完と同様に提案後ただちに必ず破棄される"
+          "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
         },
         {
           "id": "D",
-          "text": "保持期間は常に 150 文字超の提案だけに適用される"
+          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
         }
       ],
       "correctAnswers": [
-        "B"
+        "A"
       ],
-      "explanation": "正解は B。公式ドキュメントでは、コード エディター外で使用される Copilot Chat について、GitHub が通常、プロンプト、提案、関連コンテキストを 28 日間保持すると説明しています。https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/4-github-copilot-data"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
     {
       "questionNumber": 17,
       "type": "single",
-      "prompt": "Copilot Chat でサポートされるプロンプトの種類として、公式ドキュメントの分類に含まれないものはどれか。",
+      "prompt": "このモジュールの「履歴管理」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "直接の質問"
+          "text": "チャット履歴管理がベスト プラクティスに含まれる"
         },
         {
           "id": "B",
-          "text": "コード関連の要求"
+          "text": "7 ユニット"
         },
         {
           "id": "C",
-          "text": "コンテキスト プロンプト"
+          "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
         },
         {
           "id": "D",
-          "text": "リポジトリ権限を変更する管理者承認プロンプト"
+          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
         }
       ],
       "correctAnswers": [
-        "D"
+        "A"
       ],
-      "explanation": "正解は D。公式ドキュメントでは、Copilot Chat の一般的な入力として、直接の質問、コード関連の要求、自由回答式クエリ、コンテキスト プロンプトを挙げていますが、権限変更用の管理者承認プロンプトは分類されていません。https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/4-github-copilot-data"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
     {
       "questionNumber": 18,
       "type": "single",
-      "prompt": "制限付きコンテキスト ウィンドウへの対応として最も適切なものはどれか。",
+      "prompt": "このモジュールの「ロール」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "複雑な問題を小さく焦点を絞ったクエリに分け、関連するコードスニペットを提供する"
+          "text": "ロール プロンプトで回答観点を調整する"
         },
         {
           "id": "B",
-          "text": "モデルが処理できる文脈量に上限はないため、関係ないログもすべて貼る"
+          "text": "7 ユニット"
         },
         {
           "id": "C",
-          "text": "常に 4K トークンを超える入力を送ると、回答の正確性が上がる"
+          "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
         },
         {
           "id": "D",
-          "text": "コンテキスト ウィンドウはコード補完だけの概念で、Chat には関係しない"
+          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "正解は A。公式ドキュメントでは、Copilot Chat には同時に処理できる文脈量の制限があり、複雑な問題を小さく焦点化したクエリに分けたり、関連コードを提供したりすると応答の有用性が上がると説明しています。https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/4-github-copilot-data"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
     {
       "questionNumber": 19,
       "type": "single",
-      "prompt": "GitHub Copilot における LLM の役割として最も適切なものはどれか。",
+      "prompt": "このモジュールの「効率」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "現在のファイルだけでなく、IDE 内の他の開いているファイルやタブも考慮して、文脈に対応したコード提案を生成する"
+          "text": "効率的なリソース使用のために処理が最適化される"
         },
         {
           "id": "B",
-          "text": "GitHub のアクセス許可を上書きし、Copilot が必要と判断した非公開コードを自動取得する"
+          "text": "7 ユニット"
         },
         {
           "id": "C",
-          "text": "ユーザーのプロンプトを保持し続け、すべての応答を基本モデルへ即時反映する"
+          "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
         },
         {
           "id": "D",
-          "text": "フィルター処理をすべて無効化し、モデル本体だけでセキュリティ判断を完了する"
+          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "正解は A。公式ドキュメントでは、GitHub Copilot は LLM を使って、現在のファイルに加えて IDE 内の他の開いているファイルやタブも考慮し、関連するコード補完を生成すると説明しています。https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/5-github-copilot-large-language-models"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
     {
       "questionNumber": 20,
       "type": "single",
-      "prompt": "LoRA による微調整について、公式ドキュメントの説明に合うものはどれか。",
+      "prompt": "このモジュールの「まとめ」に対応する記載はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "従来の完全な微調整と同じく、ニューラルネットワークのすべての部分を毎回トレーニングする"
+          "text": "効果的なプロンプト作成と処理メカニズムを扱う"
         },
         {
           "id": "B",
-          "text": "プロンプトを短くするための会話履歴圧縮機能であり、モデル調整とは関係しない"
+          "text": "7 ユニット"
         },
         {
           "id": "C",
-          "text": "公開コードとの一致フィルターを置き換え、著作権上の偶然一致を検出する仕組み"
+          "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
         },
         {
           "id": "D",
-          "text": "事前トレーニング済みモデルの各レイヤーに小さなトレーニング可能パーツを追加し、元のモデルを保ちながら効率よく適応させる"
+          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
         }
       ],
       "correctAnswers": [
-        "D"
+        "A"
       ],
-      "explanation": "正解は D。公式ドキュメントでは、LoRA は全体を変更する代わりに事前トレーニング済みモデルの各レイヤーへ小さなトレーニング可能パーツを追加し、元のモデルを保つことで時間とリソースを節約すると説明しています。https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/5-github-copilot-large-language-models"
+      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     }
   ]
 }
