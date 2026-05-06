@@ -1,546 +1,546 @@
 {
   "title": "Microsoft Learn GitHub Copilot 基本編: Copilot Spaces",
-  "description": "Microsoft Learn「コピロット空間の概要」に基づく詳細確認クイズ（20問）",
+  "description": "Microsoft Learn「コピロット空間の概要」に基づく確認クイズ（20問）",
   "questions": [
     {
       "questionNumber": 1,
       "type": "single",
-      "prompt": "このモジュールの「ユニット数」に対応する記載はどれか。",
+      "prompt": "Copilot Spaces の目的について最も適切な説明はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "6 ユニット"
+          "text": "共有スペースではアクセス権や対象コンテキストの管理は不要である"
         },
         {
           "id": "B",
-          "text": "5 ユニット"
+          "text": "Spaces は一時的なチャットであり、対象リポジトリやカスタム命令を保持する用途ではない"
         },
         {
           "id": "C",
-          "text": "8 ユニット"
+          "text": "プロジェクト固有の文脈を集約し、根拠のある応答を得るための専用空間を作ること"
         },
         {
           "id": "D",
-          "text": "7 ユニット"
+          "text": "スペースに情報を多く入れるほど常に精度が上がり、文脈の選別は不要である"
         }
       ],
       "correctAnswers": [
-        "D"
+        "C"
       ],
-      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "Copilot Spaces の目的では、プロジェクト固有の文脈を集約し、根拠のある応答を得るための専用空間を作ることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     },
     {
       "questionNumber": 2,
       "type": "single",
-      "prompt": "このモジュールの「難易度」に対応する記載はどれか。",
+      "prompt": "通常の Copilot Chat との違いについて最も適切な説明はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "上級"
+          "text": "Spaces は一時的なチャットであり、対象リポジトリやカスタム命令を保持する用途ではない"
         },
         {
           "id": "B",
-          "text": "管理者向け"
+          "text": "共有スペースではアクセス権や対象コンテキストの管理は不要である"
         },
         {
           "id": "C",
-          "text": "初級"
+          "text": "スペースに情報を多く入れるほど常に精度が上がり、文脈の選別は不要である"
         },
         {
           "id": "D",
-          "text": "中級"
+          "text": "単発の会話よりも対象コンテキストとカスタム指示を保ちやすいこと"
         }
       ],
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "通常の Copilot Chat との違いでは、単発の会話よりも対象コンテキストとカスタム指示を保ちやすいことが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     },
     {
       "questionNumber": 3,
       "type": "single",
-      "prompt": "このモジュールの「前提」に対応する記載はどれか。",
+      "prompt": "スペースを使う場面について最も適切な説明はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
+          "text": "Spaces は一時的なチャットであり、対象リポジトリやカスタム命令を保持する用途ではない"
         },
         {
           "id": "B",
-          "text": "GitHub Actions の大きな runner を作成する権限"
+          "text": "スペースに情報を多く入れるほど常に精度が上がり、文脈の選別は不要である"
         },
         {
           "id": "C",
-          "text": "Copilot Business または Enterprise の組織管理者権限"
+          "text": "共有スペースではアクセス権や対象コンテキストの管理は不要である"
         },
         {
           "id": "D",
-          "text": "MCP サーバーを Docker でローカル実行した経験"
+          "text": "リポジトリ、Issue、PR、設計判断などチーム固有の知識を扱う場面"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
-      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "スペースを使う場面では、リポジトリ、Issue、PR、設計判断などチーム固有の知識を扱う場面が重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     },
     {
       "questionNumber": 4,
       "type": "single",
-      "prompt": "このモジュールの「アクセス条件」に対応する記載はどれか。",
+      "prompt": "ターゲットコンテキストについて最も適切な説明はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "環境内のスペース機能へのアクセスは可用性が異なる場合がある"
+          "text": "Spaces は一時的なチャットであり、対象リポジトリやカスタム命令を保持する用途ではない"
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "共有スペースではアクセス権や対象コンテキストの管理は不要である"
         },
         {
           "id": "C",
-          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
+          "text": "スペースが参照するリポジトリや資料などの対象文脈"
         },
         {
           "id": "D",
-          "text": "中級"
+          "text": "スペースに情報を多く入れるほど常に精度が上がり、文脈の選別は不要である"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
-      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "ターゲットコンテキストでは、スペースが参照するリポジトリや資料などの対象文脈が重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     },
     {
       "questionNumber": 5,
       "type": "single",
-      "prompt": "このモジュールの「基礎知識」に対応する記載はどれか。",
+      "prompt": "カスタム命令について最も適切な説明はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "GitHub Actions の大きな runner を作成する権限"
+          "text": "共有スペースではアクセス権や対象コンテキストの管理は不要である"
         },
         {
           "id": "B",
-          "text": "MCP サーバーを Docker でローカル実行した経験"
+          "text": "回答方針、用語、制約、スタイルを Copilot に伝える指示"
         },
         {
           "id": "C",
-          "text": "Copilot Business または Enterprise の組織管理者権限"
+          "text": "Spaces は一時的なチャットであり、対象リポジトリやカスタム命令を保持する用途ではない"
         },
         {
           "id": "D",
-          "text": "リポジトリ、問題、プル要求に関する基本的な知識"
+          "text": "スペースに情報を多く入れるほど常に精度が上がり、文脈の選別は不要である"
         }
       ],
       "correctAnswers": [
-        "D"
+        "B"
       ],
-      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "カスタム命令では、回答方針、用語、制約、スタイルを Copilot に伝える指示が重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     },
     {
       "questionNumber": 6,
       "type": "single",
-      "prompt": "このモジュールの「学習目的」に対応する記載はどれか。",
+      "prompt": "スペース作成後の反復について最も適切な説明はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
+          "text": "Spaces は一時的なチャットであり、対象リポジトリやカスタム命令を保持する用途ではない"
         },
         {
           "id": "B",
-          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
+          "text": "スペースに情報を多く入れるほど常に精度が上がり、文脈の選別は不要である"
         },
         {
           "id": "C",
-          "text": "Copilot の提案をレビュー不要でマージできるようにする"
+          "text": "回答品質を見ながらコンテキストや指示を調整すること"
         },
         {
           "id": "D",
-          "text": "通常の Copilot Chat と比較してスペースを説明する"
+          "text": "共有スペースではアクセス権や対象コンテキストの管理は不要である"
         }
       ],
       "correctAnswers": [
-        "D"
+        "C"
       ],
-      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "スペース作成後の反復では、回答品質を見ながらコンテキストや指示を調整することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     },
     {
       "questionNumber": 7,
       "type": "single",
-      "prompt": "このモジュールの「構成要素」に対応する記載はどれか。",
+      "prompt": "根拠のある回答について最も適切な説明はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "ターゲット コンテキストとカスタム命令"
+          "text": "Spaces は一時的なチャットであり、対象リポジトリやカスタム命令を保持する用途ではない"
         },
         {
           "id": "B",
-          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
+          "text": "指定した文脈に基づいて回答し、推測を減らすこと"
         },
         {
           "id": "C",
-          "text": "7 ユニット"
+          "text": "共有スペースではアクセス権や対象コンテキストの管理は不要である"
         },
         {
           "id": "D",
-          "text": "中級"
+          "text": "スペースに情報を多く入れるほど常に精度が上がり、文脈の選別は不要である"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
-      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "根拠のある回答では、指定した文脈に基づいて回答し、推測を減らすことが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     },
     {
       "questionNumber": 8,
       "type": "single",
-      "prompt": "このモジュールの「品質目標」に対応する記載はどれか。",
+      "prompt": "コンテキスト制限について最も適切な説明はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
+          "text": "スペースに情報を多く入れるほど常に精度が上がり、文脈の選別は不要である"
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "Spaces は一時的なチャットであり、対象リポジトリやカスタム命令を保持する用途ではない"
         },
         {
           "id": "C",
-          "text": "中級"
+          "text": "共有スペースではアクセス権や対象コンテキストの管理は不要である"
         },
         {
           "id": "D",
-          "text": "モデル コンテキスト制限内で根拠のある回答を得る"
+          "text": "モデルが一度に扱える文脈量には上限があること"
         }
       ],
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "コンテキスト制限では、モデルが一度に扱える文脈量には上限があることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     },
     {
       "questionNumber": 9,
       "type": "single",
-      "prompt": "このモジュールの「ユニット」に対応する記載はどれか。",
+      "prompt": "文脈の選別について最も適切な説明はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "中級"
+          "text": "共有スペースではアクセス権や対象コンテキストの管理は不要である"
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "重要で新しい情報を優先し、無関係な情報を減らすこと"
         },
         {
           "id": "C",
-          "text": "最初のスペースの作成"
+          "text": "Spaces は一時的なチャットであり、対象リポジトリやカスタム命令を保持する用途ではない"
         },
         {
           "id": "D",
-          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
-        }
-      ],
-      "correctAnswers": [
-        "C"
-      ],
-      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
-    },
-    {
-      "questionNumber": 10,
-      "type": "single",
-      "prompt": "このモジュールの「ユニット」に対応する記載はどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "中級"
-        },
-        {
-          "id": "B",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "C",
-          "text": "共有、検出可能性、ガバナンス"
-        },
-        {
-          "id": "D",
-          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
-        }
-      ],
-      "correctAnswers": [
-        "C"
-      ],
-      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
-    },
-    {
-      "questionNumber": 11,
-      "type": "single",
-      "prompt": "このモジュールの「ユニット」に対応する記載はどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
-        },
-        {
-          "id": "B",
-          "text": "宇宙空間で働く際の心得"
-        },
-        {
-          "id": "C",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "D",
-          "text": "中級"
+          "text": "スペースに情報を多く入れるほど常に精度が上がり、文脈の選別は不要である"
         }
       ],
       "correctAnswers": [
         "B"
       ],
-      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "文脈の選別では、重要で新しい情報を優先し、無関係な情報を減らすことが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     },
     {
-      "questionNumber": 12,
+      "questionNumber": 10,
       "type": "single",
-      "prompt": "このモジュールの「演習」に対応する記載はどれか。",
+      "prompt": "共有について最も適切な説明はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "7 ユニット"
+          "text": "Spaces は一時的なチャットであり、対象リポジトリやカスタム命令を保持する用途ではない"
         },
         {
           "id": "B",
-          "text": "中級"
+          "text": "共有スペースではアクセス権や対象コンテキストの管理は不要である"
         },
         {
           "id": "C",
-          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
+          "text": "チームが同じ文脈を使って質問や計画を進められるようにすること"
         },
         {
           "id": "D",
-          "text": "Copilot Spaces を使用して部族の知識を民主化する"
+          "text": "スペースに情報を多く入れるほど常に精度が上がり、文脈の選別は不要である"
         }
       ],
       "correctAnswers": [
-        "D"
+        "C"
       ],
-      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "共有では、チームが同じ文脈を使って質問や計画を進められるようにすることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     },
     {
-      "questionNumber": 13,
+      "questionNumber": 11,
       "type": "single",
-      "prompt": "このモジュールの「対象ロール」に対応する記載はどれか。",
+      "prompt": "検出可能性について最も適切な説明はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "DevOps エンジニア、管理者、開発者、ソリューション アーキテクト"
+          "text": "必要な人が適切なスペースを見つけて使える状態にすること"
         },
         {
           "id": "B",
-          "text": "Student のみ"
+          "text": "共有スペースではアクセス権や対象コンテキストの管理は不要である"
         },
         {
           "id": "C",
-          "text": "管理者のみ"
+          "text": "Spaces は一時的なチャットであり、対象リポジトリやカスタム命令を保持する用途ではない"
         },
         {
           "id": "D",
-          "text": "AI エンジニア、セキュリティ監査担当者、営業担当者"
+          "text": "スペースに情報を多く入れるほど常に精度が上がり、文脈の選別は不要である"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "検出可能性では、必要な人が適切なスペースを見つけて使える状態にすることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+    },
+    {
+      "questionNumber": 12,
+      "type": "single",
+      "prompt": "ガバナンスについて最も適切な説明はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "アクセス権、共有範囲、情報の扱いを管理すること"
+        },
+        {
+          "id": "B",
+          "text": "スペースに情報を多く入れるほど常に精度が上がり、文脈の選別は不要である"
+        },
+        {
+          "id": "C",
+          "text": "Spaces は一時的なチャットであり、対象リポジトリやカスタム命令を保持する用途ではない"
+        },
+        {
+          "id": "D",
+          "text": "共有スペースではアクセス権や対象コンテキストの管理は不要である"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "ガバナンスでは、アクセス権、共有範囲、情報の扱いを管理することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+    },
+    {
+      "questionNumber": 13,
+      "type": "single",
+      "prompt": "部族知識の民主化について最も適切な説明はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "スペースに情報を多く入れるほど常に精度が上がり、文脈の選別は不要である"
+        },
+        {
+          "id": "B",
+          "text": "特定メンバーだけが知る暗黙知をスペースで共有可能にすること"
+        },
+        {
+          "id": "C",
+          "text": "Spaces は一時的なチャットであり、対象リポジトリやカスタム命令を保持する用途ではない"
+        },
+        {
+          "id": "D",
+          "text": "共有スペースではアクセス権や対象コンテキストの管理は不要である"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "explanation": "部族知識の民主化では、特定メンバーだけが知る暗黙知をスペースで共有可能にすることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     },
     {
       "questionNumber": 14,
       "type": "single",
-      "prompt": "このモジュールの「主題」に対応する記載はどれか。",
+      "prompt": "スペースで避けることについて最も適切な説明はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "中級"
+          "text": "Spaces は一時的なチャットであり、対象リポジトリやカスタム命令を保持する用途ではない"
         },
         {
           "id": "B",
-          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
+          "text": "スペースに情報を多く入れるほど常に精度が上がり、文脈の選別は不要である"
         },
         {
           "id": "C",
-          "text": "スペースを作成、構成、使用する方法"
+          "text": "共有スペースではアクセス権や対象コンテキストの管理は不要である"
         },
         {
           "id": "D",
-          "text": "7 ユニット"
+          "text": "秘密情報や不要に広い権限を含めること"
         }
       ],
       "correctAnswers": [
-        "C"
+        "D"
       ],
-      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "スペースで避けることでは、秘密情報や不要に広い権限を含めることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     },
     {
       "questionNumber": 15,
       "type": "single",
-      "prompt": "このモジュールの「範囲外」に対応する記載はどれか。",
+      "prompt": "回答品質の確認について最も適切な説明はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "7 ユニット"
+          "text": "スペースの回答も人間が文脈と照合して検証すること"
         },
         {
           "id": "B",
-          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
+          "text": "共有スペースではアクセス権や対象コンテキストの管理は不要である"
         },
         {
           "id": "C",
-          "text": "Cloud Agent の Actions 実行時間管理"
+          "text": "Spaces は一時的なチャットであり、対象リポジトリやカスタム命令を保持する用途ではない"
         },
         {
           "id": "D",
-          "text": "中級"
+          "text": "スペースに情報を多く入れるほど常に精度が上がり、文脈の選別は不要である"
         }
       ],
       "correctAnswers": [
-        "C"
+        "A"
       ],
-      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "回答品質の確認では、スペースの回答も人間が文脈と照合して検証することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     },
     {
       "questionNumber": 16,
       "type": "single",
-      "prompt": "このモジュールの「ガバナンス」に対応する記載はどれか。",
+      "prompt": "計画用途について最も適切な説明はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "中級"
+          "text": "スペースに情報を多く入れるほど常に精度が上がり、文脈の選別は不要である"
         },
         {
           "id": "B",
-          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
+          "text": "要件整理、設計案、移行計画などの検討に使えること"
         },
         {
           "id": "C",
-          "text": "共有と検出可能性を含む運用が論点"
+          "text": "Spaces は一時的なチャットであり、対象リポジトリやカスタム命令を保持する用途ではない"
         },
         {
           "id": "D",
-          "text": "7 ユニット"
+          "text": "共有スペースではアクセス権や対象コンテキストの管理は不要である"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "explanation": "計画用途では、要件整理、設計案、移行計画などの検討に使えることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+    },
+    {
+      "questionNumber": 17,
+      "type": "single",
+      "prompt": "PR や Issue 文脈について最も適切な説明はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "変更理由や未解決課題の把握に役立つこと"
+        },
+        {
+          "id": "B",
+          "text": "Spaces は一時的なチャットであり、対象リポジトリやカスタム命令を保持する用途ではない"
+        },
+        {
+          "id": "C",
+          "text": "共有スペースではアクセス権や対象コンテキストの管理は不要である"
+        },
+        {
+          "id": "D",
+          "text": "スペースに情報を多く入れるほど常に精度が上がり、文脈の選別は不要である"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "PR や Issue 文脈では、変更理由や未解決課題の把握に役立つことが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+    },
+    {
+      "questionNumber": 18,
+      "type": "single",
+      "prompt": "チーム利用の利点について最も適切な説明はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "スペースに情報を多く入れるほど常に精度が上がり、文脈の選別は不要である"
+        },
+        {
+          "id": "B",
+          "text": "共有スペースではアクセス権や対象コンテキストの管理は不要である"
+        },
+        {
+          "id": "C",
+          "text": "同じ前提で議論しやすくなり、知識のばらつきを減らせること"
+        },
+        {
+          "id": "D",
+          "text": "Spaces は一時的なチャットであり、対象リポジトリやカスタム命令を保持する用途ではない"
         }
       ],
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
-    },
-    {
-      "questionNumber": 17,
-      "type": "single",
-      "prompt": "このモジュールの「反復」に対応する記載はどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "B",
-          "text": "中級"
-        },
-        {
-          "id": "C",
-          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
-        },
-        {
-          "id": "D",
-          "text": "ターゲット コンテキストと命令を調整して反復する"
-        }
-      ],
-      "correctAnswers": [
-        "D"
-      ],
-      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
-    },
-    {
-      "questionNumber": 18,
-      "type": "single",
-      "prompt": "このモジュールの「通常チャットとの差」に対応する記載はどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
-        },
-        {
-          "id": "B",
-          "text": "単発チャットより文脈化された応答に使う"
-        },
-        {
-          "id": "C",
-          "text": "中級"
-        },
-        {
-          "id": "D",
-          "text": "7 ユニット"
-        }
-      ],
-      "correctAnswers": [
-        "B"
-      ],
-      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "チーム利用の利点では、同じ前提で議論しやすくなり、知識のばらつきを減らせることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     },
     {
       "questionNumber": 19,
       "type": "single",
-      "prompt": "このモジュールの「制限」に対応する記載はどれか。",
+      "prompt": "制限への対応について最も適切な説明はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "7 ユニット"
+          "text": "情報を整理し、必要ならスペースを分けること"
         },
         {
           "id": "B",
-          "text": "モデル コンテキストの制限を意識する"
+          "text": "Spaces は一時的なチャットであり、対象リポジトリやカスタム命令を保持する用途ではない"
         },
         {
           "id": "C",
-          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
+          "text": "共有スペースではアクセス権や対象コンテキストの管理は不要である"
         },
         {
           "id": "D",
-          "text": "中級"
+          "text": "スペースに情報を多く入れるほど常に精度が上がり、文脈の選別は不要である"
         }
       ],
       "correctAnswers": [
-        "B"
+        "A"
       ],
-      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "制限への対応では、情報を整理し、必要ならスペースを分けることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     },
     {
       "questionNumber": 20,
       "type": "single",
-      "prompt": "このモジュールの「まとめ」に対応する記載はどれか。",
+      "prompt": "まとめについて最も適切な説明はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "中級"
+          "text": "Spaces は一時的なチャットであり、対象リポジトリやカスタム命令を保持する用途ではない"
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "スペースに情報を多く入れるほど常に精度が上がり、文脈の選別は不要である"
         },
         {
           "id": "C",
-          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
+          "text": "文脈、指示、共有、ガバナンスを整えて Copilot Spaces を使うこと"
         },
         {
           "id": "D",
-          "text": "スペースの作成、共有、ガバナンス、根拠ある回答を扱う"
+          "text": "共有スペースではアクセス権や対象コンテキストの管理は不要である"
         }
       ],
       "correctAnswers": [
-        "D"
+        "C"
       ],
-      "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "まとめでは、文脈、指示、共有、ガバナンスを整えて Copilot Spaces を使うことが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     }
   ]
 }
