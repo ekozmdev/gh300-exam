@@ -1,550 +1,585 @@
 {
   "title": "Microsoft Learn GH Copilot 2: Copilot Cloud Agent",
-  "description": "Microsoft Learn「GitHub Copilot Cloud Agent を使用して開発を高速化する」に基づく確認クイズ（20問）",
+  "description": "Microsoft Learn「GitHub Copilot Cloud Agent を使用して開発を高速化する」に基づく詳細確認クイズ（20問）",
   "questions": [
     {
       "questionNumber": 1,
-      "type": "single",
-      "prompt": "Copilot Cloud Agent の基本的な役割はどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "GitHub 上でタスクを割り当てられ、独立した環境で実装作業を進めるエージェント"
-        },
-        {
-          "id": "B",
-          "text": "ローカル IDE のテーマを変更する機能"
-        },
-        {
-          "id": "C",
-          "text": "Cloud Agent の PR は AI 作成なので、通常の CI やレビュー対象から外すべきである"
-        },
-        {
-          "id": "D",
-          "text": "PR 作成後のレビュー工程を省略し、Cloud Agent の判断だけで変更を取り込む機能"
-        }
-      ],
-      "correctAnswers": [
-        "A"
-      ],
-      "explanation": "Copilot Cloud Agent は GitHub 上の課題やタスクを割り当てられ、クラウド側の開発環境で変更を行い、PR などで成果を返します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/"
-    },
-    {
-      "questionNumber": 2,
-      "type": "single",
-      "prompt": "Copilot Cloud Agent を利用するために、Business や Enterprise 組織で必要になり得ることはどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "管理者がポリシーで利用を有効化する"
-        },
-        {
-          "id": "B",
-          "text": "Cloud Agent の PR は AI 作成なので、通常の CI やレビュー対象から外すべきである"
-        },
-        {
-          "id": "C",
-          "text": "Business/Enterprise では組織ポリシーに関係なく、全リポジトリで常に有効である"
-        },
-        {
-          "id": "D",
-          "text": "Git を使わない運用に変える"
-        }
-      ],
-      "correctAnswers": [
-        "A"
-      ],
-      "explanation": "組織利用では、管理者が Copilot Cloud Agent の利用可否を制御できます。組織ポリシーや権限設定の確認が必要です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/"
-    },
-    {
-      "questionNumber": 3,
-      "type": "single",
-      "prompt": "Copilot Cloud Agent にタスクを任せる単位として自然なものはどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "明確な Issue や作業依頼"
-        },
-        {
-          "id": "B",
-          "text": "曖昧な一言だけの願望"
-        },
-        {
-          "id": "C",
-          "text": "リポジトリと無関係な雑談"
-        },
-        {
-          "id": "D",
-          "text": "Cloud Agent の PR は AI 作成なので、通常の CI やレビュー対象から外すべきである"
-        }
-      ],
-      "correctAnswers": [
-        "A"
-      ],
-      "explanation": "Cloud Agent は、実装すべき内容、期待結果、制約が明確な Issue やタスクとして割り当てると効果的です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/"
-    },
-    {
-      "questionNumber": 4,
-      "type": "single",
-      "prompt": "Copilot Cloud Agent が作業結果を示す代表的な形はどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "変更を含む pull request"
-        },
-        {
-          "id": "B",
-          "text": "Copilot Cloud Agent は利用者のローカル PC を直接操作し、GitHub 上の PR は使わない"
-        },
-        {
-          "id": "C",
-          "text": "ローカルブラウザー履歴の更新"
-        },
-        {
-          "id": "D",
-          "text": "Business/Enterprise では組織ポリシーに関係なく、全リポジトリで常に有効である"
-        }
-      ],
-      "correctAnswers": [
-        "A"
-      ],
-      "explanation": "Cloud Agent は作業ブランチや pull request を通じて変更を提示し、人間がレビューできる形で成果を返します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/"
-    },
-    {
-      "questionNumber": 5,
-      "type": "single",
-      "prompt": "Copilot Cloud Agent のタスク追跡で確認すべきものはどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "セッションの進行状況、ログ、作成された PR やコメント"
-        },
-        {
-          "id": "B",
-          "text": "利用者の個人用写真"
-        },
-        {
-          "id": "C",
-          "text": "関係ない Organization の秘密情報"
-        },
-        {
-          "id": "D",
-          "text": "ブラウザーの表示倍率だけ"
-        }
-      ],
-      "correctAnswers": [
-        "A"
-      ],
-      "explanation": "Cloud Agent の作業はセッションや PR 上で追跡できます。進行状況、失敗理由、作成された変更を確認することが重要です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/"
-    },
-    {
-      "questionNumber": 6,
       "type": "multiple",
       "selectionCount": 2,
-      "prompt": "Copilot Cloud Agent に向いたタスクの特徴を 2 つ選べ。",
+      "prompt": "Copilot Cloud Agent の可用性について正しいものを 2 つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "作業範囲と期待成果が明確"
+          "text": "Copilot Pro、Pro+、Business、Enterprise の各プランで利用できる"
         },
         {
           "id": "B",
-          "text": "レビュー可能なコード変更として完結しやすい"
+          "text": "GitHub でホストされているリポジトリで動作するが、マネージド ユーザー アカウント所有など一部例外がある"
         },
         {
           "id": "C",
-          "text": "機密情報を大量に必要とする"
+          "text": "GitHub Copilot Free でも組織ポリシーを有効化すれば Cloud Agent を利用できる"
         },
         {
           "id": "D",
-          "text": "要件が存在せず判断基準もない"
+          "text": "GitHub 以外でホストされている Git リポジトリでも、Actions ランナーがあれば同じように動作する"
         }
       ],
       "correctAnswers": [
         "A",
         "B"
       ],
-      "explanation": "Cloud Agent には、明確でレビュー可能な開発タスクが向いています。曖昧すぎる依頼や秘密情報依存の作業は避けるべきです。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/"
+      "explanation": "公式ドキュメントでは、Cloud Agent は Copilot Pro / Pro+ / Business / Enterprise で利用でき、GitHub でホストされたリポジトリが前提だと説明されています。一方、GitHub 以外のホストや一部の管理対象リポジトリは対象外です。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/1-understand-enable-github-copilot-code-agent"
+    },
+    {
+      "questionNumber": 2,
+      "type": "single",
+      "prompt": "Cloud Agent と IDE の「エージェント モード」の違いとして最も正しいものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cloud Agent は GitHub Actions を利用した環境で自律実行され、Issue や Copilot Chat から割り当てた開発タスクを完了する"
+        },
+        {
+          "id": "B",
+          "text": "Cloud Agent は VS Code 内のローカル編集専用で、GitHub 上のブランチや PR は作成しない"
+        },
+        {
+          "id": "C",
+          "text": "IDE のエージェント モードは GitHub Actions 上で動き、Cloud Agent はローカル IDE セッションだけで動く"
+        },
+        {
+          "id": "D",
+          "text": "両者は同じ機能名の別表記であり、実行場所やレビュー方法に違いはない"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式ドキュメントでは、Cloud Agent は GitHub Actions を利用した環境でタスクを進め、IDE のエージェント モードは IDE セッションでローカル編集を行うものとして区別されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/1-understand-enable-github-copilot-code-agent"
+    },
+    {
+      "questionNumber": 3,
+      "type": "multiple",
+      "selectionCount": 2,
+      "prompt": "Copilot Cloud Agent に作業を委任する主な方法として正しいものを 2 つ選べ。",
+      "options": [
+        {
+          "id": "A",
+          "text": "GitHub.com、GitHub Mobile、API/CLI から Issue を Copilot に割り当てる"
+        },
+        {
+          "id": "B",
+          "text": "GitHub の Agents パネル、Copilot Chat、MCP 対応 IDE、Raycast などからコード変更を Copilot に依頼する"
+        },
+        {
+          "id": "C",
+          "text": "任意の既存 PR に reviewer として追加すれば、Cloud Agent がその PR を直接書き換える"
+        },
+        {
+          "id": "D",
+          "text": "GitHub Actions の任意ジョブ名を copilot にすれば、そのジョブが Cloud Agent として扱われる"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B"
+      ],
+      "explanation": "公式ドキュメントでは、Issue を Copilot に割り当てる方法と、Agents パネルや Copilot Chat などからコード変更を依頼する方法が主な委任経路として説明されています。既存 PR のフィードバック目的なら Copilot コードレビューを使う位置づけです。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/1-understand-enable-github-copilot-code-agent"
+    },
+    {
+      "questionNumber": 4,
+      "type": "ordering",
+      "selectionCount": 5,
+      "prompt": "Issue を Copilot に割り当てた後の代表的な流れとして正しい順序に並べよ。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Copilot が Issue への反応を追加して受け付けを示す"
+        },
+        {
+          "id": "B",
+          "text": "専用の `copilot/` ブランチを作成する"
+        },
+        {
+          "id": "C",
+          "text": "Issue にリンクされた下書き Pull Request を開く"
+        },
+        {
+          "id": "D",
+          "text": "GitHub Actions を利用したエージェント セッションを開始し、コミットや PR 本文更新を進める"
+        },
+        {
+          "id": "E",
+          "text": "`Copilot finished work` イベントを投稿し、レビューを要求する"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "explanation": "公式ドキュメントでは、Issue 割り当て後に反応、専用ブランチ、下書き PR、セッション開始、コミットとステータス更新、完了イベントとレビュー要求という流れが説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/3-assign-track-troubleshoot-copilot-code-agent-tasks"
+    },
+    {
+      "questionNumber": 5,
+      "type": "multiple",
+      "selectionCount": 2,
+      "prompt": "Cloud Agent のコスト管理に関係するリソースとして正しいものを 2 つ選べ。",
+      "options": [
+        {
+          "id": "A",
+          "text": "エージェントが動作する一時的なビルド・テスト環境で消費する GitHub Actions 実行時間"
+        },
+        {
+          "id": "B",
+          "text": "高度なモデル推論に使われる Copilot Premium Requests（PRU）"
+        },
+        {
+          "id": "C",
+          "text": "Pull request のレビュワー人数に応じて増減する PRU"
+        },
+        {
+          "id": "D",
+          "text": "Git LFS の有効化そのものに対して、モデル要求ごとに固定で追加課金される PRU"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B"
+      ],
+      "explanation": "公式ドキュメントでは、Cloud Agent は GitHub Actions の実行時間と Copilot Premium Requests を主要リソースとして使うと説明されています。また 2025 年 6 月 4 日以降、モデル要求ごとに 1 つの Premium request を使用する旨が示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/1-understand-enable-github-copilot-code-agent"
+    },
+    {
+      "questionNumber": 6,
+      "type": "multiple",
+      "selectionCount": 3,
+      "prompt": "Cloud Agent の組み込みガードレールとして正しいものを 3 つ選べ。",
+      "options": [
+        {
+          "id": "A",
+          "text": "作成・push できるブランチは `copilot/` で始まるブランチに制限される"
+        },
+        {
+          "id": "B",
+          "text": "書き込み権限を持つユーザーからの指示にのみ応答する"
+        },
+        {
+          "id": "C",
+          "text": "外部コラボレーター由来の下書き PR では、Actions 実行前に書き込み権限ユーザーの承認が必要になる"
+        },
+        {
+          "id": "D",
+          "text": "Cloud Agent が作成した PR は、要求した本人が必要な承認を兼ねることができる"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "公式ドキュメントでは、ブランチ制限、アクセス許可に応じた応答、外部コラボレーター由来 PR の承認ゲートが説明されています。要求者本人は必要な承認を行えない点も重要です。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/2-security-risks-limitations-copilot-code-agent"
     },
     {
       "questionNumber": 7,
       "type": "single",
-      "prompt": "Copilot Cloud Agent の作業結果を受け取った後の適切な行動はどれか。",
+      "prompt": "プロンプトインジェクションへの軽減策として本文で説明されているものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "PR の差分、テスト結果、説明をレビューする"
+          "text": "HTML コメントなどの非表示文字を、ユーザー入力がエージェントへ渡る前にフィルターする"
         },
         {
           "id": "B",
-          "text": "PR を読まずに常にマージする"
+          "text": "Issue 本文内のすべての Markdown を削除してからエージェントへ渡す"
         },
         {
           "id": "C",
-          "text": "Cloud Agent の PR は AI 作成なので、通常の CI やレビュー対象から外すべきである"
+          "text": "プロンプトインジェクション対策として、Cloud Agent の PR 作成を禁止する"
         },
         {
           "id": "D",
-          "text": "変更理由を確認せず本番反映する"
+          "text": "リポジトリの content exclusion を Cloud Agent が必ず尊重することで防ぐ"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Cloud Agent が作った変更も通常の PR と同様にレビュー、テスト、セキュリティ確認の対象です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/"
+      "explanation": "公式ドキュメントでは、コメントや Issue に隠された有害な指示を減らすため、HTML コメントなどの非表示文字をフィルターすると説明されています。なお、Cloud Agent は content exclusion を優先しない制限も本文にあります。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/2-security-risks-limitations-copilot-code-agent"
     },
     {
       "questionNumber": 8,
-      "type": "single",
-      "prompt": "Copilot Cloud Agent のトラブルシューティングで最初に見るべき情報はどれか。",
+      "type": "multiple",
+      "selectionCount": 3,
+      "prompt": "Cloud Agent のワークフロー制限として正しいものを 3 つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "失敗したセッションやログ、権限・設定の状態"
+          "text": "割り当てられた Issue または PR と同じリポジトリでのみ変更できる"
         },
         {
           "id": "B",
-          "text": "Cloud Agent の PR は AI 作成なので、通常の CI やレビュー対象から外すべきである"
+          "text": "タスクごとに 1 つの Pull Request を開く"
         },
         {
           "id": "C",
-          "text": "Business/Enterprise では組織ポリシーに関係なく、全リポジトリで常に有効である"
+          "text": "Cloud Agent が作成していない既存 PR は変更できない"
         },
         {
           "id": "D",
-          "text": "Copilot Cloud Agent は利用者のローカル PC を直接操作し、GitHub 上の PR は使わない"
+          "text": "MCP を有効化すると、複数リポジトリをまたぐコード変更を同一タスクで直接 push できる"
         }
       ],
       "correctAnswers": [
-        "A"
+        "A",
+        "B",
+        "C"
       ],
-      "explanation": "タスクが進まない場合は、セッションログ、権限、ポリシー、リポジトリ設定、CI 失敗などを確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/"
+      "explanation": "公式ドキュメントでは、同じリポジトリ内でのみ変更可能、タスクごとに 1 PR、作成していない既存 PR は変更不可と説明されています。MCP はコンテキスト拡張に使えますが、これらのワークフロー制限を無制限に外すものではありません。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/2-security-risks-limitations-copilot-code-agent"
     },
     {
       "questionNumber": 9,
-      "type": "single",
-      "prompt": "Copilot Cloud Agent と MCP を組み合わせる主な利点はどれか。",
+      "type": "multiple",
+      "selectionCount": 3,
+      "prompt": "Cloud Agent の互換性・ポリシー上の制限として正しいものを 3 つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "外部ツールや追加コンテキストに接続し、エージェントの作業範囲を広げられる"
+          "text": "コミットに署名しないため、署名付きコミットが必要ならマージ前に履歴を書き直す必要がある"
         },
         {
           "id": "B",
-          "text": "すべてのアクセス制御を無効化できる"
+          "text": "GitHub でホストされる Ubuntu x64 ランナーが必要で、セルフホステッド ランナーはサポートされない"
         },
         {
           "id": "C",
-          "text": "Copilot Cloud Agent は利用者のローカル PC を直接操作し、GitHub 上の PR は使わない"
+          "text": "content exclusion は優先されず、除外ファイルを表示・更新できる"
         },
         {
           "id": "D",
-          "text": "GitHub を使わずに PR を作れる"
+          "text": "公開コードに一致する提案ポリシーは Cloud Agent にも完全に適用され、参照は常に提供される"
         }
       ],
       "correctAnswers": [
-        "A"
+        "A",
+        "B",
+        "C"
       ],
-      "explanation": "MCP はモデルやエージェントがツール・データソースへ接続するための仕組みで、Cloud Agent の文脈や操作能力を拡張できます。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/"
+      "explanation": "公式ドキュメントでは、署名コミット非対応、Ubuntu x64 の GitHub-hosted runner 要件、セルフホステッド runner 非対応、content exclusion を優先しない点が制限として列挙されています。公開コード一致ポリシーも Cloud Agent では適用されないと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/2-security-risks-limitations-copilot-code-agent"
     },
     {
       "questionNumber": 10,
       "type": "single",
-      "prompt": "Copilot Cloud Agent に秘密情報を扱わせるときの基本方針として正しいものはどれか。",
+      "prompt": "Cloud Agent の開発環境を事前準備する `copilot-setup-steps.yml` について正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "必要最小限の権限と安全なシークレット管理を使い、プロンプトへ直接貼らない"
+          "text": "既定ブランチの `.github/workflows/copilot-setup-steps.yml` に作成し、`copilot-setup-steps` という 1 つのジョブを定義する"
         },
         {
           "id": "B",
-          "text": "すべてのトークンを Issue 本文に書く"
+          "text": "任意ブランチの `.github/copilot-setup-steps.yml` に作成し、ジョブ名はリポジトリごとに自由にできる"
         },
         {
           "id": "C",
-          "text": "Cloud Agent の PR は AI 作成なので、通常の CI やレビュー対象から外すべきである"
+          "text": "`.github/copilot-instructions.md` に YAML ブロックとして埋め込むと、エージェント開始前に実行される"
         },
         {
           "id": "D",
-          "text": "権限を広く与えるほど安全になる"
+          "text": "Cloud Agent の開始後に PR コメントで貼り付けることで、そのセッションだけに適用される"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "責任ある利用では、最小権限、シークレットの適切な管理、ログやプロンプトへの露出回避が重要です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/"
+      "explanation": "公式ドキュメントでは、既定ブランチに .github/workflows/copilot-setup-steps.yml を作成し、copilot-setup-steps という名前の単一ジョブを定義すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/4-customize-extend-validate-copilot-code-agent"
     },
     {
       "questionNumber": 11,
-      "type": "single",
-      "prompt": "Copilot Cloud Agent にタスクを割り当てる前に Issue に書くべき内容として最も適切なものはどれか。",
+      "type": "multiple",
+      "selectionCount": 3,
+      "prompt": "`copilot-setup-steps` ジョブで許可される構成として正しいものを 3 つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "背景、期待動作、制約、完了条件"
+          "text": "`steps`、`permissions`、`runs-on`"
         },
         {
           "id": "B",
-          "text": "担当者の好物"
+          "text": "`container`、`services`、`snapshot`"
         },
         {
           "id": "C",
-          "text": "関係ない長文ログだけ"
+          "text": "`timeout-minutes`。ただし 59 分以下"
         },
         {
           "id": "D",
-          "text": "「修正」とだけ書く"
+          "text": "`strategy.matrix` と `needs`。複数ジョブの依存関係を自由に定義できる"
         }
       ],
       "correctAnswers": [
-        "A"
+        "A",
+        "B",
+        "C"
       ],
-      "explanation": "Cloud Agent は Issue の説明を重要な入力として使います。背景、期待動作、制約、完了条件を明確にすると成功率が上がります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/"
+      "explanation": "公式ドキュメントでは、許可キーとして steps、permissions、runs-on、container、services、snapshot、timeout-minutes（59 以下）が列挙されています。複数ジョブ構成や strategy.matrix を自由に使う説明ではありません。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/4-customize-extend-validate-copilot-code-agent"
     },
     {
       "questionNumber": 12,
       "type": "single",
-      "prompt": "Copilot Cloud Agent の PR をレビューするとき、通常の人間の PR と同じく確認すべき観点はどれか。",
+      "prompt": "`copilot-setup-steps.yml` の実行特性として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "仕様適合性、テスト、保守性、セキュリティ"
+          "text": "スタンドアロンで実行でき、エージェント開始前に自動実行される"
         },
         {
           "id": "B",
-          "text": "AI が作成した PR は、通常の人間作成 PR よりもセキュリティ確認を軽くできる"
+          "text": "Cloud Agent が最初のコミットを push した後にのみ実行される"
         },
         {
           "id": "C",
-          "text": "CI の結果は無関係"
+          "text": "検証できない内部ワークフローとしてのみ実行され、通常の Actions 画面には出ない"
         },
         {
           "id": "D",
-          "text": "差分が大きいほどよい"
+          "text": "`actions/checkout` の `fetch-depth` はユーザー指定が常にそのまま尊重される"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "AI 作成の PR も通常の品質ゲートを通す必要があります。仕様、テスト、保守性、セキュリティを確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/"
+      "explanation": "公式ドキュメントでは、セットアップ ワークフローは検証できるようスタンドアロンで実行され、エージェント開始前に自動実行されると説明されています。また安全なロールバックのため、actions/checkout の fetch-depth はオーバーライドされます。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/4-customize-extend-validate-copilot-code-agent"
     },
     {
       "questionNumber": 13,
-      "type": "single",
-      "prompt": "Copilot Cloud Agent へのフィードバックとして効果的なものはどれか。",
+      "type": "multiple",
+      "selectionCount": 2,
+      "prompt": "大規模な GitHub-hosted runner を Cloud Agent に使う場合の説明として正しいものを 2 つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "失敗しているテスト名と期待する修正方針を伝える"
+          "text": "先に大きな runner を追加し、`copilot-setup-steps.yml` の `runs-on` をラベルまたはグループに設定する"
         },
         {
           "id": "B",
-          "text": "何が違うか説明せず「だめ」とだけ書く"
+          "text": "サポートされるのは Ubuntu x64 runner のみで、セルフホステッド runner はサポートされない"
         },
         {
           "id": "C",
-          "text": "Cloud Agent の PR は AI 作成なので、通常の CI やレビュー対象から外すべきである"
+          "text": "macOS runner を指定すると、Playwright MCP のスクリーンショット機能が自動的に有効になる"
         },
         {
           "id": "D",
-          "text": "秘密鍵を貼って調査させる"
+          "text": "`runs-on` は常に `ubuntu-latest` 固定で、大きな runner のラベルは使えない"
         }
       ],
       "correctAnswers": [
-        "A"
+        "A",
+        "B"
       ],
-      "explanation": "具体的な失敗情報と期待する方向性は、Cloud Agent が修正を反復するための有効なフィードバックになります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/"
+      "explanation": "公式ドキュメントでは、大きな runner を追加したうえで runs-on にラベル/グループを指定できると説明されています。ただし Ubuntu x64 のみ対応で、セルフホステッド runner は非対応です。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/4-customize-extend-validate-copilot-code-agent"
     },
     {
       "questionNumber": 14,
       "type": "single",
-      "prompt": "Copilot Cloud Agent を責任を持って使うための考え方として正しいものはどれか。",
+      "prompt": "Git LFS を Cloud Agent のセットアップで有効化する構成として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "AI の出力を人間の開発プロセスに組み込み、レビューと検証を行う"
+          "text": "`actions/checkout@v5` の `with` に `lfs: true` を指定する"
         },
         {
           "id": "B",
-          "text": "AI が生成した変更は必ず正しいとみなす"
+          "text": "`permissions` に `lfs: write` を追加すれば checkout 設定なしで有効になる"
         },
         {
           "id": "C",
-          "text": "所有権やライセンスを確認しない"
+          "text": "`runs-on` に `ubuntu-lfs` を指定すれば、すべての LFS オブジェクトが自動取得される"
         },
         {
           "id": "D",
-          "text": "セキュリティレビューの対象外にする"
+          "text": "MCP の GitHub server を有効化すると、LFS はセットアップ手順なしで有効になる"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Cloud Agent は開発を支援しますが、責任ある利用には人間によるレビュー、検証、コンプライアンス確認が必要です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/"
+      "explanation": "公式ドキュメントの LFS 例では、セットアップ手順内の actions/checkout@v5 に with: lfs: true を指定しています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/4-customize-extend-validate-copilot-code-agent"
     },
     {
       "questionNumber": 15,
       "type": "single",
-      "prompt": "Copilot Cloud Agent が大きすぎるタスクで失敗しやすい理由はどれか。",
+      "prompt": "Cloud Agent のファイアウォールに関する説明として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "範囲や完了条件が曖昧になり、レビューも難しくなるため"
+          "text": "既定のインターネット アクセスは流出リスク軽減のため制限され、必要に応じて組織ポリシーに従ってカスタマイズまたは無効化できる"
         },
         {
           "id": "B",
-          "text": "GitHub は小さい PR を扱えないため"
+          "text": "既定でインターネット アクセスは完全開放され、外部通信の制限は MCP サーバー単位でのみ設定する"
         },
         {
           "id": "C",
-          "text": "Issue を使うと必ず失敗するため"
+          "text": "ファイアウォールは Cloud Agent のコード変更を禁止する機能で、外部通信とは関係しない"
         },
         {
           "id": "D",
-          "text": "コード変更が 1 行しかできないため"
+          "text": "ファイアウォールを無効化しない限り、GitHub MCP サーバーも Playwright MCP サーバーも使用できない"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Cloud Agent には、明確で分割されたタスクが向いています。巨大な依頼は誤解、過剰変更、レビュー困難につながります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/"
+      "explanation": "公式ドキュメントでは、既定のインターネット アクセスは流出リスク軽減のため制限され、組織ポリシーに応じてカスタマイズまたは無効化できると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/4-customize-extend-validate-copilot-code-agent"
     },
     {
       "questionNumber": 16,
       "type": "multiple",
       "selectionCount": 2,
-      "prompt": "Copilot Cloud Agent の利用で管理者が考慮すべき項目を 2 つ選べ。",
+      "prompt": "Cloud Agent で MCP を使う場合の制限として正しいものを 2 つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "組織ポリシーによる有効化"
+          "text": "Cloud Agent では MCP ツールのみがサポートされ、リソースやプロンプトはサポートされない"
         },
         {
           "id": "B",
-          "text": "利用できるリポジトリや権限の管理"
+          "text": "OAuth を必要とするリモート MCP サーバーはサポートされない"
         },
         {
           "id": "C",
-          "text": "すべてのレビュー保護を解除すること"
+          "text": "MCP サーバーを追加すると、使用ごとに必ず承認プロンプトが表示される"
         },
         {
           "id": "D",
-          "text": "Cloud Agent の PR は AI 作成なので、通常の CI やレビュー対象から外すべきである"
+          "text": "MCP は Cloud Agent では GitHub MCP サーバーに限定され、Playwright などは使えない"
         }
       ],
       "correctAnswers": [
         "A",
         "B"
       ],
-      "explanation": "管理者は利用可否、対象リポジトリ、権限、組織のガバナンスに沿った設定を管理します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/"
+      "explanation": "公式ドキュメントでは、Cloud Agent は MCP ツールのみをサポートし、リソースやプロンプトは対象外だと明記されています。また OAuth を必要とするリモート MCP サーバーはサポートされません。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/4-customize-extend-validate-copilot-code-agent"
     },
     {
       "questionNumber": 17,
-      "type": "single",
-      "prompt": "Copilot Cloud Agent による変更をチーム開発へ取り込むうえで、PR が重要な理由はどれか。",
+      "type": "multiple",
+      "selectionCount": 2,
+      "prompt": "Cloud Agent の既定 MCP サーバーについて正しいものを 2 つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "差分、議論、チェック結果を透明に管理できるため"
+          "text": "GitHub MCP サーバーは、既定で現在のリポジトリをスコープとする読み取り専用トークンで Issue、PR、GitHub データにアクセスする"
         },
         {
           "id": "B",
-          "text": "Cloud Agent の PR は AI 作成なので、通常の CI やレビュー対象から外すべきである"
+          "text": "Playwright MCP サーバーは、エージェント環境からアクセスできる Web ページの読み取り、操作、スクリーンショット取得に使える"
         },
         {
           "id": "C",
-          "text": "CI を実行できなくするため"
+          "text": "GitHub MCP サーバーは既定で Organization 全体への書き込みトークンを使う"
         },
         {
           "id": "D",
-          "text": "変更履歴を消すため"
+          "text": "Playwright MCP サーバーは外部ブラウザー拡張の管理専用で、localhost の検証には使えない"
         }
       ],
       "correctAnswers": [
-        "A"
+        "A",
+        "B"
       ],
-      "explanation": "PR は、AI が作った変更を通常の開発プロセスに載せ、レビュー・CI・議論を行うための中心的な場所です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/"
+      "explanation": "公式ドキュメントでは、GitHub MCP サーバーは現在リポジトリ scoped の読み取り専用トークンを既定で使い、Playwright MCP サーバーは localhost/127.0.0.1 などエージェント環境から届くページの操作やスクリーンショットに使えると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/4-customize-extend-validate-copilot-code-agent"
     },
     {
       "questionNumber": 18,
       "type": "single",
-      "prompt": "Copilot Cloud Agent に追加依頼をするときのよい書き方はどれか。",
+      "prompt": "リポジトリ内 JSON で MCP サーバーを構成した後の Cloud Agent の挙動として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "このテスト失敗を解消し、既存 API は変えないで"
+          "text": "利用可能なツールをエージェントが自律的に使用し、使用ごとの承認プロンプトは出ない"
         },
         {
           "id": "B",
-          "text": "全部やり直して"
+          "text": "各 MCP ツール呼び出しのたびに、PR 作成者へ必ず承認プロンプトが送られる"
         },
         {
           "id": "C",
-          "text": "理由はないが別物にして"
+          "text": "MCP ツールは設定後も手動コメントで明示した場合だけ使われ、自律利用はされない"
         },
         {
           "id": "D",
-          "text": "レビューコメントは無視して"
+          "text": "MCP 構成は保存後に GitHub が自動修正するため、保存前の検証は不要である"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "追加依頼では、対象、期待結果、守るべき制約を明確に伝えると、反復修正が安定します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/"
+      "explanation": "公式ドキュメントでは、管理者がリポジトリ内 JSON 構成で MCP サーバーを宣言でき、構成後はエージェントが使用可能なツールを自律的に使い、使用ごとの承認プロンプトは使われないと説明されています。保存前の構成検証もベストプラクティスです。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/4-customize-extend-validate-copilot-code-agent"
     },
     {
       "questionNumber": 19,
-      "type": "single",
-      "prompt": "Copilot Cloud Agent の作業環境について正しい説明はどれか。",
+      "type": "multiple",
+      "selectionCount": 3,
+      "prompt": "エージェント PR の検証プラクティスとして正しいものを 3 つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "クラウド側の一時的な開発環境でタスクを実行する"
+          "text": "すべてのエージェント PR で CI（テスト、リンター、スキャン）を実行する"
         },
         {
           "id": "B",
-          "text": "利用者のローカル PC を常に直接操作する"
+          "text": "Actions チェックは「承認してワークフローを実行する」をクリックするまで実行されない場合がある"
         },
         {
           "id": "C",
-          "text": "Cloud Agent の PR は AI 作成なので、通常の CI やレビュー対象から外すべきである"
+          "text": "影響の大きい領域や機密性の高い領域は手動で検査する"
         },
         {
           "id": "D",
-          "text": "本番環境に直接ログインして修正する"
+          "text": "エージェント PR は下書き PR なので、ルールセットや必須チェックの対象から外すのが推奨される"
         }
       ],
       "correctAnswers": [
-        "A"
+        "A",
+        "B",
+        "C"
       ],
-      "explanation": "Cloud Agent はクラウド側のエフェメラルな開発環境で動作し、GitHub 上のタスクや PR と連携します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/"
+      "explanation": "公式ドキュメントでは、エージェント PR でも CI を実行し、承認してワークフローを実行するまでチェックが動かない点を理解し、影響の大きい領域は手動検査すると説明されています。ルールセットでテスト・スキャン・リンティングを必須化することも推奨されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/4-customize-extend-validate-copilot-code-agent"
     },
     {
       "questionNumber": 20,
-      "type": "single",
-      "prompt": "Copilot Cloud Agent の利用で、最終的なマージ判断を行うべき主体はどれか。",
+      "type": "multiple",
+      "selectionCount": 3,
+      "prompt": "Cloud Agent の出力改善・検証に関する運用として正しいものを 3 つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "チームの通常のレビュー・承認プロセス"
+          "text": "テスト生成を依頼できるが、マルチファイル テスト生成では PRU が使用される"
         },
         {
           "id": "B",
-          "text": "AI が常に単独で判断する"
+          "text": "繰り返し間違いがある場合は `.github/copilot-instructions.md` の指示を反復改善する"
         },
         {
           "id": "C",
-          "text": "Business/Enterprise では組織ポリシーに関係なく、全リポジトリで常に有効である"
+          "text": "テスト カバレッジ拡張、ディレクトリ間監査、危険領域スキャンなどの深い検証に PRU を意図的に使う"
         },
         {
           "id": "D",
-          "text": "Copilot Cloud Agent は利用者のローカル PC を直接操作し、GitHub 上の PR は使わない"
+          "text": "軽量チェックほど PRU を多く消費するため、深い検証は避けるのが推奨される"
         }
       ],
       "correctAnswers": [
-        "A"
+        "A",
+        "B",
+        "C"
       ],
-      "explanation": "Cloud Agent の変更も、チームのレビュー、CI、ブランチ保護、承認ルールに従って取り込むべきです。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/"
+      "explanation": "公式ドキュメントでは、テスト生成依頼、copilot-instructions.md の反復改善、深い検証タスクへの PRU の意図的利用が説明されています。軽量チェックは消費 PRU が少ないため、価値に応じて使い分けるのがポイントです。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/4-customize-extend-validate-copilot-code-agent"
     }
   ]
 }
