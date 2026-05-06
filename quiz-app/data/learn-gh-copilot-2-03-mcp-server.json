@@ -27,7 +27,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "MCP は Model Context Protocol の略で、モデルと外部ツール・データソースを接続するためのプロトコルです。"
+      "explanation": "MCP は Model Context Protocol の略で、モデルと外部ツール・データソースを接続するためのプロトコルです。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
     {
       "questionNumber": 2,
@@ -40,21 +40,21 @@
         },
         {
           "id": "B",
-          "text": "JavaScript の型チェックだけを行う"
+          "text": "MCP では権限を広く与えるほど安全で、最小権限はトラブルシュート時だけ考えればよい"
         },
         {
           "id": "C",
-          "text": "GitHub の全ユーザー権限を変更する"
+          "text": "認証情報は mcp.json に平文で保存するのが推奨される"
         },
         {
           "id": "D",
-          "text": "Markdown を画像に変換するだけ"
+          "text": "MCP Server は Copilot Chat を置き換える UI で、外部ツールやリソースは扱わない"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "MCP Server は、ツールやリソースを標準化された形で Copilot などに公開し、外部システムとの連携を可能にします。"
+      "explanation": "MCP Server は、ツールやリソースを標準化された形で Copilot などに公開し、外部システムとの連携を可能にします。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
     {
       "questionNumber": 3,
@@ -71,7 +71,7 @@
         },
         {
           "id": "C",
-          "text": "GitHub の全リポジトリを自動で public にする"
+          "text": "MCP Server は Copilot Chat を置き換える UI で、外部ツールやリソースは扱わない"
         },
         {
           "id": "D",
@@ -81,7 +81,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "GitHub MCP Server は、Copilot Chat が GitHub の文脈や操作にアクセスするための接続点として使えます。"
+      "explanation": "GitHub MCP Server は、Copilot Chat が GitHub の文脈や操作にアクセスするための接続点として使えます。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
     {
       "questionNumber": 4,
@@ -108,7 +108,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "MCP Server は外部操作を可能にするため、信頼できる接続先か、権限が最小限か、シークレットが安全に扱われるかを確認します。"
+      "explanation": "MCP Server は外部操作を可能にするため、信頼できる接続先か、権限が最小限か、シークレットが安全に扱われるかを確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
     {
       "questionNumber": 5,
@@ -137,7 +137,7 @@
         "A",
         "B"
       ],
-      "explanation": "MCP はツールやリソースをモデルに提供する仕組みです。権限昇格やセキュリティ制御の無効化を目的とするものではありません。"
+      "explanation": "MCP はツールやリソースをモデルに提供する仕組みです。権限昇格やセキュリティ制御の無効化を目的とするものではありません。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
     {
       "questionNumber": 6,
@@ -150,7 +150,7 @@
         },
         {
           "id": "B",
-          "text": "モニターのメーカー名だけ"
+          "text": "認証情報は mcp.json に平文で保存するのが推奨される"
         },
         {
           "id": "C",
@@ -158,13 +158,13 @@
         },
         {
           "id": "D",
-          "text": "プロジェクトの README を削除すること"
+          "text": "MCP では権限を広く与えるほど安全で、最小権限はトラブルシュート時だけ考えればよい"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "MCP Server を使うには、サーバー定義、起動コマンド、接続方法、認証トークンの扱いなどを正しく設定する必要があります。"
+      "explanation": "MCP Server を使うには、サーバー定義、起動コマンド、接続方法、認証トークンの扱いなどを正しく設定する必要があります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
     {
       "questionNumber": 7,
@@ -191,7 +191,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "MCP ツールは、接続されたシステムの情報取得や操作を自然言語から呼び出すために使えます。危険な操作は避け、権限と影響を確認します。"
+      "explanation": "MCP ツールは、接続されたシステムの情報取得や操作を自然言語から呼び出すために使えます。危険な操作は避け、権限と影響を確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
     {
       "questionNumber": 8,
@@ -218,7 +218,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "MCP が動作しない場合は、サーバーが起動しているか、設定が正しいか、認証が通るか、ログにエラーがないかを確認します。"
+      "explanation": "MCP が動作しない場合は、サーバーが起動しているか、設定が正しいか、認証が通るか、ログにエラーがないかを確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
     {
       "questionNumber": 9,
@@ -245,7 +245,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "MCP により、Copilot は外部システムの情報や操作をコンテキストとして使えるため、より実務に近い支援が可能になります。"
+      "explanation": "MCP により、Copilot は外部システムの情報や操作をコンテキストとして使えるため、より実務に近い支援が可能になります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
     {
       "questionNumber": 10,
@@ -272,7 +272,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "MCP は設定後に、実際に Copilot Chat からツールやリソースを利用できるか確認するのが重要です。"
+      "explanation": "MCP は設定後に、実際に Copilot Chat からツールやリソースを利用できるか確認するのが重要です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
     {
       "questionNumber": 11,
@@ -289,7 +289,7 @@
         },
         {
           "id": "C",
-          "text": "すべての操作を public にするため"
+          "text": "認証情報は mcp.json に平文で保存するのが推奨される"
         },
         {
           "id": "D",
@@ -299,7 +299,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "外部ツール連携では、必要最小限の権限にすることで、誤操作や資格情報漏えいの被害を抑えられます。"
+      "explanation": "外部ツール連携では、必要最小限の権限にすることで、誤操作や資格情報漏えいの被害を抑えられます。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
     {
       "questionNumber": 12,
@@ -312,11 +312,11 @@
         },
         {
           "id": "B",
-          "text": "画像編集ソフトのブラシサイズを変える"
+          "text": "GitHub 以外の任意サービスを、認証や権限設定なしで Copilot Chat から直接操作する"
         },
         {
           "id": "C",
-          "text": "GitHub 以外の全サービスに無制限アクセスする"
+          "text": "MCP Server は Copilot Chat を置き換える UI で、外部ツールやリソースは扱わない"
         },
         {
           "id": "D",
@@ -326,7 +326,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "GitHub MCP Server は GitHub の文脈や操作を Copilot に提供するため、Issue、PR、リポジトリ情報を扱う場面に適しています。"
+      "explanation": "GitHub MCP Server は GitHub の文脈や操作を Copilot に提供するため、Issue、PR、リポジトリ情報を扱う場面に適しています。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
     {
       "questionNumber": 13,
@@ -343,7 +343,7 @@
         },
         {
           "id": "C",
-          "text": "認証が不要になるから"
+          "text": "MCP Server が公式実装であれば、付与するトークンスコープの確認は不要になる"
         },
         {
           "id": "D",
@@ -353,7 +353,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "MCP Server は権限やデータに触れる可能性があるため、提供元、コード、権限、更新状況を確認することが重要です。"
+      "explanation": "MCP Server は権限やデータに触れる可能性があるため、提供元、コード、権限、更新状況を確認することが重要です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
     {
       "questionNumber": 14,
@@ -366,21 +366,21 @@
         },
         {
           "id": "B",
-          "text": "エディターのフォントが丸ゴシックか"
+          "text": "MCP では権限を広く与えるほど安全で、最小権限はトラブルシュート時だけ考えればよい"
         },
         {
           "id": "C",
-          "text": "README の文字数が偶数か"
+          "text": "認証情報は mcp.json に平文で保存するのが推奨される"
         },
         {
           "id": "D",
-          "text": "GitHub のプロフィール画像が設定済みか"
+          "text": "MCP Server は Copilot Chat を置き換える UI で、外部ツールやリソースは扱わない"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "MCP の利用には VS Code 側の対応、設定ファイル、サーバー起動、認証が関係します。まずそれらを確認します。"
+      "explanation": "MCP の利用には VS Code 側の対応、設定ファイル、サーバー起動、認証が関係します。まずそれらを確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
     {
       "questionNumber": 15,
@@ -409,7 +409,7 @@
         "A",
         "B"
       ],
-      "explanation": "MCP は外部アクセスを拡張するため、過剰権限や信頼できない接続先は避けます。動作確認や最小権限は望ましい行動です。"
+      "explanation": "MCP は外部アクセスを拡張するため、過剰権限や信頼できない接続先は避けます。動作確認や最小権限は望ましい行動です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
     {
       "questionNumber": 16,
@@ -436,7 +436,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "MCP は Copilot Chat などのクライアントがツールやリソースに接続するためのプロトコルとして機能します。"
+      "explanation": "MCP は Copilot Chat などのクライアントがツールやリソースに接続するためのプロトコルとして機能します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
     {
       "questionNumber": 17,
@@ -449,7 +449,7 @@
         },
         {
           "id": "B",
-          "text": "ログを見ればレビューが不要になるため"
+          "text": "ログで起動成功を確認できれば、ツール呼び出し時の権限や結果の確認は省略できるため"
         },
         {
           "id": "C",
@@ -457,13 +457,13 @@
         },
         {
           "id": "D",
-          "text": "ログは常に秘密情報を公開するため"
+          "text": "MCP Server は Copilot Chat を置き換える UI で、外部ツールやリソースは扱わない"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "MCP の問題は設定、認証、起動、ツール呼び出しのいずれかで起こることが多く、ログは原因特定の重要な手がかりです。"
+      "explanation": "MCP の問題は設定、認証、起動、ツール呼び出しのいずれかで起こることが多く、ログは原因特定の重要な手がかりです。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
     {
       "questionNumber": 18,
@@ -484,13 +484,13 @@
         },
         {
           "id": "D",
-          "text": "レビューを禁止するルール"
+          "text": "MCP では権限を広く与えるほど安全で、最小権限はトラブルシュート時だけ考えればよい"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "チーム利用では、何のための MCP Server か、どの権限が必要か、安全に使う手順は何かを共有する必要があります。"
+      "explanation": "チーム利用では、何のための MCP Server か、どの権限が必要か、安全に使う手順は何かを共有する必要があります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
     {
       "questionNumber": 19,
@@ -517,7 +517,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "認証情報は最小権限で発行し、安全な保存場所で管理します。リポジトリ、Issue、ログへの露出は避けるべきです。"
+      "explanation": "認証情報は最小権限で発行し、安全な保存場所で管理します。リポジトリ、Issue、ログへの露出は避けるべきです。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
     {
       "questionNumber": 20,
@@ -530,7 +530,7 @@
         },
         {
           "id": "B",
-          "text": "MCP を使えば検証は不要になる"
+          "text": "MCP Server が接続できれば、外部ツール実行結果は追加確認なしで正しいとみなせる"
         },
         {
           "id": "C",
@@ -544,7 +544,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "MCP は外部文脈やツールを Copilot に接続する強力な仕組みです。その分、信頼できるサーバー、適切な設定、最小権限が重要です。"
+      "explanation": "MCP は外部文脈やツールを Copilot に接続する強力な仕組みです。その分、信頼できるサーバー、適切な設定、最小権限が重要です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     }
   ]
 }

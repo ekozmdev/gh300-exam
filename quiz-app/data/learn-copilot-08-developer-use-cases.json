@@ -13,21 +13,21 @@
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "開発者ユースケースの焦点では、Copilot が SDLC 全体で開発者の生産性を支援する方法を理解することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "開発者ユースケースの焦点では、Copilot が SDLC 全体で開発者の生産性を支援する方法を理解することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 2,
@@ -40,21 +40,21 @@
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "ワークフロー統合では、開発者の普段の IDE、GitHub、CLI 作業に Copilot を組み込むことが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "ワークフロー統合では、開発者の普段の IDE、GitHub、CLI 作業に Copilot を組み込むことが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 3,
@@ -67,21 +67,21 @@
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "個人の好みへの適応では、コーディングスタイルや作業方法に合わせて支援を受けることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "個人の好みへの適応では、コーディングスタイルや作業方法に合わせて支援を受けることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 4,
@@ -94,21 +94,21 @@
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "要件理解では、自然言語から仕様の整理や実装方針の検討を支援することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "要件理解では、自然言語から仕様の整理や実装方針の検討を支援することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 5,
@@ -121,21 +121,21 @@
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "設計支援では、設計案、トレードオフ、影響範囲を相談できることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "設計支援では、設計案、トレードオフ、影響範囲を相談できることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 6,
@@ -148,21 +148,21 @@
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "実装支援では、コード補完、関数生成、既存コード修正を支援することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "実装支援では、コード補完、関数生成、既存コード修正を支援することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 7,
@@ -175,21 +175,21 @@
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "テスト支援では、単体テストやエッジケースの候補を生成できることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "テスト支援では、単体テストやエッジケースの候補を生成できることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 8,
@@ -202,21 +202,21 @@
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "デバッグ支援では、エラーやログから原因候補と修正案を出せることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "デバッグ支援では、エラーやログから原因候補と修正案を出せることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 9,
@@ -229,21 +229,21 @@
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "ドキュメント支援では、コード説明、README、コメント作成を支援することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "ドキュメント支援では、コード説明、README、コメント作成を支援することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 10,
@@ -256,21 +256,21 @@
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "レビュー支援では、PR 要約、レビュー観点、改善提案に役立つことが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "レビュー支援では、PR 要約、レビュー観点、改善提案に役立つことが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 11,
@@ -283,21 +283,21 @@
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "SDLC での影響では、計画、実装、テスト、レビュー、保守に影響を与え得ることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "SDLC での影響では、計画、実装、テスト、レビュー、保守に影響を与え得ることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 12,
@@ -310,21 +310,21 @@
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "生産性測定では、速度だけでなく品質、満足度、レビュー時間なども見ることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "生産性測定では、速度だけでなく品質、満足度、レビュー時間なども見ることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 13,
@@ -337,21 +337,21 @@
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "制限事項では、Copilot は文脈を誤解したり不正確な提案を出す可能性があることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "制限事項では、Copilot は文脈を誤解したり不正確な提案を出す可能性があることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 14,
@@ -364,21 +364,21 @@
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "影響測定では、導入前後の作業時間、PR サイクル、欠陥率などを比較することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "影響測定では、導入前後の作業時間、PR サイクル、欠陥率などを比較することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 15,
@@ -391,21 +391,21 @@
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "責任ある利用では、生成物をレビューし、セキュリティとライセンスを確認することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "責任ある利用では、生成物をレビューし、セキュリティとライセンスを確認することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 16,
@@ -418,21 +418,21 @@
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "開発者体験では、反復作業を減らし、より価値の高い作業に集中しやすくすることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "開発者体験では、反復作業を減らし、より価値の高い作業に集中しやすくすることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 17,
@@ -445,21 +445,21 @@
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "チーム利用では、共通プロンプトやレビュー方針で支援のばらつきを減らせることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "チーム利用では、共通プロンプトやレビュー方針で支援のばらつきを減らせることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 18,
@@ -472,21 +472,21 @@
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "制約の明示では、プロジェクト標準、使用技術、禁止事項を伝えることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "制約の明示では、プロジェクト標準、使用技術、禁止事項を伝えることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 19,
@@ -499,21 +499,21 @@
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "過信のリスクでは、AI 出力を無条件に採用すると品質低下や脆弱性につながることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "過信のリスクでは、AI 出力を無条件に採用すると品質低下や脆弱性につながることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
     {
       "questionNumber": 20,
@@ -526,21 +526,21 @@
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "Copilot は要件収集を完全に自動化し、人間の設計判断を置き換えることを主目的にする"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "デバッグ支援ではログやエラーを渡さず、モデルに原因を推測させる方が正確である"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "Copilot の影響測定では速度だけを見れば十分で、品質や開発者体験は対象外である"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "まとめでは、Copilot を SDLC に組み込み、制限を理解して効果を測定することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "まとめでは、Copilot を SDLC に組み込み、制限を理解して効果を測定することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     }
   ]
 }

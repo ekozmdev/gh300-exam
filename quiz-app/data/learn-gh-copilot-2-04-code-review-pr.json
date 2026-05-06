@@ -13,21 +13,21 @@
         },
         {
           "id": "B",
-          "text": "人間のレビューを法的に不要にする"
+          "text": "Copilot レビューは静的な指摘を行うため、CI よりも優先される唯一の品質ゲートになる"
         },
         {
           "id": "C",
-          "text": "全 PR を自動でマージする"
+          "text": "Copilot のレビューコメントがなければ、PR の変更意図やテスト結果の確認を省略できる"
         },
         {
           "id": "D",
-          "text": "コードを読まずに承認する"
+          "text": "Copilot の要約があれば、差分ではなく要約だけをレビュー対象にできる"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot のコードレビューは、潜在的なバグ、品質問題、改善提案を早期に示し、人間のレビューを支援します。"
+      "explanation": "Copilot のコードレビューは、潜在的なバグ、品質問題、改善提案を早期に示し、人間のレビューを支援します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
     {
       "questionNumber": 2,
@@ -44,7 +44,7 @@
         },
         {
           "id": "C",
-          "text": "すべて読まずに削除する"
+          "text": "Copilot のレビュー提案は仕様に反していても、AI の提案として必ず適用する"
         },
         {
           "id": "D",
@@ -54,7 +54,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot の提案はレビュー材料です。文脈に合うか、動作や設計に問題がないかを確認して判断します。"
+      "explanation": "Copilot の提案はレビュー材料です。文脈に合うか、動作や設計に問題がないかを確認して判断します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
     {
       "questionNumber": 3,
@@ -71,7 +71,7 @@
         },
         {
           "id": "C",
-          "text": "テストが不要になる"
+          "text": "Copilot が一般的な問題を指摘するため、既存テストの失敗はレビュー判断に含めなくてよい"
         },
         {
           "id": "D",
@@ -81,7 +81,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot レビューは早期フィードバックとして有用です。ただし、最終判断やドメイン固有のレビューは人間が行います。"
+      "explanation": "Copilot レビューは早期フィードバックとして有用です。ただし、最終判断やドメイン固有のレビューは人間が行います。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
     {
       "questionNumber": 4,
@@ -108,7 +108,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "自動レビューは、PR の早い段階で品質問題や改善点を見つけ、レビューの前処理として役立ちます。"
+      "explanation": "自動レビューは、PR の早い段階で品質問題や改善点を見つけ、レビューの前処理として役立ちます。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
     {
       "questionNumber": 5,
@@ -126,18 +126,18 @@
         },
         {
           "id": "C",
-          "text": "人間の承認なしの全自動マージ"
+          "text": "PRU は PR の最大レビュワー数を示す単位で、Copilot の高度機能利用量とは関係しない"
         },
         {
           "id": "D",
-          "text": "法的責任の完全な移転"
+          "text": "Copilot のレビュー提案は仕様に反していても、AI の提案として必ず適用する"
         }
       ],
       "correctAnswers": [
         "A",
         "B"
       ],
-      "explanation": "Copilot はレビュー支援として問題指摘や改善提案を行えます。マージ判断や責任は通常の開発プロセスに残ります。"
+      "explanation": "Copilot はレビュー支援として問題指摘や改善提案を行えます。マージ判断や責任は通常の開発プロセスに残ります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
     {
       "questionNumber": 6,
@@ -164,7 +164,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot は多くの一般的な問題を検出できますが、文脈、要件、ビジネス判断、組織ルールのすべてを完全に理解するわけではありません。"
+      "explanation": "Copilot は多くの一般的な問題を検出できますが、文脈、要件、ビジネス判断、組織ルールのすべてを完全に理解するわけではありません。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
     {
       "questionNumber": 7,
@@ -181,7 +181,7 @@
         },
         {
           "id": "C",
-          "text": "AI が書いたので確認不要"
+          "text": "Copilot の提案はモデルが生成するため、プロジェクト固有仕様より一般的なベストプラクティスを優先する"
         },
         {
           "id": "D",
@@ -191,7 +191,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "提案は必ず文脈に照らして確認します。仕様や設計と合わない変更を機械的に適用すると回帰を招くことがあります。"
+      "explanation": "提案は必ず文脈に照らして確認します。仕様や設計と合わない変更を機械的に適用すると回帰を招くことがあります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
     {
       "questionNumber": 8,
@@ -204,7 +204,7 @@
         },
         {
           "id": "B",
-          "text": "GitHub Issue の文字数制限"
+          "text": "PRU は PR の最大レビュワー数を示す単位で、Copilot の高度機能利用量とは関係しない"
         },
         {
           "id": "C",
@@ -218,7 +218,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "PRU は Premium Request Unit の略で、高度な Copilot 機能やモデル利用に関連する利用量の把握・最適化で扱われます。"
+      "explanation": "PRU は Premium Request Unit の略で、高度な Copilot 機能やモデル利用に関連する利用量の把握・最適化で扱われます。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
     {
       "questionNumber": 9,
@@ -245,7 +245,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "PRU を意識する場面では、明確な依頼、適切なモデルや機能の選択、不要な反復の削減が利用効率につながります。"
+      "explanation": "PRU を意識する場面では、明確な依頼、適切なモデルや機能の選択、不要な反復の削減が利用効率につながります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
     {
       "questionNumber": 10,
@@ -262,7 +262,7 @@
         },
         {
           "id": "C",
-          "text": "人間のレビューを禁止するため"
+          "text": "PRU は PR の最大レビュワー数を示す単位で、Copilot の高度機能利用量とは関係しない"
         },
         {
           "id": "D",
@@ -272,7 +272,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot レビューは品質ゲートの一部です。CI、テスト、人間のレビューと組み合わせることで、より堅実な確認になります。"
+      "explanation": "Copilot レビューは品質ゲートの一部です。CI、テスト、人間のレビューと組み合わせることで、より堅実な確認になります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
     {
       "questionNumber": 11,
@@ -299,7 +299,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "観点を指定すると、Copilot のレビューが目的に沿いやすくなります。認証、入力検証、互換性など重点を明示すると有効です。"
+      "explanation": "観点を指定すると、Copilot のレビューが目的に沿いやすくなります。認証、入力検証、互換性など重点を明示すると有効です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
     {
       "questionNumber": 12,
@@ -316,7 +316,7 @@
         },
         {
           "id": "C",
-          "text": "PR 全体を削除するしかない"
+          "text": "Copilot レビューは静的な指摘を行うため、CI よりも優先される唯一の品質ゲートになる"
         },
         {
           "id": "D",
@@ -326,7 +326,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot のレビューは補助です。提案が仕様や設計に合わない場合は採用せず、必要に応じて説明や別修正を行います。"
+      "explanation": "Copilot のレビューは補助です。提案が仕様や設計に合わない場合は採用せず、必要に応じて説明や別修正を行います。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
     {
       "questionNumber": 13,
@@ -347,13 +347,13 @@
         },
         {
           "id": "D",
-          "text": "GitHub の全障害"
+          "text": "Copilot のレビュー提案は仕様に反していても、AI の提案として必ず適用する"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot レビューはコード差分から一般的なバグや品質問題を見つける用途に向いています。"
+      "explanation": "Copilot レビューはコード差分から一般的なバグや品質問題を見つける用途に向いています。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
     {
       "questionNumber": 14,
@@ -374,13 +374,13 @@
         },
         {
           "id": "D",
-          "text": "失敗したテストを削除する"
+          "text": "Copilot レビューは静的な指摘を行うため、CI よりも優先される唯一の品質ゲートになる"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "レビューコメントに対応したら、修正内容が意図を満たすか、回帰がないかを確認します。"
+      "explanation": "レビューコメントに対応したら、修正内容が意図を満たすか、回帰がないかを確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
     {
       "questionNumber": 15,
@@ -409,7 +409,7 @@
         "A",
         "B"
       ],
-      "explanation": "Copilot レビューは強力ですが、提案の妥当性、セキュリティ、プライバシー、ライセンスや組織規約との整合性を人間が確認します。"
+      "explanation": "Copilot レビューは強力ですが、提案の妥当性、セキュリティ、プライバシー、ライセンスや組織規約との整合性を人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
     {
       "questionNumber": 16,
@@ -436,7 +436,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot をレビューに組み込むと、共通の観点で早期に問題を拾いやすくなり、PR 品質の平準化に役立ちます。"
+      "explanation": "Copilot をレビューに組み込むと、共通の観点で早期に問題を拾いやすくなり、PR 品質の平準化に役立ちます。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
     {
       "questionNumber": 17,
@@ -449,7 +449,7 @@
         },
         {
           "id": "B",
-          "text": "コメントの文字数だけ"
+          "text": "PRU は PR の最大レビュワー数を示す単位で、Copilot の高度機能利用量とは関係しない"
         },
         {
           "id": "C",
@@ -463,7 +463,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "レビュー指摘の妥当性は、コード差分だけでなく仕様、テスト、設計意図に照らして判断します。"
+      "explanation": "レビュー指摘の妥当性は、コード差分だけでなく仕様、テスト、設計意図に照らして判断します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
     {
       "questionNumber": 18,
@@ -476,7 +476,7 @@
         },
         {
           "id": "B",
-          "text": "対象ファイルと観点を絞ってレビューを依頼する"
+          "text": "Copilot のレビュー提案は仕様に反していても、AI の提案として必ず適用する"
         },
         {
           "id": "C",
@@ -490,7 +490,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "曖昧で大きな依頼は再実行や追加修正が増え、利用効率が悪くなります。目的と範囲を絞ることが重要です。"
+      "explanation": "曖昧で大きな依頼は再実行や追加修正が増え、利用効率が悪くなります。目的と範囲を絞ることが重要です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
     {
       "questionNumber": 19,
@@ -503,7 +503,7 @@
         },
         {
           "id": "B",
-          "text": "何もしないこと"
+          "text": "Copilot レビューは静的な指摘を行うため、CI よりも優先される唯一の品質ゲートになる"
         },
         {
           "id": "C",
@@ -517,7 +517,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot はレビューを支援しますが、仕様、優先度、組織判断、最終承認は人間の開発プロセスに残ります。"
+      "explanation": "Copilot はレビューを支援しますが、仕様、優先度、組織判断、最終承認は人間の開発プロセスに残ります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
     {
       "questionNumber": 20,
@@ -544,7 +544,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot のコードレビューは品質向上と早期検出に有効ですが、最終的な品質保証はテスト、人間のレビュー、チームのプロセスと組み合わせて行います。"
+      "explanation": "Copilot のコードレビューは品質向上と早期検出に有効ですが、最終的な品質保証はテスト、人間のレビュー、チームのプロセスと組み合わせて行います。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     }
   ]
 }

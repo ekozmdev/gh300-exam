@@ -13,7 +13,7 @@
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "透明性だけを満たせば、公平性やプライバシーの検証は省略できる"
         },
         {
           "id": "C",
@@ -27,7 +27,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "責任ある AI は、AI の利点を活用しながら公平性、信頼性、透明性、説明責任などを守るための考え方です。"
+      "explanation": "責任ある AI は、AI の利点を活用しながら公平性、信頼性、透明性、説明責任などを守るための考え方です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 2,
@@ -40,7 +40,7 @@
         },
         {
           "id": "B",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "人間のレビューを後工程へ移せば、AI の出力は自動的に説明責任を満たす"
         },
         {
           "id": "C",
@@ -54,7 +54,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "AI は偏りやプライバシー侵害などのリスクを持つため、統制と監視を設計に組み込む必要があります。"
+      "explanation": "AI は偏りやプライバシー侵害などのリスクを持つため、統制と監視を設計に組み込む必要があります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 3,
@@ -81,7 +81,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "6 原則は公平性、信頼性と安全性、プライバシーとセキュリティ、包括性、透明性、説明責任です。"
+      "explanation": "6 原則は公平性、信頼性と安全性、プライバシーとセキュリティ、包括性、透明性、説明責任です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 4,
@@ -108,7 +108,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公平性では、偏ったデータやモデル挙動が特定グループへ不利な影響を与えないようにします。"
+      "explanation": "公平性では、偏ったデータやモデル挙動が特定グループへ不利な影響を与えないようにします。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 5,
@@ -135,7 +135,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "偏りの検出、バランスの取れたテスト、性能監視は公平性のリスク低減に役立ちます。"
+      "explanation": "偏りの検出、バランスの取れたテスト、性能監視は公平性のリスク低減に役立ちます。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 6,
@@ -162,7 +162,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "信頼性は一貫した動作、安全性は意図しない損害の最小化に関係します。"
+      "explanation": "信頼性は一貫した動作、安全性は意図しない損害の最小化に関係します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 7,
@@ -189,7 +189,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "AI 利用ではデータ最小化、同意、匿名化、暗号化、アクセス制御が重要です。"
+      "explanation": "AI 利用ではデータ最小化、同意、匿名化、暗号化、アクセス制御が重要です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 8,
@@ -206,7 +206,7 @@
         },
         {
           "id": "C",
-          "text": "秘密情報を誰でも閲覧できる場所に置く"
+          "text": "生成コードの安全性はモデル側で保証されるため、利用者側の確認は主に不要である"
         },
         {
           "id": "D",
@@ -216,7 +216,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "機密データは暗号化し、キーは安全な保管、アクセス制御、ローテーションで保護します。"
+      "explanation": "機密データは暗号化し、キーは安全な保管、アクセス制御、ローテーションで保護します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 9,
@@ -243,7 +243,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "包括性では、能力、言語、地域、文化などの違いにかかわらず利用できる設計を目指します。"
+      "explanation": "包括性では、能力、言語、地域、文化などの違いにかかわらず利用できる設計を目指します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 10,
@@ -270,7 +270,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "アクセシビリティや地域・言語への配慮は、包括性の具体的な実践です。"
+      "explanation": "アクセシビリティや地域・言語への配慮は、包括性の具体的な実践です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 11,
@@ -297,7 +297,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "透明性は信頼、説明責任、公平性、安全性を支えるため、文書化や監査可能性が重要です。"
+      "explanation": "透明性は信頼、説明責任、公平性、安全性を支えるため、文書化や監査可能性が重要です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 12,
@@ -324,7 +324,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "文書化、検証、ログ、監査は AI システムを理解可能にし、説明責任を支えます。"
+      "explanation": "文書化、検証、ログ、監査は AI システムを理解可能にし、説明責任を支えます。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 13,
@@ -351,7 +351,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "AI の作成者や展開する組織は、システムの動作、監視、リスク軽減に責任を持ちます。"
+      "explanation": "AI の作成者や展開する組織は、システムの動作、監視、リスク軽減に責任を持ちます。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 14,
@@ -364,7 +364,7 @@
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "人間のレビューを後工程へ移せば、AI の出力は自動的に説明責任を満たす"
         },
         {
           "id": "C",
@@ -378,7 +378,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "生成コードは便利ですが、品質、セキュリティ、規約、プロジェクト固有要件に合うか人間が確認します。"
+      "explanation": "生成コードは便利ですが、品質、セキュリティ、規約、プロジェクト固有要件に合うか人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 15,
@@ -405,7 +405,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "能力や制限を理解でき、監査できることは AI システムへの信頼維持に重要です。"
+      "explanation": "能力や制限を理解でき、監査できることは AI システムへの信頼維持に重要です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 16,
@@ -432,7 +432,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "責任ある AI では、偏りを前提にレビューし、データ、評価、監視、制御で軽減します。"
+      "explanation": "責任ある AI では、偏りを前提にレビューし、データ、評価、監視、制御で軽減します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 17,
@@ -445,7 +445,7 @@
         },
         {
           "id": "B",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "人間のレビューを後工程へ移せば、AI の出力は自動的に説明責任を満たす"
         },
         {
           "id": "C",
@@ -459,7 +459,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "プライバシーとセキュリティの観点から、認証情報や個人情報の露出は避けます。"
+      "explanation": "プライバシーとセキュリティの観点から、認証情報や個人情報の露出は避けます。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 18,
@@ -486,7 +486,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "AI 出力は支援材料であり、最終判断、レビュー、承認は人間と組織の責任です。"
+      "explanation": "AI 出力は支援材料であり、最終判断、レビュー、承認は人間と組織の責任です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 19,
@@ -513,7 +513,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "責任ある AI は、AI の価値を活かしながら倫理的・運用上のリスクを抑えるための実践です。"
+      "explanation": "責任ある AI は、AI の価値を活かしながら倫理的・運用上のリスクを抑えるための実践です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
     {
       "questionNumber": 20,
@@ -530,7 +530,7 @@
         },
         {
           "id": "C",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "生成コードの安全性はモデル側で保証されるため、利用者側の確認は主に不要である"
         },
         {
           "id": "D",
@@ -540,7 +540,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "責任ある AI は複数の原則を組み合わせ、AI を安全で信頼できる形で利用するための土台です。"
+      "explanation": "責任ある AI は複数の原則を組み合わせ、AI を安全で信頼できる形で利用するための土台です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     }
   ]
 }

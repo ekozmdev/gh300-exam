@@ -21,13 +21,13 @@
         },
         {
           "id": "D",
-          "text": "Pull request を必ず自動マージする機能"
+          "text": "受け入れ条件は Copilot の自由度を下げるため、プロンプトには含めない方がよい"
         }
       ],
       "correctAnswers": [
         "B"
       ],
-      "explanation": "Agent Mode は、チャットで与えた目標に対してコードベースを調べ、必要な変更や検証を段階的に進める自律的な開発支援です。"
+      "explanation": "Agent Mode は、チャットで与えた目標に対してコードベースを調べ、必要な変更や検証を段階的に進める自律的な開発支援です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
     {
       "questionNumber": 2,
@@ -44,17 +44,17 @@
         },
         {
           "id": "C",
-          "text": "GitHub の課金情報を変更する作業"
+          "text": "受け入れ条件は Copilot の自由度を下げるため、プロンプトには含めない方がよい"
         },
         {
           "id": "D",
-          "text": "ブラウザーのブックマーク整理"
+          "text": "Agent Mode は単一行補完に特化し、複数ファイルの調査や検証は対象外である"
         }
       ],
       "correctAnswers": [
         "B"
       ],
-      "explanation": "Agent Mode は変更範囲を探索し、複数ファイルを編集し、ビルドやテストなどの検証まで進められるため、横断的な開発作業に向いています。"
+      "explanation": "Agent Mode は変更範囲を探索し、複数ファイルを編集し、ビルドやテストなどの検証まで進められるため、横断的な開発作業に向いています。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
     {
       "questionNumber": 3,
@@ -81,7 +81,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "Agent Mode には、対象、期待動作、制約、検証条件を具体的に伝えるほど、意図に沿った作業になりやすくなります。"
+      "explanation": "Agent Mode には、対象、期待動作、制約、検証条件を具体的に伝えるほど、意図に沿った作業になりやすくなります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
     {
       "questionNumber": 4,
@@ -99,7 +99,7 @@
         },
         {
           "id": "C",
-          "text": "GitHub Copilot の契約プランの自動変更"
+          "text": "Agent Mode は単一行補完に特化し、複数ファイルの調査や検証は対象外である"
         },
         {
           "id": "D",
@@ -110,7 +110,7 @@
         "A",
         "B"
       ],
-      "explanation": "Agent Mode はコードベースを調査し、必要な編集や検証を進められます。一方、契約変更や危険な秘密情報公開は開発支援の目的ではありません。"
+      "explanation": "Agent Mode はコードベースを調査し、必要な編集や検証を進められます。一方、契約変更や危険な秘密情報公開は開発支援の目的ではありません。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
     {
       "questionNumber": 5,
@@ -119,7 +119,7 @@
       "options": [
         {
           "id": "A",
-          "text": "AI の出力は常に正しいため確認は不要だから"
+          "text": "Agent Mode は複数ステップで検証するため、利用者は最終差分より実行ログだけを確認すればよい"
         },
         {
           "id": "B",
@@ -137,7 +137,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "Copilot は作業を支援しますが、最終的な責任は利用者側にあります。差分やコマンド結果を確認し、意図しない変更を防ぐ必要があります。"
+      "explanation": "Copilot は作業を支援しますが、最終的な責任は利用者側にあります。差分やコマンド結果を確認し、意図しない変更を防ぐ必要があります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
     {
       "questionNumber": 6,
@@ -154,7 +154,7 @@
         },
         {
           "id": "C",
-          "text": "GitHub アカウントのパスワードを保存する"
+          "text": "リポジトリ固有の規約よりも、Copilot の一般的な既定動作を常に優先させる"
         },
         {
           "id": "D",
@@ -164,7 +164,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "指示ファイルやドキュメント化された規約は、コーディングスタイル、検証方法、制約を Copilot に伝え、作業の一貫性を高めます。"
+      "explanation": "指示ファイルやドキュメント化された規約は、コーディングスタイル、検証方法、制約を Copilot に伝え、作業の一貫性を高めます。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
     {
       "questionNumber": 7,
@@ -191,7 +191,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Agent Mode は、質問への回答にとどまらず、タスク達成に必要な調査、編集、確認を反復的に行える点が特徴です。"
+      "explanation": "Agent Mode は、質問への回答にとどまらず、タスク達成に必要な調査、編集、確認を反復的に行える点が特徴です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
     {
       "questionNumber": 8,
@@ -204,7 +204,7 @@
         },
         {
           "id": "B",
-          "text": "好きな色"
+          "text": "大きな変更ほど一括で依頼した方がレビューしやすく、段階化は避けるべきである"
         },
         {
           "id": "C",
@@ -218,7 +218,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "バグ修正では再現条件と期待動作が重要です。ログやエラー文も原因調査の手がかりになります。"
+      "explanation": "バグ修正では再現条件と期待動作が重要です。ログやエラー文も原因調査の手がかりになります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
     {
       "questionNumber": 9,
@@ -240,14 +240,14 @@
         },
         {
           "id": "D",
-          "text": "秘密情報をプロンプトに貼り付ける"
+          "text": "Agent Mode は単一行補完に特化し、複数ファイルの調査や検証は対象外である"
         }
       ],
       "correctAnswers": [
         "A",
         "B"
       ],
-      "explanation": "Agent Mode の結果はレビューと検証が必要です。無条件反映や秘密情報の入力は、品質・セキュリティ上のリスクになります。"
+      "explanation": "Agent Mode の結果はレビューと検証が必要です。無条件反映や秘密情報の入力は、品質・セキュリティ上のリスクになります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
     {
       "questionNumber": 10,
@@ -274,7 +274,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "リファクタリングでは、動作を変えない範囲、互換性、検証方法を明示するのが重要です。曖昧に全面変更を任せると意図しない変更につながります。"
+      "explanation": "リファクタリングでは、動作を変えない範囲、互換性、検証方法を明示するのが重要です。曖昧に全面変更を任せると意図しない変更につながります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
     {
       "questionNumber": 11,
@@ -295,13 +295,13 @@
         },
         {
           "id": "D",
-          "text": "すべてのレビューを省略するため"
+          "text": "Agent Mode は単一行補完に特化し、複数ファイルの調査や検証は対象外である"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "指示ファイルは、プロジェクト固有の前提、規約、検証手順を Copilot に伝えるためのコンテキストとして機能します。"
+      "explanation": "指示ファイルは、プロジェクト固有の前提、規約、検証手順を Copilot に伝えるためのコンテキストとして機能します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
     {
       "questionNumber": 12,
@@ -314,7 +314,7 @@
         },
         {
           "id": "B",
-          "text": "コードレビューを禁止できる"
+          "text": "受け入れ条件は Copilot の自由度を下げるため、プロンプトには含めない方がよい"
         },
         {
           "id": "C",
@@ -328,7 +328,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "受け入れ条件は、実装すべき動作と検証すべき状態を明確にし、Copilot と人間の認識ずれを減らします。"
+      "explanation": "受け入れ条件は、実装すべき動作と検証すべき状態を明確にし、Copilot と人間の認識ずれを減らします。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
     {
       "questionNumber": 13,
@@ -355,7 +355,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "AI による変更でも、差分の範囲、設計意図、テスト結果、セキュリティ影響を人間が確認する必要があります。"
+      "explanation": "AI による変更でも、差分の範囲、設計意図、テスト結果、セキュリティ影響を人間が確認する必要があります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
     {
       "questionNumber": 14,
@@ -382,7 +382,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Agent Mode は対話的に使う機能です。中間結果を見て、必要なら追加情報や制約を与えて修正方向を調整します。"
+      "explanation": "Agent Mode は対話的に使う機能です。中間結果を見て、必要なら追加情報や制約を与えて修正方向を調整します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
     {
       "questionNumber": 15,
@@ -395,7 +395,7 @@
         },
         {
           "id": "B",
-          "text": "テストをすべて削除する"
+          "text": "受け入れ条件は Copilot の自由度を下げるため、プロンプトには含めない方がよい"
         },
         {
           "id": "C",
@@ -409,7 +409,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "失敗ログは重要なフィードバックです。Agent Mode に失敗内容を渡して、原因調査と修正を反復するのが適切です。"
+      "explanation": "失敗ログは重要なフィードバックです。Agent Mode に失敗内容を渡して、原因調査と修正を反復するのが適切です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
     {
       "questionNumber": 16,
@@ -438,7 +438,7 @@
         "A",
         "B"
       ],
-      "explanation": "要件、制約、テスト方法は作業品質に直結します。秘密情報や無関係な情報は避けるべきです。"
+      "explanation": "要件、制約、テスト方法は作業品質に直結します。秘密情報や無関係な情報は避けるべきです。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
     {
       "questionNumber": 17,
@@ -459,13 +459,13 @@
         },
         {
           "id": "D",
-          "text": "GitHub の利用を禁止するため"
+          "text": "Agent Mode の提案範囲を広げ、レビューよりも一括変更の速度を優先するため"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "小さく明確な変更はレビューと検証がしやすく、Agent Mode の出力を安全に取り込むうえで重要です。"
+      "explanation": "小さく明確な変更はレビューと検証がしやすく、Agent Mode の出力を安全に取り込むうえで重要です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
     {
       "questionNumber": 18,
@@ -478,7 +478,7 @@
         },
         {
           "id": "B",
-          "text": "コメントの文字数が必ず偶数か"
+          "text": "受け入れ条件は Copilot の自由度を下げるため、プロンプトには含めない方がよい"
         },
         {
           "id": "C",
@@ -492,7 +492,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "AI 生成コードでも、シークレット、入力検証、権限、外部通信などのセキュリティ観点は必ず確認します。"
+      "explanation": "AI 生成コードでも、シークレット、入力検証、権限、外部通信などのセキュリティ観点は必ず確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
     {
       "questionNumber": 19,
@@ -519,7 +519,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "大きな作業は、計画、影響範囲、段階的な実装に分けると、誤りや過剰変更を抑えやすくなります。"
+      "explanation": "大きな作業は、計画、影響範囲、段階的な実装に分けると、誤りや過剰変更を抑えやすくなります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
     {
       "questionNumber": 20,
@@ -532,7 +532,7 @@
         },
         {
           "id": "B",
-          "text": "Copilot がすべての法的責任を負う"
+          "text": "大きな変更ほど一括で依頼した方がレビューしやすく、段階化は避けるべきである"
         },
         {
           "id": "C",
@@ -546,7 +546,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Agent Mode は開発を加速しますが、品質、セキュリティ、適合性の判断は利用者とチームの責任です。"
+      "explanation": "Agent Mode は開発を加速しますが、品質、セキュリティ、適合性の判断は利用者とチームの責任です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     }
   ]
 }

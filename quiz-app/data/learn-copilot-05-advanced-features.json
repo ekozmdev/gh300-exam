@@ -5,542 +5,542 @@
     {
       "questionNumber": 1,
       "type": "single",
-      "prompt": "高度な機能の目的について最も適切な説明はどれか。",
+      "prompt": "高度な GitHub Copilot 機能の位置づけとして最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "チャット、スラッシュコマンド、エージェントを使って通常の補完以上の作業を支援すること"
+          "text": "開いているファイルを既定コンテキストにした補完に加え、チャット、インラインチャット、スラッシュコマンド、エージェントで複雑な作業を支援する"
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "Copilot の提案は常にプロンプトなしでは使えず、チャットだけが唯一の入力経路である"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "スラッシュコマンドはターミナル専用で、エディター内のインラインチャットでは利用できない"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "高度な機能はテストやドキュメントではなく、新規コード生成だけを対象にする"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "高度な機能の目的では、チャット、スラッシュコマンド、エージェントを使って通常の補完以上の作業を支援することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "公式ドキュメントでは、ゴーストテキストによる補完に加えて、チャット、インラインチャット、スラッシュコマンド、エージェントを紹介しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/2-advanced-github-copilot-features"
     },
     {
       "questionNumber": 2,
       "type": "single",
-      "prompt": "スラッシュコマンドについて最も適切な説明はどれか。",
+      "prompt": "ゴーストテキストに関する説明として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "説明、修正、テスト生成などの意図を短いコマンドで指定する方法"
+          "text": "必ずチャットペインで承認してからでないとエディターへ反映できない"
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "Copilot が提示する候補で、Tab キーで受け入れることも無視することもできる"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "プロジェクト全体を常に読み込むため、開いているファイルの内容は提案に影響しない"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "/generate を入力した場合だけ表示されるチャット応答である"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
-      "explanation": "スラッシュコマンドでは、説明、修正、テスト生成などの意図を短いコマンドで指定する方法が重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "公式ドキュメントでは、Copilot の提案をゴーストテキストと呼び、Tab キーで受け入れるか無視できると説明しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/2-advanced-github-copilot-features"
     },
     {
       "questionNumber": 3,
       "type": "single",
-      "prompt": "チャット機能について最も適切な説明はどれか。",
+      "prompt": "専用チャットペインとインラインチャットの違いとして最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "自然言語でコードの説明、修正案、実装方針を相談できる機能"
+          "text": "インラインチャットはドキュメント生成だけに使い、コード修正には使えない"
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "専用チャットペインではスラッシュコマンドを使えず、インラインチャットだけで使える"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "専用ペインは会話用の場所を開き、インラインチャットはコード近くで質問や提案を扱える"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "どちらも同じだが、インラインチャットでは選択中コードの文脈を渡せない"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
-      "explanation": "チャット機能では、自然言語でコードの説明、修正案、実装方針を相談できる機能が重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "公式ドキュメントでは、専用のチャットペインに加え、インラインチャットはコードを離れずに対話できる点が利点だと説明しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/2-advanced-github-copilot-features"
     },
     {
       "questionNumber": 4,
       "type": "single",
-      "prompt": "エージェントへの質問について最も適切な説明はどれか。",
+      "prompt": "インラインチャットの起動方法として、公式ページの説明に合うものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "プロジェクト全体に関する調査や複数ファイルの文脈確認を依頼すること"
+          "text": "Windows では Alt+]、Mac では Option+] を使用する"
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "GitHub.com の PR 画面からだけ起動できる"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "copilot -i を実行したときだけ起動できる"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "Windows では Ctrl+I、Mac では Command+I を使用する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
-      "explanation": "エージェントへの質問では、プロジェクト全体に関する調査や複数ファイルの文脈確認を依頼することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "公式ドキュメントでは、インラインチャットへのアクセス方法として Windows の Ctrl+I と Mac の Command+I を示しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/2-advanced-github-copilot-features"
     },
     {
       "questionNumber": 5,
       "type": "single",
-      "prompt": "Python アプリでの活用について最も適切な説明はどれか。",
+      "prompt": "スラッシュコマンドを使う主な理由として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "既存コードの理解、Web API 更新、テスト生成などに使えること"
+          "text": "Copilot に現在のファイルをコンテキストとして使わせないようにするため"
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "すべての提案を自動で本番ブランチへコミットするため"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "長いプロンプトを書かずに、修正・説明・テスト作成などの意図を明確に伝えるため"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "GitHub.com のIssueタイトルだけを生成するため"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
-      "explanation": "Python アプリでの活用では、既存コードの理解、Web API 更新、テスト生成などに使えることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "公式ドキュメントでは、スラッシュコマンドにより一般的な開発タスクの特定意図を素早く伝え、より適切な応答を得やすいと説明しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/2-advanced-github-copilot-features"
     },
     {
       "questionNumber": 6,
       "type": "single",
-      "prompt": "VS Code 連携について最も適切な説明はどれか。",
+      "prompt": "`/tests` と `/doc` の使い分けとして正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "拡張機能とサインインを設定し、エディター内で Copilot を使うこと"
+          "text": "`/tests` はREADME更新、`/doc` はテスト失敗の修正に使う"
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "`/tests` は選択したコードの単体テスト作成、`/doc` は指定または選択したコードへのコメント追加に使う"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "`/tests` はシェルコマンド説明、`/doc` はモデル選択に使う"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "どちらも同じ意味で、選択したコードのパフォーマンス最適化だけを行う"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
-      "explanation": "VS Code 連携では、拡張機能とサインインを設定し、エディター内で Copilot を使うことが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "公式ドキュメントでは、`/tests` は選択したコードの単体テスト作成、`/doc` は指定または選択したコードへのコメント追加として整理されています。 参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/4-applied-copilot-techniques"
     },
     {
       "questionNumber": 7,
       "type": "single",
-      "prompt": "コード変更依頼について最も適切な説明はどれか。",
+      "prompt": "`/fix` を使う場面として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "対象と期待動作を明示して Copilot に修正を依頼すること"
+          "text": "問題のあるコードを選択し、修正候補を得たいとき"
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "選択コードの実行時間を分析して改善したいとき"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "選択コードの単体テストだけを自動作成したいとき"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "Copilot Chat の使い方ヘルプだけを表示したいとき"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "コード変更依頼では、対象と期待動作を明示して Copilot に修正を依頼することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "公式ドキュメントでは、バグのあるコードを選択してインラインチャットで `/fix` を使い、修正支援を依頼する例を示しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/4-applied-copilot-techniques"
     },
     {
       "questionNumber": 8,
       "type": "single",
-      "prompt": "Web API 更新について最も適切な説明はどれか。",
+      "prompt": "`/explain` と `/generate` の違いとして正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "エンドポイントやデータ処理の変更を文脈付きで依頼すること"
+          "text": "`/explain` はファイル操作の許可ディレクトリ表示、`/generate` は対話モード終了に使う"
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "`/explain` は単体テスト生成、`/generate` はコメント追加に使う"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "どちらも選択コードのランタイム改善だけを目的とする"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "`/explain` はコードの説明取得、`/generate` は要件に基づく新しいコード生成に使う"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
-      "explanation": "Web API 更新では、エンドポイントやデータ処理の変更を文脈付きで依頼することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "公式ドキュメントでは、`/explain` はコード説明、`/generate` は質問や要件に答えるコード生成に使うコマンドとして説明されています。 参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/4-applied-copilot-techniques"
     },
     {
       "questionNumber": 9,
       "type": "single",
-      "prompt": "コード説明について最も適切な説明はどれか。",
+      "prompt": "`/optimize` の説明として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "既存コードの目的、入力、出力、制御フローを説明させること"
+          "text": "選択したコードのランタイムや効率を分析し、改善を提案する"
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "選択したコードをREADME形式の手順書に変換する"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "ターミナル出力を読み取り、許可ディレクトリを一覧表示する"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "GitHub.com のPR本文を自動でマージする"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "コード説明では、既存コードの目的、入力、出力、制御フローを説明させることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "公式ドキュメントでは、`/optimize` は選択したコードの実行時間または効率の改善提案に使うと説明しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/4-applied-copilot-techniques"
     },
     {
       "questionNumber": 10,
       "type": "single",
-      "prompt": "デバッグ支援について最も適切な説明はどれか。",
+      "prompt": "選択的コンテキストの説明として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "エラー内容や再現条件を渡して原因候補を確認すること"
+          "text": "常にすべてのリポジトリと外部Webを読み込み、ユーザー指定を不要にすること"
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "ワークスペース全体やターミナル出力など、必要な文脈を指定して提案の精度を高めること"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "/tests はコード説明用のコマンドで、テストケース生成には向いていない"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "スラッシュコマンドを禁止し、通常の補完だけを使うこと"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
-      "explanation": "デバッグ支援では、エラー内容や再現条件を渡して原因候補を確認することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "公式ドキュメントでは、ワークスペース全体やターミナル出力に基づく提案など、作業中のコンテキストに合わせた支援を説明しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/4-applied-copilot-techniques"
     },
     {
       "questionNumber": 11,
       "type": "single",
-      "prompt": "テスト作成について最も適切な説明はどれか。",
+      "prompt": "`@terminal` エージェントについて正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "関数や API の期待動作からテストケースを生成すること"
+          "text": "README.md を開いたときだけ有効になり、APIドキュメントだけを生成する"
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "選択したコードの単体テストを作成するためのスラッシュコマンドである"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "ターミナル出力に基づいて、エラーやコマンドに関するヘルプを得るために使う"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "GitHub.com のディスカッション返信だけを下書きするエージェントである"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
-      "explanation": "テスト作成では、関数や API の期待動作からテストケースを生成することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "公式ドキュメントでは、`@terminal` エージェントによりターミナル出力に基づくエラーやコマンドの支援を得られると説明しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/4-applied-copilot-techniques"
     },
     {
       "questionNumber": 12,
       "type": "single",
-      "prompt": "提案の確認について最も適切な説明はどれか。",
+      "prompt": "Dockerfile 作成依頼を改善する例として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "生成された変更を読み、テストや実行結果で検証すること"
+          "text": "Copilot が最初に出したDockerfileは必ず正しいため、条件の追加は避ける"
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "Dockerfile は特殊なファイルなので、Copilot Chatでは扱えない"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "Dockerfile 作成ではワークスペースの文脈を使わず、ファイル名だけを入力する"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "最初の提案が合わない場合、Python の仮想環境を使うなど具体的な条件を追加して依頼し直す"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
-      "explanation": "提案の確認では、生成された変更を読み、テストや実行結果で検証することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "公式ドキュメントでは、Dockerfile 作成の提案例を示し、必要な手順がある場合はプロンプトを具体化できると説明しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/4-applied-copilot-techniques"
     },
     {
       "questionNumber": 13,
       "type": "single",
-      "prompt": "適切な粒度について最も適切な説明はどれか。",
+      "prompt": "Web API更新演習で新しいルートに求められた性質として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "大きすぎる依頼は分割し、ステップごとに確認すること"
+          "text": "POST要求で新しい国/地域を登録し、HTMLページだけを返す"
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "/tests はコード説明用のコマンドで、テストケース生成には向いていない"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "国/地域、市区町村、月の過去の高低情報を返すJSON応答を持ち、GET HTTP要求のみを許可する"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "CLIからのみ呼び出せる非HTTP関数として実装する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
-      "explanation": "適切な粒度では、大きすぎる依頼は分割し、ステップごとに確認することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "公式ドキュメントでは、国/地域・市区町村・月の過去の高低情報を提供するJSON応答を持ち、GET要求のみを許可するルートが必要だと説明しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/5-exercise-update-a-web-api"
     },
     {
       "questionNumber": 14,
       "type": "single",
-      "prompt": "コンテキスト提供について最も適切な説明はどれか。",
+      "prompt": "演習の新しいルート作成で使うプロンプトの意図として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "関連ファイル、エラー、仕様を示すと回答精度が上がること"
+          "text": "/tests はコード説明用のコマンドで、テストケース生成には向いていない"
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "国/地域の都市を公開する新しいAPIルートを作成させる"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "既存APIをCLI専用ツールに置き換えさせる"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "READMEだけを更新し、コード変更を避けさせる"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
-      "explanation": "コンテキスト提供では、関連ファイル、エラー、仕様を示すと回答精度が上がることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "公式ドキュメントでは、`Create a new route that exposes the cities of a country/region.` という趣旨のプロンプトで新しいAPIルートを作成する手順を示しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/5-exercise-update-a-web-api"
     },
     {
       "questionNumber": 15,
       "type": "single",
-      "prompt": "制約の提示について最も適切な説明はどれか。",
+      "prompt": "演習で `/tests` を使うときの指定として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "既存 API、ライブラリ、コーディング規約を守るよう伝えること"
+          "text": "作成した特定のAPIコードを選択し、国/地域としてスペインを使うテスト作成を依頼する"
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "README.md 全体を選択し、全世界の国/地域を追加するテストを依頼する"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "`/tests` だけをCLIの対話モードで実行し、対象コードは指定しない"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "GitHub.com のPR画面でレビューコメントだけを生成させる"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "制約の提示では、既存 API、ライブラリ、コーディング規約を守るよう伝えることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "公式ドキュメントでは、新しいルートを作成後、対象コードを選択してスペインを国/地域に使うテスト作成を Copilot Chat に依頼する手順を示しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/5-exercise-update-a-web-api"
     },
     {
       "questionNumber": 16,
       "type": "single",
-      "prompt": "エージェントの限界について最も適切な説明はどれか。",
+      "prompt": "生成されたテストが期待どおりでない場合の対応として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "プロジェクト固有の意図を誤解する可能性があること"
+          "text": "最初のテストを確認せず、失敗してもそのまま採用する"
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "Copilot の提案は修正できないため、演習を中止する"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "@terminal はワークスペース全体の設計判断専用で、ターミナル出力の説明には使わない"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "不一致の詳細をチャットで共有し、必要に応じてプロンプトを絞り込む"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
-      "explanation": "エージェントの限界では、プロジェクト固有の意図を誤解する可能性があることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "公式ドキュメントでは、結果が希望どおりになるまでプロンプトを絞り込み、テストが適切でない場合は詳細を Copilot に共有できると説明しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/5-exercise-update-a-web-api"
     },
     {
       "questionNumber": 17,
       "type": "single",
-      "prompt": "責任ある利用について最も適切な説明はどれか。",
+      "prompt": "演習で README.md を更新する目的として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "生成コードの品質、セキュリティ、ライセンスを人間が確認すること"
+          "text": "他の開発者がプロジェクトの実行方法を素早く理解できるようにする"
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "APIのGETルートをPOST専用に変更する"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "テストファイルをREADMEに置き換えて実行を不要にする"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "GitHubアカウントの認証情報をREADMEに保存する"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "責任ある利用では、生成コードの品質、セキュリティ、ライセンスを人間が確認することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "公式ドキュメントでは、README.md にプロジェクトの実行方法を記述し、他の開発者が素早く始められるようにする例を示しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/5-exercise-update-a-web-api"
     },
     {
       "questionNumber": 18,
       "type": "single",
-      "prompt": "演習での焦点について最も適切な説明はどれか。",
+      "prompt": "高度なタスクの例として公式ページに含まれる組み合わせはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "VS Code と Copilot を組み合わせて実際にコードを変更・検証すること"
+          "text": "チャットとスラッシュコマンドを使わず、ゴーストテキストだけで複数ファイルの変更計画を完了する"
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "コード修正、機能実装、ドキュメントやテストの作成、ターミナルコマンドの操作"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "/fix は新規テストプロジェクトの作成専用で、選択コードの修正には使わない"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "OSインストール、ブラウザ更新、秘密鍵配布、CI無効化"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
-      "explanation": "演習での焦点では、VS Code と Copilot を組み合わせて実際にコードを変更・検証することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "公式ドキュメントでは、既存プロジェクトでのコード修正や機能実装に加え、ドキュメント、テスト、ターミナルコマンドの作業を高度なタスク例として扱っています。 参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/4-applied-copilot-techniques"
     },
     {
       "questionNumber": 19,
       "type": "single",
-      "prompt": "高度機能の利点について最も適切な説明はどれか。",
+      "prompt": "`/fix` の例で修正対象になっている Python コードの問題として最も近いものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "単なる補完より複雑な開発タスクを会話的に進められること"
+          "text": "`with open` が常にネットワーク接続を開いてしまう"
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "`contents` 変数名が予約語で構文エラーになる"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "`file.read` の後に括弧がなく、メソッド呼び出しになっていない"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "Pythonでは `open` を使ったファイル読み取りが禁止されている"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
-      "explanation": "高度機能の利点では、単なる補完より複雑な開発タスクを会話的に進められることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "公式ドキュメントでは、`file.read` に括弧を追加して read メソッドを呼び出す、という `/fix` 応答例を示しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/4-applied-copilot-techniques"
     },
     {
       "questionNumber": 20,
       "type": "single",
-      "prompt": "まとめについて最も適切な説明はどれか。",
+      "prompt": "高度な機能を使う際の確認姿勢として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "スラッシュコマンド、チャット、エージェントを使い分けて検証まで行うこと"
+          "text": "Copilot が返した内容は公式ドキュメントと同等なので、検証せず本番へ反映する"
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "スラッシュコマンドを使えば選択範囲や目的を伝える必要はなくなる"
         },
         {
           "id": "C",
-          "text": "秘密情報をチャットや Issue に平文で貼り付けること"
+          "text": "エージェントを使う場合は現在のファイルやターミナル出力を文脈に含められない"
         },
         {
           "id": "D",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "提案をそのまま前提にせず、コード変更やテスト結果を確認し、必要に応じてプロンプトを調整する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
-      "explanation": "まとめでは、スラッシュコマンド、チャット、エージェントを使い分けて検証まで行うことが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。"
+      "explanation": "公式ドキュメントでは、提案を試し、希望どおりになるまでプロンプトを絞り込む流れや、テストで正確性を確認する流れが示されています。 参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/"
     }
   ]
 }

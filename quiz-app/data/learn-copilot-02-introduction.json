@@ -13,7 +13,7 @@
         },
         {
           "id": "B",
-          "text": "GitHub の請求専用ツール"
+          "text": "Copilot Chat は IDE 内の質問に限定され、GitHub.com の PR 要約や CLI 支援とは別系統の機能である"
         },
         {
           "id": "C",
@@ -27,7 +27,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot は IDE や GitHub などで開発作業を支援する AI アシスタントです。"
+      "explanation": "Copilot は IDE や GitHub などで開発作業を支援する AI アシスタントです。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 2,
@@ -40,7 +40,7 @@
         },
         {
           "id": "B",
-          "text": "人間のレビューを禁止するため"
+          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
         },
         {
           "id": "C",
@@ -54,7 +54,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot は開発者と並走し、コード補完、説明、テスト生成などを支援します。"
+      "explanation": "Copilot は開発者と並走し、コード補完、説明、テスト生成などを支援します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 3,
@@ -75,13 +75,13 @@
         },
         {
           "id": "D",
-          "text": "ブラウザーのブックマーク画面のみ"
+          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot は主要な IDE やエディター拡張として利用できます。"
+      "explanation": "Copilot は主要な IDE やエディター拡張として利用できます。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 4,
@@ -94,11 +94,11 @@
         },
         {
           "id": "B",
-          "text": "GitHub の契約や請求を自動変更すること"
+          "text": "Copilot Chat は IDE 内の質問に限定され、GitHub.com の PR 要約や CLI 支援とは別系統の機能である"
         },
         {
           "id": "C",
-          "text": "Organization を自動削除する"
+          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
         },
         {
           "id": "D",
@@ -108,7 +108,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot Chat はコードコンテキストを踏まえた会話型の支援を提供します。"
+      "explanation": "Copilot Chat はコードコンテキストを踏まえた会話型の支援を提供します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 5,
@@ -121,7 +121,7 @@
         },
         {
           "id": "B",
-          "text": "レビューを完全に不要にする"
+          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
         },
         {
           "id": "C",
@@ -135,7 +135,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "PR 要約は変更内容の理解を助ける補助であり、レビュー自体の代替ではありません。"
+      "explanation": "PR 要約は変更内容の理解を助ける補助であり、レビュー自体の代替ではありません。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 6,
@@ -156,13 +156,13 @@
         },
         {
           "id": "D",
-          "text": "レビュー履歴を削除する"
+          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot はレビューの補助として、問題や改善案を示すことができます。"
+      "explanation": "Copilot はレビューの補助として、問題や改善案を示すことができます。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 7,
@@ -175,11 +175,11 @@
         },
         {
           "id": "B",
-          "text": "GitHub アカウントの削除"
+          "text": "Copilot Chat は IDE 内の質問に限定され、GitHub.com の PR 要約や CLI 支援とは別系統の機能である"
         },
         {
           "id": "C",
-          "text": "契約プランの自動変更"
+          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
         },
         {
           "id": "D",
@@ -189,7 +189,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "CLI 用 Copilot はターミナル作業の説明やコマンド生成を支援します。"
+      "explanation": "CLI 用 Copilot はターミナル作業の説明やコマンド生成を支援します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 8,
@@ -202,11 +202,11 @@
         },
         {
           "id": "B",
-          "text": "画像保存専用フォルダー"
+          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
         },
         {
           "id": "C",
-          "text": "請求書管理画面"
+          "text": "Copilot の提案は GitHub.com 上だけで利用でき、IDE や CLI からは利用できない"
         },
         {
           "id": "D",
@@ -216,7 +216,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Spaces はプロジェクト構造や要件を踏まえた会話・計画に使うコンテキスト豊かな環境です。"
+      "explanation": "Spaces はプロジェクト構造や要件を踏まえた会話・計画に使うコンテキスト豊かな環境です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 9,
@@ -237,13 +237,13 @@
         },
         {
           "id": "D",
-          "text": "コードを読まずに請求を変更する"
+          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "コーディングエージェントは、関連ファイル生成や機能実装などの複数ステップ作業を支援します。"
+      "explanation": "コーディングエージェントは、関連ファイル生成や機能実装などの複数ステップ作業を支援します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 10,
@@ -270,7 +270,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Free は個人が始めやすいプランで、利用量に制限があります。"
+      "explanation": "Free は個人が始めやすいプランで、利用量に制限があります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 11,
@@ -297,7 +297,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Pro は個人向けに、より多い利用量や高度な支援を提供するプランです。"
+      "explanation": "Pro は個人向けに、より多い利用量や高度な支援を提供するプランです。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 12,
@@ -324,7 +324,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Pro+ はより高い利用ニーズを持つ個人向けに、追加容量や優先アクセスを含みます。"
+      "explanation": "Pro+ はより高い利用ニーズを持つ個人向けに、追加容量や優先アクセスを含みます。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 13,
@@ -351,7 +351,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Business は組織メンバーの利用管理、ポリシー制御、セキュリティ機能に重点があります。"
+      "explanation": "Business は組織メンバーの利用管理、ポリシー制御、セキュリティ機能に重点があります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 14,
@@ -364,7 +364,7 @@
         },
         {
           "id": "B",
-          "text": "すべての管理機能を削除する"
+          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
         },
         {
           "id": "C",
@@ -378,7 +378,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Enterprise は大規模組織向けに、より深い統合やコードベースに基づく支援を提供します。"
+      "explanation": "Enterprise は大規模組織向けに、より深い統合やコードベースに基づく支援を提供します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 15,
@@ -391,21 +391,21 @@
         },
         {
           "id": "B",
-          "text": "GitHub の契約更新だけで起動する"
+          "text": "Copilot の提案は GitHub.com 上だけで利用でき、IDE や CLI からは利用できない"
         },
         {
           "id": "C",
-          "text": "OS の壁紙変更で起動する"
+          "text": "Copilot Chat は IDE 内の質問に限定され、GitHub.com の PR 要約や CLI 支援とは別系統の機能である"
         },
         {
           "id": "D",
-          "text": "README を削除すると起動する"
+          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot はエディターの文脈やチャット入力、コマンドから支援を開始できます。"
+      "explanation": "Copilot はエディターの文脈やチャット入力、コマンドから支援を開始できます。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 16,
@@ -418,7 +418,7 @@
         },
         {
           "id": "B",
-          "text": "モニターの色温度だけ"
+          "text": "Copilot Chat は IDE 内の質問に限定され、GitHub.com の PR 要約や CLI 支援とは別系統の機能である"
         },
         {
           "id": "C",
@@ -426,13 +426,13 @@
         },
         {
           "id": "D",
-          "text": "関係ない SNS アカウントだけ"
+          "text": "Copilot の提案は GitHub.com 上だけで利用でき、IDE や CLI からは利用できない"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot が動かない場合は認証、拡張機能、契約、管理者ポリシーなどを確認します。"
+      "explanation": "Copilot が動かない場合は認証、拡張機能、契約、管理者ポリシーなどを確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 17,
@@ -445,7 +445,7 @@
         },
         {
           "id": "B",
-          "text": "全ファイルを削除する"
+          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
         },
         {
           "id": "C",
@@ -453,13 +453,13 @@
         },
         {
           "id": "D",
-          "text": "リポジトリを public にする"
+          "text": "Copilot Chat は IDE 内の質問に限定され、GitHub.com の PR 要約や CLI 支援とは別系統の機能である"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "基本的な接続・権限・設定の問題が、Copilot 利用不可の原因になることがあります。"
+      "explanation": "基本的な接続・権限・設定の問題が、Copilot 利用不可の原因になることがあります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 18,
@@ -472,21 +472,21 @@
         },
         {
           "id": "B",
-          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+          "text": "Copilot の提案は GitHub.com 上だけで利用でき、IDE や CLI からは利用できない"
         },
         {
           "id": "C",
-          "text": "テストや CI を無効化して変更を取り込むこと"
+          "text": "Copilot Chat は IDE 内の質問に限定され、GitHub.com の PR 要約や CLI 支援とは別系統の機能である"
         },
         {
           "id": "D",
-          "text": "提案元が AI なら常に正しいとみなす"
+          "text": "Copilot の提案は構文上正しければ、プロジェクト要件への適合確認を省略できる"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot の提案は補助であり、最終的な品質判断は開発者が行います。"
+      "explanation": "Copilot の提案は補助であり、最終的な品質判断は開発者が行います。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 19,
@@ -513,7 +513,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot はエディター内補完にとどまらず、会話、レビュー、CLI、計画などにも広がっています。"
+      "explanation": "Copilot はエディター内補完にとどまらず、会話、レビュー、CLI、計画などにも広がっています。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
     {
       "questionNumber": 20,
@@ -540,7 +540,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot は強力な支援ツールですが、品質・安全性・適合性の確認は開発者とチームの責任です。"
+      "explanation": "Copilot は強力な支援ツールですが、品質・安全性・適合性の確認は開発者とチームの責任です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     }
   ]
 }
