@@ -1,0 +1,550 @@
+{
+  "title": "Microsoft Learn GH Copilot 2: Copilot Cloud Agent",
+  "description": "Microsoft Learn「GitHub Copilot Cloud Agent を使用して開発を高速化する」に基づく確認クイズ（20問）",
+  "questions": [
+    {
+      "questionNumber": 1,
+      "type": "single",
+      "prompt": "Copilot Cloud Agent の基本的な役割はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "GitHub 上でタスクを割り当てられ、独立した環境で実装作業を進めるエージェント"
+        },
+        {
+          "id": "B",
+          "text": "ローカル IDE のテーマを変更する機能"
+        },
+        {
+          "id": "C",
+          "text": "GitHub Actions の課金を無効化する機能"
+        },
+        {
+          "id": "D",
+          "text": "Pull request を常に自動承認する機能"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Copilot Cloud Agent は GitHub 上の課題やタスクを割り当てられ、クラウド側の開発環境で変更を行い、PR などで成果を返します。"
+    },
+    {
+      "questionNumber": 2,
+      "type": "single",
+      "prompt": "Copilot Cloud Agent を利用するために、Business や Enterprise 組織で必要になり得ることはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "管理者がポリシーで利用を有効化する"
+        },
+        {
+          "id": "B",
+          "text": "すべてのリポジトリを public にする"
+        },
+        {
+          "id": "C",
+          "text": "Issue 機能を削除する"
+        },
+        {
+          "id": "D",
+          "text": "Git を使わない運用に変える"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "組織利用では、管理者が Copilot Cloud Agent の利用可否を制御できます。組織ポリシーや権限設定の確認が必要です。"
+    },
+    {
+      "questionNumber": 3,
+      "type": "single",
+      "prompt": "Copilot Cloud Agent にタスクを任せる単位として自然なものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "明確な Issue や作業依頼"
+        },
+        {
+          "id": "B",
+          "text": "曖昧な一言だけの願望"
+        },
+        {
+          "id": "C",
+          "text": "リポジトリと無関係な雑談"
+        },
+        {
+          "id": "D",
+          "text": "契約プランの変更申請"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Cloud Agent は、実装すべき内容、期待結果、制約が明確な Issue やタスクとして割り当てると効果的です。"
+    },
+    {
+      "questionNumber": 4,
+      "type": "single",
+      "prompt": "Copilot Cloud Agent が作業結果を示す代表的な形はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "変更を含む pull request"
+        },
+        {
+          "id": "B",
+          "text": "GitHub アカウントの削除"
+        },
+        {
+          "id": "C",
+          "text": "ローカルブラウザー履歴の更新"
+        },
+        {
+          "id": "D",
+          "text": "課金請求書の編集"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Cloud Agent は作業ブランチや pull request を通じて変更を提示し、人間がレビューできる形で成果を返します。"
+    },
+    {
+      "questionNumber": 5,
+      "type": "single",
+      "prompt": "Copilot Cloud Agent のタスク追跡で確認すべきものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "セッションの進行状況、ログ、作成された PR やコメント"
+        },
+        {
+          "id": "B",
+          "text": "利用者の個人用写真"
+        },
+        {
+          "id": "C",
+          "text": "関係ない Organization の秘密情報"
+        },
+        {
+          "id": "D",
+          "text": "ブラウザーの表示倍率だけ"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Cloud Agent の作業はセッションや PR 上で追跡できます。進行状況、失敗理由、作成された変更を確認することが重要です。"
+    },
+    {
+      "questionNumber": 6,
+      "type": "multiple",
+      "selectionCount": 2,
+      "prompt": "Copilot Cloud Agent に向いたタスクの特徴を 2 つ選べ。",
+      "options": [
+        {
+          "id": "A",
+          "text": "作業範囲と期待成果が明確"
+        },
+        {
+          "id": "B",
+          "text": "レビュー可能なコード変更として完結しやすい"
+        },
+        {
+          "id": "C",
+          "text": "機密情報を大量に必要とする"
+        },
+        {
+          "id": "D",
+          "text": "要件が存在せず判断基準もない"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B"
+      ],
+      "explanation": "Cloud Agent には、明確でレビュー可能な開発タスクが向いています。曖昧すぎる依頼や秘密情報依存の作業は避けるべきです。"
+    },
+    {
+      "questionNumber": 7,
+      "type": "single",
+      "prompt": "Copilot Cloud Agent の作業結果を受け取った後の適切な行動はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "PR の差分、テスト結果、説明をレビューする"
+        },
+        {
+          "id": "B",
+          "text": "PR を読まずに常にマージする"
+        },
+        {
+          "id": "C",
+          "text": "すべての CI を無効にする"
+        },
+        {
+          "id": "D",
+          "text": "変更理由を確認せず本番反映する"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Cloud Agent が作った変更も通常の PR と同様にレビュー、テスト、セキュリティ確認の対象です。"
+    },
+    {
+      "questionNumber": 8,
+      "type": "single",
+      "prompt": "Copilot Cloud Agent のトラブルシューティングで最初に見るべき情報はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "失敗したセッションやログ、権限・設定の状態"
+        },
+        {
+          "id": "B",
+          "text": "関係ない SNS 投稿"
+        },
+        {
+          "id": "C",
+          "text": "ローカルの壁紙設定"
+        },
+        {
+          "id": "D",
+          "text": "Issue の絵文字数"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "タスクが進まない場合は、セッションログ、権限、ポリシー、リポジトリ設定、CI 失敗などを確認します。"
+    },
+    {
+      "questionNumber": 9,
+      "type": "single",
+      "prompt": "Copilot Cloud Agent と MCP を組み合わせる主な利点はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "外部ツールや追加コンテキストに接続し、エージェントの作業範囲を広げられる"
+        },
+        {
+          "id": "B",
+          "text": "すべてのアクセス制御を無効化できる"
+        },
+        {
+          "id": "C",
+          "text": "コードレビューを法律上不要にできる"
+        },
+        {
+          "id": "D",
+          "text": "GitHub を使わずに PR を作れる"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "MCP はモデルやエージェントがツール・データソースへ接続するための仕組みで、Cloud Agent の文脈や操作能力を拡張できます。"
+    },
+    {
+      "questionNumber": 10,
+      "type": "single",
+      "prompt": "Copilot Cloud Agent に秘密情報を扱わせるときの基本方針として正しいものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "必要最小限の権限と安全なシークレット管理を使い、プロンプトへ直接貼らない"
+        },
+        {
+          "id": "B",
+          "text": "すべてのトークンを Issue 本文に書く"
+        },
+        {
+          "id": "C",
+          "text": "秘密情報をログに出す"
+        },
+        {
+          "id": "D",
+          "text": "権限を広く与えるほど安全になる"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "責任ある利用では、最小権限、シークレットの適切な管理、ログやプロンプトへの露出回避が重要です。"
+    },
+    {
+      "questionNumber": 11,
+      "type": "single",
+      "prompt": "Copilot Cloud Agent にタスクを割り当てる前に Issue に書くべき内容として最も適切なものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "背景、期待動作、制約、完了条件"
+        },
+        {
+          "id": "B",
+          "text": "担当者の好物"
+        },
+        {
+          "id": "C",
+          "text": "関係ない長文ログだけ"
+        },
+        {
+          "id": "D",
+          "text": "「修正」とだけ書く"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Cloud Agent は Issue の説明を重要な入力として使います。背景、期待動作、制約、完了条件を明確にすると成功率が上がります。"
+    },
+    {
+      "questionNumber": 12,
+      "type": "single",
+      "prompt": "Copilot Cloud Agent の PR をレビューするとき、通常の人間の PR と同じく確認すべき観点はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "仕様適合性、テスト、保守性、セキュリティ"
+        },
+        {
+          "id": "B",
+          "text": "作成者が AI なら確認不要"
+        },
+        {
+          "id": "C",
+          "text": "CI の結果は無関係"
+        },
+        {
+          "id": "D",
+          "text": "差分が大きいほどよい"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "AI 作成の PR も通常の品質ゲートを通す必要があります。仕様、テスト、保守性、セキュリティを確認します。"
+    },
+    {
+      "questionNumber": 13,
+      "type": "single",
+      "prompt": "Copilot Cloud Agent へのフィードバックとして効果的なものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "失敗しているテスト名と期待する修正方針を伝える"
+        },
+        {
+          "id": "B",
+          "text": "何が違うか説明せず「だめ」とだけ書く"
+        },
+        {
+          "id": "C",
+          "text": "関係ないファイルの削除を依頼する"
+        },
+        {
+          "id": "D",
+          "text": "秘密鍵を貼って調査させる"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "具体的な失敗情報と期待する方向性は、Cloud Agent が修正を反復するための有効なフィードバックになります。"
+    },
+    {
+      "questionNumber": 14,
+      "type": "single",
+      "prompt": "Copilot Cloud Agent を責任を持って使うための考え方として正しいものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "AI の出力を人間の開発プロセスに組み込み、レビューと検証を行う"
+        },
+        {
+          "id": "B",
+          "text": "AI が生成した変更は必ず正しいとみなす"
+        },
+        {
+          "id": "C",
+          "text": "所有権やライセンスを確認しない"
+        },
+        {
+          "id": "D",
+          "text": "セキュリティレビューの対象外にする"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Cloud Agent は開発を支援しますが、責任ある利用には人間によるレビュー、検証、コンプライアンス確認が必要です。"
+    },
+    {
+      "questionNumber": 15,
+      "type": "single",
+      "prompt": "Copilot Cloud Agent が大きすぎるタスクで失敗しやすい理由はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "範囲や完了条件が曖昧になり、レビューも難しくなるため"
+        },
+        {
+          "id": "B",
+          "text": "GitHub は小さい PR を扱えないため"
+        },
+        {
+          "id": "C",
+          "text": "Issue を使うと必ず失敗するため"
+        },
+        {
+          "id": "D",
+          "text": "コード変更が 1 行しかできないため"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Cloud Agent には、明確で分割されたタスクが向いています。巨大な依頼は誤解、過剰変更、レビュー困難につながります。"
+    },
+    {
+      "questionNumber": 16,
+      "type": "multiple",
+      "selectionCount": 2,
+      "prompt": "Copilot Cloud Agent の利用で管理者が考慮すべき項目を 2 つ選べ。",
+      "options": [
+        {
+          "id": "A",
+          "text": "組織ポリシーによる有効化"
+        },
+        {
+          "id": "B",
+          "text": "利用できるリポジトリや権限の管理"
+        },
+        {
+          "id": "C",
+          "text": "すべてのレビュー保護を解除すること"
+        },
+        {
+          "id": "D",
+          "text": "すべての Issue を private から public に変えること"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B"
+      ],
+      "explanation": "管理者は利用可否、対象リポジトリ、権限、組織のガバナンスに沿った設定を管理します。"
+    },
+    {
+      "questionNumber": 17,
+      "type": "single",
+      "prompt": "Copilot Cloud Agent による変更をチーム開発へ取り込むうえで、PR が重要な理由はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "差分、議論、チェック結果を透明に管理できるため"
+        },
+        {
+          "id": "B",
+          "text": "レビューを完全に禁止できるため"
+        },
+        {
+          "id": "C",
+          "text": "CI を実行できなくするため"
+        },
+        {
+          "id": "D",
+          "text": "変更履歴を消すため"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "PR は、AI が作った変更を通常の開発プロセスに載せ、レビュー・CI・議論を行うための中心的な場所です。"
+    },
+    {
+      "questionNumber": 18,
+      "type": "single",
+      "prompt": "Copilot Cloud Agent に追加依頼をするときのよい書き方はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "このテスト失敗を解消し、既存 API は変えないで"
+        },
+        {
+          "id": "B",
+          "text": "全部やり直して"
+        },
+        {
+          "id": "C",
+          "text": "理由はないが別物にして"
+        },
+        {
+          "id": "D",
+          "text": "レビューコメントは無視して"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "追加依頼では、対象、期待結果、守るべき制約を明確に伝えると、反復修正が安定します。"
+    },
+    {
+      "questionNumber": 19,
+      "type": "single",
+      "prompt": "Copilot Cloud Agent の作業環境について正しい説明はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "クラウド側の一時的な開発環境でタスクを実行する"
+        },
+        {
+          "id": "B",
+          "text": "利用者のローカル PC を常に直接操作する"
+        },
+        {
+          "id": "C",
+          "text": "GitHub を経由せずメールだけで動く"
+        },
+        {
+          "id": "D",
+          "text": "本番環境に直接ログインして修正する"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Cloud Agent はクラウド側のエフェメラルな開発環境で動作し、GitHub 上のタスクや PR と連携します。"
+    },
+    {
+      "questionNumber": 20,
+      "type": "single",
+      "prompt": "Copilot Cloud Agent の利用で、最終的なマージ判断を行うべき主体はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "チームの通常のレビュー・承認プロセス"
+        },
+        {
+          "id": "B",
+          "text": "AI が常に単独で判断する"
+        },
+        {
+          "id": "C",
+          "text": "Issue のタイトル文字数"
+        },
+        {
+          "id": "D",
+          "text": "CI 結果に関係なく自動マージする設定"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Cloud Agent の変更も、チームのレビュー、CI、ブランチ保護、承認ルールに従って取り込むべきです。"
+    }
+  ]
+}

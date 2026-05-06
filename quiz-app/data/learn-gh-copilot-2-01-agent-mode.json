@@ -1,0 +1,552 @@
+{
+  "title": "Microsoft Learn GH Copilot 2: Agent Mode",
+  "description": "Microsoft Learn「GitHub Copilot エージェント モードを使用したアプリケーションのビルド」に基づく確認クイズ（20問）",
+  "questions": [
+    {
+      "questionNumber": 1,
+      "type": "single",
+      "prompt": "GitHub Copilot の Agent Mode を最もよく表す説明はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "単一ファイルの補完だけを行うモード"
+        },
+        {
+          "id": "B",
+          "text": "目標を受け取り、複数ファイルの変更やコマンド実行を自律的に進めるモード"
+        },
+        {
+          "id": "C",
+          "text": "GitHub Issues のラベルだけを自動分類する機能"
+        },
+        {
+          "id": "D",
+          "text": "Pull request を必ず自動マージする機能"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "explanation": "Agent Mode は、チャットで与えた目標に対してコードベースを調べ、必要な変更や検証を段階的に進める自律的な開発支援です。"
+    },
+    {
+      "questionNumber": 2,
+      "type": "single",
+      "prompt": "Agent Mode が特に有効な作業はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 行の変数名候補を出すだけの作業"
+        },
+        {
+          "id": "B",
+          "text": "複数ファイルにまたがる機能追加やリファクタリング"
+        },
+        {
+          "id": "C",
+          "text": "GitHub の課金情報を変更する作業"
+        },
+        {
+          "id": "D",
+          "text": "ブラウザーのブックマーク整理"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "explanation": "Agent Mode は変更範囲を探索し、複数ファイルを編集し、ビルドやテストなどの検証まで進められるため、横断的な開発作業に向いています。"
+    },
+    {
+      "questionNumber": 3,
+      "type": "single",
+      "prompt": "Agent Mode に作業を依頼するとき、最も望ましいプロンプトはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "いい感じにして"
+        },
+        {
+          "id": "B",
+          "text": "ユーザー一覧に検索欄を追加し、名前とメールで絞り込み、既存テストも更新して"
+        },
+        {
+          "id": "C",
+          "text": "全部直して。詳細は任せる"
+        },
+        {
+          "id": "D",
+          "text": "このリポジトリを完全に作り直して"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "explanation": "Agent Mode には、対象、期待動作、制約、検証条件を具体的に伝えるほど、意図に沿った作業になりやすくなります。"
+    },
+    {
+      "questionNumber": 4,
+      "type": "multiple",
+      "selectionCount": 2,
+      "prompt": "Agent Mode が作業中に行える代表的な操作を 2 つ選べ。",
+      "options": [
+        {
+          "id": "A",
+          "text": "関連ファイルの読み取り"
+        },
+        {
+          "id": "B",
+          "text": "必要なコード変更の提案または実施"
+        },
+        {
+          "id": "C",
+          "text": "GitHub Copilot の契約プランの自動変更"
+        },
+        {
+          "id": "D",
+          "text": "所有者確認なしの本番シークレット公開"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B"
+      ],
+      "explanation": "Agent Mode はコードベースを調査し、必要な編集や検証を進められます。一方、契約変更や危険な秘密情報公開は開発支援の目的ではありません。"
+    },
+    {
+      "questionNumber": 5,
+      "type": "single",
+      "prompt": "Agent Mode で実行コマンドや変更内容を確認する理由として最も適切なものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "AI の出力は常に正しいため確認は不要だから"
+        },
+        {
+          "id": "B",
+          "text": "変更が意図、品質、セキュリティ要件に合っているか人間が責任を持つため"
+        },
+        {
+          "id": "C",
+          "text": "Copilot がコードを保存できないため"
+        },
+        {
+          "id": "D",
+          "text": "Agent Mode はファイルを読めないため"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "explanation": "Copilot は作業を支援しますが、最終的な責任は利用者側にあります。差分やコマンド結果を確認し、意図しない変更を防ぐ必要があります。"
+    },
+    {
+      "questionNumber": 6,
+      "type": "single",
+      "prompt": "Agent Mode によるドキュメント指示の使い方として適切なものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "プロジェクトの規約や作業方針を明文化し、エージェントの振る舞いを揃える"
+        },
+        {
+          "id": "B",
+          "text": "テストをすべて無効化するためだけに使う"
+        },
+        {
+          "id": "C",
+          "text": "GitHub アカウントのパスワードを保存する"
+        },
+        {
+          "id": "D",
+          "text": "リポジトリ外のすべてのファイル編集を許可する"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "指示ファイルやドキュメント化された規約は、コーディングスタイル、検証方法、制約を Copilot に伝え、作業の一貫性を高めます。"
+    },
+    {
+      "questionNumber": 7,
+      "type": "single",
+      "prompt": "Agent Mode と単純なチャット回答の違いとして正しいものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Agent Mode はコードベース探索、編集、検証の流れを持てる"
+        },
+        {
+          "id": "B",
+          "text": "Agent Mode は自然言語を理解しない"
+        },
+        {
+          "id": "C",
+          "text": "Agent Mode は必ず 1 ファイルだけを変更する"
+        },
+        {
+          "id": "D",
+          "text": "Agent Mode は説明文だけを返し、作業計画は立てない"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Agent Mode は、質問への回答にとどまらず、タスク達成に必要な調査、編集、確認を反復的に行える点が特徴です。"
+    },
+    {
+      "questionNumber": 8,
+      "type": "single",
+      "prompt": "Agent Mode にバグ修正を依頼するとき、最初に含めると有用な情報はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "発生条件、期待結果、実際の結果、関連ログ"
+        },
+        {
+          "id": "B",
+          "text": "好きな色"
+        },
+        {
+          "id": "C",
+          "text": "関係ないリポジトリのスター数"
+        },
+        {
+          "id": "D",
+          "text": "曖昧な感想だけ"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "バグ修正では再現条件と期待動作が重要です。ログやエラー文も原因調査の手がかりになります。"
+    },
+    {
+      "questionNumber": 9,
+      "type": "multiple",
+      "selectionCount": 2,
+      "prompt": "Agent Mode の作業を安全に進めるための利用者側の行動を 2 つ選べ。",
+      "options": [
+        {
+          "id": "A",
+          "text": "差分をレビューする"
+        },
+        {
+          "id": "B",
+          "text": "テストやビルド結果を確認する"
+        },
+        {
+          "id": "C",
+          "text": "生成されたコードを無条件で本番反映する"
+        },
+        {
+          "id": "D",
+          "text": "秘密情報をプロンプトに貼り付ける"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B"
+      ],
+      "explanation": "Agent Mode の結果はレビューと検証が必要です。無条件反映や秘密情報の入力は、品質・セキュリティ上のリスクになります。"
+    },
+    {
+      "questionNumber": 10,
+      "type": "single",
+      "prompt": "Agent Mode にリファクタリングを依頼するとき、避けるべき依頼はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "公開 API の互換性を保って重複処理を整理して"
+        },
+        {
+          "id": "B",
+          "text": "既存テストが通る範囲で関数を分割して"
+        },
+        {
+          "id": "C",
+          "text": "動作変更なしで読みやすくして"
+        },
+        {
+          "id": "D",
+          "text": "仕様は不明だが、全体を好きに変えて"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "explanation": "リファクタリングでは、動作を変えない範囲、互換性、検証方法を明示するのが重要です。曖昧に全面変更を任せると意図しない変更につながります。"
+    },
+    {
+      "questionNumber": 11,
+      "type": "single",
+      "prompt": "Agent Mode がプロジェクト内の指示ファイルを参照する主な目的はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "ローカル規約や手順をコンテキストとして利用するため"
+        },
+        {
+          "id": "B",
+          "text": "コンパイラを不要にするため"
+        },
+        {
+          "id": "C",
+          "text": "GitHub の権限設定を自動昇格するため"
+        },
+        {
+          "id": "D",
+          "text": "すべてのレビューを省略するため"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "指示ファイルは、プロジェクト固有の前提、規約、検証手順を Copilot に伝えるためのコンテキストとして機能します。"
+    },
+    {
+      "questionNumber": 12,
+      "type": "single",
+      "prompt": "Agent Mode に新機能を依頼するとき、受け入れ条件を書く効果として最も適切なものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "完了判断と検証観点を明確にできる"
+        },
+        {
+          "id": "B",
+          "text": "コードレビューを禁止できる"
+        },
+        {
+          "id": "C",
+          "text": "すべてのエラーを自動で無視できる"
+        },
+        {
+          "id": "D",
+          "text": "プロジェクトの依存関係を不要にできる"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "受け入れ条件は、実装すべき動作と検証すべき状態を明確にし、Copilot と人間の認識ずれを減らします。"
+    },
+    {
+      "questionNumber": 13,
+      "type": "single",
+      "prompt": "Agent Mode が提案したファイル変更に対して、利用者が行うべき確認はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "関係ないファイルが変更されていないか、意図した動作になっているかを確認する"
+        },
+        {
+          "id": "B",
+          "text": "行数が増えていれば常に承認する"
+        },
+        {
+          "id": "C",
+          "text": "テストが失敗しても確認せず承認する"
+        },
+        {
+          "id": "D",
+          "text": "説明が長ければ差分は見ない"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "AI による変更でも、差分の範囲、設計意図、テスト結果、セキュリティ影響を人間が確認する必要があります。"
+    },
+    {
+      "questionNumber": 14,
+      "type": "single",
+      "prompt": "Agent Mode を使った演習で重要な姿勢はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "結果を観察し、必要に応じて追加指示で軌道修正する"
+        },
+        {
+          "id": "B",
+          "text": "一度依頼したら何が起きても介入しない"
+        },
+        {
+          "id": "C",
+          "text": "コードベースの文脈を一切与えない"
+        },
+        {
+          "id": "D",
+          "text": "実行結果やエラーを隠す"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Agent Mode は対話的に使う機能です。中間結果を見て、必要なら追加情報や制約を与えて修正方向を調整します。"
+    },
+    {
+      "questionNumber": 15,
+      "type": "single",
+      "prompt": "Agent Mode が生成した修正に対してテストが失敗した場合、適切な対応はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "失敗内容を共有し、原因を調べて修正させる"
+        },
+        {
+          "id": "B",
+          "text": "テストをすべて削除する"
+        },
+        {
+          "id": "C",
+          "text": "失敗を無視してマージする"
+        },
+        {
+          "id": "D",
+          "text": "プロンプトを空にする"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "失敗ログは重要なフィードバックです。Agent Mode に失敗内容を渡して、原因調査と修正を反復するのが適切です。"
+    },
+    {
+      "questionNumber": 16,
+      "type": "multiple",
+      "selectionCount": 2,
+      "prompt": "Agent Mode に渡すと品質向上に役立つコンテキストを 2 つ選べ。",
+      "options": [
+        {
+          "id": "A",
+          "text": "関連する要件や制約"
+        },
+        {
+          "id": "B",
+          "text": "既存のテスト・実行コマンド"
+        },
+        {
+          "id": "C",
+          "text": "本番パスワード"
+        },
+        {
+          "id": "D",
+          "text": "関係ない雑談ログ"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B"
+      ],
+      "explanation": "要件、制約、テスト方法は作業品質に直結します。秘密情報や無関係な情報は避けるべきです。"
+    },
+    {
+      "questionNumber": 17,
+      "type": "single",
+      "prompt": "Agent Mode で「変更範囲を小さく保つ」ことが重要な理由はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "レビューしやすく、意図しない影響を見つけやすくするため"
+        },
+        {
+          "id": "B",
+          "text": "AI がコードを書けなくなるため"
+        },
+        {
+          "id": "C",
+          "text": "テストを完全に不要にするため"
+        },
+        {
+          "id": "D",
+          "text": "GitHub の利用を禁止するため"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "小さく明確な変更はレビューと検証がしやすく、Agent Mode の出力を安全に取り込むうえで重要です。"
+    },
+    {
+      "questionNumber": 18,
+      "type": "single",
+      "prompt": "Agent Mode による修正で、利用者が特に注意すべきセキュリティ観点はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "秘密情報の露出や入力検証の欠落がないか"
+        },
+        {
+          "id": "B",
+          "text": "コメントの文字数が必ず偶数か"
+        },
+        {
+          "id": "C",
+          "text": "変数名がすべて 1 文字か"
+        },
+        {
+          "id": "D",
+          "text": "ファイル名が短いかだけ"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "AI 生成コードでも、シークレット、入力検証、権限、外部通信などのセキュリティ観点は必ず確認します。"
+    },
+    {
+      "questionNumber": 19,
+      "type": "single",
+      "prompt": "Agent Mode に大きな変更を依頼する前に適切な進め方はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "まず計画や影響範囲を出させ、必要なら段階的に実装する"
+        },
+        {
+          "id": "B",
+          "text": "全ファイルを同時に書き換えるよう依頼する"
+        },
+        {
+          "id": "C",
+          "text": "既存仕様を読ませない"
+        },
+        {
+          "id": "D",
+          "text": "レビュー担当者に何も説明しない"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "大きな作業は、計画、影響範囲、段階的な実装に分けると、誤りや過剰変更を抑えやすくなります。"
+    },
+    {
+      "questionNumber": 20,
+      "type": "single",
+      "prompt": "Agent Mode の学習で押さえるべき責任分担として正しいものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Copilot は支援し、利用者が結果を判断・検証する"
+        },
+        {
+          "id": "B",
+          "text": "Copilot がすべての法的責任を負う"
+        },
+        {
+          "id": "C",
+          "text": "利用者は差分を見てはいけない"
+        },
+        {
+          "id": "D",
+          "text": "生成コードはレビュー対象外になる"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Agent Mode は開発を加速しますが、品質、セキュリティ、適合性の判断は利用者とチームの責任です。"
+    }
+  ]
+}

@@ -1,0 +1,546 @@
+{
+  "title": "Microsoft Learn GitHub Copilot 基本編: GitHub Copilot の概要",
+  "description": "Microsoft Learn「GitHub Copilot の概要」に基づく確認クイズ（20問）",
+  "questions": [
+    {
+      "questionNumber": 1,
+      "type": "single",
+      "prompt": "GitHub Copilot を最もよく表す説明はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "インライン提案とチャットでコード生成、理解、リファクタリング、デバッグを支援する AI コーディングアシスタント"
+        },
+        {
+          "id": "B",
+          "text": "GitHub の請求専用ツール"
+        },
+        {
+          "id": "C",
+          "text": "Issue ラベルだけを自動分類するツール"
+        },
+        {
+          "id": "D",
+          "text": "CI を置き換えるビルドサーバー"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Copilot は IDE や GitHub などで開発作業を支援する AI アシスタントです。"
+    },
+    {
+      "questionNumber": 2,
+      "type": "single",
+      "prompt": "Copilot が「AI ペアプログラマ」と呼ばれる理由はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "開発者の文脈に応じてコード候補や説明をリアルタイムで提供するため"
+        },
+        {
+          "id": "B",
+          "text": "人間のレビューを禁止するため"
+        },
+        {
+          "id": "C",
+          "text": "単体で本番リリースを完了するため"
+        },
+        {
+          "id": "D",
+          "text": "GitHub アカウントを不要にするため"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Copilot は開発者と並走し、コード補完、説明、テスト生成などを支援します。"
+    },
+    {
+      "questionNumber": 3,
+      "type": "single",
+      "prompt": "GitHub Copilot が利用できる代表的なエディター環境はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Visual Studio Code、Visual Studio、Vim/Neovim、JetBrains IDE"
+        },
+        {
+          "id": "B",
+          "text": "GitHub Pages のみ"
+        },
+        {
+          "id": "C",
+          "text": "Microsoft Excel のみ"
+        },
+        {
+          "id": "D",
+          "text": "ブラウザーのブックマーク画面のみ"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Copilot は主要な IDE やエディター拡張として利用できます。"
+    },
+    {
+      "questionNumber": 4,
+      "type": "single",
+      "prompt": "Copilot Chat でできることとして適切なものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "コードについて質問し、エラー説明、テスト生成、実装方針の相談を行う"
+        },
+        {
+          "id": "B",
+          "text": "GitHub の契約や請求を自動変更すること"
+        },
+        {
+          "id": "C",
+          "text": "Organization を自動削除する"
+        },
+        {
+          "id": "D",
+          "text": "全 PR を無条件マージする"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Copilot Chat はコードコンテキストを踏まえた会話型の支援を提供します。"
+    },
+    {
+      "questionNumber": 5,
+      "type": "single",
+      "prompt": "Copilot pull request 要約の主な利点はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "PR の変更意図を説明し、レビュー担当者の理解を助ける"
+        },
+        {
+          "id": "B",
+          "text": "レビューを完全に不要にする"
+        },
+        {
+          "id": "C",
+          "text": "CI を停止する"
+        },
+        {
+          "id": "D",
+          "text": "差分を見えなくする"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "PR 要約は変更内容の理解を助ける補助であり、レビュー自体の代替ではありません。"
+    },
+    {
+      "questionNumber": 6,
+      "type": "single",
+      "prompt": "Copilot によるコードレビュー支援の例として適切なものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "潜在的な問題、エッジケース、改善点を提案する"
+        },
+        {
+          "id": "B",
+          "text": "人間の承認なしで全変更を取り込む"
+        },
+        {
+          "id": "C",
+          "text": "セキュリティチェックを無効化する"
+        },
+        {
+          "id": "D",
+          "text": "レビュー履歴を削除する"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Copilot はレビューの補助として、問題や改善案を示すことができます。"
+    },
+    {
+      "questionNumber": 7,
+      "type": "single",
+      "prompt": "CLI 用の Copilot の用途として正しいものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "コマンド候補、シェルスクリプト、エラーや出力の説明を得る"
+        },
+        {
+          "id": "B",
+          "text": "GitHub アカウントの削除"
+        },
+        {
+          "id": "C",
+          "text": "契約プランの自動変更"
+        },
+        {
+          "id": "D",
+          "text": "すべての端末権限の無制限化"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "CLI 用 Copilot はターミナル作業の説明やコマンド生成を支援します。"
+    },
+    {
+      "questionNumber": 8,
+      "type": "single",
+      "prompt": "Copilot Spaces の説明として適切なものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "プロジェクトの文脈を持つ専用の共同作業場所"
+        },
+        {
+          "id": "B",
+          "text": "画像保存専用フォルダー"
+        },
+        {
+          "id": "C",
+          "text": "請求書管理画面"
+        },
+        {
+          "id": "D",
+          "text": "GitHub Actions の代替ランナー"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Spaces はプロジェクト構造や要件を踏まえた会話・計画に使うコンテキスト豊かな環境です。"
+    },
+    {
+      "questionNumber": 9,
+      "type": "single",
+      "prompt": "Copilot コーディングエージェントの役割はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "指示に基づいて複数ステップのコーディングタスクを進める"
+        },
+        {
+          "id": "B",
+          "text": "GitHub の全権限を昇格する"
+        },
+        {
+          "id": "C",
+          "text": "レビューなしで本番デプロイする"
+        },
+        {
+          "id": "D",
+          "text": "コードを読まずに請求を変更する"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "コーディングエージェントは、関連ファイル生成や機能実装などの複数ステップ作業を支援します。"
+    },
+    {
+      "questionNumber": 10,
+      "type": "single",
+      "prompt": "Copilot Free の特徴として Microsoft Learn ページで説明されているものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "月次制限付きのコード補完とチャット要求を提供する"
+        },
+        {
+          "id": "B",
+          "text": "常に Enterprise 機能をすべて提供する"
+        },
+        {
+          "id": "C",
+          "text": "GitHub アカウントなしで使える"
+        },
+        {
+          "id": "D",
+          "text": "Business 管理機能をすべて含む"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Free は個人が始めやすいプランで、利用量に制限があります。"
+    },
+    {
+      "questionNumber": 11,
+      "type": "single",
+      "prompt": "Copilot Pro の対象として最も適切なものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "無料プランを超える機能や利用量を必要とする個人開発者"
+        },
+        {
+          "id": "B",
+          "text": "Organization の一元管理だけが目的の管理者"
+        },
+        {
+          "id": "C",
+          "text": "GitHub を使わない利用者"
+        },
+        {
+          "id": "D",
+          "text": "CI 専用の実行環境"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Pro は個人向けに、より多い利用量や高度な支援を提供するプランです。"
+    },
+    {
+      "questionNumber": 12,
+      "type": "single",
+      "prompt": "Copilot Pro+ の特徴として適切なものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pro の機能に加えて追加のプレミアムリクエスト容量や優先度の高いアクセスを提供する"
+        },
+        {
+          "id": "B",
+          "text": "Free より機能を減らす"
+        },
+        {
+          "id": "C",
+          "text": "Organization ポリシーだけを提供する"
+        },
+        {
+          "id": "D",
+          "text": "Copilot Chat を無効化する"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Pro+ はより高い利用ニーズを持つ個人向けに、追加容量や優先アクセスを含みます。"
+    },
+    {
+      "questionNumber": 13,
+      "type": "single",
+      "prompt": "Copilot Business が向いている利用者はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Copilot アクセスを組織で管理し、セキュリティやコンプライアンス機能を使いたい組織"
+        },
+        {
+          "id": "B",
+          "text": "個人の無料利用だけをしたい人"
+        },
+        {
+          "id": "C",
+          "text": "GitHub を使わないチーム"
+        },
+        {
+          "id": "D",
+          "text": "コード補完を一切使わない組織"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Business は組織メンバーの利用管理、ポリシー制御、セキュリティ機能に重点があります。"
+    },
+    {
+      "questionNumber": 14,
+      "type": "single",
+      "prompt": "Copilot Enterprise の特徴として適切なものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Business 機能に加え、より深い GitHub Enterprise Cloud 統合やパーソナル化を提供する"
+        },
+        {
+          "id": "B",
+          "text": "すべての管理機能を削除する"
+        },
+        {
+          "id": "C",
+          "text": "個人無料利用だけを対象にする"
+        },
+        {
+          "id": "D",
+          "text": "Pull request 支援を禁止する"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Enterprise は大規模組織向けに、より深い統合やコードベースに基づく支援を提供します。"
+    },
+    {
+      "questionNumber": 15,
+      "type": "single",
+      "prompt": "Copilot をトリガーする方法として自然なものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "コードやコメントの文脈、チャットの質問、スラッシュコマンドなどを使う"
+        },
+        {
+          "id": "B",
+          "text": "GitHub の契約更新だけで起動する"
+        },
+        {
+          "id": "C",
+          "text": "OS の壁紙変更で起動する"
+        },
+        {
+          "id": "D",
+          "text": "README を削除すると起動する"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Copilot はエディターの文脈やチャット入力、コマンドから支援を開始できます。"
+    },
+    {
+      "questionNumber": 16,
+      "type": "single",
+      "prompt": "Copilot の設定・構成で確認する観点として適切なものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "アカウント、拡張機能、サブスクリプション、組織ポリシー"
+        },
+        {
+          "id": "B",
+          "text": "モニターの色温度だけ"
+        },
+        {
+          "id": "C",
+          "text": "キーボードのメーカーだけ"
+        },
+        {
+          "id": "D",
+          "text": "関係ない SNS アカウントだけ"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Copilot が動かない場合は認証、拡張機能、契約、管理者ポリシーなどを確認します。"
+    },
+    {
+      "questionNumber": 17,
+      "type": "single",
+      "prompt": "Copilot のトラブルシューティングで最初に確認すべきことはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "サインイン状態、拡張機能の有効化、利用権限、ネットワークや設定"
+        },
+        {
+          "id": "B",
+          "text": "全ファイルを削除する"
+        },
+        {
+          "id": "C",
+          "text": "Issue をすべて閉じる"
+        },
+        {
+          "id": "D",
+          "text": "リポジトリを public にする"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "基本的な接続・権限・設定の問題が、Copilot 利用不可の原因になることがあります。"
+    },
+    {
+      "questionNumber": 18,
+      "type": "single",
+      "prompt": "Copilot の提案を受け入れる前に必要な行動はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "提案内容を読み、プロジェクト要件や品質に合うか確認する"
+        },
+        {
+          "id": "B",
+          "text": "生成結果を人間が確認せず、そのまま本番へ反映すること"
+        },
+        {
+          "id": "C",
+          "text": "テストや CI を無効化して変更を取り込むこと"
+        },
+        {
+          "id": "D",
+          "text": "提案元が AI なら常に正しいとみなす"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Copilot の提案は補助であり、最終的な品質判断は開発者が行います。"
+    },
+    {
+      "questionNumber": 19,
+      "type": "single",
+      "prompt": "Copilot が開発ライフサイクル全体を支援できる理由はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "補完、チャット、PR 要約、レビュー支援、CLI、Spaces、エージェントなど複数の接点があるため"
+        },
+        {
+          "id": "B",
+          "text": "コード補完以外を一切提供しないため"
+        },
+        {
+          "id": "C",
+          "text": "GitHub.com では使えないため"
+        },
+        {
+          "id": "D",
+          "text": "ターミナル作業を対象外にするため"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Copilot はエディター内補完にとどまらず、会話、レビュー、CLI、計画などにも広がっています。"
+    },
+    {
+      "questionNumber": 20,
+      "type": "single",
+      "prompt": "GitHub Copilot の概要として最も適切なまとめはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "複数環境で開発者を支援する AI アシスタントだが、提案の検証は利用者が行う"
+        },
+        {
+          "id": "B",
+          "text": "人間の判断を完全に不要にする"
+        },
+        {
+          "id": "C",
+          "text": "GitHub の権限管理をすべて自動化する"
+        },
+        {
+          "id": "D",
+          "text": "コード以外の文脈を一切扱えない"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "Copilot は強力な支援ツールですが、品質・安全性・適合性の確認は開発者とチームの責任です。"
+    }
+  ]
+}
