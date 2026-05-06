@@ -13,15 +13,15 @@
         },
         {
           "id": "B",
-          "text": "5 ユニット"
-        },
-        {
-          "id": "C",
           "text": "6 ユニット"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "8 ユニット"
+        },
+        {
+          "id": "D",
+          "text": "5 ユニット"
         }
       ],
       "correctAnswers": [
@@ -36,23 +36,23 @@
       "options": [
         {
           "id": "A",
-          "text": "変数や条件など Python の基本的な理解"
-        },
-        {
-          "id": "B",
           "text": "Copilot Business または Enterprise の組織管理者権限"
         },
         {
+          "id": "B",
+          "text": "変数や条件など Python の基本的な理解"
+        },
+        {
           "id": "C",
-          "text": "GitHub Actions の大きな runner を作成する権限"
+          "text": "MCP サーバーを Docker でローカル実行した経験"
         },
         {
           "id": "D",
-          "text": "MCP サーバーを Docker でローカル実行した経験"
+          "text": "GitHub Actions の大きな runner を作成する権限"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/"
     },
@@ -63,7 +63,7 @@
       "options": [
         {
           "id": "A",
-          "text": "バージョン管理に Git と GitHub を使用する能力"
+          "text": "MCP サーバーを Docker でローカル実行した経験"
         },
         {
           "id": "B",
@@ -75,11 +75,11 @@
         },
         {
           "id": "D",
-          "text": "MCP サーバーを Docker でローカル実行した経験"
+          "text": "バージョン管理に Git と GitHub を使用する能力"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/"
     },
@@ -90,23 +90,23 @@
       "options": [
         {
           "id": "A",
-          "text": "スラッシュ コマンドを適用してコードを変更する"
-        },
-        {
-          "id": "B",
-          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
-        },
-        {
-          "id": "C",
           "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
         },
         {
-          "id": "D",
+          "id": "B",
+          "text": "スラッシュ コマンドを適用してコードを変更する"
+        },
+        {
+          "id": "C",
           "text": "Copilot の提案をレビュー不要でマージできるようにする"
+        },
+        {
+          "id": "D",
+          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/"
     },
@@ -121,11 +121,11 @@
         },
         {
           "id": "B",
-          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
+          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
         },
         {
           "id": "C",
-          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
+          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
         },
         {
           "id": "D",
@@ -148,7 +148,7 @@
         },
         {
           "id": "B",
-          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
+          "text": "Copilot の提案をレビュー不要でマージできるようにする"
         },
         {
           "id": "C",
@@ -156,7 +156,7 @@
         },
         {
           "id": "D",
-          "text": "Copilot の提案をレビュー不要でマージできるようにする"
+          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
         }
       ],
       "correctAnswers": [
@@ -171,23 +171,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Visual Studio Code と連携して動作するように Copilot を設定する"
+          "text": "バージョン管理に Git と GitHub を使用する能力"
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "Visual Studio Code と連携して動作するように Copilot を設定する"
         },
         {
           "id": "C",
-          "text": "変数や条件など Python の基本的な理解"
+          "text": "7 ユニット"
         },
         {
           "id": "D",
-          "text": "バージョン管理に Git と GitHub を使用する能力"
+          "text": "変数や条件など Python の基本的な理解"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/"
     },
@@ -198,7 +198,7 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub Copilot を使用して Web API を更新する"
+          "text": "バージョン管理に Git と GitHub を使用する能力"
         },
         {
           "id": "B",
@@ -210,11 +210,11 @@
         },
         {
           "id": "D",
-          "text": "バージョン管理に Git と GitHub を使用する能力"
+          "text": "GitHub Copilot を使用して Web API を更新する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/"
     },
@@ -225,11 +225,11 @@
       "options": [
         {
           "id": "A",
-          "text": "Python アプリケーション"
+          "text": "7 ユニット"
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "Python アプリケーション"
         },
         {
           "id": "C",
@@ -241,7 +241,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/"
     },
@@ -252,23 +252,23 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub Copilot の応用手法"
-        },
-        {
-          "id": "B",
           "text": "7 ユニット"
         },
         {
+          "id": "B",
+          "text": "GitHub Copilot の応用手法"
+        },
+        {
           "id": "C",
-          "text": "変数や条件など Python の基本的な理解"
+          "text": "バージョン管理に Git と GitHub を使用する能力"
         },
         {
           "id": "D",
-          "text": "バージョン管理に Git と GitHub を使用する能力"
+          "text": "変数や条件など Python の基本的な理解"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/"
     },
@@ -283,11 +283,11 @@
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "変数や条件など Python の基本的な理解"
         },
         {
           "id": "C",
-          "text": "変数や条件など Python の基本的な理解"
+          "text": "7 ユニット"
         },
         {
           "id": "D",
@@ -306,23 +306,23 @@
       "options": [
         {
           "id": "A",
-          "text": "初級"
-        },
-        {
-          "id": "B",
           "text": "中級"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "上級"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "管理者向け"
+        },
+        {
+          "id": "D",
+          "text": "初級"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/"
     },
@@ -333,7 +333,7 @@
       "options": [
         {
           "id": "A",
-          "text": "DevOps エンジニア、管理者、開発者、ソリューション アーキテクト、Student"
+          "text": "Student のみ"
         },
         {
           "id": "B",
@@ -341,15 +341,15 @@
         },
         {
           "id": "C",
-          "text": "管理者のみ"
+          "text": "DevOps エンジニア、管理者、開発者、ソリューション アーキテクト、Student"
         },
         {
           "id": "D",
-          "text": "Student のみ"
+          "text": "管理者のみ"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/"
     },
@@ -368,11 +368,11 @@
         },
         {
           "id": "C",
-          "text": "変数や条件など Python の基本的な理解"
+          "text": "バージョン管理に Git と GitHub を使用する能力"
         },
         {
           "id": "D",
-          "text": "バージョン管理に Git と GitHub を使用する能力"
+          "text": "変数や条件など Python の基本的な理解"
         }
       ],
       "correctAnswers": [
@@ -387,15 +387,15 @@
       "options": [
         {
           "id": "A",
-          "text": "コード変更に適用する機能として扱う"
-        },
-        {
-          "id": "B",
           "text": "7 ユニット"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "変数や条件など Python の基本的な理解"
+        },
+        {
+          "id": "C",
+          "text": "コード変更に適用する機能として扱う"
         },
         {
           "id": "D",
@@ -403,7 +403,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/"
     },
@@ -414,23 +414,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot と対話する機能として扱う"
-        },
-        {
-          "id": "B",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "C",
           "text": "変数や条件など Python の基本的な理解"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "バージョン管理に Git と GitHub を使用する能力"
+        },
+        {
+          "id": "C",
+          "text": "Copilot と対話する機能として扱う"
+        },
+        {
+          "id": "D",
+          "text": "7 ユニット"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/"
     },
@@ -441,11 +441,11 @@
       "options": [
         {
           "id": "A",
-          "text": "プロジェクトに関する質問へ使う"
+          "text": "7 ユニット"
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "バージョン管理に Git と GitHub を使用する能力"
         },
         {
           "id": "C",
@@ -453,11 +453,11 @@
         },
         {
           "id": "D",
-          "text": "バージョン管理に Git と GitHub を使用する能力"
+          "text": "プロジェクトに関する質問へ使う"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/"
     },
@@ -468,23 +468,23 @@
       "options": [
         {
           "id": "A",
-          "text": "演習で更新対象になる"
-        },
-        {
-          "id": "B",
           "text": "7 ユニット"
         },
         {
+          "id": "B",
+          "text": "バージョン管理に Git と GitHub を使用する能力"
+        },
+        {
           "id": "C",
-          "text": "変数や条件など Python の基本的な理解"
+          "text": "演習で更新対象になる"
         },
         {
           "id": "D",
-          "text": "バージョン管理に Git と GitHub を使用する能力"
+          "text": "変数や条件など Python の基本的な理解"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/"
     },
@@ -495,11 +495,11 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub が技術タグとして表示される"
+          "text": "7 ユニット"
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "GitHub が技術タグとして表示される"
         },
         {
           "id": "C",
@@ -511,7 +511,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/"
     },
@@ -522,15 +522,15 @@
       "options": [
         {
           "id": "A",
-          "text": "Python アプリで高度な Copilot 機能を使う"
-        },
-        {
-          "id": "B",
           "text": "7 ユニット"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "変数や条件など Python の基本的な理解"
+        },
+        {
+          "id": "C",
+          "text": "Python アプリで高度な Copilot 機能を使う"
         },
         {
           "id": "D",
@@ -538,7 +538,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/"
     }

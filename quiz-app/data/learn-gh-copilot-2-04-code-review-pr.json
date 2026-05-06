@@ -9,15 +9,15 @@
       "options": [
         {
           "id": "A",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "B",
           "text": "5 ユニット"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "6 ユニット"
+        },
+        {
+          "id": "C",
+          "text": "7 ユニット"
         },
         {
           "id": "D",
@@ -25,7 +25,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
@@ -36,23 +36,23 @@
       "options": [
         {
           "id": "A",
-          "text": "中級"
-        },
-        {
-          "id": "B",
-          "text": "初級"
-        },
-        {
-          "id": "C",
           "text": "上級"
         },
         {
-          "id": "D",
+          "id": "B",
+          "text": "中級"
+        },
+        {
+          "id": "C",
           "text": "管理者向け"
+        },
+        {
+          "id": "D",
+          "text": "初級"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
@@ -67,7 +67,7 @@
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "Copilot がコードレビューと pull request を効率化する方法を説明する"
         },
         {
           "id": "C",
@@ -75,7 +75,7 @@
         },
         {
           "id": "D",
-          "text": "Copilot がコードレビューと pull request を効率化する方法を説明する"
+          "text": "7 ユニット"
         }
       ],
       "correctAnswers": [
@@ -90,23 +90,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot がコードレビューと pull request を効率化する方法を説明する"
-        },
-        {
-          "id": "B",
-          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
-        },
-        {
-          "id": "C",
           "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
         },
         {
-          "id": "D",
+          "id": "B",
+          "text": "Copilot がコードレビューと pull request を効率化する方法を説明する"
+        },
+        {
+          "id": "C",
           "text": "Copilot の提案をレビュー不要でマージできるようにする"
+        },
+        {
+          "id": "D",
+          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
@@ -117,23 +117,23 @@
       "options": [
         {
           "id": "A",
-          "text": "レビュー プロセスに追加する主な機能を特定する"
-        },
-        {
-          "id": "B",
-          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
-        },
-        {
-          "id": "C",
           "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
         },
         {
-          "id": "D",
+          "id": "B",
+          "text": "レビュー プロセスに追加する主な機能を特定する"
+        },
+        {
+          "id": "C",
           "text": "Copilot の提案をレビュー不要でマージできるようにする"
+        },
+        {
+          "id": "D",
+          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
@@ -144,23 +144,23 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub.com で Copilot レビューを要求して解釈し制限を理解する"
+          "text": "Copilot の提案をレビュー不要でマージできるようにする"
         },
         {
           "id": "B",
-          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
-        },
-        {
-          "id": "C",
           "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
         },
         {
+          "id": "C",
+          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
+        },
+        {
           "id": "D",
-          "text": "Copilot の提案をレビュー不要でマージできるようにする"
+          "text": "GitHub.com で Copilot レビューを要求して解釈し制限を理解する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
@@ -171,15 +171,15 @@
       "options": [
         {
           "id": "A",
-          "text": "IDE で Copilot レビューをローカル実行しカスタム命令を適用する"
-        },
-        {
-          "id": "B",
           "text": "GitHub Actions の課金と runner サイズだけを最適化する"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
+        },
+        {
+          "id": "C",
+          "text": "IDE で Copilot レビューをローカル実行しカスタム命令を適用する"
         },
         {
           "id": "D",
@@ -187,7 +187,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
@@ -198,7 +198,7 @@
       "options": [
         {
           "id": "A",
-          "text": "PRU を活用してコンテキストに富んだ詳細分析を行う"
+          "text": "Copilot の提案をレビュー不要でマージできるようにする"
         },
         {
           "id": "B",
@@ -210,11 +210,11 @@
         },
         {
           "id": "D",
-          "text": "Copilot の提案をレビュー不要でマージできるようにする"
+          "text": "PRU を活用してコンテキストに富んだ詳細分析を行う"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
@@ -225,11 +225,11 @@
       "options": [
         {
           "id": "A",
-          "text": "ルールセットと状態チェックで Copilot レビューを自動化する"
+          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
         },
         {
           "id": "B",
-          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
+          "text": "ルールセットと状態チェックで Copilot レビューを自動化する"
         },
         {
           "id": "C",
@@ -241,7 +241,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
@@ -256,11 +256,11 @@
         },
         {
           "id": "B",
-          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
+          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
         },
         {
           "id": "C",
-          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
+          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
         },
         {
           "id": "D",
@@ -279,23 +279,23 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub アカウント"
-        },
-        {
-          "id": "B",
-          "text": "Copilot Business または Enterprise の組織管理者権限"
-        },
-        {
-          "id": "C",
           "text": "GitHub Actions の大きな runner を作成する権限"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "MCP サーバーを Docker でローカル実行した経験"
+        },
+        {
+          "id": "C",
+          "text": "GitHub アカウント"
+        },
+        {
+          "id": "D",
+          "text": "Copilot Business または Enterprise の組織管理者権限"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
@@ -310,7 +310,7 @@
         },
         {
           "id": "B",
-          "text": "Copilot Business または Enterprise の組織管理者権限"
+          "text": "MCP サーバーを Docker でローカル実行した経験"
         },
         {
           "id": "C",
@@ -318,7 +318,7 @@
         },
         {
           "id": "D",
-          "text": "MCP サーバーを Docker でローカル実行した経験"
+          "text": "Copilot Business または Enterprise の組織管理者権限"
         }
       ],
       "correctAnswers": [
@@ -333,23 +333,23 @@
       "options": [
         {
           "id": "A",
-          "text": "PR 作成、コメント、変更統合の基本知識"
-        },
-        {
-          "id": "B",
           "text": "Copilot Business または Enterprise の組織管理者権限"
         },
         {
+          "id": "B",
+          "text": "MCP サーバーを Docker でローカル実行した経験"
+        },
+        {
           "id": "C",
-          "text": "GitHub Actions の大きな runner を作成する権限"
+          "text": "PR 作成、コメント、変更統合の基本知識"
         },
         {
           "id": "D",
-          "text": "MCP サーバーを Docker でローカル実行した経験"
+          "text": "GitHub Actions の大きな runner を作成する権限"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
@@ -360,23 +360,23 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub Copilot がレビュー プロセスに追加するもの"
+          "text": "レビュー サイクルの高速化、問題検出、ベストプラクティス実施"
         },
         {
           "id": "B",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "C",
           "text": "中級"
         },
         {
+          "id": "C",
+          "text": "7 ユニット"
+        },
+        {
           "id": "D",
-          "text": "レビュー サイクルの高速化、問題検出、ベストプラクティス実施"
+          "text": "GitHub Copilot がレビュー プロセスに追加するもの"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
@@ -414,7 +414,7 @@
       "options": [
         {
           "id": "A",
-          "text": "問題を早期にキャッチし、Copilot でレビューを自動化する"
+          "text": "中級"
         },
         {
           "id": "B",
@@ -422,7 +422,7 @@
         },
         {
           "id": "C",
-          "text": "中級"
+          "text": "問題を早期にキャッチし、Copilot でレビューを自動化する"
         },
         {
           "id": "D",
@@ -430,7 +430,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
@@ -441,7 +441,7 @@
       "options": [
         {
           "id": "A",
-          "text": "影響の測定と PRU の最適化"
+          "text": "レビュー サイクルの高速化、問題検出、ベストプラクティス実施"
         },
         {
           "id": "B",
@@ -453,11 +453,11 @@
         },
         {
           "id": "D",
-          "text": "レビュー サイクルの高速化、問題検出、ベストプラクティス実施"
+          "text": "影響の測定と PRU の最適化"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
@@ -468,23 +468,23 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub Copilot コード レビュー"
-        },
-        {
-          "id": "B",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "C",
           "text": "中級"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "レビュー サイクルの高速化、問題検出、ベストプラクティス実施"
+        },
+        {
+          "id": "C",
+          "text": "GitHub Copilot コード レビュー"
+        },
+        {
+          "id": "D",
+          "text": "7 ユニット"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/"
     },
@@ -499,15 +499,15 @@
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "レビュー サイクルの高速化、問題検出、ベストプラクティス実施"
         },
         {
           "id": "C",
-          "text": "中級"
+          "text": "7 ユニット"
         },
         {
           "id": "D",
-          "text": "レビュー サイクルの高速化、問題検出、ベストプラクティス実施"
+          "text": "中級"
         }
       ],
       "correctAnswers": [
@@ -526,15 +526,15 @@
         },
         {
           "id": "B",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "C",
           "text": "中級"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "レビュー サイクルの高速化、問題検出、ベストプラクティス実施"
+        },
+        {
+          "id": "D",
+          "text": "7 ユニット"
         }
       ],
       "correctAnswers": [

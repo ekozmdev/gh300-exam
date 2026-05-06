@@ -9,23 +9,23 @@
       "options": [
         {
           "id": "A",
-          "text": "5 ユニット"
+          "text": "6 ユニット"
         },
         {
           "id": "B",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "C",
           "text": "8 ユニット"
         },
         {
+          "id": "C",
+          "text": "7 ユニット"
+        },
+        {
           "id": "D",
-          "text": "6 ユニット"
+          "text": "5 ユニット"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
@@ -36,7 +36,7 @@
       "options": [
         {
           "id": "A",
-          "text": "初級"
+          "text": "基礎ではなく管理者向けのみ"
         },
         {
           "id": "B",
@@ -48,11 +48,11 @@
         },
         {
           "id": "D",
-          "text": "基礎ではなく管理者向けのみ"
+          "text": "初級"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
@@ -63,7 +63,7 @@
       "options": [
         {
           "id": "A",
-          "text": "AI エンジニア、開発者、DevOps エンジニア、Student"
+          "text": "ソリューション アーキテクトのみ"
         },
         {
           "id": "B",
@@ -71,15 +71,15 @@
         },
         {
           "id": "C",
-          "text": "ソリューション アーキテクトのみ"
+          "text": "GitHub Enterprise 管理者のみ"
         },
         {
           "id": "D",
-          "text": "GitHub Enterprise 管理者のみ"
+          "text": "AI エンジニア、開発者、DevOps エンジニア、Student"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
@@ -90,23 +90,23 @@
       "options": [
         {
           "id": "A",
-          "text": "生成 AI の基本的な理解"
-        },
-        {
-          "id": "B",
-          "text": "GitHub Actions の高度な管理経験"
-        },
-        {
-          "id": "C",
           "text": "C# Dev Kit のセットアップ経験"
         },
         {
-          "id": "D",
+          "id": "B",
+          "text": "生成 AI の基本的な理解"
+        },
+        {
+          "id": "C",
           "text": "Copilot Business 管理者権限"
+        },
+        {
+          "id": "D",
+          "text": "GitHub Actions の高度な管理経験"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
@@ -117,11 +117,11 @@
       "options": [
         {
           "id": "A",
-          "text": "開発者向け生成 AI ツールとしての GitHub Copilot の責任ある使用"
+          "text": "Copilot CLI のコマンド構文だけ"
         },
         {
           "id": "B",
-          "text": "Copilot CLI のコマンド構文だけ"
+          "text": "GitHub MCP Server の Docker 構成だけ"
         },
         {
           "id": "C",
@@ -129,11 +129,11 @@
         },
         {
           "id": "D",
-          "text": "GitHub MCP Server の Docker 構成だけ"
+          "text": "開発者向け生成 AI ツールとしての GitHub Copilot の責任ある使用"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
@@ -148,7 +148,7 @@
         },
         {
           "id": "B",
-          "text": "MCP サーバーを JSON で宣言する"
+          "text": "PRU の消費量だけを最適化する"
         },
         {
           "id": "C",
@@ -156,7 +156,7 @@
         },
         {
           "id": "D",
-          "text": "PRU の消費量だけを最適化する"
+          "text": "MCP サーバーを JSON で宣言する"
         }
       ],
       "correctAnswers": [
@@ -175,15 +175,15 @@
         },
         {
           "id": "B",
-          "text": "CI を不要にするための代替策である"
+          "text": "コード補完の速度を上げるためだけの設定である"
         },
         {
           "id": "C",
-          "text": "GitHub Actions の承認ゲートを自動化するためだけに必要である"
+          "text": "CI を不要にするための代替策である"
         },
         {
           "id": "D",
-          "text": "コード補完の速度を上げるためだけの設定である"
+          "text": "GitHub Actions の承認ゲートを自動化するためだけに必要である"
         }
       ],
       "correctAnswers": [
@@ -206,11 +206,11 @@
         },
         {
           "id": "C",
-          "text": "すべての提案を受け入れる"
+          "text": "公開コード一致だけを見れば十分とする"
         },
         {
           "id": "D",
-          "text": "公開コード一致だけを見れば十分とする"
+          "text": "すべての提案を受け入れる"
         }
       ],
       "correctAnswers": [
@@ -225,7 +225,7 @@
       "options": [
         {
           "id": "A",
-          "text": "AI リスクを軽減する"
+          "text": "MCP サーバーを Docker で起動する"
         },
         {
           "id": "B",
@@ -233,7 +233,7 @@
         },
         {
           "id": "C",
-          "text": "MCP サーバーを Docker で起動する"
+          "text": "AI リスクを軽減する"
         },
         {
           "id": "D",
@@ -241,7 +241,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
@@ -252,23 +252,23 @@
       "options": [
         {
           "id": "A",
-          "text": "6 つの原則"
-        },
-        {
-          "id": "B",
-          "text": "3 つの原則"
-        },
-        {
-          "id": "C",
           "text": "8 つの原則"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "12 個のチェックリスト"
+        },
+        {
+          "id": "C",
+          "text": "3 つの原則"
+        },
+        {
+          "id": "D",
+          "text": "6 つの原則"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
@@ -279,7 +279,7 @@
       "options": [
         {
           "id": "A",
-          "text": "倫理的・運用上のリスクを軽減しながら Copilot を活用する"
+          "text": "Copilot の利用量制限だけを管理する"
         },
         {
           "id": "B",
@@ -287,15 +287,15 @@
         },
         {
           "id": "C",
-          "text": "Copilot の利用量制限だけを管理する"
+          "text": "Cloud Agent の runner サイズだけを選ぶ"
         },
         {
           "id": "D",
-          "text": "Cloud Agent の runner サイズだけを選ぶ"
+          "text": "倫理的・運用上のリスクを軽減しながら Copilot を活用する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
@@ -310,15 +310,15 @@
         },
         {
           "id": "B",
-          "text": "評価は GitHub Actions 上でだけ実行される"
-        },
-        {
-          "id": "C",
           "text": "評価はローカル VS Code 拡張でのみ表示される"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "評価には Enterprise 管理者権限が必須である"
+        },
+        {
+          "id": "D",
+          "text": "評価は GitHub Actions 上でだけ実行される"
         }
       ],
       "correctAnswers": [
@@ -333,7 +333,7 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub MCP Server の VS Code 構成"
+          "text": "AI リスクの軽減"
         },
         {
           "id": "B",
@@ -341,7 +341,7 @@
         },
         {
           "id": "C",
-          "text": "AI リスクの軽減"
+          "text": "GitHub MCP Server の VS Code 構成"
         },
         {
           "id": "D",
@@ -349,7 +349,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
@@ -360,23 +360,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot を使う開発作業で、提案のリスクと限界を踏まえて判断する"
-        },
-        {
-          "id": "B",
-          "text": "Copilot が生成したコードをすべて正解とみなす"
-        },
-        {
-          "id": "C",
           "text": "モデルに法的責任を移す"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "GitHub Actions の runner 種類だけを見る"
+        },
+        {
+          "id": "C",
+          "text": "Copilot を使う開発作業で、提案のリスクと限界を踏まえて判断する"
+        },
+        {
+          "id": "D",
+          "text": "Copilot が生成したコードをすべて正解とみなす"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
@@ -387,11 +387,11 @@
       "options": [
         {
           "id": "A",
-          "text": "生成 AI の責任ある使い方を学習者にも理解させる入門モジュールである"
+          "text": "教育機関の管理者設定だけを扱う"
         },
         {
           "id": "B",
-          "text": "学生だけが利用できる Copilot Free 専用モジュールである"
+          "text": "生成 AI の責任ある使い方を学習者にも理解させる入門モジュールである"
         },
         {
           "id": "C",
@@ -399,11 +399,11 @@
         },
         {
           "id": "D",
-          "text": "教育機関の管理者設定だけを扱う"
+          "text": "学生だけが利用できる Copilot Free 専用モジュールである"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
@@ -414,23 +414,23 @@
       "options": [
         {
           "id": "A",
-          "text": "AI 生成コードが倫理基準とプロジェクト要件に合うことを確認する実践"
-        },
-        {
-          "id": "B",
           "text": "LFS を有効化する YAML の書き方"
         },
         {
+          "id": "B",
+          "text": "AI 生成コードが倫理基準とプロジェクト要件に合うことを確認する実践"
+        },
+        {
           "id": "C",
-          "text": "MCP の OAuth 設定"
+          "text": "PRU の請求レポート作成"
         },
         {
           "id": "D",
-          "text": "PRU の請求レポート作成"
+          "text": "MCP の OAuth 設定"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
@@ -441,11 +441,11 @@
       "options": [
         {
           "id": "A",
-          "text": "AI 使用に伴う潜在的な倫理的および運用上のリスク"
+          "text": "GitHub Pages のビルド時間"
         },
         {
           "id": "B",
-          "text": "GitHub Pages のビルド時間"
+          "text": "AI 使用に伴う潜在的な倫理的および運用上のリスク"
         },
         {
           "id": "C",
@@ -457,7 +457,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
@@ -476,11 +476,11 @@
         },
         {
           "id": "C",
-          "text": "単体テストを C# Dev Kit だけで生成できる"
+          "text": "Cloud Agent の PR を自動承認できる"
         },
         {
           "id": "D",
-          "text": "Cloud Agent の PR を自動承認できる"
+          "text": "単体テストを C# Dev Kit だけで生成できる"
         }
       ],
       "correctAnswers": [
@@ -495,23 +495,23 @@
       "options": [
         {
           "id": "A",
-          "text": "開発者向け生成 AI ツールとして、コード提案の利用判断が倫理・運用リスクに直結するため"
-        },
-        {
-          "id": "B",
           "text": "GitHub Copilot が唯一の Git クライアントであるため"
         },
         {
+          "id": "B",
+          "text": "Copilot が Azure 課金を管理するから"
+        },
+        {
           "id": "C",
-          "text": "Copilot が GitHub Actions の代替だから"
+          "text": "開発者向け生成 AI ツールとして、コード提案の利用判断が倫理・運用リスクに直結するため"
         },
         {
           "id": "D",
-          "text": "Copilot が Azure 課金を管理するから"
+          "text": "Copilot が GitHub Actions の代替だから"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     },
@@ -522,23 +522,23 @@
       "options": [
         {
           "id": "A",
-          "text": "責任ある AI の原則、AI リスク、生成コード確認、透明性と説明責任"
+          "text": "Docker Compose、Kubernetes、Terraform、Azure Pipelines"
         },
         {
           "id": "B",
-          "text": "コード補完ショートカット、CLI コマンド、MCP JSON、Runner 課金"
+          "text": "責任ある AI の原則、AI リスク、生成コード確認、透明性と説明責任"
         },
         {
           "id": "C",
-          "text": "PR テンプレート、Release Notes、Dependabot、Pages"
+          "text": "コード補完ショートカット、CLI コマンド、MCP JSON、Runner 課金"
         },
         {
           "id": "D",
-          "text": "Docker Compose、Kubernetes、Terraform、Azure Pipelines"
+          "text": "PR テンプレート、Release Notes、Dependabot、Pages"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/"
     }

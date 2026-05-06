@@ -9,23 +9,23 @@
       "options": [
         {
           "id": "A",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "B",
-          "text": "5 ユニット"
-        },
-        {
-          "id": "C",
           "text": "6 ユニット"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "8 ユニット"
+        },
+        {
+          "id": "C",
+          "text": "7 ユニット"
+        },
+        {
+          "id": "D",
+          "text": "5 ユニット"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
@@ -63,23 +63,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot が AI 機能で開発者の生産性を効率化する方法"
+          "text": "ソフトウェア開発ライフサイクルを強化する"
         },
         {
           "id": "B",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "C",
           "text": "中級"
         },
         {
+          "id": "C",
+          "text": "7 ユニット"
+        },
+        {
           "id": "D",
-          "text": "ソフトウェア開発ライフサイクルを強化する"
+          "text": "Copilot が AI 機能で開発者の生産性を効率化する方法"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
@@ -94,15 +94,15 @@
         },
         {
           "id": "B",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "C",
           "text": "中級"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "Copilot が AI 機能で開発者の生産性を効率化する方法"
+        },
+        {
+          "id": "D",
+          "text": "7 ユニット"
         }
       ],
       "correctAnswers": [
@@ -125,11 +125,11 @@
         },
         {
           "id": "C",
-          "text": "中級"
+          "text": "Copilot が AI 機能で開発者の生産性を効率化する方法"
         },
         {
           "id": "D",
-          "text": "Copilot が AI 機能で開発者の生産性を効率化する方法"
+          "text": "中級"
         }
       ],
       "correctAnswers": [
@@ -144,7 +144,7 @@
       "options": [
         {
           "id": "A",
-          "text": "主な制限事項を特定する"
+          "text": "Copilot が AI 機能で開発者の生産性を効率化する方法"
         },
         {
           "id": "B",
@@ -156,11 +156,11 @@
         },
         {
           "id": "D",
-          "text": "Copilot が AI 機能で開発者の生産性を効率化する方法"
+          "text": "主な制限事項を特定する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
@@ -171,7 +171,7 @@
       "options": [
         {
           "id": "A",
-          "text": "生産性の向上を効果的に測定する"
+          "text": "Copilot が AI 機能で開発者の生産性を効率化する方法"
         },
         {
           "id": "B",
@@ -179,15 +179,15 @@
         },
         {
           "id": "C",
-          "text": "中級"
+          "text": "生産性の向上を効果的に測定する"
         },
         {
           "id": "D",
-          "text": "Copilot が AI 機能で開発者の生産性を効率化する方法"
+          "text": "中級"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
@@ -198,23 +198,23 @@
       "options": [
         {
           "id": "A",
-          "text": "開発者ワークフローに統合される具体的な方法を特定する"
-        },
-        {
-          "id": "B",
-          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
-        },
-        {
-          "id": "C",
           "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "Copilot の提案をレビュー不要でマージできるようにする"
+        },
+        {
+          "id": "C",
+          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
+        },
+        {
+          "id": "D",
+          "text": "開発者ワークフローに統合される具体的な方法を特定する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
@@ -225,23 +225,23 @@
       "options": [
         {
           "id": "A",
-          "text": "SDLC の各ステージへの潜在的影響を説明する"
-        },
-        {
-          "id": "B",
           "text": "GitHub Actions の課金と runner サイズだけを最適化する"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "Copilot の提案をレビュー不要でマージできるようにする"
+        },
+        {
+          "id": "D",
+          "text": "SDLC の各ステージへの潜在的影響を説明する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
@@ -252,23 +252,23 @@
       "options": [
         {
           "id": "A",
-          "text": "AI 支援コーディングの制限を評価し開発効率への影響を測定する"
-        },
-        {
-          "id": "B",
           "text": "GitHub Actions の課金と runner サイズだけを最適化する"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "Copilot の提案をレビュー不要でマージできるようにする"
+        },
+        {
+          "id": "D",
+          "text": "AI 支援コーディングの制限を評価し開発効率への影響を測定する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
@@ -283,11 +283,11 @@
         },
         {
           "id": "B",
-          "text": "Copilot Business または Enterprise の組織管理者権限"
+          "text": "GitHub Actions の大きな runner を作成する権限"
         },
         {
           "id": "C",
-          "text": "GitHub Actions の大きな runner を作成する権限"
+          "text": "Copilot Business または Enterprise の組織管理者権限"
         },
         {
           "id": "D",
@@ -306,11 +306,11 @@
       "options": [
         {
           "id": "A",
-          "text": "少なくとも 1 つのプログラミング言語の知識"
+          "text": "Copilot Business または Enterprise の組織管理者権限"
         },
         {
           "id": "B",
-          "text": "Copilot Business または Enterprise の組織管理者権限"
+          "text": "MCP サーバーを Docker でローカル実行した経験"
         },
         {
           "id": "C",
@@ -318,11 +318,11 @@
         },
         {
           "id": "D",
-          "text": "MCP サーバーを Docker でローカル実行した経験"
+          "text": "少なくとも 1 つのプログラミング言語の知識"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
@@ -333,7 +333,7 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub アカウントと GitHub の機能に関する基本的な知識"
+          "text": "GitHub Actions の大きな runner を作成する権限"
         },
         {
           "id": "B",
@@ -341,15 +341,15 @@
         },
         {
           "id": "C",
-          "text": "GitHub Actions の大きな runner を作成する権限"
+          "text": "MCP サーバーを Docker でローカル実行した経験"
         },
         {
           "id": "D",
-          "text": "MCP サーバーを Docker でローカル実行した経験"
+          "text": "GitHub アカウントと GitHub の機能に関する基本的な知識"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
@@ -360,15 +360,15 @@
       "options": [
         {
           "id": "A",
-          "text": "学習目的では使用制限がある Copilot Free で十分なはず"
-        },
-        {
-          "id": "B",
           "text": "7 ユニット"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "中級"
+        },
+        {
+          "id": "C",
+          "text": "学習目的では使用制限がある Copilot Free で十分なはず"
         },
         {
           "id": "D",
@@ -376,7 +376,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
@@ -387,7 +387,7 @@
       "options": [
         {
           "id": "A",
-          "text": "AI を使用して開発者の生産性を向上させる"
+          "text": "中級"
         },
         {
           "id": "B",
@@ -395,15 +395,15 @@
         },
         {
           "id": "C",
-          "text": "中級"
+          "text": "Copilot が AI 機能で開発者の生産性を効率化する方法"
         },
         {
           "id": "D",
-          "text": "Copilot が AI 機能で開発者の生産性を効率化する方法"
+          "text": "AI を使用して開発者の生産性を向上させる"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
@@ -414,15 +414,15 @@
       "options": [
         {
           "id": "A",
-          "text": "開発者の設定に合わせる"
-        },
-        {
-          "id": "B",
           "text": "7 ユニット"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "中級"
+        },
+        {
+          "id": "C",
+          "text": "開発者の設定に合わせる"
         },
         {
           "id": "D",
@@ -430,7 +430,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
@@ -445,15 +445,15 @@
         },
         {
           "id": "B",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "C",
           "text": "中級"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "Copilot が AI 機能で開発者の生産性を効率化する方法"
+        },
+        {
+          "id": "D",
+          "text": "7 ユニット"
         }
       ],
       "correctAnswers": [
@@ -468,23 +468,23 @@
       "options": [
         {
           "id": "A",
-          "text": "制限事項を理解し、影響を測定する"
-        },
-        {
-          "id": "B",
           "text": "7 ユニット"
         },
         {
+          "id": "B",
+          "text": "Copilot が AI 機能で開発者の生産性を効率化する方法"
+        },
+        {
           "id": "C",
-          "text": "中級"
+          "text": "制限事項を理解し、影響を測定する"
         },
         {
           "id": "D",
-          "text": "Copilot が AI 機能で開発者の生産性を効率化する方法"
+          "text": "中級"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
@@ -495,23 +495,23 @@
       "options": [
         {
           "id": "A",
-          "text": "MCP サーバーの OAuth 制限"
-        },
-        {
-          "id": "B",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "C",
           "text": "中級"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "Copilot が AI 機能で開発者の生産性を効率化する方法"
+        },
+        {
+          "id": "C",
+          "text": "MCP サーバーの OAuth 制限"
+        },
+        {
+          "id": "D",
+          "text": "7 ユニット"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     },
@@ -522,15 +522,15 @@
       "options": [
         {
           "id": "A",
-          "text": "ユースケース、SDLC、制限、影響測定を扱う"
+          "text": "中級"
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "ユースケース、SDLC、制限、影響測定を扱う"
         },
         {
           "id": "C",
-          "text": "中級"
+          "text": "7 ユニット"
         },
         {
           "id": "D",
@@ -538,7 +538,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/"
     }

@@ -9,23 +9,23 @@
       "options": [
         {
           "id": "A",
-          "text": "8 ユニット"
-        },
-        {
-          "id": "B",
-          "text": "5 ユニット"
-        },
-        {
-          "id": "C",
           "text": "6 ユニット"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "7 ユニット"
+        },
+        {
+          "id": "C",
+          "text": "5 ユニット"
+        },
+        {
+          "id": "D",
+          "text": "8 ユニット"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
@@ -36,23 +36,23 @@
       "options": [
         {
           "id": "A",
-          "text": "中級"
-        },
-        {
-          "id": "B",
-          "text": "初級"
-        },
-        {
-          "id": "C",
           "text": "上級"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "管理者向け"
+        },
+        {
+          "id": "C",
+          "text": "初級"
+        },
+        {
+          "id": "D",
+          "text": "中級"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
@@ -63,7 +63,7 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub Copilot と Copilot Chat を使用して単体テストを作成する"
+          "text": "Visual Studio Code で GitHub Copilot を使用して単体テストを作成する"
         },
         {
           "id": "B",
@@ -75,11 +75,11 @@
         },
         {
           "id": "D",
-          "text": "Visual Studio Code で GitHub Copilot を使用して単体テストを作成する"
+          "text": "GitHub Copilot と Copilot Chat を使用して単体テストを作成する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
@@ -90,23 +90,23 @@
       "options": [
         {
           "id": "A",
-          "text": "単体テスト プロジェクトを作成し、Visual Studio Code で単体テストを実行する"
-        },
-        {
-          "id": "B",
           "text": "中級"
         },
         {
+          "id": "B",
+          "text": "Visual Studio Code で GitHub Copilot を使用して単体テストを作成する"
+        },
+        {
           "id": "C",
-          "text": "GitHub Copilot と Copilot Chat を使用して単体テストを作成する"
+          "text": "単体テスト プロジェクトを作成し、Visual Studio Code で単体テストを実行する"
         },
         {
           "id": "D",
-          "text": "Visual Studio Code で GitHub Copilot を使用して単体テストを作成する"
+          "text": "GitHub Copilot と Copilot Chat を使用して単体テストを作成する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
@@ -117,23 +117,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Visual Studio Code で GitHub Copilot を使用して単体テストを作成する"
+          "text": "Copilot の提案をレビュー不要でマージできるようにする"
         },
         {
           "id": "B",
-          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
+          "text": "Visual Studio Code で GitHub Copilot を使用して単体テストを作成する"
         },
         {
           "id": "C",
-          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
+          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
         },
         {
           "id": "D",
-          "text": "Copilot の提案をレビュー不要でマージできるようにする"
+          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
@@ -148,15 +148,15 @@
         },
         {
           "id": "B",
-          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
-        },
-        {
-          "id": "C",
           "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "Copilot の提案をレビュー不要でマージできるようにする"
+        },
+        {
+          "id": "D",
+          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
         }
       ],
       "correctAnswers": [
@@ -171,15 +171,15 @@
       "options": [
         {
           "id": "A",
-          "text": "Visual Studio Code、.NET SDK、C# Dev Kit でテストプロジェクトを作成し、ビルドと実行を確認する"
+          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
         },
         {
           "id": "B",
-          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
+          "text": "Visual Studio Code、.NET SDK、C# Dev Kit でテストプロジェクトを作成し、ビルドと実行を確認する"
         },
         {
           "id": "C",
-          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
+          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
         },
         {
           "id": "D",
@@ -187,7 +187,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
@@ -198,23 +198,23 @@
       "options": [
         {
           "id": "A",
-          "text": "1 年以上のソフトウェア開発経験"
-        },
-        {
-          "id": "B",
-          "text": "Copilot Business または Enterprise の組織管理者権限"
-        },
-        {
-          "id": "C",
           "text": "GitHub Actions の大きな runner を作成する権限"
         },
         {
-          "id": "D",
+          "id": "B",
+          "text": "1 年以上のソフトウェア開発経験"
+        },
+        {
+          "id": "C",
           "text": "MCP サーバーを Docker でローカル実行した経験"
+        },
+        {
+          "id": "D",
+          "text": "Copilot Business または Enterprise の組織管理者権限"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
@@ -225,23 +225,23 @@
       "options": [
         {
           "id": "A",
-          "text": "VS Code と C# Dev Kit による C# アプリ開発経験"
-        },
-        {
-          "id": "B",
-          "text": "Copilot Business または Enterprise の組織管理者権限"
-        },
-        {
-          "id": "C",
           "text": "GitHub Actions の大きな runner を作成する権限"
         },
         {
-          "id": "D",
+          "id": "B",
+          "text": "VS Code と C# Dev Kit による C# アプリ開発経験"
+        },
+        {
+          "id": "C",
           "text": "MCP サーバーを Docker でローカル実行した経験"
+        },
+        {
+          "id": "D",
+          "text": "Copilot Business または Enterprise の組織管理者権限"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
@@ -256,15 +256,15 @@
         },
         {
           "id": "B",
-          "text": "Copilot Business または Enterprise の組織管理者権限"
-        },
-        {
-          "id": "C",
           "text": "GitHub Actions の大きな runner を作成する権限"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "MCP サーバーを Docker でローカル実行した経験"
+        },
+        {
+          "id": "D",
+          "text": "Copilot Business または Enterprise の組織管理者権限"
         }
       ],
       "correctAnswers": [
@@ -279,23 +279,23 @@
       "options": [
         {
           "id": "A",
-          "text": "このトレーニングでは Copilot Free プランで十分"
-        },
-        {
-          "id": "B",
-          "text": "中級"
-        },
-        {
-          "id": "C",
           "text": "GitHub Copilot と Copilot Chat を使用して単体テストを作成する"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "単体テスト プロジェクトを作成し、Visual Studio Code で単体テストを実行する"
+        },
+        {
+          "id": "C",
+          "text": "中級"
+        },
+        {
+          "id": "D",
+          "text": "このトレーニングでは Copilot Free プランで十分"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
@@ -306,23 +306,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot Pro 30日試用では支払い形式が要求される"
-        },
-        {
-          "id": "B",
           "text": "中級"
         },
         {
+          "id": "B",
+          "text": "Copilot Pro 30日試用では支払い形式が要求される"
+        },
+        {
           "id": "C",
-          "text": "GitHub Copilot と Copilot Chat を使用して単体テストを作成する"
+          "text": "単体テスト プロジェクトを作成し、Visual Studio Code で単体テストを実行する"
         },
         {
           "id": "D",
-          "text": "単体テスト プロジェクトを作成し、Visual Studio Code で単体テストを実行する"
+          "text": "GitHub Copilot と Copilot Chat を使用して単体テストを作成する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
@@ -337,15 +337,15 @@
         },
         {
           "id": "B",
-          "text": "Copilot Business または Enterprise の組織管理者権限"
+          "text": "MCP サーバーを Docker でローカル実行した経験"
         },
         {
           "id": "C",
-          "text": "GitHub Actions の大きな runner を作成する権限"
+          "text": "Copilot Business または Enterprise の組織管理者権限"
         },
         {
           "id": "D",
-          "text": "MCP サーバーを Docker でローカル実行した経験"
+          "text": "GitHub Actions の大きな runner を作成する権限"
         }
       ],
       "correctAnswers": [
@@ -360,23 +360,23 @@
       "options": [
         {
           "id": "A",
-          "text": "単体テスト ツールと環境を確認する"
+          "text": "単体テスト プロジェクトを作成し、Visual Studio Code で単体テストを実行する"
         },
         {
           "id": "B",
-          "text": "中級"
-        },
-        {
-          "id": "C",
           "text": "GitHub Copilot と Copilot Chat を使用して単体テストを作成する"
         },
         {
+          "id": "C",
+          "text": "中級"
+        },
+        {
           "id": "D",
-          "text": "単体テスト プロジェクトを作成し、Visual Studio Code で単体テストを実行する"
+          "text": "単体テスト ツールと環境を確認する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
@@ -387,23 +387,23 @@
       "options": [
         {
           "id": "A",
-          "text": "テストの生成スマート アクションを使用して単体テストを作成する"
+          "text": "単体テスト プロジェクトを作成し、Visual Studio Code で単体テストを実行する"
         },
         {
           "id": "B",
-          "text": "中級"
-        },
-        {
-          "id": "C",
           "text": "GitHub Copilot と Copilot Chat を使用して単体テストを作成する"
         },
         {
+          "id": "C",
+          "text": "テストの生成スマート アクションを使用して単体テストを作成する"
+        },
+        {
           "id": "D",
-          "text": "単体テスト プロジェクトを作成し、Visual Studio Code で単体テストを実行する"
+          "text": "中級"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
@@ -441,23 +441,23 @@
       "options": [
         {
           "id": "A",
-          "text": "チャット ビュー モードを使用して単体テストを作成する"
-        },
-        {
-          "id": "B",
-          "text": "中級"
-        },
-        {
-          "id": "C",
           "text": "GitHub Copilot と Copilot Chat を使用して単体テストを作成する"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "単体テスト プロジェクトを作成し、Visual Studio Code で単体テストを実行する"
+        },
+        {
+          "id": "C",
+          "text": "中級"
+        },
+        {
+          "id": "D",
+          "text": "チャット ビュー モードを使用して単体テストを作成する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
@@ -472,7 +472,7 @@
         },
         {
           "id": "B",
-          "text": "中級"
+          "text": "単体テスト プロジェクトを作成し、Visual Studio Code で単体テストを実行する"
         },
         {
           "id": "C",
@@ -480,7 +480,7 @@
         },
         {
           "id": "D",
-          "text": "単体テスト プロジェクトを作成し、Visual Studio Code で単体テストを実行する"
+          "text": "中級"
         }
       ],
       "correctAnswers": [
@@ -495,23 +495,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Cloud Agent の copilot/ ブランチ制限"
-        },
-        {
-          "id": "B",
           "text": "8 ユニット"
         },
         {
+          "id": "B",
+          "text": "GitHub Copilot と Copilot Chat を使用して単体テストを作成する"
+        },
+        {
           "id": "C",
-          "text": "中級"
+          "text": "Cloud Agent の copilot/ ブランチ制限"
         },
         {
           "id": "D",
-          "text": "GitHub Copilot と Copilot Chat を使用して単体テストを作成する"
+          "text": "中級"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     },
@@ -522,23 +522,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot でテストを作り、ビルドと実行を確認する"
-        },
-        {
-          "id": "B",
           "text": "中級"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "GitHub Copilot と Copilot Chat を使用して単体テストを作成する"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "単体テスト プロジェクトを作成し、Visual Studio Code で単体テストを実行する"
+        },
+        {
+          "id": "D",
+          "text": "Copilot でテストを作り、ビルドと実行を確認する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
     }

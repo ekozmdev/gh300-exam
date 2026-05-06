@@ -9,23 +9,23 @@
       "options": [
         {
           "id": "A",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "B",
           "text": "5 ユニット"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "6 ユニット"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "8 ユニット"
+        },
+        {
+          "id": "D",
+          "text": "7 ユニット"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
@@ -36,15 +36,15 @@
       "options": [
         {
           "id": "A",
-          "text": "中級"
-        },
-        {
-          "id": "B",
           "text": "初級"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "上級"
+        },
+        {
+          "id": "C",
+          "text": "中級"
         },
         {
           "id": "D",
@@ -52,7 +52,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
@@ -67,15 +67,15 @@
         },
         {
           "id": "B",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "C",
           "text": "中級"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "MCP と GitHub MCP Server が何であり、なぜ有用かを理解する"
+        },
+        {
+          "id": "D",
+          "text": "7 ユニット"
         }
       ],
       "correctAnswers": [
@@ -90,23 +90,23 @@
       "options": [
         {
           "id": "A",
-          "text": "MCP と GitHub MCP Server が何であり、なぜ有用かを理解する"
+          "text": "Copilot の提案をレビュー不要でマージできるようにする"
         },
         {
           "id": "B",
-          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
-        },
-        {
-          "id": "C",
           "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
         },
         {
+          "id": "C",
+          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
+        },
+        {
           "id": "D",
-          "text": "Copilot の提案をレビュー不要でマージできるようにする"
+          "text": "MCP と GitHub MCP Server が何であり、なぜ有用かを理解する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
@@ -121,15 +121,15 @@
         },
         {
           "id": "B",
-          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
+          "text": "Copilot の提案をレビュー不要でマージできるようにする"
         },
         {
           "id": "C",
-          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
+          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
         },
         {
           "id": "D",
-          "text": "Copilot の提案をレビュー不要でマージできるようにする"
+          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
         }
       ],
       "correctAnswers": [
@@ -144,7 +144,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot Chat と共に GitHub MCP Server を使用する"
+          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
         },
         {
           "id": "B",
@@ -152,15 +152,15 @@
         },
         {
           "id": "C",
-          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
+          "text": "Copilot の提案をレビュー不要でマージできるようにする"
         },
         {
           "id": "D",
-          "text": "Copilot の提案をレビュー不要でマージできるようにする"
+          "text": "Copilot Chat と共に GitHub MCP Server を使用する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
@@ -175,11 +175,11 @@
         },
         {
           "id": "B",
-          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
+          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
         },
         {
           "id": "C",
-          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
+          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
         },
         {
           "id": "D",
@@ -198,7 +198,7 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub アカウント"
+          "text": "GitHub Actions の大きな runner を作成する権限"
         },
         {
           "id": "B",
@@ -206,7 +206,7 @@
         },
         {
           "id": "C",
-          "text": "GitHub Actions の大きな runner を作成する権限"
+          "text": "GitHub アカウント"
         },
         {
           "id": "D",
@@ -214,7 +214,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
@@ -225,7 +225,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Visual Studio Code または MCP 統合対応エディター"
+          "text": "MCP サーバーを Docker でローカル実行した経験"
         },
         {
           "id": "B",
@@ -237,11 +237,11 @@
         },
         {
           "id": "D",
-          "text": "MCP サーバーを Docker でローカル実行した経験"
+          "text": "Visual Studio Code または MCP 統合対応エディター"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
@@ -252,23 +252,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot で MCP を使うには MCP サーバーポリシーの有効化が必要な場合がある"
+          "text": "GitHub 機能を AI ツールに統合する安全でスケーラブルな方法"
         },
         {
           "id": "B",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "C",
           "text": "中級"
         },
         {
+          "id": "C",
+          "text": "7 ユニット"
+        },
+        {
           "id": "D",
-          "text": "GitHub 機能を AI ツールに統合する安全でスケーラブルな方法"
+          "text": "Copilot で MCP を使うには MCP サーバーポリシーの有効化が必要な場合がある"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
@@ -279,7 +279,7 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub 個人用アクセス トークン (PAT)"
+          "text": "中級"
         },
         {
           "id": "B",
@@ -287,7 +287,7 @@
         },
         {
           "id": "C",
-          "text": "中級"
+          "text": "GitHub 個人用アクセス トークン (PAT)"
         },
         {
           "id": "D",
@@ -295,7 +295,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
@@ -306,23 +306,23 @@
       "options": [
         {
           "id": "A",
-          "text": "ハンズオン制御には Docker が必要"
-        },
-        {
-          "id": "B",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "C",
           "text": "中級"
         },
         {
-          "id": "D",
+          "id": "B",
+          "text": "ハンズオン制御には Docker が必要"
+        },
+        {
+          "id": "C",
           "text": "GitHub 機能を AI ツールに統合する安全でスケーラブルな方法"
+        },
+        {
+          "id": "D",
+          "text": "7 ユニット"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
@@ -333,23 +333,23 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub MCP Server を使用して AI ワークフローを簡素化する"
-        },
-        {
-          "id": "B",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "C",
           "text": "中級"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "GitHub 機能を AI ツールに統合する安全でスケーラブルな方法"
+        },
+        {
+          "id": "C",
+          "text": "7 ユニット"
+        },
+        {
+          "id": "D",
+          "text": "GitHub MCP Server を使用して AI ワークフローを簡素化する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
@@ -360,7 +360,7 @@
       "options": [
         {
           "id": "A",
-          "text": "VS Code で GitHub MCP Server を構成、接続、使用する"
+          "text": "GitHub 機能を AI ツールに統合する安全でスケーラブルな方法"
         },
         {
           "id": "B",
@@ -372,11 +372,11 @@
         },
         {
           "id": "D",
-          "text": "GitHub 機能を AI ツールに統合する安全でスケーラブルな方法"
+          "text": "VS Code で GitHub MCP Server を構成、接続、使用する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
@@ -391,7 +391,7 @@
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "GitHub 機能を AI ツールに統合する安全でスケーラブルな方法"
         },
         {
           "id": "C",
@@ -399,7 +399,7 @@
         },
         {
           "id": "D",
-          "text": "GitHub 機能を AI ツールに統合する安全でスケーラブルな方法"
+          "text": "7 ユニット"
         }
       ],
       "correctAnswers": [
@@ -414,23 +414,23 @@
       "options": [
         {
           "id": "A",
-          "text": "MCP と GitHub Copilot を統合する"
-        },
-        {
-          "id": "B",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "C",
           "text": "中級"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "GitHub 機能を AI ツールに統合する安全でスケーラブルな方法"
+        },
+        {
+          "id": "C",
+          "text": "MCP と GitHub Copilot を統合する"
+        },
+        {
+          "id": "D",
+          "text": "7 ユニット"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
@@ -441,23 +441,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot Spaces のターゲット コンテキスト"
-        },
-        {
-          "id": "B",
           "text": "7 ユニット"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "中級"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "GitHub 機能を AI ツールに統合する安全でスケーラブルな方法"
+        },
+        {
+          "id": "D",
+          "text": "Copilot Spaces のターゲット コンテキスト"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
@@ -472,15 +472,15 @@
         },
         {
           "id": "B",
-          "text": "AI エンジニア、セキュリティ監査担当者、営業担当者"
-        },
-        {
-          "id": "C",
           "text": "管理者のみ"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "Student のみ"
+        },
+        {
+          "id": "D",
+          "text": "AI エンジニア、セキュリティ監査担当者、営業担当者"
         }
       ],
       "correctAnswers": [
@@ -495,23 +495,23 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub データと操作を AI ワークフローへ接続する"
-        },
-        {
-          "id": "B",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "C",
           "text": "中級"
         },
         {
-          "id": "D",
+          "id": "B",
+          "text": "GitHub データと操作を AI ワークフローへ接続する"
+        },
+        {
+          "id": "C",
           "text": "GitHub 機能を AI ツールに統合する安全でスケーラブルな方法"
+        },
+        {
+          "id": "D",
+          "text": "7 ユニット"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     },
@@ -522,23 +522,23 @@
       "options": [
         {
           "id": "A",
-          "text": "MCP 概念、VS Code 構成、Copilot Chat 利用、トラブルシュートを扱う"
-        },
-        {
-          "id": "B",
           "text": "7 ユニット"
         },
         {
+          "id": "B",
+          "text": "GitHub 機能を AI ツールに統合する安全でスケーラブルな方法"
+        },
+        {
           "id": "C",
-          "text": "中級"
+          "text": "MCP 概念、VS Code 構成、Copilot Chat 利用、トラブルシュートを扱う"
         },
         {
           "id": "D",
-          "text": "GitHub 機能を AI ツールに統合する安全でスケーラブルな方法"
+          "text": "中級"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/"
     }

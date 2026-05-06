@@ -9,7 +9,7 @@
       "options": [
         {
           "id": "A",
-          "text": "7 ユニット"
+          "text": "8 ユニット"
         },
         {
           "id": "B",
@@ -17,15 +17,15 @@
         },
         {
           "id": "C",
-          "text": "6 ユニット"
+          "text": "7 ユニット"
         },
         {
           "id": "D",
-          "text": "8 ユニット"
+          "text": "6 ユニット"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
     },
@@ -36,7 +36,7 @@
       "options": [
         {
           "id": "A",
-          "text": "中級"
+          "text": "管理者向け"
         },
         {
           "id": "B",
@@ -48,11 +48,11 @@
         },
         {
           "id": "D",
-          "text": "管理者向け"
+          "text": "中級"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
     },
@@ -63,23 +63,23 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub と GitHub Copilot の基本的な理解"
-        },
-        {
-          "id": "B",
-          "text": "Copilot Business または Enterprise の組織管理者権限"
-        },
-        {
-          "id": "C",
           "text": "GitHub Actions の大きな runner を作成する権限"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "MCP サーバーを Docker でローカル実行した経験"
+        },
+        {
+          "id": "C",
+          "text": "GitHub と GitHub Copilot の基本的な理解"
+        },
+        {
+          "id": "D",
+          "text": "Copilot Business または Enterprise の組織管理者権限"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
     },
@@ -90,23 +90,23 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub Copilot プランと管理/カスタマイズ機能を理解する"
+          "text": "Copilot の提案をレビュー不要でマージできるようにする"
         },
         {
           "id": "B",
-          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
+          "text": "GitHub Copilot プランと管理/カスタマイズ機能を理解する"
         },
         {
           "id": "C",
-          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
+          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
         },
         {
           "id": "D",
-          "text": "Copilot の提案をレビュー不要でマージできるようにする"
+          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
     },
@@ -121,15 +121,15 @@
         },
         {
           "id": "B",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "C",
           "text": "中級"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "GitHub と GitHub Copilot の基本的な理解"
+        },
+        {
+          "id": "D",
+          "text": "7 ユニット"
         }
       ],
       "correctAnswers": [
@@ -144,23 +144,23 @@
       "options": [
         {
           "id": "A",
-          "text": "コンテンツの除外を管理する方法"
-        },
-        {
-          "id": "B",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "C",
           "text": "中級"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "GitHub と GitHub Copilot の基本的な理解"
+        },
+        {
+          "id": "C",
+          "text": "コンテンツの除外を管理する方法"
+        },
+        {
+          "id": "D",
+          "text": "7 ユニット"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
     },
@@ -171,11 +171,11 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub Copilot とそのソリューションに関する一般的な問題"
+          "text": "GitHub と GitHub Copilot の基本的な理解"
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "GitHub Copilot とそのソリューションに関する一般的な問題"
         },
         {
           "id": "C",
@@ -183,11 +183,11 @@
         },
         {
           "id": "D",
-          "text": "GitHub と GitHub Copilot の基本的な理解"
+          "text": "7 ユニット"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
     },
@@ -198,11 +198,11 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub Copilot プランとそれぞれに関連する管理とカスタマイズの機能について調べる"
+          "text": "7 ユニット"
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "GitHub Copilot プランとそれぞれに関連する管理とカスタマイズの機能について調べる"
         },
         {
           "id": "C",
@@ -214,7 +214,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
     },
@@ -225,11 +225,11 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub Copilot での契約上の保護と、パブリック コードとの一致の無効化について調べる"
+          "text": "7 ユニット"
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "GitHub と GitHub Copilot の基本的な理解"
         },
         {
           "id": "C",
@@ -237,11 +237,11 @@
         },
         {
           "id": "D",
-          "text": "GitHub と GitHub Copilot の基本的な理解"
+          "text": "GitHub Copilot での契約上の保護と、パブリック コードとの一致の無効化について調べる"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
     },
@@ -256,15 +256,15 @@
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "GitHub と GitHub Copilot の基本的な理解"
         },
         {
           "id": "C",
-          "text": "中級"
+          "text": "7 ユニット"
         },
         {
           "id": "D",
-          "text": "GitHub と GitHub Copilot の基本的な理解"
+          "text": "中級"
         }
       ],
       "correctAnswers": [
@@ -279,23 +279,23 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub Copilot に関する一般的な問題をトラブルシューティングする"
-        },
-        {
-          "id": "B",
           "text": "7 ユニット"
         },
         {
+          "id": "B",
+          "text": "GitHub Copilot に関する一般的な問題をトラブルシューティングする"
+        },
+        {
           "id": "C",
-          "text": "中級"
+          "text": "GitHub と GitHub Copilot の基本的な理解"
         },
         {
           "id": "D",
-          "text": "GitHub と GitHub Copilot の基本的な理解"
+          "text": "中級"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
     },
@@ -306,23 +306,23 @@
       "options": [
         {
           "id": "A",
-          "text": "開発者、DevOps エンジニア、管理者"
-        },
-        {
-          "id": "B",
           "text": "AI エンジニア、セキュリティ監査担当者、営業担当者"
         },
         {
+          "id": "B",
+          "text": "開発者、DevOps エンジニア、管理者"
+        },
+        {
           "id": "C",
-          "text": "管理者のみ"
+          "text": "Student のみ"
         },
         {
           "id": "D",
-          "text": "Student のみ"
+          "text": "管理者のみ"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
     },
@@ -337,11 +337,11 @@
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "中級"
         },
         {
           "id": "C",
-          "text": "中級"
+          "text": "7 ユニット"
         },
         {
           "id": "D",
@@ -360,23 +360,23 @@
       "options": [
         {
           "id": "A",
-          "text": "プランごとの管理機能差"
-        },
-        {
-          "id": "B",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "C",
           "text": "中級"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "GitHub と GitHub Copilot の基本的な理解"
+        },
+        {
+          "id": "C",
+          "text": "7 ユニット"
+        },
+        {
+          "id": "D",
+          "text": "プランごとの管理機能差"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
     },
@@ -391,15 +391,15 @@
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "GitHub と GitHub Copilot の基本的な理解"
         },
         {
           "id": "C",
-          "text": "中級"
+          "text": "7 ユニット"
         },
         {
           "id": "D",
-          "text": "GitHub と GitHub Copilot の基本的な理解"
+          "text": "中級"
         }
       ],
       "correctAnswers": [
@@ -414,23 +414,23 @@
       "options": [
         {
           "id": "A",
-          "text": "無効化が契約上の保護の文脈で扱われる"
+          "text": "GitHub と GitHub Copilot の基本的な理解"
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "無効化が契約上の保護の文脈で扱われる"
         },
         {
           "id": "C",
-          "text": "中級"
+          "text": "7 ユニット"
         },
         {
           "id": "D",
-          "text": "GitHub と GitHub Copilot の基本的な理解"
+          "text": "中級"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
     },
@@ -441,23 +441,23 @@
       "options": [
         {
           "id": "A",
-          "text": "一般的な問題と解決策を認識する"
-        },
-        {
-          "id": "B",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "C",
           "text": "中級"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "GitHub と GitHub Copilot の基本的な理解"
+        },
+        {
+          "id": "C",
+          "text": "一般的な問題と解決策を認識する"
+        },
+        {
+          "id": "D",
+          "text": "7 ユニット"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
     },
@@ -468,23 +468,23 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub"
-        },
-        {
-          "id": "B",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "C",
           "text": "中級"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "GitHub と GitHub Copilot の基本的な理解"
+        },
+        {
+          "id": "C",
+          "text": "GitHub"
+        },
+        {
+          "id": "D",
+          "text": "7 ユニット"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
     },
@@ -495,23 +495,23 @@
       "options": [
         {
           "id": "A",
-          "text": "サインインして正答しプロファイルのパス指定を取得する"
-        },
-        {
-          "id": "B",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "C",
           "text": "中級"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "GitHub と GitHub Copilot の基本的な理解"
+        },
+        {
+          "id": "C",
+          "text": "7 ユニット"
+        },
+        {
+          "id": "D",
+          "text": "サインインして正答しプロファイルのパス指定を取得する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
     },
@@ -530,11 +530,11 @@
         },
         {
           "id": "C",
-          "text": "中級"
+          "text": "GitHub と GitHub Copilot の基本的な理解"
         },
         {
           "id": "D",
-          "text": "GitHub と GitHub Copilot の基本的な理解"
+          "text": "中級"
         }
       ],
       "correctAnswers": [

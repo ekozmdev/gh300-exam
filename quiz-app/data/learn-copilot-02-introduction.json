@@ -9,23 +9,23 @@
       "options": [
         {
           "id": "A",
-          "text": "7 ユニット"
+          "text": "6 ユニット"
         },
         {
           "id": "B",
-          "text": "5 ユニット"
+          "text": "7 ユニット"
         },
         {
           "id": "C",
-          "text": "8 ユニット"
+          "text": "5 ユニット"
         },
         {
           "id": "D",
-          "text": "6 ユニット"
+          "text": "8 ユニット"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
@@ -36,15 +36,15 @@
       "options": [
         {
           "id": "A",
-          "text": "Individual、Business、Enterprise の違いを学習する"
+          "text": "Pro、Codespaces、Pages の違いだけを学習する"
         },
         {
           "id": "B",
-          "text": "Free、Actions、Packages の違いを学習する"
+          "text": "Individual、Business、Enterprise の違いを学習する"
         },
         {
           "id": "C",
-          "text": "Pro、Codespaces、Pages の違いだけを学習する"
+          "text": "Free、Actions、Packages の違いを学習する"
         },
         {
           "id": "D",
@@ -52,7 +52,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
@@ -67,7 +67,7 @@
         },
         {
           "id": "B",
-          "text": "Copilot Business 管理者権限"
+          "text": "C# Dev Kit と .NET SDK"
         },
         {
           "id": "C",
@@ -75,7 +75,7 @@
         },
         {
           "id": "D",
-          "text": "C# Dev Kit と .NET SDK"
+          "text": "Copilot Business 管理者権限"
         }
       ],
       "correctAnswers": [
@@ -90,23 +90,23 @@
       "options": [
         {
           "id": "A",
-          "text": "コードの生成、理解、リファクタリング、デバッグ"
+          "text": "PRU 購入、LFS 課金、Runner グループ管理"
         },
         {
           "id": "B",
-          "text": "請求、監査ログ、SAML 証明書、Pages デプロイ"
+          "text": "コードの生成、理解、リファクタリング、デバッグ"
         },
         {
           "id": "C",
-          "text": "Docker イメージ署名、Kubernetes 配布、MCP OAuth"
+          "text": "請求、監査ログ、SAML 証明書、Pages デプロイ"
         },
         {
           "id": "D",
-          "text": "PRU 購入、LFS 課金、Runner グループ管理"
+          "text": "Docker イメージ署名、Kubernetes 配布、MCP OAuth"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
@@ -117,7 +117,7 @@
       "options": [
         {
           "id": "A",
-          "text": "インライン提案と会話型チャット エクスペリエンス"
+          "text": "Actions cache と artifacts"
         },
         {
           "id": "B",
@@ -129,11 +129,11 @@
         },
         {
           "id": "D",
-          "text": "Actions cache と artifacts"
+          "text": "インライン提案と会話型チャット エクスペリエンス"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
@@ -144,15 +144,15 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub Copilot、AI ペア プログラマ"
+          "text": "Copilot Cloud Agent の firewall を構成する"
         },
         {
           "id": "B",
-          "text": "GitHub MCP Server を Docker で起動する"
+          "text": "GitHub Copilot、AI ペア プログラマ"
         },
         {
           "id": "C",
-          "text": "Copilot Cloud Agent の firewall を構成する"
+          "text": "GitHub MCP Server を Docker で起動する"
         },
         {
           "id": "D",
@@ -160,7 +160,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
@@ -171,7 +171,7 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub Copilot と VS Code を使用して、AI で生成されたコード候補を使って開発する"
+          "text": "MCP と GitHub Copilot を統合する"
         },
         {
           "id": "B",
@@ -179,7 +179,7 @@
         },
         {
           "id": "C",
-          "text": "MCP と GitHub Copilot を統合する"
+          "text": "GitHub Copilot と VS Code を使用して、AI で生成されたコード候補を使って開発する"
         },
         {
           "id": "D",
@@ -187,7 +187,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
@@ -198,23 +198,23 @@
       "options": [
         {
           "id": "A",
-          "text": "コード提案やチャットなどの開始方法を理解するため"
-        },
-        {
-          "id": "B",
           "text": "GitHub Actions の schedule を作るため"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "OAuth アプリを取り消すため"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "Runner の label を自動生成するため"
+        },
+        {
+          "id": "D",
+          "text": "コード提案やチャットなどの開始方法を理解するため"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
@@ -229,15 +229,15 @@
         },
         {
           "id": "B",
-          "text": "MCP のリモート OAuth 制限だけ"
+          "text": "単体テストの Smart Action だけ"
         },
         {
           "id": "C",
-          "text": "Cloud Agent の draft PR 承認だけ"
+          "text": "MCP のリモート OAuth 制限だけ"
         },
         {
           "id": "D",
-          "text": "単体テストの Smart Action だけ"
+          "text": "Cloud Agent の draft PR 承認だけ"
         }
       ],
       "correctAnswers": [
@@ -252,15 +252,15 @@
       "options": [
         {
           "id": "A",
-          "text": "DevOps エンジニア、管理者、開発者、ソリューション アーキテクト、Student"
-        },
-        {
-          "id": "B",
           "text": "AI エンジニアだけ"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "セキュリティ監査担当者だけ"
+        },
+        {
+          "id": "C",
+          "text": "DevOps エンジニア、管理者、開発者、ソリューション アーキテクト、Student"
         },
         {
           "id": "D",
@@ -268,7 +268,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
@@ -279,23 +279,23 @@
       "options": [
         {
           "id": "A",
-          "text": "技術タグとして Azure も表示されるが、主題は GitHub Copilot の概要である"
-        },
-        {
-          "id": "B",
-          "text": "Azure OpenAI のデプロイ手順が中心である"
-        },
-        {
-          "id": "C",
           "text": "Azure Pipelines の YAML が中心である"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "Azure 課金アカウントが前提条件である"
+        },
+        {
+          "id": "C",
+          "text": "技術タグとして Azure も表示されるが、主題は GitHub Copilot の概要である"
+        },
+        {
+          "id": "D",
+          "text": "Azure OpenAI のデプロイ手順が中心である"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
@@ -310,11 +310,11 @@
         },
         {
           "id": "B",
-          "text": "Cloud Agent の MCP tools を登録する"
+          "text": "PRU を追加購入する"
         },
         {
           "id": "C",
-          "text": "PRU を追加購入する"
+          "text": "Cloud Agent の MCP tools を登録する"
         },
         {
           "id": "D",
@@ -333,7 +333,7 @@
       "options": [
         {
           "id": "A",
-          "text": "サインインしてすべての質問に正しく回答するとプロファイルのパス指定を取得できる"
+          "text": "評価は GitHub CLI の copilot コマンドで実行する"
         },
         {
           "id": "B",
@@ -341,7 +341,7 @@
         },
         {
           "id": "C",
-          "text": "評価は GitHub CLI の copilot コマンドで実行する"
+          "text": "サインインしてすべての質問に正しく回答するとプロファイルのパス指定を取得できる"
         },
         {
           "id": "D",
@@ -349,7 +349,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
@@ -360,23 +360,23 @@
       "options": [
         {
           "id": "A",
-          "text": "copilot-setup-steps ジョブの許可キー一覧"
+          "text": "Copilot のプラン差"
         },
         {
           "id": "B",
-          "text": "Copilot のトリガー方法"
-        },
-        {
-          "id": "C",
           "text": "Copilot の構成"
         },
         {
+          "id": "C",
+          "text": "copilot-setup-steps ジョブの許可キー一覧"
+        },
+        {
           "id": "D",
-          "text": "Copilot のプラン差"
+          "text": "Copilot のトリガー方法"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
@@ -387,23 +387,23 @@
       "options": [
         {
           "id": "A",
-          "text": "開発者の作業に並走して提案や説明を行う Copilot の位置づけ"
-        },
-        {
-          "id": "B",
-          "text": "GitHub Actions のペア runner 構成"
-        },
-        {
-          "id": "C",
           "text": "MCP サーバーのペアリング"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "二人のレビュワー承認ルール"
+        },
+        {
+          "id": "C",
+          "text": "開発者の作業に並走して提案や説明を行う Copilot の位置づけ"
+        },
+        {
+          "id": "D",
+          "text": "GitHub Actions のペア runner 構成"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
@@ -414,23 +414,23 @@
       "options": [
         {
           "id": "A",
-          "text": "チャットなどで自然言語から支援を受ける方法"
-        },
-        {
-          "id": "B",
           "text": "Git LFS の lfs:true 設定"
         },
         {
+          "id": "B",
+          "text": "チャットなどで自然言語から支援を受ける方法"
+        },
+        {
           "id": "C",
-          "text": "署名付きコミットの履歴書き換え"
+          "text": "OAuth を必要とする remote MCP の扱い"
         },
         {
           "id": "D",
-          "text": "OAuth を必要とする remote MCP の扱い"
+          "text": "署名付きコミットの履歴書き換え"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
@@ -441,23 +441,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot が利用できない、提案が出ない、構成が正しくない場合の確認"
+          "text": "C# テストの assertion だけ"
         },
         {
           "id": "B",
-          "text": "Cloud Agent の firewall allowlist のみ"
-        },
-        {
-          "id": "C",
           "text": "MCP の prompts 非対応のみ"
         },
         {
+          "id": "C",
+          "text": "Copilot が利用できない、提案が出ない、構成が正しくない場合の確認"
+        },
+        {
           "id": "D",
-          "text": "C# テストの assertion だけ"
+          "text": "Cloud Agent の firewall allowlist のみ"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     },
@@ -472,11 +472,11 @@
         },
         {
           "id": "B",
-          "text": "GitHub.com 以外では使えない"
+          "text": "CI 実行後だけ利用できる"
         },
         {
           "id": "C",
-          "text": "CI 実行後だけ利用できる"
+          "text": "GitHub.com 以外では使えない"
         },
         {
           "id": "D",
@@ -499,15 +499,15 @@
         },
         {
           "id": "B",
-          "text": "Free と Trial の支払い方式だけ"
-        },
-        {
-          "id": "C",
           "text": "Pro+ と Enterprise の PRU だけ"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "Actions Free minutes と runner サイズだけ"
+        },
+        {
+          "id": "D",
+          "text": "Free と Trial の支払い方式だけ"
         }
       ],
       "correctAnswers": [
@@ -522,11 +522,11 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot の概要、対話方法、プラン、構成、トラブルシューティングを扱う"
+          "text": "単体テスト生成だけを扱う"
         },
         {
           "id": "B",
-          "text": "Cloud Agent のセキュリティモデルだけを扱う"
+          "text": "Copilot の概要、対話方法、プラン、構成、トラブルシューティングを扱う"
         },
         {
           "id": "C",
@@ -534,11 +534,11 @@
         },
         {
           "id": "D",
-          "text": "単体テスト生成だけを扱う"
+          "text": "Cloud Agent のセキュリティモデルだけを扱う"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/"
     }

@@ -9,7 +9,7 @@
       "options": [
         {
           "id": "A",
-          "text": "7 ユニット"
+          "text": "6 ユニット"
         },
         {
           "id": "B",
@@ -17,15 +17,15 @@
         },
         {
           "id": "C",
-          "text": "6 ユニット"
+          "text": "8 ユニット"
         },
         {
           "id": "D",
-          "text": "8 ユニット"
+          "text": "7 ユニット"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     },
@@ -36,23 +36,23 @@
       "options": [
         {
           "id": "A",
-          "text": "中級"
-        },
-        {
-          "id": "B",
-          "text": "初級"
-        },
-        {
-          "id": "C",
           "text": "上級"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "管理者向け"
+        },
+        {
+          "id": "C",
+          "text": "初級"
+        },
+        {
+          "id": "D",
+          "text": "中級"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     },
@@ -67,11 +67,11 @@
         },
         {
           "id": "B",
-          "text": "Copilot Business または Enterprise の組織管理者権限"
+          "text": "GitHub Actions の大きな runner を作成する権限"
         },
         {
           "id": "C",
-          "text": "GitHub Actions の大きな runner を作成する権限"
+          "text": "Copilot Business または Enterprise の組織管理者権限"
         },
         {
           "id": "D",
@@ -98,11 +98,11 @@
         },
         {
           "id": "C",
-          "text": "中級"
+          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
         },
         {
           "id": "D",
-          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
+          "text": "中級"
         }
       ],
       "correctAnswers": [
@@ -117,23 +117,23 @@
       "options": [
         {
           "id": "A",
-          "text": "リポジトリ、問題、プル要求に関する基本的な知識"
-        },
-        {
-          "id": "B",
-          "text": "Copilot Business または Enterprise の組織管理者権限"
-        },
-        {
-          "id": "C",
           "text": "GitHub Actions の大きな runner を作成する権限"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "MCP サーバーを Docker でローカル実行した経験"
+        },
+        {
+          "id": "C",
+          "text": "Copilot Business または Enterprise の組織管理者権限"
+        },
+        {
+          "id": "D",
+          "text": "リポジトリ、問題、プル要求に関する基本的な知識"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     },
@@ -144,7 +144,7 @@
       "options": [
         {
           "id": "A",
-          "text": "通常の Copilot Chat と比較してスペースを説明する"
+          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
         },
         {
           "id": "B",
@@ -152,15 +152,15 @@
         },
         {
           "id": "C",
-          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
+          "text": "Copilot の提案をレビュー不要でマージできるようにする"
         },
         {
           "id": "D",
-          "text": "Copilot の提案をレビュー不要でマージできるようにする"
+          "text": "通常の Copilot Chat と比較してスペースを説明する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     },
@@ -175,15 +175,15 @@
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
         },
         {
           "id": "C",
-          "text": "中級"
+          "text": "7 ユニット"
         },
         {
           "id": "D",
-          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
+          "text": "中級"
         }
       ],
       "correctAnswers": [
@@ -198,7 +198,7 @@
       "options": [
         {
           "id": "A",
-          "text": "モデル コンテキスト制限内で根拠のある回答を得る"
+          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
         },
         {
           "id": "B",
@@ -210,11 +210,11 @@
         },
         {
           "id": "D",
-          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
+          "text": "モデル コンテキスト制限内で根拠のある回答を得る"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     },
@@ -225,7 +225,7 @@
       "options": [
         {
           "id": "A",
-          "text": "最初のスペースの作成"
+          "text": "中級"
         },
         {
           "id": "B",
@@ -233,7 +233,7 @@
         },
         {
           "id": "C",
-          "text": "中級"
+          "text": "最初のスペースの作成"
         },
         {
           "id": "D",
@@ -241,7 +241,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     },
@@ -252,7 +252,7 @@
       "options": [
         {
           "id": "A",
-          "text": "共有、検出可能性、ガバナンス"
+          "text": "中級"
         },
         {
           "id": "B",
@@ -260,7 +260,7 @@
         },
         {
           "id": "C",
-          "text": "中級"
+          "text": "共有、検出可能性、ガバナンス"
         },
         {
           "id": "D",
@@ -268,7 +268,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     },
@@ -279,23 +279,23 @@
       "options": [
         {
           "id": "A",
-          "text": "宇宙空間で働く際の心得"
+          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "宇宙空間で働く際の心得"
         },
         {
           "id": "C",
-          "text": "中級"
+          "text": "7 ユニット"
         },
         {
           "id": "D",
-          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
+          "text": "中級"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     },
@@ -306,23 +306,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot Spaces を使用して部族の知識を民主化する"
-        },
-        {
-          "id": "B",
           "text": "7 ユニット"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "中級"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
+        },
+        {
+          "id": "D",
+          "text": "Copilot Spaces を使用して部族の知識を民主化する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     },
@@ -337,7 +337,7 @@
         },
         {
           "id": "B",
-          "text": "AI エンジニア、セキュリティ監査担当者、営業担当者"
+          "text": "Student のみ"
         },
         {
           "id": "C",
@@ -345,7 +345,7 @@
         },
         {
           "id": "D",
-          "text": "Student のみ"
+          "text": "AI エンジニア、セキュリティ監査担当者、営業担当者"
         }
       ],
       "correctAnswers": [
@@ -360,23 +360,23 @@
       "options": [
         {
           "id": "A",
-          "text": "スペースを作成、構成、使用する方法"
-        },
-        {
-          "id": "B",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "C",
           "text": "中級"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
+        },
+        {
+          "id": "C",
+          "text": "スペースを作成、構成、使用する方法"
+        },
+        {
+          "id": "D",
+          "text": "7 ユニット"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     },
@@ -387,23 +387,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Cloud Agent の Actions 実行時間管理"
-        },
-        {
-          "id": "B",
           "text": "7 ユニット"
         },
         {
+          "id": "B",
+          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
+        },
+        {
           "id": "C",
-          "text": "中級"
+          "text": "Cloud Agent の Actions 実行時間管理"
         },
         {
           "id": "D",
-          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
+          "text": "中級"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     },
@@ -414,23 +414,23 @@
       "options": [
         {
           "id": "A",
-          "text": "共有と検出可能性を含む運用が論点"
-        },
-        {
-          "id": "B",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "C",
           "text": "中級"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
+        },
+        {
+          "id": "C",
+          "text": "共有と検出可能性を含む運用が論点"
+        },
+        {
+          "id": "D",
+          "text": "7 ユニット"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     },
@@ -441,23 +441,23 @@
       "options": [
         {
           "id": "A",
-          "text": "ターゲット コンテキストと命令を調整して反復する"
-        },
-        {
-          "id": "B",
           "text": "7 ユニット"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "中級"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
+        },
+        {
+          "id": "D",
+          "text": "ターゲット コンテキストと命令を調整して反復する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     },
@@ -468,11 +468,11 @@
       "options": [
         {
           "id": "A",
-          "text": "単発チャットより文脈化された応答に使う"
+          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "単発チャットより文脈化された応答に使う"
         },
         {
           "id": "C",
@@ -480,11 +480,11 @@
         },
         {
           "id": "D",
-          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
+          "text": "7 ユニット"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     },
@@ -495,23 +495,23 @@
       "options": [
         {
           "id": "A",
-          "text": "モデル コンテキストの制限を意識する"
-        },
-        {
-          "id": "B",
           "text": "7 ユニット"
         },
         {
+          "id": "B",
+          "text": "モデル コンテキストの制限を意識する"
+        },
+        {
           "id": "C",
-          "text": "中級"
+          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
         },
         {
           "id": "D",
-          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
+          "text": "中級"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     },
@@ -522,7 +522,7 @@
       "options": [
         {
           "id": "A",
-          "text": "スペースの作成、共有、ガバナンス、根拠ある回答を扱う"
+          "text": "中級"
         },
         {
           "id": "B",
@@ -530,15 +530,15 @@
         },
         {
           "id": "C",
-          "text": "中級"
+          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
         },
         {
           "id": "D",
-          "text": "アクティブな Copilot サブスクリプションを持つ GitHub アカウント"
+          "text": "スペースの作成、共有、ガバナンス、根拠ある回答を扱う"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
     }

@@ -9,7 +9,7 @@
       "options": [
         {
           "id": "A",
-          "text": "7 ユニット"
+          "text": "6 ユニット"
         },
         {
           "id": "B",
@@ -17,7 +17,7 @@
         },
         {
           "id": "C",
-          "text": "6 ユニット"
+          "text": "7 ユニット"
         },
         {
           "id": "D",
@@ -25,7 +25,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/"
     },
@@ -63,11 +63,11 @@
       "options": [
         {
           "id": "A",
-          "text": "IDE、チャット、GitHub.com、コマンド ライン"
+          "text": "自動提案、複数の提案ウィンドウ、コーディング スタイルへの適応"
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "IDE、チャット、GitHub.com、コマンド ライン"
         },
         {
           "id": "C",
@@ -75,11 +75,11 @@
         },
         {
           "id": "D",
-          "text": "自動提案、複数の提案ウィンドウ、コーディング スタイルへの適応"
+          "text": "7 ユニット"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/"
     },
@@ -90,23 +90,23 @@
       "options": [
         {
           "id": "A",
-          "text": "自動提案、複数の提案ウィンドウ、コーディング スタイルへの適応"
-        },
-        {
-          "id": "B",
           "text": "GitHub Actions の課金と runner サイズだけを最適化する"
         },
         {
+          "id": "B",
+          "text": "Copilot の提案をレビュー不要でマージできるようにする"
+        },
+        {
           "id": "C",
-          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
+          "text": "自動提案、複数の提案ウィンドウ、コーディング スタイルへの適応"
         },
         {
           "id": "D",
-          "text": "Copilot の提案をレビュー不要でマージできるようにする"
+          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/"
     },
@@ -117,7 +117,7 @@
       "options": [
         {
           "id": "A",
-          "text": "インライン コメント、ブロック コメント、ドキュメント文字列"
+          "text": "中級"
         },
         {
           "id": "B",
@@ -125,15 +125,15 @@
         },
         {
           "id": "C",
-          "text": "中級"
+          "text": "IDE、チャット、GitHub.com、コマンド ライン"
         },
         {
           "id": "D",
-          "text": "IDE、チャット、GitHub.com、コマンド ライン"
+          "text": "インライン コメント、ブロック コメント、ドキュメント文字列"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/"
     },
@@ -148,15 +148,15 @@
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "IDE、チャット、GitHub.com、コマンド ライン"
         },
         {
           "id": "C",
-          "text": "中級"
+          "text": "7 ユニット"
         },
         {
           "id": "D",
-          "text": "IDE、チャット、GitHub.com、コマンド ライン"
+          "text": "中級"
         }
       ],
       "correctAnswers": [
@@ -171,15 +171,15 @@
       "options": [
         {
           "id": "A",
-          "text": "スコープ参照、スラッシュ コマンド、エージェント"
-        },
-        {
-          "id": "B",
           "text": "7 ユニット"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "中級"
+        },
+        {
+          "id": "C",
+          "text": "スコープ参照、スラッシュ コマンド、エージェント"
         },
         {
           "id": "D",
@@ -187,7 +187,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/"
     },
@@ -198,23 +198,23 @@
       "options": [
         {
           "id": "A",
-          "text": "リポジトリ探索、pull request 支援、問題管理、共同レビュー"
-        },
-        {
-          "id": "B",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "C",
           "text": "中級"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "IDE、チャット、GitHub.com、コマンド ライン"
+        },
+        {
+          "id": "C",
+          "text": "7 ユニット"
+        },
+        {
+          "id": "D",
+          "text": "リポジトリ探索、pull request 支援、問題管理、共同レビュー"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/"
     },
@@ -225,23 +225,23 @@
       "options": [
         {
           "id": "A",
-          "text": "コマンドの説明、提案、実行"
+          "text": "IDE、チャット、GitHub.com、コマンド ライン"
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "コマンドの説明、提案、実行"
         },
         {
           "id": "C",
-          "text": "中級"
+          "text": "7 ユニット"
         },
         {
           "id": "D",
-          "text": "IDE、チャット、GitHub.com、コマンド ライン"
+          "text": "中級"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/"
     },
@@ -252,23 +252,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
-        },
-        {
-          "id": "B",
           "text": "Copilot Business または Enterprise の組織管理者権限"
         },
         {
+          "id": "B",
+          "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
+        },
+        {
           "id": "C",
-          "text": "GitHub Actions の大きな runner を作成する権限"
+          "text": "MCP サーバーを Docker でローカル実行した経験"
         },
         {
           "id": "D",
-          "text": "MCP サーバーを Docker でローカル実行した経験"
+          "text": "GitHub Actions の大きな runner を作成する権限"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/"
     },
@@ -279,23 +279,23 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub Copilot を使ったコード補完"
-        },
-        {
-          "id": "B",
           "text": "7 ユニット"
         },
         {
+          "id": "B",
+          "text": "GitHub Copilot を使ったコード補完"
+        },
+        {
           "id": "C",
-          "text": "中級"
+          "text": "IDE、チャット、GitHub.com、コマンド ライン"
         },
         {
           "id": "D",
-          "text": "IDE、チャット、GitHub.com、コマンド ライン"
+          "text": "中級"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/"
     },
@@ -306,11 +306,11 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub Copilot チャット"
+          "text": "7 ユニット"
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "GitHub Copilot チャット"
         },
         {
           "id": "C",
@@ -322,7 +322,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/"
     },
@@ -333,23 +333,23 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub.comでGitHub Copilot"
-        },
-        {
-          "id": "B",
           "text": "7 ユニット"
         },
         {
+          "id": "B",
+          "text": "GitHub.comでGitHub Copilot"
+        },
+        {
           "id": "C",
-          "text": "中級"
+          "text": "IDE、チャット、GitHub.com、コマンド ライン"
         },
         {
           "id": "D",
-          "text": "IDE、チャット、GitHub.com、コマンド ライン"
+          "text": "中級"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/"
     },
@@ -360,7 +360,7 @@
       "options": [
         {
           "id": "A",
-          "text": "コマンド ライン用の GitHub Copilot"
+          "text": "中級"
         },
         {
           "id": "B",
@@ -368,15 +368,15 @@
         },
         {
           "id": "C",
-          "text": "中級"
+          "text": "IDE、チャット、GitHub.com、コマンド ライン"
         },
         {
           "id": "D",
-          "text": "IDE、チャット、GitHub.com、コマンド ライン"
+          "text": "コマンド ライン用の GitHub Copilot"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/"
     },
@@ -387,11 +387,11 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot Cloud Agent の firewall カスタマイズ"
+          "text": "7 ユニット"
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "IDE、チャット、GitHub.com、コマンド ライン"
         },
         {
           "id": "C",
@@ -399,11 +399,11 @@
         },
         {
           "id": "D",
-          "text": "IDE、チャット、GitHub.com、コマンド ライン"
+          "text": "Copilot Cloud Agent の firewall カスタマイズ"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/"
     },
@@ -472,11 +472,11 @@
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "中級"
         },
         {
           "id": "C",
-          "text": "中級"
+          "text": "7 ユニット"
         },
         {
           "id": "D",
@@ -495,23 +495,23 @@
       "options": [
         {
           "id": "A",
-          "text": "開発者、DevOps エンジニア、Student"
-        },
-        {
-          "id": "B",
           "text": "AI エンジニア、セキュリティ監査担当者、営業担当者"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "管理者のみ"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "Student のみ"
+        },
+        {
+          "id": "D",
+          "text": "開発者、DevOps エンジニア、Student"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/"
     },
@@ -530,11 +530,11 @@
         },
         {
           "id": "C",
-          "text": "中級"
+          "text": "IDE、チャット、GitHub.com、コマンド ライン"
         },
         {
           "id": "D",
-          "text": "IDE、チャット、GitHub.com、コマンド ライン"
+          "text": "中級"
         }
       ],
       "correctAnswers": [

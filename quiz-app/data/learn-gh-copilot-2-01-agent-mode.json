@@ -9,23 +9,23 @@
       "options": [
         {
           "id": "A",
-          "text": "6 ユニット"
-        },
-        {
-          "id": "B",
-          "text": "5 ユニット"
-        },
-        {
-          "id": "C",
           "text": "7 ユニット"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "8 ユニット"
+        },
+        {
+          "id": "C",
+          "text": "6 ユニット"
+        },
+        {
+          "id": "D",
+          "text": "5 ユニット"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
@@ -36,23 +36,23 @@
       "options": [
         {
           "id": "A",
-          "text": "中級"
-        },
-        {
-          "id": "B",
           "text": "初級"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "上級"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "管理者向け"
+        },
+        {
+          "id": "D",
+          "text": "中級"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
@@ -63,7 +63,7 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub Copilot Agent Mode でアプリケーションを構築する方法"
+          "text": "GitHub Codespace で VS Code IDE を使用して開発する方法を理解する"
         },
         {
           "id": "B",
@@ -71,7 +71,7 @@
         },
         {
           "id": "C",
-          "text": "GitHub Codespace で VS Code IDE を使用して開発する方法を理解する"
+          "text": "GitHub Copilot Agent Mode でアプリケーションを構築する方法"
         },
         {
           "id": "D",
@@ -79,7 +79,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
@@ -90,23 +90,23 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub Codespace で VS Code IDE を使用して開発する方法を理解する"
-        },
-        {
-          "id": "B",
           "text": "GitHub Actions の課金と runner サイズだけを最適化する"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "Copilot の提案をレビュー不要でマージできるようにする"
+        },
+        {
+          "id": "D",
+          "text": "GitHub Codespace で VS Code IDE を使用して開発する方法を理解する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
@@ -117,23 +117,23 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub Copilot エージェント モードでアプリケーションを作成するように求める"
-        },
-        {
-          "id": "B",
           "text": "GitHub Actions の課金と runner サイズだけを最適化する"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "Copilot の提案をレビュー不要でマージできるようにする"
+        },
+        {
+          "id": "D",
+          "text": "GitHub Copilot エージェント モードでアプリケーションを作成するように求める"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
@@ -144,15 +144,15 @@
       "options": [
         {
           "id": "A",
-          "text": "ドキュメント ファイルを活用して Agent Mode を指示する"
+          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
         },
         {
           "id": "B",
-          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
+          "text": "ドキュメント ファイルを活用して Agent Mode を指示する"
         },
         {
           "id": "C",
-          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
+          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
         },
         {
           "id": "D",
@@ -160,7 +160,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
@@ -171,23 +171,23 @@
       "options": [
         {
           "id": "A",
-          "text": "エラー修正、コードのリファクタリング、新機能の開発"
-        },
-        {
-          "id": "B",
           "text": "中級"
         },
         {
+          "id": "B",
+          "text": "エラー修正、コードのリファクタリング、新機能の開発"
+        },
+        {
           "id": "C",
-          "text": "GitHub Copilot Agent Mode でアプリケーションを構築する方法"
+          "text": "GitHub Codespace で VS Code IDE を使用して開発する方法を理解する"
         },
         {
           "id": "D",
-          "text": "GitHub Codespace で VS Code IDE を使用して開発する方法を理解する"
+          "text": "GitHub Copilot Agent Mode でアプリケーションを構築する方法"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
@@ -198,15 +198,15 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub Copilot エージェント モードとは"
+          "text": "GitHub Copilot Agent Mode でアプリケーションを構築する方法"
         },
         {
           "id": "B",
-          "text": "中級"
+          "text": "GitHub Copilot エージェント モードとは"
         },
         {
           "id": "C",
-          "text": "GitHub Copilot Agent Mode でアプリケーションを構築する方法"
+          "text": "中級"
         },
         {
           "id": "D",
@@ -214,7 +214,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
@@ -225,23 +225,23 @@
       "options": [
         {
           "id": "A",
-          "text": "自律開発支援の力を探る"
-        },
-        {
-          "id": "B",
           "text": "中級"
         },
         {
+          "id": "B",
+          "text": "GitHub Codespace で VS Code IDE を使用して開発する方法を理解する"
+        },
+        {
           "id": "C",
-          "text": "GitHub Copilot Agent Mode でアプリケーションを構築する方法"
+          "text": "自律開発支援の力を探る"
         },
         {
           "id": "D",
-          "text": "GitHub Codespace で VS Code IDE を使用して開発する方法を理解する"
+          "text": "GitHub Copilot Agent Mode でアプリケーションを構築する方法"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
@@ -252,23 +252,23 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub スキルの演習"
-        },
-        {
-          "id": "B",
           "text": "中級"
         },
         {
+          "id": "B",
+          "text": "GitHub スキルの演習"
+        },
+        {
           "id": "C",
-          "text": "GitHub Copilot Agent Mode でアプリケーションを構築する方法"
+          "text": "GitHub Codespace で VS Code IDE を使用して開発する方法を理解する"
         },
         {
           "id": "D",
-          "text": "GitHub Codespace で VS Code IDE を使用して開発する方法を理解する"
+          "text": "GitHub Copilot Agent Mode でアプリケーションを構築する方法"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
@@ -279,7 +279,7 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub アカウントと GitHub Copilot の基本的な理解"
+          "text": "MCP サーバーを Docker でローカル実行した経験"
         },
         {
           "id": "B",
@@ -291,11 +291,11 @@
         },
         {
           "id": "D",
-          "text": "MCP サーバーを Docker でローカル実行した経験"
+          "text": "GitHub アカウントと GitHub Copilot の基本的な理解"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
@@ -306,15 +306,15 @@
       "options": [
         {
           "id": "A",
-          "text": "DevOps エンジニア、管理者、開発者、ソリューション アーキテクト、Student"
-        },
-        {
-          "id": "B",
           "text": "AI エンジニア、セキュリティ監査担当者、営業担当者"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "管理者のみ"
+        },
+        {
+          "id": "C",
+          "text": "DevOps エンジニア、管理者、開発者、ソリューション アーキテクト、Student"
         },
         {
           "id": "D",
@@ -322,7 +322,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
@@ -333,23 +333,23 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub と Azure"
-        },
-        {
-          "id": "B",
           "text": "中級"
         },
         {
+          "id": "B",
+          "text": "GitHub Codespace で VS Code IDE を使用して開発する方法を理解する"
+        },
+        {
           "id": "C",
-          "text": "GitHub Copilot Agent Mode でアプリケーションを構築する方法"
+          "text": "GitHub と Azure"
         },
         {
           "id": "D",
-          "text": "GitHub Codespace で VS Code IDE を使用して開発する方法を理解する"
+          "text": "GitHub Copilot Agent Mode でアプリケーションを構築する方法"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
@@ -360,23 +360,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Cloud Agent の Actions runner 制限"
+          "text": "GitHub Copilot Agent Mode でアプリケーションを構築する方法"
         },
         {
           "id": "B",
-          "text": "6 ユニット"
-        },
-        {
-          "id": "C",
           "text": "中級"
         },
         {
+          "id": "C",
+          "text": "6 ユニット"
+        },
+        {
           "id": "D",
-          "text": "GitHub Copilot Agent Mode でアプリケーションを構築する方法"
+          "text": "Cloud Agent の Actions runner 制限"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
@@ -387,11 +387,11 @@
       "options": [
         {
           "id": "A",
-          "text": "ドキュメント ファイルを活用してエージェントに指示する"
+          "text": "GitHub Codespace で VS Code IDE を使用して開発する方法を理解する"
         },
         {
           "id": "B",
-          "text": "中級"
+          "text": "ドキュメント ファイルを活用してエージェントに指示する"
         },
         {
           "id": "C",
@@ -399,11 +399,11 @@
         },
         {
           "id": "D",
-          "text": "GitHub Codespace で VS Code IDE を使用して開発する方法を理解する"
+          "text": "中級"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
@@ -414,11 +414,11 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub Codespace と VS Code IDE を使う"
+          "text": "中級"
         },
         {
           "id": "B",
-          "text": "中級"
+          "text": "GitHub Codespace と VS Code IDE を使う"
         },
         {
           "id": "C",
@@ -430,7 +430,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
@@ -441,23 +441,23 @@
       "options": [
         {
           "id": "A",
-          "text": "エージェント モードにアプリケーション作成を求める"
-        },
-        {
-          "id": "B",
-          "text": "中級"
-        },
-        {
-          "id": "C",
           "text": "GitHub Copilot Agent Mode でアプリケーションを構築する方法"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "GitHub Codespace で VS Code IDE を使用して開発する方法を理解する"
+        },
+        {
+          "id": "C",
+          "text": "中級"
+        },
+        {
+          "id": "D",
+          "text": "エージェント モードにアプリケーション作成を求める"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
@@ -472,15 +472,15 @@
         },
         {
           "id": "B",
-          "text": "中級"
-        },
-        {
-          "id": "C",
           "text": "GitHub Copilot Agent Mode でアプリケーションを構築する方法"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "GitHub Codespace で VS Code IDE を使用して開発する方法を理解する"
+        },
+        {
+          "id": "D",
+          "text": "中級"
         }
       ],
       "correctAnswers": [
@@ -495,23 +495,23 @@
       "options": [
         {
           "id": "A",
-          "text": "サインインして評価を受ける"
+          "text": "GitHub Codespace で VS Code IDE を使用して開発する方法を理解する"
         },
         {
           "id": "B",
-          "text": "中級"
-        },
-        {
-          "id": "C",
           "text": "GitHub Copilot Agent Mode でアプリケーションを構築する方法"
         },
         {
+          "id": "C",
+          "text": "サインインして評価を受ける"
+        },
+        {
           "id": "D",
-          "text": "GitHub Codespace で VS Code IDE を使用して開発する方法を理解する"
+          "text": "中級"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     },
@@ -522,23 +522,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Agent Mode の自律的な開発支援と文書指示を扱う"
-        },
-        {
-          "id": "B",
           "text": "中級"
         },
         {
+          "id": "B",
+          "text": "GitHub Codespace で VS Code IDE を使用して開発する方法を理解する"
+        },
+        {
           "id": "C",
-          "text": "GitHub Copilot Agent Mode でアプリケーションを構築する方法"
+          "text": "Agent Mode の自律的な開発支援と文書指示を扱う"
         },
         {
           "id": "D",
-          "text": "GitHub Codespace で VS Code IDE を使用して開発する方法を理解する"
+          "text": "GitHub Copilot Agent Mode でアプリケーションを構築する方法"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
     }

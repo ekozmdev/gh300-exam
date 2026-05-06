@@ -9,7 +9,7 @@
       "options": [
         {
           "id": "A",
-          "text": "7 ユニット"
+          "text": "6 ユニット"
         },
         {
           "id": "B",
@@ -17,15 +17,15 @@
         },
         {
           "id": "C",
-          "text": "6 ユニット"
+          "text": "8 ユニット"
         },
         {
           "id": "D",
-          "text": "8 ユニット"
+          "text": "7 ユニット"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
@@ -44,11 +44,11 @@
         },
         {
           "id": "C",
-          "text": "GitHub Actions の大きな runner を作成する権限"
+          "text": "MCP サーバーを Docker でローカル実行した経験"
         },
         {
           "id": "D",
-          "text": "MCP サーバーを Docker でローカル実行した経験"
+          "text": "GitHub Actions の大きな runner を作成する権限"
         }
       ],
       "correctAnswers": [
@@ -63,23 +63,23 @@
       "options": [
         {
           "id": "A",
-          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
-        },
-        {
-          "id": "B",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "C",
           "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
         },
         {
-          "id": "D",
+          "id": "B",
+          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
+        },
+        {
+          "id": "C",
           "text": "ロール プロンプトやチャット履歴管理などのベスト プラクティス"
+        },
+        {
+          "id": "D",
+          "text": "7 ユニット"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
@@ -94,11 +94,11 @@
         },
         {
           "id": "B",
-          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
+          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
         },
         {
           "id": "C",
-          "text": "OAuth を必要とする remote MCP サーバーを常に有効化する"
+          "text": "GitHub Actions の課金と runner サイズだけを最適化する"
         },
         {
           "id": "D",
@@ -121,15 +121,15 @@
         },
         {
           "id": "B",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "C",
           "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
+        },
+        {
+          "id": "D",
+          "text": "7 ユニット"
         }
       ],
       "correctAnswers": [
@@ -144,23 +144,23 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub Copilot 大規模言語モデル (LLM)"
-        },
-        {
-          "id": "B",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "C",
           "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
         },
         {
-          "id": "D",
+          "id": "B",
+          "text": "GitHub Copilot 大規模言語モデル (LLM)"
+        },
+        {
+          "id": "C",
           "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
+        },
+        {
+          "id": "D",
+          "text": "7 ユニット"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
@@ -171,15 +171,15 @@
       "options": [
         {
           "id": "A",
-          "text": "コード提案の精度と関連性を確保し開発サイクルを加速"
+          "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "コード提案の精度と関連性を確保し開発サイクルを加速"
         },
         {
           "id": "C",
-          "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
+          "text": "7 ユニット"
         },
         {
           "id": "D",
@@ -187,7 +187,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
@@ -206,11 +206,11 @@
         },
         {
           "id": "C",
-          "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
+          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
         },
         {
           "id": "D",
-          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
+          "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
         }
       ],
       "correctAnswers": [
@@ -225,23 +225,23 @@
       "options": [
         {
           "id": "A",
-          "text": "コーディングコメントを実用的なコードに変換する"
-        },
-        {
-          "id": "B",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "C",
           "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
         },
         {
-          "id": "D",
+          "id": "B",
+          "text": "コーディングコメントを実用的なコードに変換する"
+        },
+        {
+          "id": "C",
           "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
+        },
+        {
+          "id": "D",
+          "text": "7 ユニット"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
@@ -252,23 +252,23 @@
       "options": [
         {
           "id": "A",
-          "text": "基本的なコーディングの知識"
+          "text": "MCP サーバーを Docker でローカル実行した経験"
         },
         {
           "id": "B",
-          "text": "Copilot Business または Enterprise の組織管理者権限"
+          "text": "基本的なコーディングの知識"
         },
         {
           "id": "C",
-          "text": "GitHub Actions の大きな runner を作成する権限"
+          "text": "Copilot Business または Enterprise の組織管理者権限"
         },
         {
           "id": "D",
-          "text": "MCP サーバーを Docker でローカル実行した経験"
+          "text": "GitHub Actions の大きな runner を作成する権限"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
@@ -279,23 +279,23 @@
       "options": [
         {
           "id": "A",
-          "text": "コード エディターを Copilot に接続するために必要"
+          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "コード エディターを Copilot に接続するために必要"
         },
         {
           "id": "C",
-          "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
+          "text": "7 ユニット"
         },
         {
           "id": "D",
-          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
+          "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
@@ -306,7 +306,7 @@
       "options": [
         {
           "id": "A",
-          "text": "開発者、DevOps エンジニア、Student"
+          "text": "Student のみ"
         },
         {
           "id": "B",
@@ -314,15 +314,15 @@
         },
         {
           "id": "C",
-          "text": "管理者のみ"
+          "text": "開発者、DevOps エンジニア、Student"
         },
         {
           "id": "D",
-          "text": "Student のみ"
+          "text": "管理者のみ"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
@@ -333,15 +333,15 @@
       "options": [
         {
           "id": "A",
-          "text": "サインインして正答するとプロファイルのパス指定を取得できる"
-        },
-        {
-          "id": "B",
           "text": "7 ユニット"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
+        },
+        {
+          "id": "C",
+          "text": "サインインして正答するとプロファイルのパス指定を取得できる"
         },
         {
           "id": "D",
@@ -349,7 +349,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
@@ -360,23 +360,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Cloud Agent の copilot-setup-steps.yml の許可キー"
+          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
         },
         {
           "id": "B",
-          "text": "7 ユニット"
-        },
-        {
-          "id": "C",
           "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
         },
         {
+          "id": "C",
+          "text": "7 ユニット"
+        },
+        {
           "id": "D",
-          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
+          "text": "Cloud Agent の copilot-setup-steps.yml の許可キー"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
@@ -387,11 +387,11 @@
       "options": [
         {
           "id": "A",
-          "text": "コンテキスト分析で応答を最適化する"
+          "text": "7 ユニット"
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
         },
         {
           "id": "C",
@@ -399,11 +399,11 @@
         },
         {
           "id": "D",
-          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
+          "text": "コンテキスト分析で応答を最適化する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
@@ -422,11 +422,11 @@
         },
         {
           "id": "C",
-          "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
+          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
         },
         {
           "id": "D",
-          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
+          "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
         }
       ],
       "correctAnswers": [
@@ -441,15 +441,15 @@
       "options": [
         {
           "id": "A",
-          "text": "チャット履歴管理がベスト プラクティスに含まれる"
+          "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "チャット履歴管理がベスト プラクティスに含まれる"
         },
         {
           "id": "C",
-          "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
+          "text": "7 ユニット"
         },
         {
           "id": "D",
@@ -457,7 +457,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
@@ -468,15 +468,15 @@
       "options": [
         {
           "id": "A",
-          "text": "ロール プロンプトで回答観点を調整する"
-        },
-        {
-          "id": "B",
           "text": "7 ユニット"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
+        },
+        {
+          "id": "C",
+          "text": "ロール プロンプトで回答観点を調整する"
         },
         {
           "id": "D",
@@ -484,7 +484,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     },
@@ -499,7 +499,7 @@
         },
         {
           "id": "B",
-          "text": "7 ユニット"
+          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
         },
         {
           "id": "C",
@@ -507,7 +507,7 @@
         },
         {
           "id": "D",
-          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
+          "text": "7 ユニット"
         }
       ],
       "correctAnswers": [
@@ -522,7 +522,7 @@
       "options": [
         {
           "id": "A",
-          "text": "効果的なプロンプト作成と処理メカニズムを扱う"
+          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
         },
         {
           "id": "B",
@@ -530,15 +530,15 @@
         },
         {
           "id": "C",
-          "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
+          "text": "効果的なプロンプト作成と処理メカニズムを扱う"
         },
         {
           "id": "D",
-          "text": "安全な転送、コンテンツ フィルター、コンテキスト分析"
+          "text": "Visual Studio、Visual Studio Code、Neovim、JetBrains IDE"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式ドキュメントでは、このモジュールの学習目的、前提条件、ユニット構成としてこの内容が示されています。一般的な Copilot の知識ではなく、該当モジュールの記載に基づいて判断します。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/"
     }
