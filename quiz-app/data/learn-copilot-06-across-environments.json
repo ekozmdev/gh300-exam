@@ -121,7 +121,7 @@
         },
         {
           "id": "B",
-          "text": "@workspace は GitHub.com の Issue 専用で、IDE 内のワークスペース文脈には使えない"
+          "text": "@workspace は GitHub.com の検索バー専用で、開いているプロジェクト文脈にはアクセスしない"
         },
         {
           "id": "C",
@@ -306,7 +306,7 @@
       "options": [
         {
           "id": "A",
-          "text": "@workspace は GitHub.com の Issue 専用で、IDE 内のワークスペース文脈には使えない"
+          "text": "@workspace は PR レビュー担当者を指定するためのメンションで、コード理解には使わない"
         },
         {
           "id": "B",

@@ -75,7 +75,7 @@
         },
         {
           "id": "D",
-          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
+          "text": "Copilot Business は個人契約専用で、組織メンバーへの割り当てには対応しない"
         }
       ],
       "correctAnswers": [
@@ -98,11 +98,11 @@
         },
         {
           "id": "C",
-          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
+          "text": "Copilot のサブスクリプションはエディターの種類だけで決まり、組織管理とは関係しない"
         },
         {
           "id": "D",
-          "text": "Copilot Chat は IDE 内の質問に限定され、GitHub.com の PR 要約や CLI 支援とは別系統の機能である"
+          "text": "Copilot Chat はコード補完だけを扱い、自然言語での質問には対応しない"
         }
       ],
       "correctAnswers": [
@@ -117,7 +117,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
+          "text": "Copilot Enterprise を使うと、Business のポリシー管理はすべて無効化される"
         },
         {
           "id": "B",
@@ -144,7 +144,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
+          "text": "Copilot Pro は組織のシート管理を前提にした管理者向けプランである"
         },
         {
           "id": "B",
@@ -171,7 +171,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
+          "text": "Copilot Free は Enterprise 管理機能を試すための組織向け評価プランである"
         },
         {
           "id": "B",
@@ -179,7 +179,7 @@
         },
         {
           "id": "C",
-          "text": "Copilot Chat は IDE 内の質問に限定され、GitHub.com の PR 要約や CLI 支援とは別系統の機能である"
+          "text": "GitHub.com で利用できる Copilot 機能は Issue の自動作成だけである"
         },
         {
           "id": "D",
@@ -206,7 +206,7 @@
         },
         {
           "id": "C",
-          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
+          "text": "Copilot のプラン差は利用できるプログラミング言語だけで決まる"
         },
         {
           "id": "D",
@@ -229,7 +229,7 @@
         },
         {
           "id": "B",
-          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
+          "text": "Copilot Business ではユーザーごとのアクセス許可を管理できず、個人設定だけを使う"
         },
         {
           "id": "C",
@@ -364,7 +364,7 @@
         },
         {
           "id": "B",
-          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
+          "text": "Copilot Enterprise は GitHub.com 連携を行わず、IDE 補完だけを強化する"
         },
         {
           "id": "C",
@@ -387,15 +387,15 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
+          "text": "Copilot は GitHub.com だけで候補を表示し、Visual Studio Code ではチャットのみ使える"
         },
         {
           "id": "B",
-          "text": "Copilot の提案は GitHub.com 上だけで利用でき、IDE や CLI からは利用できない"
+          "text": "Copilot のコード提案はコマンドライン専用で、IDE では説明機能だけが使える"
         },
         {
           "id": "C",
-          "text": "Copilot Chat は IDE 内の質問に限定され、GitHub.com の PR 要約や CLI 支援とは別系統の機能である"
+          "text": "CLI で Copilot を使う場合、GitHub.com のライセンスや認証とは独立して動作する"
         },
         {
           "id": "D",
@@ -414,11 +414,11 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot Chat は IDE 内の質問に限定され、GitHub.com の PR 要約や CLI 支援とは別系統の機能である"
+          "text": "Copilot Chat の説明機能は IDE に限定され、Pull request の変更理解には使えない"
         },
         {
           "id": "B",
-          "text": "Copilot の提案は GitHub.com 上だけで利用でき、IDE や CLI からは利用できない"
+          "text": "Copilot の提案は GitHub Mobile の画面でのみ確認でき、エディターには反映できない"
         },
         {
           "id": "C",
@@ -441,7 +441,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot Business は個人向けの上位プランで、組織ポリシー管理は Enterprise のみで使える"
+          "text": "Copilot Business の主な違いは UI テーマであり、組織管理の差はない"
         },
         {
           "id": "B",
@@ -449,7 +449,7 @@
         },
         {
           "id": "C",
-          "text": "Copilot Chat は IDE 内の質問に限定され、GitHub.com の PR 要約や CLI 支援とは別系統の機能である"
+          "text": "Copilot はエディター内の補完だけを提供し、チャットによる設計相談は対象外である"
         },
         {
           "id": "D",
@@ -472,11 +472,11 @@
         },
         {
           "id": "B",
-          "text": "Copilot Chat は IDE 内の質問に限定され、GitHub.com の PR 要約や CLI 支援とは別系統の機能である"
+          "text": "GitHub.com の Copilot 機能はローカル IDE での補完候補を保存するためだけに使う"
         },
         {
           "id": "C",
-          "text": "Copilot の提案は GitHub.com 上だけで利用でき、IDE や CLI からは利用できない"
+          "text": "IDE での補完を使うには、GitHub.com 上で毎回 PR を作成する必要がある"
         },
         {
           "id": "D",
