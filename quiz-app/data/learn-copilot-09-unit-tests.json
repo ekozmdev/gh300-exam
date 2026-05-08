@@ -1,546 +1,959 @@
 {
-  "title": "Microsoft Learn GitHub Copilot 基本編: 単体テスト開発",
-  "description": "Microsoft Learn「GitHub Copilot ツールを使用して単体テストを開発する」に基づく確認クイズ（20問）",
+  "title": "Microsoft Learn: GitHub Copilot ツールを使用した単体テストの開発",
+  "description": "Microsoft Learn「GitHub Copilot ツールを使用した単体テストの開発」のイントロを除く各ユニット本文を基にしたLLM作問クイズ（35問、各ユニット5問）",
   "questions": [
     {
       "questionNumber": 1,
       "type": "single",
-      "prompt": "単体テスト開発の目的について最も適切な説明はどれか。",
+      "prompt": "Copilot Chat がメソッドのシグネチャと本文から提案できるテスト内容はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Copilot が生成した単体テストを正解として固定し、人間の検証を省くこと"
+          "text": "入力パラメーターと予想される出力値に対応するテストケース"
         },
         {
           "id": "B",
-          "text": "単体テストではなく、結合テストと本番監視だけを Copilot に任せること"
+          "text": "GitHub Enterprise Cloud の監査ログ"
         },
         {
           "id": "C",
-          "text": "テスト対象コードを読まずに、ファイル名だけからテストを量産すること"
+          "text": "DPA の契約条項"
         },
         {
           "id": "D",
-          "text": "Copilot と Copilot Chat を使って単体テスト作成を支援すること"
+          "text": "VS Code の配色テーマ"
         }
       ],
       "correctAnswers": [
-        "D"
+        "A"
       ],
-      "explanation": "単体テスト開発の目的では、Copilot と Copilot Chat を使って単体テスト作成を支援することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式 Learn では、メソッドのシグネチャと本文を指定した場合、入力パラメーターと予想される出力値に対応するテストケースを提案できると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/2-examine-github-copilot-support-unit-tests"
     },
     {
       "questionNumber": 2,
-      "type": "single",
-      "prompt": "対象環境について最も適切な説明はどれか。",
+      "type": "multiple",
+      "prompt": "Copilot が単体テストで支援できるタスクとして本文にあるものを2つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "Visual Studio Code ではなく、GitHub.com の PR 画面だけでテストを作成すること"
+          "text": "テストフレームワークと Visual Studio Code 拡張機能の設定支援"
         },
         {
           "id": "B",
-          "text": "Visual Studio Code、.NET SDK、C# Dev Kit などを使って演習すること"
+          "text": "失敗したテストを修正するための提案"
         },
         {
           "id": "C",
-          "text": ".NET SDK や C# Dev Kit は不要で、ブラウザーだけで演習を完了すること"
+          "text": "組織の公開コードフィルターをロック解除する"
         },
         {
           "id": "D",
-          "text": "テスト実行環境を用意せず、生成されたコードの見た目だけを確認すること"
+          "text": "GitHub Actions の課金上限を変更する"
         }
       ],
       "correctAnswers": [
+        "A",
         "B"
       ],
-      "explanation": "対象環境では、Visual Studio Code、.NET SDK、C# Dev Kit などを使って演習することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式 Learn では、単体テストサポートとして、テストフレームワークの設定、テストコード生成、エッジケース処理、失敗したテストの修正などが挙げられています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/2-examine-github-copilot-support-unit-tests",
+      "selectionCount": 2
     },
     {
       "questionNumber": 3,
       "type": "single",
-      "prompt": "テストプロジェクトについて最も適切な説明はどれか。",
+      "prompt": "テストフレームワーク設定を支援するスラッシュコマンドはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "アプリケーション本体へ assertion を直接埋め込み、テストプロジェクトは作らないこと"
+          "text": "/setupTests"
         },
         {
           "id": "B",
-          "text": "テストコードを本番コードと同じメソッド内に置き、実行時に常に検証すること"
+          "text": "/fixTestFailure"
         },
         {
           "id": "C",
-          "text": "テストプロジェクトは Copilot Chat の会話履歴として保存すれば十分であること"
+          "text": "/plan"
         },
         {
           "id": "D",
-          "text": "アプリケーションとは別にテスト用プロジェクトを作成して実行すること"
+          "text": "/tests"
         }
       ],
       "correctAnswers": [
-        "D"
+        "A"
       ],
-      "explanation": "テストプロジェクトでは、アプリケーションとは別にテスト用プロジェクトを作成して実行することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式 Learn では、テストフレームワークを設定する手順では、チャット入力フィールドに /setupTests コマンドを入力すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/2-examine-github-copilot-support-unit-tests"
     },
     {
       "questionNumber": 4,
       "type": "single",
-      "prompt": "Smart Actionについて最も適切な説明はどれか。",
+      "prompt": "Visual Studio Code で C# 単体テストを作成・実行するために必要なリソースとして本文にあるものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Smart Action は失敗したテストのログ収集専用で、テスト生成には使わないこと"
+          "text": ".NET 8.0 SDK 以降"
         },
         {
           "id": "B",
-          "text": "テスト生成のスマートアクションで対象コードからテストを作ること"
+          "text": "Node.js 12 以前"
         },
         {
           "id": "C",
-          "text": "Smart Action の候補は必ず全メソッドを網羅するため、追加ケースの検討は不要であること"
+          "text": "GitHub Enterprise Cloud のみ"
         },
         {
           "id": "D",
-          "text": "Smart Action は生成結果をレビューせずに main ブランチへ直接反映する機能であること"
+          "text": "Docker Desktop の有料プラン"
         }
       ],
       "correctAnswers": [
-        "B"
+        "A"
       ],
-      "explanation": "Smart Actionでは、テスト生成のスマートアクションで対象コードからテストを作ることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式 Learn では、Visual Studio Code で C# 単体テストを作成して実行するには、.NET 8.0 SDK 以降、C# Dev Kit 拡張機能、テストフレームワークパッケージが必要と説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/2-examine-github-copilot-support-unit-tests"
     },
     {
       "questionNumber": 5,
       "type": "single",
-      "prompt": "インラインチャットについて最も適切な説明はどれか。",
+      "prompt": "xUnit テストプロジェクト作成時にプロジェクトファイルへ追加される要素として本文にあるものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "インラインチャットはファイル全体を閉じてから使う補完専用 UI であること"
+          "text": "xunit.runner.visualstudio"
         },
         {
           "id": "B",
-          "text": "コード近くで依頼すると文脈が偏るため、テスト生成では使わないこと"
+          "text": "NUnit3TestAdapter"
         },
         {
           "id": "C",
-          "text": "コード付近でテスト生成や改善を自然言語で依頼すること"
+          "text": "MSTest.TestFramework"
         },
         {
           "id": "D",
-          "text": "インラインチャットでは自然言語ではなく、テストフレームワークの設定ファイルだけを入力すること"
+          "text": "SAML.SSO.Adapter"
         }
       ],
       "correctAnswers": [
-        "C"
+        "A"
       ],
-      "explanation": "インラインチャットでは、コード付近でテスト生成や改善を自然言語で依頼することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式 Learn では、xUnit テスト Project では、Microsoft.NET.Test.Sdk、xUnit、xunit.runner.visualstudio、coverlet.collector が追加されると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/2-examine-github-copilot-support-unit-tests"
     },
     {
       "questionNumber": 6,
       "type": "single",
-      "prompt": "チャットビューについて最も適切な説明はどれか。",
+      "prompt": "[テストの生成] スマートアクションが分析する対象として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "チャットビューは単一行の補完だけを扱い、テスト戦略の相談には使えないこと"
+          "text": "現在のファイル内のコードの構造と動作"
         },
         {
           "id": "B",
-          "text": "広い文脈を扱う場合でも、対象メソッドや仕様は渡さない方がよいこと"
+          "text": "GitHub の請求プランと DPA"
         },
         {
           "id": "C",
-          "text": "広い文脈でテスト戦略やケース追加を相談すること"
+          "text": "開発者アンケートの回答"
         },
         {
           "id": "D",
-          "text": "チャットビューで生成した案は実行できないため、テストケースとして採用しないこと"
+          "text": "組織の SAML SSO 設定"
         }
       ],
       "correctAnswers": [
-        "C"
+        "A"
       ],
-      "explanation": "チャットビューでは、広い文脈でテスト戦略やケース追加を相談することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式 Learn では、テストの生成スマートアクションは、現在のファイル内のコードを分析し、コードの構造と動作に基づいてテストケースを生成すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/3-create-unit-tests-generate-tests-smart-action"
     },
     {
       "questionNumber": 7,
       "type": "single",
-      "prompt": "エッジケースについて最も適切な説明はどれか。",
+      "prompt": "ファイル全体の単体テストをスマートアクションで生成する操作として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "境界値、null、例外、特殊条件を対象にすること"
+          "text": "コードエディター内を右クリックし、[コードの生成] から [テストの生成] を選ぶ"
         },
         {
           "id": "B",
-          "text": "エッジケースは仕様外なので、Copilot に依頼する単体テストからは除外すること"
+          "text": "テスト エクスプローラーの beaker アイコンから [DPA] を選ぶ"
         },
         {
           "id": "C",
-          "text": "境界値や null はすべて同じ失敗パターンなので、1 つだけ確認すれば十分であること"
+          "text": "GitHub の組織設定から [コンテンツの除外] を開く"
         },
         {
           "id": "D",
-          "text": "例外系を増やすより、正常系の似たテストを多く生成することを優先すること"
+          "text": "コマンドパレットで [SAML SSO] を選ぶ"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "エッジケースでは、境界値、null、例外、特殊条件を対象にすることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式 Learn では、ファイルの単体テスト生成手順では、コードエディター内を右クリックし、[コードの生成]、[テストの生成] を選択すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/3-create-unit-tests-generate-tests-smart-action"
     },
     {
       "questionNumber": 8,
       "type": "single",
-      "prompt": "特定条件について最も適切な説明はどれか。",
+      "prompt": "生成されたテストの確認時に行える調整として本文にあるものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "条件を詳しく伝えると Copilot が混乱するため、入力条件は曖昧にしておくこと"
+          "text": "テスト名の変更、テストケースの変更や削除、アサーションの追加"
         },
         {
           "id": "B",
-          "text": "重要な分岐は実装から自動で完全に推測されるため、仕様として明示しないこと"
+          "text": "GitHub アカウントの課金方法変更"
         },
         {
           "id": "C",
-          "text": "特定条件のテストでは期待結果を省略し、生成後に assertion を削除すること"
+          "text": "組織の公開コードフィルターを Allow に固定"
         },
         {
           "id": "D",
-          "text": "仕様で重要な分岐や入力条件を明示してテストさせること"
+          "text": "Visual Studio Code の全拡張機能削除"
         }
       ],
       "correctAnswers": [
-        "D"
+        "A"
       ],
-      "explanation": "特定条件では、仕様で重要な分岐や入力条件を明示してテストさせることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式 Learn では、生成されたテストを確認し、テスト名の変更、テストケースの変更や削除、アサーションの追加などの調整ができると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/3-create-unit-tests-generate-tests-smart-action"
     },
     {
       "questionNumber": 9,
       "type": "single",
-      "prompt": "ビルド確認について最も適切な説明はどれか。",
+      "prompt": "特定の関数またはメソッドだけを対象にしたい場合のスマートアクション手順はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "ビルド確認は CI が後で行うため、ローカルでは生成テストの構文を確認しないこと"
+          "text": "テストするコードブロックを選択して右クリックし、[コードの生成] から [テストの生成] を選ぶ"
         },
         {
           "id": "B",
-          "text": "ビルドが通らない場合でも、テスト意図が合っていればそのまま採用すること"
+          "text": "ファイル全体を閉じてからチャットビューだけを開く"
         },
         {
           "id": "C",
-          "text": "ビルド確認ではアプリケーション本体を除外し、テストファイルだけを見ること"
+          "text": "テスト エクスプローラーで全テストを削除する"
         },
         {
           "id": "D",
-          "text": "生成されたテストが正常にビルドできるか確認すること"
+          "text": "組織設定でコンテンツ除外を追加する"
         }
       ],
       "correctAnswers": [
-        "D"
+        "A"
       ],
-      "explanation": "ビルド確認では、生成されたテストが正常にビルドできるか確認することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式 Learn では、選択範囲の単体テスト生成では、対象コードブロックを選択し、右クリックから [コードの生成]、[テストの生成] を選択すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/3-create-unit-tests-generate-tests-smart-action"
     },
     {
       "questionNumber": 10,
       "type": "single",
-      "prompt": "テスト実行について最も適切な説明はどれか。",
+      "prompt": "スマートアクションで生成したテストを保存した後に本文が求める確認はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "テストを実行して期待どおり成功・失敗するか確認すること"
+          "text": "テストを実行してコードの機能がテストを通過することを確認する"
         },
         {
           "id": "B",
-          "text": "テスト実行は時間がかかるため、Copilot の説明が正しければ省略できること"
+          "text": "公開コード一致候補を必ず許可にする"
         },
         {
           "id": "C",
-          "text": "失敗するテストはすべて実装の欠陥なので、テストコードの誤りは疑わないこと"
+          "text": "README を削除してテスト結果を隠す"
         },
         {
           "id": "D",
-          "text": "生成直後のテストは一度だけ実行し、以後の変更では再実行しないこと"
+          "text": "GitHub Copilot 拡張機能を無効化する"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "テスト実行では、テストを実行して期待どおり成功・失敗するか確認することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式 Learn では、生成後はテストファイルを保存し、テストを実行してコードの機能がテストを通過することと機能を確認すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/3-create-unit-tests-generate-tests-smart-action"
     },
     {
       "questionNumber": 11,
       "type": "single",
-      "prompt": "失敗時の対応について最も適切な説明はどれか。",
+      "prompt": "インラインチャットが便利な場面として本文に合うものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "失敗したら Copilot の修正案をそのまま適用し、失敗理由は読まないこと"
+          "text": "チャットビューに切り替えず、スマートアクションより制御して特定関数のテストを作りたい場合"
         },
         {
           "id": "B",
-          "text": "テストが失敗した場合は、実装ではなく必ず assertion を弱めて通すこと"
+          "text": "組織の Copilot ライセンスを割り当てたい場合"
         },
         {
           "id": "C",
-          "text": "エラー内容を読み、テストか実装のどちらを直すべきか判断すること"
+          "text": "DPA を確認したい場合"
         },
         {
           "id": "D",
-          "text": "エラー内容よりも、生成されたテスト数を優先して修正方針を決めること"
+          "text": "開発者アンケートの長い形式を実施したい場合"
         }
       ],
       "correctAnswers": [
-        "C"
+        "A"
       ],
-      "explanation": "失敗時の対応では、エラー内容を読み、テストか実装のどちらを直すべきか判断することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式 Learn では、インラインチャットは、チャットビューに切り替えずに特定の関数またはメソッドのテストを作成し、スマートアクションより制御が必要な場合に便利と説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/4-create-unit-tests-inline-chat"
     },
     {
       "questionNumber": 12,
       "type": "single",
-      "prompt": "既存コード理解について最も適切な説明はどれか。",
+      "prompt": "通常のインラインチャットセッションを開くショートカットはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "対象メソッドを理解する前に、可能な限り多くのテストを生成すること"
+          "text": "Ctrl + I"
         },
         {
           "id": "B",
-          "text": "Copilot に対象メソッドの動作を説明させてからテストを作ること"
+          "text": "Ctrl + Enter"
         },
         {
           "id": "C",
-          "text": "既存コードの説明を求めると先入観が入るため、テスト作成では避けること"
+          "text": "Ctrl + Shift + P"
         },
         {
           "id": "D",
-          "text": "メソッドの副作用や依存関係は Copilot が自動で完全に把握するため確認しないこと"
+          "text": "Cmd + Shift + F"
         }
       ],
       "correctAnswers": [
-        "B"
+        "A"
       ],
-      "explanation": "既存コード理解では、Copilot に対象メソッドの動作を説明させてからテストを作ることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式 Learn では、インラインチャットの手順では、Ctrl + I キーボードショートカットでインラインチャットセッションを開くと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/4-create-unit-tests-inline-chat"
     },
     {
       "questionNumber": 13,
       "type": "single",
-      "prompt": "アサーションについて最も適切な説明はどれか。",
+      "prompt": "アクティブなチャットエージェントセッションの一部であるファイルで Ctrl+I を押した場合に出る可能性があるものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "assertion はテストの可読性を下げるため、テスト名だけで期待値を表すこと"
+          "text": "[チャットにファイルを追加] または [チャットに選択範囲を追加]"
         },
         {
           "id": "B",
-          "text": "期待結果が曖昧でも、例外が出なければテスト成功とみなすこと"
+          "text": "[Matching public code をブロック]"
         },
         {
           "id": "C",
-          "text": "assertion は生成後に削除し、メソッド呼び出しだけを残す方が保守しやすいこと"
+          "text": "[DPA を承認]"
         },
         {
           "id": "D",
-          "text": "期待結果を明確に検証する assertion を含めること"
+          "text": "[GitHub Enterprise Cloud を作成]"
         }
       ],
       "correctAnswers": [
-        "D"
+        "A"
       ],
-      "explanation": "アサーションでは、期待結果を明確に検証する assertion を含めることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式 Learn では、注記では、ファイルがアクティブなチャットエージェントセッションの一部の場合、Ctrl+I により [チャットにファイルを追加] または [チャットに選択範囲を追加] が生成されると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/4-create-unit-tests-inline-chat"
     },
     {
       "questionNumber": 14,
       "type": "single",
-      "prompt": "Arrange-Act-Assertについて最も適切な説明はどれか。",
+      "prompt": "インラインチャットで例示されている /tests プロンプトの狙いに近いものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "AAA はテストを3ファイルに分割する命名規則であること"
+          "text": "成功と失敗の両方を検証し、エッジケースを含める"
         },
         {
           "id": "B",
-          "text": "準備、実行、検証の構造でテストを読みやすくすること"
+          "text": "IP 補償を有効化し、DPA を生成する"
         },
         {
           "id": "C",
-          "text": "準備と検証を混ぜるほど、Copilot が意図を推測しやすくなること"
+          "text": "テストを保存せずにすべて破棄する"
         },
         {
           "id": "D",
-          "text": "Arrange は本番データ投入、Act は PR 作成、Assert はレビュー依頼を意味すること"
+          "text": "GitHub Copilot Free の制限を解除する"
         }
       ],
       "correctAnswers": [
-        "B"
+        "A"
       ],
-      "explanation": "Arrange-Act-Assertでは、準備、実行、検証の構造でテストを読みやすくすることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式 Learn では、例示プロンプトでは、/tests でメソッドの単体テストを生成し、成功と失敗の両方を検証しエッジケースを含めるよう求めています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/4-create-unit-tests-inline-chat"
     },
     {
       "questionNumber": 15,
       "type": "single",
-      "prompt": "テスト名について最も適切な説明はどれか。",
+      "prompt": "インラインチャットで生成した後、実行前に確認するものとして本文にあるものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "何を検証するテストか分かる名前にすること"
+          "text": "プロジェクトをビルドし、テストファイルがビルドに含まれて実行できること"
         },
         {
           "id": "B",
-          "text": "テスト名は短ければ短いほどよく、検証内容は assertion から推測させること"
+          "text": "GitHub の請求履歴が更新されたこと"
         },
         {
           "id": "C",
-          "text": "生成テストの名前はすべて CopilotGeneratedTest に統一すること"
+          "text": "全ファイルがコンテンツ除外されたこと"
         },
         {
           "id": "D",
-          "text": "テスト名では正常系と異常系を区別せず、実行順だけを表すこと"
+          "text": "テストフレームワークが削除されたこと"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "テスト名では、何を検証するテストか分かる名前にすることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式 Learn では、インラインチャットの手順では、プロジェクトをビルドしてテストファイルがビルドに含まれ、実行できることを確認すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/4-create-unit-tests-inline-chat"
     },
     {
       "questionNumber": 16,
       "type": "single",
-      "prompt": "テスト品質について最も適切な説明はどれか。",
+      "prompt": "チャットセッション開始時に AI の応答を形成する3つの選択肢として本文にある組み合わせはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "生成テストは量が多いほど品質が高いため、重複や意味の薄い assertion は気にしないこと"
+          "text": "エージェントの種類、エージェント、アクセス許可レベル"
         },
         {
           "id": "B",
-          "text": "脆弱なテストでも成功していれば、保守性の確認は後回しでよいこと"
+          "text": "プラン、DPA、公開コードフィルター"
         },
         {
           "id": "C",
-          "text": "テスト品質は Copilot のモデルが保証するため、レビュー対象から外せること"
+          "text": "xUnit、NUnit、MSTest"
         },
         {
           "id": "D",
-          "text": "生成テストも重複、脆弱性、意味のない assertion を確認すること"
-        }
-      ],
-      "correctAnswers": [
-        "D"
-      ],
-      "explanation": "テスト品質では、生成テストも重複、脆弱性、意味のない assertion を確認することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
-    },
-    {
-      "questionNumber": 17,
-      "type": "single",
-      "prompt": "カバレッジについて最も適切な説明はどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "カバレッジは 100% だけを目標にし、重要度の低い分岐も同じ優先度で増やすこと"
-        },
-        {
-          "id": "B",
-          "text": "重要な正常系と異常系をバランスよく増やすこと"
-        },
-        {
-          "id": "C",
-          "text": "異常系は失敗しやすいので、正常系だけを増やして安定させること"
-        },
-        {
-          "id": "D",
-          "text": "カバレッジが上がれば assertion の妥当性は確認しなくてよいこと"
-        }
-      ],
-      "correctAnswers": [
-        "B"
-      ],
-      "explanation": "カバレッジでは、重要な正常系と異常系をバランスよく増やすことが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
-    },
-    {
-      "questionNumber": 18,
-      "type": "single",
-      "prompt": "Copilot Freeについて最も適切な説明はどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "Copilot Free では学習用のテスト生成は一切できないこと"
-        },
-        {
-          "id": "B",
-          "text": "学習目的では Free プランでも十分な場合があること"
-        },
-        {
-          "id": "C",
-          "text": "Free プランでは VS Code から Copilot Chat を使うために Business 管理者が必須であること"
-        },
-        {
-          "id": "D",
-          "text": "Free プランで作ったテストは実行できず、閲覧専用になること"
-        }
-      ],
-      "correctAnswers": [
-        "B"
-      ],
-      "explanation": "Copilot Freeでは、学習目的では Free プランでも十分な場合があることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
-    },
-    {
-      "questionNumber": 19,
-      "type": "single",
-      "prompt": "前提経験について最も適切な説明はどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "前提経験がなくても、C# やテストフレームワークの概念は Copilot がすべて代替すること"
-        },
-        {
-          "id": "B",
-          "text": "C#、VS Code、Copilot の基本利用経験があると理解しやすいこと"
-        },
-        {
-          "id": "C",
-          "text": "VS Code の基本操作は不要で、GitHub.com だけでローカルテストを実行すること"
-        },
-        {
-          "id": "D",
-          "text": "Copilot の基本操作を知らない方が、生成テストへの先入観を避けられること"
-        }
-      ],
-      "correctAnswers": [
-        "B"
-      ],
-      "explanation": "前提経験では、C#、VS Code、Copilot の基本利用経験があると理解しやすいことが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
-    },
-    {
-      "questionNumber": 20,
-      "type": "single",
-      "prompt": "まとめについて最も適切な説明はどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "Copilot でテストを生成し、ビルドと実行で必ず検証すること"
-        },
-        {
-          "id": "B",
-          "text": "Copilot でテストを生成したら、ビルドや実行をせずレビューだけで完了すること"
-        },
-        {
-          "id": "C",
-          "text": "生成されたテストが失敗した場合は、検証せずにすべて削除すること"
-        },
-        {
-          "id": "D",
-          "text": "テスト生成は本番コードの品質確認を置き換えるため、CI は不要になること"
+          "text": "README、Dockerfile、CI/CD"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "まとめでは、Copilot でテストを生成し、ビルドと実行で必ず検証することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/"
+      "explanation": "公式 Learn では、チャットセッションを開始すると、エージェントの種類、エージェント、アクセス許可レベルの3つの選択肢によって AI の応答が形成されると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/5-create-unit-tests-chat-view-modes"
+    },
+    {
+      "questionNumber": 17,
+      "type": "single",
+      "prompt": "Ask エージェントに最も適した用途として本文にあるものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "コードプロジェクト、コーディングトピック、一般的な技術概念について質問する"
+        },
+        {
+          "id": "B",
+          "text": "コードを書く前に構造化された実装計画だけを作成する"
+        },
+        {
+          "id": "C",
+          "text": "複数ファイルとターミナルコマンドをまたぐ自律的なコーディングだけを行う"
+        },
+        {
+          "id": "D",
+          "text": "公開コード一致候補を組織全体でブロックする"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、Ask エージェントは、コードプロジェクト、コーディングトピック、一般的なテクノロジの概念について質問するために最適化されていると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/5-create-unit-tests-chat-view-modes"
+    },
+    {
+      "questionNumber": 18,
+      "type": "single",
+      "prompt": "Plan エージェントの目的として正しいものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "コードを書く前に、構造化されたステップバイステップの実装計画を作成する"
+        },
+        {
+          "id": "B",
+          "text": "テストファイルを必ず自動で保存してコミットする"
+        },
+        {
+          "id": "C",
+          "text": "DPA と IP 補償の契約を確認する"
+        },
+        {
+          "id": "D",
+          "text": "エディターのテーマを選択する"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、Plan エージェントは、コードを記述する前に構造化されたステップバイステップの実装計画を作成するために最適化されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/5-create-unit-tests-chat-view-modes"
+    },
+    {
+      "questionNumber": 19,
+      "type": "single",
+      "prompt": "Agent が最適化されている用途として本文にあるものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "複数のファイルとターミナルコマンドにまたがる自律的なコーディングワークフロー"
+        },
+        {
+          "id": "B",
+          "text": "コードプロジェクトについて質問だけをすること"
+        },
+        {
+          "id": "C",
+          "text": "実装前の計画だけを作成して終了すること"
+        },
+        {
+          "id": "D",
+          "text": "個人アカウントの公開コードフィルターを切り替えること"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、Agent は、複数のファイルとターミナルコマンドにまたがる自律的なコーディングワークフロー用に最適化されていると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/5-create-unit-tests-chat-view-modes"
+    },
+    {
+      "questionNumber": 20,
+      "type": "multiple",
+      "prompt": "Agent を使って単体テストを作成する手順に含まれるものを2つ選べ。",
+      "options": [
+        {
+          "id": "A",
+          "text": "ツールアイコンでテスト エクスプローラーやターミナルなど使用可能なツールを構成する"
+        },
+        {
+          "id": "B",
+          "text": "ツール呼び出しやターミナルコマンドを確認または拒否する"
+        },
+        {
+          "id": "C",
+          "text": "公開コードフィルターのトグルを個人設定で解除する"
+        },
+        {
+          "id": "D",
+          "text": "DPA の契約書をチャットに署名させる"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B"
+      ],
+      "explanation": "公式 Learn では、Agent の手順では、利用可能なツールを構成でき、エージェントが提案するツール呼び出しやターミナルコマンドを確認または拒否できると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/5-create-unit-tests-chat-view-modes",
+      "selectionCount": 2
+    },
+    {
+      "questionNumber": 21,
+      "type": "single",
+      "prompt": "演習を完了するための前提として本文にあるものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "アクティブな GitHub アカウントと C# 開発用に構成された Visual Studio Code 環境"
+        },
+        {
+          "id": "B",
+          "text": "GitHub Enterprise Cloud の組織所有者権限"
+        },
+        {
+          "id": "C",
+          "text": "Python と unittest だけで構成された環境"
+        },
+        {
+          "id": "D",
+          "text": "公開リポジトリの管理者権限"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、演習を完了するには、アクティブな GitHub アカウントと、C# 開発用に構成された Visual Studio Code 環境が必要と説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/6-exercise-develop-unit-tests-github-copliot"
+    },
+    {
+      "questionNumber": 22,
+      "type": "multiple",
+      "prompt": "演習に含まれるタスクを2つ選べ。",
+      "options": [
+        {
+          "id": "A",
+          "text": "チャットビューとエージェントを使用して新しいテストクラスを作成する"
+        },
+        {
+          "id": "B",
+          "text": "チャットビューとエージェントモードを使用して単体テストを作成する"
+        },
+        {
+          "id": "C",
+          "text": "Business プランの IP 補償を設定する"
+        },
+        {
+          "id": "D",
+          "text": "GitHub Copilot 開発者アンケートを作成する"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B"
+      ],
+      "explanation": "公式 Learn では、演習には、チャットビューとエージェントを使った新しいテストクラス作成、チャットビューとエージェントモードを使った単体テスト作成が含まれます。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/6-exercise-develop-unit-tests-github-copliot",
+      "selectionCount": 2
+    },
+    {
+      "questionNumber": 23,
+      "type": "single",
+      "prompt": "起動演習ボタンを選択するとどうなるか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "ブラウザーが演習手順を提供するパブリック GitHub ページに移動する"
+        },
+        {
+          "id": "B",
+          "text": "ローカルのテストプロジェクトが即座に削除される"
+        },
+        {
+          "id": "C",
+          "text": "GitHub Copilot Free が Enterprise に変更される"
+        },
+        {
+          "id": "D",
+          "text": "Visual Studio Code の設定が初期化される"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、起動演習ボタンを選択すると、ブラウザーは演習手順を提供するパブリック GitHub ページに移動すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/6-exercise-develop-unit-tests-github-copliot"
+    },
+    {
+      "questionNumber": 24,
+      "type": "single",
+      "prompt": "演習完了後に Learn ページへ戻る目的として本文にあるものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "知識チェック、概要、バッジのため"
+        },
+        {
+          "id": "B",
+          "text": "DPA への署名のため"
+        },
+        {
+          "id": "C",
+          "text": "課金プラン変更のため"
+        },
+        {
+          "id": "D",
+          "text": "GitHub Actions のログ削除のため"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、演習完了後は、簡単な知識チェック、このモジュールで学習した内容の概要、バッジのために戻ると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/6-exercise-develop-unit-tests-github-copliot"
+    },
+    {
+      "questionNumber": 25,
+      "type": "single",
+      "prompt": "この演習が対象にしているアプリケーションの種類はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "C# アプリケーション"
+        },
+        {
+          "id": "B",
+          "text": "Go の CLI ツール"
+        },
+        {
+          "id": "C",
+          "text": "JavaScript の静的サイト"
+        },
+        {
+          "id": "D",
+          "text": "SQL データウェアハウス"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、演習では、GitHub Copilot を使用して C# アプリケーションの単体テスト開発を高速化すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/6-exercise-develop-unit-tests-github-copliot"
+    },
+    {
+      "questionNumber": 26,
+      "type": "single",
+      "prompt": "知識チェックで、Copilot Chat の役割として正答になっているものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "指定したコードファイルと選択に基づいて単体テストを生成するのに役立つ"
+        },
+        {
+          "id": "B",
+          "text": "ソリューション向けのすべてのテストケースを無条件に自動記述する"
+        },
+        {
+          "id": "C",
+          "text": "入力パラメーターと予想出力値だけを提案する"
+        },
+        {
+          "id": "D",
+          "text": "テストフレームワークを削除する"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、モジュール評価では、Copilot Chat はユーザーが指定したコードファイルと選択に基づいて単体テストを生成するのに役立つと確認しています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/7-knowledge-check"
+    },
+    {
+      "questionNumber": 27,
+      "type": "single",
+      "prompt": "知識チェックで、Visual Studio Code のテスト エクスプローラーの目的として正答になっているものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "単体テストの実行とデバッグ、結果表示、ワークスペースでのテストケース管理"
+        },
+        {
+          "id": "B",
+          "text": "単体テスト用の新しいコードスニペットだけを書く"
+        },
+        {
+          "id": "C",
+          "text": "コードコンテキストに基づいてテストケースだけを生成する"
+        },
+        {
+          "id": "D",
+          "text": "GitHub の課金履歴を表示する"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、モジュール評価では、テスト エクスプローラーの目的は単体テストの実行とデバッグ、結果表示、テストケース管理とされています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/7-knowledge-check"
+    },
+    {
+      "questionNumber": 28,
+      "type": "single",
+      "prompt": "知識チェックで、関数入力パラメーターの有効性を保証するアサーションの目的として正答になっているものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "無効なデータが関数によって処理されないようにする"
+        },
+        {
+          "id": "B",
+          "text": "関数のパフォーマンスだけを向上させる"
+        },
+        {
+          "id": "C",
+          "text": "関数が期待出力を返すかだけを確認する"
+        },
+        {
+          "id": "D",
+          "text": "テストファイルを自動的に削除する"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、モジュール評価では、入力パラメーターが有効であることを保証するアサーションの目的は、無効なデータが関数によって処理されないようにすることとされています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/7-knowledge-check"
+    },
+    {
+      "questionNumber": 29,
+      "type": "single",
+      "prompt": "知識チェックで、単体テスト作成に使える3つの組み込みエージェントとして正答になっているものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "質問、計画、エージェント"
+        },
+        {
+          "id": "B",
+          "text": "質問、編集、エージェント"
+        },
+        {
+          "id": "C",
+          "text": "計画、デバッグ、エージェント"
+        },
+        {
+          "id": "D",
+          "text": "Ask、DPA、IP 補償"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、モジュール評価では、チャットビューで使用できる3つの組み込みエージェントは質問、計画、エージェントだと確認しています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/7-knowledge-check"
+    },
+    {
+      "questionNumber": 30,
+      "type": "single",
+      "prompt": "知識チェックで、Plan エージェントの目的として正答になっているものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "コードを書く前に構造化されたステップバイステップの実装計画を作成する"
+        },
+        {
+          "id": "B",
+          "text": "複数ファイル間のコード変更を自動実装する"
+        },
+        {
+          "id": "C",
+          "text": "テストを実行してレポートだけを生成する"
+        },
+        {
+          "id": "D",
+          "text": "組織の Copilot ポリシーを設定する"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、モジュール評価では、Plan エージェントはコードを記述する前に構造化されたステップバイステップの実装計画を作成すると確認しています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/7-knowledge-check"
+    },
+    {
+      "questionNumber": 31,
+      "type": "single",
+      "prompt": "概要で、このモジュールの主なポイントとして述べられているものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "単体テストの効率的で効果的な作成と管理により、コードベースの品質と信頼性を確保する"
+        },
+        {
+          "id": "B",
+          "text": "Copilot プランの価格比較だけを理解する"
+        },
+        {
+          "id": "C",
+          "text": "開発者アンケートの実施周期だけを決める"
+        },
+        {
+          "id": "D",
+          "text": "公開コード一致候補を組織全体で許可する"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、概要では、単体テストの効率的で効果的な作成と管理が主なポイントであり、コードベースの品質と信頼性を確保すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/8-summary"
+    },
+    {
+      "questionNumber": 32,
+      "type": "single",
+      "prompt": "概要で、C# Dev Kit が提供する Visual Studio Code の単体テスト管理機能として挙げられているものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "テスト エクスプローラー、テストケースの実行とデバッグ、テスト結果表示、テストコマンド、テスト設定"
+        },
+        {
+          "id": "B",
+          "text": "DPA、IP 補償、公開コードフィルター、SAML SSO"
+        },
+        {
+          "id": "C",
+          "text": "開発者アンケート、REST API、BI ツール、PRU レポート"
+        },
+        {
+          "id": "D",
+          "text": "README 生成、Docker 構成、CI/CD パイプライン、監視設定"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、概要では、C# Dev Kit 拡張機能により、テスト エクスプローラー、実行とデバッグ、結果表示、テストコマンド、テスト設定などが提供されると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/8-summary"
+    },
+    {
+      "questionNumber": 33,
+      "type": "multiple",
+      "prompt": "概要で、Copilot Chat が単体テスト生成で支援すると説明されているものを2つ選べ。",
+      "options": [
+        {
+          "id": "A",
+          "text": "入力、出力、アサーションなどの提案"
+        },
+        {
+          "id": "B",
+          "text": "エッジケースと境界条件の識別"
+        },
+        {
+          "id": "C",
+          "text": "組織ポリシーの公開コードフィルター設定"
+        },
+        {
+          "id": "D",
+          "text": "開発者アンケートの匿名化"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B"
+      ],
+      "explanation": "公式 Learn では、概要では、Copilot Chat が入力、出力、アサーションなどを提案し、エッジケースと境界条件を識別するのに役立つと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/8-summary",
+      "selectionCount": 2
+    },
+    {
+      "questionNumber": 34,
+      "type": "single",
+      "prompt": "概要で説明される単体テストプロセスの構成として正しいものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "テストプロジェクトの作成、Copilot Chat による単体テストケース生成、Visual Studio Code でのテスト実行と管理"
+        },
+        {
+          "id": "B",
+          "text": "DPA 作成、公開コードフィルター設定、IP 補償の申請"
+        },
+        {
+          "id": "C",
+          "text": "ユーザーストーリー分析、機能スキャフォールディング、本番デプロイ"
+        },
+        {
+          "id": "D",
+          "text": "開発者アンケート作成、BI 取り込み、長期分析"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、概要では、プロセスにテストプロジェクト作成、Copilot Chat による単体テストケース生成、Visual Studio Code での実行と管理が含まれると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/8-summary"
+    },
+    {
+      "questionNumber": 35,
+      "type": "single",
+      "prompt": "概要の追加参考資料に含まれているものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "C# 開発キットを使用したテスト"
+        },
+        {
+          "id": "B",
+          "text": "GitHub Copilot 開発者アンケート"
+        },
+        {
+          "id": "C",
+          "text": "GitHub セキュリティ センター"
+        },
+        {
+          "id": "D",
+          "text": "GitHub Copilot Cloud Agent の概要"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、概要の追加参考資料には、C# 開発キットを使用したテストが含まれています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/8-summary"
     }
   ]
 }

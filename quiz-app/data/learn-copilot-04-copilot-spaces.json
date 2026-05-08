@@ -1,546 +1,828 @@
 {
-  "title": "Microsoft Learn GitHub Copilot 基本編: Copilot Spaces",
-  "description": "Microsoft Learn「コピロット空間の概要」に基づく確認クイズ（20問）",
+  "title": "Microsoft Learn: コピロット空間の概要",
+  "description": "Microsoft Learn「コピロット空間の概要」のイントロを除く各ユニット本文を基にした詳細確認クイズ（30問、各ユニット5問）",
   "questions": [
     {
       "questionNumber": 1,
       "type": "single",
-      "prompt": "Copilot Spaces の目的について最も適切な説明はどれか。",
+      "prompt": "Copilot Space を作成した後の位置づけとして正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "質問履歴を自動削除して Copilot の利用量を節約するための領域"
+          "text": "一度作成すると、Copilot が明確なスコープ内で動作する再利用可能なワークスペースになる。"
         },
         {
           "id": "B",
-          "text": "任意の公開リポジトリを横断検索するためだけの検索画面"
+          "text": "作成直後に組織内の全リポジトリを自動検索する共有チャットになる。"
         },
         {
           "id": "C",
-          "text": "プロジェクト固有の文脈を集約し、根拠のある応答を得るための専用空間を作ること"
+          "text": "説明文を設定すると、その文面だけで Copilot の回答内容が直接変わる。"
         },
         {
           "id": "D",
-          "text": "組織のアクセス制御を置き換えて全員に同じ情報を見せる仕組み"
+          "text": "所有者を選ぶと、以後は名前や説明を変更できなくなる。"
         }
       ],
       "correctAnswers": [
-        "C"
+        "A"
       ],
-      "explanation": "Copilot Spaces の目的では、プロジェクト固有の文脈を集約し、根拠のある応答を得るための専用空間を作ることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "公式 Learn では、Space は名前と構成を与えることで、Copilot が明確に定義されたスコープ内で動作する再利用可能なワークスペースになると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/2-create-first-space"
     },
     {
       "questionNumber": 2,
-      "type": "single",
-      "prompt": "通常の Copilot Chat との違いについて最も適切な説明はどれか。",
+      "type": "multiple",
+      "selectionCount": 2,
+      "prompt": "「最初のスペースの作成」で扱う内容として正しいものを 2 つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "通常のチャットよりも常に短い回答だけを返すこと"
+          "text": "Space を作成し、見つけやすい名前を付ける方法。"
         },
         {
           "id": "B",
-          "text": "IDE のインライン補完を無効化し、Spaces だけでコード生成すること"
+          "text": "個人所有と組織所有の Space の違い。"
         },
         {
           "id": "C",
-          "text": "スペースを作ると会話ごとの前提設定が保存されず毎回初期化されること"
+          "text": "Space からユーザーを @メンションして通知する方法。"
         },
         {
           "id": "D",
-          "text": "単発の会話よりも対象コンテキストとカスタム指示を保ちやすいこと"
+          "text": "リポジトリの既定ブランチを固定して過去版だけを参照させる方法。"
         }
       ],
       "correctAnswers": [
-        "D"
+        "A",
+        "B"
       ],
-      "explanation": "通常の Copilot Chat との違いでは、単発の会話よりも対象コンテキストとカスタム指示を保ちやすいことが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "公式 Learn では、このユニットの学習項目には、Space の作成と命名、個人所有と組織所有の違いが含まれます。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/2-create-first-space"
     },
     {
       "questionNumber": 3,
       "type": "single",
-      "prompt": "スペースを使う場面について最も適切な説明はどれか。",
+      "prompt": "Space の説明文について正しい説明はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "GitHub Actions の実行時間を見積もるだけの場面"
+          "text": "Copilot の回答には直接影響しないが、他の利用者が Space の文脈を理解する助けになる。"
         },
         {
           "id": "B",
-          "text": "公開コードとの一致検出を強制的に無効化したい場面"
+          "text": "説明文を空にすると、添付ファイルは回答に利用されなくなる。"
         },
         {
           "id": "C",
-          "text": "個人の一時メモだけを扱い、チーム文脈を残さない場面"
+          "text": "説明文は一度保存すると編集できない。"
         },
         {
           "id": "D",
-          "text": "リポジトリ、Issue、PR、設計判断などチーム固有の知識を扱う場面"
+          "text": "説明文に書いた内容だけが Instructions として扱われる。"
         }
       ],
       "correctAnswers": [
-        "D"
+        "A"
       ],
-      "explanation": "スペースを使う場面では、リポジトリ、Issue、PR、設計判断などチーム固有の知識を扱う場面が重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "公式 Learn では、説明は Copilot の回答には影響しないものの、他の人が Space のコンテキストを理解する助けになるとされています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/2-create-first-space"
     },
     {
       "questionNumber": 4,
       "type": "single",
-      "prompt": "ターゲットコンテキストについて最も適切な説明はどれか。",
+      "prompt": "Space に追加できるコンテキストとして誤っているものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "スペースの表示名、アイコン、色だけを指す設定"
+          "text": "GitHub リポジトリ内のファイルやフォルダー。"
         },
         {
           "id": "B",
-          "text": "Copilot が回答に使ってはいけないファイルを自動列挙した一覧"
+          "text": "GitHub の issue や pull request の URL。"
         },
         {
           "id": "C",
-          "text": "スペースが参照するリポジトリや資料などの対象文脈"
+          "text": "ローカルマシンからアップロードするファイル。"
         },
         {
           "id": "D",
-          "text": "ユーザーの課金プランやライセンス種別だけを表す情報"
+          "text": "Copilot 拡張機能を @メンションして実行した結果。"
         }
       ],
       "correctAnswers": [
-        "C"
+        "D"
       ],
-      "explanation": "ターゲットコンテキストでは、スペースが参照するリポジトリや資料などの対象文脈が重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "公式 Learn では、添付できるものとしてファイル、フォルダー、issue、pull request、アップロード、テキストコンテンツが示されますが、拡張機能の @メンション実行は含まれません。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/2-create-first-space"
     },
     {
       "questionNumber": 5,
       "type": "single",
-      "prompt": "カスタム命令について最も適切な説明はどれか。",
+      "prompt": "Attachments の説明として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "モデルの学習データをリポジトリ単位で直接更新する設定"
+          "text": "関連する回答を得るためのコンテキストになり、Space はリポジトリの main ブランチ上の最新コードを参照する。"
         },
         {
           "id": "B",
-          "text": "回答方針、用語、制約、スタイルを Copilot に伝える指示"
+          "text": "Instructions と同じく、Copilot に避けるべきタスクだけを自由記述で伝える欄である。"
         },
         {
           "id": "C",
-          "text": "回答で使うブランチ保護ルールを GitHub Actions に適用する設定"
+          "text": "アップロードした内容だけを使い、GitHub 上のファイルは参照できない。"
         },
         {
           "id": "D",
-          "text": "スペースに追加した資料のアクセス権を自動的に全員へ広げる設定"
+          "text": "添付した pull request は作成時点の内容に固定される。"
         }
       ],
       "correctAnswers": [
-        "B"
+        "A"
       ],
-      "explanation": "カスタム命令では、回答方針、用語、制約、スタイルを Copilot に伝える指示が重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "公式 Learn では、Attachments は質問への関連性を高めるコンテキストであり、Spaces はリポジトリの main ブランチの最新コードを参照すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/2-create-first-space"
     },
     {
       "questionNumber": 6,
       "type": "single",
-      "prompt": "スペース作成後の反復について最も適切な説明はどれか。",
+      "prompt": "Space の共有と可視性に関する正しい説明はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "最初に作ったスペース設定を固定し、回答品質の確認後も変更しないこと"
+          "text": "他の利用者が使う範囲に応じて可視性を設定し、リンク共有や組織レベルの閲覧・カタログで発見性を高める。"
         },
         {
           "id": "B",
-          "text": "質問回数が増えたら、根拠確認を省いて回答を高速化すること"
+          "text": "説明を省いて URL だけを共有し、利用者が用途を判断できるようにする。"
         },
         {
           "id": "C",
-          "text": "回答品質を見ながらコンテキストや指示を調整すること"
+          "text": "すべての Space を個人所有に固定し、組織表示は使わない。"
         },
         {
           "id": "D",
-          "text": "対象資料を増やすだけで、古い情報や無関係な情報は整理しないこと"
+          "text": "「スペースごとに 1 つのジョブ」ではなく、関連しそうな作業を 1 つにまとめる。"
         }
       ],
       "correctAnswers": [
-        "C"
+        "A"
       ],
-      "explanation": "スペース作成後の反復では、回答品質を見ながらコンテキストや指示を調整することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "公式 Learn では、可視性は利用範囲に応じて設定し、リンク共有や組織レベルの閲覧・カタログ、目的に基づくタイトルと説明で検出可能性を高めると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/3-share-discover-govern"
     },
     {
       "questionNumber": 7,
-      "type": "single",
-      "prompt": "根拠のある回答について最も適切な説明はどれか。",
+      "type": "multiple",
+      "selectionCount": 2,
+      "prompt": "Space の発見性を高める工夫として正しいものを 2 つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "指定した文脈よりも一般的な Web 知識を優先して回答すること"
+          "text": "目的が分かるタイトルを付け、1 Space 1 ジョブに保つ。"
         },
         {
           "id": "B",
-          "text": "指定した文脈に基づいて回答し、推測を減らすこと"
+          "text": "説明にスコープ、対象者、期待される出力を短く書く。"
         },
         {
           "id": "C",
-          "text": "出典や参照範囲を示さず、もっともらしい推測で補完すること"
+          "text": "すべての用途を 1 つの Space に集約する。"
         },
         {
           "id": "D",
-          "text": "スペース内の指示を無視して標準の Copilot Chat と同じ前提で答えること"
+          "text": "機密情報を free-text に貼り付けて検索対象を増やす。"
         }
       ],
       "correctAnswers": [
+        "A",
         "B"
       ],
-      "explanation": "根拠のある回答では、指定した文脈に基づいて回答し、推測を減らすことが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "公式 Learn では、目的主導のタイトル、短い説明、スコープや対象者、期待される出力の明記が発見性を高める方法として説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/3-share-discover-govern"
     },
     {
       "questionNumber": 8,
       "type": "single",
-      "prompt": "コンテキスト制限について最も適切な説明はどれか。",
+      "prompt": "Space のセキュリティとアクセス制御について正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "スペースに入れた情報は量に関係なくすべて同時に処理されること"
+          "text": "Space は新しいアクセス権を付与せず、閲覧者が既に見られるコンテンツだけを回答に反映する。"
         },
         {
           "id": "B",
-          "text": "コンテキスト上限は課金プランだけで決まり、資料の整理では影響を受けないこと"
+          "text": "Space の可視性を組織表示にすると、リンクされた private repository の内容も全員に表示される。"
         },
         {
           "id": "C",
-          "text": "古い設計メモも最新仕様と同じ重みで常に扱われること"
+          "text": "pull request の URL を貼り付けると、その PR の権限は Space の所有者に合わせて変更される。"
         },
         {
           "id": "D",
-          "text": "モデルが一度に扱える文脈量には上限があること"
+          "text": "アップロードがサポートされる環境では、アップロードした内容がリポジトリ権限で保護される。"
         }
       ],
       "correctAnswers": [
-        "D"
+        "A"
       ],
-      "explanation": "コンテキスト制限では、モデルが一度に扱える文脈量には上限があることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "公式 Learn では、Space は GitHub の既存アクセス許可に従い、新しいアクセスを許可せず、閲覧者が既に閲覧権を持つコンテンツだけを表示すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/3-share-discover-govern"
     },
     {
       "questionNumber": 9,
       "type": "single",
-      "prompt": "文脈の選別について最も適切な説明はどれか。",
+      "prompt": "ブランチ固有の助言や履歴スナップショットが必要な場合の扱いとして適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "関連度よりもファイル数を優先し、できるだけ多くの資料を追加すること"
+          "text": "関連ファイルに参照を絞り、短い例を free-text に追加するか、必要な正確な内容をテキストファイルとして添付する。"
         },
         {
           "id": "B",
-          "text": "重要で新しい情報を優先し、無関係な情報を減らすこと"
+          "text": "リポジトリの既定ブランチを一時的に変更して Space の回答を固定する。"
         },
         {
           "id": "C",
-          "text": "一度追加した文脈は削除せず、古い情報も履歴として残し続けること"
+          "text": "一般チャットに古い版を自動取得させる。"
         },
         {
           "id": "D",
-          "text": "質問者が毎回必要な情報を手入力する前提でスペース側は空にすること"
+          "text": "機密の履歴情報をそのまま free-text に貼り付ける。"
         }
       ],
       "correctAnswers": [
-        "B"
+        "A"
       ],
-      "explanation": "文脈の選別では、重要で新しい情報を優先し、無関係な情報を減らすことが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "公式 Learn では、ブランチ固有または履歴の文脈が必要な場合は、参照を絞る、短い例を加える、または正確な内容をテキストファイルで添付する方法が示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/3-share-discover-govern"
     },
     {
       "questionNumber": 10,
       "type": "single",
-      "prompt": "共有について最も適切な説明はどれか。",
+      "prompt": "Governance の実践として公式 Learn が勧めるものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "共有すると、対象リポジトリの権限確認は不要になること"
+          "text": "保守担当者を割り当て、使い方メモ、代表例、レビュー周期を用意する。"
         },
         {
           "id": "B",
-          "text": "共有されたスペースは必ず組織外ユーザーにも公開されること"
+          "text": "最初に作成した人だけが管理し、レビュー周期は設定しない。"
         },
         {
           "id": "C",
-          "text": "チームが同じ文脈を使って質問や計画を進められるようにすること"
+          "text": "Space が大きくなったら、さらに多くの用途をまとめて検索性を高める。"
         },
         {
           "id": "D",
-          "text": "チーム利用ではなく、個人ごとの回答差を大きくするための設定であること"
+          "text": "説明文にはタグやキーワードを入れず、利用者が内容を推測する。"
         }
       ],
       "correctAnswers": [
-        "C"
+        "A"
       ],
-      "explanation": "共有では、チームが同じ文脈を使って質問や計画を進められるようにすることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "公式 Learn では、軽量だが意図的なガバナンスとして、所有者、使い方メモ、代表例、命名規則、レビュー周期を設けることが説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/3-share-discover-govern"
     },
     {
       "questionNumber": 11,
       "type": "single",
-      "prompt": "検出可能性について最も適切な説明はどれか。",
+      "prompt": "Space で質問するときの基本方針として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "必要な人が適切なスペースを見つけて使える状態にすること"
+          "text": "添付したファイル、issue、pull request、ノートに密接に絞って質問する。"
         },
         {
           "id": "B",
-          "text": "見つけやすさよりも、スペース名を曖昧にして利用範囲を隠すこと"
+          "text": "Space が含まない外部資料も自動で探す前提で広く質問する。"
         },
         {
           "id": "C",
-          "text": "必要な人がアクセスできるかではなく、作成者だけが使える状態にすること"
+          "text": "回答が揺れる場合はソースを増やし続ける。"
         },
         {
           "id": "D",
-          "text": "検索や命名の工夫ではなく、スペース数を増やして網羅すること"
+          "text": "モデルコンテキスト制限を避けるため、質問では具体的な制約を書かない。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "検出可能性では、必要な人が適切なスペースを見つけて使える状態にすることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "公式 Learn では、回答を根拠づけるため、質問は添付したソースに密接に絞ることが推奨されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/6-working-guide-space"
     },
     {
       "questionNumber": 12,
-      "type": "single",
-      "prompt": "ガバナンスについて最も適切な説明はどれか。",
+      "type": "multiple",
+      "selectionCount": 2,
+      "prompt": "Space で避けるべきこととして正しいものを 2 つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "アクセス権、共有範囲、情報の扱いを管理すること"
+          "text": "人や他の Copilot 拡張機能を @メンションする。"
         },
         {
           "id": "B",
-          "text": "一度共有したスペースでは、権限や対象情報の見直しを行わないこと"
+          "text": "機密データを free-text notes に貼り付ける。"
         },
         {
           "id": "C",
-          "text": "スペースの回答品質だけを管理し、含める情報の機密性は考慮しないこと"
+          "text": "実行可能なコードやコマンドを求める。"
         },
         {
           "id": "D",
-          "text": "カスタム命令を使えば、アクセス制御や情報分類は不要になること"
+          "text": "最も重要なソースを先頭に置く。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "A",
+        "B"
       ],
-      "explanation": "ガバナンスでは、アクセス権、共有範囲、情報の扱いを管理することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "公式 Learn では、@メンションは通知や拡張機能実行にならず、機密データは free-text notes へ貼り付けず、権限管理されたファイルリンク等を使うべきだと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/6-working-guide-space"
     },
     {
       "questionNumber": 13,
       "type": "single",
-      "prompt": "部族知識の民主化について最も適切な説明はどれか。",
+      "prompt": "実行可能で検証しやすい出力を得るプロンプトとして適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "暗黙知を保持するため、スペースには手順や判断理由を残さないこと"
+          "text": "意図を確認し、形式・期間・ファイルパスなどの制約を加え、必要なら含まれるソースへの参照も求める。"
         },
         {
           "id": "B",
-          "text": "特定メンバーだけが知る暗黙知をスペースで共有可能にすること"
+          "text": "制約を避けて、できるだけ創造的な要約を求める。"
         },
         {
           "id": "C",
-          "text": "特定メンバーのローカルメモだけを参照し、チーム共有は避けること"
+          "text": "添付ソースを参照しないよう指示して、汎用的な回答にする。"
         },
         {
           "id": "D",
-          "text": "共有済みの知識よりも、毎回口頭確認する運用を前提にすること"
+          "text": "1 回の質問に複数ドメインを混ぜ、Space の範囲を広げる。"
         }
       ],
       "correctAnswers": [
-        "B"
+        "A"
       ],
-      "explanation": "部族知識の民主化では、特定メンバーだけが知る暗黙知をスペースで共有可能にすることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "公式 Learn では、意図確認、具体的制約、実行可能なコード・クエリ・コマンド、含まれるソースへの参照を組み合わせるとよいと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/6-working-guide-space"
     },
     {
       "questionNumber": 14,
       "type": "single",
-      "prompt": "スペースで避けることについて最も適切な説明はどれか。",
+      "prompt": "Space の回答がぼやけたりサイズ警告が出たりした場合の対処として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "共有範囲を必要なメンバーに絞って確認すること"
+          "text": "ソースを減らすか、より小さな単一ジョブの Space に分割する。"
         },
         {
           "id": "B",
-          "text": "古い資料を整理し、最新の判断根拠を優先すること"
+          "text": "例を大量に追加してコンテキストをさらに増やす。"
         },
         {
           "id": "C",
-          "text": "回答が対象文脈に基づいているか人間が確認すること"
+          "text": "@メンションで人の知識を呼び込む。"
         },
         {
           "id": "D",
-          "text": "秘密情報や不要に広い権限を含めること"
+          "text": "リポジトリリンクをすべて外して変化しない Space にする。"
         }
       ],
       "correctAnswers": [
-        "D"
+        "A"
       ],
-      "explanation": "スペースで避けることでは、秘密情報や不要に広い権限を含めることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "公式 Learn では、Space が単一ジョブを超えたりコンテキスト制限に近づいたりした場合は、ソースを減らすか小さな Space に分割すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/6-working-guide-space"
     },
     {
       "questionNumber": 15,
       "type": "single",
-      "prompt": "回答品質の確認について最も適切な説明はどれか。",
+      "prompt": "Space のコンテキストを新鮮に保つ方法として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "スペースの回答も人間が文脈と照合して検証すること"
+          "text": "バージョン管理されたファイルへリンクし、重要なソースや例を先に置く。"
         },
         {
           "id": "B",
-          "text": "スペースの回答は常に正しいため、リンク先や対象資料との照合は不要である"
+          "text": "すべての情報を free-text にコピーして固定する。"
         },
         {
           "id": "C",
-          "text": "回答が長いほど根拠が十分なので、引用元の確認は後回しでよい"
+          "text": "古い資料を残して回答の候補を増やす。"
         },
         {
           "id": "D",
-          "text": "共有スペースでは全員が同じ回答を見るため、内容の妥当性確認は省略できる"
+          "text": "順序は回答に影響しないため、重要なソースを末尾に置く。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "回答品質の確認では、スペースの回答も人間が文脈と照合して検証することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "公式 Learn では、バージョン管理されたファイルにリンクすると既定ブランチの変化を反映でき、重要なソースや例を先に置くことも推奨されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/6-working-guide-space"
     },
     {
       "questionNumber": 16,
       "type": "single",
-      "prompt": "計画用途について最も適切な説明はどれか。",
+      "prompt": "演習「Copilot Spaces を使用した部族の知識の民主化」で行うこととして正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "本番環境への自動デプロイを承認なしで実行する用途"
+          "text": "Copilot Space のソースとしてリポジトリを追加する。"
         },
         {
           "id": "B",
-          "text": "要件整理、設計案、移行計画などの検討に使えること"
+          "text": "Copilot CLI の /model コマンドでモデルを切り替える。"
         },
         {
           "id": "C",
-          "text": "アクセス権の棚卸しをせずに機密資料を一括共有する用途"
+          "text": "GitHub.com の pull request 説明を自動生成する。"
         },
         {
           "id": "D",
-          "text": "設計判断を記録せず、会話が終わるたびに前提を破棄する用途"
-        }
-      ],
-      "correctAnswers": [
-        "B"
-      ],
-      "explanation": "計画用途では、要件整理、設計案、移行計画などの検討に使えることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
-    },
-    {
-      "questionNumber": 17,
-      "type": "single",
-      "prompt": "PR や Issue 文脈について最も適切な説明はどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "変更理由や未解決課題の把握に役立つこと"
-        },
-        {
-          "id": "B",
-          "text": "PR や Issue の文脈はノイズになるため、スペースには含めない方がよい"
-        },
-        {
-          "id": "C",
-          "text": "未解決課題よりも最新のチャット回答だけを根拠にすること"
-        },
-        {
-          "id": "D",
-          "text": "変更理由を把握する代わりに、差分の行数だけで優先度を判断すること"
+          "text": "Codespaces の無料利用時間を確認する。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "PR や Issue 文脈では、変更理由や未解決課題の把握に役立つことが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "公式 Learn では、演習では Copilot Space にリポジトリをソースとして追加することが挙げられています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/4-skills-exercise"
+    },
+    {
+      "questionNumber": 17,
+      "type": "multiple",
+      "selectionCount": 2,
+      "prompt": "この演習で扱う作業として正しいものを 2 つ選べ。",
+      "options": [
+        {
+          "id": "A",
+          "text": "プロジェクト管理プロセスのドキュメントを探索して要約する。"
+        },
+        {
+          "id": "B",
+          "text": "深いプロセス分析のためにカスタムチャットモードを作成して使う。"
+        },
+        {
+          "id": "C",
+          "text": "Space から非公開リポジトリへの新しい読み取り権限を発行する。"
+        },
+        {
+          "id": "D",
+          "text": "Copilot CLI の allowed directories をリセットする。"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B"
+      ],
+      "explanation": "公式 Learn では、演習ではプロジェクト管理プロセス文書の探索・要約と、深いプロセス分析のためのカスタムチャットモードの作成・利用が扱われます。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/4-skills-exercise"
     },
     {
       "questionNumber": 18,
       "type": "single",
-      "prompt": "チーム利用の利点について最も適切な説明はどれか。",
+      "prompt": "演習開始時の流れとして正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "チームで同じ前提を使うと多様性が失われるため、共有は避けるべきである"
+          "text": "GitHub の演習開始ボタンを選ぶと、公開テンプレートリポジトリに移動して小さなチャレンジを進める。"
         },
         {
           "id": "B",
-          "text": "スペース共有により、個々のメンバーのアクセス権確認が不要になること"
+          "text": "Microsoft Learn ページ内だけで、すべてのファイル編集を完了する。"
         },
         {
           "id": "C",
-          "text": "同じ前提で議論しやすくなり、知識のばらつきを減らせること"
+          "text": "ローカルに zip をダウンロードして、GitHub には戻らない。"
         },
         {
           "id": "D",
-          "text": "知識のばらつきを残すため、対象コンテキストは個人ごとに隠しておくこと"
-        }
-      ],
-      "correctAnswers": [
-        "C"
-      ],
-      "explanation": "チーム利用の利点では、同じ前提で議論しやすくなり、知識のばらつきを減らせることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
-    },
-    {
-      "questionNumber": 19,
-      "type": "single",
-      "prompt": "制限への対応について最も適切な説明はどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "情報を整理し、必要ならスペースを分けること"
-        },
-        {
-          "id": "B",
-          "text": "制限に当たったら、すべての資料を圧縮せず同じスペースへ追加し続けること"
-        },
-        {
-          "id": "C",
-          "text": "スペースを分けると文脈が失われるため、用途が違っても一つにまとめること"
-        },
-        {
-          "id": "D",
-          "text": "回答が曖昧でも、コンテキストの整理よりプロンプトを長くすることを優先すること"
+          "text": "演習は知識チェックの回答だけで完了する。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "制限への対応では、情報を整理し、必要ならスペースを分けることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "公式 Learn では、Start the exercise on GitHub を選ぶと公開 GitHub テンプレートリポジトリに移動し、そこで小さなチャレンジを完了すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/4-skills-exercise"
+    },
+    {
+      "questionNumber": 19,
+      "type": "single",
+      "prompt": "演習の目的に合う成果として正しいものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "検出された分析情報に基づいてリポジトリドキュメントを更新する。"
+        },
+        {
+          "id": "B",
+          "text": "プロジェクト管理プロセスの文書を Space から外し、カスタムチャットモードだけで分析する。"
+        },
+        {
+          "id": "C",
+          "text": "演習テンプレートではなく、組織内の任意の private repository を必ず使う。"
+        },
+        {
+          "id": "D",
+          "text": "知識チェックに進む前に、Space の所有権を組織所有へ変更する。"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、演習では、プロジェクト管理プロセスの文書を調べて要約し、カスタムチャットモードを使い、発見した分析情報に基づいてリポジトリドキュメントを更新すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/4-skills-exercise"
     },
     {
       "questionNumber": 20,
       "type": "single",
-      "prompt": "まとめについて最も適切な説明はどれか。",
+      "prompt": "演習後に Microsoft Learn へ戻る理由として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "スペースは作成した時点で完了し、共有範囲や指示の見直しは不要である"
+          "text": "簡単な知識チェック、学習内容のまとめ、モジュール完了バッジのため。"
         },
         {
           "id": "B",
-          "text": "文脈を広げるほど必ず精度が上がるため、選別より量を優先すること"
+          "text": "テンプレートリポジトリのアクセス権を申請するため。"
         },
         {
           "id": "C",
-          "text": "文脈、指示、共有、ガバナンスを整えて Copilot Spaces を使うこと"
+          "text": "Copilot Space の全添付を削除するため。"
         },
         {
           "id": "D",
-          "text": "チームの知識共有ではなく、個人のチャット履歴保存だけを目的に使うこと"
+          "text": "GitHub アカウントの課金を設定するため。"
         }
       ],
       "correctAnswers": [
-        "C"
+        "A"
       ],
-      "explanation": "まとめでは、文脈、指示、共有、ガバナンスを整えて Copilot Spaces を使うことが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/"
+      "explanation": "公式 Learn では、GitHub で演習を終えた後は、簡単な知識チェック、まとめ、バッジ取得のために Learn へ戻ると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/4-skills-exercise"
+    },
+    {
+      "questionNumber": 21,
+      "type": "single",
+      "prompt": "一般チャットより Space が適している場面はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "狭く定義されたトピックで、一貫して再現性のある回答が必要なとき。"
+        },
+        {
+          "id": "B",
+          "text": "多くのリポジトリを広く探索したいとき。"
+        },
+        {
+          "id": "C",
+          "text": "組織内の関連コンテンツを自動発見させたいとき。"
+        },
+        {
+          "id": "D",
+          "text": "特定のタスクやドメインがないとき。"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、モジュール評価では、狭くスコープされたトピックで一貫性と再現性のある回答が必要な場合に Space が適するとされています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/5-knowledge-check"
+    },
+    {
+      "questionNumber": 22,
+      "type": "multiple",
+      "selectionCount": 2,
+      "prompt": "Space の所有権・説明・権限に関する正しい理解を 2 つ選べ。",
+      "options": [
+        {
+          "id": "A",
+          "text": "利用可能な場合、個人所有または組織所有を選べる。"
+        },
+        {
+          "id": "B",
+          "text": "説明は人間の読者が文脈を理解するために役立つ。"
+        },
+        {
+          "id": "C",
+          "text": "Space はリンク先の非公開リポジトリへの一時アクセス権を付与する。"
+        },
+        {
+          "id": "D",
+          "text": "説明は Copilot の回答品質を直接変える主要設定である。"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B"
+      ],
+      "explanation": "公式 Learn では、評価問題では、個人または組織所有を選べること、説明は人間の読者向けであることが正しい内容として扱われています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/5-knowledge-check"
+    },
+    {
+      "questionNumber": 23,
+      "type": "single",
+      "prompt": "Space に Copilot が利用できるコンテキストを追加しない操作はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Copilot 拡張機能を @メンションして Space チャット内で実行させる。"
+        },
+        {
+          "id": "B",
+          "text": "GitHub リポジトリのファイルやフォルダーを添付する。"
+        },
+        {
+          "id": "C",
+          "text": "GitHub issue や pull request の URL を貼り付ける。"
+        },
+        {
+          "id": "D",
+          "text": "テキスト文書やスプレッドシートなどのローカルファイルをアップロードする。"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、評価問題では、Copilot 拡張機能の @メンションは Space で使えるコンテキスト追加ではないとされています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/5-knowledge-check"
+    },
+    {
+      "questionNumber": 24,
+      "type": "single",
+      "prompt": "Space のアクセス制御について正しいものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "GitHub 権限を反映し、閲覧者が既に見られる内容だけを表示する。"
+        },
+        {
+          "id": "B",
+          "text": "リンクされた非公開リポジトリへの読み取り権を一時的に付与する。"
+        },
+        {
+          "id": "C",
+          "text": "リンクを知る全員が非公開コンテンツのコピーを読める。"
+        },
+        {
+          "id": "D",
+          "text": "各閲覧者を repo admin が個別に許可リストへ登録する必要がある。"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、モジュール評価では、Space は GitHub 権限を反映し、閲覧者が既に見られる内容だけを扱うとされています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/5-knowledge-check"
+    },
+    {
+      "questionNumber": 25,
+      "type": "single",
+      "prompt": "Space の回答が曖昧になり、サイズ警告も出る場合の最善策はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "ソースを減らすか、より小さな単一ジョブの Space に分割する。"
+        },
+        {
+          "id": "B",
+          "text": "モデルが学べるように、さらに多くの例を追加する。"
+        },
+        {
+          "id": "C",
+          "text": "人を @メンションして専門知識を取り込む。"
+        },
+        {
+          "id": "D",
+          "text": "リポジトリリンクをオフにして Space を変化させない。"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、評価問題では、サイズ警告や曖昧な回答が出る場合、ソースを減らすか Space を小さく分割することが最善とされています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/5-knowledge-check"
+    },
+    {
+      "questionNumber": 26,
+      "type": "single",
+      "prompt": "Copilot Spaces のビジネス価値として正しいものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "焦点を絞ったソースを整理し、曖昧さを減らして回答の予測可能性と品質を高める。"
+        },
+        {
+          "id": "B",
+          "text": "多数のリポジトリを横断して関連コンテンツを自動発見するための一般チャットを提供する。"
+        },
+        {
+          "id": "C",
+          "text": "説明文だけを管理し、コードファイルや issue は Space の対象にしない。"
+        },
+        {
+          "id": "D",
+          "text": "既定ブランチの更新を反映しない固定スナップショットとして知識を保存する。"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、Spaces はコードファイル、ドキュメント、issue、pull request など焦点を絞ったソースをキュレーションし、曖昧さを減らして応答の予測可能性と品質を高めると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/7-summary"
+    },
+    {
+      "questionNumber": 27,
+      "type": "multiple",
+      "selectionCount": 2,
+      "prompt": "まとめで示される Copilot Spaces の効果として正しいものを 2 つ選べ。",
+      "options": [
+        {
+          "id": "A",
+          "text": "手戻りを減らし、意思決定を速める。"
+        },
+        {
+          "id": "B",
+          "text": "組織標準に沿った出力を得やすくする。"
+        },
+        {
+          "id": "C",
+          "text": "非公開情報を権限なしで横断検索できるようにする。"
+        },
+        {
+          "id": "D",
+          "text": "モデルコンテキスト制限をなくす。"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B"
+      ],
+      "explanation": "公式 Learn では、まとめでは、手戻りの削減、意思決定の加速、組織標準との整合が Space の価値として説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/7-summary"
+    },
+    {
+      "questionNumber": 28,
+      "type": "single",
+      "prompt": "Copilot Spaces がコラボレーションとガバナンスを高める理由はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "GitHub の既存の権限モデルを活用して、知識を安全に共有しやすくするため。"
+        },
+        {
+          "id": "B",
+          "text": "Space 内ではすべてのコンテンツが公開コピーとして保存されるため。"
+        },
+        {
+          "id": "C",
+          "text": "個人所有の Space だけを使わせ、組織共有を避けるため。"
+        },
+        {
+          "id": "D",
+          "text": "レビュー周期を不要にして保守負荷をなくすため。"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、まとめでは、GitHub の既存権限モデルを活用することで、コンプライアンスを保ちながら知識を安全に共有しやすくなると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/7-summary"
+    },
+    {
+      "questionNumber": 29,
+      "type": "single",
+      "prompt": "このモジュール修了後にできることとして誤っているものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "対象コンテキストなしで組織内の関連コンテンツを自動的に検出する方法を設定できる。"
+        },
+        {
+          "id": "B",
+          "text": "Space と一般的な Copilot Chat の使い分けを説明できる。"
+        },
+        {
+          "id": "C",
+          "text": "対象コンテキストとカスタム指示を使って Space を作成・構成・反復できる。"
+        },
+        {
+          "id": "D",
+          "text": "モデルコンテキスト制限内で高品質で根拠ある回答を得るベストプラクティスを適用できる。"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、到達目標は Space の使い分け、対象コンテキストとカスタム命令による作成・構成・反復、モデルコンテキスト制限内でのベストプラクティス適用です。対象コンテキストなしの自動検出設定は含まれません。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/7-summary"
+    },
+    {
+      "questionNumber": 30,
+      "type": "single",
+      "prompt": "Spaces が組織内で専門知識をスケールする仕組みとして最も近いものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "焦点化された文脈を再利用可能にし、認知負荷を下げながら開発・運用ワークフローの生産性を高める。"
+        },
+        {
+          "id": "B",
+          "text": "個々の開発者が持つ知識を free-text にすべてコピーして固定する。"
+        },
+        {
+          "id": "C",
+          "text": "すべての質問を一般チャットに送り、Space は説明だけに使う。"
+        },
+        {
+          "id": "D",
+          "text": "回答の根拠よりも広範な推測を優先する。"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、まとめでは、Spaces が専門知識のスケール、認知負荷の軽減、生産性向上に役立つと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/7-summary"
     }
   ]
 }

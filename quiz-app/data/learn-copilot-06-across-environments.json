@@ -1,546 +1,828 @@
 {
-  "title": "Microsoft Learn GitHub Copilot 基本編: 環境横断",
-  "description": "Microsoft Learn「さまざまな環境にまたがる GitHub Copilot」に基づく確認クイズ（20問）",
+  "title": "Microsoft Learn: さまざまな環境にまたがる GitHub Copilot",
+  "description": "Microsoft Learn「さまざまな環境にまたがる GitHub Copilot」のイントロを除く各ユニット本文を基にした詳細確認クイズ（30問、各ユニット5問）",
   "questions": [
     {
       "questionNumber": 1,
       "type": "single",
-      "prompt": "このモジュールが扱う Copilot の利用環境として最も適切な組み合わせはどれか。",
+      "prompt": "GitHub Copilot のコード補完について正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "CIの無効化と本番反映を自動化する環境だけを扱う"
+          "text": "コードを書く IDE 内で直接動作し、自動提案や複数候補の表示を提供する。"
         },
         {
           "id": "B",
-          "text": "GitHub.com だけでコード補完からCLI操作まで完結させる"
+          "text": "GitHub.com の pull request 画面でだけ動作する。"
         },
         {
           "id": "C",
-          "text": "IDE、Copilot Chat、GitHub.com、コマンドラインを使い分ける"
+          "text": "ターミナルコマンドの説明だけを行う。"
         },
         {
           "id": "D",
-          "text": "IDE補完だけを扱い、チャットやCLIは対象外にする"
-        }
-      ],
-      "correctAnswers": [
-        "C"
-      ],
-      "explanation": "公式ドキュメントでは、IDE、チャット、GitHub.com、コマンドラインにまたがる Copilot の手法を学ぶモジュールとして説明しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/"
-    },
-    {
-      "questionNumber": 2,
-      "type": "single",
-      "prompt": "コード補完機能の説明として正しいものはどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "IDE内で直接動作し、入力中の文脈に応じて現在行やコードブロックを提案する"
-        },
-        {
-          "id": "B",
-          "text": "GitHub.com のPR画面でだけ動作し、ローカルIDEでは利用できない"
-        },
-        {
-          "id": "C",
-          "text": "ターミナルコマンドの実行許可だけを管理する機能である"
-        },
-        {
-          "id": "D",
-          "text": "自然言語プロンプトを必ず送信しないと候補を表示できない"
+          "text": "コメントは提案に影響しない。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式ドキュメントでは、コード補完はIDE内で直接機能し、自動提案により現在行や新しいコードブロックを提示できると説明しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/2-code-completion-with-git-hub-copilot"
+      "explanation": "公式 Learn では、コード補完は IDE 内で動作し、自動提案、複数候補ペイン、さまざまなコーディングスタイルへの対応を提供すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/2-code-completion-with-git-hub-copilot"
+    },
+    {
+      "questionNumber": 2,
+      "type": "multiple",
+      "selectionCount": 2,
+      "prompt": "コード補完ユニットで扱う内容を 2 つ選べ。",
+      "options": [
+        {
+          "id": "A",
+          "text": "サポートされるプログラミング言語。"
+        },
+        {
+          "id": "B",
+          "text": "複数候補ペイン。"
+        },
+        {
+          "id": "C",
+          "text": "Copilot CLI の /theme 設定。"
+        },
+        {
+          "id": "D",
+          "text": "GitHub.com の issue 管理。"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B"
+      ],
+      "explanation": "公式 Learn では、このユニットではサポート言語、自動提案、複数候補ペイン、コーディングスタイル、コメント利用が扱われます。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/2-code-completion-with-git-hub-copilot"
     },
     {
       "questionNumber": 3,
       "type": "single",
-      "prompt": "複数提案ペインの使い方として正しいものはどれか。",
+      "prompt": "複数候補ペインで次または前の提案に移動する Windows/Linux のショートカットはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "`/model` を入力してAIモデルを変更するときだけ開く"
+          "text": "Alt+] と Alt+["
         },
         {
           "id": "B",
-          "text": "@workspace は GitHub.com の Issue 専用で、IDE 内のワークスペース文脈には使えない"
+          "text": "Ctrl+Enter と Ctrl+Backspace"
         },
         {
           "id": "C",
-          "text": "GitHub Actions の失敗ログを一覧するためのペインである"
+          "text": "Shift+Tab と Ctrl+Tab"
         },
         {
           "id": "D",
-          "text": "提案にカーソルを合わせてコントロールを表示し、前後の候補を比較して選ぶ"
+          "text": "Cmd+] と Cmd+["
         }
       ],
       "correctAnswers": [
-        "D"
+        "A"
       ],
-      "explanation": "公式ドキュメントでは、複数提案ペインで同じ問題への複数アプローチを評価し、前後の提案を表示できると説明しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/2-code-completion-with-git-hub-copilot"
+      "explanation": "公式 Learn では、Windows または Linux では Alt+] で次、Alt+[ で前の提案に移動できると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/2-code-completion-with-git-hub-copilot"
     },
     {
       "questionNumber": 4,
       "type": "single",
-      "prompt": "複数提案を切り替えるショートカットとして公式ページに合うものはどれか。",
+      "prompt": "Copilot がコメントを利用する例として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "GitHub.com のチャットボタンをダブルクリックする"
+          "text": "関数の意図を書いたコメントから実装案を提案する。"
         },
         {
           "id": "B",
-          "text": "`copilot -i` と `/exit` の組み合わせ"
+          "text": "コメントがある行では提案を完全に停止する。"
         },
         {
           "id": "C",
-          "text": "Windows は Ctrl+I、Mac は Command+I のみ"
+          "text": "TODO コメントは常に無視される。"
         },
         {
           "id": "D",
-          "text": "macOS は Option/Alt + ] または [、Windows/Linux は Alt + ] または ["
+          "text": "コメントは変数名の提案には影響しない。"
         }
       ],
       "correctAnswers": [
-        "D"
+        "A"
       ],
-      "explanation": "公式ドキュメントでは、複数提案の切り替えに macOS の Option または Alt + ]/[、Windows/Linux の Alt + ]/[ を示しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/2-code-completion-with-git-hub-copilot"
+      "explanation": "公式 Learn では、Copilot はコメントの意図を解釈し、関数実装、コード補完、変数名、アルゴリズム選択などの提案に利用すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/2-code-completion-with-git-hub-copilot"
     },
     {
       "questionNumber": 5,
       "type": "single",
-      "prompt": "Copilot が適応できるコーディングスタイルの例として最も適切なものはどれか。",
+      "prompt": "強くサポートされる言語として本文に挙げられていないものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "命名規則、インデントや括弧配置、コメントスタイル、設計パターン"
+          "text": "Python"
         },
         {
           "id": "B",
-          "text": "@workspace は GitHub.com の検索バー専用で、開いているプロジェクト文脈にはアクセスしない"
+          "text": "JavaScript"
         },
         {
           "id": "C",
-          "text": "PRの承認者数、組織オーナー権限、監査ログ保存期間"
+          "text": "C#"
         },
         {
           "id": "D",
-          "text": "Copilot CLI は GitHub CLI と完全に同じ機能で、コマンド説明や修正案は扱わない"
+          "text": "Kotlin"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
-      "explanation": "公式ドキュメントでは、命名規則、書式設定、コメントスタイル、設計パターンなどに Copilot が適応できると説明しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/2-code-completion-with-git-hub-copilot"
+      "explanation": "公式 Learn では、強いサポート例として Python、JavaScript、Java、TypeScript、Ruby、Go、C#、C++ が挙げられ、Kotlin はその一覧には含まれていません。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/2-code-completion-with-git-hub-copilot"
     },
     {
       "questionNumber": 6,
       "type": "single",
-      "prompt": "コメントがコード生成に与える影響として正しいものはどれか。",
+      "prompt": "GitHub Copilot Chat の説明として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "コメントの意図をNLPと周辺コードの文脈で分析し、より関連性の高い提案に使う"
+          "text": "開発環境内で自然言語の会話を行い、コード生成、デバッグ、説明などを支援する。"
         },
         {
           "id": "B",
-          "text": "コメントは常に無視され、ファイル名だけが提案に使われる"
+          "text": "コード補完の候補を前後に切り替えるためだけの機能である。"
         },
         {
           "id": "C",
-          "text": "コメントがあると補完は停止し、必ず手動入力になる"
+          "text": "GitHub CLI の認証だけを行う機能である。"
         },
         {
           "id": "D",
-          "text": "TODOコメントだけは使えるが、DocstringやAPIドキュメントは使えない"
+          "text": "PRU を使わず、すべての複雑処理が無料で無制限に実行される。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式ドキュメントでは、Copilot がコメントの意味や周辺コードとの関連を分析し、提案の質を高めると説明しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/2-code-completion-with-git-hub-copilot"
+      "explanation": "公式 Learn では、Copilot Chat は開発環境内の対話型 AI アシスタントとして、コード生成、デバッグ、説明、スラッシュコマンド、エージェント利用を扱うと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/3-git-hub-copilot-chat"
     },
     {
       "questionNumber": 7,
-      "type": "single",
-      "prompt": "Copilot が参照できるコメントの種類として公式ページに含まれないものはどれか。",
+      "type": "multiple",
+      "selectionCount": 2,
+      "prompt": "Copilot Chat の応答品質を高める方法として正しいものを 2 つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "銀行口座番号や秘密鍵を含む認証情報コメント"
+          "text": "#file: で特定ファイルを参照する。"
         },
         {
           "id": "B",
-          "text": "ブロックコメント"
+          "text": "@terminal でターミナル出力に基づく助言を得る。"
         },
         {
           "id": "C",
-          "text": "インラインコメント"
+          "text": "ファイル名や対象範囲を一切示さない。"
         },
         {
           "id": "D",
-          "text": "Docstring や TODO コメント"
+          "text": "複雑な質問でも意図を指定しない。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "A",
+        "B"
       ],
-      "explanation": "公式ドキュメントでは、インラインコメント、ブロックコメント、Docstring、TODOコメント、APIドキュメントなどを例示していますが、秘密情報をコメントに入れることは出題範囲の適切な利用例ではありません。参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/2-code-completion-with-git-hub-copilot"
+      "explanation": "公式 Learn では、Scope referencing として #file: によるファイル参照、Environment References として @terminal の利用が説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/3-git-hub-copilot-chat"
     },
     {
       "questionNumber": 8,
       "type": "single",
-      "prompt": "コメントドリブンなコード生成の例として最も適切なものはどれか。",
+      "prompt": "選択コードの説明を得るスラッシュコマンドはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "コメントからGitHubアカウントの権限を自動昇格する"
+          "text": "/doc"
         },
         {
           "id": "B",
-          "text": "コメントだけでCIの失敗を成功扱いに変更する"
+          "text": "/fix"
         },
         {
           "id": "C",
-          "text": "関数の説明コメントから実装全体を提案したり、アルゴリズム説明に沿った実装を提案する"
+          "text": "/generate"
         },
         {
           "id": "D",
-          "text": "コメントをすべてREADMEに移動し、コード補完を無効にする"
+          "text": "/explain"
         }
       ],
       "correctAnswers": [
-        "C"
+        "D"
       ],
-      "explanation": "公式ドキュメントでは、関数説明に基づく実装、コメントに基づく補完、変数名提案、アルゴリズム選択などを例示しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/2-code-completion-with-git-hub-copilot"
+      "explanation": "公式 Learn では、/explain は選択したコードの説明を得るためのスラッシュコマンドとして説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/3-git-hub-copilot-chat"
     },
     {
       "questionNumber": 9,
       "type": "single",
-      "prompt": "Copilot Chat の用途として最も適切なものはどれか。",
+      "prompt": "プレミアムモデル利用時の注意として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "#file: はターミナルのコマンド履歴を参照するための記法で、特定ファイルの文脈指定には使わない"
+          "text": "標準モデルより多くの PRU を消費する場合があるため、タスクの複雑さに応じて選ぶ。"
         },
         {
           "id": "B",
-          "text": "IDE補完を完全に置き換え、ゴーストテキストを禁止する"
+          "text": "どのモデルでも常に 0 PRU で利用できる。"
         },
         {
           "id": "C",
-          "text": "CLIの設定スラッシュコマンドだけを送信する"
+          "text": "プレミアムモデルは基本的な構文ヘルプにしか使えない。"
         },
         {
           "id": "D",
-          "text": "複雑なコード生成、デバッグ支援、コード説明を自然言語の会話で依頼する"
+          "text": "PRU の消費は月間許容量と無関係である。"
         }
       ],
       "correctAnswers": [
-        "D"
+        "A"
       ],
-      "explanation": "公式ドキュメントでは、Copilot Chat を通じて複雑なコード生成、デバッグ、コード説明、ワークフローの合理化を行えると説明しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/3-git-hub-copilot-chat"
+      "explanation": "公式 Learn では、プレミアムモデルは高度な推論に適する一方、標準モデルより多くの PRU を消費するため、月間許容量を考慮して選ぶと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/3-git-hub-copilot-chat"
     },
     {
       "questionNumber": 10,
       "type": "single",
-      "prompt": "`#file:` 参照の説明として正しいものはどれか。",
+      "prompt": "@vscode エージェントの用途として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "ターミナルの許可ディレクトリを一覧表示するために使う"
+          "text": "Visual Studio Code のデバッグや設定変更など IDE 関連の質問に使う。"
         },
         {
           "id": "B",
-          "text": "すべてのファイルを対象外にして一般論だけで回答させるために使う"
+          "text": "最大ファイルを探すなどシェル操作だけに使う。"
         },
         {
           "id": "C",
-          "text": "質問内で特定ファイルを指定し、その内容に焦点を当てて回答させるために使う"
+          "text": "GitHub.com の issue を自動クローズするために使う。"
         },
         {
           "id": "D",
-          "text": "PRのマージ競合を自動解決して即時マージするために使う"
+          "text": "PRU の月間上限を増やすために使う。"
         }
       ],
       "correctAnswers": [
-        "C"
+        "A"
       ],
-      "explanation": "公式ドキュメントでは、ファイル名の前に `#file:` を追加して質問内で特定ファイルを参照し、回答をその内容に集中させると説明しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/3-git-hub-copilot-chat"
+      "explanation": "公式 Learn では、@vscode は Visual Studio Code のデバッグや設定変更など IDE 関連の質問に使うエージェントとして説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/3-git-hub-copilot-chat"
     },
     {
       "questionNumber": 11,
       "type": "single",
-      "prompt": "`@terminal` を使う場面として最も適切なものはどれか。",
+      "prompt": "GitHub.com 上の Copilot の主な利用場面として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "選択コードにコメントを追加したいとき"
+          "text": "リポジトリ探索、pull request 支援、issue 管理、コードレビューの共同作業。"
         },
         {
           "id": "B",
-          "text": "GitHub.com のディスカッション回答だけを生成したいとき"
+          "text": "IDE 内のインライン補完だけ。"
         },
         {
           "id": "C",
-          "text": "ターミナル出力に基づいてエラー修正やコマンドの支援を受けたいとき"
+          "text": "Homebrew による CLI インストールだけ。"
         },
         {
           "id": "D",
-          "text": "特定ファイルを `#file:` で指定したいとき"
+          "text": "ローカルファイルの直接実行だけ。"
         }
       ],
       "correctAnswers": [
-        "C"
+        "A"
       ],
-      "explanation": "公式ドキュメントでは、`@terminal` によりターミナルで起きていることを分析し、デバッグや関連する解決策の提案に使えると説明しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/3-git-hub-copilot-chat"
+      "explanation": "公式 Learn では、GitHub.com ではリポジトリ探索、pull request 支援、issue 管理、共同コードレビューに Copilot を使う文脈が説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/4-git-hub-copilot-github-web"
     },
     {
       "questionNumber": 12,
-      "type": "single",
-      "prompt": "Copilot Chat の `/doc`、`/explain`、`/fix` の違いとして正しいものはどれか。",
+      "type": "multiple",
+      "selectionCount": 2,
+      "prompt": "GitHub.com での Copilot 活用として適切なものを 2 つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "@workspace は PR レビュー担当者を指定するためのメンションで、コード理解には使わない"
+          "text": "リポジトリの内容について質問する。"
         },
         {
           "id": "B",
-          "text": "3つともCLIのセッション制御専用で、コードには使わない"
+          "text": "pull request の説明やレビューを支援する。"
         },
         {
           "id": "C",
-          "text": "`/doc` は単体テスト、`/explain` はモデル選択、`/fix` は対話終了に使う"
+          "text": "ローカル端末の許可ディレクトリを設定する。"
         },
         {
           "id": "D",
-          "text": "`/doc` はコメント追加、`/explain` はコード説明、`/fix` は問題修正の提案に使う"
+          "text": "IDE の複数候補ペインを開く。"
         }
       ],
       "correctAnswers": [
-        "D"
+        "A",
+        "B"
       ],
-      "explanation": "公式ドキュメントでは、`/doc`、`/explain`、`/fix` をそれぞれコメント追加、コード説明、問題修正の提案として説明しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/3-git-hub-copilot-chat"
+      "explanation": "公式 Learn では、GitHub.com 上ではリポジトリ理解や pull request 関連作業の支援が中心的な利用例として扱われます。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/4-git-hub-copilot-github-web"
     },
     {
       "questionNumber": 13,
       "type": "single",
-      "prompt": "Copilot Chat の `/tests using Mocha` の説明として最も適切なものはどれか。",
+      "prompt": "GitHub.com の Copilot に関する理解として誤っているものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Mocha のインストールだけを説明するCLI設定コマンド"
+          "text": "GitHub.com の文脈でリポジトリや PR について支援できる。"
         },
         {
           "id": "B",
-          "text": "GitHub.com のPR概要をMocha形式に変換する例"
+          "text": "IDE とは異なる場所でも Copilot を利用できる。"
         },
         {
           "id": "C",
-          "text": "選択したコードに対して Mocha を使う単体テスト生成を依頼する例"
+          "text": "GitHub.com ではローカルの全ファイルシステムを無制限に読み取れる。"
         },
         {
           "id": "D",
-          "text": "許可ディレクトリ一覧をMochaで表示するコマンド"
+          "text": "コードレビューや共同作業の文脈で役立つ。"
         }
       ],
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式ドキュメントでは、コードを強調表示して `/tests using Mocha` を使うと、選択コードの単体テストを生成できる例を示しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/3-git-hub-copilot-chat"
+      "explanation": "公式 Learn では、GitHub.com の Copilot は GitHub 上のリポジトリや PR などの文脈で支援するもので、ローカルファイルシステムを無制限に読む機能ではありません。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/4-git-hub-copilot-github-web"
     },
     {
       "questionNumber": 14,
       "type": "single",
-      "prompt": "GitHub.com 上の Copilot にアクセスできる文脈として正しいものはどれか。",
+      "prompt": "PRU に関する注意として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "リポジトリページ、Issueとpull request、ディスカッション、コードレビュー"
+          "text": "使用量や許容量、レート制限の詳細は GitHub Copilot ドキュメントで確認する。"
         },
         {
           "id": "B",
-          "text": "OSのシステム設定画面だけ"
+          "text": "PRU は pull request の行数だけを表す単位である。"
         },
         {
           "id": "C",
-          "text": "Copilot CLIの対話モードだけ"
+          "text": "PRU は GitHub.com では存在しない。"
         },
         {
           "id": "D",
-          "text": "ローカルのIDE補完ウィンドウだけ"
+          "text": "PRU を使うとリポジトリ権限が上がる。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式ドキュメントでは、GitHub.com のリポジトリページ、Issueとpull request、ディスカッション、コードレビューなどでCopilot機能にアクセスできると説明しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/4-git-hub-copilot-github-web"
+      "explanation": "公式 Learn では、PRU の使用量、月間許容量、レート制限は GitHub Copilot ドキュメントで確認する必要があると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/4-git-hub-copilot-github-web"
     },
     {
       "questionNumber": 15,
       "type": "single",
-      "prompt": "GitHub.com のリポジトリ探索とドキュメント支援として正しいものはどれか。",
+      "prompt": "GitHub.com 上での Copilot 利用時に妥当な姿勢はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "コード説明、プロジェクト概要、READMEやAPIドキュメントの生成・改善に使える"
+          "text": "PR 概要、レビュー提案、ドキュメント更新など、GitHub.com の対象コンテキストに合うタスクで使う。"
         },
         {
           "id": "B",
-          "text": "ローカルファイルを選択して `#file:` 形式に変換するだけ"
+          "text": "GitHub.com からローカルの Homebrew インストール状況を分析させる。"
         },
         {
           "id": "C",
-          "text": "シェルの許可ディレクトリだけを表示する"
+          "text": "Actions エラー説明を使って IDE の複数提案ペインを開く。"
         },
         {
           "id": "D",
-          "text": "IDEの複数提案ペインをキーボードで切り替える"
+          "text": "issue 管理の例として、ターミナルテーマを dark に変更する。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式ドキュメントでは、リポジトリ探索とドキュメント支援としてコード説明、プロジェクト概要、READMEやAPIドキュメントの生成・改善を挙げています。 参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/4-git-hub-copilot-github-web"
+      "explanation": "公式 Learn では、GitHub.com ではリポジトリ、issue、pull request、ディスカッション、コードレビュー、Actions エラー説明など Web インターフェイス上の文脈で Copilot を使うと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/4-git-hub-copilot-github-web"
     },
     {
       "questionNumber": 16,
       "type": "single",
-      "prompt": "GitHub.com での pull request 支援として公式ページに含まれるものはどれか。",
+      "prompt": "GitHub Copilot CLI の説明として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Alt+] による補完候補の切り替えだけ"
+          "text": "ターミナル内でコマンド説明、シェルコマンド提案、対話的な作業支援を行う。"
         },
         {
           "id": "B",
-          "text": "PR概要、レビュー提案、マージ競合解決のガイダンス、ドキュメント更新の提案"
+          "text": "GitHub CLI と同じバイナリで、独立して動作しない。"
         },
         {
           "id": "C",
-          "text": "ローカルのDocstringから変数名を提案するだけ"
+          "text": "IDE のコード補完候補だけを表示する。"
         },
         {
           "id": "D",
-          "text": "ターミナルテーマ変更、AIモデル選択、許可ツールリセット"
+          "text": "初回起動時に現在のフォルダーを信頼するか確認しない。"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、Copilot CLI はターミナル内でコマンド説明やシェルコマンド提案を行い、GitHub 認証を使いつつ GitHub CLI とは独立して動作すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/5-git-hub-copilot-for-the-command-line"
+    },
+    {
+      "questionNumber": 17,
+      "type": "multiple",
+      "selectionCount": 2,
+      "prompt": "Copilot CLI の起動・利用方法として正しいものを 2 つ選べ。",
+      "options": [
+        {
+          "id": "A",
+          "text": "対話モードは copilot で起動する。"
+        },
+        {
+          "id": "B",
+          "text": "ワンショットの質問には copilot -i を使える。"
+        },
+        {
+          "id": "C",
+          "text": "常に gh copilot publish で起動する。"
+        },
+        {
+          "id": "D",
+          "text": "/tests で CLI セッションを終了する。"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B"
+      ],
+      "explanation": "公式 Learn では、対話モードは copilot、ワンショットプロンプトは copilot -i の例が示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/5-git-hub-copilot-for-the-command-line"
+    },
+    {
+      "questionNumber": 18,
+      "type": "single",
+      "prompt": "Copilot CLI の共通スラッシュコマンドで、シェルコマンドの説明を求めるものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "/suggest <task>"
+        },
+        {
+          "id": "B",
+          "text": "/revise"
+        },
+        {
+          "id": "C",
+          "text": "/explain <command>"
+        },
+        {
+          "id": "D",
+          "text": "/model <model>"
+        }
+      ],
+      "correctAnswers": [
+        "C"
+      ],
+      "explanation": "公式 Learn では、/explain <command> は任意のシェルコマンドの説明を求めるための共通スラッシュコマンドとして説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/5-git-hub-copilot-for-the-command-line"
+    },
+    {
+      "questionNumber": 19,
+      "type": "single",
+      "prompt": "Copilot CLI のスラッシュコマンドについて正しいものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "セッション制御や設定にはスラッシュコマンドが必要で、自然言語プロンプトでは置き換えられない。"
+        },
+        {
+          "id": "B",
+          "text": "すべて自然言語で置き換えられるため、スラッシュコマンドは不要である。"
+        },
+        {
+          "id": "C",
+          "text": "/feedback は対話モードを終了する。"
+        },
+        {
+          "id": "D",
+          "text": "/list-dirs は AI モデルを選択する。"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、CLI のスラッシュコマンドはセッション制御コマンドで、設定や制御は自然言語プロンプトで置き換えられないと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/5-git-hub-copilot-for-the-command-line"
+    },
+    {
+      "questionNumber": 20,
+      "type": "single",
+      "prompt": "Copilot CLI の安全な使い方として正しいものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "提案されたシェルコマンドを実行する前に内容を確認し、信頼できるディレクトリで作業する。"
+        },
+        {
+          "id": "B",
+          "text": "@ を付けたファイルは確認なしに実行対象へ追加される。"
+        },
+        {
+          "id": "C",
+          "text": "ワンショットモードでは提案コマンドを確認できない。"
+        },
+        {
+          "id": "D",
+          "text": "/reset-allowed-tools は信頼ディレクトリ一覧を表示する。"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、Copilot CLI は初回起動時に現在フォルダーを信頼するか確認し、効果的な使用のヒントとして実行前に必ずコマンドを確認することが示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/5-git-hub-copilot-for-the-command-line"
+    },
+    {
+      "questionNumber": 21,
+      "type": "single",
+      "prompt": "知識チェック範囲で、IDE の複数候補ペインについて正しいものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "提案上に表示される操作で、前後の候補を比較できる。"
+        },
+        {
+          "id": "B",
+          "text": "Copilot CLI の /model だけで開く。"
+        },
+        {
+          "id": "C",
+          "text": "候補は 1 つしか表示できない。"
+        },
+        {
+          "id": "D",
+          "text": "コメントがあると複数候補は無効になる。"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、複数候補ペインでは、提案の前後候補を切り替えて比較できると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/6-knowledge-check"
+    },
+    {
+      "questionNumber": 22,
+      "type": "multiple",
+      "selectionCount": 2,
+      "prompt": "Copilot Chat でよく使うスラッシュコマンドとして正しいものを 2 つ選べ。",
+      "options": [
+        {
+          "id": "A",
+          "text": "/fix"
+        },
+        {
+          "id": "B",
+          "text": "/tests"
+        },
+        {
+          "id": "C",
+          "text": "/theme"
+        },
+        {
+          "id": "D",
+          "text": "/list-dirs"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B"
+      ],
+      "explanation": "公式 Learn では、Copilot Chat の文脈では /fix や /tests などが定型タスクを指定するスラッシュコマンドとして扱われます。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/6-knowledge-check"
+    },
+    {
+      "questionNumber": 23,
+      "type": "single",
+      "prompt": "選択コードの単体テストを自動作成する Copilot Chat のコマンドはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "/doc"
+        },
+        {
+          "id": "B",
+          "text": "/tests"
+        },
+        {
+          "id": "C",
+          "text": "/explain"
+        },
+        {
+          "id": "D",
+          "text": "/generate"
         }
       ],
       "correctAnswers": [
         "B"
       ],
-      "explanation": "公式ドキュメントでは、PR支援として変更概要、レビュー提案、マージ競合解決のガイダンス、ドキュメント更新提案を説明しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/4-git-hub-copilot-github-web"
+      "explanation": "公式 Learn では、/tests は選択したコードの単体テストを自動作成するためのスラッシュコマンドとして説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/6-knowledge-check"
     },
     {
-      "questionNumber": 17,
+      "questionNumber": 24,
       "type": "single",
-      "prompt": "Copilot CLI の対話型セッションでできることとして正しいものはどれか。",
+      "prompt": "Copilot CLI の設定・制御で誤っているものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "IDEのゴーストテキストをTabで受け入れることだけを行う"
+          "text": "/model でモデルを選択できる。"
         },
         {
           "id": "B",
-          "text": "READMEのDocstringを自動でAPIに変換する"
+          "text": "/theme でターミナルテーマを変更できる。"
         },
         {
           "id": "C",
-          "text": "`#file:` を使ってGitHub.comのPRを即時マージする"
+          "text": "/exit で対話モードを終了できる。"
         },
         {
           "id": "D",
-          "text": "スラッシュコマンドでセッションを制御し、自然言語でコマンド説明・提案・修正を依頼する"
+          "text": "/doc で許可ディレクトリ一覧を表示する。"
         }
       ],
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式ドキュメントでは、Copilot CLI の対話型セッションでスラッシュコマンドによる制御と、自然言語による説明・提案・修正依頼ができると説明しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/5-git-hub-copilot-for-the-command-line"
+      "explanation": "公式 Learn では、CLI で許可ディレクトリを表示するのは /list-dirs であり、/doc は Copilot Chat のドキュメント生成系コマンドです。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/6-knowledge-check"
     },
     {
-      "questionNumber": 18,
+      "questionNumber": 25,
       "type": "single",
-      "prompt": "Copilot CLI のワンショットプロンプト例として正しいものはどれか。",
+      "prompt": "プレミアムモデルや複雑操作の扱いとして正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "`copilot -i \"explain brew install git\"` のように完全な対話型モードに入らず依頼する"
+          "text": "複雑なワークスペース分析やプロジェクト生成は、単純な質問より多くの PRU を消費することがある。"
         },
         {
           "id": "B",
-          "text": "Alt+[ を押して次のシェル提案を実行する"
+          "text": "複雑な操作でも必ず 1 PRU に固定される。"
         },
         {
           "id": "C",
-          "text": "GitHub.com のチャットボタンだけでCLI設定を変更する"
+          "text": "PRU は CLI では一切関係しない。"
         },
         {
           "id": "D",
-          "text": "`#file:controller.js` をターミナルに入力してファイルを選ぶ"
+          "text": "PRU は GitHub 権限を表す。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式ドキュメントでは、完全な対話型モードに入らないワンショットプロンプトとして `copilot -i` の例を示しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/5-git-hub-copilot-for-the-command-line"
+      "explanation": "公式 Learn では、高度なエージェントや複雑操作はより多くの PRU を消費する場合があると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/6-knowledge-check"
     },
     {
-      "questionNumber": 19,
+      "questionNumber": 26,
       "type": "single",
-      "prompt": "Copilot CLI の `/explain` と `/suggest` の違いとして正しいものはどれか。",
+      "prompt": "モジュール全体のまとめとして正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "`/explain` はPR概要、`/suggest` はIssue返信下書きに使う"
+          "text": "IDE、Chat、GitHub.com、CLI の各環境で Copilot を使い分け、開発ワークフローを加速できる。"
         },
         {
           "id": "B",
-          "text": "どちらもIDE補完候補の前後切り替えに使う"
+          "text": "Copilot は IDE 補完だけに限定される。"
         },
         {
           "id": "C",
-          "text": "`/explain <command>` はシェルコマンド説明、`/suggest <task>` はタスク向けコマンド提案に使う"
+          "text": "GitHub.com では Copilot を使えない。"
         },
         {
           "id": "D",
-          "text": "`/explain` はコードコメント追加、`/suggest` は単体テスト生成に使う"
+          "text": "CLI では自然言語入力を使えない。"
         }
       ],
       "correctAnswers": [
-        "C"
+        "A"
       ],
-      "explanation": "公式ドキュメントでは、CLI の `/explain <command>` はコマンド説明、`/suggest <task>` はタスクに対するシェルコマンド提案として説明されています。 参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/5-git-hub-copilot-for-the-command-line"
+      "explanation": "公式 Learn では、まとめでは、IDE、Chat、GitHub.com、CLI にまたがる Copilot 活用により開発ワークフローを加速できることが整理されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/7-summary"
     },
     {
-      "questionNumber": 20,
-      "type": "single",
-      "prompt": "Copilot CLI のセッション制御・構成に関する説明として正しいものはどれか。",
+      "questionNumber": 27,
+      "type": "multiple",
+      "selectionCount": 2,
+      "prompt": "このモジュールの学習目標として正しいものを 2 つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "`/exit` はPRをマージするコマンドで、対話モード終了には使わない"
+          "text": "自動提案や複数候補ペインを活用する。"
         },
         {
           "id": "B",
-          "text": "`/model`、`/theme`、`/skills`、`/mcp` などは対話モード内のスラッシュコマンドで制御する"
+          "text": "CLI でコマンド説明や提案を得る。"
         },
         {
           "id": "C",
-          "text": "`/list-dirs` はコード説明用で、許可ディレクトリとは関係ない"
+          "text": "Copilot Spaces の所有者を管理する。"
         },
         {
           "id": "D",
-          "text": "CLIのスラッシュコマンドは自然言語プロンプトで完全に置き換えられる"
+          "text": "GitHub Actions のランナー料金を計算する。"
         }
       ],
       "correctAnswers": [
+        "A",
         "B"
       ],
-      "explanation": "公式ドキュメントでは、CLIのスラッシュコマンドはセッション設定と構成を制御する唯一の方法であり、`/model`、`/theme`、`/skills`、`/mcp` などを例示しています。 参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/5-git-hub-copilot-for-the-command-line"
+      "explanation": "公式 Learn では、学習目標には IDE の自動提案・複数候補ペインの活用と、CLI でのコマンド説明・提案の利用が含まれます。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/7-summary"
+    },
+    {
+      "questionNumber": 28,
+      "type": "single",
+      "prompt": "Copilot Chat の文脈で重要な機能の組み合わせはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "スコープ参照、スラッシュコマンド、エージェント。"
+        },
+        {
+          "id": "B",
+          "text": "ブランチ保護、Actions キャッシュ、Codespaces 課金。"
+        },
+        {
+          "id": "C",
+          "text": "Git LFS、Wiki、Projects。"
+        },
+        {
+          "id": "D",
+          "text": "SSH キー、GPG 署名、Dependabot。"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、学習目標では、Copilot Chat の提案の関連性を高めるためにスコープ参照、スラッシュコマンド、エージェントを使うことが示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/7-summary"
+    },
+    {
+      "questionNumber": 29,
+      "type": "single",
+      "prompt": "さまざまな環境で Copilot を使う際の誤った理解はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "環境ごとの文脈と機能に合わせて使い分ける。"
+        },
+        {
+          "id": "B",
+          "text": "IDE では補完やコメント文脈が重要になる。"
+        },
+        {
+          "id": "C",
+          "text": "CLI ではコマンド説明や提案を取得できる。"
+        },
+        {
+          "id": "D",
+          "text": "GitHub.com の Copilot は、macOS/Linux の Homebrew インストール手順を実行するための環境である。"
+        }
+      ],
+      "correctAnswers": [
+        "D"
+      ],
+      "explanation": "公式 Learn では、まとめでは、IDE、Chat、GitHub.com、CLI それぞれの文脈で Copilot を使い分けることが整理されています。Homebrew によるインストールは Copilot CLI ユニットの内容です。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/7-summary"
+    },
+    {
+      "questionNumber": 30,
+      "type": "single",
+      "prompt": "このモジュールの到達点として最も適切なものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "コード補完、Chat、GitHub.com、CLI の各機能を組み合わせて、環境に応じた開発支援を受けられる。"
+        },
+        {
+          "id": "B",
+          "text": "CLI だけを使い、IDE の自動提案や GitHub.com の支援は扱わない。"
+        },
+        {
+          "id": "C",
+          "text": "コメントを使わず、補完候補を複数表示しない運用に限定する。"
+        },
+        {
+          "id": "D",
+          "text": "PRU を使う機能を避けるため、Chat と GitHub.com の内容は学習対象外にする。"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、モジュール全体では、コード補完、Copilot Chat、GitHub.com、コマンドラインにまたがる Copilot との対話方法を学ぶと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/7-summary"
     }
   ]
 }

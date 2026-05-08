@@ -1,552 +1,689 @@
 {
-  "title": "Microsoft Learn GH Copilot 2: Agent Mode",
-  "description": "Microsoft Learn「GitHub Copilot エージェント モードを使用したアプリケーションのビルド」に基づく確認クイズ（20問）",
+  "title": "Microsoft Learn: GitHub Copilot エージェント モードを使用したアプリケーションのビルド",
+  "description": "Microsoft Learn本文を基にしたGitHub Copilot エージェント モード確認クイズ（25問、各ユニット5問）",
   "questions": [
     {
       "questionNumber": 1,
       "type": "single",
-      "prompt": "GitHub Copilot の Agent Mode を最もよく表す説明はどれか。",
+      "prompt": "エージェント モードが従来のインライン候補と最も異なる点はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "目標を受け取り、複数ファイルの変更やコマンド実行を自律的に進めるモード"
+          "text": "入力中の1行に対してリアルタイム補完を返すことに特化する。"
         },
         {
           "id": "B",
-          "text": "GitHub Issues のラベルだけを自動分類する機能"
+          "text": "ワークスペース全体を理解し、複数ステップのタスクを動的に処理して反復する。"
         },
         {
           "id": "C",
-          "text": "受け入れ条件は Copilot の自由度を下げるため、プロンプトには含めない方がよい"
+          "text": "質問への自然言語回答だけを行い、コード編集はしない。"
         },
         {
           "id": "D",
-          "text": "単一ファイルの補完だけを行うモード"
+          "text": "複数ファイル変更は Copilot Edits のみで扱い、ターミナル実行はしない。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
-      "explanation": "Agent Mode は、チャットで与えた目標に対してコードベースを調べ、必要な変更や検証を段階的に進める自律的な開発支援です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
+      "explanation": "公式 Learn では、エージェント モードは単なるオートコンプリートではなく、ワークスペース全体を理解し、タスクを動的に処理し、自身の出力を反復して改善すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/2-what-is-agent-mode"
     },
     {
       "questionNumber": 2,
-      "type": "single",
-      "prompt": "Agent Mode が特に有効な作業はどれか。",
+      "type": "multiple",
+      "selectionCount": 2,
+      "prompt": "エージェント モードの反復サイクルで本文に含まれる処理を2つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "1 行の変数名候補を出すだけの作業"
+          "text": "編集前に関連ファイルと依存関係を決定する。"
         },
         {
           "id": "B",
-          "text": "Agent Mode は短い変数名や単一行の補完候補を出すだけの用途に最も向いている"
+          "text": "PRU予算が尽きるまで必ず高性能モデルを使う。"
         },
         {
           "id": "C",
-          "text": "Agent Mode は単一行補完に特化し、複数ファイルの調査や検証は対象外である"
+          "text": "必要に応じて依存関係のインストールやテスト実行などのターミナル コマンドを実行する。"
         },
         {
           "id": "D",
-          "text": "複数ファイルにまたがる機能追加やリファクタリング"
+          "text": "単一ファイルの即時コンテキストだけを使って補完を返す。"
         }
       ],
       "correctAnswers": [
-        "D"
+        "A",
+        "C"
       ],
-      "explanation": "Agent Mode は変更範囲を探索し、複数ファイルを編集し、ビルドやテストなどの検証まで進められるため、横断的な開発作業に向いています。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
+      "explanation": "公式 Learn では、タスク指定後に、関連ファイルと依存関係の決定、コード変更、必要なターミナル コマンド実行、出力監視と調整を行うと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/2-what-is-agent-mode"
     },
     {
       "questionNumber": 3,
       "type": "single",
-      "prompt": "Agent Mode に作業を依頼するとき、最も望ましいプロンプトはどれか。",
+      "prompt": "Copilot Chat の説明として本文に合うものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "全部直して。詳細は任せる"
+          "text": "一般的なAIチャットと同じく、プロジェクト ファイルや依存関係の文脈は使わない。"
         },
         {
           "id": "B",
-          "text": "ユーザー一覧に検索欄を追加し、名前とメールで絞り込み、既存テストも更新して"
+          "text": "コーディング関連の質問に答え、プロジェクト ファイルと依存関係のコンテキストに基づいて応答を調整する。"
         },
         {
           "id": "C",
-          "text": "いい感じにして"
+          "text": "複数ファイルへ変更を適用するためだけのモードで、質問回答には使わない。"
         },
         {
           "id": "D",
-          "text": "このリポジトリを完全に作り直して"
+          "text": "自律的に複数回反復して精度を上げる最終段階のモードだけを指す。"
         }
       ],
       "correctAnswers": [
         "B"
       ],
-      "explanation": "Agent Mode には、対象、期待動作、制約、検証条件を具体的に伝えるほど、意図に沿った作業になりやすくなります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
+      "explanation": "公式 Learn では、Copilot Chat は専用チャット パネルで、プロジェクト ファイルと依存関係のコンテキストに基づき応答を調整すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/2-what-is-agent-mode"
     },
     {
       "questionNumber": 4,
-      "type": "multiple",
-      "selectionCount": 2,
-      "prompt": "Agent Mode が作業中に行える代表的な操作を 2 つ選べ。",
+      "type": "single",
+      "prompt": "Copilot Edits とエージェント モードの違いとして最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Agent Mode はチャット回答の要約だけを行い、ファイル変更やコマンド実行はしない"
+          "text": "Copilot Edits は複数ファイル変更を目標に合わせて適用し、エージェント モードはタスクを動的に調整して複数回反復できる。"
         },
         {
           "id": "B",
-          "text": "所有者確認なしの本番シークレット公開"
+          "text": "Copilot Edits はターミナル コマンドを自律実行し、エージェント モードは1行補完だけを行う。"
         },
         {
           "id": "C",
-          "text": "必要なコード変更の提案または実施"
+          "text": "Copilot Edits はチャット回答専用で、エージェント モードはドキュメント生成だけを行う。"
         },
         {
           "id": "D",
-          "text": "関連ファイルの読み取り"
+          "text": "両者は本文上同じ機能名であり、違いは説明されていない。"
         }
       ],
       "correctAnswers": [
-        "C",
-        "D"
+        "A"
       ],
-      "explanation": "Agent Mode はコードベースを調査し、必要な編集や検証を進められます。一方、契約変更や危険な秘密情報公開は開発支援の目的ではありません。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
+      "explanation": "公式 Learn では、Copilot Edits は特定目標に合わせて複数ファイル変更を適用する機能、エージェント モードは開発タスクを動的に調整し反復できる機能として説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/2-what-is-agent-mode"
     },
     {
       "questionNumber": 5,
       "type": "single",
-      "prompt": "Agent Mode で実行コマンドや変更内容を確認する理由として最も適切なものはどれか。",
+      "prompt": "エージェント モードによる生産性向上の理由として本文に合うものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Agent Mode はファイルを読めないため"
+          "text": "反復的な編集、依存関係管理、テストなどを処理し、開発者が高レベル設計と問題解決に集中できる。"
         },
         {
           "id": "B",
-          "text": "Agent Mode は複数ステップで検証するため、利用者は最終差分より実行ログだけを確認すればよい"
+          "text": "開発者のレビューを完全になくし、すべての変更を即座に本番へ反映する。"
         },
         {
           "id": "C",
-          "text": "変更が意図、品質、セキュリティ要件に合っているか人間が責任を持つため"
+          "text": "コードベースの広い構造は見ず、現在のカーソル位置の補完だけを高速化する。"
         },
         {
           "id": "D",
-          "text": "Copilot がコードを保存できないため"
+          "text": "ドキュメント生成やライブラリ統合は扱わず、レガシ移行だけに用途を限定する。"
         }
       ],
       "correctAnswers": [
-        "C"
+        "A"
       ],
-      "explanation": "Copilot は作業を支援しますが、最終的な責任は利用者側にあります。差分やコマンド結果を確認し、意図しない変更を防ぐ必要があります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
+      "explanation": "公式 Learn では、Copilot が反復的な編集、依存関係管理、テストなどの面倒な作業を処理し、開発者の認知負荷を下げると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/2-what-is-agent-mode"
     },
     {
       "questionNumber": 6,
       "type": "single",
-      "prompt": "Agent Mode によるドキュメント指示の使い方として適切なものはどれか。",
+      "prompt": "REST API エンドポイント作成例で、エージェント モードが自律的に行う処理として本文にあるものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "プロジェクトの規約や作業方針を明文化し、エージェントの振る舞いを揃える"
+          "text": "`routes/api.js` の作成、`app.js` の更新、`npm install express`、`tests/api.test.js` の生成。"
         },
         {
           "id": "B",
-          "text": "テストをすべて無効化するためだけに使う"
+          "text": "`database.js` の作成、`.env` の変更、`models/userModel.js` の作成、`npm install mongoose`。"
         },
         {
           "id": "C",
-          "text": "リポジトリ外のすべてのファイル編集を許可する"
+          "text": "`views/login.html` の作成、パスワード ハッシュ ユーティリティの作成、認証ミドルウェアの生成。"
         },
         {
           "id": "D",
-          "text": "リポジトリ固有の規約よりも、Copilot の一般的な既定動作を常に優先させる"
+          "text": "`Dockerfile` と `.gitignore` だけを作成し、APIコードには触れない。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "指示ファイルやドキュメント化された規約は、コーディングスタイル、検証方法、制約を Copilot に伝え、作業の一貫性を高めます。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
+      "explanation": "公式 Learn では、新しい REST API エンドポイントの例では、APIルート作成、メインアプリ更新、express依存関係のインストール、テストケース生成が挙げられています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/3-explore-the-power"
     },
     {
       "questionNumber": 7,
       "type": "single",
-      "prompt": "Agent Mode と単純なチャット回答の違いとして正しいものはどれか。",
+      "prompt": "新しいデータベースを既存アプリに統合する例で、本文に含まれる作業はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Agent Mode は必ず 1 ファイルだけを変更する"
+          "text": "`npm install mongoose`、`database.js`、`.env`、`models/userModel.js`、`tests/userModel.test.js` を扱う。"
         },
         {
           "id": "B",
-          "text": "Agent Mode は説明文だけを返し、作業計画は立てない"
+          "text": "`npm install express`、`routes/api.js`、`tests/api.test.js` だけを扱う。"
         },
         {
           "id": "C",
-          "text": "Agent Mode はコードベース探索、編集、検証の流れを持てる"
+          "text": "`jest.config.js` と `.github/workflows/test.yml` だけを作る。"
         },
         {
           "id": "D",
-          "text": "Agent Mode は自然言語を理解しない"
+          "text": "ログインフォームと認証ミドルウェアだけを生成する。"
         }
       ],
       "correctAnswers": [
-        "C"
+        "A"
       ],
-      "explanation": "Agent Mode は、質問への回答にとどまらず、タスク達成に必要な調査、編集、確認を反復的に行える点が特徴です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
+      "explanation": "公式 Learn では、データベース統合例では、mongoose の依存関係、接続ロジック、環境構成、データモデル、自動テストが挙げられています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/3-explore-the-power"
     },
     {
       "questionNumber": 8,
-      "type": "single",
-      "prompt": "Agent Mode にバグ修正を依頼するとき、最初に含めると有用な情報はどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "曖昧な感想だけ"
-        },
-        {
-          "id": "B",
-          "text": "発生条件、期待結果、実際の結果、関連ログ"
-        },
-        {
-          "id": "C",
-          "text": "大きな変更ほど一括で依頼した方がレビューしやすく、段階化は避けるべきである"
-        },
-        {
-          "id": "D",
-          "text": "関係ないリポジトリのスター数"
-        }
-      ],
-      "correctAnswers": [
-        "B"
-      ],
-      "explanation": "バグ修正では再現条件と期待動作が重要です。ログやエラー文も原因調査の手がかりになります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
-    },
-    {
-      "questionNumber": 9,
       "type": "multiple",
       "selectionCount": 2,
-      "prompt": "Agent Mode の作業を安全に進めるための利用者側の行動を 2 つ選べ。",
+      "prompt": "ユーザー認証追加の「レビュー フェーズ」で本文が挙げる内容を2つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "差分をレビューする"
+          "text": "パスワード処理における潜在的なセキュリティ脆弱性を識別する。"
         },
         {
           "id": "B",
-          "text": "Agent Mode は単一ファイルの補完候補を複数表示するための UI である"
+          "text": "基本的なフロントエンド ログインフォームを最初に作る。"
         },
         {
           "id": "C",
-          "text": "テストやビルド結果を確認する"
+          "text": "エッジ ケースに対する追加の検証を推奨する。"
         },
         {
           "id": "D",
-          "text": "生成されたコードを無条件で本番反映する"
+          "text": "標準ディレクトリ `src/`、`tests/`、`config/` を生成する。"
         }
       ],
       "correctAnswers": [
         "A",
         "C"
       ],
-      "explanation": "Agent Mode の結果はレビューと検証が必要です。無条件反映や秘密情報の入力は、品質・セキュリティ上のリスクになります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
+      "explanation": "公式 Learn では、下書き-レビュー-承認ワークフローのレビュー フェーズでは、セキュリティ脆弱性の識別、エラー処理改善、エッジケース検証、単体テスト提案が挙げられています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/3-explore-the-power"
+    },
+    {
+      "questionNumber": 9,
+      "type": "single",
+      "prompt": "エージェント モードの PRU 消費について本文に合うものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "各ハンドオフは最大1 PRUを消費し、2段階のドラフト レビュー シーケンスでは通常2〜3 PRUを使う。"
+        },
+        {
+          "id": "B",
+          "text": "ドラフト レビュー シーケンスではPRUを使わず、Premium推論だけが必ず1 PRUを使う。"
+        },
+        {
+          "id": "C",
+          "text": "標準モデルの1要求は最大4 PRU以上、Premium推論は常に0 PRUである。"
+        },
+        {
+          "id": "D",
+          "text": "PRUはGitHub Actions分数の別名であり、モデル推論とは関係しない。"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、各ハンドオフは最大1 PRUを消費し、2段階のドラフト レビュー シーケンスでは通常2〜3 PRUを使うと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/3-explore-the-power"
     },
     {
       "questionNumber": 10,
       "type": "single",
-      "prompt": "Agent Mode にリファクタリングを依頼するとき、避けるべき依頼はどれか。",
+      "prompt": "自己修復の例で、生成された単体テストが構文エラーで失敗した場合の動きとして正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "仕様は不明だが、全体を好きに変えて"
+          "text": "エラー原因を検出し、修正を適用し、成功するまでテストを再実行する。"
         },
         {
           "id": "B",
-          "text": "公開 API の互換性を保って重複処理を整理して"
+          "text": "失敗ログを表示するだけで、修正と再実行は開発者に任せる。"
         },
         {
           "id": "C",
-          "text": "動作変更なしで読みやすくして"
+          "text": "テストを削除してビルドを通す方向に調整する。"
         },
         {
           "id": "D",
-          "text": "既存テストが通る範囲で関数を分割して"
+          "text": "外部テスト フレームワークへすべて委任し、コード変更は行わない。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "リファクタリングでは、動作を変えない範囲、互換性、検証方法を明示するのが重要です。曖昧に全面変更を任せると意図しない変更につながります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
+      "explanation": "公式 Learn では、自己復旧の例では、エラー原因の検出、修正ソリューションの適用、成功までのテスト再実行が説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/3-explore-the-power"
     },
     {
       "questionNumber": 11,
       "type": "single",
-      "prompt": "Agent Mode がプロジェクト内の指示ファイルを参照する主な目的はどれか。",
+      "prompt": "OctoFit Tracker 演習で学習者が担う役割として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "コンパイラを不要にするため"
+          "text": "学生のソーシャルフィットネスアプリを開発するジム教師。"
         },
         {
           "id": "B",
-          "text": "Agent Mode ではプロジェクト全体の調査を避け、選択行だけを対象にする必要がある"
+          "text": "リポジトリ ルールセットを設計する組織所有者。"
         },
         {
           "id": "C",
-          "text": "GitHub の権限設定を自動昇格するため"
+          "text": "MCP サーバーのOAuth接続を検証する管理者。"
         },
         {
           "id": "D",
-          "text": "ローカル規約や手順をコンテキストとして利用するため"
-        }
-      ],
-      "correctAnswers": [
-        "D"
-      ],
-      "explanation": "指示ファイルは、プロジェクト固有の前提、規約、検証手順を Copilot に伝えるためのコンテキストとして機能します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
-    },
-    {
-      "questionNumber": 12,
-      "type": "single",
-      "prompt": "Agent Mode に新機能を依頼するとき、受け入れ条件を書く効果として最も適切なものはどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "受け入れ条件はレビュー時だけに書けばよく、Agent Mode への依頼には含めない方がよい"
-        },
-        {
-          "id": "B",
-          "text": "完了判断と検証観点を明確にできる"
-        },
-        {
-          "id": "C",
-          "text": "すべてのエラーを自動で無視できる"
-        },
-        {
-          "id": "D",
-          "text": "プロジェクトの依存関係を不要にできる"
-        }
-      ],
-      "correctAnswers": [
-        "B"
-      ],
-      "explanation": "受け入れ条件は、実装すべき動作と検証すべき状態を明確にし、Copilot と人間の認識ずれを減らします。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
-    },
-    {
-      "questionNumber": 13,
-      "type": "single",
-      "prompt": "Agent Mode が提案したファイル変更に対して、利用者が行うべき確認はどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "テストが失敗しても確認せず承認する"
-        },
-        {
-          "id": "B",
-          "text": "説明が長ければ差分は見ない"
-        },
-        {
-          "id": "C",
-          "text": "関係ないファイルが変更されていないか、意図した動作になっているかを確認する"
-        },
-        {
-          "id": "D",
-          "text": "行数が増えていれば常に承認する"
-        }
-      ],
-      "correctAnswers": [
-        "C"
-      ],
-      "explanation": "AI による変更でも、差分の範囲、設計意図、テスト結果、セキュリティ影響を人間が確認する必要があります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
-    },
-    {
-      "questionNumber": 14,
-      "type": "single",
-      "prompt": "Agent Mode を使った演習で重要な姿勢はどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "コードベースの文脈を一切与えない"
-        },
-        {
-          "id": "B",
-          "text": "結果を観察し、必要に応じて追加指示で軌道修正する"
-        },
-        {
-          "id": "C",
-          "text": "実行結果やエラーを隠す"
-        },
-        {
-          "id": "D",
-          "text": "一度依頼したら何が起きても介入しない"
-        }
-      ],
-      "correctAnswers": [
-        "B"
-      ],
-      "explanation": "Agent Mode は対話的に使う機能です。中間結果を見て、必要なら追加情報や制約を与えて修正方向を調整します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
-    },
-    {
-      "questionNumber": 15,
-      "type": "single",
-      "prompt": "Agent Mode が生成した修正に対してテストが失敗した場合、適切な対応はどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "プロンプトを空にする"
-        },
-        {
-          "id": "B",
-          "text": "受け入れ条件を含めると Copilot はファイルを編集できなくなるため、目的だけを書くべきである"
-        },
-        {
-          "id": "C",
-          "text": "失敗内容を共有し、原因を調べて修正させる"
-        },
-        {
-          "id": "D",
-          "text": "失敗を無視してマージする"
-        }
-      ],
-      "correctAnswers": [
-        "C"
-      ],
-      "explanation": "失敗ログは重要なフィードバックです。Agent Mode に失敗内容を渡して、原因調査と修正を反復するのが適切です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
-    },
-    {
-      "questionNumber": 16,
-      "type": "multiple",
-      "selectionCount": 2,
-      "prompt": "Agent Mode に渡すと品質向上に役立つコンテキストを 2 つ選べ。",
-      "options": [
-        {
-          "id": "A",
-          "text": "関連する要件や制約"
-        },
-        {
-          "id": "B",
-          "text": "本番パスワード"
-        },
-        {
-          "id": "C",
-          "text": "関係ない雑談ログ"
-        },
-        {
-          "id": "D",
-          "text": "既存のテスト・実行コマンド"
-        }
-      ],
-      "correctAnswers": [
-        "A",
-        "D"
-      ],
-      "explanation": "要件、制約、テスト方法は作業品質に直結します。秘密情報や無関係な情報は避けるべきです。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
-    },
-    {
-      "questionNumber": 17,
-      "type": "single",
-      "prompt": "Agent Mode で「変更範囲を小さく保つ」ことが重要な理由はどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "Agent Mode の提案範囲を広げ、レビューよりも一括変更の速度を優先するため"
-        },
-        {
-          "id": "B",
-          "text": "テストを完全に不要にするため"
-        },
-        {
-          "id": "C",
-          "text": "AI がコードを書けなくなるため"
-        },
-        {
-          "id": "D",
-          "text": "レビューしやすく、意図しない影響を見つけやすくするため"
-        }
-      ],
-      "correctAnswers": [
-        "D"
-      ],
-      "explanation": "小さく明確な変更はレビューと検証がしやすく、Agent Mode の出力を安全に取り込むうえで重要です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
-    },
-    {
-      "questionNumber": 18,
-      "type": "single",
-      "prompt": "Agent Mode による修正で、利用者が特に注意すべきセキュリティ観点はどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "変数名がすべて 1 文字か"
-        },
-        {
-          "id": "B",
-          "text": "受け入れ条件はテスト生成を妨げるため、動作期待はコメントで後から補足する"
-        },
-        {
-          "id": "C",
-          "text": "秘密情報の露出や入力検証の欠落がないか"
-        },
-        {
-          "id": "D",
-          "text": "ファイル名が短いかだけ"
-        }
-      ],
-      "correctAnswers": [
-        "C"
-      ],
-      "explanation": "AI 生成コードでも、シークレット、入力検証、権限、外部通信などのセキュリティ観点は必ず確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
-    },
-    {
-      "questionNumber": 19,
-      "type": "single",
-      "prompt": "Agent Mode に大きな変更を依頼する前に適切な進め方はどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "既存仕様を読ませない"
-        },
-        {
-          "id": "B",
-          "text": "まず計画や影響範囲を出させ、必要なら段階的に実装する"
-        },
-        {
-          "id": "C",
-          "text": "レビュー担当者に何も説明しない"
-        },
-        {
-          "id": "D",
-          "text": "全ファイルを同時に書き換えるよう依頼する"
-        }
-      ],
-      "correctAnswers": [
-        "B"
-      ],
-      "explanation": "大きな作業は、計画、影響範囲、段階的な実装に分けると、誤りや過剰変更を抑えやすくなります。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
-    },
-    {
-      "questionNumber": 20,
-      "type": "single",
-      "prompt": "Agent Mode の学習で押さえるべき責任分担として正しいものはどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "Copilot は支援し、利用者が結果を判断・検証する"
-        },
-        {
-          "id": "B",
-          "text": "利用者は差分を見てはいけない"
-        },
-        {
-          "id": "C",
-          "text": "生成コードはレビュー対象外になる"
-        },
-        {
-          "id": "D",
-          "text": "大きな変更は一度に依頼するとコンテキストが安定するため、段階化しない方がよい"
+          "text": "PRU消費量を月次で監査する請求管理者。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Agent Mode は開発を加速しますが、品質、セキュリティ、適合性の判断は利用者とチームの責任です。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/"
+      "explanation": "公式 Learn では、演習では、マージイントン高校で OctoFit Tracker を開発するジム教師の役割を担うと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/4-exercise"
+    },
+    {
+      "questionNumber": 12,
+      "type": "multiple",
+      "selectionCount": 2,
+      "prompt": "OctoFit Tracker のアプリケーション機能として本文にあるものを2つ選べ。",
+      "options": [
+        {
+          "id": "A",
+          "text": "学生とジム教師のユーザー プロファイル。"
+        },
+        {
+          "id": "B",
+          "text": "Copilot Cloud Agent のファイアウォール許可リスト。"
+        },
+        {
+          "id": "C",
+          "text": "共同作業の目標のためのチーム作成と管理。"
+        },
+        {
+          "id": "D",
+          "text": "PRU使用量の75%、90%、100%アラート。"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "C"
+      ],
+      "explanation": "公式 Learn では、OctoFit Tracker の機能として、ユーザー プロファイル、アクティビティ追跡、チーム作成と管理、ランキング、パーソナライズされたトレーニング提案が挙げられています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/4-exercise"
+    },
+    {
+      "questionNumber": 13,
+      "type": "single",
+      "prompt": "演習で開発環境について行うこととして本文にあるものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "GitHub Codespace を設定し、GitHub Copilot をインストールして構成する。"
+        },
+        {
+          "id": "B",
+          "text": "セルフホスト ランナーを必ず用意し、Ubuntu x64を避ける。"
+        },
+        {
+          "id": "C",
+          "text": "`.github/workflows` を編集して採点ワークフローを書き換える。"
+        },
+        {
+          "id": "D",
+          "text": "OAuth の代わりにPATを README に保存する。"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、演習手順には、GitHub Codespace の設定と GitHub Copilot のインストール・構成が含まれます。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/4-exercise"
+    },
+    {
+      "questionNumber": 14,
+      "type": "single",
+      "prompt": "演習開始時のリポジトリ選択について本文が推奨するものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "プライベート リポジトリでは Actions 分が使われるため、パブリック リポジトリの利用を推奨する。"
+        },
+        {
+          "id": "B",
+          "text": "パブリック リポジトリでは演習が採点されないため、必ずプライベートにする。"
+        },
+        {
+          "id": "C",
+          "text": "テンプレート リポジトリは使わず、空のローカル フォルダーだけで始める。"
+        },
+        {
+          "id": "D",
+          "text": "セットアップ後はページ更新せず、すぐワークフローを編集する。"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、「コースの開始」またはテンプレートから作成し、プライベートでは Actions 分が使われるためパブリック リポジトリが推奨されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/4-exercise"
+    },
+    {
+      "questionNumber": 15,
+      "type": "single",
+      "prompt": "演習でワークフロー ファイルについて注意されていることはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "演習完了のためにワークフロー ファイルを変更する必要はなく、変更すると検証や採点機能が損なわれる可能性がある。"
+        },
+        {
+          "id": "B",
+          "text": "演習の最初に必ずワークフロー ファイルを変更し、採点処理を無効にする。"
+        },
+        {
+          "id": "C",
+          "text": "ワークフロー ファイルはCopilotでは扱えないため、すべて手動で削除する。"
+        },
+        {
+          "id": "D",
+          "text": "ワークフローの内容はランキング機能だけに関係し、演習結果には影響しない。"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、この演習ではワークフロー ファイルを変更する必要はなく、変更すると Actions の検証、フィードバック、採点機能が損なわれる可能性があると注意されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/4-exercise"
+    },
+    {
+      "questionNumber": 16,
+      "type": "single",
+      "prompt": "モジュール評価で問われるエージェント モードの重要な違いはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "プロジェクト全体を動的に分析し、複数ステップのタスクを自律実行し、出力を繰り返し調整する。"
+        },
+        {
+          "id": "B",
+          "text": "開いている1ファイルの即時コンテキストだけでコード スニペットを提案する。"
+        },
+        {
+          "id": "C",
+          "text": "ユーザーが指定したステップだけを順番に実行し、自律判断はしない。"
+        },
+        {
+          "id": "D",
+          "text": "リアルタイム補完はできるが、コードのリファクタリングや実行はできない。"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、評価問題では、エージェント モードはプロジェクト全体を分析し、複数ステップを自律実行し、出力を反復調整する点が従来ツールとの違いとして扱われています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/5-knowledge-check"
+    },
+    {
+      "questionNumber": 17,
+      "type": "single",
+      "prompt": "生成ソリューションを繰り返し改善する方法として評価本文に合うものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "テストを通じて問題を識別し、自律的にエラーを修正し、サイクルを繰り返して絞り込む。"
+        },
+        {
+          "id": "B",
+          "text": "最初のコード生成後は必ず人間がテストとデバッグを行う。"
+        },
+        {
+          "id": "C",
+          "text": "タスクごとに一度だけコードを生成し、その後は調整しない。"
+        },
+        {
+          "id": "D",
+          "text": "すべての改善を外部テスト フレームワークに任せ、エラーには対処しない。"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、評価本文では、テストで問題を識別し、自律的にエラーを修正し、繰り返してソリューションを絞り込む選択肢が正しい扱いです。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/5-knowledge-check"
+    },
+    {
+      "questionNumber": 18,
+      "type": "single",
+      "prompt": "レガシ JavaScript アプリを最新フレームワークへ移行する依頼で、エージェント モードが行う可能性が高いものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "関連ファイルの識別、依存関係の更新、複数ファイルのリファクタリング、テストによる反復検証。"
+        },
+        {
+          "id": "B",
+          "text": "移行理由のドキュメントだけを作り、実装は行わない。"
+        },
+        {
+          "id": "C",
+          "text": "依存関係やプロジェクト構造を変更せず、単一ファイル補完だけを返す。"
+        },
+        {
+          "id": "D",
+          "text": "各コード変更ごとに手順入力を求め、テストは実行しない。"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、評価本文では、移行タスクに対して関連ファイル識別、依存関係更新、複数ファイルのリファクタリング、テストによる検証を行う選択肢が正しいものとして示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/5-knowledge-check"
+    },
+    {
+      "questionNumber": 19,
+      "type": "single",
+      "prompt": "README.md などのプロジェクト ドキュメントの役割として評価本文に合うものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "プロジェクトの意図した動作の理解を助け、自律的なタスク実行方法に影響する。"
+        },
+        {
+          "id": "B",
+          "text": "開発者だけの参照資料で、エージェント モードの動作には影響しない。"
+        },
+        {
+          "id": "C",
+          "text": "コード ファイルへのアクセスを制限するための権限設定として機能する。"
+        },
+        {
+          "id": "D",
+          "text": "エージェント モードでは完全に無視され、ファイル構造だけに依存する。"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、評価本文では、README などのドキュメントはプロジェクトの意図した動作理解を助け、エージェント モードのタスク実行に影響するとされています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/5-knowledge-check"
+    },
+    {
+      "questionNumber": 20,
+      "type": "single",
+      "prompt": "評価本文で示されるエージェント モードの制限として適切なものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "明確なパターンがない高度に特殊なドメイン知識や微妙なビジネス ロジックでは苦労する可能性がある。"
+        },
+        {
+          "id": "B",
+          "text": "すべてのコード生成後に手動構成を有効化しないと動作しない。"
+        },
+        {
+          "id": "C",
+          "text": "複数ファイル変更を扱えず、インライン候補だけに限定される。"
+        },
+        {
+          "id": "D",
+          "text": "テスト実行や依存関係更新は本文上サポートされない。"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、評価本文では、明確なパターンを欠く高度に特殊なドメイン知識や微妙なビジネス ロジックが制限事項として問われています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/5-knowledge-check"
+    },
+    {
+      "questionNumber": 21,
+      "type": "single",
+      "prompt": "概要で、エージェント モードが使用すると説明されている情報はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "GitHub Codespaces と Visual Studio Code と共に、プロジェクトのドキュメント、コンテキスト、分析情報を使う。"
+        },
+        {
+          "id": "B",
+          "text": "単一の開いているファイルとカーソル前後の文字列だけを使う。"
+        },
+        {
+          "id": "C",
+          "text": "GitHub Actions の実行ログだけを使い、コードベースは分析しない。"
+        },
+        {
+          "id": "D",
+          "text": "Copilot Spaces の共有設定だけを使って変更を決める。"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、概要では、エージェント モードが GitHub Codespaces と Visual Studio Code と共に、プロジェクトのドキュメント、コンテキスト、分析情報を使用すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/6-summary"
+    },
+    {
+      "questionNumber": 22,
+      "type": "multiple",
+      "selectionCount": 2,
+      "prompt": "概要で挙げられるエージェント モード活用の到達点を2つ選べ。",
+      "options": [
+        {
+          "id": "A",
+          "text": "新しいアプリケーションを自律的にビルドするように依頼する。"
+        },
+        {
+          "id": "B",
+          "text": "GitHub Codespaces 内で VS Code IDE を使用してアプリケーションを開発する。"
+        },
+        {
+          "id": "C",
+          "text": "MCP tools のOAuth非対応を検証する。"
+        },
+        {
+          "id": "D",
+          "text": "PRUアラートを75%、90%、100%で設定する。"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B"
+      ],
+      "explanation": "公式 Learn では、概要では、新しいアプリケーションを自律的にビルドするよう依頼することと、GitHub Codespaces 内で VS Code IDE を使うことが、このモジュールで扱った内容として整理されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/6-summary"
+    },
+    {
+      "questionNumber": 23,
+      "type": "single",
+      "prompt": "概要におけるエージェント モードの位置づけとして正しいものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "アプリ作成からリファクタリング、反復処理まで、複雑なタスクに効率よく取り組めるワークフロー強化機能。"
+        },
+        {
+          "id": "B",
+          "text": "コード補完だけを高速化するための軽量なインライン機能。"
+        },
+        {
+          "id": "C",
+          "text": "GitHub.com 上でPRレビューを自動化する専用機能。"
+        },
+        {
+          "id": "D",
+          "text": "MCPサーバーを設定するためだけのVS Code拡張機能。"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、概要では、エージェント モードがアプリケーションの自律的作成、インテリジェントなリファクタリング、反復処理までソフトウェア開発ワークフローを強化すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/6-summary"
+    },
+    {
+      "questionNumber": 24,
+      "type": "single",
+      "prompt": "概要で述べられる、GitHub が今後も進めることはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Copilot の機能を進化させ、AI支援開発の境界を押し広げ、開発者が高度な問題解決に集中できるようにする。"
+        },
+        {
+          "id": "B",
+          "text": "エージェント モードをインライン補完だけに戻し、複数ファイル処理を廃止する。"
+        },
+        {
+          "id": "C",
+          "text": "Codespaces と VS Code を使わないワークフローだけに限定する。"
+        },
+        {
+          "id": "D",
+          "text": "ドキュメントやコンテキストの利用をやめ、ファイル名だけで判断する。"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、概要では、GitHub が Copilot の機能を進化させ、AI支援型開発の境界を押し広げると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/6-summary"
+    },
+    {
+      "questionNumber": 25,
+      "type": "single",
+      "prompt": "概要の学習内容を実務に移す際の理解として最も適切なものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "エージェント モードに広いタスクを任せつつ、プロジェクト文脈やドキュメントを与えて人間が確認する。"
+        },
+        {
+          "id": "B",
+          "text": "エージェント モードは常に一度で完全な結果を出すため、説明や文脈を与えない。"
+        },
+        {
+          "id": "C",
+          "text": "OctoFit の演習ではワークフローを変更するほど採点が安定する。"
+        },
+        {
+          "id": "D",
+          "text": "自己修復があるため、テストやレビュー結果を見る必要はない。"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、概要と本文全体では、プロジェクトのドキュメントやコンテキストを活用し、エージェント モードで自律的に進めながら開発者が制御を保つことが重要だと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/6-summary"
     }
   ]
 }

@@ -1,546 +1,828 @@
 {
-  "title": "Microsoft Learn GitHub Copilot 基本編: 管理とカスタマイズ",
-  "description": "Microsoft Learn「GitHub Copilot での管理とカスタマイズに関する考慮事項」に基づく確認クイズ（20問）",
+  "title": "Microsoft Learn: GitHub Copilot での管理とカスタマイズに関する考慮事項",
+  "description": "Microsoft Learn「GitHub Copilot での管理とカスタマイズに関する考慮事項」のイントロを除く各ユニット本文を基にしたLLM作問クイズ（30問、各ユニット5問）",
   "questions": [
     {
       "questionNumber": 1,
       "type": "single",
-      "prompt": "管理とカスタマイズの目的について最も適切な説明はどれか。",
+      "prompt": "Copilot のプラン比較で、Business と Enterprise にはあるが Free/Pro にはない管理ポリシー機能はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "個人の補完速度だけを上げ、組織ポリシーや監査要件は扱わないこと"
+          "text": "Copilot 拡張機能との無制限の統合"
         },
         {
           "id": "B",
-          "text": "組織のポリシー、セキュリティ、利用体験に合わせて Copilot を運用すること"
+          "text": "内部ツール用のプライベート拡張機能の構築"
         },
         {
           "id": "C",
-          "text": "Copilot の全機能を無条件に有効化し、利用者判断に任せること"
+          "text": "コンテンツの除外"
         },
         {
           "id": "D",
-          "text": "IDE 拡張機能のインストール手順だけを標準化すること"
+          "text": "月 2,000 件のコード補完"
         }
       ],
       "correctAnswers": [
-        "B"
+        "C"
       ],
-      "explanation": "管理とカスタマイズの目的では、組織のポリシー、セキュリティ、利用体験に合わせて Copilot を運用することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
+      "explanation": "公式 Learn では、管理ポリシー機能の表で、コンテンツの除外は Business と Enterprise に含まれ、Free/Pro には含まれないと示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/2-explore-github-copilot-plans-associated-management-customization-features"
     },
     {
       "questionNumber": 2,
       "type": "single",
-      "prompt": "プラン差分について最も適切な説明はどれか。",
+      "prompt": "カスタマイズ機能の表で、Enterprise のみが利用できる機能の組み合わせはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "すべてのプランで管理者向け制御は同一で、違いは月額料金だけであること"
+          "text": "公開コードフィルターと SAML SSO 認証"
         },
         {
           "id": "B",
-          "text": "Free、Pro、Pro+、Business、Enterprise で管理機能や対象利用者が異なること"
+          "text": "プライベートコードベースに合わせたチャット調整とナレッジベースのアタッチ"
         },
         {
           "id": "C",
-          "text": "Free と Pro は組織管理向けで、Business と Enterprise は個人向けであること"
+          "text": "Copilot 拡張機能の統合と内部ツール用プライベート拡張機能"
         },
         {
           "id": "D",
-          "text": "Enterprise を選ぶと、利用者ごとのアクセス管理は不要になること"
+          "text": "使用状況メトリックとユーザー管理"
         }
       ],
       "correctAnswers": [
         "B"
       ],
-      "explanation": "プラン差分では、Free、Pro、Pro+、Business、Enterprise で管理機能や対象利用者が異なることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
+      "explanation": "公式 Learn では、カスタマイズ機能では、プライベートコードベースに合わせたチャットの調整と、組織コンテキストに合わせたナレッジベースのアタッチが Enterprise のみになっています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/2-explore-github-copilot-plans-associated-management-customization-features"
     },
     {
       "questionNumber": 3,
-      "type": "single",
-      "prompt": "Business の管理について最も適切な説明はどれか。",
+      "type": "multiple",
+      "prompt": "Copilot プラン選択時に考慮すべき要素として本文に挙げられているものを2つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "組織メンバーのアクセスやポリシーを一元管理できること"
+          "text": "データの収集と保持の方法"
         },
         {
           "id": "B",
-          "text": "Business は個人アカウント専用で、組織メンバーの割り当てはできない"
+          "text": "IDE のテーマ配色"
         },
         {
           "id": "C",
-          "text": "Business では公開コード一致やポリシー設定をユーザーごとに禁止できない"
+          "text": "IP 補償とデータ プライバシー"
         },
         {
           "id": "D",
-          "text": "Business を使うと、Enterprise Cloud なしでも全 Enterprise 機能が自動付与される"
+          "text": "GitHub Actions の分単位課金"
         }
       ],
       "correctAnswers": [
-        "A"
+        "A",
+        "C"
       ],
-      "explanation": "Business の管理では、組織メンバーのアクセスやポリシーを一元管理できることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
+      "explanation": "公式 Learn では、価格プランを選ぶ際の重要な要素として、データの収集と保持、IP 補償とデータ プライバシーが説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/2-explore-github-copilot-plans-associated-management-customization-features",
+      "selectionCount": 2
     },
     {
       "questionNumber": 4,
       "type": "single",
-      "prompt": "Enterprise の特徴について最も適切な説明はどれか。",
+      "prompt": "Copilot Free の使用制限として本文に記載されている内容はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Enterprise は Free と同じ個人向け機能に、利用上限だけを追加したプランである"
+          "text": "1 か月あたり 2,000 個のコード補完と 50 個のチャット メッセージ"
         },
         {
           "id": "B",
-          "text": "より深い GitHub Enterprise Cloud 統合や組織向け機能を提供すること"
+          "text": "1 日あたり 2,000 個のコード補完と 500 個のチャット メッセージ"
         },
         {
           "id": "C",
-          "text": "Enterprise では組織レベルの管理より、個人設定が常に優先される"
+          "text": "公開リポジトリでのみ月 50 個のコード補完"
         },
         {
           "id": "D",
-          "text": "Enterprise を有効にすると、コンテンツ除外や監査の検討は不要になる"
+          "text": "Visual Studio Code ではチャットのみ利用可能"
         }
       ],
       "correctAnswers": [
-        "B"
+        "A"
       ],
-      "explanation": "Enterprise の特徴では、より深い GitHub Enterprise Cloud 統合や組織向け機能を提供することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
+      "explanation": "公式 Learn では、Free レベルには、1 か月あたり 2,000 個のコード オートコンプリートと 50 個のチャット メッセージが含まれると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/2-explore-github-copilot-plans-associated-management-customization-features"
     },
     {
       "questionNumber": 5,
       "type": "single",
-      "prompt": "契約上の保護について最も適切な説明はどれか。",
+      "prompt": "Enterprise プランの前提として、管理ポリシー機能の表で示されているものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "プランにより知的財産や利用に関する保護が提供される場合があること"
+          "text": "GitHub Enterprise Cloud が必要"
         },
         {
           "id": "B",
-          "text": "契約上の保護はすべての無料利用者に同じ条件で自動適用される"
+          "text": "Copilot Pro+ の個人契約が必要"
         },
         {
           "id": "C",
-          "text": "保護の有無は IDE の種類だけで決まり、プランや条件には左右されない"
+          "text": "すべてのリポジトリを公開する必要がある"
         },
         {
           "id": "D",
-          "text": "契約上の保護があれば、生成コードのライセンス確認は常に不要である"
+          "text": "SAML SSO 認証を無効化する必要がある"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "契約上の保護では、プランにより知的財産や利用に関する保護が提供される場合があることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
+      "explanation": "公式 Learn では、管理ポリシー機能の表では、GitHub Enterprise Cloud が必要という項目が Enterprise にのみ該当すると示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/2-explore-github-copilot-plans-associated-management-customization-features"
     },
     {
       "questionNumber": 6,
       "type": "single",
-      "prompt": "パブリックコード一致について最も適切な説明はどれか。",
+      "prompt": "IP 補償について、本文の説明として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "公開コードと一致する提案は常に安全なので、設定で扱いを変える必要はない"
+          "text": "Free と Pro にだけ含まれ、Business では別契約になる"
         },
         {
           "id": "B",
-          "text": "一致候補の管理は CI の失敗時だけ使う一時的なトラブルシュート機能である"
+          "text": "Business と Enterprise に含まれ、Matching public code 設定をブロックする必要がある"
         },
         {
           "id": "C",
-          "text": "一致検出を許可すると、公開コード由来のリスクは自動的にゼロになる"
+          "text": "コンテンツ除外を設定したリポジトリにだけ自動適用される"
         },
         {
           "id": "D",
-          "text": "公開コードと一致する提案の扱いを管理できること"
-        }
-      ],
-      "correctAnswers": [
-        "D"
-      ],
-      "explanation": "パブリックコード一致では、公開コードと一致する提案の扱いを管理できることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
-    },
-    {
-      "questionNumber": 7,
-      "type": "single",
-      "prompt": "一致候補の無効化について最も適切な説明はどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "公開コードに一致する提案をブロックしてリスクを下げる設定"
-        },
-        {
-          "id": "B",
-          "text": "一致候補を無効化すると、Copilot のチャット機能もすべて利用できなくなる"
-        },
-        {
-          "id": "C",
-          "text": "この設定は公開コードではなく、組織内の private code の閲覧権限を広げる"
-        },
-        {
-          "id": "D",
-          "text": "無効化は候補表示の速度だけを調整し、ライセンスリスクには関係しない"
-        }
-      ],
-      "correctAnswers": [
-        "A"
-      ],
-      "explanation": "一致候補の無効化では、公開コードに一致する提案をブロックしてリスクを下げる設定が重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
-    },
-    {
-      "questionNumber": 8,
-      "type": "single",
-      "prompt": "コンテンツ除外について最も適切な説明はどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "特定リポジトリやファイルを Copilot の利用対象から除外する管理機能"
-        },
-        {
-          "id": "B",
-          "text": "コンテンツ除外はユーザーがローカル IDE でだけ設定する個人用テーマである"
-        },
-        {
-          "id": "C",
-          "text": "除外すると該当ファイルがリポジトリから削除され、Git 履歴にも残らない"
-        },
-        {
-          "id": "D",
-          "text": "除外設定は秘密情報の入力を許可するためのホワイトリストである"
-        }
-      ],
-      "correctAnswers": [
-        "A"
-      ],
-      "explanation": "コンテンツ除外では、特定リポジトリやファイルを Copilot の利用対象から除外する管理機能が重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
-    },
-    {
-      "questionNumber": 9,
-      "type": "single",
-      "prompt": "除外の目的について最も適切な説明はどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "機密性の高いコードや規制対象データを Copilot 文脈から守ること"
-        },
-        {
-          "id": "B",
-          "text": "機密コードを除外すると、以後レビューやセキュリティ確認も不要になること"
-        },
-        {
-          "id": "C",
-          "text": "規制対象データを Copilot に渡すため、除外ではなく共有範囲を広げること"
-        },
-        {
-          "id": "D",
-          "text": "除外は補完精度を上げるためだけの設定で、データ保護とは関係しないこと"
-        }
-      ],
-      "correctAnswers": [
-        "A"
-      ],
-      "explanation": "除外の目的では、機密性の高いコードや規制対象データを Copilot 文脈から守ることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
-    },
-    {
-      "questionNumber": 10,
-      "type": "single",
-      "prompt": "管理者の役割について最も適切な説明はどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "管理者は利用者教育に関与せず、すべての判断を IDE 拡張機能に任せること"
-        },
-        {
-          "id": "B",
-          "text": "アクセス権は開発者が個別に調整し、組織としての方針は持たないこと"
-        },
-        {
-          "id": "C",
-          "text": "利用状況やポリシーは導入時だけ確認し、運用後は見直さないこと"
-        },
-        {
-          "id": "D",
-          "text": "アクセス、ポリシー、セキュリティ要件、利用状況を管理すること"
-        }
-      ],
-      "correctAnswers": [
-        "D"
-      ],
-      "explanation": "管理者の役割では、アクセス、ポリシー、セキュリティ要件、利用状況を管理することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
-    },
-    {
-      "questionNumber": 11,
-      "type": "single",
-      "prompt": "ユーザー教育について最も適切な説明はどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "教育では、生成コードをそのまま採用する速度を最優先に教えること"
-        },
-        {
-          "id": "B",
-          "text": "秘密情報は Copilot Chat に貼り付けても、後で削除すれば問題ないと説明すること"
-        },
-        {
-          "id": "C",
-          "text": "提案の検証は管理者だけが行い、利用者は内容を確認しない運用にすること"
-        },
-        {
-          "id": "D",
-          "text": "Copilot の提案を検証し、秘密情報を入力しないよう周知すること"
-        }
-      ],
-      "correctAnswers": [
-        "D"
-      ],
-      "explanation": "ユーザー教育では、Copilot の提案を検証し、秘密情報を入力しないよう周知することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
-    },
-    {
-      "questionNumber": 12,
-      "type": "single",
-      "prompt": "一般的な問題について最も適切な説明はどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "問題の多くはモデルの不具合だけが原因なので、サインインや権限は確認しない"
-        },
-        {
-          "id": "B",
-          "text": "ネットワークやプロキシ設定は Copilot の動作に影響しない"
-        },
-        {
-          "id": "C",
-          "text": "拡張機能、サインイン、権限、組織設定、ネットワークが原因になり得ること"
-        },
-        {
-          "id": "D",
-          "text": "組織ポリシーは管理画面の表示だけに使われ、IDE には反映されない"
-        }
-      ],
-      "correctAnswers": [
-        "C"
-      ],
-      "explanation": "一般的な問題では、拡張機能、サインイン、権限、組織設定、ネットワークが原因になり得ることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
-    },
-    {
-      "questionNumber": 13,
-      "type": "single",
-      "prompt": "トラブルシュートについて最も適切な説明はどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "最初にモデルを変更し、それでも直らなければ利用権限の確認を省略すること"
-        },
-        {
-          "id": "B",
-          "text": "利用権限、プラン、拡張機能、ポリシー、ログを順に確認すること"
-        },
-        {
-          "id": "C",
-          "text": "ログや拡張機能の状態より、生成されたコードの品質だけを見ること"
-        },
-        {
-          "id": "D",
-          "text": "組織設定の確認は最後まで行わず、ユーザーに再インストールだけを依頼すること"
+          "text": "個人ユーザーが Allow を選ぶと組織全体に適用される"
         }
       ],
       "correctAnswers": [
         "B"
       ],
-      "explanation": "トラブルシュートでは、利用権限、プラン、拡張機能、ポリシー、ログを順に確認することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
+      "explanation": "公式 Learn では、Business と Enterprise には IP 補償が含まれ、GitHub が法的責任を負うには Matching public code 設定をブロックする必要があると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/3-github-copilot-contractual-protections-disabling-matching-public-code"
+    },
+    {
+      "questionNumber": 7,
+      "type": "single",
+      "prompt": "DPA の説明として本文に合うものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "公開コードに一致した候補をローカルで削除する IDE 拡張機能"
+        },
+        {
+          "id": "B",
+          "text": "データ保護とプライバシー規制への準拠のための対策を示す契約"
+        },
+        {
+          "id": "C",
+          "text": "Copilot の全応答を監査ログに保存する GitHub Actions ワークフロー"
+        },
+        {
+          "id": "D",
+          "text": "IP 補償を個人アカウントへ移譲するための設定"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "explanation": "公式 Learn では、データ保護契約 DPA は、ユーザーのデータ保護とデータ プライバシー規制への準拠のための対策を示すものと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/3-github-copilot-contractual-protections-disabling-matching-public-code"
+    },
+    {
+      "questionNumber": 8,
+      "type": "single",
+      "prompt": "組織提供の個人用 Copilot シートで、パブリックコード一致候補のトグルはどう扱われるか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "個人ユーザーが常に Allow/Block を自由に切り替えられる"
+        },
+        {
+          "id": "B",
+          "text": "ロックされ、組織のポリシーを反映する"
+        },
+        {
+          "id": "C",
+          "text": "Enterprise Cloud 管理者だけでなく任意のリポジトリ管理者が解除できる"
+        },
+        {
+          "id": "D",
+          "text": "DPA に同意すると自動的に Allow へ戻る"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "explanation": "公式 Learn では、組織が提供するシートでは、個人アカウント側のトグルはロックされ、組織のポリシーを反映すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/3-github-copilot-contractual-protections-disabling-matching-public-code"
+    },
+    {
+      "questionNumber": 9,
+      "type": "multiple",
+      "prompt": "組織管理者がパブリックコード一致候補を管理する手順に含まれるものを2つ選べ。",
+      "options": [
+        {
+          "id": "A",
+          "text": "左側サイドバーの [コード、計画、自動化] 配下で [Copilot] を開く"
+        },
+        {
+          "id": "B",
+          "text": "[機能] の [プライバシー] セクションまでスクロールする"
+        },
+        {
+          "id": "C",
+          "text": "各開発者のローカル VS Code 設定ファイルを書き換える"
+        },
+        {
+          "id": "D",
+          "text": "テスト エクスプローラーで Copilot アイコンをクリックする"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B"
+      ],
+      "explanation": "公式 Learn では、組織管理者向け手順では、[コード、計画、自動化] 配下の [Copilot] から [機能] を開き、[プライバシー] セクションで設定すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/3-github-copilot-contractual-protections-disabling-matching-public-code",
+      "selectionCount": 2
+    },
+    {
+      "questionNumber": 10,
+      "type": "single",
+      "prompt": "このユニット冒頭の Copilot 画像説明に含まれている特徴はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "緑色の再生ボタンとテスト エクスプローラー"
+        },
+        {
+          "id": "B",
+          "text": "ネオン色のロボットヘルメットと軌道・原子のような抽象グラフィック"
+        },
+        {
+          "id": "C",
+          "text": "GitHub Actions の YAML と Docker ロゴ"
+        },
+        {
+          "id": "D",
+          "text": "Visual Studio Code の beaker アイコンとスタックトレース"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "explanation": "公式 Learn では、冒頭の画像説明では、Copilot が図案化されたロボットのヘルメットとして表され、軌道や原子のような抽象グラフィックと共に描かれていると記載されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/3-github-copilot-contractual-protections-disabling-matching-public-code"
+    },
+    {
+      "questionNumber": 11,
+      "type": "single",
+      "prompt": "コンテンツ除外をリポジトリで構成する場所として正しいものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "リポジトリの [設定] から [コード & オートメーション] の [Copilot] を開き、除外するリポジトリとパスを指定する"
+        },
+        {
+          "id": "B",
+          "text": "個人アカウントの [Billing] で除外したいファイル拡張子を登録する"
+        },
+        {
+          "id": "C",
+          "text": "テスト エクスプローラーの設定で除外するファイルを選ぶ"
+        },
+        {
+          "id": "D",
+          "text": "Pull request のレビューコメントに除外パターンを書く"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、リポジトリでは、リポジトリの [設定] から [コード & オートメーション] セクションの [Copilot] を選び、除外するファイルまたはディレクトリを指定すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/4-manage-content-exclusions"
+    },
+    {
+      "questionNumber": 12,
+      "type": "single",
+      "prompt": "コンテンツ除外が対象ファイルへ与える影響はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "対象ファイルではコード入力候補を利用できなくなる"
+        },
+        {
+          "id": "B",
+          "text": "対象ファイルだけ入力候補が増える"
+        },
+        {
+          "id": "C",
+          "text": "対象ファイルの内容は Chat 応答には使われ続ける"
+        },
+        {
+          "id": "D",
+          "text": "対象ファイルは GitHub から削除される"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、GitHub Copilot からコンテンツを除外すると、影響を受けるファイルでコード入力候補を利用できなくなると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/4-manage-content-exclusions"
+    },
+    {
+      "questionNumber": 13,
+      "type": "single",
+      "prompt": "重要な構成ファイルを除外する場合の注意点として本文に近いものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Copilot はその構成に依存する関連コードを提案しなくなる可能性がある"
+        },
+        {
+          "id": "B",
+          "text": "Copilot は構成ファイルを優先的に学習して提案精度を上げる"
+        },
+        {
+          "id": "C",
+          "text": "除外した構成は組織外ユーザーにも必ず適用される"
+        },
+        {
+          "id": "D",
+          "text": "構成ファイルを除外すると IP 補償が無効になる"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、重要な構成ファイルを除外すると、そのファイルで定義された構成に依存する関連コードスニペットを提案しなくなる可能性があると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/4-manage-content-exclusions"
     },
     {
       "questionNumber": 14,
       "type": "single",
-      "prompt": "カスタマイズについて最も適切な説明はどれか。",
+      "prompt": "Visual Studio Code と Visual Studio で、コンテンツ除外が適用されない例として本文にあるものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "カスタマイズはモデルの学習済み重みを組織ごとに直接書き換えること"
+          "text": "質問で @github チャット参加者を使う場合"
         },
         {
           "id": "B",
-          "text": "リポジトリ固有の指示は誤動作の原因になるため、常に空にしておくこと"
+          "text": "コード補完を Ctrl+Enter で起動する場合"
         },
         {
           "id": "C",
-          "text": "カスタム指示は個人の好みだけを扱い、組織ルールの反映には使えないこと"
+          "text": "beaker ボタンからテスト エクスプローラーを開く場合"
         },
         {
           "id": "D",
-          "text": "組織やリポジトリの文脈に合わせた指示や設定を使うこと"
+          "text": "xUnit のテストプロジェクトを作成する場合"
         }
       ],
       "correctAnswers": [
-        "D"
+        "A"
       ],
-      "explanation": "カスタマイズでは、組織やリポジトリの文脈に合わせた指示や設定を使うことが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
+      "explanation": "公式 Learn では、IDE の制限として、Visual Studio Code と Visual Studio では質問で @github チャット参加者を使うとコンテンツ除外が適用されないと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/4-manage-content-exclusions"
     },
     {
       "questionNumber": 15,
-      "type": "single",
-      "prompt": "セキュリティについて最も適切な説明はどれか。",
+      "type": "multiple",
+      "prompt": "コンテンツ除外の制限として本文に挙げられているものを2つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "脆弱性フィルターやコンテンツ除外などでリスクを管理すること"
+          "text": "IDE が提供するセマンティック情報により、除外ファイル由来の情報が使われる場合がある"
         },
         {
           "id": "B",
-          "text": "脆弱性フィルターを有効にすれば、生成コードのレビューは不要になること"
+          "text": "設定は除外が構成された組織のメンバーにのみ適用される"
         },
         {
           "id": "C",
-          "text": "セキュリティ設定は提案速度だけに影響し、リスク管理には関係しないこと"
+          "text": "除外設定は Free と Pro の全ユーザーに自動配布される"
         },
         {
           "id": "D",
-          "text": "機密ファイルも多く参照させるほど、セキュリティ上の安全性が高まること"
+          "text": "除外されたファイルは pull request で参照できなくなる"
         }
       ],
       "correctAnswers": [
-        "A"
+        "A",
+        "B"
       ],
-      "explanation": "セキュリティでは、脆弱性フィルターやコンテンツ除外などでリスクを管理することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
+      "explanation": "公式 Learn では、制限として、セマンティック情報から除外ファイルの情報が使われる場合があること、設定は構成された組織のメンバーにのみ適用されることが説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/4-manage-content-exclusions",
+      "selectionCount": 2
     },
     {
       "questionNumber": 16,
-      "type": "single",
-      "prompt": "コンプライアンスについて最も適切な説明はどれか。",
+      "type": "multiple",
+      "prompt": "コード候補が表示されない場合のトラブルシューティングとして本文にあるものを2つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "組織の規制、データ保護、監査要件と整合させること"
+          "text": "インターネット接続が安定していることを確認する"
         },
         {
           "id": "B",
-          "text": "コンプライアンスでは、開発者体験を優先して監査要件を後回しにすること"
+          "text": "GitHub Copilot 拡張機能を最新バージョンにする"
         },
         {
           "id": "C",
-          "text": "規制対象データは Copilot に渡してから出力結果だけを確認すれば十分であること"
+          "text": "プログラミング言語を必ず C# に変更する"
         },
         {
           "id": "D",
-          "text": "データ保護要件は GitHub プランに関係なく利用者個人の任意設定で決めること"
+          "text": "IP 補償を無効化する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "A",
+        "B"
       ],
-      "explanation": "コンプライアンスでは、組織の規制、データ保護、監査要件と整合させることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
+      "explanation": "公式 Learn では、コード候補がない場合の対処として、インターネット接続の確認と Copilot 拡張機能の更新が挙げられています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/5-troubleshoot-common-issues-with-github-copilot",
+      "selectionCount": 2
     },
     {
       "questionNumber": 17,
       "type": "single",
-      "prompt": "最小権限について最も適切な説明はどれか。",
+      "prompt": "コンテンツ除外を追加または変更した直後の注意点として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "全リポジトリへ一律にアクセスを広げ、後から不要な権限を削ること"
+          "text": "設定が既に読み込まれている IDE では反映まで最大 30 分かかることがある"
         },
         {
           "id": "B",
-          "text": "最小権限は本番システムだけの考え方で、Copilot 利用権限には適用しないこと"
+          "text": "反映には必ず GitHub Enterprise Cloud の再起動が必要"
         },
         {
           "id": "C",
-          "text": "必要なユーザーとリポジトリにだけ適切な利用権限を与えること"
+          "text": "反映されるまでコード補完だけでなく GitHub 全体にログインできなくなる"
         },
         {
           "id": "D",
-          "text": "権限を細かく分けると管理が難しいため、全員に同じ設定を与えること"
-        }
-      ],
-      "correctAnswers": [
-        "C"
-      ],
-      "explanation": "最小権限では、必要なユーザーとリポジトリにだけ適切な利用権限を与えることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
-    },
-    {
-      "questionNumber": 18,
-      "type": "single",
-      "prompt": "設定変更の確認について最も適切な説明はどれか。",
-      "options": [
-        {
-          "id": "A",
-          "text": "ポリシー変更後に対象ユーザーで動作を確認すること"
-        },
-        {
-          "id": "B",
-          "text": "ポリシー変更は管理画面で保存できれば十分で、利用者側の動作確認は不要である"
-        },
-        {
-          "id": "C",
-          "text": "変更後に問題が出ても、ログや対象ユーザーの状態は確認しない"
-        },
-        {
-          "id": "D",
-          "text": "設定変更は即時かつ完全に全環境へ反映されるため、段階確認は不要である"
+          "text": "ローカルの package-lock.json を更新するまで有効にならない"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "設定変更の確認では、ポリシー変更後に対象ユーザーで動作を確認することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
+      "explanation": "公式 Learn では、除外の適用の遅れとして、設定が既に読み込まれている IDE では変更が有効になるまで最大 30 分かかることがあると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/5-troubleshoot-common-issues-with-github-copilot"
+    },
+    {
+      "questionNumber": 18,
+      "type": "single",
+      "prompt": "ファイルに Copilot のコンテンツ除外が適用されている場合、ステータスバーの Copilot アイコンはどうなるか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "斜線が表示される"
+        },
+        {
+          "id": "B",
+          "text": "緑色の再生ボタンに変わる"
+        },
+        {
+          "id": "C",
+          "text": "beaker アイコンに変わる"
+        },
+        {
+          "id": "D",
+          "text": "ロック解除アイコンに変わる"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、コンテンツ除外がファイルに適用される場合、ステータス バーの GitHub Copilot アイコンに斜線が表示されると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/5-troubleshoot-common-issues-with-github-copilot"
     },
     {
       "questionNumber": 19,
       "type": "single",
-      "prompt": "運用設計について最も適切な説明はどれか。",
+      "prompt": "Copilot の提案が不十分な場合に、Visual Studio Code で提案生成を促すショートカットとして本文にあるものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "問い合わせ先を決めず、利用者が各自で GitHub Docs を探す運用にすること"
+          "text": "Ctrl + Enter"
         },
         {
           "id": "B",
-          "text": "レビュー方針を設けると Copilot の利点が消えるため、生成物は自由にマージすること"
+          "text": "Ctrl + I"
         },
         {
           "id": "C",
-          "text": "利用ルールは導入資料にだけ記載し、運用中の見直しは行わないこと"
+          "text": "Ctrl + Shift + P"
         },
         {
           "id": "D",
-          "text": "利用ルール、レビュー、問い合わせ先を明確にすること"
+          "text": "Cmd + Shift + F"
         }
       ],
       "correctAnswers": [
-        "D"
+        "A"
       ],
-      "explanation": "運用設計では、利用ルール、レビュー、問い合わせ先を明確にすることが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
+      "explanation": "公式 Learn では、コードの提案が不十分な場合の手法として、Visual Studio Code では Ctrl + Enter で GitHub Copilot をトリガーできると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/5-troubleshoot-common-issues-with-github-copilot"
     },
     {
       "questionNumber": 20,
       "type": "single",
-      "prompt": "まとめについて最も適切な説明はどれか。",
+      "prompt": "提案品質を改善するために本文が挙げる「明確なコンテキスト」の例はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "管理ではプラン選定だけを行い、除外やトラブルシュートは利用者任せにすること"
+          "text": "わかりやすいコメントや変数名を使う"
         },
         {
           "id": "B",
-          "text": "安全管理よりも全機能の常時有効化を優先すること"
+          "text": "すべてのコメントを削除してコードだけにする"
         },
         {
           "id": "C",
-          "text": "プラン、保護、除外、トラブルシュートを理解して安全に管理すること"
+          "text": "除外パスを増やしてコンテキストを減らす"
         },
         {
           "id": "D",
-          "text": "公開コード一致と IP 補償は同じ設定なので、片方だけ理解すれば十分であること"
+          "text": "プロンプトを常に1語だけにする"
         }
       ],
       "correctAnswers": [
-        "C"
+        "A"
       ],
-      "explanation": "まとめでは、プラン、保護、除外、トラブルシュートを理解して安全に管理することが重要です。Copilot の提案は支援材料なので、最終的には人間が確認します。\n\n公式ドキュメントでは、このモジュールで扱う機能・制限・推奨手順を確認できます: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/"
+      "explanation": "公式 Learn では、より良い提案を得る方法として、わかりやすいコメントや変数名により明確なコンテキストを提供することが挙げられています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/5-troubleshoot-common-issues-with-github-copilot"
+    },
+    {
+      "questionNumber": 21,
+      "type": "single",
+      "prompt": "知識チェックで、エンタープライズ レベルのセキュリティとプライバシー機能を含むプランとして正しいものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pro のみ"
+        },
+        {
+          "id": "B",
+          "text": "Business と Enterprise"
+        },
+        {
+          "id": "C",
+          "text": "Free と Pro"
+        },
+        {
+          "id": "D",
+          "text": "Free のみ"
+        }
+      ],
+      "correctAnswers": [
+        "B"
+      ],
+      "explanation": "公式 Learn では、モジュール評価では、エンタープライズ レベルのセキュリティとプライバシー機能を含むプランとして Business と Enterprise が正答になっています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/6-knowledge-check"
+    },
+    {
+      "questionNumber": 22,
+      "type": "single",
+      "prompt": "知識チェックで、コード提案が提供されない場合にまず挙げられている対処はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "インターネット接続を確認する"
+        },
+        {
+          "id": "B",
+          "text": "プログラミング言語を変更する"
+        },
+        {
+          "id": "C",
+          "text": "Copilot 拡張機能を無効にする"
+        },
+        {
+          "id": "D",
+          "text": "コンピューターを再起動する"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、モジュール評価では、コード提案が提供されない場合の対処としてインターネット接続を確認することが正答になっています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/6-knowledge-check"
+    },
+    {
+      "questionNumber": 23,
+      "type": "single",
+      "prompt": "知識チェックで問われているコンテンツ除外機能の目的はどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "特定のファイルやリポジトリがコード提案に使用されないようにする"
+        },
+        {
+          "id": "B",
+          "text": "コード提案の速度だけを上げる"
+        },
+        {
+          "id": "C",
+          "text": "知的財産権の主張に対する法的保護だけを提供する"
+        },
+        {
+          "id": "D",
+          "text": "コード補完の精度を常に高める"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、モジュール評価では、コンテンツ除外の目的は特定のファイルやリポジトリがコード提案に使用されないようにすることだと確認しています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/6-knowledge-check"
+    },
+    {
+      "questionNumber": 24,
+      "type": "multiple",
+      "prompt": "モジュール評価に出てくる確認観点を2つ選べ。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Copilot プランのセキュリティとプライバシー機能"
+        },
+        {
+          "id": "B",
+          "text": "コード提案が表示されない場合の対処"
+        },
+        {
+          "id": "C",
+          "text": "C# の xUnit パッケージ一覧"
+        },
+        {
+          "id": "D",
+          "text": "Ask/Plan/Agent のアクセス許可レベル"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B"
+      ],
+      "explanation": "公式 Learn では、モジュール評価では、Copilot プランのセキュリティとプライバシー機能、コード提案がない場合の対処、コンテンツ除外の目的が問われています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/6-knowledge-check",
+      "selectionCount": 2
+    },
+    {
+      "questionNumber": 25,
+      "type": "single",
+      "prompt": "モジュール評価の内容から、IP 補償とコンテンツ除外の関係を正しく区別しているものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "コンテンツ除外はコード提案に使われるファイルを制限する機能で、IP 補償そのものではない"
+        },
+        {
+          "id": "B",
+          "text": "コンテンツ除外は IP 補償を個人アカウントに移す機能である"
+        },
+        {
+          "id": "C",
+          "text": "IP 補償は除外パスを登録するための UI 名である"
+        },
+        {
+          "id": "D",
+          "text": "どちらもコード提案の速度を上げるためだけの機能である"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、モジュール評価では、コンテンツ除外の目的をコード提案に使われないようにすることとしており、知的財産権の法的保護とは区別されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/6-knowledge-check"
+    },
+    {
+      "questionNumber": 26,
+      "type": "multiple",
+      "prompt": "まとめで、このモジュールが扱ったトピックとして挙げられているものを2つ選べ。",
+      "options": [
+        {
+          "id": "A",
+          "text": "GitHub Copilot プランと管理・カスタマイズ機能"
+        },
+        {
+          "id": "B",
+          "text": "契約上の保護とパブリックコード一致の無効化"
+        },
+        {
+          "id": "C",
+          "text": "C# Dev Kit による xUnit プロジェクト作成"
+        },
+        {
+          "id": "D",
+          "text": "ユーザー ストーリーからの機能スキャフォールディング"
+        }
+      ],
+      "correctAnswers": [
+        "A",
+        "B"
+      ],
+      "explanation": "公式 Learn では、まとめでは、Copilot プランと管理・カスタマイズ機能、契約上の保護とパブリックコード一致の無効化などを扱ったと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/7-summary",
+      "selectionCount": 2
+    },
+    {
+      "questionNumber": 27,
+      "type": "single",
+      "prompt": "まとめで述べられている、このモジュールの知識を得た後にできることはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "組織のニーズに適した方法を選択できる"
+        },
+        {
+          "id": "B",
+          "text": "すべての Copilot 提案を自動的に本番へデプロイできる"
+        },
+        {
+          "id": "C",
+          "text": "Free プランでも Enterprise 専用のナレッジベースを添付できる"
+        },
+        {
+          "id": "D",
+          "text": "コンテンツ除外の IDE 制限を完全になくせる"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、まとめでは、この知識があれば組織のニーズに適した方法を選択できると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/7-summary"
+    },
+    {
+      "questionNumber": 28,
+      "type": "single",
+      "prompt": "まとめのリソースに含まれるものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "GitHub Copilot からのコンテンツの除外"
+        },
+        {
+          "id": "B",
+          "text": "C# 開発キットを使用したテスト"
+        },
+        {
+          "id": "C",
+          "text": "GitHub Copilot 開発者アンケート"
+        },
+        {
+          "id": "D",
+          "text": "Copilot Chat のプロンプトの例"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、まとめのリソースには、GitHub Copilot からのコンテンツの除外が含まれています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/7-summary"
+    },
+    {
+      "questionNumber": 29,
+      "type": "single",
+      "prompt": "まとめで「管理とカスタマイズの制御」はどのような位置づけか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "AI ペア プログラミング ツール利用における重要な要素"
+        },
+        {
+          "id": "B",
+          "text": "Free プランだけに不要な補助機能"
+        },
+        {
+          "id": "C",
+          "text": "単体テスト生成専用の Visual Studio Code 設定"
+        },
+        {
+          "id": "D",
+          "text": "GitHub Actions の課金管理だけを指す用語"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、まとめでは、GitHub Copilot などの AI ペア プログラミング ツールの利用において、管理とカスタマイズの制御が重要な要素だと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/7-summary"
+    },
+    {
+      "questionNumber": 30,
+      "type": "single",
+      "prompt": "まとめに含まれる「一般的な問題」の扱いとして正しいものはどれか。",
+      "options": [
+        {
+          "id": "A",
+          "text": "GitHub Copilot とそのソリューションに関する一般的な問題の確認を扱った"
+        },
+        {
+          "id": "B",
+          "text": "一般的な問題は範囲外で、プラン比較だけを扱った"
+        },
+        {
+          "id": "C",
+          "text": "一般的な問題は C# のテスト失敗だけに限定された"
+        },
+        {
+          "id": "D",
+          "text": "一般的な問題は GitHub Actions の失敗だけを指す"
+        }
+      ],
+      "correctAnswers": [
+        "A"
+      ],
+      "explanation": "公式 Learn では、まとめでは、GitHub Copilot とそのソリューションに関する一般的な問題の確認を扱ったトピックとして挙げています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/7-summary"
     }
   ]
 }
