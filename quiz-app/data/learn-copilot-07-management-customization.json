@@ -13,19 +13,19 @@
         },
         {
           "id": "B",
-          "text": "内部ツール用のプライベート拡張機能の構築"
-        },
-        {
-          "id": "C",
           "text": "コンテンツの除外"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "月 2,000 件のコード補完"
+        },
+        {
+          "id": "D",
+          "text": "内部ツール用のプライベート拡張機能の構築"
         }
       ],
       "correctAnswers": [
-        "C"
+        "B"
       ],
       "explanation": "公式 Learn では、管理ポリシー機能の表で、コンテンツの除外は Business と Enterprise に含まれ、Free/Pro には含まれないと示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/2-explore-github-copilot-plans-associated-management-customization-features"
     },
@@ -36,23 +36,23 @@
       "options": [
         {
           "id": "A",
-          "text": "公開コードフィルターと SAML SSO 認証"
-        },
-        {
-          "id": "B",
           "text": "プライベートコードベースに合わせたチャット調整とナレッジベースのアタッチ"
         },
         {
+          "id": "B",
+          "text": "公開コードフィルターと SAML SSO 認証"
+        },
+        {
           "id": "C",
-          "text": "Copilot 拡張機能の統合と内部ツール用プライベート拡張機能"
+          "text": "使用状況メトリックとユーザー管理"
         },
         {
           "id": "D",
-          "text": "使用状況メトリックとユーザー管理"
+          "text": "Copilot 拡張機能の統合と内部ツール用プライベート拡張機能"
         }
       ],
       "correctAnswers": [
-        "B"
+        "A"
       ],
       "explanation": "公式 Learn では、カスタマイズ機能では、プライベートコードベースに合わせたチャットの調整と、組織コンテキストに合わせたナレッジベースのアタッチが Enterprise のみになっています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/2-explore-github-copilot-plans-associated-management-customization-features"
     },
@@ -63,23 +63,23 @@
       "options": [
         {
           "id": "A",
-          "text": "データの収集と保持の方法"
+          "text": "GitHub Actions の分単位課金"
         },
         {
           "id": "B",
-          "text": "IDE のテーマ配色"
-        },
-        {
-          "id": "C",
           "text": "IP 補償とデータ プライバシー"
         },
         {
+          "id": "C",
+          "text": "データの収集と保持の方法"
+        },
+        {
           "id": "D",
-          "text": "GitHub Actions の分単位課金"
+          "text": "IDE のテーマ配色"
         }
       ],
       "correctAnswers": [
-        "A",
+        "B",
         "C"
       ],
       "explanation": "プラン選定では、価格だけでなくデータの扱いと法務・プライバシー要件を確認する必要があります。運用ポリシーやリスク許容度に合うかが重要です。",
@@ -92,11 +92,11 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub の組織設定にある Copilot 管理画面"
+          "text": "各開発者のローカル `.gitconfig`"
         },
         {
           "id": "B",
-          "text": "各開発者のローカル `.gitconfig`"
+          "text": "GitHub の組織設定にある Copilot 管理画面"
         },
         {
           "id": "C",
@@ -108,7 +108,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "組織全体の Copilot ポリシーは GitHub の組織設定から管理します。各開発者のローカル設定ファイルで統一ポリシーを強制するものではありません。"
     },
@@ -119,23 +119,23 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub Enterprise Cloud が必要"
-        },
-        {
-          "id": "B",
-          "text": "Copilot Pro+ の個人契約が必要"
-        },
-        {
-          "id": "C",
           "text": "すべてのリポジトリを公開する必要がある"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "SAML SSO 認証を無効化する必要がある"
+        },
+        {
+          "id": "C",
+          "text": "GitHub Enterprise Cloud が必要"
+        },
+        {
+          "id": "D",
+          "text": "Copilot Pro+ の個人契約が必要"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式 Learn では、管理ポリシー機能の表では、GitHub Enterprise Cloud が必要という項目が Enterprise にのみ該当すると示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/2-explore-github-copilot-plans-associated-management-customization-features"
     },
@@ -150,11 +150,11 @@
         },
         {
           "id": "B",
-          "text": "Business と Enterprise に含まれ、Matching public code 設定をブロックする必要がある"
+          "text": "コンテンツ除外を設定したリポジトリにだけ自動適用される"
         },
         {
           "id": "C",
-          "text": "コンテンツ除外を設定したリポジトリにだけ自動適用される"
+          "text": "Business と Enterprise に含まれ、Matching public code 設定をブロックする必要がある"
         },
         {
           "id": "D",
@@ -162,7 +162,7 @@
         }
       ],
       "correctAnswers": [
-        "B"
+        "C"
       ],
       "explanation": "公式 Learn では、Business と Enterprise には IP 補償が含まれ、GitHub が法的責任を負うには Matching public code 設定をブロックする必要があると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/3-github-copilot-contractual-protections-disabling-matching-public-code"
     },
@@ -173,15 +173,15 @@
       "options": [
         {
           "id": "A",
-          "text": "公開コードに一致した候補をローカルで削除する IDE 拡張機能"
-        },
-        {
-          "id": "B",
           "text": "データ保護とプライバシー規制への準拠のための対策を示す契約"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "Copilot の全応答を監査ログに保存する GitHub Actions ワークフロー"
+        },
+        {
+          "id": "C",
+          "text": "公開コードに一致した候補をローカルで削除する IDE 拡張機能"
         },
         {
           "id": "D",
@@ -189,7 +189,7 @@
         }
       ],
       "correctAnswers": [
-        "B"
+        "A"
       ],
       "explanation": "DPA はデータ保護契約であり、データ保護やプライバシー規制への対応を整理する契約上の枠組みです。コード提案を直接制御する機能ではありません。"
     },
@@ -200,15 +200,15 @@
       "options": [
         {
           "id": "A",
-          "text": "個人ユーザーが常に Allow/Block を自由に切り替えられる"
+          "text": "Enterprise Cloud 管理者だけでなく任意のリポジトリ管理者が解除できる"
         },
         {
           "id": "B",
-          "text": "ロックされ、組織のポリシーを反映する"
+          "text": "個人ユーザーが常に Allow/Block を自由に切り替えられる"
         },
         {
           "id": "C",
-          "text": "Enterprise Cloud 管理者だけでなく任意のリポジトリ管理者が解除できる"
+          "text": "ロックされ、組織のポリシーを反映する"
         },
         {
           "id": "D",
@@ -216,7 +216,7 @@
         }
       ],
       "correctAnswers": [
-        "B"
+        "C"
       ],
       "explanation": "公式 Learn では、組織が提供するシートでは、個人アカウント側のトグルはロックされ、組織のポリシーを反映すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/3-github-copilot-contractual-protections-disabling-matching-public-code"
     },
@@ -227,15 +227,15 @@
       "options": [
         {
           "id": "A",
-          "text": "左側サイドバーの [コード、計画、自動化] 配下で [Copilot] を開く"
+          "text": "各開発者のローカル VS Code 設定ファイルを書き換える"
         },
         {
           "id": "B",
-          "text": "[機能] の [プライバシー] セクションまでスクロールする"
+          "text": "左側サイドバーの [コード、計画、自動化] 配下で [Copilot] を開く"
         },
         {
           "id": "C",
-          "text": "各開発者のローカル VS Code 設定ファイルを書き換える"
+          "text": "[機能] の [プライバシー] セクションまでスクロールする"
         },
         {
           "id": "D",
@@ -243,8 +243,8 @@
         }
       ],
       "correctAnswers": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "explanation": "公式 Learn では、組織管理者向け手順では、[コード、計画、自動化] 配下の [Copilot] から [機能] を開き、[プライバシー] セクションで設定すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/3-github-copilot-contractual-protections-disabling-matching-public-code",
       "selectionCount": 2
@@ -260,15 +260,15 @@
         },
         {
           "id": "B",
-          "text": "Ghost Text。"
+          "text": "複数候補ペイン。"
         },
         {
           "id": "C",
-          "text": "`/tests` コマンド。"
+          "text": "Ghost Text。"
         },
         {
           "id": "D",
-          "text": "複数候補ペイン。"
+          "text": "`/tests` コマンド。"
         }
       ],
       "correctAnswers": [
@@ -283,11 +283,11 @@
       "options": [
         {
           "id": "A",
-          "text": "リポジトリの [設定] から [コード & オートメーション] の [Copilot] を開き、除外するリポジトリとパスを指定する"
+          "text": "個人アカウントの [Billing] で除外したいファイル拡張子を登録する"
         },
         {
           "id": "B",
-          "text": "個人アカウントの [Billing] で除外したいファイル拡張子を登録する"
+          "text": "リポジトリの [設定] から [コード & オートメーション] の [Copilot] を開き、除外するリポジトリとパスを指定する"
         },
         {
           "id": "C",
@@ -299,7 +299,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式 Learn では、リポジトリでは、リポジトリの [設定] から [コード & オートメーション] セクションの [Copilot] を選び、除外するファイルまたはディレクトリを指定すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/4-manage-content-exclusions"
     },
@@ -310,7 +310,7 @@
       "options": [
         {
           "id": "A",
-          "text": "対象ファイルではコード入力候補を利用できなくなる"
+          "text": "対象ファイルの内容は Chat 応答には使われ続ける"
         },
         {
           "id": "B",
@@ -318,7 +318,7 @@
         },
         {
           "id": "C",
-          "text": "対象ファイルの内容は Chat 応答には使われ続ける"
+          "text": "対象ファイルではコード入力候補を利用できなくなる"
         },
         {
           "id": "D",
@@ -326,7 +326,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式 Learn では、GitHub Copilot からコンテンツを除外すると、影響を受けるファイルでコード入力候補を利用できなくなると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/4-manage-content-exclusions"
     },
@@ -337,15 +337,15 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot はその構成に依存する関連コードを提案しなくなる可能性がある"
+          "text": "除外した構成は組織外ユーザーにも必ず適用される"
         },
         {
           "id": "B",
-          "text": "Copilot は構成ファイルを優先的に学習して提案精度を上げる"
+          "text": "Copilot はその構成に依存する関連コードを提案しなくなる可能性がある"
         },
         {
           "id": "C",
-          "text": "除外した構成は組織外ユーザーにも必ず適用される"
+          "text": "Copilot は構成ファイルを優先的に学習して提案精度を上げる"
         },
         {
           "id": "D",
@@ -353,7 +353,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "重要な構成ファイルを除外すると、その設定に依存するコード提案まで弱くなる場合があります。除外は安全性と開発体験のバランスを見て決める必要があります。"
     },
@@ -368,11 +368,11 @@
         },
         {
           "id": "B",
-          "text": "コード補完を Ctrl+Enter で起動する場合"
+          "text": "beaker ボタンからテスト エクスプローラーを開く場合"
         },
         {
           "id": "C",
-          "text": "beaker ボタンからテスト エクスプローラーを開く場合"
+          "text": "コード補完を Ctrl+Enter で起動する場合"
         },
         {
           "id": "D",
@@ -391,24 +391,24 @@
       "options": [
         {
           "id": "A",
-          "text": "IDE が提供するセマンティック情報により、除外ファイル由来の情報が使われる場合がある"
-        },
-        {
-          "id": "B",
-          "text": "設定は除外が構成された組織のメンバーにのみ適用される"
-        },
-        {
-          "id": "C",
           "text": "除外設定は Free と Pro の全ユーザーに自動配布される"
         },
         {
-          "id": "D",
+          "id": "B",
+          "text": "IDE が提供するセマンティック情報により、除外ファイル由来の情報が使われる場合がある"
+        },
+        {
+          "id": "C",
           "text": "除外されたファイルは pull request で参照できなくなる"
+        },
+        {
+          "id": "D",
+          "text": "設定は除外が構成された組織のメンバーにのみ適用される"
         }
       ],
       "correctAnswers": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "explanation": "コンテンツ除外を設定しても、IDE が提供するセマンティック情報などを通じて影響が残る場合があります。また、設定の適用範囲にも組織上の制約があります。",
       "selectionCount": 2
@@ -420,24 +420,24 @@
       "options": [
         {
           "id": "A",
-          "text": "インターネット接続が安定していることを確認する"
-        },
-        {
-          "id": "B",
-          "text": "GitHub Copilot 拡張機能を最新バージョンにする"
-        },
-        {
-          "id": "C",
           "text": "プログラミング言語を必ず C# に変更する"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "IP 補償を無効化する"
+        },
+        {
+          "id": "C",
+          "text": "GitHub Copilot 拡張機能を最新バージョンにする"
+        },
+        {
+          "id": "D",
+          "text": "インターネット接続が安定していることを確認する"
         }
       ],
       "correctAnswers": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "explanation": "候補が出ないときは、まず接続状態と拡張機能の状態を確認します。環境要因を切り分けてから、設定や権限の問題を調べるのが基本です。",
       "selectionCount": 2
@@ -449,7 +449,7 @@
       "options": [
         {
           "id": "A",
-          "text": "設定が既に読み込まれている IDE では反映まで最大 30 分かかることがある"
+          "text": "ローカルの package-lock.json を更新するまで有効にならない"
         },
         {
           "id": "B",
@@ -461,11 +461,11 @@
         },
         {
           "id": "D",
-          "text": "ローカルの package-lock.json を更新するまで有効にならない"
+          "text": "設定が既に読み込まれている IDE では反映まで最大 30 分かかることがある"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式 Learn では、除外の適用の遅れとして、設定が既に読み込まれている IDE では変更が有効になるまで最大 30 分かかることがあると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/5-troubleshoot-common-issues-with-github-copilot"
     },
@@ -476,23 +476,23 @@
       "options": [
         {
           "id": "A",
-          "text": "斜線が表示される"
-        },
-        {
-          "id": "B",
-          "text": "緑色の再生ボタンに変わる"
-        },
-        {
-          "id": "C",
           "text": "beaker アイコンに変わる"
         },
         {
-          "id": "D",
+          "id": "B",
+          "text": "斜線が表示される"
+        },
+        {
+          "id": "C",
           "text": "ロック解除アイコンに変わる"
+        },
+        {
+          "id": "D",
+          "text": "緑色の再生ボタンに変わる"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式 Learn では、コンテンツ除外がファイルに適用される場合、ステータス バーの GitHub Copilot アイコンに斜線が表示されると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/5-troubleshoot-common-issues-with-github-copilot"
     },
@@ -503,23 +503,23 @@
       "options": [
         {
           "id": "A",
-          "text": "リポジトリ共通の指示や開発上の前提を Copilot に伝える。"
+          "text": "コンテンツ除外を強制的に無視する。"
         },
         {
           "id": "B",
-          "text": "組織シートの課金先を変更する。"
-        },
-        {
-          "id": "C",
           "text": "監査ログを自動削除する。"
         },
         {
+          "id": "C",
+          "text": "組織シートの課金先を変更する。"
+        },
+        {
           "id": "D",
-          "text": "コンテンツ除外を強制的に無視する。"
+          "text": "リポジトリ共通の指示や開発上の前提を Copilot に伝える。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "`.github/copilot-instructions.md` は、そのリポジトリで Copilot に守ってほしい方針や前提を共有するためのファイルです。課金や監査ログを管理する用途ではありません。"
     },
@@ -530,7 +530,7 @@
       "options": [
         {
           "id": "A",
-          "text": "シートの追加・削除・一覧取得などのサブスクリプション管理。"
+          "text": "コンテンツ除外の無条件解除。"
         },
         {
           "id": "B",
@@ -538,15 +538,15 @@
         },
         {
           "id": "C",
-          "text": "監査ログの永続削除。"
+          "text": "シートの追加・削除・一覧取得などのサブスクリプション管理。"
         },
         {
           "id": "D",
-          "text": "コンテンツ除外の無条件解除。"
+          "text": "監査ログの永続削除。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "REST API では Copilot シートの割り当てや一覧取得など、運用上のサブスクリプション管理を自動化できます。IDE の見た目や監査ログ削除を行う用途ではありません。"
     },
@@ -561,15 +561,15 @@
         },
         {
           "id": "B",
-          "text": "Business だけが監査ログを利用できる。"
+          "text": "Business ではライセンス管理ができない。"
         },
         {
           "id": "C",
-          "text": "Enterprise ではコンテンツ除外を設定できない。"
+          "text": "Business だけが監査ログを利用できる。"
         },
         {
           "id": "D",
-          "text": "Business ではライセンス管理ができない。"
+          "text": "Enterprise ではコンテンツ除外を設定できない。"
         }
       ],
       "correctAnswers": [
@@ -588,15 +588,15 @@
         },
         {
           "id": "B",
-          "text": "プログラミング言語を変更する"
+          "text": "コンピューターを再起動する"
         },
         {
           "id": "C",
-          "text": "Copilot 拡張機能を無効にする"
+          "text": "プログラミング言語を変更する"
         },
         {
           "id": "D",
-          "text": "コンピューターを再起動する"
+          "text": "Copilot 拡張機能を無効にする"
         }
       ],
       "correctAnswers": [
@@ -611,23 +611,23 @@
       "options": [
         {
           "id": "A",
-          "text": "特定のファイルやリポジトリがコード提案に使用されないようにする"
-        },
-        {
-          "id": "B",
-          "text": "コード提案の速度だけを上げる"
-        },
-        {
-          "id": "C",
           "text": "知的財産権の主張に対する法的保護だけを提供する"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "コード補完の精度を常に高める"
+        },
+        {
+          "id": "C",
+          "text": "コード提案の速度だけを上げる"
+        },
+        {
+          "id": "D",
+          "text": "特定のファイルやリポジトリがコード提案に使用されないようにする"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "コンテンツ除外は、特定のファイルやリポジトリをコード提案の根拠に使わせないための機能です。IP 補償そのものを提供する仕組みではありません。"
     },
@@ -638,24 +638,24 @@
       "options": [
         {
           "id": "A",
-          "text": "監査ログ。"
-        },
-        {
-          "id": "B",
-          "text": "使用状況メトリックや利用レポート。"
-        },
-        {
-          "id": "C",
           "text": "IDE のテーマ設定。"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "Markdown プレビュー。"
+        },
+        {
+          "id": "C",
+          "text": "使用状況メトリックや利用レポート。"
+        },
+        {
+          "id": "D",
+          "text": "監査ログ。"
         }
       ],
       "correctAnswers": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "explanation": "監査ログは設定変更や運用イベントの追跡に役立ち、利用メトリックは導入状況や活用度の把握に役立ちます。どちらも組織運用に重要です。",
       "selectionCount": 2
@@ -667,11 +667,11 @@
       "options": [
         {
           "id": "A",
-          "text": "コンテンツ除外はコード提案に使われるファイルを制限する機能で、IP 補償そのものではない"
+          "text": "コンテンツ除外は IP 補償を個人アカウントに移す機能である"
         },
         {
           "id": "B",
-          "text": "コンテンツ除外は IP 補償を個人アカウントに移す機能である"
+          "text": "どちらもコード提案の速度を上げるためだけの機能である"
         },
         {
           "id": "C",
@@ -679,11 +679,11 @@
         },
         {
           "id": "D",
-          "text": "どちらもコード提案の速度を上げるためだけの機能である"
+          "text": "コンテンツ除外はコード提案に使われるファイルを制限する機能で、IP 補償そのものではない"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "コンテンツ除外は提案生成に使うコンテンツの範囲を制御する機能です。一方、IP 補償は法的保護に関する考え方であり、役割が異なります。"
     },
@@ -694,24 +694,24 @@
       "options": [
         {
           "id": "A",
-          "text": "必要なユーザーやチームへライセンスを割り当てる。"
-        },
-        {
-          "id": "B",
           "text": "使用状況メトリックを確認して導入状況を把握する。"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "各開発者の IDE テーマを統一する。"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "ローカル Git 履歴を定期的に削除する。"
+        },
+        {
+          "id": "D",
+          "text": "必要なユーザーやチームへライセンスを割り当てる。"
         }
       ],
       "correctAnswers": [
         "A",
-        "B"
+        "D"
       ],
       "explanation": "管理者は、ライセンス配布と利用状況の把握を通じてガバナンスと投資対効果を管理します。IDE の個別テーマやローカル履歴は主要な管理作業ではありません。",
       "selectionCount": 2
@@ -723,11 +723,11 @@
       "options": [
         {
           "id": "A",
-          "text": "特定のファイルやパスをコード提案の根拠に使わせないようにすること。"
+          "text": "PR レビューコメントを自動承認にすること。"
         },
         {
           "id": "B",
-          "text": "PR レビューコメントを自動承認にすること。"
+          "text": "インライン補完の色を変更すること。"
         },
         {
           "id": "C",
@@ -735,11 +735,11 @@
         },
         {
           "id": "D",
-          "text": "インライン補完の色を変更すること。"
+          "text": "特定のファイルやパスをコード提案の根拠に使わせないようにすること。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "コンテンツ除外は、Copilot が特定のコードやファイルを提案生成に使わないよう制御するための機能です。レビュー承認や UI 調整のためのものではありません。"
     },
@@ -750,23 +750,23 @@
       "options": [
         {
           "id": "A",
-          "text": "プライベートコードベースや knowledge base を活用した、より深い組織向け調整。"
-        },
-        {
-          "id": "B",
-          "text": "インライン補完だけを完全無料で使えること。"
-        },
-        {
-          "id": "C",
           "text": "GitHub Actions を不要にできること。"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "公開コード一致フィルターを使えないこと。"
+        },
+        {
+          "id": "C",
+          "text": "プライベートコードベースや knowledge base を活用した、より深い組織向け調整。"
+        },
+        {
+          "id": "D",
+          "text": "インライン補完だけを完全無料で使えること。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "Enterprise は、組織のコードや知識を活用した、より高度なカスタマイズが強みです。無料化や Actions 不要化を意味するものではありません。"
     },
@@ -777,11 +777,11 @@
       "options": [
         {
           "id": "A",
-          "text": "導入効果や利用状況を把握し、追加支援やポリシー調整に役立てるため。"
+          "text": "開発者ごとのコード所有権を自動決定するため。"
         },
         {
           "id": "B",
-          "text": "開発者ごとのコード所有権を自動決定するため。"
+          "text": "IDE の設定ファイルを強制配布するため。"
         },
         {
           "id": "C",
@@ -789,11 +789,11 @@
         },
         {
           "id": "D",
-          "text": "IDE の設定ファイルを強制配布するため。"
+          "text": "導入効果や利用状況を把握し、追加支援やポリシー調整に役立てるため。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "利用状況メトリックは、導入の進み具合や効果を測り、必要な改善につなげるために使います。コード所有権や UI 配布を決めるためのものではありません。"
     },

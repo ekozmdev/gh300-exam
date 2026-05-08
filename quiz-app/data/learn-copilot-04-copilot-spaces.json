@@ -13,11 +13,11 @@
         },
         {
           "id": "B",
-          "text": "作成直後に組織内の全リポジトリを自動検索する共有チャットになる。"
+          "text": "説明文を設定すると、その文面だけで Copilot の回答内容が直接変わる。"
         },
         {
           "id": "C",
-          "text": "説明文を設定すると、その文面だけで Copilot の回答内容が直接変わる。"
+          "text": "作成直後に組織内の全リポジトリを自動検索する共有チャットになる。"
         },
         {
           "id": "D",
@@ -41,20 +41,20 @@
         },
         {
           "id": "B",
-          "text": "個人所有と組織所有の Space の違い。"
+          "text": "リポジトリの既定ブランチを固定して過去版だけを参照させる方法。"
         },
         {
           "id": "C",
-          "text": "Space からユーザーを @メンションして通知する方法。"
+          "text": "個人所有と組織所有の Space の違い。"
         },
         {
           "id": "D",
-          "text": "リポジトリの既定ブランチを固定して過去版だけを参照させる方法。"
+          "text": "Space からユーザーを @メンションして通知する方法。"
         }
       ],
       "correctAnswers": [
         "A",
-        "B"
+        "C"
       ],
       "explanation": "公式 Learn では、このユニットの学習項目には、Space の作成と命名、個人所有と組織所有の違いが含まれます。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/2-create-first-space"
     },
@@ -65,23 +65,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot の回答には直接影響しないが、他の利用者が Space の文脈を理解する助けになる。"
-        },
-        {
-          "id": "B",
-          "text": "説明文を空にすると、添付ファイルは回答に利用されなくなる。"
-        },
-        {
-          "id": "C",
           "text": "説明文は一度保存すると編集できない。"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "説明文に書いた内容だけが Instructions として扱われる。"
+        },
+        {
+          "id": "C",
+          "text": "Copilot の回答には直接影響しないが、他の利用者が Space の文脈を理解する助けになる。"
+        },
+        {
+          "id": "D",
+          "text": "説明文を空にすると、添付ファイルは回答に利用されなくなる。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式 Learn では、説明は Copilot の回答には影響しないものの、他の人が Space のコンテキストを理解する助けになるとされています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/2-create-first-space"
     },
@@ -92,23 +92,23 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub リポジトリ内のファイルやフォルダー。"
+          "text": "Copilot 拡張機能を @メンションして実行した結果。"
         },
         {
           "id": "B",
-          "text": "GitHub の issue や pull request の URL。"
-        },
-        {
-          "id": "C",
           "text": "ローカルマシンからアップロードするファイル。"
         },
         {
+          "id": "C",
+          "text": "GitHub リポジトリ内のファイルやフォルダー。"
+        },
+        {
           "id": "D",
-          "text": "Copilot 拡張機能を @メンションして実行した結果。"
+          "text": "GitHub の issue や pull request の URL。"
         }
       ],
       "correctAnswers": [
-        "D"
+        "A"
       ],
       "explanation": "公式 Learn では、添付できるものとしてファイル、フォルダー、issue、pull request、アップロード、テキストコンテンツが示されますが、拡張機能の @メンション実行は含まれません。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/2-create-first-space"
     },
@@ -119,23 +119,23 @@
       "options": [
         {
           "id": "A",
-          "text": "関連する回答を得るためのコンテキストになり、Space はリポジトリの main ブランチ上の最新コードを参照する。"
-        },
-        {
-          "id": "B",
           "text": "Instructions と同じく、Copilot に避けるべきタスクだけを自由記述で伝える欄である。"
         },
         {
+          "id": "B",
+          "text": "添付した pull request は作成時点の内容に固定される。"
+        },
+        {
           "id": "C",
-          "text": "アップロードした内容だけを使い、GitHub 上のファイルは参照できない。"
+          "text": "関連する回答を得るためのコンテキストになり、Space はリポジトリの main ブランチ上の最新コードを参照する。"
         },
         {
           "id": "D",
-          "text": "添付した pull request は作成時点の内容に固定される。"
+          "text": "アップロードした内容だけを使い、GitHub 上のファイルは参照できない。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式 Learn では、Attachments は質問への関連性を高めるコンテキストであり、Spaces はリポジトリの main ブランチの最新コードを参照すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/2-create-first-space"
     },
@@ -146,11 +146,11 @@
       "options": [
         {
           "id": "A",
-          "text": "他の利用者が使う範囲に応じて可視性を設定し、リンク共有や組織レベルの閲覧・カタログで発見性を高める。"
+          "text": "説明を省いて URL だけを共有し、利用者が用途を判断できるようにする。"
         },
         {
           "id": "B",
-          "text": "説明を省いて URL だけを共有し、利用者が用途を判断できるようにする。"
+          "text": "他の利用者が使う範囲に応じて可視性を設定し、リンク共有や組織レベルの閲覧・カタログで発見性を高める。"
         },
         {
           "id": "C",
@@ -162,7 +162,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式 Learn では、可視性は利用範囲に応じて設定し、リンク共有や組織レベルの閲覧・カタログ、目的に基づくタイトルと説明で検出可能性を高めると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/3-share-discover-govern"
     },
@@ -174,11 +174,11 @@
       "options": [
         {
           "id": "A",
-          "text": "目的が分かるタイトルを付け、1 Space 1 ジョブに保つ。"
+          "text": "説明にスコープ、対象者、期待される出力を短く書く。"
         },
         {
           "id": "B",
-          "text": "説明にスコープ、対象者、期待される出力を短く書く。"
+          "text": "機密情報を free-text に貼り付けて検索対象を増やす。"
         },
         {
           "id": "C",
@@ -186,12 +186,12 @@
         },
         {
           "id": "D",
-          "text": "機密情報を free-text に貼り付けて検索対象を増やす。"
+          "text": "目的が分かるタイトルを付け、1 Space 1 ジョブに保つ。"
         }
       ],
       "correctAnswers": [
         "A",
-        "B"
+        "D"
       ],
       "explanation": "公式 Learn では、目的主導のタイトル、短い説明、スコープや対象者、期待される出力の明記が発見性を高める方法として説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/3-share-discover-govern"
     },
@@ -202,23 +202,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Space は新しいアクセス権を付与せず、閲覧者が既に見られるコンテンツだけを回答に反映する。"
+          "text": "アップロードがサポートされる環境では、アップロードした内容がリポジトリ権限で保護される。"
         },
         {
           "id": "B",
-          "text": "Space の可視性を組織表示にすると、リンクされた private repository の内容も全員に表示される。"
-        },
-        {
-          "id": "C",
           "text": "pull request の URL を貼り付けると、その PR の権限は Space の所有者に合わせて変更される。"
         },
         {
+          "id": "C",
+          "text": "Space は新しいアクセス権を付与せず、閲覧者が既に見られるコンテンツだけを回答に反映する。"
+        },
+        {
           "id": "D",
-          "text": "アップロードがサポートされる環境では、アップロードした内容がリポジトリ権限で保護される。"
+          "text": "Space の可視性を組織表示にすると、リンクされた private repository の内容も全員に表示される。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式 Learn では、Space は GitHub の既存アクセス許可に従い、新しいアクセスを許可せず、閲覧者が既に閲覧権を持つコンテンツだけを表示すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/3-share-discover-govern"
     },
@@ -229,23 +229,23 @@
       "options": [
         {
           "id": "A",
-          "text": "関連ファイルに参照を絞り、短い例を free-text に追加するか、必要な正確な内容をテキストファイルとして添付する。"
-        },
-        {
-          "id": "B",
-          "text": "リポジトリの既定ブランチを一時的に変更して Space の回答を固定する。"
-        },
-        {
-          "id": "C",
           "text": "一般チャットに古い版を自動取得させる。"
         },
         {
-          "id": "D",
+          "id": "B",
+          "text": "関連ファイルに参照を絞り、短い例を free-text に追加するか、必要な正確な内容をテキストファイルとして添付する。"
+        },
+        {
+          "id": "C",
           "text": "機密の履歴情報をそのまま free-text に貼り付ける。"
+        },
+        {
+          "id": "D",
+          "text": "リポジトリの既定ブランチを一時的に変更して Space の回答を固定する。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式 Learn では、ブランチ固有または履歴の文脈が必要な場合は、参照を絞る、短い例を加える、または正確な内容をテキストファイルで添付する方法が示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/3-share-discover-govern"
     },
@@ -256,11 +256,11 @@
       "options": [
         {
           "id": "A",
-          "text": "保守担当者を割り当て、使い方メモ、代表例、レビュー周期を用意する。"
+          "text": "説明文にはタグやキーワードを入れず、利用者が内容を推測する。"
         },
         {
           "id": "B",
-          "text": "最初に作成した人だけが管理し、レビュー周期は設定しない。"
+          "text": "保守担当者を割り当て、使い方メモ、代表例、レビュー周期を用意する。"
         },
         {
           "id": "C",
@@ -268,11 +268,11 @@
         },
         {
           "id": "D",
-          "text": "説明文にはタグやキーワードを入れず、利用者が内容を推測する。"
+          "text": "最初に作成した人だけが管理し、レビュー周期は設定しない。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式 Learn では、軽量だが意図的なガバナンスとして、所有者、使い方メモ、代表例、命名規則、レビュー周期を設けることが説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/3-share-discover-govern"
     },
@@ -283,23 +283,23 @@
       "options": [
         {
           "id": "A",
-          "text": "添付したファイル、issue、pull request、ノートに密接に絞って質問する。"
+          "text": "モデルコンテキスト制限を避けるため、質問では具体的な制約を書かない。"
         },
         {
           "id": "B",
-          "text": "Space が含まない外部資料も自動で探す前提で広く質問する。"
-        },
-        {
-          "id": "C",
           "text": "回答が揺れる場合はソースを増やし続ける。"
         },
         {
+          "id": "C",
+          "text": "Space が含まない外部資料も自動で探す前提で広く質問する。"
+        },
+        {
           "id": "D",
-          "text": "モデルコンテキスト制限を避けるため、質問では具体的な制約を書かない。"
+          "text": "添付したファイル、issue、pull request、ノートに密接に絞って質問する。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式 Learn では、回答を根拠づけるため、質問は添付したソースに密接に絞ることが推奨されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/6-working-guide-space"
     },
@@ -311,7 +311,7 @@
       "options": [
         {
           "id": "A",
-          "text": "人や他の Copilot 拡張機能を @メンションする。"
+          "text": "最も重要なソースを先頭に置く。"
         },
         {
           "id": "B",
@@ -319,16 +319,16 @@
         },
         {
           "id": "C",
-          "text": "実行可能なコードやコマンドを求める。"
+          "text": "人や他の Copilot 拡張機能を @メンションする。"
         },
         {
           "id": "D",
-          "text": "最も重要なソースを先頭に置く。"
+          "text": "実行可能なコードやコマンドを求める。"
         }
       ],
       "correctAnswers": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "explanation": "公式 Learn では、@メンションは通知や拡張機能実行にならず、機密データは free-text notes へ貼り付けず、権限管理されたファイルリンク等を使うべきだと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/6-working-guide-space"
     },
@@ -343,15 +343,15 @@
         },
         {
           "id": "B",
-          "text": "制約を避けて、できるだけ創造的な要約を求める。"
-        },
-        {
-          "id": "C",
           "text": "添付ソースを参照しないよう指示して、汎用的な回答にする。"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "1 回の質問に複数ドメインを混ぜ、Space の範囲を広げる。"
+        },
+        {
+          "id": "D",
+          "text": "制約を避けて、できるだけ創造的な要約を求める。"
         }
       ],
       "correctAnswers": [
@@ -370,7 +370,7 @@
         },
         {
           "id": "B",
-          "text": "例を大量に追加してコンテキストをさらに増やす。"
+          "text": "リポジトリリンクをすべて外して変化しない Space にする。"
         },
         {
           "id": "C",
@@ -378,7 +378,7 @@
         },
         {
           "id": "D",
-          "text": "リポジトリリンクをすべて外して変化しない Space にする。"
+          "text": "例を大量に追加してコンテキストをさらに増やす。"
         }
       ],
       "correctAnswers": [
@@ -393,15 +393,15 @@
       "options": [
         {
           "id": "A",
-          "text": "バージョン管理されたファイルへリンクし、重要なソースや例を先に置く。"
+          "text": "古い資料を残して回答の候補を増やす。"
         },
         {
           "id": "B",
-          "text": "すべての情報を free-text にコピーして固定する。"
+          "text": "バージョン管理されたファイルへリンクし、重要なソースや例を先に置く。"
         },
         {
           "id": "C",
-          "text": "古い資料を残して回答の候補を増やす。"
+          "text": "すべての情報を free-text にコピーして固定する。"
         },
         {
           "id": "D",
@@ -409,7 +409,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式 Learn では、バージョン管理されたファイルにリンクすると既定ブランチの変化を反映でき、重要なソースや例を先に置くことも推奨されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/6-working-guide-space"
     },
@@ -420,23 +420,23 @@
       "options": [
         {
           "id": "A",
-          "text": "厳選した情報源を基に、再利用できる共有コンテキストを作れる。"
-        },
-        {
-          "id": "B",
-          "text": "新しいリポジトリ権限を自動で付与できる。"
-        },
-        {
-          "id": "C",
           "text": "GitHub Actions の課金を自動で削減できる。"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "IDE のローカル設定を全員に強制配布できる。"
+        },
+        {
+          "id": "C",
+          "text": "新しいリポジトリ権限を自動で付与できる。"
+        },
+        {
+          "id": "D",
+          "text": "厳選した情報源を基に、再利用できる共有コンテキストを作れる。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "Space は、特定のテーマに必要な情報を集めて再利用可能なコンテキストにする仕組みです。権限付与や課金制御の機能ではありません。"
     },
@@ -448,11 +448,11 @@
       "options": [
         {
           "id": "A",
-          "text": "目的ごとに Space を分ける。"
+          "text": "重要なソースを優先して追加する。"
         },
         {
           "id": "B",
-          "text": "重要なソースを優先して追加する。"
+          "text": "機密情報を free-text に直接貼り付ける。"
         },
         {
           "id": "C",
@@ -460,12 +460,12 @@
         },
         {
           "id": "D",
-          "text": "機密情報を free-text に直接貼り付ける。"
+          "text": "目的ごとに Space を分ける。"
         }
       ],
       "correctAnswers": [
         "A",
-        "B"
+        "D"
       ],
       "explanation": "Space は、1 つの目的に絞り、関連度の高いソースを集めるほど有効です。無関係な資料や機密情報の安易な貼り付けは避けるべきです。"
     },
@@ -476,7 +476,7 @@
       "options": [
         {
           "id": "A",
-          "text": "description は人が用途を理解する助けになり、instructions は Copilot の振る舞いを導く。"
+          "text": "instructions は共有設定、description は権限設定に使う。"
         },
         {
           "id": "B",
@@ -484,15 +484,15 @@
         },
         {
           "id": "C",
-          "text": "description だけが Copilot の応答に影響し、instructions は無視される。"
+          "text": "description は人が用途を理解する助けになり、instructions は Copilot の振る舞いを導く。"
         },
         {
           "id": "D",
-          "text": "instructions は共有設定、description は権限設定に使う。"
+          "text": "description だけが Copilot の応答に影響し、instructions は無視される。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "description は利用者向けの説明として役立ち、instructions は Copilot に期待する出力や観点を伝えるために使います。役割は同じではありません。"
     },
@@ -503,7 +503,7 @@
       "options": [
         {
           "id": "A",
-          "text": "毎回同じ背景資料を貼り直さずに、共通の文脈を再利用できる。"
+          "text": "Space だけでローカルファイルを直接実行できる。"
         },
         {
           "id": "B",
@@ -511,15 +511,15 @@
         },
         {
           "id": "C",
-          "text": "Space だけでローカルファイルを直接実行できる。"
+          "text": "Space を作ると private リポジトリが自動で公開される。"
         },
         {
           "id": "D",
-          "text": "Space を作ると private リポジトリが自動で公開される。"
+          "text": "毎回同じ背景資料を貼り直さずに、共通の文脈を再利用できる。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "Space は、繰り返し参照する知識やドキュメントをまとめておくことで、毎回の説明コストを減らします。承認や公開設定とは無関係です。"
     },
@@ -530,7 +530,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Space は新しい権限を付与せず、閲覧者がもともと見られる情報だけを使う。"
+          "text": "Space は pull request の権限を一時的に引き上げる。"
         },
         {
           "id": "B",
@@ -538,15 +538,15 @@
         },
         {
           "id": "C",
-          "text": "Space の所有者が見られる情報は、閲覧者にも自動的に公開される。"
+          "text": "Space は新しい権限を付与せず、閲覧者がもともと見られる情報だけを使う。"
         },
         {
           "id": "D",
-          "text": "Space は pull request の権限を一時的に引き上げる。"
+          "text": "Space の所有者が見られる情報は、閲覧者にも自動的に公開される。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "Space は既存の GitHub 権限に従って動作し、新しいアクセス権を付与しません。共有しただけで private コンテンツが見えるようになるわけではありません。"
     },
@@ -557,23 +557,23 @@
       "options": [
         {
           "id": "A",
-          "text": "狭く定義されたトピックで、一貫して再現性のある回答が必要なとき。"
-        },
-        {
-          "id": "B",
           "text": "多くのリポジトリを広く探索したいとき。"
         },
         {
+          "id": "B",
+          "text": "狭く定義されたトピックで、一貫して再現性のある回答が必要なとき。"
+        },
+        {
           "id": "C",
-          "text": "組織内の関連コンテンツを自動発見させたいとき。"
+          "text": "特定のタスクやドメインがないとき。"
         },
         {
           "id": "D",
-          "text": "特定のタスクやドメインがないとき。"
+          "text": "組織内の関連コンテンツを自動発見させたいとき。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式 Learn では、モジュール評価では、狭くスコープされたトピックで一貫性と再現性のある回答が必要な場合に Space が適するとされています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/5-knowledge-check"
     },
@@ -585,19 +585,19 @@
       "options": [
         {
           "id": "A",
-          "text": "利用可能な場合、個人所有または組織所有を選べる。"
-        },
-        {
-          "id": "B",
           "text": "説明は人間の読者が文脈を理解するために役立つ。"
         },
         {
+          "id": "B",
+          "text": "利用可能な場合、個人所有または組織所有を選べる。"
+        },
+        {
           "id": "C",
-          "text": "Space はリンク先の非公開リポジトリへの一時アクセス権を付与する。"
+          "text": "説明は Copilot の回答品質を直接変える主要設定である。"
         },
         {
           "id": "D",
-          "text": "説明は Copilot の回答品質を直接変える主要設定である。"
+          "text": "Space はリンク先の非公開リポジトリへの一時アクセス権を付与する。"
         }
       ],
       "correctAnswers": [
@@ -613,23 +613,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot 拡張機能を @メンションして Space チャット内で実行させる。"
-        },
-        {
-          "id": "B",
-          "text": "GitHub リポジトリのファイルやフォルダーを添付する。"
-        },
-        {
-          "id": "C",
           "text": "GitHub issue や pull request の URL を貼り付ける。"
         },
         {
-          "id": "D",
+          "id": "B",
+          "text": "Copilot 拡張機能を @メンションして Space チャット内で実行させる。"
+        },
+        {
+          "id": "C",
           "text": "テキスト文書やスプレッドシートなどのローカルファイルをアップロードする。"
+        },
+        {
+          "id": "D",
+          "text": "GitHub リポジトリのファイルやフォルダーを添付する。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式 Learn では、評価問題では、Copilot 拡張機能の @メンションは Space で使えるコンテキスト追加ではないとされています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/5-knowledge-check"
     },
@@ -640,11 +640,11 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub 権限を反映し、閲覧者が既に見られる内容だけを表示する。"
+          "text": "リンクされた非公開リポジトリへの読み取り権を一時的に付与する。"
         },
         {
           "id": "B",
-          "text": "リンクされた非公開リポジトリへの読み取り権を一時的に付与する。"
+          "text": "各閲覧者を repo admin が個別に許可リストへ登録する必要がある。"
         },
         {
           "id": "C",
@@ -652,11 +652,11 @@
         },
         {
           "id": "D",
-          "text": "各閲覧者を repo admin が個別に許可リストへ登録する必要がある。"
+          "text": "GitHub 権限を反映し、閲覧者が既に見られる内容だけを表示する。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式 Learn では、モジュール評価では、Space は GitHub 権限を反映し、閲覧者が既に見られる内容だけを扱うとされています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/5-knowledge-check"
     },
@@ -667,23 +667,23 @@
       "options": [
         {
           "id": "A",
-          "text": "ソースを減らすか、より小さな単一ジョブの Space に分割する。"
+          "text": "リポジトリリンクをオフにして Space を変化させない。"
         },
         {
           "id": "B",
-          "text": "モデルが学べるように、さらに多くの例を追加する。"
+          "text": "ソースを減らすか、より小さな単一ジョブの Space に分割する。"
         },
         {
           "id": "C",
-          "text": "人を @メンションして専門知識を取り込む。"
+          "text": "モデルが学べるように、さらに多くの例を追加する。"
         },
         {
           "id": "D",
-          "text": "リポジトリリンクをオフにして Space を変化させない。"
+          "text": "人を @メンションして専門知識を取り込む。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式 Learn では、評価問題では、サイズ警告や曖昧な回答が出る場合、ソースを減らすか Space を小さく分割することが最善とされています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/5-knowledge-check"
     },
@@ -694,7 +694,7 @@
       "options": [
         {
           "id": "A",
-          "text": "焦点を絞ったソースを整理し、曖昧さを減らして回答の予測可能性と品質を高める。"
+          "text": "既定ブランチの更新を反映しない固定スナップショットとして知識を保存する。"
         },
         {
           "id": "B",
@@ -702,15 +702,15 @@
         },
         {
           "id": "C",
-          "text": "説明文だけを管理し、コードファイルや issue は Space の対象にしない。"
+          "text": "焦点を絞ったソースを整理し、曖昧さを減らして回答の予測可能性と品質を高める。"
         },
         {
           "id": "D",
-          "text": "既定ブランチの更新を反映しない固定スナップショットとして知識を保存する。"
+          "text": "説明文だけを管理し、コードファイルや issue は Space の対象にしない。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式 Learn では、Spaces はコードファイル、ドキュメント、issue、pull request など焦点を絞ったソースをキュレーションし、曖昧さを減らして応答の予測可能性と品質を高めると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/7-summary"
     },
@@ -722,15 +722,15 @@
       "options": [
         {
           "id": "A",
-          "text": "保守担当者を決める。"
+          "text": "権限のない利用者にも private 情報を貼り付ける。"
         },
         {
           "id": "B",
-          "text": "定期的にソースや説明を見直す。"
+          "text": "保守担当者を決める。"
         },
         {
           "id": "C",
-          "text": "権限のない利用者にも private 情報を貼り付ける。"
+          "text": "定期的にソースや説明を見直す。"
         },
         {
           "id": "D",
@@ -738,8 +738,8 @@
         }
       ],
       "correctAnswers": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "explanation": "Space は作って終わりではなく、保守担当と見直しの仕組みが重要です。権限管理を崩したり、用途を混在させたりすると品質と安全性が下がります。"
     },
@@ -750,7 +750,7 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub の既存の権限モデルを活用して、知識を安全に共有しやすくするため。"
+          "text": "レビュー周期を不要にして保守負荷をなくすため。"
         },
         {
           "id": "B",
@@ -762,11 +762,11 @@
         },
         {
           "id": "D",
-          "text": "レビュー周期を不要にして保守負荷をなくすため。"
+          "text": "GitHub の既存の権限モデルを活用して、知識を安全に共有しやすくするため。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式 Learn では、まとめでは、GitHub の既存権限モデルを活用することで、コンプライアンスを保ちながら知識を安全に共有しやすくなると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/7-summary"
     },
@@ -777,23 +777,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Space は Copilot Chat に対して、整理されたコンテキストを提供する。"
-        },
-        {
-          "id": "B",
           "text": "Space はチャットを置き換える別製品で、Copilot Chat とは連携しない。"
         },
         {
+          "id": "B",
+          "text": "Space を使うとカスタム指示は無効になる。"
+        },
+        {
           "id": "C",
-          "text": "Space はコード補完専用で、質問には使えない。"
+          "text": "Space は Copilot Chat に対して、整理されたコンテキストを提供する。"
         },
         {
           "id": "D",
-          "text": "Space を使うとカスタム指示は無効になる。"
+          "text": "Space はコード補完専用で、質問には使えない。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "Space は、チャットで参照する知識や資料を整理して渡す役割を持ちます。Copilot Chat と組み合わせて使うことで、回答の根拠を安定させやすくなります。"
     },
@@ -804,7 +804,7 @@
       "options": [
         {
           "id": "A",
-          "text": "焦点化された文脈を再利用可能にし、認知負荷を下げながら開発・運用ワークフローの生産性を高める。"
+          "text": "回答の根拠よりも広範な推測を優先する。"
         },
         {
           "id": "B",
@@ -812,15 +812,15 @@
         },
         {
           "id": "C",
-          "text": "すべての質問を一般チャットに送り、Space は説明だけに使う。"
+          "text": "焦点化された文脈を再利用可能にし、認知負荷を下げながら開発・運用ワークフローの生産性を高める。"
         },
         {
           "id": "D",
-          "text": "回答の根拠よりも広範な推測を優先する。"
+          "text": "すべての質問を一般チャットに送り、Space は説明だけに使う。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式 Learn では、まとめでは、Spaces が専門知識のスケール、認知負荷の軽減、生産性向上に役立つと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/7-summary"
     }

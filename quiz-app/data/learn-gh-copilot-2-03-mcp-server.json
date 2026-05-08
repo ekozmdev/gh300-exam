@@ -13,11 +13,11 @@
         },
         {
           "id": "B",
-          "text": "Git の履歴だけを圧縮すること"
+          "text": "Pull Request の承認者を自動で追加すること"
         },
         {
           "id": "C",
-          "text": "Pull Request の承認者を自動で追加すること"
+          "text": "Git の履歴だけを圧縮すること"
         },
         {
           "id": "D",
@@ -37,24 +37,24 @@
       "options": [
         {
           "id": "A",
-          "text": "異なるAIクライアントが同じツールを利用しやすくなる"
-        },
-        {
-          "id": "B",
-          "text": "特定ベンダーへの依存を減らしやすくなる"
-        },
-        {
-          "id": "C",
           "text": "すべての操作が承認不要になる"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "MCP サーバーを使うと API キーが不要になる"
+        },
+        {
+          "id": "C",
+          "text": "特定ベンダーへの依存を減らしやすくなる"
+        },
+        {
+          "id": "D",
+          "text": "異なるAIクライアントが同じツールを利用しやすくなる"
         }
       ],
       "correctAnswers": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "explanation": "MCP の標準化により、同じツールを複数の AI 環境から再利用しやすくなり、ベンダーロックインも避けやすくなります。承認や認証の必要性が消えるわけではありません。"
     },
@@ -65,23 +65,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot が呼び出せるツールや操作を公開する"
-        },
-        {
-          "id": "B",
-          "text": "モデルを学習し直して新しい重みを作る"
-        },
-        {
-          "id": "C",
           "text": "Pull Request を自動承認する"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "ローカルの Git 履歴を削除する"
+        },
+        {
+          "id": "C",
+          "text": "Copilot が呼び出せるツールや操作を公開する"
+        },
+        {
+          "id": "D",
+          "text": "モデルを学習し直して新しい重みを作る"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "MCP サーバーは、AI クライアントから利用できるツールやアクションを公開する役割を持ちます。モデル再学習や承認の代行が目的ではありません。"
     },
@@ -92,7 +92,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot が API、データベース、ファイル操作をツール経由で行う"
+          "text": "Copilot が設定を無視して任意コードを必ず実行する"
         },
         {
           "id": "B",
@@ -100,15 +100,15 @@
         },
         {
           "id": "C",
-          "text": "Copilot が権限のないシステムへ常時アクセスする"
+          "text": "Copilot が API、データベース、ファイル操作をツール経由で行う"
         },
         {
           "id": "D",
-          "text": "Copilot が設定を無視して任意コードを必ず実行する"
+          "text": "Copilot が権限のないシステムへ常時アクセスする"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "MCP サーバーを使うと、Copilot はファイル操作、DB参照、API呼び出しなどの外部ツールを文脈に応じて利用できます。無制限なアクセスを保証するものではありません。"
     },
@@ -119,23 +119,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Dockerや手動の構成ファイルなしで、好みのAIワークフローをコーディング環境へ統合しやすい。"
-        },
-        {
-          "id": "B",
-          "text": "必ずDockerコンテナーをローカルで起動する必要がある。"
-        },
-        {
-          "id": "C",
           "text": "OAuthを使えず、PATだけを手入力する必要がある。"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "GitHub Webやモバイルからの統合を避けるために使う。"
+        },
+        {
+          "id": "C",
+          "text": "必ずDockerコンテナーをローカルで起動する必要がある。"
+        },
+        {
+          "id": "D",
+          "text": "Dockerや手動の構成ファイルなしで、好みのAIワークフローをコーディング環境へ統合しやすい。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式 Learn では、GitHub-hosted server は、Dockerや手動構成ファイルなしで複雑なセットアップを避け、ワークフローを統合できると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/2-simplify-workflow"
     },
@@ -150,11 +150,11 @@
         },
         {
           "id": "B",
-          "text": "Command Paletteで `Git: Clone` を実行し、`https://api.githubcopilot.com/mcp/` をリポジトリURLとして入力する。"
+          "text": "Docker方式を選び、OAuthプロンプトをキャンセルする。"
         },
         {
           "id": "C",
-          "text": "Docker方式を選び、OAuthプロンプトをキャンセルする。"
+          "text": "Command Paletteで `Git: Clone` を実行し、`https://api.githubcopilot.com/mcp/` をリポジトリURLとして入力する。"
         },
         {
           "id": "D",
@@ -202,11 +202,11 @@
       "options": [
         {
           "id": "A",
-          "text": "`Authorization: Bearer ${input:github_token}`"
+          "text": "`Authorization: Basic ${input:github_password}`"
         },
         {
           "id": "B",
-          "text": "`Authorization: Basic ${input:github_password}`"
+          "text": "`Cookie: github_token=${input:github_token}`"
         },
         {
           "id": "C",
@@ -214,11 +214,11 @@
         },
         {
           "id": "D",
-          "text": "`Cookie: github_token=${input:github_token}`"
+          "text": "`Authorization: Bearer ${input:github_token}`"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式 Learn では、PAT方式の例では、`Authorization` ヘッダーに `Bearer ${input:github_token}` を指定し、入力プロンプトでトークンを受け取る構成が示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/3-configure-connect"
     },
@@ -229,7 +229,7 @@
       "options": [
         {
           "id": "A",
-          "text": "ローカル と リモート"
+          "text": "公開 と 非公開"
         },
         {
           "id": "B",
@@ -237,7 +237,7 @@
         },
         {
           "id": "C",
-          "text": "公開 と 非公開"
+          "text": "ローカル と リモート"
         },
         {
           "id": "D",
@@ -245,7 +245,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "MCP サーバーは、利用者の環境で動くローカル型と、ネットワーク越しに接続するリモート型に大別できます。"
     },
@@ -256,11 +256,11 @@
       "options": [
         {
           "id": "A",
-          "text": "必要に応じて利用者が操作内容を確認し、承認フローを通す"
+          "text": "AI が提案した操作はログに残さない"
         },
         {
           "id": "B",
-          "text": "一度追加したサーバーの操作は常に無条件で実行する"
+          "text": "必要に応じて利用者が操作内容を確認し、承認フローを通す"
         },
         {
           "id": "C",
@@ -268,11 +268,11 @@
         },
         {
           "id": "D",
-          "text": "AI が提案した操作はログに残さない"
+          "text": "一度追加したサーバーの操作は常に無条件で実行する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "MCP では、ファイル変更や外部システム操作などの重要な処理に対して、利用者が内容を確認して承認できることが重要です。利便性より安全性を優先します。"
     },
@@ -311,15 +311,15 @@
       "options": [
         {
           "id": "A",
-          "text": "必要なツールを呼び出して実行できる"
-        },
-        {
-          "id": "B",
           "text": "複数のツールを組み合わせたタスクを進められる"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "モデルの学習データをその場で再訓練できる"
+        },
+        {
+          "id": "C",
+          "text": "必要なツールを呼び出して実行できる"
         },
         {
           "id": "D",
@@ -328,7 +328,7 @@
       ],
       "correctAnswers": [
         "A",
-        "B"
+        "C"
       ],
       "explanation": "エージェントモードでは、MCP を通じて必要なツールを選び、複数の外部機能を組み合わせながらタスクを進められます。"
     },
@@ -339,7 +339,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Issue を読み、関連ファイルを更新し、必要なら API も参照する"
+          "text": "ローカルファイルを使わず推測だけで修正する"
         },
         {
           "id": "B",
@@ -347,15 +347,15 @@
         },
         {
           "id": "C",
-          "text": "ローカルファイルを使わず推測だけで修正する"
+          "text": "ツール呼び出しなしで外部システム状態を断定する"
         },
         {
           "id": "D",
-          "text": "ツール呼び出しなしで外部システム状態を断定する"
+          "text": "Issue を読み、関連ファイルを更新し、必要なら API も参照する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "MCP を使えば、エージェントは外部データやファイルを実際に参照しながら作業できます。推測だけで進めるより、正確で再現性のある対応が可能になります。"
     },
@@ -366,15 +366,15 @@
       "options": [
         {
           "id": "A",
-          "text": "大きな変更前にCopilotへ計画を要約させ、承認または調整できるようにする。"
-        },
-        {
-          "id": "B",
           "text": "境界や制約を伝えず、すべてのtoolsを有効にしたまま任せる。"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "リンクや背景情報は与えず、最短の曖昧なプロンプトだけを使う。"
+        },
+        {
+          "id": "C",
+          "text": "大きな変更前にCopilotへ計画を要約させ、承認または調整できるようにする。"
         },
         {
           "id": "D",
@@ -382,7 +382,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式 Learn では、ベストプラクティスとして、目標を明確にし、コンテキストを提供し、境界を設定し、大きな変更前に計画を要約させることが説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/4-use-github-copilot-chat"
     },
@@ -393,11 +393,11 @@
       "options": [
         {
           "id": "A",
-          "text": "タスクに必要なtoolsだけを使わせることで、意図しない操作を避け、ワークフローを制御しやすくするため。"
+          "text": "Agent modeではtoolsを無効にしても同じ結果になるため。"
         },
         {
           "id": "B",
-          "text": "すべてのtoolsを常時有効にしないと、MCP Serverは接続できないため。"
+          "text": "タスクに必要なtoolsだけを使わせることで、意図しない操作を避け、ワークフローを制御しやすくするため。"
         },
         {
           "id": "C",
@@ -405,11 +405,11 @@
         },
         {
           "id": "D",
-          "text": "Agent modeではtoolsを無効にしても同じ結果になるため。"
+          "text": "すべてのtoolsを常時有効にしないと、MCP Serverは接続できないため。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式 Learn では、Copilot ChatではSelect toolsからMCP Server toolsを選んで有効化する流れが示されており、本文のベストプラクティスでも境界設定が推奨されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/4-use-github-copilot-chat"
     },
@@ -424,11 +424,11 @@
         },
         {
           "id": "B",
-          "text": "コード補完の表示色を変更すること。"
+          "text": "GitHub Actions の課金を制御すること。"
         },
         {
           "id": "C",
-          "text": "GitHub Actions の課金を制御すること。"
+          "text": "コード補完の表示色を変更すること。"
         },
         {
           "id": "D",
@@ -447,11 +447,11 @@
       "options": [
         {
           "id": "A",
-          "text": "Local は手元で実行され、Remote はネットワーク越しに提供される。"
+          "text": "Local は tools を持てず、Remote だけが tools を持てる。"
         },
         {
           "id": "B",
-          "text": "Local は tools を持てず、Remote だけが tools を持てる。"
+          "text": "Local は手元で実行され、Remote はネットワーク越しに提供される。"
         },
         {
           "id": "C",
@@ -463,7 +463,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "Local と Remote の大きな違いは、サーバーがどこで実行されるかです。どちらも MCP の考え方に従って機能を提供できます。"
     },
@@ -474,11 +474,11 @@
       "options": [
         {
           "id": "A",
-          "text": "tools"
+          "text": "resources"
         },
         {
           "id": "B",
-          "text": "resources"
+          "text": "tools"
         },
         {
           "id": "C",
@@ -490,7 +490,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "操作を実行するための入口になるのが tools です。resources は参照情報、rulesets は GitHub の別機能です。"
     },
@@ -528,7 +528,7 @@
       "options": [
         {
           "id": "A",
-          "text": "必要なサーバーと tools だけを有効にし、提案された操作を確認する。"
+          "text": "サーバーの出力をそのまま本番変更に反映する。"
         },
         {
           "id": "B",
@@ -536,15 +536,15 @@
         },
         {
           "id": "C",
-          "text": "認証を省略して接続テストを行う。"
+          "text": "必要なサーバーと tools だけを有効にし、提案された操作を確認する。"
         },
         {
           "id": "D",
-          "text": "サーバーの出力をそのまま本番変更に反映する。"
+          "text": "認証を省略して接続テストを行う。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "必要最小限のサーバー・tools に絞ることで、不要な影響範囲を減らせます。さらに、実行前の確認を徹底することが prompt injection 対策として重要です。"
     },
@@ -559,15 +559,15 @@
         },
         {
           "id": "B",
-          "text": "Copilot の言語モデルを別製品へ置き換える"
-        },
-        {
-          "id": "C",
           "text": "GitHub アカウント名を変更する"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "Markdown プレビューだけを高速化する"
+        },
+        {
+          "id": "D",
+          "text": "Copilot の言語モデルを別製品へ置き換える"
         }
       ],
       "correctAnswers": [
@@ -582,23 +582,23 @@
       "options": [
         {
           "id": "A",
-          "text": "ネットワーク越しにホストされたサーバーへ接続して利用する"
-        },
-        {
-          "id": "B",
-          "text": "必ずローカルPC上でだけ動作する"
-        },
-        {
-          "id": "C",
           "text": "ローカルファイルを一切扱えない"
         },
         {
-          "id": "D",
+          "id": "B",
+          "text": "ネットワーク越しにホストされたサーバーへ接続して利用する"
+        },
+        {
+          "id": "C",
           "text": "VS Code では設定できない"
+        },
+        {
+          "id": "D",
+          "text": "必ずローカルPC上でだけ動作する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "リモート MCP サーバーは、ネットワーク経由で接続する外部ホスト上のサーバーです。ローカル型と対比して理解します。"
     },
@@ -617,11 +617,11 @@
         },
         {
           "id": "C",
-          "text": "承認フローを設定できない"
+          "text": "外部ツール連携には使えない"
         },
         {
           "id": "D",
-          "text": "外部ツール連携には使えない"
+          "text": "承認フローを設定できない"
         }
       ],
       "correctAnswers": [
@@ -636,23 +636,23 @@
       "options": [
         {
           "id": "A",
-          "text": "MCP は GitHub 専用で、ほかのツール連携には使えないと考えること"
+          "text": "MCP には標準化の恩恵があると理解すること"
         },
         {
           "id": "B",
-          "text": "MCP は外部ツール連携のための仕組みだと理解すること"
-        },
-        {
-          "id": "C",
           "text": "MCP サーバーは Copilot から呼び出せるツールを提供できると理解すること"
         },
         {
+          "id": "C",
+          "text": "MCP は外部ツール連携のための仕組みだと理解すること"
+        },
+        {
           "id": "D",
-          "text": "MCP には標準化の恩恵があると理解すること"
+          "text": "MCP は GitHub 専用で、ほかのツール連携には使えないと考えること"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "MCP は GitHub 専用規格ではなく、外部ツール連携を標準化する考え方です。ほかのツールや AI クライアントでも利用価値があります。"
     },
@@ -663,23 +663,23 @@
       "options": [
         {
           "id": "A",
-          "text": "異なるAIやツール環境で再利用しやすい接続方式を作れる"
-        },
-        {
-          "id": "B",
-          "text": "一つの製品に固定するほど導入が容易になる"
-        },
-        {
-          "id": "C",
           "text": "ツールの権限制御が不要になる"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "外部サービスの API 仕様が不要になる"
+        },
+        {
+          "id": "C",
+          "text": "異なるAIやツール環境で再利用しやすい接続方式を作れる"
+        },
+        {
+          "id": "D",
+          "text": "一つの製品に固定するほど導入が容易になる"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "標準化された接続方式があれば、同じツール資産を複数の AI 環境で再利用しやすくなります。これがベンダーロックインの回避にもつながります。"
     },
@@ -690,11 +690,11 @@
       "options": [
         {
           "id": "A",
-          "text": "Docker や手動構成を減らし、管理された接続方法で使い始めやすい。"
+          "text": "GitHub.com では使えなくなるがローカル性能が上がる。"
         },
         {
           "id": "B",
-          "text": "GitHub.com では使えなくなるがローカル性能が上がる。"
+          "text": "ローカルの Git 設定を自動で書き換えられる。"
         },
         {
           "id": "C",
@@ -702,11 +702,11 @@
         },
         {
           "id": "D",
-          "text": "ローカルの Git 設定を自動で書き換えられる。"
+          "text": "Docker や手動構成を減らし、管理された接続方法で使い始めやすい。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "GitHub-hosted サーバーは、セットアップ負荷を下げて導入しやすい点が利点です。ただし、認証や権限の考慮が不要になるわけではありません。"
     },
@@ -718,7 +718,7 @@
       "options": [
         {
           "id": "A",
-          "text": "tools"
+          "text": "branch protections"
         },
         {
           "id": "B",
@@ -726,16 +726,16 @@
         },
         {
           "id": "C",
-          "text": "branch protections"
+          "text": "Actions secrets"
         },
         {
           "id": "D",
-          "text": "Actions secrets"
+          "text": "tools"
         }
       ],
       "correctAnswers": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "explanation": "MCP Server は、操作の入口となる tools や、参照情報としての resources を提供できます。branch protection や Actions secrets は GitHub 側の別概念です。"
     },
@@ -746,23 +746,23 @@
       "options": [
         {
           "id": "A",
-          "text": "外部ツールやデータを使いながら、複数ステップの作業を進めやすくすること。"
+          "text": "GitHub Actions の runner OS を固定すること。"
         },
         {
           "id": "B",
-          "text": "Agent mode を無効にして単発の補完だけにすること。"
-        },
-        {
-          "id": "C",
           "text": "PR 承認を自動完了すること。"
         },
         {
+          "id": "C",
+          "text": "外部ツールやデータを使いながら、複数ステップの作業を進めやすくすること。"
+        },
+        {
           "id": "D",
-          "text": "GitHub Actions の runner OS を固定すること。"
+          "text": "Agent mode を無効にして単発の補完だけにすること。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "Agent mode と MCP を組み合わせると、Copilot はチャットの外にあるデータや操作も使いながら、まとまったタスクを進めやすくなります。"
     },
@@ -773,11 +773,11 @@
       "options": [
         {
           "id": "A",
-          "text": "OAuth/PAT/Dockerのどの方式を使っているかを切り分け、認証・スコープ・構成を確認する。"
+          "text": "GitHub MCP Serverは設定に失敗しても常に匿名で接続できる。"
         },
         {
           "id": "B",
-          "text": "GitHub MCP Serverは設定に失敗しても常に匿名で接続できる。"
+          "text": "Docker方式ではイメージ名やDocker稼働状態を確認しない。"
         },
         {
           "id": "C",
@@ -785,11 +785,11 @@
         },
         {
           "id": "D",
-          "text": "Docker方式ではイメージ名やDocker稼働状態を確認しない。"
+          "text": "OAuth/PAT/Dockerのどの方式を使っているかを切り分け、認証・スコープ・構成を確認する。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式 Learn では、概要と構成ユニットでは、OAuth、PAT、Dockerの設定方法と一般的な問題のトラブルシューティングが扱われています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/7-summary"
     },
@@ -800,23 +800,23 @@
       "options": [
         {
           "id": "A",
-          "text": "ファイル操作用サーバーと API アクセス用サーバーを同じタスクで使う"
-        },
-        {
-          "id": "B",
-          "text": "1回の会話では必ず1種類のツールしか使えない"
-        },
-        {
-          "id": "C",
           "text": "ローカルサーバーとリモートサーバーは同時利用できない"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "MCP を使うとレビュー承認者の追加しかできない"
+        },
+        {
+          "id": "C",
+          "text": "ファイル操作用サーバーと API アクセス用サーバーを同じタスクで使う"
+        },
+        {
+          "id": "D",
+          "text": "1回の会話では必ず1種類のツールしか使えない"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "MCP の強みは、複数のツールを必要に応じて組み合わせられることです。たとえばファイル操作と API 参照を同じ作業の中で使えます。"
     }

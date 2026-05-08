@@ -9,23 +9,23 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub 内でバックグラウンドのチームメイトのように動作し、ブランチ作成、探索、実装計画、コード下書きを進める。"
+          "text": "PRを開くかどうかを常に自動決定し、利用者は制御できない。"
         },
         {
           "id": "B",
-          "text": "VS Code の現在開いているファイルだけを対象に、ローカル補完を返す。"
-        },
-        {
-          "id": "C",
           "text": "GitHub Actions を使わず、開発者のローカル端末で常駐プロセスとして動く。"
         },
         {
+          "id": "C",
+          "text": "VS Code の現在開いているファイルだけを対象に、ローカル補完を返す。"
+        },
+        {
           "id": "D",
-          "text": "PRを開くかどうかを常に自動決定し、利用者は制御できない。"
+          "text": "GitHub 内でバックグラウンドのチームメイトのように動作し、ブランチ作成、探索、実装計画、コード下書きを進める。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式 Learn では、Cloud Agent は GitHub 自体の内部で実行される自律的な開発アシスタントで、明確なスコープのタスクに対してブランチ作成、探索、実装計画、コード下書きを行うと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/1-understand-enable-github-copilot-code-agent"
     },
@@ -45,11 +45,11 @@
         },
         {
           "id": "C",
-          "text": "Copilot Free でも組織設定だけで利用できる。"
+          "text": "GitHub 以外の Git ホストでも同じように利用できる。"
         },
         {
           "id": "D",
-          "text": "GitHub 以外の Git ホストでも同じように利用できる。"
+          "text": "Copilot Free でも組織設定だけで利用できる。"
         }
       ],
       "correctAnswers": [
@@ -65,11 +65,11 @@
       "options": [
         {
           "id": "A",
-          "text": "Issue や pull request で `@copilot` を使ってタスクを依頼する。"
+          "text": "`.github/copilot-instructions.md` を保存するだけで自動起動する。"
         },
         {
           "id": "B",
-          "text": "`.github/copilot-instructions.md` を保存するだけで自動起動する。"
+          "text": "README に TODO を書くと自動でブランチを作る。"
         },
         {
           "id": "C",
@@ -77,11 +77,11 @@
         },
         {
           "id": "D",
-          "text": "README に TODO を書くと自動でブランチを作る。"
+          "text": "Issue や pull request で `@copilot` を使ってタスクを依頼する。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "GitHub 上では、Issue や pull request で `@copilot` を使って作業を依頼できます。単に設定ファイルや README を編集しただけでは起動しません。"
     },
@@ -96,7 +96,7 @@
         },
         {
           "id": "B",
-          "text": "Cloud Agent はIDE内の編集だけを行い、エージェント モードはGitHubでPRを作る。"
+          "text": "IDE のエージェント モードだけがセッションログとPR履歴に作業を表示する。"
         },
         {
           "id": "C",
@@ -104,7 +104,7 @@
         },
         {
           "id": "D",
-          "text": "IDE のエージェント モードだけがセッションログとPR履歴に作業を表示する。"
+          "text": "Cloud Agent はIDE内の編集だけを行い、エージェント モードはGitHubでPRを作る。"
         }
       ],
       "correctAnswers": [
@@ -119,11 +119,11 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub が用意する隔離されたサンドボックス環境。"
+          "text": "既定ブランチへ直接書き込む本番環境。"
         },
         {
           "id": "B",
-          "text": "開発者のローカル IDE の現在のシェル。"
+          "text": "GitHub が用意する隔離されたサンドボックス環境。"
         },
         {
           "id": "C",
@@ -131,11 +131,11 @@
         },
         {
           "id": "D",
-          "text": "既定ブランチへ直接書き込む本番環境。"
+          "text": "開発者のローカル IDE の現在のシェル。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "Cloud Agent はローカル PC ではなく、隔離された実行環境で作業します。これにより変更と実行を分離し、レビュー前提のフローを取りやすくなります。"
     },
@@ -146,15 +146,15 @@
       "options": [
         {
           "id": "A",
-          "text": "`copilot/` で始まるブランチのみ作成してpushでき、ブランチ保護と必要なチェックは引き続き適用される。"
-        },
-        {
-          "id": "B",
           "text": "作業効率のため、既定ブランチへ直接pushすることが許可される。"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "`feature/` で始まるブランチだけを作成でき、`copilot/` は予約されていない。"
+        },
+        {
+          "id": "C",
+          "text": "`copilot/` で始まるブランチのみ作成してpushでき、ブランチ保護と必要なチェックは引き続き適用される。"
         },
         {
           "id": "D",
@@ -162,7 +162,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式 Learn では、組み込み保護として、エージェントは `copilot/` で始まるブランチのみを作成・pushでき、ブランチ保護と必要なチェックは引き続き適用されると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/2-security-risks-limitations-copilot-code-agent"
     },
@@ -173,7 +173,7 @@
       "options": [
         {
           "id": "A",
-          "text": "HTMLコメントなどの非表示文字を、ユーザー入力をエージェントへ渡す前にフィルター処理する。"
+          "text": "書き込み権限のないユーザーのコメントだけを信頼する。"
         },
         {
           "id": "B",
@@ -181,7 +181,7 @@
         },
         {
           "id": "C",
-          "text": "書き込み権限のないユーザーのコメントだけを信頼する。"
+          "text": "HTMLコメントなどの非表示文字を、ユーザー入力をエージェントへ渡す前にフィルター処理する。"
         },
         {
           "id": "D",
@@ -189,7 +189,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "Cloud Agent では、非表示文字や隠し指示をそのまま信頼しないよう入力を整形することで、プロンプト インジェクションのリスクを下げます。"
     },
@@ -200,7 +200,7 @@
       "options": [
         {
           "id": "A",
-          "text": "エージェントのインターネット アクセスは既定でファイアウォールによって制限され、必要に応じてポリシーに沿って調整できる。"
+          "text": "ファイアウォールはGitHub.comへの通信だけを禁止し、外部APIは常に許可する。"
         },
         {
           "id": "B",
@@ -208,15 +208,15 @@
         },
         {
           "id": "C",
-          "text": "ファイアウォールはGitHub.comへの通信だけを禁止し、外部APIは常に許可する。"
+          "text": "ファイアウォールを有効にするとPR作成機能が無効になる。"
         },
         {
           "id": "D",
-          "text": "ファイアウォールを有効にするとPR作成機能が無効になる。"
+          "text": "エージェントのインターネット アクセスは既定でファイアウォールによって制限され、必要に応じてポリシーに沿って調整できる。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式 Learn では、機密情報へのアクセスリスクの緩和として、エージェントのインターネット アクセスは既定でファイアウォールにより制限され、ポリシーに応じてカスタマイズまたは無効化できると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/2-security-risks-limitations-copilot-code-agent"
     },
@@ -228,24 +228,24 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub でホストされる Ubuntu x64 ランナーが必要で、セルフホスト ランナーはサポートされない。"
+          "text": "GitHub-hostedランナーを使うとブランチ保護が適用されない。"
         },
         {
           "id": "B",
-          "text": "任意のモデルを利用者が選択してCloud Agentに使わせることはできない。"
-        },
-        {
-          "id": "C",
           "text": "Windowsのセルフホスト ランナーが推奨構成である。"
         },
         {
+          "id": "C",
+          "text": "任意のモデルを利用者が選択してCloud Agentに使わせることはできない。"
+        },
+        {
           "id": "D",
-          "text": "GitHub-hostedランナーを使うとブランチ保護が適用されない。"
+          "text": "GitHub でホストされる Ubuntu x64 ランナーが必要で、セルフホスト ランナーはサポートされない。"
         }
       ],
       "correctAnswers": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "explanation": "Cloud Agent には対応ランナーや利用モデルに制約があります。任意の実行環境や任意モデルを自由に使えるわけではありません。"
     },
@@ -256,23 +256,23 @@
       "options": [
         {
           "id": "A",
-          "text": "書き込みアクセス権を持つユーザーの承認が必要で、PRを要求したユーザーはその承認を行えない。"
+          "text": "承認が必要なのはprivateリポジトリだけで、publicでは常に不要である。"
         },
         {
           "id": "B",
-          "text": "PRを要求した外部コラボレーター本人が、そのままActions実行を承認できる。"
+          "text": "書き込みアクセス権を持つユーザーの承認が必要で、PRを要求したユーザーはその承認を行えない。"
         },
         {
           "id": "C",
-          "text": "Cloud Agent のPRではActionsは常に自動実行される。"
+          "text": "PRを要求した外部コラボレーター本人が、そのままActions実行を承認できる。"
         },
         {
           "id": "D",
-          "text": "承認が必要なのはprivateリポジトリだけで、publicでは常に不要である。"
+          "text": "Cloud Agent のPRではActionsは常に自動実行される。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式 Learn では、外部コラボレーター ルールとして、エージェントの下書きPRではActions実行前に書き込みアクセス権を持つユーザーの承認が必要で、PR要求者本人は承認できないと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/2-security-risks-limitations-copilot-code-agent"
     },
@@ -287,7 +287,7 @@
         },
         {
           "id": "B",
-          "text": "Copilot が既定ブランチへ直接コミットし、最後にIssueだけを閉じる。"
+          "text": "Copilot はPRを作る前に必ずローカルIDEセッションを要求する。"
         },
         {
           "id": "C",
@@ -295,7 +295,7 @@
         },
         {
           "id": "D",
-          "text": "Copilot はPRを作る前に必ずローカルIDEセッションを要求する。"
+          "text": "Copilot が既定ブランチへ直接コミットし、最後にIssueだけを閉じる。"
         }
       ],
       "correctAnswers": [
@@ -311,24 +311,24 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub の監査ログ。"
+          "text": "GitHub Pages の公開ログ。"
         },
         {
           "id": "B",
-          "text": "Pull request のタイムライン。"
-        },
-        {
-          "id": "C",
           "text": "開発者個人のブラウザ履歴。"
         },
         {
+          "id": "C",
+          "text": "GitHub の監査ログ。"
+        },
+        {
           "id": "D",
-          "text": "GitHub Pages の公開ログ。"
+          "text": "Pull request のタイムライン。"
         }
       ],
       "correctAnswers": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "explanation": "Cloud Agent の活動は GitHub 側で追跡できます。監査ログや pull request のタイムラインを組み合わせることで、依頼内容と変更履歴を確認しやすくなります。"
     },
@@ -339,7 +339,7 @@
       "options": [
         {
           "id": "A",
-          "text": "書き込み権限のあるユーザーがPRコメントで `@copilot` をメンションして変更を求める。"
+          "text": "レビュー完了イベント後は反復作業を依頼できない。"
         },
         {
           "id": "B",
@@ -351,11 +351,11 @@
         },
         {
           "id": "D",
-          "text": "レビュー完了イベント後は反復作業を依頼できない。"
+          "text": "書き込み権限のあるユーザーがPRコメントで `@copilot` をメンションして変更を求める。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式 Learn では、エージェントPRでは、pull request コメントで `@copilot` をメンションして作業を反復処理するよう依頼できると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/3-assign-track-troubleshoot-copilot-code-agent-tasks"
     },
@@ -366,23 +366,23 @@
       "options": [
         {
           "id": "A",
-          "text": "エージェントが利用可能で、リポジトリや組織で有効になっており、タスクのスコープが明確か確認する。"
-        },
-        {
-          "id": "B",
-          "text": "`.github/instructions` の `applyTo` をすべて削除する。"
-        },
-        {
-          "id": "C",
           "text": "PRUアラートを100%だけに変更する。"
         },
         {
-          "id": "D",
+          "id": "B",
+          "text": "エージェントが利用可能で、リポジトリや組織で有効になっており、タスクのスコープが明確か確認する。"
+        },
+        {
+          "id": "C",
           "text": "GitHub MCP Server のPATスコープを `read:packages` のみにする。"
+        },
+        {
+          "id": "D",
+          "text": "`.github/instructions` の `applyTo` をすべて削除する。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式 Learn では、トラブルシューティングでは、エージェントの可用性、リポジトリや組織での有効化、タスクのスコープを確認する項目が説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/3-assign-track-troubleshoot-copilot-code-agent-tasks"
     },
@@ -397,15 +397,15 @@
         },
         {
           "id": "B",
-          "text": "`@copilot run-ci` とコメントすると、承認なしでActionsが実行される。"
-        },
-        {
-          "id": "C",
           "text": "GitHub Mobile からIssueを再割り当てすると、すべてのワークフローが自動実行される。"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "PRをdraftからreadyに変えるだけで、承認ゲートは省略される。"
+        },
+        {
+          "id": "D",
+          "text": "`@copilot run-ci` とコメントすると、承認なしでActionsが実行される。"
         }
       ],
       "correctAnswers": [
@@ -420,15 +420,15 @@
       "options": [
         {
           "id": "A",
-          "text": "既定ブランチの `.github/workflows/copilot-setup-steps.yml`。"
+          "text": "`.github/instructions/copilot-setup-steps.md`。"
         },
         {
           "id": "B",
-          "text": "`.github/copilot-setup.yml`。"
+          "text": "既定ブランチの `.github/workflows/copilot-setup-steps.yml`。"
         },
         {
           "id": "C",
-          "text": "`.github/instructions/copilot-setup-steps.md`。"
+          "text": "`.github/copilot-setup.yml`。"
         },
         {
           "id": "D",
@@ -436,7 +436,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式 Learn では、エージェント環境をカスタマイズするには、既定ブランチに `.github/workflows/copilot-setup-steps.yml` を作成すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/4-customize-extend-validate-copilot-code-agent"
     },
@@ -448,15 +448,15 @@
       "options": [
         {
           "id": "A",
-          "text": "steps"
+          "text": "root-access"
         },
         {
           "id": "B",
-          "text": "runs-on"
+          "text": "steps"
         },
         {
           "id": "C",
-          "text": "root-access"
+          "text": "runs-on"
         },
         {
           "id": "D",
@@ -464,8 +464,8 @@
         }
       ],
       "correctAnswers": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "explanation": "公式 Learn では、許可キーとして `steps`、`permissions`、`runs-on`、`container`、`services`、`snapshot`、`timeout-minutes` が挙げられています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/4-customize-extend-validate-copilot-code-agent"
     },
@@ -476,23 +476,23 @@
       "options": [
         {
           "id": "A",
-          "text": "`timeout-minutes` は 59 以下でなければならない。"
+          "text": "`timeout-minutes` は1以上であれば上限がない。"
         },
         {
           "id": "B",
-          "text": "`timeout-minutes` は必ず 120 に設定する。"
-        },
-        {
-          "id": "C",
           "text": "`timeout-minutes` は許可キーではないため使えない。"
         },
         {
+          "id": "C",
+          "text": "`timeout-minutes` は必ず 120 に設定する。"
+        },
+        {
           "id": "D",
-          "text": "`timeout-minutes` は1以上であれば上限がない。"
+          "text": "`timeout-minutes` は 59 以下でなければならない。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式 Learn では、`copilot-setup-steps` ジョブの許可キーに `timeout-minutes` が含まれ、値は59以下である必要があると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/4-customize-extend-validate-copilot-code-agent"
     },
@@ -511,11 +511,11 @@
         },
         {
           "id": "C",
-          "text": "OAuth が必要な Remote MCP サーバーだけがサポートされる。"
+          "text": "MCP を使うとCloud Agentのセッションログは表示されなくなる。"
         },
         {
           "id": "D",
-          "text": "MCP を使うとCloud Agentのセッションログは表示されなくなる。"
+          "text": "OAuth が必要な Remote MCP サーバーだけがサポートされる。"
         }
       ],
       "correctAnswers": [
@@ -534,15 +534,15 @@
         },
         {
           "id": "B",
-          "text": "エージェントが下書きPRを作成した時点で検証済みとみなす。"
+          "text": "`.github/copilot-instructions.md` を削除してからレビューする。"
         },
         {
           "id": "C",
-          "text": "PRUを使った作業ではCIを省略してよい。"
+          "text": "エージェントが下書きPRを作成した時点で検証済みとみなす。"
         },
         {
           "id": "D",
-          "text": "`.github/copilot-instructions.md` を削除してからレビューする。"
+          "text": "PRUを使った作業ではCIを省略してよい。"
         }
       ],
       "correctAnswers": [
@@ -561,15 +561,15 @@
         },
         {
           "id": "B",
-          "text": "組織全体のアーキテクチャを一度に全面刷新する高リスクな曖昧タスク。"
-        },
-        {
-          "id": "C",
           "text": "本番デプロイの承認とリリース判断を完全に自動化するタスク。"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "リポジトリ権限やブランチ保護の設計をエージェント単独で決めるタスク。"
+        },
+        {
+          "id": "D",
+          "text": "組織全体のアーキテクチャを一度に全面刷新する高リスクな曖昧タスク。"
         }
       ],
       "correctAnswers": [
@@ -585,7 +585,7 @@
       "options": [
         {
           "id": "A",
-          "text": "ブランチ保護と承認ゲート。"
+          "text": "READMEに保存した個人トークン。"
         },
         {
           "id": "B",
@@ -593,16 +593,16 @@
         },
         {
           "id": "C",
-          "text": "READMEに保存した個人トークン。"
+          "text": "pull request の説明欄へ埋め込んだ本番秘密情報。"
         },
         {
           "id": "D",
-          "text": "pull request の説明欄へ埋め込んだ本番秘密情報。"
+          "text": "ブランチ保護と承認ゲート。"
         }
       ],
       "correctAnswers": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "explanation": "公式 Learn では、責任ある使用では、セキュリティ、ガバナンス、支出として、ブランチ保護、承認ゲート、Actions実行時間、PRUを管理すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/5-responsible-use-github-copilot-code-agent-github"
     },
@@ -621,11 +621,11 @@
         },
         {
           "id": "C",
-          "text": "MCPのOAuth認可画面をスキップする。"
+          "text": "PRU消費をゼロにしてレビューを実行する。"
         },
         {
           "id": "D",
-          "text": "PRU消費をゼロにしてレビューを実行する。"
+          "text": "MCPのOAuth認可画面をスキップする。"
         }
       ],
       "correctAnswers": [
@@ -640,7 +640,7 @@
       "options": [
         {
           "id": "A",
-          "text": "人間のレビュー、反復、CI 検証を挟めるようにするため。"
+          "text": "ブランチ保護を無効化するため。"
         },
         {
           "id": "B",
@@ -648,15 +648,15 @@
         },
         {
           "id": "C",
-          "text": "ローカル IDE だけで作業するため。"
+          "text": "人間のレビュー、反復、CI 検証を挟めるようにするため。"
         },
         {
           "id": "D",
-          "text": "ブランチ保護を無効化するため。"
+          "text": "ローカル IDE だけで作業するため。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "下書き PR にすることで、Cloud Agent の変更を確認し、コメントで追加依頼し、CI で検証できます。直接反映より安全で追跡しやすい運用です。"
     },
@@ -667,23 +667,23 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub のコミット、PR履歴、セッションログに作業が残り、チームが進行を確認して介入できるため。"
-        },
-        {
-          "id": "B",
           "text": "Cloud Agent の作業はローカルIDEの私的セッションにだけ残るため。"
         },
         {
+          "id": "B",
+          "text": "セッションログを消すことでブランチ保護を簡略化できるため。"
+        },
+        {
           "id": "C",
-          "text": "ログはPRU消費量だけを示し、コード変更の追跡には使えないため。"
+          "text": "GitHub のコミット、PR履歴、セッションログに作業が残り、チームが進行を確認して介入できるため。"
         },
         {
           "id": "D",
-          "text": "セッションログを消すことでブランチ保護を簡略化できるため。"
+          "text": "ログはPRU消費量だけを示し、コード変更の追跡には使えないため。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式 Learn では、Cloud Agent の作業はGitHubのコミット、セッションログ、PR履歴に表示され、透明性とコラボレーションの機会が生まれると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/5-responsible-use-github-copilot-code-agent-github"
     },
@@ -694,15 +694,15 @@
       "options": [
         {
           "id": "A",
-          "text": "対応プランと GitHub Actions を使える GitHub ホストのリポジトリであること。"
+          "text": "ローカル IDE に常時接続していること。"
         },
         {
           "id": "B",
-          "text": "セルフホストランナーだけを使うこと。"
+          "text": "対応プランと GitHub Actions を使える GitHub ホストのリポジトリであること。"
         },
         {
           "id": "C",
-          "text": "ローカル IDE に常時接続していること。"
+          "text": "セルフホストランナーだけを使うこと。"
         },
         {
           "id": "D",
@@ -710,7 +710,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "Cloud Agent は、対象プランと GitHub 側の実行環境を前提に動作します。GitHub Actions を利用できる GitHub ホストのリポジトリであることが重要です。"
     },
@@ -721,23 +721,23 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub Actions ランナー。"
-        },
-        {
-          "id": "B",
           "text": "開発者のローカル IDE プロセス。"
         },
         {
+          "id": "B",
+          "text": "Issue フォームの入力欄。"
+        },
+        {
           "id": "C",
-          "text": "GitHub Pages のビルド環境。"
+          "text": "GitHub Actions ランナー。"
         },
         {
           "id": "D",
-          "text": "Issue フォームの入力欄。"
+          "text": "GitHub Pages のビルド環境。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "Cloud Agent は GitHub 上の実行環境で作業し、その中心に GitHub Actions ランナーがあります。ローカル IDE に依存する仕組みではありません。"
     },
@@ -748,23 +748,23 @@
       "options": [
         {
           "id": "A",
-          "text": "スコープが制限された GITHUB_TOKEN を使って作業する。"
-        },
-        {
-          "id": "B",
           "text": "常にフル権限の個人アクセストークンを使う。"
         },
         {
+          "id": "B",
+          "text": "スコープが制限された GITHUB_TOKEN を使って作業する。"
+        },
+        {
           "id": "C",
-          "text": "権限は不要で、匿名アクセスで private リポジトリを変更できる。"
+          "text": "PR ごとに必ず管理者トークンを発行する。"
         },
         {
           "id": "D",
-          "text": "PR ごとに必ず管理者トークンを発行する。"
+          "text": "権限は不要で、匿名アクセスで private リポジトリを変更できる。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "Cloud Agent は、必要な範囲に制限されたトークンで動くことでリスクを抑えます。常に広い権限を持つトークンを使う設計ではありません。"
     },
@@ -775,11 +775,11 @@
       "options": [
         {
           "id": "A",
-          "text": "外部ネットワークへのアクセス範囲を絞り、不要な通信や情報流出リスクを抑えるため。"
+          "text": "PR の作成速度だけを上げるため。"
         },
         {
           "id": "B",
-          "text": "PR の作成速度だけを上げるため。"
+          "text": "ローカル Git 設定を同期するため。"
         },
         {
           "id": "C",
@@ -787,11 +787,11 @@
         },
         {
           "id": "D",
-          "text": "ローカル Git 設定を同期するため。"
+          "text": "外部ネットワークへのアクセス範囲を絞り、不要な通信や情報流出リスクを抑えるため。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "ファイアウォールは、Cloud Agent がどこへ通信できるかを制御する重要なガードレールです。セキュリティとガバナンスの観点から欠かせません。"
     },
@@ -802,23 +802,23 @@
       "options": [
         {
           "id": "A",
-          "text": "PR の差分、コミット履歴、セッションログを確認する。"
+          "text": "README の最終更新日時だけを見る。"
         },
         {
           "id": "B",
-          "text": "ローカルの最近使ったファイル一覧だけを見る。"
+          "text": "PR の差分、コミット履歴、セッションログを確認する。"
         },
         {
           "id": "C",
-          "text": "課金ページだけを見る。"
+          "text": "ローカルの最近使ったファイル一覧だけを見る。"
         },
         {
           "id": "D",
-          "text": "README の最終更新日時だけを見る。"
+          "text": "課金ページだけを見る。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "Cloud Agent の作業は GitHub 上に履歴として残ります。差分、コミット、セッションログを併せて確認すると、変更の意図と影響を把握しやすくなります。"
     },
@@ -829,23 +829,23 @@
       "options": [
         {
           "id": "A",
-          "text": "よくスコープされた小〜中規模のバグ修正やテスト追加。"
-        },
-        {
-          "id": "B",
           "text": "数か月規模の曖昧な全面刷新。"
         },
         {
+          "id": "B",
+          "text": "よくスコープされた小〜中規模のバグ修正やテスト追加。"
+        },
+        {
           "id": "C",
-          "text": "本番リリース承認の自動実行。"
+          "text": "組織全体の権限設計の最終決定。"
         },
         {
           "id": "D",
-          "text": "組織全体の権限設計の最終決定。"
+          "text": "本番リリース承認の自動実行。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "Cloud Agent は、範囲が明確で、レビューしやすい作業に向いています。曖昧で高リスクな判断まで任せるのは適切ではありません。"
     },
@@ -856,23 +856,23 @@
       "options": [
         {
           "id": "A",
-          "text": "OAuth が必要な Remote MCP サーバー。"
+          "text": "下書き PR ベースの反復。"
         },
         {
           "id": "B",
-          "text": "GitHub ホストの Ubuntu x64 ランナー。"
-        },
-        {
-          "id": "C",
           "text": "`copilot/` プレフィックスのブランチ。"
         },
         {
+          "id": "C",
+          "text": "GitHub ホストの Ubuntu x64 ランナー。"
+        },
+        {
           "id": "D",
-          "text": "下書き PR ベースの反復。"
+          "text": "OAuth が必要な Remote MCP サーバー。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "Cloud Agent は MCP を拡張できますが、OAuth を必要とする Remote MCP サーバーには制限があります。利用可能な拡張方法を見極める必要があります。"
     },
@@ -884,15 +884,15 @@
       "options": [
         {
           "id": "A",
-          "text": "`copilot-setup-steps.yml` を使う。"
-        },
-        {
-          "id": "B",
           "text": "必要な環境変数やシークレットを設定する。"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "既定ブランチへ直接 push できるようにする。"
+        },
+        {
+          "id": "C",
+          "text": "`copilot-setup-steps.yml` を使う。"
         },
         {
           "id": "D",
@@ -901,7 +901,7 @@
       ],
       "correctAnswers": [
         "A",
-        "B"
+        "C"
       ],
       "explanation": "セットアップ用ワークフローや環境変数・シークレットは、Cloud Agent の作業環境を整える代表的な方法です。安全性を下げる方向の設定はカスタマイズの推奨手段ではありません。"
     },
@@ -916,7 +916,7 @@
         },
         {
           "id": "B",
-          "text": "レビュー承認者を自動で決めるため。"
+          "text": "ローカル IDE の補完速度を調整するため。"
         },
         {
           "id": "C",
@@ -924,7 +924,7 @@
         },
         {
           "id": "D",
-          "text": "ローカル IDE の補完速度を調整するため。"
+          "text": "レビュー承認者を自動で決めるため。"
         }
       ],
       "correctAnswers": [
@@ -939,7 +939,7 @@
       "options": [
         {
           "id": "A",
-          "text": "開発者が価値の高い作業に戻る時間。"
+          "text": "MCPサーバーのOAuth画面表示回数。"
         },
         {
           "id": "B",
@@ -947,15 +947,15 @@
         },
         {
           "id": "C",
-          "text": "`copilot/` ブランチの名前の長さ。"
+          "text": "開発者が価値の高い作業に戻る時間。"
         },
         {
           "id": "D",
-          "text": "MCPサーバーのOAuth画面表示回数。"
+          "text": "`copilot/` ブランチの名前の長さ。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式 Learn では、概要では、リポジトリで有効化し小さな問題を割り当てた後、ログ監視、PRコメントでの反復、CI検証に加え、価値の高い作業に戻る時間を測定すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/7-summary"
     }

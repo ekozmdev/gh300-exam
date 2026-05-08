@@ -9,7 +9,7 @@
       "options": [
         {
           "id": "A",
-          "text": "コードを書く IDE 内で直接動作し、自動提案や複数候補の表示を提供する。"
+          "text": "コメントは提案に影響しない。"
         },
         {
           "id": "B",
@@ -21,11 +21,11 @@
         },
         {
           "id": "D",
-          "text": "コメントは提案に影響しない。"
+          "text": "コードを書く IDE 内で直接動作し、自動提案や複数候補の表示を提供する。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式 Learn では、コード補完は IDE 内で動作し、自動提案、複数候補ペイン、さまざまなコーディングスタイルへの対応を提供すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/2-code-completion-with-git-hub-copilot"
     },
@@ -45,11 +45,11 @@
         },
         {
           "id": "C",
-          "text": "Copilot CLI の /theme 設定。"
+          "text": "GitHub.com の issue 管理。"
         },
         {
           "id": "D",
-          "text": "GitHub.com の issue 管理。"
+          "text": "Copilot CLI の /theme 設定。"
         }
       ],
       "correctAnswers": [
@@ -69,15 +69,15 @@
         },
         {
           "id": "B",
-          "text": "Ctrl+Enter と Ctrl+Backspace"
+          "text": "Cmd+] と Cmd+["
         },
         {
           "id": "C",
-          "text": "Shift+Tab と Ctrl+Tab"
+          "text": "Ctrl+Enter と Ctrl+Backspace"
         },
         {
           "id": "D",
-          "text": "Cmd+] と Cmd+["
+          "text": "Shift+Tab と Ctrl+Tab"
         }
       ],
       "correctAnswers": [
@@ -92,23 +92,23 @@
       "options": [
         {
           "id": "A",
-          "text": "関数の意図を書いたコメントから実装案を提案する。"
-        },
-        {
-          "id": "B",
-          "text": "コメントがある行では提案を完全に停止する。"
-        },
-        {
-          "id": "C",
           "text": "TODO コメントは常に無視される。"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "コメントは変数名の提案には影響しない。"
+        },
+        {
+          "id": "C",
+          "text": "関数の意図を書いたコメントから実装案を提案する。"
+        },
+        {
+          "id": "D",
+          "text": "コメントがある行では提案を完全に停止する。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式 Learn では、Copilot はコメントの意図を解釈し、関数実装、コード補完、変数名、アルゴリズム選択などの提案に利用すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/2-code-completion-with-git-hub-copilot"
     },
@@ -119,11 +119,11 @@
       "options": [
         {
           "id": "A",
-          "text": "`gh extension install github/gh-copilot` で拡張を追加し、認証後に `gh copilot suggest` などを使う。"
+          "text": "ブラウザーだけで使う機能なので、gh の導入や認証は不要である。"
         },
         {
           "id": "B",
-          "text": "ブラウザーだけで使う機能なので、gh の導入や認証は不要である。"
+          "text": "`gh extension install github/gh-copilot` で拡張を追加し、認証後に `gh copilot suggest` などを使う。"
         },
         {
           "id": "C",
@@ -135,7 +135,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "Copilot CLI は GitHub CLI 拡張として導入し、認証したうえで `gh copilot suggest` や `gh copilot explain` を利用します。"
     },
@@ -146,23 +146,23 @@
       "options": [
         {
           "id": "A",
-          "text": "開発環境内で自然言語の会話を行い、コード生成、デバッグ、説明などを支援する。"
+          "text": "PRU を使わず、すべての複雑処理が無料で無制限に実行される。"
         },
         {
           "id": "B",
-          "text": "コード補完の候補を前後に切り替えるためだけの機能である。"
+          "text": "開発環境内で自然言語の会話を行い、コード生成、デバッグ、説明などを支援する。"
         },
         {
           "id": "C",
-          "text": "GitHub CLI の認証だけを行う機能である。"
+          "text": "コード補完の候補を前後に切り替えるためだけの機能である。"
         },
         {
           "id": "D",
-          "text": "PRU を使わず、すべての複雑処理が無料で無制限に実行される。"
+          "text": "GitHub CLI の認証だけを行う機能である。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式 Learn では、Copilot Chat は開発環境内の対話型 AI アシスタントとして、コード生成、デバッグ、説明、スラッシュコマンド、エージェント利用を扱うと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/3-git-hub-copilot-chat"
     },
@@ -174,24 +174,24 @@
       "options": [
         {
           "id": "A",
-          "text": "#file: で特定ファイルを参照する。"
+          "text": "複雑な質問でも意図を指定しない。"
         },
         {
           "id": "B",
-          "text": "@terminal でターミナル出力に基づく助言を得る。"
+          "text": "#file: で特定ファイルを参照する。"
         },
         {
           "id": "C",
-          "text": "ファイル名や対象範囲を一切示さない。"
+          "text": "@terminal でターミナル出力に基づく助言を得る。"
         },
         {
           "id": "D",
-          "text": "複雑な質問でも意図を指定しない。"
+          "text": "ファイル名や対象範囲を一切示さない。"
         }
       ],
       "correctAnswers": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "explanation": "公式 Learn では、Scope referencing として #file: によるファイル参照、Environment References として @terminal の利用が説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/3-git-hub-copilot-chat"
     },
@@ -233,11 +233,11 @@
         },
         {
           "id": "B",
-          "text": "どのモデルでも常に 0 PRU で利用できる。"
+          "text": "プレミアムモデルは基本的な構文ヘルプにしか使えない。"
         },
         {
           "id": "C",
-          "text": "プレミアムモデルは基本的な構文ヘルプにしか使えない。"
+          "text": "どのモデルでも常に 0 PRU で利用できる。"
         },
         {
           "id": "D",
@@ -260,7 +260,7 @@
         },
         {
           "id": "B",
-          "text": "最大ファイルを探すなどシェル操作だけに使う。"
+          "text": "PRU の月間上限を増やすために使う。"
         },
         {
           "id": "C",
@@ -268,7 +268,7 @@
         },
         {
           "id": "D",
-          "text": "PRU の月間上限を増やすために使う。"
+          "text": "最大ファイルを探すなどシェル操作だけに使う。"
         }
       ],
       "correctAnswers": [
@@ -283,11 +283,11 @@
       "options": [
         {
           "id": "A",
-          "text": "リポジトリ探索、pull request 支援、issue 管理、コードレビューの共同作業。"
+          "text": "ローカルファイルの直接実行だけ。"
         },
         {
           "id": "B",
-          "text": "IDE 内のインライン補完だけ。"
+          "text": "リポジトリ探索、pull request 支援、issue 管理、コードレビューの共同作業。"
         },
         {
           "id": "C",
@@ -295,11 +295,11 @@
         },
         {
           "id": "D",
-          "text": "ローカルファイルの直接実行だけ。"
+          "text": "IDE 内のインライン補完だけ。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式 Learn では、GitHub.com ではリポジトリ探索、pull request 支援、issue 管理、共同コードレビューに Copilot を使う文脈が説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/4-git-hub-copilot-github-web"
     },
@@ -319,11 +319,11 @@
         },
         {
           "id": "C",
-          "text": "ローカル端末の許可ディレクトリを設定する。"
+          "text": "IDE の複数候補ペインを開く。"
         },
         {
           "id": "D",
-          "text": "IDE の複数候補ペインを開く。"
+          "text": "ローカル端末の許可ディレクトリを設定する。"
         }
       ],
       "correctAnswers": [
@@ -339,7 +339,7 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub.com の文脈でリポジトリや PR について支援できる。"
+          "text": "GitHub.com ではローカルの全ファイルシステムを無制限に読み取れる。"
         },
         {
           "id": "B",
@@ -347,15 +347,15 @@
         },
         {
           "id": "C",
-          "text": "GitHub.com ではローカルの全ファイルシステムを無制限に読み取れる。"
+          "text": "コードレビューや共同作業の文脈で役立つ。"
         },
         {
           "id": "D",
-          "text": "コードレビューや共同作業の文脈で役立つ。"
+          "text": "GitHub.com の文脈でリポジトリや PR について支援できる。"
         }
       ],
       "correctAnswers": [
-        "C"
+        "A"
       ],
       "explanation": "公式 Learn では、GitHub.com の Copilot は GitHub 上のリポジトリや PR などの文脈で支援するもので、ローカルファイルシステムを無制限に読む機能ではありません。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/4-git-hub-copilot-github-web"
     },
@@ -366,23 +366,23 @@
       "options": [
         {
           "id": "A",
-          "text": "使用量や許容量、レート制限の詳細は GitHub Copilot ドキュメントで確認する。"
+          "text": "PRU を使うとリポジトリ権限が上がる。"
         },
         {
           "id": "B",
-          "text": "PRU は pull request の行数だけを表す単位である。"
-        },
-        {
-          "id": "C",
           "text": "PRU は GitHub.com では存在しない。"
         },
         {
+          "id": "C",
+          "text": "使用量や許容量、レート制限の詳細は GitHub Copilot ドキュメントで確認する。"
+        },
+        {
           "id": "D",
-          "text": "PRU を使うとリポジトリ権限が上がる。"
+          "text": "PRU は pull request の行数だけを表す単位である。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式 Learn では、PRU の使用量、月間許容量、レート制限は GitHub Copilot ドキュメントで確認する必要があると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/4-git-hub-copilot-github-web"
     },
@@ -393,23 +393,23 @@
       "options": [
         {
           "id": "A",
-          "text": "PR 概要、レビュー提案、ドキュメント更新など、GitHub.com の対象コンテキストに合うタスクで使う。"
-        },
-        {
-          "id": "B",
           "text": "GitHub.com からローカルの Homebrew インストール状況を分析させる。"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "Actions エラー説明を使って IDE の複数提案ペインを開く。"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "issue 管理の例として、ターミナルテーマを dark に変更する。"
+        },
+        {
+          "id": "D",
+          "text": "PR 概要、レビュー提案、ドキュメント更新など、GitHub.com の対象コンテキストに合うタスクで使う。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式 Learn では、GitHub.com ではリポジトリ、issue、pull request、ディスカッション、コードレビュー、Actions エラー説明など Web インターフェイス上の文脈で Copilot を使うと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/4-git-hub-copilot-github-web"
     },
@@ -420,11 +420,11 @@
       "options": [
         {
           "id": "A",
-          "text": "ターミナル内でコマンド説明、シェルコマンド提案、対話的な作業支援を行う。"
+          "text": "GitHub CLI と同じバイナリで、独立して動作しない。"
         },
         {
           "id": "B",
-          "text": "GitHub CLI と同じバイナリで、独立して動作しない。"
+          "text": "ターミナル内でコマンド説明、シェルコマンド提案、対話的な作業支援を行う。"
         },
         {
           "id": "C",
@@ -436,7 +436,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式 Learn では、Copilot CLI はターミナル内でコマンド説明やシェルコマンド提案を行い、GitHub 認証を使いつつ GitHub CLI とは独立して動作すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/5-git-hub-copilot-for-the-command-line"
     },
@@ -448,15 +448,15 @@
       "options": [
         {
           "id": "A",
-          "text": "対話モードは copilot で起動する。"
+          "text": "常に gh copilot publish で起動する。"
         },
         {
           "id": "B",
-          "text": "ワンショットの質問には copilot -i を使える。"
+          "text": "対話モードは copilot で起動する。"
         },
         {
           "id": "C",
-          "text": "常に gh copilot publish で起動する。"
+          "text": "ワンショットの質問には copilot -i を使える。"
         },
         {
           "id": "D",
@@ -464,8 +464,8 @@
         }
       ],
       "correctAnswers": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "explanation": "公式 Learn では、対話モードは copilot、ワンショットプロンプトは copilot -i の例が示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/5-git-hub-copilot-for-the-command-line"
     },
@@ -480,11 +480,11 @@
         },
         {
           "id": "B",
-          "text": "/revise"
+          "text": "/explain <command>"
         },
         {
           "id": "C",
-          "text": "/explain <command>"
+          "text": "/revise"
         },
         {
           "id": "D",
@@ -492,7 +492,7 @@
         }
       ],
       "correctAnswers": [
-        "C"
+        "B"
       ],
       "explanation": "公式 Learn では、/explain <command> は任意のシェルコマンドの説明を求めるための共通スラッシュコマンドとして説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/5-git-hub-copilot-for-the-command-line"
     },
@@ -503,23 +503,23 @@
       "options": [
         {
           "id": "A",
-          "text": "セッション制御や設定にはスラッシュコマンドが必要で、自然言語プロンプトでは置き換えられない。"
+          "text": "/list-dirs は AI モデルを選択する。"
         },
         {
           "id": "B",
-          "text": "すべて自然言語で置き換えられるため、スラッシュコマンドは不要である。"
-        },
-        {
-          "id": "C",
           "text": "/feedback は対話モードを終了する。"
         },
         {
+          "id": "C",
+          "text": "セッション制御や設定にはスラッシュコマンドが必要で、自然言語プロンプトでは置き換えられない。"
+        },
+        {
           "id": "D",
-          "text": "/list-dirs は AI モデルを選択する。"
+          "text": "すべて自然言語で置き換えられるため、スラッシュコマンドは不要である。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式 Learn では、CLI のスラッシュコマンドはセッション制御コマンドで、設定や制御は自然言語プロンプトで置き換えられないと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/5-git-hub-copilot-for-the-command-line"
     },
@@ -530,23 +530,23 @@
       "options": [
         {
           "id": "A",
-          "text": "提案されたシェルコマンドを実行する前に内容を確認し、信頼できるディレクトリで作業する。"
-        },
-        {
-          "id": "B",
-          "text": "@ を付けたファイルは確認なしに実行対象へ追加される。"
-        },
-        {
-          "id": "C",
           "text": "ワンショットモードでは提案コマンドを確認できない。"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "/reset-allowed-tools は信頼ディレクトリ一覧を表示する。"
+        },
+        {
+          "id": "C",
+          "text": "@ を付けたファイルは確認なしに実行対象へ追加される。"
+        },
+        {
+          "id": "D",
+          "text": "提案されたシェルコマンドを実行する前に内容を確認し、信頼できるディレクトリで作業する。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式 Learn では、Copilot CLI は初回起動時に現在フォルダーを信頼するか確認し、効果的な使用のヒントとして実行前に必ずコマンドを確認することが示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/5-git-hub-copilot-for-the-command-line"
     },
@@ -561,7 +561,7 @@
         },
         {
           "id": "B",
-          "text": "Copilot CLI の対話モードでしか利用できない。"
+          "text": "コメントを書くと自動的に無効化される。"
         },
         {
           "id": "C",
@@ -569,7 +569,7 @@
         },
         {
           "id": "D",
-          "text": "コメントを書くと自動的に無効化される。"
+          "text": "Copilot CLI の対話モードでしか利用できない。"
         }
       ],
       "correctAnswers": [
@@ -585,11 +585,11 @@
       "options": [
         {
           "id": "A",
-          "text": "/fix"
+          "text": "/tests"
         },
         {
           "id": "B",
-          "text": "/tests"
+          "text": "/list-dirs"
         },
         {
           "id": "C",
@@ -597,12 +597,12 @@
         },
         {
           "id": "D",
-          "text": "/list-dirs"
+          "text": "/fix"
         }
       ],
       "correctAnswers": [
         "A",
-        "B"
+        "D"
       ],
       "explanation": "公式 Learn では、Copilot Chat の文脈では /fix や /tests などが定型タスクを指定するスラッシュコマンドとして扱われます。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/6-knowledge-check"
     },
@@ -613,23 +613,23 @@
       "options": [
         {
           "id": "A",
-          "text": "/doc"
-        },
-        {
-          "id": "B",
-          "text": "/tests"
-        },
-        {
-          "id": "C",
           "text": "/explain"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "/generate"
+        },
+        {
+          "id": "C",
+          "text": "/tests"
+        },
+        {
+          "id": "D",
+          "text": "/doc"
         }
       ],
       "correctAnswers": [
-        "B"
+        "C"
       ],
       "explanation": "公式 Learn では、/tests は選択したコードの単体テストを自動作成するためのスラッシュコマンドとして説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/6-knowledge-check"
     },
@@ -694,7 +694,7 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub.com。"
+          "text": "GitHub Actions の workflow YAML。"
         },
         {
           "id": "B",
@@ -702,7 +702,7 @@
         },
         {
           "id": "C",
-          "text": "GitHub Actions の workflow YAML。"
+          "text": "GitHub.com。"
         },
         {
           "id": "D",
@@ -710,7 +710,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "GitHub.com では、リポジトリ、Issue、PR などの Web 上の文脈で Copilot を活用できます。ローカル IDE を開かない前提なら最も自然な選択です。"
     },
@@ -722,15 +722,15 @@
       "options": [
         {
           "id": "A",
-          "text": "IDE はインライン補完やコード編集の支援に向く。"
+          "text": "GitHub.com はローカル端末の任意プロセスを直接操作する用途に向く。"
         },
         {
           "id": "B",
-          "text": "CLI はシェルコマンドの説明や提案に向く。"
+          "text": "IDE はインライン補完やコード編集の支援に向く。"
         },
         {
           "id": "C",
-          "text": "GitHub.com はローカル端末の任意プロセスを直接操作する用途に向く。"
+          "text": "CLI はシェルコマンドの説明や提案に向く。"
         },
         {
           "id": "D",
@@ -738,8 +738,8 @@
         }
       ],
       "correctAnswers": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "explanation": "IDE はコードそのものの編集、CLI はターミナル操作の支援に強みがあります。GitHub.com や Mobile には別の役割があり、ローカル IDE と同じ用途ではありません。"
     },
@@ -758,11 +758,11 @@
         },
         {
           "id": "C",
-          "text": "Git LFS、Wiki、Projects。"
+          "text": "SSH キー、GPG 署名、Dependabot。"
         },
         {
           "id": "D",
-          "text": "SSH キー、GPG 署名、Dependabot。"
+          "text": "Git LFS、Wiki、Projects。"
         }
       ],
       "correctAnswers": [
@@ -781,19 +781,19 @@
         },
         {
           "id": "B",
-          "text": "IDE では補完やコメント文脈が重要になる。"
-        },
-        {
-          "id": "C",
           "text": "CLI ではコマンド説明や提案を取得できる。"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "GitHub.com の Copilot は、macOS/Linux の Homebrew インストール手順を実行するための環境である。"
+        },
+        {
+          "id": "D",
+          "text": "IDE では補完やコメント文脈が重要になる。"
         }
       ],
       "correctAnswers": [
-        "D"
+        "C"
       ],
       "explanation": "公式 Learn では、まとめでは、IDE、Chat、GitHub.com、CLI それぞれの文脈で Copilot を使い分けることが整理されています。Homebrew によるインストールは Copilot CLI ユニットの内容です。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/7-summary"
     },
@@ -804,7 +804,7 @@
       "options": [
         {
           "id": "A",
-          "text": "シェル操作の文脈で説明や提案を返せるため。"
+          "text": "GitHub.com の権限設定を直接変更するため。"
         },
         {
           "id": "B",
@@ -816,11 +816,11 @@
         },
         {
           "id": "D",
-          "text": "GitHub.com の権限設定を直接変更するため。"
+          "text": "シェル操作の文脈で説明や提案を返せるため。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "Copilot CLI は、ターミナルでの質問やコマンド候補の提示を支援するための環境です。レビュー承認や権限設定のための機能ではありません。"
     }

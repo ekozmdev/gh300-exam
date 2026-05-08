@@ -13,7 +13,7 @@
         },
         {
           "id": "B",
-          "text": "コード補完だけを使い、チャットやエージェントを使わない場面。"
+          "text": "レビューや検証を省略して、提案をそのまま反映する場面。"
         },
         {
           "id": "C",
@@ -21,7 +21,7 @@
         },
         {
           "id": "D",
-          "text": "レビューや検証を省略して、提案をそのまま反映する場面。"
+          "text": "コード補完だけを使い、チャットやエージェントを使わない場面。"
         }
       ],
       "correctAnswers": [
@@ -37,11 +37,11 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot Edits。"
+          "text": "Copilot Extensions。"
         },
         {
           "id": "B",
-          "text": "Copilot Extensions。"
+          "text": "Copilot Edits。"
         },
         {
           "id": "C",
@@ -65,23 +65,23 @@
       "options": [
         {
           "id": "A",
-          "text": "/explain"
-        },
-        {
-          "id": "B",
           "text": "/tests"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "/doc"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "/help"
+        },
+        {
+          "id": "D",
+          "text": "/explain"
         }
       ],
       "correctAnswers": [
-        "B"
+        "A"
       ],
       "explanation": "公式 Learn では、テスト生成に使う具体的なスラッシュコマンドとして /tests が説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/2-advanced-github-copilot-features"
     },
@@ -92,23 +92,23 @@
       "options": [
         {
           "id": "A",
-          "text": "ドキュメントの記述を目的として使う。"
-        },
-        {
-          "id": "B",
-          "text": "選択コードの単体テストを作成する。"
-        },
-        {
-          "id": "C",
           "text": "ターミナル出力をコンテキストにする。"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "Codespace インスタンスを削除する。"
+        },
+        {
+          "id": "C",
+          "text": "選択コードの単体テストを作成する。"
+        },
+        {
+          "id": "D",
+          "text": "ドキュメントの記述を目的として使う。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式 Learn では、チャットまたはインラインチャットで使える例として、/tests はテストの記述、/docs はドキュメントの記述を目的とすると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/2-advanced-github-copilot-features"
     },
@@ -119,15 +119,15 @@
       "options": [
         {
           "id": "A",
-          "text": "実行したいコマンド案やシェル操作の説明を相談すること。"
-        },
-        {
-          "id": "B",
           "text": "自然言語だけで本番アプリを自動デプロイすること。"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "画像をピクセル単位で編集する専用ツールとして使うこと。"
+        },
+        {
+          "id": "C",
+          "text": "実行したいコマンド案やシェル操作の説明を相談すること。"
         },
         {
           "id": "D",
@@ -135,7 +135,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "@terminal はターミナル文脈で支援を受けたいときに使うエージェントです。コマンドの候補や実行内容の説明を得たい場面に向いています。"
     },
@@ -146,23 +146,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot にプロジェクト固有の規約や期待する振る舞いを伝えるため。"
+          "text": "Copilot Chat の履歴保持日数を変更するため。"
         },
         {
           "id": "B",
-          "text": "GitHub Actions の runner OS を固定するため。"
+          "text": "Copilot にプロジェクト固有の規約や期待する振る舞いを伝えるため。"
         },
         {
           "id": "C",
-          "text": "PRU の月間上限を設定するため。"
+          "text": "GitHub Actions の runner OS を固定するため。"
         },
         {
           "id": "D",
-          "text": "Copilot Chat の履歴保持日数を変更するため。"
+          "text": "PRU の月間上限を設定するため。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "`.github/copilot-instructions.md` は、リポジトリ固有の指示を Copilot に与えるための代表的な場所です。CI 設定や課金設定のためのファイルではありません。"
     },
@@ -174,24 +174,24 @@
       "options": [
         {
           "id": "A",
-          "text": "`@workspace` を使う。"
-        },
-        {
-          "id": "B",
           "text": "`#file` で特定ファイルを参照する。"
         },
         {
+          "id": "B",
+          "text": "`@billing` でリポジトリ内容を読む。"
+        },
+        {
           "id": "C",
-          "text": "`/theme` で対象ファイルを指定する。"
+          "text": "`@workspace` を使う。"
         },
         {
           "id": "D",
-          "text": "`@billing` でリポジトリ内容を読む。"
+          "text": "`/theme` で対象ファイルを指定する。"
         }
       ],
       "correctAnswers": [
         "A",
-        "B"
+        "C"
       ],
       "explanation": "`@workspace` や `#file` は、Copilot にどの範囲を見てほしいかを明示するために有効です。テーマ設定や課金操作のコマンドはコンテキスト参照ではありません。"
     },
@@ -202,23 +202,23 @@
       "options": [
         {
           "id": "A",
-          "text": "作業後は不要な Codespaces リソースを削除し、利用時間の消費を避ける。"
+          "text": "Copilot を使うには常に 2 つ以上の Codespace が必要である。"
         },
         {
           "id": "B",
-          "text": "リポジトリへ変更をアップロードした後も必ず起動し続ける。"
-        },
-        {
-          "id": "C",
           "text": "削除すると GitHub 上のリポジトリも削除される。"
         },
         {
+          "id": "C",
+          "text": "リポジトリへ変更をアップロードした後も必ず起動し続ける。"
+        },
+        {
           "id": "D",
-          "text": "Copilot を使うには常に 2 つ以上の Codespace が必要である。"
+          "text": "作業後は不要な Codespaces リソースを削除し、利用時間の消費を避ける。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式 Learn では、演習後には不要な Codespaces リソースを削除して利用時間の消費を避ける注意が示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/3-exercise-setup"
     },
@@ -229,23 +229,23 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub Marketplace。"
+          "text": "Security タブの Code scanning 画面。"
         },
         {
           "id": "B",
-          "text": "GitHub Pages。"
-        },
-        {
-          "id": "C",
           "text": "Actions の Artifacts 一覧。"
         },
         {
+          "id": "C",
+          "text": "GitHub Marketplace。"
+        },
+        {
           "id": "D",
-          "text": "Security タブの Code scanning 画面。"
+          "text": "GitHub Pages。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "Copilot Extensions は GitHub Marketplace を通じて見つけたり導入したりする考え方です。Pages や Code scanning 画面は別用途です。"
     },
@@ -256,23 +256,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Codespace が起動するまで数分待つ。"
-        },
-        {
-          "id": "B",
-          "text": "残りの演習は開発コンテナーのコンテキストで行う。"
-        },
-        {
-          "id": "C",
           "text": "パッケージのインストール後、uvicorn により Web アプリケーションが起動する。"
         },
         {
-          "id": "D",
+          "id": "B",
+          "text": "Codespace が起動するまで数分待つ。"
+        },
+        {
+          "id": "C",
           "text": "Web アプリケーションの起動確認は GitHub.com の Discussions タブで行う。"
+        },
+        {
+          "id": "D",
+          "text": "残りの演習は開発コンテナーのコンテキストで行う。"
         }
       ],
       "correctAnswers": [
-        "D"
+        "C"
       ],
       "explanation": "公式 Learn では、Web アプリケーションが正常に起動すると、ターミナルの [ポート] タブで Codespace 内のポート 8000 のサーバー実行を確認すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/3-exercise-setup"
     },
@@ -287,7 +287,7 @@
         },
         {
           "id": "B",
-          "text": "新規プロジェクトだけが対象で、既存プロジェクトでは Copilot の文脈機能は使えない。"
+          "text": "プロンプトは必ず /help だけで始める必要がある。"
         },
         {
           "id": "C",
@@ -295,7 +295,7 @@
         },
         {
           "id": "D",
-          "text": "プロンプトは必ず /help だけで始める必要がある。"
+          "text": "新規プロジェクトだけが対象で、既存プロジェクトでは Copilot の文脈機能は使えない。"
         }
       ],
       "correctAnswers": [
@@ -311,11 +311,11 @@
       "options": [
         {
           "id": "A",
-          "text": "/explain で選択コードの説明を得る。"
+          "text": "/fix で問題箇所の修正案を得る。"
         },
         {
           "id": "B",
-          "text": "/fix で問題箇所の修正案を得る。"
+          "text": "/explain で選択コードの説明を得る。"
         },
         {
           "id": "C",
@@ -339,23 +339,23 @@
       "options": [
         {
           "id": "A",
-          "text": "エディター内で選択コードに対して質問や変更依頼を直接行える。"
-        },
-        {
-          "id": "B",
           "text": "GitHub.com の検索結果だけを対象に回答する。"
         },
         {
+          "id": "B",
+          "text": "すべてのファイルを自動でコミットする。"
+        },
+        {
           "id": "C",
-          "text": "ターミナルの許可ディレクトリを管理する。"
+          "text": "エディター内で選択コードに対して質問や変更依頼を直接行える。"
         },
         {
           "id": "D",
-          "text": "すべてのファイルを自動でコミットする。"
+          "text": "ターミナルの許可ディレクトリを管理する。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式 Learn では、インラインチャットは、コードエディター内で選択コードに対する質問や変更依頼を行える対話機能として説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/4-applied-copilot-techniques"
     },
@@ -366,7 +366,7 @@
       "options": [
         {
           "id": "A",
-          "text": "選択したコードや指定ファイルの動作を説明してもらう。"
+          "text": "最後の提案を修正する。"
         },
         {
           "id": "B",
@@ -374,7 +374,7 @@
         },
         {
           "id": "C",
-          "text": "最後の提案を修正する。"
+          "text": "選択したコードや指定ファイルの動作を説明してもらう。"
         },
         {
           "id": "D",
@@ -382,7 +382,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式 Learn では、/explain は選択したコードや指定ファイルの説明を得るために使うと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/4-applied-copilot-techniques"
     },
@@ -393,23 +393,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Python の仮想環境を使うよう明示して Dockerfile 作成を依頼する。"
-        },
-        {
-          "id": "B",
-          "text": "プロジェクト名だけを伝え、Dockerfile の手順は指定しない。"
-        },
-        {
-          "id": "C",
           "text": "@terminal に README.md の全文を要約させる。"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "/tests を使って Dockerfile のコメントだけを生成する。"
+        },
+        {
+          "id": "C",
+          "text": "Python の仮想環境を使うよう明示して Dockerfile 作成を依頼する。"
+        },
+        {
+          "id": "D",
+          "text": "プロジェクト名だけを伝え、Dockerfile の手順は指定しない。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "公式 Learn では、Dockerfile 作成例では、最初の依頼で意図に合わない場合、Python の Virtual Environment を使うなど具体的な手順を指定してプロンプトを書き換える例が示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/4-applied-copilot-techniques"
     },
@@ -420,23 +420,23 @@
       "options": [
         {
           "id": "A",
-          "text": "複数ファイルにまたがる一貫した変更を 1 つの依頼で進めたいとき。"
+          "text": "GitHub Actions の実行時間を削減したいとき。"
         },
         {
           "id": "B",
-          "text": "単一行の補完を受け入れるだけのとき。"
+          "text": "複数ファイルにまたがる一貫した変更を 1 つの依頼で進めたいとき。"
         },
         {
           "id": "C",
-          "text": "課金プランを比較したいとき。"
+          "text": "単一行の補完を受け入れるだけのとき。"
         },
         {
           "id": "D",
-          "text": "GitHub Actions の実行時間を削減したいとき。"
+          "text": "課金プランを比較したいとき。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "Copilot Edits は、複数ファイルにまたがるまとまった変更を進めるときに役立ちます。単一行補完や課金管理の機能ではありません。"
     },
@@ -448,24 +448,24 @@
       "options": [
         {
           "id": "A",
-          "text": "関連ファイルや対象範囲を明示する。"
+          "text": "期待する出力形式を隠しておく。"
         },
         {
           "id": "B",
-          "text": "リポジトリのカスタム指示を整備する。"
-        },
-        {
-          "id": "C",
           "text": "制約を示さずに自由に任せる。"
         },
         {
+          "id": "C",
+          "text": "関連ファイルや対象範囲を明示する。"
+        },
+        {
           "id": "D",
-          "text": "期待する出力形式を隠しておく。"
+          "text": "リポジトリのカスタム指示を整備する。"
         }
       ],
       "correctAnswers": [
-        "A",
-        "B"
+        "C",
+        "D"
       ],
       "explanation": "対象範囲とルールが明確なほど、Copilot は意図に沿った変更を返しやすくなります。曖昧さを増やすと、不要な差分や見当違いの提案が出やすくなります。"
     },
@@ -480,11 +480,11 @@
         },
         {
           "id": "B",
-          "text": "公開コード一致フィルターを無効化する。"
+          "text": "ローカル Git 設定を書き換える。"
         },
         {
           "id": "C",
-          "text": "ローカル Git 設定を書き換える。"
+          "text": "公開コード一致フィルターを無効化する。"
         },
         {
           "id": "D",
@@ -503,23 +503,23 @@
       "options": [
         {
           "id": "A",
-          "text": "作成したルートのコードを選択し、Spain を country/region として使う /tests のプロンプトを出す。"
+          "text": "/generate で国/地域の都市を返すルートをもう一度作り、テスト作成は後回しにする。"
         },
         {
           "id": "B",
-          "text": "README.md だけを選択し、API ルートのコードは Copilot に見せない。"
-        },
-        {
-          "id": "C",
           "text": "Seville 以外の都市が含まれない問題を、チャットに共有せずテスト名だけ変える。"
         },
         {
+          "id": "C",
+          "text": "README.md だけを選択し、API ルートのコードは Copilot に見せない。"
+        },
+        {
           "id": "D",
-          "text": "/generate で国/地域の都市を返すルートをもう一度作り、テスト作成は後回しにする。"
+          "text": "作成したルートのコードを選択し、Spain を country/region として使う /tests のプロンプトを出す。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式 Learn では、新しいルートを作成した後、コードを選択し、Spain を country/region として使う `/tests help me to create a new test for this route that uses Spain as the country/region.` というプロンプトでテスト作成を依頼すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/5-exercise-update-a-web-api"
     },
@@ -557,7 +557,7 @@
       "options": [
         {
           "id": "A",
-          "text": "入力時にテキストエディターに表示される候補。"
+          "text": "@terminal が最後のコマンドを説明するときの見出し。"
         },
         {
           "id": "B",
@@ -565,15 +565,15 @@
         },
         {
           "id": "C",
-          "text": "@terminal が最後のコマンドを説明するときの見出し。"
+          "text": "Codespaces の [ポート] タブに出るサーバー通知。"
         },
         {
           "id": "D",
-          "text": "Codespaces の [ポート] タブに出るサーバー通知。"
+          "text": "入力時にテキストエディターに表示される候補。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "ゴーストテキストは、入力中のエディターに薄く表示される補完候補です。必要に応じて受け入れたり編集したりしながら利用します。"
     },
@@ -588,7 +588,7 @@
         },
         {
           "id": "B",
-          "text": "Windows は Alt+I、Mac は Option+I。"
+          "text": "Windows は Ctrl+Shift+P、Mac は Command+Shift+P。"
         },
         {
           "id": "C",
@@ -596,7 +596,7 @@
         },
         {
           "id": "D",
-          "text": "Windows は Ctrl+Shift+P、Mac は Command+Shift+P。"
+          "text": "Windows は Alt+I、Mac は Option+I。"
         }
       ],
       "correctAnswers": [
@@ -611,7 +611,7 @@
       "options": [
         {
           "id": "A",
-          "text": "チャットまたはインラインウィンドウ内で、一般的な開発タスクをすばやく解決するためのショートカット。"
+          "text": "プロジェクト内の侵入や脆弱性だけを検出するセキュリティ機能。"
         },
         {
           "id": "B",
@@ -619,15 +619,15 @@
         },
         {
           "id": "C",
-          "text": "プロジェクト内の侵入や脆弱性だけを検出するセキュリティ機能。"
+          "text": "Codespace インスタンスを作成・削除する GitHub.com の画面操作。"
         },
         {
           "id": "D",
-          "text": "Codespace インスタンスを作成・削除する GitHub.com の画面操作。"
+          "text": "チャットまたはインラインウィンドウ内で、一般的な開発タスクをすばやく解決するためのショートカット。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "スラッシュコマンドは /fix や /tests のように、よく使う開発タスクを短い入力で呼び出すためのショートカットです。"
     },
@@ -646,11 +646,11 @@
         },
         {
           "id": "C",
-          "text": "プロジェクト内の脆弱性と侵入だけを検出する。"
+          "text": "インラインチャットを開くショートカットを変更する。"
         },
         {
           "id": "D",
-          "text": "インラインチャットを開くショートカットを変更する。"
+          "text": "プロジェクト内の脆弱性と侵入だけを検出する。"
         }
       ],
       "correctAnswers": [
@@ -665,11 +665,11 @@
       "options": [
         {
           "id": "A",
-          "text": "長いプロンプトを書かずに、コードの問題への対処と修正を依頼しやすくなる。"
+          "text": "VS Code プロジェクト内の名前付け規則を自動で統一する。"
         },
         {
           "id": "B",
-          "text": "VS Code プロジェクト内の名前付け規則を自動で統一する。"
+          "text": "長いプロンプトを書かずに、コードの問題への対処と修正を依頼しやすくなる。"
         },
         {
           "id": "C",
@@ -681,7 +681,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "/fix は長い説明を書かなくても修正支援を呼び出せるスラッシュコマンドで、問題箇所の改善案を素早く得たいときに便利です。"
     },
@@ -692,11 +692,11 @@
       "options": [
         {
           "id": "A",
-          "text": "スタイルや設計ルールを毎回説明せずに、継続して共有できる。"
+          "text": "どの環境でも Premium Requests を消費しなくなる。"
         },
         {
           "id": "B",
-          "text": "どの環境でも Premium Requests を消費しなくなる。"
+          "text": "スタイルや設計ルールを毎回説明せずに、継続して共有できる。"
         },
         {
           "id": "C",
@@ -708,7 +708,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "リポジトリ単位の指示は、チームのルールや期待値を繰り返し伝える手間を減らします。品質ゲートや課金の代替ではありません。"
     },
@@ -720,7 +720,7 @@
       "options": [
         {
           "id": "A",
-          "text": "チャット、エージェント、インラインチャット、スラッシュコマンドを使う。"
+          "text": "GitHub.com で PRU 使用量を監視する。"
         },
         {
           "id": "B",
@@ -728,16 +728,16 @@
         },
         {
           "id": "C",
-          "text": "Copilot CLI の /theme でターミナルテーマを変更する。"
+          "text": "チャット、エージェント、インラインチャット、スラッシュコマンドを使う。"
         },
         {
           "id": "D",
-          "text": "GitHub.com で PRU 使用量を監視する。"
+          "text": "Copilot CLI の /theme でターミナルテーマを変更する。"
         }
       ],
       "correctAnswers": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "explanation": "公式 Learn では、到達目標として、チャット、エージェント、インラインチャット、スラッシュコマンドを使うこと、Copilot Chat でコンテキスト対応の支援を得ることが示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/7-summary"
     },
@@ -748,11 +748,11 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub の Codespaces に移動し、対象インスタンスの 3 点メニューから [削除] を選ぶ。"
+          "text": "VS Code のチャットアイコンを押し、/delete-codespace を入力する。"
         },
         {
           "id": "B",
-          "text": "VS Code のチャットアイコンを押し、/delete-codespace を入力する。"
+          "text": "ターミナルの [ポート] タブから 8000 番ポートを閉じる。"
         },
         {
           "id": "C",
@@ -760,11 +760,11 @@
         },
         {
           "id": "D",
-          "text": "ターミナルの [ポート] タブから 8000 番ポートを閉じる。"
+          "text": "GitHub の Codespaces に移動し、対象インスタンスの 3 点メニューから [削除] を選ぶ。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "公式 Learn では、まとめでは、GitHub の Codespaces で対象インスタンスを見つけ、3 点メニューから [削除] を選択して Codespace インスタンスを削除すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/7-summary"
     },
@@ -775,23 +775,23 @@
       "options": [
         {
           "id": "A",
-          "text": "変更をコミットしてプッシュしておかないと、作業が失われる。"
+          "text": "削除すると GitHub リポジトリも削除されるため、fork を作る。"
         },
         {
           "id": "B",
-          "text": "削除前に /tests で全ファイルの単体テストを必ず生成する。"
+          "text": "変更をコミットしてプッシュしておかないと、作業が失われる。"
         },
         {
           "id": "C",
-          "text": "削除前に README.md を空にしておく。"
+          "text": "削除前に /tests で全ファイルの単体テストを必ず生成する。"
         },
         {
           "id": "D",
-          "text": "削除すると GitHub リポジトリも削除されるため、fork を作る。"
+          "text": "削除前に README.md を空にしておく。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式 Learn では、まとめの注記では、リポジトリに変更をコミットしないとすべての作業が失われるため、Codespace インスタンスを削除する前に変更をコミットしてプッシュすることが重要だと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/7-summary"
     },
@@ -810,11 +810,11 @@
         },
         {
           "id": "C",
-          "text": "必ず新しいモデルへ切り替える。"
+          "text": "関連ドキュメントを削除して差分を減らす。"
         },
         {
           "id": "D",
-          "text": "関連ドキュメントを削除して差分を減らす。"
+          "text": "必ず新しいモデルへ切り替える。"
         }
       ],
       "correctAnswers": [

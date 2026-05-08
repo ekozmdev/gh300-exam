@@ -13,15 +13,15 @@
         },
         {
           "id": "B",
-          "text": "GitHub.com だけで動作するコード検索サービス"
-        },
-        {
-          "id": "C",
           "text": "OpenAI Codex を利用者が直接管理する画面"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "PR 要約だけを作る GitHub Actions ワークフロー"
+        },
+        {
+          "id": "D",
+          "text": "GitHub.com だけで動作するコード検索サービス"
         }
       ],
       "correctAnswers": [
@@ -41,7 +41,7 @@
         },
         {
           "id": "B",
-          "text": "開発者の全体的な生産性が 55% 速くなった"
+          "text": "IDE 拡張機能が不要になった"
         },
         {
           "id": "C",
@@ -49,12 +49,12 @@
         },
         {
           "id": "D",
-          "text": "IDE 拡張機能が不要になった"
+          "text": "開発者の全体的な生産性が 55% 速くなった"
         }
       ],
       "correctAnswers": [
         "A",
-        "B"
+        "D"
       ],
       "explanation": "公式 Learn では、調査結果として、新しいコードの 46% が AI によって記述され、開発者の全体的な生産性が 55% 速くなったことなどが挙げられています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/2-github-copilot-your-ai-pair-programmer"
     },
@@ -66,11 +66,11 @@
       "options": [
         {
           "id": "A",
-          "text": "VS Code"
+          "text": "Microsoft Teams"
         },
         {
           "id": "B",
-          "text": "Visual Studio"
+          "text": "Azure Portal の ARM テンプレート エディター"
         },
         {
           "id": "C",
@@ -78,17 +78,17 @@
         },
         {
           "id": "D",
-          "text": "Microsoft Teams"
+          "text": "Visual Studio"
         },
         {
           "id": "E",
-          "text": "Azure Portal の ARM テンプレート エディター"
+          "text": "VS Code"
         }
       ],
       "correctAnswers": [
-        "A",
-        "B",
-        "C"
+        "C",
+        "D",
+        "E"
       ],
       "explanation": "公式 Learn では、VS Code、Visual Studio、Vim/Neovim、JetBrains スイートの IDE 用の拡張機能として利用できると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/2-github-copilot-your-ai-pair-programmer"
     },
@@ -103,15 +103,15 @@
         },
         {
           "id": "B",
-          "text": "月次制限付きの無料コード補完だけを個人に提供する"
-        },
-        {
-          "id": "C",
           "text": "追加のプレミアムリクエスト容量と優先インフラだけを提供する個人向け上位プラン"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "GitHub Enterprise Cloud 統合と組織全体のモデル カスタマイズだけを提供する"
+        },
+        {
+          "id": "D",
+          "text": "月次制限付きの無料コード補完だけを個人に提供する"
         }
       ],
       "correctAnswers": [
@@ -126,23 +126,23 @@
       "options": [
         {
           "id": "A",
-          "text": "内部/プライベート コードに基づくカスタマイズ、GitHub Enterprise Cloud 統合、コードベース探索など"
-        },
-        {
-          "id": "B",
           "text": "Free と同じ月次制限付きチャットだけ"
         },
         {
+          "id": "B",
+          "text": "内部/プライベート コードに基づくカスタマイズ、GitHub Enterprise Cloud 統合、コードベース探索など"
+        },
+        {
           "id": "C",
-          "text": "CLI のコマンド候補だけ"
+          "text": "VS Code の状態アイコンからの補完無効化だけ"
         },
         {
           "id": "D",
-          "text": "VS Code の状態アイコンからの補完無効化だけ"
+          "text": "CLI のコマンド候補だけ"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "公式 Learn では、Enterprise には Business の全機能に加え、プライベート コードに基づく候補、GitHub Enterprise Cloud 統合、AI 検索、組織全体のカスタマイズなどが含まれます。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/2-github-copilot-your-ai-pair-programmer"
     },
@@ -152,24 +152,24 @@
       "prompt": "GitHub Copilot のインライン提案の精度を高める方法として適切なものはどれか。",
       "options": [
         {
-          "id": "a",
-          "text": "意図が分からない短い変数名だけで実装する"
-        },
-        {
-          "id": "b",
+          "id": "A",
           "text": "関数名やコメントで目的と入出力を明確にする"
         },
         {
-          "id": "c",
-          "text": "関連コードを削除して文脈を減らす"
+          "id": "B",
+          "text": "提案を使う前に毎回拡張機能を無効化する"
         },
         {
-          "id": "d",
-          "text": "提案を使う前に毎回拡張機能を無効化する"
+          "id": "C",
+          "text": "意図が分からない短い変数名だけで実装する"
+        },
+        {
+          "id": "D",
+          "text": "関連コードを削除して文脈を減らす"
         }
       ],
       "correctAnswers": [
-        "b"
+        "A"
       ],
       "explanation": "Copilot は周囲のコードやコメントなどの文脈を使って提案を生成します。関数の目的や入力・出力を明確にすると、より意図に合った補完を得やすくなります。"
     },
@@ -179,24 +179,24 @@
       "prompt": "Copilot Chat がインライン提案と異なる点として最も適切なものはどれか。",
       "options": [
         {
-          "id": "a",
-          "text": "自然言語で質問し、説明や改善案を対話的に得られる"
+          "id": "A",
+          "text": "常に 1 行だけの回答しか返さない"
         },
         {
-          "id": "b",
-          "text": "コード補完しか行えず、質問には使えない"
-        },
-        {
-          "id": "c",
+          "id": "B",
           "text": "ターミナル専用であり、IDE では使えない"
         },
         {
-          "id": "d",
-          "text": "常に 1 行だけの回答しか返さない"
+          "id": "C",
+          "text": "コード補完しか行えず、質問には使えない"
+        },
+        {
+          "id": "D",
+          "text": "自然言語で質問し、説明や改善案を対話的に得られる"
         }
       ],
       "correctAnswers": [
-        "a"
+        "D"
       ],
       "explanation": "Copilot Chat は自然言語で質問でき、コードの説明、修正方針、設計相談などを対話的に進められます。インライン提案は編集中のコード補完が中心です。"
     },
@@ -208,7 +208,7 @@
       "options": [
         {
           "id": "A",
-          "text": "/explain"
+          "text": "/billing"
         },
         {
           "id": "B",
@@ -216,21 +216,21 @@
         },
         {
           "id": "C",
-          "text": "/tests"
-        },
-        {
-          "id": "D",
           "text": "/deploy"
         },
         {
+          "id": "D",
+          "text": "/explain"
+        },
+        {
           "id": "E",
-          "text": "/billing"
+          "text": "/tests"
         }
       ],
       "correctAnswers": [
-        "A",
         "B",
-        "C"
+        "D",
+        "E"
       ],
       "explanation": "公式 Learn では、一般的なスラッシュ コマンドとして /explain、/suggest、/tests、/comment が示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/3-interacting-with-copilot"
     },
@@ -245,7 +245,7 @@
         },
         {
           "id": "B",
-          "text": "既存コードを右クリックすると PR 概要だけを生成する"
+          "text": "Alt+] でコメントを GitHub Issue に変換する"
         },
         {
           "id": "C",
@@ -253,7 +253,7 @@
         },
         {
           "id": "D",
-          "text": "Alt+] でコメントを GitHub Issue に変換する"
+          "text": "既存コードを右クリックすると PR 概要だけを生成する"
         }
       ],
       "correctAnswers": [
@@ -267,24 +267,24 @@
       "prompt": "GitHub Copilot CLI が特に役立つ場面はどれか。",
       "options": [
         {
-          "id": "a",
+          "id": "A",
           "text": "ターミナルでコマンド生成やシェル操作の説明を受けたいとき"
         },
         {
-          "id": "b",
+          "id": "B",
           "text": "スマートフォンで通知だけを確認したいとき"
         },
         {
-          "id": "c",
+          "id": "C",
           "text": "画像編集ソフトのショートカットを学びたいとき"
         },
         {
-          "id": "d",
+          "id": "D",
           "text": "IDE を使わずに GUI だけでコード補完したいとき"
         }
       ],
       "correctAnswers": [
-        "a"
+        "A"
       ],
       "explanation": "Copilot CLI はターミナル作業を支援する機能です。コマンドの生成、既存コマンドの説明、エージェントを使ったシェル中心の作業などに向いています。"
     },
@@ -294,24 +294,24 @@
       "prompt": "組織で GitHub Copilot を導入するとき、管理者が最初に確認すべきものはどれか。",
       "options": [
         {
-          "id": "a",
-          "text": "対象ユーザーへのライセンス割り当てと利用ポリシー"
-        },
-        {
-          "id": "b",
-          "text": "利用者ごとのキーボード配列"
-        },
-        {
-          "id": "c",
+          "id": "A",
           "text": "各開発者の個人用ブログ設定"
         },
         {
-          "id": "d",
+          "id": "B",
+          "text": "対象ユーザーへのライセンス割り当てと利用ポリシー"
+        },
+        {
+          "id": "C",
           "text": "リポジトリの star 数"
+        },
+        {
+          "id": "D",
+          "text": "利用者ごとのキーボード配列"
         }
       ],
       "correctAnswers": [
-        "a"
+        "B"
       ],
       "explanation": "組織導入では、誰にライセンスを付与するか、どの機能やモデルを許可するかを最初に整理することが重要です。これにより安全で一貫した利用を始められます。"
     },
@@ -326,7 +326,7 @@
         },
         {
           "id": "B",
-          "text": "Ghost Text"
+          "text": "公開コード一致フィルター"
         },
         {
           "id": "C",
@@ -334,7 +334,7 @@
         },
         {
           "id": "D",
-          "text": "公開コード一致フィルター"
+          "text": "Ghost Text"
         }
       ],
       "correctAnswers": [
@@ -375,24 +375,24 @@
       "prompt": "IDE で Copilot が期待通り動かないとき、最初に確認する項目として適切なものはどれか。",
       "options": [
         {
-          "id": "a",
-          "text": "拡張機能の有効化、サインイン状態、ライセンスの有無"
-        },
-        {
-          "id": "b",
+          "id": "A",
           "text": "ディスプレイの明るさ設定"
         },
         {
-          "id": "c",
-          "text": "キーボードの物理的な色"
+          "id": "B",
+          "text": "ブラウザーのホームページ"
         },
         {
-          "id": "d",
-          "text": "ブラウザーのホームページ"
+          "id": "C",
+          "text": "拡張機能の有効化、サインイン状態、ライセンスの有無"
+        },
+        {
+          "id": "D",
+          "text": "キーボードの物理的な色"
         }
       ],
       "correctAnswers": [
-        "a"
+        "C"
       ],
       "explanation": "Copilot が動作しない場合は、まず拡張機能が有効か、GitHub に正しくサインインしているか、利用権限やライセンスがあるかを確認するのが基本です。"
     },
@@ -402,24 +402,24 @@
       "prompt": "企業ネットワーク環境で GitHub Copilot を導入する際に重要な観点はどれか。",
       "options": [
         {
-          "id": "a",
-          "text": "必要な通信先へのアクセス許可やプロキシ設定を確認すること"
-        },
-        {
-          "id": "b",
+          "id": "A",
           "text": "利用者のデスクの向きを統一すること"
         },
         {
-          "id": "c",
+          "id": "B",
           "text": "全員の端末名を同じにすること"
         },
         {
-          "id": "d",
+          "id": "C",
+          "text": "必要な通信先へのアクセス許可やプロキシ設定を確認すること"
+        },
+        {
+          "id": "D",
           "text": "コミットメッセージの言語を固定すること"
         }
       ],
       "correctAnswers": [
-        "a"
+        "C"
       ],
       "explanation": "企業環境では、プロキシやファイアウォールの制約で Copilot が通信できない場合があります。必要な通信先や認証方式を事前に確認することが導入成功の鍵です。"
     },
@@ -431,24 +431,24 @@
       "options": [
         {
           "id": "A",
-          "text": "開いている関連ファイル。"
-        },
-        {
-          "id": "B",
           "text": "インデックス化されたリポジトリ情報。"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "無関係な長文会話をすべて貼り付けること。"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "目的を示さない 1 語だけの指示。"
+        },
+        {
+          "id": "D",
+          "text": "開いている関連ファイル。"
         }
       ],
       "correctAnswers": [
         "A",
-        "B"
+        "D"
       ],
       "explanation": "Copilot は、開いているファイルやリポジトリの構造などの関連コンテキストがあると回答の精度が上がります。無関係な情報や曖昧な依頼は逆効果です。"
     },
@@ -459,11 +459,11 @@
       "options": [
         {
           "id": "A",
-          "text": "入力中の位置に淡色で表示されるインライン候補。"
+          "text": "PR の説明文を自動で置き換える機能。"
         },
         {
           "id": "B",
-          "text": "PR の説明文を自動で置き換える機能。"
+          "text": "入力中の位置に淡色で表示されるインライン候補。"
         },
         {
           "id": "C",
@@ -475,7 +475,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "Ghost Text は、入力中にエディター内へ薄い色で表示されるインライン提案を指します。PR や knowledge base の管理機能ではありません。"
     },
@@ -490,11 +490,11 @@
         },
         {
           "id": "B",
-          "text": "Free のみ。"
+          "text": "Pro のみ。"
         },
         {
           "id": "C",
-          "text": "Pro のみ。"
+          "text": "Free のみ。"
         },
         {
           "id": "D",
@@ -513,23 +513,23 @@
       "options": [
         {
           "id": "A",
-          "text": "カスタム指示を定義して、期待する書き方や前提を共有する。"
-        },
-        {
-          "id": "B",
           "text": "毎回ゼロから同じ説明を手入力する。"
         },
         {
+          "id": "B",
+          "text": "カスタム指示を定義して、期待する書き方や前提を共有する。"
+        },
+        {
           "id": "C",
-          "text": "補完機能を無効にして運用する。"
+          "text": "チャット履歴を毎回削除する。"
         },
         {
           "id": "D",
-          "text": "チャット履歴を毎回削除する。"
+          "text": "補完機能を無効にして運用する。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "カスタム指示を使うと、チームの規約や期待値を繰り返し入力せずに共有できます。継続的なカスタマイズに向いた方法です。"
     },
@@ -540,7 +540,7 @@
       "options": [
         {
           "id": "A",
-          "text": "コードベース全体の構造を把握し、関連箇所をまたいだ質問に答えやすくなる。"
+          "text": "ローカルの Git 設定を自動変更する。"
         },
         {
           "id": "B",
@@ -552,11 +552,11 @@
         },
         {
           "id": "D",
-          "text": "ローカルの Git 設定を自動変更する。"
+          "text": "コードベース全体の構造を把握し、関連箇所をまたいだ質問に答えやすくなる。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "インデックスがあると、Copilot はファイル間の関係やコードベースの構造を踏まえた回答を返しやすくなります。表示速度だけの機能ではありません。"
     },
@@ -566,24 +566,24 @@
       "prompt": "GitHub Copilot の説明として最も適切なものはどれか。",
       "options": [
         {
-          "id": "a",
-          "text": "開発フロー全体でコード作成や質問応答を支援する AI アシスタント"
+          "id": "A",
+          "text": "データベースだけを管理する運用製品"
         },
         {
-          "id": "b",
+          "id": "B",
           "text": "Git の履歴だけを可視化する専用ツール"
         },
         {
-          "id": "c",
-          "text": "依存関係を自動で削除するパッケージマネージャー"
+          "id": "C",
+          "text": "開発フロー全体でコード作成や質問応答を支援する AI アシスタント"
         },
         {
-          "id": "d",
-          "text": "データベースだけを管理する運用製品"
+          "id": "D",
+          "text": "依存関係を自動で削除するパッケージマネージャー"
         }
       ],
       "correctAnswers": [
-        "a"
+        "C"
       ],
       "explanation": "GitHub Copilot は、コード補完、チャット、レビュー支援、CLI などを通じて開発者を支援する AI アシスタントです。単一用途のツールではなく、複数の作業に活用できます。"
     },
@@ -593,24 +593,24 @@
       "prompt": "GitHub Copilot を利用できる環境の組み合わせとして適切なものはどれか。",
       "options": [
         {
-          "id": "a",
-          "text": "VS Code、Visual Studio、JetBrains 製 IDE、GitHub.com"
-        },
-        {
-          "id": "b",
-          "text": "表計算ソフト、動画編集ソフト、会計ソフト、メールソフト"
-        },
-        {
-          "id": "c",
+          "id": "A",
           "text": "プリンター設定画面、BIOS、ルーター管理画面、電卓"
         },
         {
-          "id": "d",
+          "id": "B",
+          "text": "表計算ソフト、動画編集ソフト、会計ソフト、メールソフト"
+        },
+        {
+          "id": "C",
+          "text": "VS Code、Visual Studio、JetBrains 製 IDE、GitHub.com"
+        },
+        {
+          "id": "D",
           "text": "電子書籍リーダー、画像ビューアー、音楽プレーヤー、メモ帳"
         }
       ],
       "correctAnswers": [
-        "a"
+        "C"
       ],
       "explanation": "GitHub Copilot は複数の開発環境で利用できます。代表例として VS Code、Visual Studio、JetBrains 製 IDE、GitHub.com などがあります。"
     },
@@ -620,24 +620,24 @@
       "prompt": "GitHub Copilot Business と Enterprise の違いとして最も適切なものはどれか。",
       "options": [
         {
-          "id": "a",
-          "text": "Enterprise は enterprise アカウント単位の管理や追加のガバナンス機能を提供する"
+          "id": "A",
+          "text": "両者に管理機能の違いは一切ない"
         },
         {
-          "id": "b",
+          "id": "B",
           "text": "Business は個人開発者しか利用できず、Enterprise は無料である"
         },
         {
-          "id": "c",
+          "id": "C",
           "text": "Enterprise ではチャットが使えず、Business でのみ使える"
         },
         {
-          "id": "d",
-          "text": "両者に管理機能の違いは一切ない"
+          "id": "D",
+          "text": "Enterprise は enterprise アカウント単位の管理や追加のガバナンス機能を提供する"
         }
       ],
       "correctAnswers": [
-        "a"
+        "D"
       ],
       "explanation": "Business は主に組織単位での導入向け、Enterprise は enterprise アカウント単位の管理やより広い統制を必要とする大規模利用向けです。"
     },
@@ -647,24 +647,24 @@
       "prompt": "個人向けプランと比べた組織向けプランの主な利点はどれか。",
       "options": [
         {
-          "id": "a",
+          "id": "A",
+          "text": "コードレビューが不要になること"
+        },
+        {
+          "id": "B",
           "text": "管理者が利用者や機能ポリシーを一元管理できること"
         },
         {
-          "id": "b",
-          "text": "ローカルのキーボード設定が自動で最適化されること"
-        },
-        {
-          "id": "c",
+          "id": "C",
           "text": "どの外部サービスよりも常に高速になること"
         },
         {
-          "id": "d",
-          "text": "コードレビューが不要になること"
+          "id": "D",
+          "text": "ローカルのキーボード設定が自動で最適化されること"
         }
       ],
       "correctAnswers": [
-        "a"
+        "B"
       ],
       "explanation": "組織向けプランでは、ライセンス割り当て、機能制御、利用ポリシーなどを管理者が一元的に運用できます。これは個人向けプランとの大きな違いです。"
     },
@@ -674,24 +674,24 @@
       "prompt": "無料利用枠と比べた有料プランの特徴として適切なものはどれか。",
       "options": [
         {
-          "id": "a",
-          "text": "より多くの使用量や追加機能を利用できる"
-        },
-        {
-          "id": "b",
+          "id": "A",
           "text": "GitHub アカウントが不要になる"
         },
         {
-          "id": "c",
-          "text": "人による確認が不要になる"
+          "id": "B",
+          "text": "より多くの使用量や追加機能を利用できる"
         },
         {
-          "id": "d",
+          "id": "C",
           "text": "ネットワーク接続なしで常に利用できる"
+        },
+        {
+          "id": "D",
+          "text": "人による確認が不要になる"
         }
       ],
       "correctAnswers": [
-        "a"
+        "B"
       ],
       "explanation": "有料プランでは、無料利用枠より多くの使用量や追加機能が提供されます。ただし、出力の確認や利用環境に応じた設定は引き続き必要です。"
     },
@@ -702,23 +702,23 @@
       "options": [
         {
           "id": "A",
-          "text": "組織の内部知識を基に回答を根拠づける。"
-        },
-        {
-          "id": "B",
-          "text": "Ghost Text の表示色を変更する。"
-        },
-        {
-          "id": "C",
           "text": "Premium Requests を常に 0 にする。"
         },
         {
-          "id": "D",
+          "id": "B",
+          "text": "組織の内部知識を基に回答を根拠づける。"
+        },
+        {
+          "id": "C",
           "text": "IDE 拡張機能を不要にする。"
+        },
+        {
+          "id": "D",
+          "text": "Ghost Text の表示色を変更する。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "knowledge base は、社内ドキュメントやコードベースなどの知識を背景にして回答の関連性を高めるために使います。UI の見た目や課金の固定化が目的ではありません。"
     },
@@ -729,7 +729,7 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub.com。"
+          "text": "オフラインのプレーンテキストビューアー。"
         },
         {
           "id": "B",
@@ -741,11 +741,11 @@
         },
         {
           "id": "D",
-          "text": "オフラインのプレーンテキストビューアー。"
+          "text": "GitHub.com。"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "GitHub.com では Web 上で Copilot を利用できます。単なるテキストエディターや表計算ソフトがそのまま対話環境になるわけではありません。"
     },
@@ -756,15 +756,15 @@
       "options": [
         {
           "id": "A",
-          "text": "カスタム指示や knowledge base を整備する。"
-        },
-        {
-          "id": "B",
           "text": "毎回同じ背景説明を長文で貼り付ける。"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "補完候補を必ず拒否して学習させる。"
+        },
+        {
+          "id": "C",
+          "text": "カスタム指示や knowledge base を整備する。"
         },
         {
           "id": "D",
@@ -772,7 +772,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "継続的な運用では、カスタム指示や knowledge base のような再利用可能な設定が有効です。毎回の手作業だけでは一貫性を保ちにくくなります。"
     },
@@ -784,24 +784,24 @@
       "options": [
         {
           "id": "A",
-          "text": "カスタム指示。"
+          "text": "ローカル履歴の削除。"
         },
         {
           "id": "B",
-          "text": "有効化や無効化を含むポリシー設定。"
+          "text": "カスタム指示。"
         },
         {
           "id": "C",
-          "text": "IDE のテーマ設定。"
+          "text": "有効化や無効化を含むポリシー設定。"
         },
         {
           "id": "D",
-          "text": "ローカル履歴の削除。"
+          "text": "IDE のテーマ設定。"
         }
       ],
       "correctAnswers": [
-        "A",
-        "B"
+        "B",
+        "C"
       ],
       "explanation": "組織運用では、ポリシー設定とカスタム指示が重要です。見た目の設定や個人の履歴削除は、組織的な制御や回答品質の標準化には直結しません。"
     },
@@ -811,24 +811,24 @@
       "prompt": "コード補完、Chat、CLI を組み合わせて使う利点として最も適切なものはどれか。",
       "options": [
         {
-          "id": "a",
-          "text": "作業内容に応じて最適な対話方法を選び、開発フロー全体を効率化できる"
-        },
-        {
-          "id": "b",
+          "id": "A",
           "text": "どの作業でも必ず同じ画面しか使えなくなる"
         },
         {
-          "id": "c",
+          "id": "B",
           "text": "人によるレビューやテストが不要になる"
         },
         {
-          "id": "d",
+          "id": "C",
           "text": "すべての生成結果が自動で本番反映される"
+        },
+        {
+          "id": "D",
+          "text": "作業内容に応じて最適な対話方法を選び、開発フロー全体を効率化できる"
         }
       ],
       "correctAnswers": [
-        "a"
+        "D"
       ],
       "explanation": "インライン補完は実装中の補助、Chat は説明や設計相談、CLI はターミナル作業に向いています。使い分けることで開発全体の効率を高められます。"
     }
