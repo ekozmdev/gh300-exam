@@ -33,30 +33,30 @@
       "questionNumber": 2,
       "type": "multiple",
       "selectionCount": 2,
-      "prompt": "このユニットで扱う高度な機能として正しいものを 2 つ選べ。",
+      "prompt": "高度な GitHub Copilot 機能として適切なものを 2 つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "インラインチャット。"
+          "text": "Copilot Edits。"
         },
         {
           "id": "B",
-          "text": "スラッシュコマンド。"
+          "text": "Copilot Extensions。"
         },
         {
           "id": "C",
-          "text": "Codespaces の課金削除手順だけ。"
+          "text": "GitHub Actions の分単位課金設定。"
         },
         {
           "id": "D",
-          "text": "GitHub Actions のランナーサイズ変更。"
+          "text": "ブランチ保護ルールそのもの。"
         }
       ],
       "correctAnswers": [
         "A",
         "B"
       ],
-      "explanation": "公式 Learn では、高度な機能として、インラインチャット、スラッシュコマンド、エージェントなどが扱われます。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/2-advanced-github-copilot-features"
+      "explanation": "Edits と Extensions は、Copilot の高度な活用に含まれる代表的な機能です。課金設定やブランチ保護は GitHub 全体の管理機能であり、Copilot 固有の高度機能ではありません。"
     },
     {
       "questionNumber": 3,
@@ -115,85 +115,85 @@
     {
       "questionNumber": 5,
       "type": "single",
-      "prompt": "@terminal エージェントの使い方として本文に合うものはどれか。",
+      "prompt": "@terminal エージェントに向いている依頼はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "GitHub Copilot とチャットしてターミナルと対話するために使う。"
+          "text": "実行したいコマンド案やシェル操作の説明を相談すること。"
         },
         {
           "id": "B",
-          "text": "チャットペインを開かずにゴーストテキストを Tab で受け入れるために使う。"
+          "text": "自然言語だけで本番アプリを自動デプロイすること。"
         },
         {
           "id": "C",
-          "text": "ドキュメント専用の /docs コマンドを一覧から消すために使う。"
+          "text": "画像をピクセル単位で編集する専用ツールとして使うこと。"
         },
         {
           "id": "D",
-          "text": "Codespaces のポート 8000 を自動で公開するために使う。"
+          "text": "GitHub.com の組織課金設定を直接変更すること。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、@terminal エージェントは、特定のコンテキストを使って質問できるエージェントの例で、ターミナルと対話するのに役立つと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/2-advanced-github-copilot-features"
+      "explanation": "@terminal はターミナル文脈で支援を受けたいときに使うエージェントです。コマンドの候補や実行内容の説明を得たい場面に向いています。"
     },
     {
       "questionNumber": 6,
       "type": "single",
-      "prompt": "演習セットアップで最初に用意するものとして正しいものはどれか。",
+      "prompt": "リポジトリに `.github/copilot-instructions.md` を置く主な目的はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Python Web API 用の GitHub テンプレートから作成する新しいリポジトリ。"
+          "text": "Copilot にプロジェクト固有の規約や期待する振る舞いを伝えるため。"
         },
         {
           "id": "B",
-          "text": "既存の Travel Weather API をローカルに手動コピーしたフォルダー。"
+          "text": "GitHub Actions の runner OS を固定するため。"
         },
         {
           "id": "C",
-          "text": "Azure Functions のホスト済みアプリケーション。"
+          "text": "PRU の月間上限を設定するため。"
         },
         {
           "id": "D",
-          "text": "GitHub.com の issue テンプレートだけを含むリポジトリ。"
+          "text": "Copilot Chat の履歴保持日数を変更するため。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、演習では、Python プログラミング言語を使用する Web API 用の GitHub テンプレートで新しいリポジトリを作成すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/3-exercise-setup"
+      "explanation": "`.github/copilot-instructions.md` は、リポジトリ固有の指示を Copilot に与えるための代表的な場所です。CI 設定や課金設定のためのファイルではありません。"
     },
     {
       "questionNumber": 7,
       "type": "multiple",
       "selectionCount": 2,
-      "prompt": "演習環境として本文に合うものを 2 つ選べ。",
+      "prompt": "Copilot Chat でコンテキストを絞る参照方法として適切なものを 2 つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "事前構成済み Codespaces 環境をブラウザーで開く。"
+          "text": "`@workspace` を使う。"
         },
         {
           "id": "B",
-          "text": "[新しい Codespace の作成] を選び、起動完了を待つ。"
+          "text": "`#file` で特定ファイルを参照する。"
         },
         {
           "id": "C",
-          "text": "ローカル端末で brew install copilot-cli を実行する。"
+          "text": "`/theme` で対象ファイルを指定する。"
         },
         {
           "id": "D",
-          "text": "GitHub.com の PR 概要生成画面を開く。"
+          "text": "`@billing` でリポジトリ内容を読む。"
         }
       ],
       "correctAnswers": [
         "A",
         "B"
       ],
-      "explanation": "公式 Learn では、環境セットアップでは、事前構成済み Codespaces 環境を開き、構成を確認して [新しい Codespace の作成] を選び、起動を待つと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/3-exercise-setup"
+      "explanation": "`@workspace` や `#file` は、Copilot にどの範囲を見てほしいかを明示するために有効です。テーマ設定や課金操作のコマンドはコンテキスト参照ではありません。"
     },
     {
       "questionNumber": 8,
@@ -225,29 +225,29 @@
     {
       "questionNumber": 9,
       "type": "single",
-      "prompt": "演習セットアップの目的として正しいものはどれか。",
+      "prompt": "Copilot Extensions を探して追加する代表的な場所はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "以降の Copilot 演習で変更、テスト、ドキュメント作成を試せる API 環境を準備する。"
+          "text": "GitHub Marketplace。"
         },
         {
           "id": "B",
-          "text": "Copilot CLI だけを使うための端末環境を準備する。"
+          "text": "GitHub Pages。"
         },
         {
           "id": "C",
-          "text": "事前構成済み Codespaces ではなく、ローカルの空ディレクトリだけで演習を進める。"
+          "text": "Actions の Artifacts 一覧。"
         },
         {
           "id": "D",
-          "text": "GitHub Copilot の契約プランを比較する。"
+          "text": "Security タブの Code scanning 画面。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、演習セットアップは、後続の API 更新、テスト、ドキュメント作成を行うための開発環境準備として説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/3-exercise-setup"
+      "explanation": "Copilot Extensions は GitHub Marketplace を通じて見つけたり導入したりする考え方です。Pages や Code scanning 画面は別用途です。"
     },
     {
       "questionNumber": 10,
@@ -416,85 +416,85 @@
     {
       "questionNumber": 16,
       "type": "single",
-      "prompt": "Web API 更新演習の主な作業はどれか。",
+      "prompt": "Copilot Edits が特に有効な場面として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "国を指定して都市情報を返す新しい API ルートを実装する。"
+          "text": "複数ファイルにまたがる一貫した変更を 1 つの依頼で進めたいとき。"
         },
         {
           "id": "B",
-          "text": "Copilot Spaces にリポジトリを追加する。"
+          "text": "単一行の補完を受け入れるだけのとき。"
         },
         {
           "id": "C",
-          "text": "Copilot CLI の /theme を変更する。"
+          "text": "課金プランを比較したいとき。"
         },
         {
           "id": "D",
-          "text": "PRU の使用量だけを確認する。"
+          "text": "GitHub Actions の実行時間を削減したいとき。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、演習では既存 API に国を指定する新しいエンドポイントを追加する作業が扱われます。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/5-exercise-update-a-web-api"
+      "explanation": "Copilot Edits は、複数ファイルにまたがるまとまった変更を進めるときに役立ちます。単一行補完や課金管理の機能ではありません。"
     },
     {
       "questionNumber": 17,
       "type": "multiple",
       "selectionCount": 2,
-      "prompt": "API 更新演習で Copilot に支援させる対象として適切なものを 2 つ選べ。",
+      "prompt": "大きめの変更依頼で Copilot の提案品質を高める方法を 2 つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "国/地域の都市を返す新しいルートの生成。"
+          "text": "関連ファイルや対象範囲を明示する。"
         },
         {
           "id": "B",
-          "text": "スペインを国/地域として使うテスト作成。"
+          "text": "リポジトリのカスタム指示を整備する。"
         },
         {
           "id": "C",
-          "text": "GitHub.com で PR 概要を生成する。"
+          "text": "制約を示さずに自由に任せる。"
         },
         {
           "id": "D",
-          "text": "Codespaces リソースの削除手順を README にコピーする。"
+          "text": "期待する出力形式を隠しておく。"
         }
       ],
       "correctAnswers": [
         "A",
         "B"
       ],
-      "explanation": "公式 Learn では、演習では、新しい API ルートを生成し、そのルートに対してスペインを country/region として使うテストを作成すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/5-exercise-update-a-web-api"
+      "explanation": "対象範囲とルールが明確なほど、Copilot は意図に沿った変更を返しやすくなります。曖昧さを増やすと、不要な差分や見当違いの提案が出やすくなります。"
     },
     {
       "questionNumber": 18,
       "type": "single",
-      "prompt": "演習で README.md を扱う理由として最も近いものはどれか。",
+      "prompt": "Copilot Extensions の役割として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "API の使い方や追加したエンドポイントの説明を文書化するため。"
+          "text": "Copilot から外部サービスや追加機能に接続する選択肢を広げる。"
         },
         {
           "id": "B",
-          "text": "Copilot のモデルを切り替える設定ファイルだから。"
+          "text": "公開コード一致フィルターを無効化する。"
         },
         {
           "id": "C",
-          "text": "Codespaces の課金を停止するファイルだから。"
+          "text": "ローカル Git 設定を書き換える。"
         },
         {
           "id": "D",
-          "text": "GitHub 認証情報を保存するため。"
+          "text": "Codespaces の料金体系を変更する。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、演習では API 変更に合わせて README.md などのドキュメント更新を行う文脈が示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/5-exercise-update-a-web-api"
+      "explanation": "Extensions は、Copilot の利用先や操作対象を広げるための仕組みです。セキュリティ設定や Git の内部設定を変えるためのものではありません。"
     },
     {
       "questionNumber": 19,
@@ -526,29 +526,29 @@
     {
       "questionNumber": 20,
       "type": "single",
-      "prompt": "Web API 更新演習の流れとして本文と合わないものはどれか。",
+      "prompt": "`@workspace` を使う主な目的として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "main.py を開き、Ctrl+i または Command+i でインラインチャットを使う。"
+          "text": "現在のファイルだけでなくワークスペース全体の文脈を Copilot に参照させる。"
         },
         {
           "id": "B",
-          "text": "新しいルートを試し、結果が希望どおりになるまでプロンプトを絞り込む。"
+          "text": "PR を自動承認する。"
         },
         {
           "id": "C",
-          "text": "README.md を開き、実行方法を文書化するプロンプトを使う。"
+          "text": "CLI セッションを終了する。"
         },
         {
           "id": "D",
-          "text": "最初に /docs で README.md を更新してから、API ルート作成を省略する。"
+          "text": "レビューコメントを必須承認に変える。"
         }
       ],
       "correctAnswers": [
-        "D"
+        "A"
       ],
-      "explanation": "公式 Learn では、演習は main.py に国/地域の都市を返す新しいルートを追加し、テストを作成し、最後に README.md に実行方法を記述する順序で説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/5-exercise-update-a-web-api"
+      "explanation": "`@workspace` は、リポジトリ全体やワークスペースの情報を踏まえて質問したいときに使います。レビュー承認やセッション制御のコマンドではありません。"
     },
     {
       "questionNumber": 21,
@@ -575,7 +575,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、モジュール評価では、ゴーストテキストは入力時にテキストエディターに表示される候補だとされています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/6-knowledge-check"
+      "explanation": "ゴーストテキストは、入力中のエディターに薄く表示される補完候補です。必要に応じて受け入れたり編集したりしながら利用します。"
     },
     {
       "questionNumber": 22,
@@ -602,7 +602,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、モジュール評価では、インラインチャットは Windows で Ctrl+I、Mac で Command+I を使って開くとされています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/6-knowledge-check"
+      "explanation": "インラインチャットはエディター近くで指示を出せる機能で、一般的に Windows では Ctrl+I、Mac では Command+I で開きます。"
     },
     {
       "questionNumber": 23,
@@ -629,7 +629,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、モジュール評価では、スラッシュコマンドはチャットまたはインラインウィンドウ内で一般的な開発タスクをすばやく解決するショートカットだとされています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/6-knowledge-check"
+      "explanation": "スラッシュコマンドは /fix や /tests のように、よく使う開発タスクを短い入力で呼び出すためのショートカットです。"
     },
     {
       "questionNumber": 24,
@@ -656,7 +656,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、モジュール評価では、エージェントは特定のコンテキスト内で質問するのに役立ち、より正確で関連性の高い回答を得られるとされています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/6-knowledge-check"
+      "explanation": "エージェントは特定の文脈に合わせた支援を行うため、@terminal ならシェル操作、@workspace ならワークスペース全体の理解といった形で回答精度を高めやすくなります。"
     },
     {
       "questionNumber": 25,
@@ -683,34 +683,34 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、モジュール評価では、/fix のような暗黙的なプロンプトは長いプロンプトを書かずにより良い応答を得て、コードの問題への対処と修正を容易にするとされています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/6-knowledge-check"
+      "explanation": "/fix は長い説明を書かなくても修正支援を呼び出せるスラッシュコマンドで、問題箇所の改善案を素早く得たいときに便利です。"
     },
     {
       "questionNumber": 26,
       "type": "single",
-      "prompt": "このモジュールのまとめとして正しいものはどれか。",
+      "prompt": "リポジトリ単位の Copilot 指示を用意する利点として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "テストの追加、バグ修正、自動化生成により開発ライフサイクルを改善できる。"
+          "text": "スタイルや設計ルールを毎回説明せずに、継続して共有できる。"
         },
         {
           "id": "B",
-          "text": "Copilot の高度機能は Codespaces の削除手順だけを自動化する。"
+          "text": "どの環境でも Premium Requests を消費しなくなる。"
         },
         {
           "id": "C",
-          "text": "チャットやエージェントは使わず、ゴーストテキストだけを学習する。"
+          "text": "公開コード一致フィルターを自動で解除できる。"
         },
         {
           "id": "D",
-          "text": "Web API 演習は README.md の編集だけで完了する。"
+          "text": "CI テストを不要にできる。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、まとめでは、Copilot はプロジェクトと対話するさまざまな方法を提供し、テスト追加、バグ修正、自動化生成で開発ライフサイクルを改善できると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/7-summary"
+      "explanation": "リポジトリ単位の指示は、チームのルールや期待値を繰り返し伝える手間を減らします。品質ゲートや課金の代替ではありません。"
     },
     {
       "questionNumber": 27,
@@ -798,29 +798,29 @@
     {
       "questionNumber": 30,
       "type": "single",
-      "prompt": "このモジュールの成果として最も近いものはどれか。",
+      "prompt": "Copilot が複数ファイルの変更案を返した後に、開発者が最初に行うべきこととして最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "高度な Copilot 機能で新しい API ルート、テスト、README.md の実行方法文書化を進める。"
+          "text": "差分全体を確認し、必要なテストやレビューを行う。"
         },
         {
           "id": "B",
-          "text": "Copilot Spaces の所有権と可視性だけを設定する。"
+          "text": "変更内容を読まずにそのまま保存する。"
         },
         {
           "id": "C",
-          "text": "Copilot CLI の /list-dirs と /theme だけを練習する。"
+          "text": "必ず新しいモデルへ切り替える。"
         },
         {
           "id": "D",
-          "text": "GitHub.com の Actions エラー説明だけを使う。"
+          "text": "関連ドキュメントを削除して差分を減らす。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、モジュールでは、高度な Copilot 機能を使って Python Web API に新しいルートを追加し、テストを作成し、README.md に実行方法を文書化する演習が含まれます。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/7-summary"
+      "explanation": "複数ファイル変更は影響範囲が広いため、差分確認と検証が重要です。Copilot の提案でも、そのまま無条件に採用すべきではありません。"
     }
   ]
 }

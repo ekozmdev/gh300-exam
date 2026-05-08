@@ -56,7 +56,7 @@
         "A",
         "B"
       ],
-      "explanation": "公式 Learn では、このユニットではサポート言語、自動提案、複数候補ペイン、コーディングスタイル、コメント利用が扱われます。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/2-code-completion-with-git-hub-copilot"
+      "explanation": "公式 Learn では、サポート言語、自動提案、複数候補ペイン、コーディングスタイル、コメント活用などが紹介されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/2-code-completion-with-git-hub-copilot"
     },
     {
       "questionNumber": 3,
@@ -115,29 +115,29 @@
     {
       "questionNumber": 5,
       "type": "single",
-      "prompt": "強くサポートされる言語として本文に挙げられていないものはどれか。",
+      "prompt": "GitHub Copilot CLI を使い始める手順として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Python"
+          "text": "`gh extension install github/gh-copilot` で拡張を追加し、認証後に `gh copilot suggest` などを使う。"
         },
         {
           "id": "B",
-          "text": "JavaScript"
+          "text": "ブラウザーだけで使う機能なので、gh の導入や認証は不要である。"
         },
         {
           "id": "C",
-          "text": "C#"
+          "text": "GitHub Desktop に標準搭載されているため、ターミナル操作は不要である。"
         },
         {
           "id": "D",
-          "text": "Kotlin"
+          "text": "Visual Studio 専用機能なので、端末からは実行できない。"
         }
       ],
       "correctAnswers": [
-        "D"
+        "A"
       ],
-      "explanation": "公式 Learn では、強いサポート例として Python、JavaScript、Java、TypeScript、Ruby、Go、C#、C++ が挙げられ、Kotlin はその一覧には含まれていません。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/2-code-completion-with-git-hub-copilot"
+      "explanation": "Copilot CLI は GitHub CLI 拡張として導入し、認証したうえで `gh copilot suggest` や `gh copilot explain` を利用します。"
     },
     {
       "questionNumber": 6,
@@ -553,29 +553,29 @@
     {
       "questionNumber": 21,
       "type": "single",
-      "prompt": "知識チェック範囲で、IDE の複数候補ペインについて正しいものはどれか。",
+      "prompt": "IDE のコンパニオンペイン（複数候補表示）の説明として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "提案上に表示される操作で、前後の候補を比較できる。"
+          "text": "前後の候補を切り替えて比較し、採用したい提案を選べる。"
         },
         {
           "id": "B",
-          "text": "Copilot CLI の /model だけで開く。"
+          "text": "Copilot CLI の対話モードでしか利用できない。"
         },
         {
           "id": "C",
-          "text": "候補は 1 つしか表示できない。"
+          "text": "候補は常に 1 件だけで、比較表示はできない。"
         },
         {
           "id": "D",
-          "text": "コメントがあると複数候補は無効になる。"
+          "text": "コメントを書くと自動的に無効化される。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、複数候補ペインでは、提案の前後候補を切り替えて比較できると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/6-knowledge-check"
+      "explanation": "コンパニオンペインでは複数の提案を見比べながら前後に移動できるため、文脈に最も合う候補を選びやすくなります。"
     },
     {
       "questionNumber": 22,
@@ -690,58 +690,58 @@
     {
       "questionNumber": 26,
       "type": "single",
-      "prompt": "モジュール全体のまとめとして正しいものはどれか。",
+      "prompt": "ローカル IDE を開かずに、リポジトリや pull request の文脈で Copilot を使いたい場合に最も適した環境はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "IDE、Chat、GitHub.com、CLI の各環境で Copilot を使い分け、開発ワークフローを加速できる。"
+          "text": "GitHub.com。"
         },
         {
           "id": "B",
-          "text": "Copilot は IDE 補完だけに限定される。"
+          "text": "インライン補完だけのエディター画面。"
         },
         {
           "id": "C",
-          "text": "GitHub.com では Copilot を使えない。"
+          "text": "GitHub Actions の workflow YAML。"
         },
         {
           "id": "D",
-          "text": "CLI では自然言語入力を使えない。"
+          "text": "ローカルの画像ビューアー。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、まとめでは、IDE、Chat、GitHub.com、CLI にまたがる Copilot 活用により開発ワークフローを加速できることが整理されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/7-summary"
+      "explanation": "GitHub.com では、リポジトリ、Issue、PR などの Web 上の文脈で Copilot を活用できます。ローカル IDE を開かない前提なら最も自然な選択です。"
     },
     {
       "questionNumber": 27,
       "type": "multiple",
       "selectionCount": 2,
-      "prompt": "このモジュールの学習目標として正しいものを 2 つ選べ。",
+      "prompt": "環境と得意なタスクの対応として正しいものを 2 つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "自動提案や複数候補ペインを活用する。"
+          "text": "IDE はインライン補完やコード編集の支援に向く。"
         },
         {
           "id": "B",
-          "text": "CLI でコマンド説明や提案を得る。"
+          "text": "CLI はシェルコマンドの説明や提案に向く。"
         },
         {
           "id": "C",
-          "text": "Copilot Spaces の所有者を管理する。"
+          "text": "GitHub.com はローカル端末の任意プロセスを直接操作する用途に向く。"
         },
         {
           "id": "D",
-          "text": "GitHub Actions のランナー料金を計算する。"
+          "text": "Mobile は IDE 拡張機能の詳細設定変更に最も向く。"
         }
       ],
       "correctAnswers": [
         "A",
         "B"
       ],
-      "explanation": "公式 Learn では、学習目標には IDE の自動提案・複数候補ペインの活用と、CLI でのコマンド説明・提案の利用が含まれます。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/7-summary"
+      "explanation": "IDE はコードそのものの編集、CLI はターミナル操作の支援に強みがあります。GitHub.com や Mobile には別の役割があり、ローカル IDE と同じ用途ではありません。"
     },
     {
       "questionNumber": 28,
@@ -800,29 +800,29 @@
     {
       "questionNumber": 30,
       "type": "single",
-      "prompt": "このモジュールの到達点として最も適切なものはどれか。",
+      "prompt": "ターミナルで既存コマンドの意味を確認したり、次に打つコマンド候補を得たりしたい場合に Copilot CLI が適している理由はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "コード補完、Chat、GitHub.com、CLI の各機能を組み合わせて、環境に応じた開発支援を受けられる。"
+          "text": "シェル操作の文脈で説明や提案を返せるため。"
         },
         {
           "id": "B",
-          "text": "CLI だけを使い、IDE の自動提案や GitHub.com の支援は扱わない。"
+          "text": "PR レビューコメントを必須承認に変えられるため。"
         },
         {
           "id": "C",
-          "text": "コメントを使わず、補完候補を複数表示しない運用に限定する。"
+          "text": "インライン補完だけを高速化できるため。"
         },
         {
           "id": "D",
-          "text": "PRU を使う機能を避けるため、Chat と GitHub.com の内容は学習対象外にする。"
+          "text": "GitHub.com の権限設定を直接変更するため。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、モジュール全体では、コード補完、Copilot Chat、GitHub.com、コマンドラインにまたがる Copilot との対話方法を学ぶと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/7-summary"
+      "explanation": "Copilot CLI は、ターミナルでの質問やコマンド候補の提示を支援するための環境です。レビュー承認や権限設定のための機能ではありません。"
     }
   ]
 }

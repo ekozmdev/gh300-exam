@@ -59,7 +59,7 @@
     {
       "questionNumber": 3,
       "type": "multiple",
-      "prompt": "Copilot プラン選択時に考慮すべき要素として本文に挙げられているものを2つ選べ。",
+      "prompt": "組織で Copilot プランを選ぶ際に確認すべき点を2つ選べ。",
       "options": [
         {
           "id": "A",
@@ -82,35 +82,35 @@
         "A",
         "C"
       ],
-      "explanation": "公式 Learn では、価格プランを選ぶ際の重要な要素として、データの収集と保持、IP 補償とデータ プライバシーが説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/2-explore-github-copilot-plans-associated-management-customization-features",
+      "explanation": "プラン選定では、価格だけでなくデータの扱いと法務・プライバシー要件を確認する必要があります。運用ポリシーやリスク許容度に合うかが重要です。",
       "selectionCount": 2
     },
     {
       "questionNumber": 4,
       "type": "single",
-      "prompt": "Copilot Free の使用制限として本文に記載されている内容はどれか。",
+      "prompt": "組織全体の Copilot ポリシーを設定する場所として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "1 か月あたり 2,000 個のコード補完と 50 個のチャット メッセージ"
+          "text": "GitHub の組織設定にある Copilot 管理画面"
         },
         {
           "id": "B",
-          "text": "1 日あたり 2,000 個のコード補完と 500 個のチャット メッセージ"
+          "text": "各開発者のローカル `.gitconfig`"
         },
         {
           "id": "C",
-          "text": "公開リポジトリでのみ月 50 個のコード補完"
+          "text": "README.md の先頭"
         },
         {
           "id": "D",
-          "text": "Visual Studio Code ではチャットのみ利用可能"
+          "text": "Issue テンプレート"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、Free レベルには、1 か月あたり 2,000 個のコード オートコンプリートと 50 個のチャット メッセージが含まれると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/2-explore-github-copilot-plans-associated-management-customization-features"
+      "explanation": "組織全体の Copilot ポリシーは GitHub の組織設定から管理します。各開発者のローカル設定ファイルで統一ポリシーを強制するものではありません。"
     },
     {
       "questionNumber": 5,
@@ -169,7 +169,7 @@
     {
       "questionNumber": 7,
       "type": "single",
-      "prompt": "DPA の説明として本文に合うものはどれか。",
+      "prompt": "DPA の意味として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
@@ -191,7 +191,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "公式 Learn では、データ保護契約 DPA は、ユーザーのデータ保護とデータ プライバシー規制への準拠のための対策を示すものと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/3-github-copilot-contractual-protections-disabling-matching-public-code"
+      "explanation": "DPA はデータ保護契約であり、データ保護やプライバシー規制への対応を整理する契約上の枠組みです。コード提案を直接制御する機能ではありません。"
     },
     {
       "questionNumber": 8,
@@ -252,29 +252,29 @@
     {
       "questionNumber": 10,
       "type": "single",
-      "prompt": "このユニット冒頭の Copilot 画像説明に含まれている特徴はどれか。",
+      "prompt": "GitHub Copilot の管理状況を後から分析・監査したいときに特に役立つものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "緑色の再生ボタンとテスト エクスプローラー"
+          "text": "監査ログ。"
         },
         {
           "id": "B",
-          "text": "ネオン色のロボットヘルメットと軌道・原子のような抽象グラフィック"
+          "text": "Ghost Text。"
         },
         {
           "id": "C",
-          "text": "GitHub Actions の YAML と Docker ロゴ"
+          "text": "`/tests` コマンド。"
         },
         {
           "id": "D",
-          "text": "Visual Studio Code の beaker アイコンとスタックトレース"
+          "text": "複数候補ペイン。"
         }
       ],
       "correctAnswers": [
-        "B"
+        "A"
       ],
-      "explanation": "公式 Learn では、冒頭の画像説明では、Copilot が図案化されたロボットのヘルメットとして表され、軌道や原子のような抽象グラフィックと共に描かれていると記載されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/3-github-copilot-contractual-protections-disabling-matching-public-code"
+      "explanation": "管理やガバナンスでは、誰が何を変更したかを追跡できる監査ログが重要です。表示や補完の UI 機能とは目的が異なります。"
     },
     {
       "questionNumber": 11,
@@ -333,7 +333,7 @@
     {
       "questionNumber": 13,
       "type": "single",
-      "prompt": "重要な構成ファイルを除外する場合の注意点として本文に近いものはどれか。",
+      "prompt": "重要な構成ファイルをコンテンツ除外するときの注意点として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
@@ -355,12 +355,12 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、重要な構成ファイルを除外すると、そのファイルで定義された構成に依存する関連コードスニペットを提案しなくなる可能性があると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/4-manage-content-exclusions"
+      "explanation": "重要な構成ファイルを除外すると、その設定に依存するコード提案まで弱くなる場合があります。除外は安全性と開発体験のバランスを見て決める必要があります。"
     },
     {
       "questionNumber": 14,
       "type": "single",
-      "prompt": "Visual Studio Code と Visual Studio で、コンテンツ除外が適用されない例として本文にあるものはどれか。",
+      "prompt": "Visual Studio Code や Visual Studio で、コンテンツ除外が適用されないことがある例はどれか。",
       "options": [
         {
           "id": "A",
@@ -382,12 +382,12 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、IDE の制限として、Visual Studio Code と Visual Studio では質問で @github チャット参加者を使うとコンテンツ除外が適用されないと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/4-manage-content-exclusions"
+      "explanation": "一部の IDE 機能やチャット参加者では、コンテンツ除外が完全には適用されないことがあります。制限を理解したうえで運用することが大切です。"
     },
     {
       "questionNumber": 15,
       "type": "multiple",
-      "prompt": "コンテンツ除外の制限として本文に挙げられているものを2つ選べ。",
+      "prompt": "コンテンツ除外の制限として正しいものを2つ選べ。",
       "options": [
         {
           "id": "A",
@@ -410,13 +410,13 @@
         "A",
         "B"
       ],
-      "explanation": "公式 Learn では、制限として、セマンティック情報から除外ファイルの情報が使われる場合があること、設定は構成された組織のメンバーにのみ適用されることが説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/4-manage-content-exclusions",
+      "explanation": "コンテンツ除外を設定しても、IDE が提供するセマンティック情報などを通じて影響が残る場合があります。また、設定の適用範囲にも組織上の制約があります。",
       "selectionCount": 2
     },
     {
       "questionNumber": 16,
       "type": "multiple",
-      "prompt": "コード候補が表示されない場合のトラブルシューティングとして本文にあるものを2つ選べ。",
+      "prompt": "コード候補が表示されない場合の確認事項を2つ選べ。",
       "options": [
         {
           "id": "A",
@@ -439,7 +439,7 @@
         "A",
         "B"
       ],
-      "explanation": "公式 Learn では、コード候補がない場合の対処として、インターネット接続の確認と Copilot 拡張機能の更新が挙げられています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/5-troubleshoot-common-issues-with-github-copilot",
+      "explanation": "候補が出ないときは、まず接続状態と拡張機能の状態を確認します。環境要因を切り分けてから、設定や権限の問題を調べるのが基本です。",
       "selectionCount": 2
     },
     {
@@ -499,88 +499,88 @@
     {
       "questionNumber": 19,
       "type": "single",
-      "prompt": "Copilot の提案が不十分な場合に、Visual Studio Code で提案生成を促すショートカットとして本文にあるものはどれか。",
+      "prompt": "`.github/copilot-instructions.md` の主な役割として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Ctrl + Enter"
+          "text": "リポジトリ共通の指示や開発上の前提を Copilot に伝える。"
         },
         {
           "id": "B",
-          "text": "Ctrl + I"
+          "text": "組織シートの課金先を変更する。"
         },
         {
           "id": "C",
-          "text": "Ctrl + Shift + P"
+          "text": "監査ログを自動削除する。"
         },
         {
           "id": "D",
-          "text": "Cmd + Shift + F"
+          "text": "コンテンツ除外を強制的に無視する。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、コードの提案が不十分な場合の手法として、Visual Studio Code では Ctrl + Enter で GitHub Copilot をトリガーできると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/5-troubleshoot-common-issues-with-github-copilot"
+      "explanation": "`.github/copilot-instructions.md` は、そのリポジトリで Copilot に守ってほしい方針や前提を共有するためのファイルです。課金や監査ログを管理する用途ではありません。"
     },
     {
       "questionNumber": 20,
       "type": "single",
-      "prompt": "提案品質を改善するために本文が挙げる「明確なコンテキスト」の例はどれか。",
+      "prompt": "REST API を使った Copilot サブスクリプション管理として可能なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "わかりやすいコメントや変数名を使う"
+          "text": "シートの追加・削除・一覧取得などのサブスクリプション管理。"
         },
         {
           "id": "B",
-          "text": "すべてのコメントを削除してコードだけにする"
+          "text": "IDE のテーマ色変更。"
         },
         {
           "id": "C",
-          "text": "除外パスを増やしてコンテキストを減らす"
+          "text": "監査ログの永続削除。"
         },
         {
           "id": "D",
-          "text": "プロンプトを常に1語だけにする"
+          "text": "コンテンツ除外の無条件解除。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、より良い提案を得る方法として、わかりやすいコメントや変数名により明確なコンテキストを提供することが挙げられています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/5-troubleshoot-common-issues-with-github-copilot"
+      "explanation": "REST API では Copilot シートの割り当てや一覧取得など、運用上のサブスクリプション管理を自動化できます。IDE の見た目や監査ログ削除を行う用途ではありません。"
     },
     {
       "questionNumber": 21,
       "type": "single",
-      "prompt": "知識チェックで、エンタープライズ レベルのセキュリティとプライバシー機能を含むプランとして正しいものはどれか。",
+      "prompt": "Business と Enterprise の違いとして最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Pro のみ"
+          "text": "Enterprise では組織の知識やプライベートコードを活用した、より高度なカスタマイズが可能である。"
         },
         {
           "id": "B",
-          "text": "Business と Enterprise"
+          "text": "Business だけが監査ログを利用できる。"
         },
         {
           "id": "C",
-          "text": "Free と Pro"
+          "text": "Enterprise ではコンテンツ除外を設定できない。"
         },
         {
           "id": "D",
-          "text": "Free のみ"
+          "text": "Business ではライセンス管理ができない。"
         }
       ],
       "correctAnswers": [
-        "B"
+        "A"
       ],
-      "explanation": "公式 Learn では、モジュール評価では、エンタープライズ レベルのセキュリティとプライバシー機能を含むプランとして Business と Enterprise が正答になっています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/6-knowledge-check"
+      "explanation": "Enterprise は Business よりも、組織知識を活用した高度なカスタマイズに強みがあります。どちらも基本的な管理機能を持ちますが、深さが異なります。"
     },
     {
       "questionNumber": 22,
       "type": "single",
-      "prompt": "知識チェックで、コード提案が提供されない場合にまず挙げられている対処はどれか。",
+      "prompt": "コード候補が表示されないときに最初に確認すべきことはどれか。",
       "options": [
         {
           "id": "A",
@@ -602,12 +602,12 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、モジュール評価では、コード提案が提供されない場合の対処としてインターネット接続を確認することが正答になっています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/6-knowledge-check"
+      "explanation": "候補が表示されないときは、まずネットワーク接続や基本的な動作条件を確認します。いきなり高度な設定変更へ進むより切り分けがしやすくなります。"
     },
     {
       "questionNumber": 23,
       "type": "single",
-      "prompt": "知識チェックで問われているコンテンツ除外機能の目的はどれか。",
+      "prompt": "コンテンツ除外の目的として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
@@ -629,41 +629,41 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、モジュール評価では、コンテンツ除外の目的は特定のファイルやリポジトリがコード提案に使用されないようにすることだと確認しています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/6-knowledge-check"
+      "explanation": "コンテンツ除外は、特定のファイルやリポジトリをコード提案の根拠に使わせないための機能です。IP 補償そのものを提供する仕組みではありません。"
     },
     {
       "questionNumber": 24,
       "type": "multiple",
-      "prompt": "モジュール評価に出てくる確認観点を2つ選べ。",
+      "prompt": "組織の Copilot 利用状況を監査・把握する手段を2つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "Copilot プランのセキュリティとプライバシー機能"
+          "text": "監査ログ。"
         },
         {
           "id": "B",
-          "text": "コード提案が表示されない場合の対処"
+          "text": "使用状況メトリックや利用レポート。"
         },
         {
           "id": "C",
-          "text": "C# の xUnit パッケージ一覧"
+          "text": "IDE のテーマ設定。"
         },
         {
           "id": "D",
-          "text": "Ask/Plan/Agent のアクセス許可レベル"
+          "text": "Markdown プレビュー。"
         }
       ],
       "correctAnswers": [
         "A",
         "B"
       ],
-      "explanation": "公式 Learn では、モジュール評価では、Copilot プランのセキュリティとプライバシー機能、コード提案がない場合の対処、コンテンツ除外の目的が問われています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/6-knowledge-check",
+      "explanation": "監査ログは設定変更や運用イベントの追跡に役立ち、利用メトリックは導入状況や活用度の把握に役立ちます。どちらも組織運用に重要です。",
       "selectionCount": 2
     },
     {
       "questionNumber": 25,
       "type": "single",
-      "prompt": "モジュール評価の内容から、IP 補償とコンテンツ除外の関係を正しく区別しているものはどれか。",
+      "prompt": "コンテンツ除外と IP 補償の違いとして正しいものはどれか。",
       "options": [
         {
           "id": "A",
@@ -685,144 +685,144 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、モジュール評価では、コンテンツ除外の目的をコード提案に使われないようにすることとしており、知的財産権の法的保護とは区別されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/6-knowledge-check"
+      "explanation": "コンテンツ除外は提案生成に使うコンテンツの範囲を制御する機能です。一方、IP 補償は法的保護に関する考え方であり、役割が異なります。"
     },
     {
       "questionNumber": 26,
       "type": "multiple",
-      "prompt": "まとめで、このモジュールが扱ったトピックとして挙げられているものを2つ選べ。",
+      "prompt": "組織管理者が Copilot を運用するうえで重要な作業を 2 つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "GitHub Copilot プランと管理・カスタマイズ機能"
+          "text": "必要なユーザーやチームへライセンスを割り当てる。"
         },
         {
           "id": "B",
-          "text": "契約上の保護とパブリックコード一致の無効化"
+          "text": "使用状況メトリックを確認して導入状況を把握する。"
         },
         {
           "id": "C",
-          "text": "C# Dev Kit による xUnit プロジェクト作成"
+          "text": "各開発者の IDE テーマを統一する。"
         },
         {
           "id": "D",
-          "text": "ユーザー ストーリーからの機能スキャフォールディング"
+          "text": "ローカル Git 履歴を定期的に削除する。"
         }
       ],
       "correctAnswers": [
         "A",
         "B"
       ],
-      "explanation": "公式 Learn では、まとめでは、Copilot プランと管理・カスタマイズ機能、契約上の保護とパブリックコード一致の無効化などを扱ったと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/7-summary",
+      "explanation": "管理者は、ライセンス配布と利用状況の把握を通じてガバナンスと投資対効果を管理します。IDE の個別テーマやローカル履歴は主要な管理作業ではありません。",
       "selectionCount": 2
     },
     {
       "questionNumber": 27,
       "type": "single",
-      "prompt": "まとめで述べられている、このモジュールの知識を得た後にできることはどれか。",
+      "prompt": "コンテンツ除外の主な目的として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "組織のニーズに適した方法を選択できる"
+          "text": "特定のファイルやパスをコード提案の根拠に使わせないようにすること。"
         },
         {
           "id": "B",
-          "text": "すべての Copilot 提案を自動的に本番へデプロイできる"
+          "text": "PR レビューコメントを自動承認にすること。"
         },
         {
           "id": "C",
-          "text": "Free プランでも Enterprise 専用のナレッジベースを添付できる"
+          "text": "GitHub Actions の実行時間を短縮すること。"
         },
         {
           "id": "D",
-          "text": "コンテンツ除外の IDE 制限を完全になくせる"
+          "text": "インライン補完の色を変更すること。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、まとめでは、この知識があれば組織のニーズに適した方法を選択できると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/7-summary"
+      "explanation": "コンテンツ除外は、Copilot が特定のコードやファイルを提案生成に使わないよう制御するための機能です。レビュー承認や UI 調整のためのものではありません。"
     },
     {
       "questionNumber": 28,
       "type": "single",
-      "prompt": "まとめのリソースに含まれるものはどれか。",
+      "prompt": "Business と比べた Enterprise のカスタマイズ上の強みとして最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "GitHub Copilot からのコンテンツの除外"
+          "text": "プライベートコードベースや knowledge base を活用した、より深い組織向け調整。"
         },
         {
           "id": "B",
-          "text": "C# 開発キットを使用したテスト"
+          "text": "インライン補完だけを完全無料で使えること。"
         },
         {
           "id": "C",
-          "text": "GitHub Copilot 開発者アンケート"
+          "text": "GitHub Actions を不要にできること。"
         },
         {
           "id": "D",
-          "text": "Copilot Chat のプロンプトの例"
+          "text": "公開コード一致フィルターを使えないこと。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、まとめのリソースには、GitHub Copilot からのコンテンツの除外が含まれています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/7-summary"
+      "explanation": "Enterprise は、組織のコードや知識を活用した、より高度なカスタマイズが強みです。無料化や Actions 不要化を意味するものではありません。"
     },
     {
       "questionNumber": 29,
       "type": "single",
-      "prompt": "まとめで「管理とカスタマイズの制御」はどのような位置づけか。",
+      "prompt": "Copilot の使用状況メトリックを確認する主な目的として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "AI ペア プログラミング ツール利用における重要な要素"
+          "text": "導入効果や利用状況を把握し、追加支援やポリシー調整に役立てるため。"
         },
         {
           "id": "B",
-          "text": "Free プランだけに不要な補助機能"
+          "text": "開発者ごとのコード所有権を自動決定するため。"
         },
         {
           "id": "C",
-          "text": "単体テスト生成専用の Visual Studio Code 設定"
+          "text": "公開コード一致フィルターを無条件で解除するため。"
         },
         {
           "id": "D",
-          "text": "GitHub Actions の課金管理だけを指す用語"
+          "text": "IDE の設定ファイルを強制配布するため。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、まとめでは、GitHub Copilot などの AI ペア プログラミング ツールの利用において、管理とカスタマイズの制御が重要な要素だと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/7-summary"
+      "explanation": "利用状況メトリックは、導入の進み具合や効果を測り、必要な改善につなげるために使います。コード所有権や UI 配布を決めるためのものではありません。"
     },
     {
       "questionNumber": 30,
       "type": "single",
-      "prompt": "まとめに含まれる「一般的な問題」の扱いとして正しいものはどれか。",
+      "prompt": "組織で Copilot の管理ポリシーを決める際の基本方針として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "GitHub Copilot とそのソリューションに関する一般的な問題の確認を扱った"
+          "text": "セキュリティとコンプライアンスを保ちつつ、開発者の生産性も考慮して設定する。"
         },
         {
           "id": "B",
-          "text": "一般的な問題は範囲外で、プラン比較だけを扱った"
+          "text": "開発者体験を無視して、すべての機能を一律で禁止する。"
         },
         {
           "id": "C",
-          "text": "一般的な問題は C# のテスト失敗だけに限定された"
+          "text": "どのチームでも同じ設定にできないため、ポリシーは作らない。"
         },
         {
           "id": "D",
-          "text": "一般的な問題は GitHub Actions の失敗だけを指す"
+          "text": "ポリシーよりも個人の IDE 設定だけを優先する。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、まとめでは、GitHub Copilot とそのソリューションに関する一般的な問題の確認を扱ったトピックとして挙げています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/7-summary"
+      "explanation": "管理ポリシーは、安全性だけでなく、実際の開発効率とのバランスも重要です。極端な禁止や放任では継続的な運用が難しくなります。"
     }
   ]
 }

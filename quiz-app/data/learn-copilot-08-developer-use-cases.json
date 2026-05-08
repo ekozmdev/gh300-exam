@@ -5,29 +5,29 @@
     {
       "questionNumber": 1,
       "type": "single",
-      "prompt": "新しい言語やフレームワークの習得を速める支援として、本文が挙げる Copilot の働きはどれか。",
+      "prompt": "GitHub Copilot が新しい言語やフレームワークの学習を速める理由として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "コンテキストに即したコードスニペットで未知の関数やライブラリの使い方を示す"
+          "text": "エディター内で構文の説明やサンプルコードを得ながら試せる"
         },
         {
           "id": "B",
-          "text": "依存関係のバージョンを常に自動更新する"
+          "text": "課金設定を自動変更できる"
         },
         {
           "id": "C",
-          "text": "IDE 内で動画講座を再生する"
+          "text": "レビューを完全に不要にできる"
         },
         {
           "id": "D",
-          "text": "すべての既存コードを別言語へ一括変換する"
+          "text": "公式ドキュメントを置き換える"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、新しい言語やフレームワークの学習支援として、コード提案、言語サポート、ドキュメント統合が挙げられています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/2-boost-developer-productivity"
+      "explanation": "Copilot は、その場で構文や API の使い方をたどりながら試せるため、新しい言語やフレームワークの学習を加速しやすくなります。公式資料の代替ではなく補助として使うのが適切です。"
     },
     {
       "questionNumber": 2,
@@ -59,30 +59,30 @@
     {
       "questionNumber": 3,
       "type": "multiple",
-      "prompt": "ドキュメント記述の改善として本文に挙げられているものを2つ選べ。",
+      "prompt": "Copilot をドキュメント作成に活用する例を 2 つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "関数の説明や戻り値の詳細の提案"
+          "text": "README の下書きや章立て案を作る"
         },
         {
           "id": "B",
-          "text": "プロジェクト README の構造と内容の提案"
+          "text": "関数やクラスの説明コメントを生成する"
         },
         {
           "id": "C",
-          "text": "GitHub Enterprise Cloud の監査ログ作成"
+          "text": "課金先住所を自動変更する"
         },
         {
           "id": "D",
-          "text": "テスト エクスプローラーの実行結果表示"
+          "text": "監査ログを削除する"
         }
       ],
       "correctAnswers": [
         "A",
         "B"
       ],
-      "explanation": "公式 Learn では、ドキュメントの記述改善として、関数説明の提案や README 生成支援などが説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/2-boost-developer-productivity",
+      "explanation": "Copilot は README の草案、コメント、ドキュメントのたたき台作成に役立ちます。一方で、課金変更や監査ログ削除のような管理操作は目的外です。",
       "selectionCount": 2
     },
     {
@@ -115,29 +115,29 @@
     {
       "questionNumber": 5,
       "type": "single",
-      "prompt": "複雑なマルチファイル生成で消費される PRU の目安として本文にあるものはどれか。",
+      "prompt": "Premium Request Units (PRU) の消費が大きくなりやすい作業はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "最大 3 から 5 個の PRU"
+          "text": "複数ファイルをまたぐ複雑な生成やエージェント主体の作業"
         },
         {
           "id": "B",
-          "text": "常に 0 個の PRU"
+          "text": "1 行だけのスペル修正"
         },
         {
           "id": "C",
-          "text": "1 ファイルごとに 50 個の PRU"
+          "text": "既存コメントを読むだけの操作"
         },
         {
           "id": "D",
-          "text": "月 2,000 個の PRU"
+          "text": "テーマ色の切り替え"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、複雑なマルチファイル生成では、プロジェクトスキャフォールディング完了に最大 3 から 5 個の PRU が消費されると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/2-boost-developer-productivity"
+      "explanation": "PRU は、文脈量が多い依頼や複数ファイルにまたがる複雑なタスクで増えやすくなります。軽い補完や単純な修正は相対的に小さな消費で済みます。"
     },
     {
       "questionNumber": 6,
@@ -169,30 +169,30 @@
     {
       "questionNumber": 7,
       "type": "multiple",
-      "prompt": "単体テストとドキュメント作成支援として本文にあるものを2つ選べ。",
+      "prompt": "Copilot が開発者の生産性向上に役立つ例を 2 つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "関数のシグネチャと動作に基づくテストケースの生成"
+          "text": "単体テストのひな形やアサーション候補を提案する"
         },
         {
           "id": "B",
-          "text": "簡単なコメントをより詳細な説明へ拡張するコメント拡張"
+          "text": "コードからドキュメントやコメントの草案を作る"
         },
         {
           "id": "C",
-          "text": "GitHub Actions ランナーの自動課金停止"
+          "text": "組織の監査ポリシーを勝手に変更する"
         },
         {
           "id": "D",
-          "text": "公開コードフィルターの組織ロック解除"
+          "text": "物理サーバーの電源を制御する"
         }
       ],
       "correctAnswers": [
         "A",
         "B"
       ],
-      "explanation": "公式 Learn では、テストケースの生成、ドキュメントスタブ、コメント拡張が、単体テストとドキュメント作成支援として説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/3-align-with-developer-preferences",
+      "explanation": "Copilot は、単体テスト作成やドキュメント草案生成のような日常業務で生産性を高めます。管理権限を伴う操作や物理操作の代替ではありません。",
       "selectionCount": 2
     },
     {
@@ -225,29 +225,29 @@
     {
       "questionNumber": 9,
       "type": "single",
-      "prompt": "データサイエンス支援として本文に挙げられているものはどれか。",
+      "prompt": "データサイエンス作業で Copilot を使う例として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Matplotlib、Seaborn、Plotly などで可視化コードを提案する"
+          "text": "Jupyter ノートブックでデータ分析コードや説明文の下書きを得る"
         },
         {
           "id": "B",
-          "text": "SAML SSO 認証をデータフレームに追加する"
+          "text": "GPU ドライバーを自動で再配線する"
         },
         {
           "id": "C",
-          "text": "DPA を自動生成してモデル評価を置き換える"
+          "text": "生データの法的承認を省略する"
         },
         {
           "id": "D",
-          "text": "GitHub Copilot アイコンに斜線を表示する"
+          "text": "研究結果を確認せず公開する"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、データの可視化では、Matplotlib、Seaborn、Plotly などのライブラリを使うコード提案が説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/3-align-with-developer-preferences"
+      "explanation": "Copilot は Jupyter ノートブックで分析コード、可視化コード、説明文の下書き作成を支援できます。ただし、結果の解釈と妥当性確認は人間が行う必要があります。"
     },
     {
       "questionNumber": 10,
@@ -306,30 +306,30 @@
     {
       "questionNumber": 12,
       "type": "multiple",
-      "prompt": "設計と開発フェーズで本文に挙げられている支援を2つ選べ。",
+      "prompt": "設計・開発フェーズで Copilot が支援できる内容を 2 つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "設計パターンの実装提案"
+          "text": "API やクラス構成のたたき台を作る"
         },
         {
           "id": "B",
-          "text": "クロス言語翻訳"
+          "text": "反復的な実装コードを素早く生成する"
         },
         {
           "id": "C",
-          "text": "DPA の締結代行"
+          "text": "本番障害を無条件でクローズする"
         },
         {
           "id": "D",
-          "text": "個人アカウントの公開コードフィルター切替"
+          "text": "監査証跡を削除する"
         }
       ],
       "correctAnswers": [
         "A",
         "B"
       ],
-      "explanation": "公式 Learn では、設計と開発では、設計パターンの実装、コード最適化、クロス言語翻訳などが挙げられています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/4-ai-software-development-lifecycle",
+      "explanation": "設計段階では構成案や API 例の検討、実装段階では反復コードの生成などで Copilot が役立ちます。運用統制を飛ばすような使い方は適切ではありません。",
       "selectionCount": 2
     },
     {
@@ -389,29 +389,29 @@
     {
       "questionNumber": 15,
       "type": "single",
-      "prompt": "2エージェントのドラフトレビュー フローの PRU 消費目安として本文にあるものはどれか。",
+      "prompt": "PRU の観点で正しい説明はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "通常 2 から 3 個の PRU"
+          "text": "マルチステップで文脈の多い依頼ほど、単純な補完より PRU 消費が増えやすい"
         },
         {
           "id": "B",
-          "text": "常に 10 個の PRU"
+          "text": "PRU はキーボード配列で決まる"
         },
         {
           "id": "C",
-          "text": "PRU は消費しない"
+          "text": "PRU は画面解像度で決まる"
         },
         {
           "id": "D",
-          "text": "月 50 個のチャットメッセージ"
+          "text": "PRU は README の行数だけで決まる"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、単純なエージェントのオーケストレーションでは、各ハンドオフが最大 1 PRU を消費し、2 エージェントのドラフトレビュー フローは通常 2 から 3 個の PRU を使用すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/4-ai-software-development-lifecycle"
+      "explanation": "PRU はリクエストの複雑さや必要な文脈量に応じて増えやすくなります。画面設定や周辺機器の種類で決まるものではありません。"
     },
     {
       "questionNumber": 16,
@@ -443,30 +443,30 @@
     {
       "questionNumber": 17,
       "type": "multiple",
-      "prompt": "コード品質と正確性に関する制限として本文にあるものを2つ選べ。",
+      "prompt": "Copilot を使う際の制限や注意点を 2 つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "バグを含むコードや要件を満たさないコードを提案する可能性"
+          "text": "生成結果は正確性や最新性を人が確認する必要がある"
         },
         {
           "id": "B",
-          "text": "生成コードが常にベストセキュリティプラクティスに準拠するとは限らないこと"
+          "text": "言語やフレームワークによって支援の質に差が出ることがある"
         },
         {
           "id": "C",
-          "text": "Copilot が要件を必ず完全に理解すること"
+          "text": "生成結果は常に本番投入してよい"
         },
         {
           "id": "D",
-          "text": "すべての著作権懸念を自動的に解消すること"
+          "text": "セキュリティレビューは不要になる"
         }
       ],
       "correctAnswers": [
         "A",
         "B"
       ],
-      "explanation": "公式 Learn では、コード品質と正確性では、エラーの可能性やセキュリティに関する懸念事項が制限として挙げられています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/5-understand-limitations-measure-impact",
+      "explanation": "Copilot は有用ですが、出力の正確性や最新性は必ず人が検証し、言語やフレームワークによる差も理解して使う必要があります。",
       "selectionCount": 2
     },
     {
@@ -499,330 +499,330 @@
     {
       "questionNumber": 19,
       "type": "single",
-      "prompt": "組織メンバーの Copilot 使用状況要約を取得するエンドポイントとして本文にあるものはどれか。",
+      "prompt": "Copilot の利用状況メトリック API で把握したい情報として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "GET /orgs/{org}/GitHub Copilot/usage"
+          "text": "組織やチームでの利用傾向、機能利用、採用状況の集計"
         },
         {
           "id": "B",
-          "text": "GET /repos/{owner}/{repo}/copilot/tests"
+          "text": "個々の社員の私的なブラウジング履歴"
         },
         {
           "id": "C",
-          "text": "POST /enterprises/{enterprise}/dpa/sign"
+          "text": "オフィスの座席表"
         },
         {
           "id": "D",
-          "text": "GET /users/{user}/themes/copilot"
+          "text": "物理デバイスの温度"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、組織のメンバーの使用状況要約として、GET /orgs/{org}/GitHub Copilot/usage が示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/5-understand-limitations-measure-impact"
+      "explanation": "利用状況メトリック API は、組織やチームレベルでの採用状況や機能利用傾向を把握するために使います。私的情報や物理設備の情報を扱うものではありません。"
     },
     {
       "questionNumber": 20,
       "type": "single",
-      "prompt": "GitHub Copilot 開発者アンケートの長い形式について、推奨頻度として本文にあるものはどれか。",
+      "prompt": "GitHub Copilot の開発者生産性への影響を測る方法として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "特に評価と導入段階の最後に、4週間に1回以内"
+          "text": "アンケートと開発指標を組み合わせ、継続的に変化を確認する"
         },
         {
           "id": "B",
-          "text": "毎日必ず実施する"
+          "text": "1 回だけ感想を聞いて以後は測定しない"
         },
         {
           "id": "C",
-          "text": "1年に1回だけ実施する"
+          "text": "生成されたコード量だけで全体評価する"
         },
         {
           "id": "D",
-          "text": "短い形式より頻繁に2週間ごとに実施する"
+          "text": "回答者数が 1 人でも必ず組織全体の結論にする"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、長い形式のアンケートは、包括的なフィードバックを取り込むため、特に評価と導入段階の最後に4週間に1回以内に実施することが推奨されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/5-understand-limitations-measure-impact"
+      "explanation": "Copilot の効果測定では、主観的なフィードバックと客観的な開発指標を組み合わせて継続的に見ることが重要です。単一指標だけでは偏りやすくなります。"
     },
     {
       "questionNumber": 21,
       "type": "single",
-      "prompt": "知識チェックで、新しい言語やフレームワークの学習支援として正答になっている内容はどれか。",
+      "prompt": "Copilot を使った学習加速の例として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "コンテキストを考慮したコードスニペットと新しい関数・ライブラリに関連するインラインドキュメントを提供する"
+          "text": "未知のライブラリについて、サンプルコードと要点説明を得ながら試す"
         },
         {
           "id": "B",
-          "text": "IDE 内でビデオチュートリアルを提供する"
+          "text": "公式リファレンスをすべて無視する"
         },
         {
           "id": "C",
-          "text": "依存関係とバージョン管理を自動管理する"
+          "text": "実行結果を確認せず採用する"
         },
         {
           "id": "D",
-          "text": "異なる言語間で常に完全なコード変換を行う"
+          "text": "セキュリティ設定を自動で解除する"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、モジュール評価では、Copilot はコンテキストを考慮したコードスニペットと、新しい関数やライブラリに関連するインラインドキュメントを提供すると確認しています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/6-knowledge-check"
+      "explanation": "Copilot を学習補助として使うと、未知のライブラリでもサンプルコードや説明を出発点に素早く理解を深められます。ただし、検証や公式資料の確認は引き続き重要です。"
     },
     {
       "questionNumber": 22,
       "type": "single",
-      "prompt": "知識チェックで、コンテキストスイッチを最小限に抑える方法として正答になっているものはどれか。",
+      "prompt": "Copilot がコンテキストスイッチの削減に役立つ理由として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "エディター内でコード提案と補完を直接提供する"
+          "text": "IDE 内で質問、生成、説明確認を進めやすく、外部ツール往復を減らせる"
         },
         {
           "id": "B",
-          "text": "複数のプロジェクト管理ツールを IDE に統合する"
+          "text": "必ずすべての外部資料を閉じる必要がある"
         },
         {
           "id": "C",
-          "text": "コーディングプロセス全体を自動化して手動コーディングをなくす"
+          "text": "インターネット接続を不要にする"
         },
         {
           "id": "D",
-          "text": "タスクを自動的にスケジュールする"
+          "text": "レビュー工程を削除できる"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、モジュール評価では、エディター内でコード提案と補完を直接提供し、オンライン検索の必要性を減らすことが正答になっています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/6-knowledge-check"
+      "explanation": "Copilot を IDE 内で使うと、質問、コード生成、説明確認をその場で行いやすくなり、ブラウザーや別ツールとの往復を減らせます。"
     },
     {
       "questionNumber": 23,
       "type": "single",
-      "prompt": "知識チェックで、コードドキュメントの記述と保守を強化する機能として正答になっているものはどれか。",
+      "prompt": "ドキュメント記述やコメント生成で Copilot を使う利点として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "コンテキスト的に妥当なインラインコメントと関数説明の自動生成"
+          "text": "実装内容に沿った説明の下書きをすばやく用意し、保守の負担を減らせる"
         },
         {
           "id": "B",
-          "text": "コードからの UML 図の自動生成"
+          "text": "コメントを増やすほど品質が必ず上がる"
         },
         {
           "id": "C",
-          "text": "リアルタイム多言語翻訳"
+          "text": "既存設計との整合性確認が不要になる"
         },
         {
           "id": "D",
-          "text": "プロジェクト管理レポート作成"
+          "text": "API 仕様書を読まなくてよくなる"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、モジュール評価では、コンテキスト的に妥当なインラインコメントと関数説明の自動生成が正答です。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/6-knowledge-check"
+      "explanation": "Copilot はコメントやドキュメントのたたき台作成を速め、保守負担の軽減に役立ちます。ただし、内容の正確性や設計との整合性確認は必要です。"
     },
     {
       "questionNumber": 24,
       "type": "single",
-      "prompt": "知識チェックで、日常的なコーディングタスク自動化の例として正答になっているものはどれか。",
+      "prompt": "Copilot による日常的なコーディングタスク自動化の例として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "REST API の設定などの一般的な機能用の定型コード生成"
+          "text": "定型的なボイラープレートや変換処理を素早く生成する"
         },
         {
           "id": "B",
-          "text": "運用環境への自動デプロイ"
+          "text": "監査ログを永久に削除する"
         },
         {
           "id": "C",
-          "text": "データベース移行の完全自動管理"
+          "text": "本番承認フローを自動で無効化する"
         },
         {
           "id": "D",
-          "text": "パフォーマンステストの自動実行"
+          "text": "課金プランを勝手に変更する"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、モジュール評価では、REST API の設定など一般的な機能用の定型コード生成が正答になっています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/6-knowledge-check"
+      "explanation": "Copilot は、ボイラープレート生成や定型処理の作成など、繰り返しが多いコーディング作業の自動化に向いています。統制を破る操作の代替ではありません。"
     },
     {
       "questionNumber": 25,
       "type": "multiple",
-      "prompt": "モジュール評価で問われている開発者生産性の観点を2つ選べ。",
+      "prompt": "Copilot 導入効果を評価する指標として有効なものを 2 つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "新しい言語・フレームワーク学習の支援"
+          "text": "開発者アンケートによる満足度や自己評価"
         },
         {
           "id": "B",
-          "text": "コンテキストスイッチの低減"
+          "text": "レビュー時間や変更リードタイムなどの開発指標"
         },
         {
           "id": "C",
-          "text": "コンテンツ除外の IDE 例外"
+          "text": "モニターのサイズ"
         },
         {
           "id": "D",
-          "text": "Ask/Plan/Agent のアクセス許可レベル"
+          "text": "キーボードの色"
         }
       ],
       "correctAnswers": [
         "A",
         "B"
       ],
-      "explanation": "公式 Learn では、モジュール評価では、新しい言語やフレームワークの学習支援、コンテキストスイッチの低減、ドキュメント作成、定型コード生成が確認されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/6-knowledge-check",
+      "explanation": "Copilot の効果は、アンケートによる主観評価と、レビュー時間やリードタイムなどの客観指標を組み合わせて見ると把握しやすくなります。",
       "selectionCount": 2
     },
     {
       "questionNumber": 26,
       "type": "multiple",
-      "prompt": "まとめで、開発者が今後行うべきこととして挙げられているものを2つ選べ。",
+      "prompt": "Copilot 導入効果を継続的に測る指標として有効なものを 2 つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "Copilot をワークフローに統合する新しい方法を継続的に調べる"
+          "text": "PR リードタイム。"
         },
         {
           "id": "B",
-          "text": "AI 支援が開発プロセスに与える影響を定期的に評価する"
+          "text": "開発者アンケートによる体験評価。"
         },
         {
           "id": "C",
-          "text": "人間の問題解決スキルを育てず AI 支援だけに集中する"
+          "text": "エディターのテーマ色。"
         },
         {
           "id": "D",
-          "text": "関連情報をすべて無視して同じプロンプトだけを使う"
+          "text": "リポジトリのスター数だけ。"
         }
       ],
       "correctAnswers": [
         "A",
         "B"
       ],
-      "explanation": "公式 Learn では、まとめでは、Copilot 統合の新しい方法を調べ続けること、AI 支援の影響を定期的に評価することなどが挙げられています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/7-summary",
+      "explanation": "導入効果の測定では、開発速度や開発者体験の両面を見ることが重要です。UI の見た目やスター数だけでは効果を判断できません。",
       "selectionCount": 2
     },
     {
       "questionNumber": 27,
       "type": "single",
-      "prompt": "まとめで示される AI 支援と人間の役割のバランスはどれか。",
+      "prompt": "Copilot にデバッグ支援を依頼するときのプロンプトとして最も有効なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "AI 支援の適用と人間の創造性・問題解決スキル育成のバランスを保つ"
+          "text": "エラーメッセージ、再現条件、関連コードを含めて原因調査を依頼する。"
         },
         {
           "id": "B",
-          "text": "人間の判断をすべて廃止して AI に統一する"
+          "text": "「動かないので直して」だけを送る。"
         },
         {
           "id": "C",
-          "text": "AI 支援を禁止して手作業だけに戻す"
+          "text": "失敗したことだけ伝えてコードは見せない。"
         },
         {
           "id": "D",
-          "text": "コード補完だけを使い、影響評価は不要にする"
+          "text": "問題が起きた環境を伏せて抽象的に相談する。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、まとめでは、AI 支援の適用と人間の創造性および問題解決スキルの育成のバランスを保つことが必要だと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/7-summary"
+      "explanation": "デバッグでは、エラーメッセージや再現条件、関連コードがあるほど Copilot は具体的な分析を返しやすくなります。曖昧な依頼では有効な提案を得にくくなります。"
     },
     {
       "questionNumber": 28,
       "type": "single",
-      "prompt": "まとめの関連情報に含まれるものはどれか。",
+      "prompt": "レガシーコードの移行で Copilot に期待できる役割として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "GitHub Copilot の使用状況メトリックの REST API エンドポイント"
+          "text": "既存コードの説明と、段階的なリファクタリング案の提案。"
         },
         {
           "id": "B",
-          "text": "GitHub Copilot からのコンテンツの除外"
+          "text": "本番データベースの承認なし移行。"
         },
         {
           "id": "C",
-          "text": "C# 開発キットを使用したテスト"
+          "text": "すべての依存関係を無条件に最新版へ更新すること。"
         },
         {
           "id": "D",
-          "text": "GitHub Copilot Cloud Agent の演習起動ボタン"
+          "text": "人間の確認なしで設計判断を完了すること。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、関連情報には、GitHub Copilot の使用状況メトリックの REST API エンドポイントや GitHub Copilot 開発者アンケートなどが含まれています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/7-summary"
+      "explanation": "レガシー移行では、まず既存コードを理解し、段階的な変更計画を立てることが重要です。Copilot はその理解と提案を支援できますが、承認や最終判断の代替にはなりません。"
     },
     {
       "questionNumber": 29,
       "type": "single",
-      "prompt": "まとめで、このモジュール全体が確認した Copilot の価値として近いものはどれか。",
+      "prompt": "Copilot をセキュリティ修正に使う際の基本姿勢として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "開発タスクを合理化し、開発者の好みに合わせ、SDLC の各段階を強化する"
+          "text": "修正案を得た後に、人間がテストやスキャンで妥当性を確認する。"
         },
         {
           "id": "B",
-          "text": "契約上の保護だけを扱い、開発ワークフローには触れない"
+          "text": "セキュリティ関連の提案は必ず正しいので、そのまま反映する。"
         },
         {
           "id": "C",
-          "text": "単体テストの Visual Studio Code 手順だけを扱う"
+          "text": "脆弱性修正では Copilot を使わず、説明も求めない。"
         },
         {
           "id": "D",
-          "text": "GitHub Actions の課金管理だけを扱う"
+          "text": "安全性よりも変更量の少なさを優先する。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、まとめでは、Copilot が開発タスクを合理化し、開発者の好みに合わせ、SDLC のさまざまな段階を強化すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/7-summary"
+      "explanation": "Copilot は修正案の出発点として有効ですが、セキュリティ修正では人間による確認と検証が不可欠です。自動提案をそのまま採用するのは危険です。"
     },
     {
       "questionNumber": 30,
       "type": "single",
-      "prompt": "まとめで述べられる「学習曲線を加速」と「日常的なアクティビティ自動化」の結果として最も適切なものはどれか。",
+      "prompt": "Copilot をドキュメント作成に活用する方法として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "生産性、創造性、全体的なコーディング体験を強化する"
+          "text": "コードを基に下書きを作らせたうえで、人間が内容を確認して仕上げる。"
         },
         {
           "id": "B",
-          "text": "開発者がコードを一切読まなくてよくなる"
+          "text": "コードを見せずに README を完成版として自動公開する。"
         },
         {
           "id": "C",
-          "text": "すべての PRU 消費がなくなる"
+          "text": "ドキュメントは AI が苦手なので一切使わない。"
         },
         {
           "id": "D",
-          "text": "Copilot Free が Enterprise と同じ管理機能になる"
+          "text": "生成した文書はレビューせず、そのまま製品仕様にする。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、まとめでは、学習曲線の加速と日常的なアクティビティの自動化により、生産性、創造性、全体的なコーディングエクスペリエンスを強化すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/7-summary"
+      "explanation": "Copilot はドキュメントの下書き作成に向きますが、正確さや用語統一の確認は人間が行う必要があります。最終版として無確認で公開するべきではありません。"
     }
   ]
 }

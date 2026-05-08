@@ -5,112 +5,112 @@
     {
       "questionNumber": 1,
       "type": "single",
-      "prompt": "GitHub MCP Server が解決する課題として本文に合うものはどれか。",
+      "prompt": "MCP（Model Context Protocol）の主な目的として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "AIツールを各環境で使えるようにする難しさを、GitHub Copilot と関連ツール・ワークフローの統合で軽減する。"
+          "text": "AI と外部ツール・サービスを標準的な方法で接続すること"
         },
         {
           "id": "B",
-          "text": "GitHubのIssueやPR機能を隠し、Copilotをコード補完だけに限定する。"
+          "text": "Git の履歴だけを圧縮すること"
         },
         {
           "id": "C",
-          "text": "すべての環境でDockerローカルサーバーだけを使うよう強制する。"
+          "text": "Pull Request の承認者を自動で追加すること"
         },
         {
           "id": "D",
-          "text": "Copilot Chatを置き換える別UIを提供し、外部ツール接続は扱わない。"
+          "text": "Actions の実行時間を計測すること"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、GitHub MCP Server は、GitHub Copilot と関連ツール・ワークフローを統合するシンプルでスケーラブルな方法として説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/2-simplify-workflow"
+      "explanation": "MCP は、AI が外部ツールやサービスを共通的な方法で扱えるようにするためのプロトコルです。単なる Git 操作専用の仕組みではありません。"
     },
     {
       "questionNumber": 2,
       "type": "multiple",
       "selectionCount": 2,
-      "prompt": "MCP の利点として本文にあるものを2つ選べ。",
+      "prompt": "MCP を標準化する利点を2つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "AIモデルが利用できるツール ライブラリへのアクセス。"
+          "text": "異なるAIクライアントが同じツールを利用しやすくなる"
         },
         {
           "id": "B",
-          "text": "既存の開発環境やプロセスへの統合。"
+          "text": "特定ベンダーへの依存を減らしやすくなる"
         },
         {
           "id": "C",
-          "text": "OAuthサインインの禁止とPAT平文保存の強制。"
+          "text": "すべての操作が承認不要になる"
         },
         {
           "id": "D",
-          "text": "GitHub以外の全APIへの無制限アクセス。"
+          "text": "MCP サーバーを使うと API キーが不要になる"
         }
       ],
       "correctAnswers": [
         "A",
         "B"
       ],
-      "explanation": "公式 Learn では、MCP の利点として、ツール ライブラリへのアクセス、AIプロバイダー間の柔軟性、既存開発環境やプロセスへの統合が説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/2-simplify-workflow"
+      "explanation": "MCP の標準化により、同じツールを複数の AI 環境から再利用しやすくなり、ベンダーロックインも避けやすくなります。承認や認証の必要性が消えるわけではありません。"
     },
     {
       "questionNumber": 3,
       "type": "single",
-      "prompt": "GitHub MCP Server の認証・接続の特徴として本文にあるものはどれか。",
+      "prompt": "MCP サーバーの役割として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "one-click OAuth login と、GitHub.com、VS Code、Visual Studio などとの統合。"
+          "text": "Copilot が呼び出せるツールや操作を公開する"
         },
         {
           "id": "B",
-          "text": "OAuthを使わず、必ずPATをソースコードに保存する方式。"
+          "text": "モデルを学習し直して新しい重みを作る"
         },
         {
           "id": "C",
-          "text": "GitHub.comでは使えず、ローカルDockerからのみ利用する方式。"
+          "text": "Pull Request を自動承認する"
         },
         {
           "id": "D",
-          "text": "Enterprise IDプロバイダーとは連携しない個人専用方式。"
+          "text": "ローカルの Git 履歴を削除する"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、GitHub MCP Server は one-click OAuth login、GitHub.comやVS Codeなどとの統合、Enterprise IDプロバイダー対応が利点として説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/2-simplify-workflow"
+      "explanation": "MCP サーバーは、AI クライアントから利用できるツールやアクションを公開する役割を持ちます。モデル再学習や承認の代行が目的ではありません。"
     },
     {
       "questionNumber": 4,
       "type": "single",
-      "prompt": "GitHub MCP Server が可能にするワークフローとして本文に合うものはどれか。",
+      "prompt": "MCP サーバーを利用する例として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Issue トリアージや semantic search などを、Copilot からGitHubの文脈で扱いやすくする。"
+          "text": "Copilot が API、データベース、ファイル操作をツール経由で行う"
         },
         {
           "id": "B",
-          "text": "ローカルの1ファイルだけを検索し、GitHubリポジトリの文脈は使わない。"
+          "text": "Copilot がネットワークなしで外部 SaaS に接続する"
         },
         {
           "id": "C",
-          "text": "CopilotのAgent modeを無効にし、標準チャットだけに固定する。"
+          "text": "Copilot が権限のないシステムへ常時アクセスする"
         },
         {
           "id": "D",
-          "text": "GitHub Actions の承認ゲートだけを自動操作する。"
+          "text": "Copilot が設定を無視して任意コードを必ず実行する"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、GitHub MCP Server は、問題トリアージからsemantic searchまで、GitHubの強力な機能をCopilotワークフローに接続すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/2-simplify-workflow"
+      "explanation": "MCP サーバーを使うと、Copilot はファイル操作、DB参照、API呼び出しなどの外部ツールを文脈に応じて利用できます。無制限なアクセスを保証するものではありません。"
     },
     {
       "questionNumber": 5,
@@ -170,30 +170,30 @@
       "questionNumber": 7,
       "type": "multiple",
       "selectionCount": 2,
-      "prompt": "PATを使うVS Code設定について本文に合うものを2つ選べ。",
+      "prompt": "VS Code で MCP サーバー設定を置ける場所を2つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "PATには `repo` と `read:packages` スコープを含める。"
+          "text": "ユーザー設定の settings.json"
         },
         {
           "id": "B",
-          "text": "`promptString` と `password: true` を使い、トークンを安全に入力させる。"
+          "text": "ワークスペース設定の settings.json"
         },
         {
           "id": "C",
-          "text": "PATは `.vscode/mcp.json` の `headers` に平文で直接書くことが推奨される。"
+          "text": "README.md"
         },
         {
           "id": "D",
-          "text": "PAT方式ではAuthorizationヘッダーを使わない。"
+          "text": "LICENSE"
         }
       ],
       "correctAnswers": [
         "A",
         "B"
       ],
-      "explanation": "公式 Learn では、PAT方式では、`repo` と `read:packages` スコープを持つPATを作成し、`promptString` と `password: true` を使って安全に入力する構成例が示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/3-configure-connect"
+      "explanation": "MCP サーバー設定は、ユーザー設定またはワークスペース設定の settings.json に置くのが基本です。README や LICENSE は設定ファイルではありません。"
     },
     {
       "questionNumber": 8,
@@ -225,56 +225,56 @@
     {
       "questionNumber": 9,
       "type": "single",
-      "prompt": "Dockerを使うローカルセットアップで本文に出てくるコンテナー イメージはどれか。",
+      "prompt": "MCP サーバーの分類として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "`ghcr.io/github/github-mcp-server`"
+          "text": "ローカル と リモート"
         },
         {
           "id": "B",
-          "text": "`mcr.microsoft.com/copilot/mcp-server`"
+          "text": "単体 と 結合"
         },
         {
           "id": "C",
-          "text": "`ghcr.io/actions/github-copilot-agent`"
+          "text": "公開 と 非公開"
         },
         {
           "id": "D",
-          "text": "`docker.io/github/copilot-reviewer`"
+          "text": "同期 と 非同期"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、Dockerのローカル構成例では、`ghcr.io/github/github-mcp-server` イメージを使うと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/3-configure-connect"
+      "explanation": "MCP サーバーは、利用者の環境で動くローカル型と、ネットワーク越しに接続するリモート型に大別できます。"
     },
     {
       "questionNumber": 10,
       "type": "single",
-      "prompt": "MCP Server接続のトラブルシューティングとして本文にあるものはどれか。",
+      "prompt": "MCP サーバーが変更や外部操作を行う前のセキュリティ上の考え方として適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "GitHubサインイン、PATスコープ、構成のtypo、Docker稼働、VS CodeやMCP Serverの再起動を確認する。"
+          "text": "必要に応じて利用者が操作内容を確認し、承認フローを通す"
         },
         {
           "id": "B",
-          "text": "認証に失敗したら、PATのスコープを削除して再試行する。"
+          "text": "一度追加したサーバーの操作は常に無条件で実行する"
         },
         {
           "id": "C",
-          "text": "入力ミスがあってもCopilotが自動修正するため、構成ファイルは確認しない。"
+          "text": "承認はローカルサーバーでだけ不要になる"
         },
         {
           "id": "D",
-          "text": "Docker方式ではDockerが停止していることを確認する。"
+          "text": "AI が提案した操作はログに残さない"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、一般的な問題への対処として、GitHubサインイン、PATスコープ、構成ミス、Dockerの稼働、VS CodeまたはMCP Serverの再起動が挙げられています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/3-configure-connect"
+      "explanation": "MCP では、ファイル変更や外部システム操作などの重要な処理に対して、利用者が内容を確認して承認できることが重要です。利便性より安全性を優先します。"
     },
     {
       "questionNumber": 11,
@@ -307,57 +307,57 @@
       "questionNumber": 12,
       "type": "multiple",
       "selectionCount": 2,
-      "prompt": "MCPがAgent modeを強化する内容として本文にあるものを2つ選べ。",
+      "prompt": "エージェントモードで MCP を使う利点を2つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "外部データ、API、Enterprise tools に直接アクセスできる。"
+          "text": "必要なツールを呼び出して実行できる"
         },
         {
           "id": "B",
-          "text": "複数プラットフォームをまたいでコンテキストを維持できる。"
+          "text": "複数のツールを組み合わせたタスクを進められる"
         },
         {
           "id": "C",
-          "text": "プロンプトへの単発回答だけに制限する。"
+          "text": "モデルの学習データをその場で再訓練できる"
         },
         {
           "id": "D",
-          "text": "GitHubリポジトリとの対話を無効化する。"
+          "text": "GitHub 以外のサービスとは連携できなくなる"
         }
       ],
       "correctAnswers": [
         "A",
         "B"
       ],
-      "explanation": "公式 Learn では、MCPにより、外部データやAPI、Enterprise toolsへの直接アクセス、複数プラットフォーム間のコンテキスト維持、agentic loopsが可能になると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/4-use-github-copilot-chat"
+      "explanation": "エージェントモードでは、MCP を通じて必要なツールを選び、複数の外部機能を組み合わせながらタスクを進められます。"
     },
     {
       "questionNumber": 13,
       "type": "single",
-      "prompt": "MCPを使ったAgent modeの例として本文に近いものはどれか。",
+      "prompt": "エージェントモードで MCP を活用した例として適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Copilotに関連リポジトリや未解決Issueを調査させ、重要な問題を見つけてPRへ進める。"
+          "text": "Issue を読み、関連ファイルを更新し、必要なら API も参照する"
         },
         {
           "id": "B",
-          "text": "Copilotにコード補完だけを返させ、IssueやPRには触れさせない。"
+          "text": "権限確認なしで本番DBを常時書き換える"
         },
         {
           "id": "C",
-          "text": "CopilotにGitHubサインインを省略させ、匿名でprivateリポジトリを検索させる。"
+          "text": "ローカルファイルを使わず推測だけで修正する"
         },
         {
           "id": "D",
-          "text": "CopilotにCI結果だけを要約させ、コード分析は行わせない。"
+          "text": "ツール呼び出しなしで外部システム状態を断定する"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、本文では、Copilotを委任して同様のプロジェクトや未解決Issueを調査し、重要な問題を見つけ、アイデアからpull requestへ実装する流れが説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/4-use-github-copilot-chat"
+      "explanation": "MCP を使えば、エージェントは外部データやファイルを実際に参照しながら作業できます。推測だけで進めるより、正確で再現性のある対応が可能になります。"
     },
     {
       "questionNumber": 14,
@@ -416,355 +416,355 @@
     {
       "questionNumber": 16,
       "type": "single",
-      "prompt": "演習で扱う統合作業として正しいものはどれか。",
+      "prompt": "Model Context Protocol の主な目的として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "GitHub MCP Server を GitHub Copilot と統合する。"
+          "text": "AI クライアントがツールやリソースへ標準的に接続できるようにすること。"
         },
         {
           "id": "B",
-          "text": "Cloud Agent の `copilot-setup-steps.yml` を作成する。"
+          "text": "コード補完の表示色を変更すること。"
         },
         {
           "id": "C",
-          "text": "CopilotコードレビューのPRUアラートを設定する。"
+          "text": "GitHub Actions の課金を制御すること。"
         },
         {
           "id": "D",
-          "text": "GitHub Actionsの承認ゲートを構成する。"
+          "text": "ブランチ保護を自動承認にすること。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、演習では、GitHub MCP ServerをGitHub Copilotと統合することが目的として示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/5-exercise-integrate-github-copilot"
+      "explanation": "MCP は、AI と外部ツール・データソースの接続方法を標準化するための考え方です。UI 調整や GitHub 権限管理の仕組みではありません。"
     },
     {
       "questionNumber": 17,
       "type": "single",
-      "prompt": "演習でCopilotへ委任する内容として本文にあるものはどれか。",
+      "prompt": "Local MCP Server と Remote MCP Server の違いとして最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "同様のプロジェクトと未解決Issueを調査させる。"
+          "text": "Local は手元で実行され、Remote はネットワーク越しに提供される。"
         },
         {
           "id": "B",
-          "text": "PRU使用量を75%、90%、100%で通知させる。"
+          "text": "Local は tools を持てず、Remote だけが tools を持てる。"
         },
         {
           "id": "C",
-          "text": "GitHub ActionsのrunnerをUbuntu x64へ変更させる。"
+          "text": "Remote は常に認証不要で、Local だけが OAuth を使う。"
         },
         {
           "id": "D",
-          "text": "Copilot ReviewのRulesetsを組織全体へ適用させる。"
+          "text": "両者に違いはなく、名称だけが異なる。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、演習項目には、Copilotを委任して同様のプロジェクトと未解決の問題を調査することが含まれています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/5-exercise-integrate-github-copilot"
+      "explanation": "Local と Remote の大きな違いは、サーバーがどこで実行されるかです。どちらも MCP の考え方に従って機能を提供できます。"
     },
     {
       "questionNumber": 18,
       "type": "single",
-      "prompt": "演習で「アイデアからpull requestへ」進める対象として正しいものはどれか。",
+      "prompt": "MCP Server が提供する機能のうち、Issue の作成や検索のような操作を Copilot から呼び出せるようにするものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Copilotに重要な問題を見つけさせ、その実装をpull requestへ進める。"
+          "text": "tools"
         },
         {
           "id": "B",
-          "text": "CopilotにMCPサーバーのPATを生成させ、pull requestへ保存する。"
+          "text": "resources"
         },
         {
           "id": "C",
-          "text": "CopilotにGitHubの組織設定を変更させ、その結果をpull requestへ反映する。"
+          "text": "labels"
         },
         {
           "id": "D",
-          "text": "CopilotにActions課金設定を変更させる。"
+          "text": "rulesets"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、演習では、Copilotに重要な問題を見つけ、アイデアからpull requestに実装するよう依頼する流れが示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/5-exercise-integrate-github-copilot"
+      "explanation": "操作を実行するための入口になるのが tools です。resources は参照情報、rulesets は GitHub の別機能です。"
     },
     {
       "questionNumber": 19,
       "type": "single",
-      "prompt": "演習でMCPを使う意義として最も適切なものはどれか。",
+      "prompt": "MCP Server 利用時のセキュリティ注意点として最も重要なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "CopilotがGitHub上の関連情報やツールを使って、調査から実装までを同じ文脈で進めやすくなる。"
+          "text": "信頼できないサーバーを安易に追加せず、渡される情報や操作内容を確認すること。"
         },
         {
           "id": "B",
-          "text": "Copilotの利用をコード補完だけに制限し、外部情報を見ないようにする。"
+          "text": "追加したサーバーの出力は常に安全なので確認不要である。"
         },
         {
           "id": "C",
-          "text": "OAuthやPATなどの認証手順をすべて不要にする。"
+          "text": "PAT を README に保存して共有すること。"
         },
         {
           "id": "D",
-          "text": "GitHubリポジトリのIssueとPRを読み取り専用で隠す。"
+          "text": "権限の広いサーバーほど安全性が高いと考えること。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、MCPはCopilotを外部ツールやリソースへ接続し、GitHubの文脈を保ちながら調査や実装を進められるようにすると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/5-exercise-integrate-github-copilot"
+      "explanation": "MCP Server は強力な操作や情報参照を提供できるため、接続先の信頼性と権限範囲を確認することが重要です。無条件に信頼すると、不要な操作や情報露出のリスクがあります。"
     },
     {
       "questionNumber": 20,
       "type": "single",
-      "prompt": "演習の前提として、MCPとCopilot Chatの関係で正しい理解はどれか。",
+      "prompt": "MCP Server からの prompt injection リスクを下げる方法として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "MCP Server toolsを有効にしたAgent modeで、CopilotがGitHubのデータや操作を利用できる。"
+          "text": "必要なサーバーと tools だけを有効にし、提案された操作を確認する。"
         },
         {
           "id": "B",
-          "text": "MCPはCopilot Chatとは別の製品で、同時には使えない。"
+          "text": "すべての server と tools を常時有効にする。"
         },
         {
           "id": "C",
-          "text": "MCPを使うとAgent modeではなく標準チャットだけが使える。"
+          "text": "認証を省略して接続テストを行う。"
         },
         {
           "id": "D",
-          "text": "MCPはローカルファイルの暗号化だけを行う。"
+          "text": "サーバーの出力をそのまま本番変更に反映する。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、本文では、Copilot ChatのAgent modeでMCP Server toolsを有効化し、GitHub MCP ServerでCopilotの機能を拡張する流れが説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/5-exercise-integrate-github-copilot"
+      "explanation": "必要最小限のサーバー・tools に絞ることで、不要な影響範囲を減らせます。さらに、実行前の確認を徹底することが prompt injection 対策として重要です。"
     },
     {
       "questionNumber": 21,
       "type": "single",
-      "prompt": "知識チェックで問われるMCPの正式名称はどれか。",
+      "prompt": "VS Code に MCP サーバーを追加する目的として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Model Context Protocol"
+          "text": "Copilot がそのサーバーの提供するツールを利用できるようにする"
         },
         {
           "id": "B",
-          "text": "Model Collaboration Platform"
+          "text": "Copilot の言語モデルを別製品へ置き換える"
         },
         {
           "id": "C",
-          "text": "Multi-cloud Provider"
+          "text": "GitHub アカウント名を変更する"
         },
         {
           "id": "D",
-          "text": "Modular Code Process"
+          "text": "Markdown プレビューだけを高速化する"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、知識チェックでは、MCPはGitHub MCP Serverの文脈でModel Context Protocolを表すと扱われています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/6-knowledge-check"
+      "explanation": "MCP サーバーを追加する主目的は、Copilot がそのサーバー経由で外部ツールや機能を利用できるようにすることです。"
     },
     {
       "questionNumber": 22,
       "type": "single",
-      "prompt": "知識チェックで、GitHub MCP ServerによりCopilotが行える内容として正しいものはどれか。",
+      "prompt": "リモート MCP サーバーの説明として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "Issueを開き、ワークフローを管理し、プラットフォーム間でタスクを実行できる。"
+          "text": "ネットワーク越しにホストされたサーバーへ接続して利用する"
         },
         {
           "id": "B",
-          "text": "コード補完だけを提案し、GitHubリポジトリとは対話できない。"
+          "text": "必ずローカルPC上でだけ動作する"
         },
         {
           "id": "C",
-          "text": "Semantic searchは使えず、ローカルファイルだけを参照する。"
+          "text": "ローカルファイルを一切扱えない"
         },
         {
           "id": "D",
-          "text": "GitHub上のIssueやPRはMCPの対象外である。"
+          "text": "VS Code では設定できない"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、知識チェックでは、GitHub MCP ServerによりCopilotがIssueを開く、ワークフローを管理する、プラットフォーム間でタスクを実行する、といった内容が正しい選択肢として扱われています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/6-knowledge-check"
+      "explanation": "リモート MCP サーバーは、ネットワーク経由で接続する外部ホスト上のサーバーです。ローカル型と対比して理解します。"
     },
     {
       "questionNumber": 23,
       "type": "single",
-      "prompt": "知識チェックの文脈で、CopilotとGitHub MCP Serverの関係として正しいものはどれか。",
+      "prompt": "ローカル MCP サーバーの説明として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "CopilotがGitHubリポジトリやワークフローに対話するための接続点を提供する。"
+          "text": "利用者の環境で動作し、ローカル資源に近い場所でツールを提供できる"
         },
         {
           "id": "B",
-          "text": "CopilotからGitHub機能を切り離すための制限機構である。"
+          "text": "常にクラウド専用で、手元では実行できない"
         },
         {
           "id": "C",
-          "text": "Copilotをローカル補完専用にするための設定ファイルである。"
+          "text": "承認フローを設定できない"
         },
         {
           "id": "D",
-          "text": "GitHub Actionsのrunner OSを選ぶためのプロトコルである。"
+          "text": "外部ツール連携には使えない"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、知識チェックを含む本文全体では、GitHub MCP ServerがCopilotをGitHubのデータやツールへ接続する役割として説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/6-knowledge-check"
+      "explanation": "ローカル MCP サーバーは手元の環境で動き、ローカルファイルやローカルツールとの連携に適しています。"
     },
     {
       "questionNumber": 24,
       "type": "single",
-      "prompt": "知識チェックの内容から見て、MCP Server利用時に避けるべき取り違えはどれか。",
+      "prompt": "MCP について避けるべき誤解はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "MCPを単なるコード補完機能だと考えること。"
+          "text": "MCP は GitHub 専用で、ほかのツール連携には使えないと考えること"
         },
         {
           "id": "B",
-          "text": "MCPを外部ツールやデータ接続の標準化と考えること。"
+          "text": "MCP は外部ツール連携のための仕組みだと理解すること"
         },
         {
           "id": "C",
-          "text": "GitHub MCP ServerがIssueやPRの文脈を扱えると考えること。"
+          "text": "MCP サーバーは Copilot から呼び出せるツールを提供できると理解すること"
         },
         {
           "id": "D",
-          "text": "OAuthやPATなど認証設定が必要になり得ると考えること。"
+          "text": "MCP には標準化の恩恵があると理解すること"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、知識チェックでは、Copilotがコード補完だけでなくIssue、ワークフロー、プラットフォーム横断タスクを扱える点が確認されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/6-knowledge-check"
+      "explanation": "MCP は GitHub 専用規格ではなく、外部ツール連携を標準化する考え方です。ほかのツールや AI クライアントでも利用価値があります。"
     },
     {
       "questionNumber": 25,
       "type": "single",
-      "prompt": "知識チェック後に理解しておくべき実務上の要点はどれか。",
+      "prompt": "MCP の標準化が実務で重要な理由として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "GitHub MCP Serverは便利だが、接続方式と認証、付与するtoolsを意識して使う。"
+          "text": "異なるAIやツール環境で再利用しやすい接続方式を作れる"
         },
         {
           "id": "B",
-          "text": "MCPを使えば認証や権限の検討は不要になる。"
+          "text": "一つの製品に固定するほど導入が容易になる"
         },
         {
           "id": "C",
-          "text": "MCPはGitHub.comでは使えず、VS Codeにも統合できない。"
+          "text": "ツールの権限制御が不要になる"
         },
         {
           "id": "D",
-          "text": "MCPはAgent modeとは組み合わせられない。"
+          "text": "外部サービスの API 仕様が不要になる"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、本文では、OAuth、PAT、Dockerなどの接続方式や、Copilot Chatでのtools選択を通じてGitHub MCP Serverを使うと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/6-knowledge-check"
+      "explanation": "標準化された接続方式があれば、同じツール資産を複数の AI 環境で再利用しやすくなります。これがベンダーロックインの回避にもつながります。"
     },
     {
       "questionNumber": 26,
       "type": "single",
-      "prompt": "概要で、このモジュールを通じて説明した内容として正しいものはどれか。",
+      "prompt": "GitHub-hosted な MCP Server を使う利点として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "MCPとGitHub MCP ServerがAIを利用した開発ワークフローをどう支えるか。"
+          "text": "Docker や手動構成を減らし、管理された接続方法で使い始めやすい。"
         },
         {
           "id": "B",
-          "text": "Cloud Agentのファイアウォール設定だけ。"
+          "text": "GitHub.com では使えなくなるがローカル性能が上がる。"
         },
         {
           "id": "C",
-          "text": "CopilotコードレビューのPRU最適化だけ。"
+          "text": "認証や権限設定が完全に不要になる。"
         },
         {
           "id": "D",
-          "text": "GitHub Copilot Spacesの共有設定だけ。"
+          "text": "ローカルの Git 設定を自動で書き換えられる。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、概要では、MCPとGitHub MCP Serverとは何か、およびAIを利用した開発ワークフローをどうサポートするかを説明したとまとめられています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/7-summary"
+      "explanation": "GitHub-hosted サーバーは、セットアップ負荷を下げて導入しやすい点が利点です。ただし、認証や権限の考慮が不要になるわけではありません。"
     },
     {
       "questionNumber": 27,
       "type": "multiple",
       "selectionCount": 2,
-      "prompt": "概要で学習内容としてまとめられているものを2つ選べ。",
+      "prompt": "MCP Server がクライアントへ提供できる代表的な要素を 2 つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "GitHub MCP Serverを使ってプロジェクトを簡素化およびスケーリングする利点。"
+          "text": "tools"
         },
         {
           "id": "B",
-          "text": "OAuth、PAT、Dockerを使ってVS CodeでGitHub MCP Serverを設定する方法。"
+          "text": "resources"
         },
         {
           "id": "C",
-          "text": "Cloud AgentのUbuntu x64ランナー制限。"
+          "text": "branch protections"
         },
         {
           "id": "D",
-          "text": "CopilotレビューのRulesets構成だけ。"
+          "text": "Actions secrets"
         }
       ],
       "correctAnswers": [
         "A",
         "B"
       ],
-      "explanation": "公式 Learn では、概要では、GitHub MCP Serverの利点と、OAuth、PAT、DockerによるVS Code設定を学習内容としてまとめています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/7-summary"
+      "explanation": "MCP Server は、操作の入口となる tools や、参照情報としての resources を提供できます。branch protection や Actions secrets は GitHub 側の別概念です。"
     },
     {
       "questionNumber": 28,
       "type": "single",
-      "prompt": "概要で、Copilot ChatでGitHub MCP Serverを使う目的として最も近いものはどれか。",
+      "prompt": "Copilot Chat の Agent mode と MCP Server を組み合わせる主な目的として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "タスク自動化、Issue管理、コード分析をエディター内で直接始められるようにする。"
+          "text": "外部ツールやデータを使いながら、複数ステップの作業を進めやすくすること。"
         },
         {
           "id": "B",
-          "text": "GitHubリポジトリを見ずに、一般的な文章校正だけを行う。"
+          "text": "Agent mode を無効にして単発の補完だけにすること。"
         },
         {
           "id": "C",
-          "text": "Actionsの承認を自動で省略する。"
+          "text": "PR 承認を自動完了すること。"
         },
         {
           "id": "D",
-          "text": "PRU消費を監視するダッシュボードを作る。"
+          "text": "GitHub Actions の runner OS を固定すること。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、概要では、AIを利用したツールとワークフローを使用して、タスク自動化、Issue管理、コード分析をエディター内で直接開始できるとまとめています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/7-summary"
+      "explanation": "Agent mode と MCP を組み合わせると、Copilot はチャットの外にあるデータや操作も使いながら、まとまったタスクを進めやすくなります。"
     },
     {
       "questionNumber": 29,
@@ -796,29 +796,29 @@
     {
       "questionNumber": 30,
       "type": "single",
-      "prompt": "モジュール全体の理解として最も適切なものはどれか。",
+      "prompt": "MCP を使って複数のツールを組み合わせるシナリオとして適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "GitHub MCP Serverは、CopilotをGitHubのデータやtoolsへ接続し、Agent modeの作業範囲を広げる。"
+          "text": "ファイル操作用サーバーと API アクセス用サーバーを同じタスクで使う"
         },
         {
           "id": "B",
-          "text": "GitHub MCP Serverは、CopilotからGitHubの文脈を切り離すための機能である。"
+          "text": "1回の会話では必ず1種類のツールしか使えない"
         },
         {
           "id": "C",
-          "text": "MCPはDocker必須で、OAuthやPATでは設定できない。"
+          "text": "ローカルサーバーとリモートサーバーは同時利用できない"
         },
         {
           "id": "D",
-          "text": "MCPを使うとCopilot ChatのAgent modeは不要になる。"
+          "text": "MCP を使うとレビュー承認者の追加しかできない"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、概要では、GitHub MCP Serverを構成してCopilot Chatで利用し、AIワークフローを開発環境へ直接取り込むことができるとまとめられています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/7-summary"
+      "explanation": "MCP の強みは、複数のツールを必要に応じて組み合わせられることです。たとえばファイル操作と API 参照を同じ作業の中で使えます。"
     }
   ]
 }

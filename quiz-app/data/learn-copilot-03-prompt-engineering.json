@@ -152,56 +152,56 @@
     {
       "questionNumber": 6,
       "type": "single",
-      "prompt": "インバウンド フローの最初に行われることとして正しいものはどれか。",
+      "prompt": "ゼロショットプロンプトの例として最も適切なものはどれか。",
       "options": [
         {
-          "id": "A",
-          "text": "HTTPS 経由でユーザー プロンプトを安全に送信し、周囲のコードやファイル情報などのコンテキストを収集する"
+          "id": "a",
+          "text": "例を示さず、要件だけを伝えて実装を依頼する"
         },
         {
-          "id": "B",
-          "text": "モデル応答を公開コード一致フィルターにかける"
+          "id": "b",
+          "text": "複数の入出力例を先に示してから同形式の回答を求める"
         },
         {
-          "id": "C",
-          "text": "生成済みコンテンツを有害性フィルターで削除する"
+          "id": "c",
+          "text": "モデルの学習データ全体を開示するよう求める"
         },
         {
-          "id": "D",
-          "text": "ユーザーに提案を提示してフィードバック ループを開始する"
+          "id": "d",
+          "text": "機密情報を大量に貼り付けて推測させる"
         }
       ],
       "correctAnswers": [
-        "A"
+        "a"
       ],
-      "explanation": "公式 Learn では、プロセスは HTTPS による安全なプロンプト送信から始まり、カーソル前後のコード、ファイル名と種類、開いているタブ、プロジェクト構造などのコンテキストを収集すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/3-github-copilot-user-prompt-process-flow"
+      "explanation": "ゼロショットは、見本を与えずに指示だけで回答を求める方法です。例を示して形式や期待値をそろえるのはフューショットの考え方です。"
     },
     {
       "questionNumber": 7,
       "type": "single",
-      "prompt": "Fill-in-the-Middle (FIM) の説明として正しいものはどれか。",
+      "prompt": "フューショットプロンプトの利点として最も適切なものはどれか。",
       "options": [
         {
-          "id": "A",
-          "text": "先行と後続のコード コンテキストを考慮し、より広範な文脈で提案を生成しやすくする前処理"
+          "id": "a",
+          "text": "入力と出力の例を示し、期待する形式や方針を伝えやすい"
         },
         {
-          "id": "B",
-          "text": "150 文字を超える公開コード類似提案を返さない任意フィルター"
+          "id": "b",
+          "text": "例が多いほど必ずセキュリティレビューが不要になる"
         },
         {
-          "id": "C",
-          "text": "コード エディター外の Chat で 28 日間データを保持する処理"
+          "id": "c",
+          "text": "モデルが誤ることはなくなる"
         },
         {
-          "id": "D",
-          "text": "LLM の全レイヤーを再トレーニングする微調整手法"
+          "id": "d",
+          "text": "利用者の意図を曖昧にして自由回答を増やせる"
         }
       ],
       "correctAnswers": [
-        "A"
+        "a"
       ],
-      "explanation": "公式 Learn では、FIM は前処理として先行と後続両方のコード コンテキストを考慮し、モデルの理解を拡大して正確で関連性の高い提案を生成しやすくすると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/3-github-copilot-user-prompt-process-flow"
+      "explanation": "フューショットでは、少数の例を与えて期待する出力形式や判断基準を伝えます。これにより、回答スタイルや粒度をそろえやすくなります。"
     },
     {
       "questionNumber": 8,
@@ -343,29 +343,29 @@
     {
       "questionNumber": 13,
       "type": "single",
-      "prompt": "コード エディター外の Copilot Chat の保持期間として本文に示されるものはどれか。",
+      "prompt": "Copilot への指示品質を高める方法として適切なものはどれか。",
       "options": [
         {
-          "id": "A",
-          "text": "通常 28 日間"
+          "id": "a",
+          "text": "目的、制約、使用言語、成功条件を具体的に伝える"
         },
         {
-          "id": "B",
-          "text": "通常 24 時間"
+          "id": "b",
+          "text": "曖昧な依頼だけにして、細部は推測に任せる"
         },
         {
-          "id": "C",
-          "text": "通常 150 日間"
+          "id": "c",
+          "text": "毎回まったく同じ短文だけを入力する"
         },
         {
-          "id": "D",
-          "text": "保持しない"
+          "id": "d",
+          "text": "秘密情報を追加して判断材料を増やす"
         }
       ],
       "correctAnswers": [
-        "A"
+        "a"
       ],
-      "explanation": "公式 Learn では、コード エディター外で使用される Copilot Chat では、GitHub は通常、プロンプト、提案、関連コンテキストを 28 日間保持すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/4-github-copilot-data"
+      "explanation": "プロンプトでは、何を達成したいか、どの技術を使うか、どの条件を守るかを具体的に伝えるほど、意図に沿った回答を得やすくなります。"
     },
     {
       "questionNumber": 14,
@@ -561,247 +561,247 @@
     {
       "questionNumber": 21,
       "type": "single",
-      "prompt": "知識チェックでの GitHub Copilot の説明として正しいものはどれか。",
+      "prompt": "少ショット（few-shot）プロンプトの特徴として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "OpenAI を利用したコーディング用のアシスタント"
+          "text": "少数の具体例を添えて、期待する出力形式や判断基準を示す。"
         },
         {
           "id": "B",
-          "text": "コード リポジトリのためだけのプラットフォーム"
+          "text": "出力例を一切示さず、モデルに完全に任せる。"
         },
         {
           "id": "C",
-          "text": "Web ホスティング用サービス"
+          "text": "会話履歴を削除し、常に 1 語だけを入力する。"
         },
         {
           "id": "D",
-          "text": "機械学習を利用したモデルそのもの"
+          "text": "モデル全体を毎回再学習してから質問する。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、知識チェックでは、GitHub Copilot は OpenAI を利用したコーディング用のアシスタントだとされています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/6-knowledge-check"
+      "explanation": "few-shot プロンプトは、少数の例を添えて期待する形式や判断基準を伝える方法です。例を含めない zero-shot より、回答形式をそろえたい場面で役立ちます。"
     },
     {
       "questionNumber": 22,
       "type": "single",
-      "prompt": "プロンプトの役割として知識チェックの正答に近いものはどれか。",
+      "prompt": "効果的なプロンプトの基本構造として最も適切な組み合わせはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "コード提案の品質を向上させる"
+          "text": "ペルソナ、タスク、コンテキスト、制約"
         },
         {
           "id": "B",
-          "text": "コーディング プロセス全体を完全自動化する"
+          "text": "ライセンス、請求先、OS、CPU"
         },
         {
           "id": "C",
-          "text": "リアルタイム コラボレーションを実装する"
+          "text": "ブランチ名、スター数、レビュー数、壁紙"
         },
         {
           "id": "D",
-          "text": "インスタント バグ修正を必ず生成する"
+          "text": "色、フォント、解像度、テーマ曲"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、知識チェックでは、プロンプトは GitHub Copilot を効果的に利用するうえでコード提案の品質を向上させる役割を持つとされています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/6-knowledge-check"
+      "explanation": "プロンプトの精度を高めるには、誰として振る舞うか、何をするか、どんな前提情報があるか、どの制約を守るかを明確に伝えるのが基本です。"
     },
     {
       "questionNumber": 23,
       "type": "single",
-      "prompt": "4S の原則として知識チェックで正しいものはどれか。",
+      "prompt": "4S 原則のうち Specific が求める内容として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "命令を明示的かつ詳細に指定する"
+          "text": "曖昧さを減らし、期待する出力を具体的に指定すること"
         },
         {
           "id": "B",
-          "text": "プロセスを効率化する"
+          "text": "1 回の指示に複数の目的を詰め込むこと"
         },
         {
           "id": "C",
-          "text": "コーディング言語を普遍的に簡略化する"
+          "text": "制約を外して長文だけを入力すること"
         },
         {
           "id": "D",
-          "text": "コードの目標を抽象的に要約するだけにする"
+          "text": "モデル内部の重みを直接変更すること"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、知識チェックでは、4S の原則に合うものとして、命令を明示的かつ詳細に指定することが示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/6-knowledge-check"
+      "explanation": "4S の Specific は、曖昧な依頼を避け、必要な条件や期待する出力を具体化する考え方です。これにより Copilot の提案精度を上げやすくなります。"
     },
     {
       "questionNumber": 24,
       "type": "single",
-      "prompt": "個人データの処理について知識チェックで正しいものはどれか。",
+      "prompt": "コンテキストウィンドウの制限に近づいたときの対処として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "ユーザーのプライバシーを保護するために、個人データを積極的に除外する"
+          "text": "不要な履歴を要約し、必要な部分だけを再提示する。"
         },
         {
           "id": "B",
-          "text": "将来の参照のためにすべて保存する"
+          "text": "過去の会話を毎回すべてそのまま貼り直す。"
         },
         {
           "id": "C",
-          "text": "コラボレーション プロジェクトのため他ユーザーと共有する"
+          "text": "制限を超えても重要情報は自動で常に保持されると考える。"
         },
         {
           "id": "D",
-          "text": "個人データを暗号化すれば除外しない"
+          "text": "要件や制約を削除して質問の精度を下げる。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、知識チェックでは、Copilot はユーザーのプライバシーを保護するために個人データを積極的に除外するとされています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/6-knowledge-check"
+      "explanation": "コンテキストウィンドウには上限があるため、長い履歴は要約し、現在のタスクに必要な情報だけを渡すのが有効です。"
     },
     {
       "questionNumber": 25,
       "type": "single",
-      "prompt": "LoRA について知識チェックの正答に近いものはどれか。",
+      "prompt": "LoRA の説明として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "完全な見直しをせず、事前トレーニング済みモデルの各レイヤーにトレーニング可能な要素を追加する方法"
+          "text": "事前学習済みモデル全体を再学習せず、一部の追加パラメータを学習して適応させる手法"
         },
         {
           "id": "B",
-          "text": "異なるコーディング言語間の通信を最適化する技術"
+          "text": "毎回のプロンプトに例を追加して応答を調整する手法"
         },
         {
           "id": "C",
-          "text": "Copilot 専用の新しいプログラミング パラダイム"
+          "text": "CLI で複数候補を表示するための UI 機能"
         },
         {
           "id": "D",
-          "text": "Copilot の性能を高める特殊なソフトウェア ライブラリ"
+          "text": "コンテキストウィンドウを無制限に拡張する圧縮方式"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、知識チェックでは、LoRA は完全な見直しを行わずに事前トレーニング済みモデルの各レイヤーへトレーニング可能な要素を追加する方法だとされています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/6-knowledge-check"
+      "explanation": "LoRA は Low-Rank Adaptation の略で、モデル全体を大きく再学習せずに追加パラメータを学習して適応させる効率的な微調整手法です。"
     },
     {
       "questionNumber": 26,
       "type": "single",
-      "prompt": "まとめで、このモジュールの中心テーマとして述べられるものはどれか。",
+      "prompt": "特定の出力パターンを Copilot にまねさせたい場合、最も有効なプロンプト手法はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "効果的なプロンプトを通じて GitHub Copilot を最適化すること"
+          "text": "few-shot で例を示す。"
         },
         {
           "id": "B",
-          "text": "GitHub Actions の採点ワークフローを作ること"
+          "text": "例を示さず抽象的に依頼する。"
         },
         {
           "id": "C",
-          "text": "VS Code 拡張機能を Marketplace に公開すること"
+          "text": "ファイル名だけを送る。"
         },
         {
           "id": "D",
-          "text": "Copilot Business の課金管理だけを学ぶこと"
+          "text": "毎回会話履歴をすべて貼り付ける。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、まとめでは、効果的なプロンプトを通じて GitHub Copilot を最適化する複雑さを明らかにしたと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/7-summary"
+      "explanation": "few-shot は、期待する形式やパターンを例で示したいときに有効です。出力形式を学習させたい場面では、抽象的な依頼より再現性が高くなります。"
     },
     {
       "questionNumber": 27,
       "type": "multiple",
       "selectionCount": 2,
-      "prompt": "まとめで学習内容として挙げられるものを 2 つ選べ。",
+      "prompt": "良いプロンプトに含めると効果的な要素を 2 つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "プロンプト エンジニアリングの原則とベスト プラクティス"
+          "text": "期待する出力形式。"
         },
         {
           "id": "B",
-          "text": "GitHub Copilot がユーザー プロンプトを処理して応答やコード提案を生成するフロー"
+          "text": "制約や前提条件。"
         },
         {
           "id": "C",
-          "text": "GitHub Actions 分を節約する課金設定"
+          "text": "無関係な雑談。"
         },
         {
           "id": "D",
-          "text": "Teams 会議からコードを生成する方法"
+          "text": "意図を隠した曖昧表現。"
         }
       ],
       "correctAnswers": [
         "A",
         "B"
       ],
-      "explanation": "公式 Learn では、まとめでは、プロンプト エンジニアリングの原則やベスト プラクティス、Copilot がプロンプトを処理して応答やコード提案を生成するフローなどを学んだと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/7-summary"
+      "explanation": "出力形式と制約を明示すると、Copilot が何をどこまで行うべきか判断しやすくなります。無関係な情報や曖昧さは品質を下げます。"
     },
     {
       "questionNumber": 28,
       "type": "single",
-      "prompt": "まとめで扱ったデータ処理の観点として正しいものはどれか。",
+      "prompt": "`/fix` を使うのに最も適した場面はどれか。",
       "options": [
         {
-          "id": "A",
-          "text": "安全な転送やコンテンツ フィルター処理など、プロンプトからのデータを Copilot が処理する方法"
+          "id": "a",
+          "text": "エラーや問題のあるコードを修正したいとき"
         },
         {
-          "id": "B",
-          "text": "GitHub Copilot Free の月間補完回数だけ"
+          "id": "b",
+          "text": "まったく新しい旅行計画を作りたいとき"
         },
         {
-          "id": "C",
-          "text": "VS Code の状態アイコンから補完を無効化する方法だけ"
+          "id": "c",
+          "text": "ライセンスを購入したいとき"
         },
         {
-          "id": "D",
-          "text": "演習リポジトリの README を読む手順だけ"
+          "id": "d",
+          "text": "通知音だけを変更したいとき"
         }
       ],
       "correctAnswers": [
-        "A"
+        "a"
       ],
-      "explanation": "公式 Learn では、まとめでは、安全な転送やコンテンツのフィルター処理など、さまざまな状況でプロンプトからのデータを Copilot が処理する方法を扱ったと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/7-summary"
+      "explanation": "`/fix` は、問題のあるコードやエラーの原因を踏まえて修正案を得たいときに向いています。既存コードの改善や不具合修正で役立つコマンドです。"
     },
     {
       "questionNumber": 29,
       "type": "single",
-      "prompt": "まとめに照らした、良いプロンプトの目的として最も適切なものはどれか。",
+      "prompt": "複雑な依頼で prompt chaining を使う利点として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "コード提案の精度と関連性を確保する"
+          "text": "大きな問題を段階的に分け、各ステップの結果を確認しながら進められる。"
         },
         {
           "id": "B",
-          "text": "公開コードに似た提案を常に優先する"
+          "text": "すべてを 1 回の長い入力にして確認を不要にできる。"
         },
         {
           "id": "C",
-          "text": "Chat の保持期間を必ず延長する"
+          "text": "関連ファイルを開かなくても精度が必ず上がる。"
         },
         {
           "id": "D",
-          "text": "LLM の全パラメーターを毎回更新する"
+          "text": "few-shot の例が不要になる。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、まとめでは、GitHub Copilot のパフォーマンスを最適化する効果的なプロンプトを作成し、すべてのコード提案の精度と関連性を確保する方法を学んだと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/7-summary"
+      "explanation": "prompt chaining では、課題を小さな段階に分けて順番に処理するため、確認と修正を挟みやすくなります。複雑な作業の精度と制御性を高める方法です。"
     },
     {
       "questionNumber": 30,

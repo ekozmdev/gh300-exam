@@ -33,15 +33,15 @@
       "questionNumber": 2,
       "type": "multiple",
       "selectionCount": 2,
-      "prompt": "Cloud Agent の可用性について本文に合うものを2つ選べ。",
+      "prompt": "Cloud Agent を利用できる条件として正しいものを2つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "Copilot Pro、Pro+、Business、Enterprise で利用できる。"
+          "text": "Copilot Pro+、Business、Enterprise で利用できる。"
         },
         {
           "id": "B",
-          "text": "GitHub でホストされたリポジトリで動作するが、管理対象ユーザー所有や明示的に無効化されたリポジトリは例外になる。"
+          "text": "GitHub でホストされたリポジトリで動作するが、管理対象ユーザー所有や明示的に無効化されたリポジトリは対象外になる。"
         },
         {
           "id": "C",
@@ -49,41 +49,41 @@
         },
         {
           "id": "D",
-          "text": "GitHub 以外のGitホストでも、Actions互換ランナーがあれば同じように動作する。"
+          "text": "GitHub 以外の Git ホストでも同じように利用できる。"
         }
       ],
       "correctAnswers": [
         "A",
         "B"
       ],
-      "explanation": "公式 Learn では、対応プランは Copilot Pro、Pro+、Business、Enterprise で、GitHubホストのリポジトリが前提だと説明されています。管理対象ユーザー所有や明示的に無効化されたリポジトリは例外です。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/1-understand-enable-github-copilot-code-agent"
+      "explanation": "Copilot コーディングエージェントは対応プランと GitHub ホスト環境が前提です。利用可能かどうかはプランだけでなく、対象リポジトリの条件にも左右されます。"
     },
     {
       "questionNumber": 3,
       "type": "single",
-      "prompt": "Cloud Agent に作業を委任する経路として本文にあるものはどれか。",
+      "prompt": "GitHub 上で Copilot コーディングエージェントを起動する代表的な方法はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "GitHub.com、GitHub Mobile、API/CLI で issue を Copilot に割り当てる。"
+          "text": "Issue や pull request で `@copilot` を使ってタスクを依頼する。"
         },
         {
           "id": "B",
-          "text": "`.github/copilot-instructions.md` にタスクを書くだけで自動的に開始する。"
+          "text": "`.github/copilot-instructions.md` を保存するだけで自動起動する。"
         },
         {
           "id": "C",
-          "text": "GitHub Actions の任意ジョブ名を `copilot` にする。"
+          "text": "任意の GitHub Actions ジョブ名を `copilot` にすると起動する。"
         },
         {
           "id": "D",
-          "text": "既存PRのreviewerに追加すれば、同じPRのブランチを直接書き換える。"
+          "text": "README に TODO を書くと自動でブランチを作る。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、Cloud Agent への委任方法として、GitHub.com、GitHub Mobile、API/CLI で issue を Copilot に割り当てる方法が説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/1-understand-enable-github-copilot-code-agent"
+      "explanation": "GitHub 上では、Issue や pull request で `@copilot` を使って作業を依頼できます。単に設定ファイルや README を編集しただけでは起動しません。"
     },
     {
       "questionNumber": 4,
@@ -115,29 +115,29 @@
     {
       "questionNumber": 5,
       "type": "single",
-      "prompt": "Cloud Agent の使用コストとして本文にある組み合わせはどれか。",
+      "prompt": "Cloud Agent が作業する環境として正しいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "一時的なビルド・テスト環境の GitHub Actions 実行時間と、高度なモデル推論の PRU。"
+          "text": "GitHub が用意する隔離されたサンドボックス環境。"
         },
         {
           "id": "B",
-          "text": "Issue数に比例するGitHub Projects課金と、PRのレビュワー人数に比例するPRU。"
+          "text": "開発者のローカル IDE の現在のシェル。"
         },
         {
           "id": "C",
-          "text": "Git LFS容量だけで、モデル要求は追加リソースを使わない。"
+          "text": "レビュワーの端末へ SSH 接続した環境。"
         },
         {
           "id": "D",
-          "text": "GitHub Pagesのビルド分数と、Codespacesストレージだけ。"
+          "text": "既定ブランチへ直接書き込む本番環境。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、Cloud Agent は一時的なビルド・テスト環境で GitHub Actions 実行時間を使い、高度なモデル推論に Copilot Premium Requests (PRU) を使うと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/1-understand-enable-github-copilot-code-agent"
+      "explanation": "Cloud Agent はローカル PC ではなく、隔離された実行環境で作業します。これにより変更と実行を分離し、レビュー前提のフローを取りやすくなります。"
     },
     {
       "questionNumber": 6,
@@ -169,7 +169,7 @@
     {
       "questionNumber": 7,
       "type": "single",
-      "prompt": "Cloud Agent がユーザー入力を扱う際のプロンプト インジェクション緩和として本文にあるものはどれか。",
+      "prompt": "Cloud Agent のセキュリティ対策として適切なものはどれか。",
       "options": [
         {
           "id": "A",
@@ -191,7 +191,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、プロンプト インジェクションの緩和として、HTMLコメントなどの非表示文字をエージェントに渡す前にフィルター処理すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/2-security-risks-limitations-copilot-code-agent"
+      "explanation": "Cloud Agent では、非表示文字や隠し指示をそのまま信頼しないよう入力を整形することで、プロンプト インジェクションのリスクを下げます。"
     },
     {
       "questionNumber": 8,
@@ -224,7 +224,7 @@
       "questionNumber": 9,
       "type": "multiple",
       "selectionCount": 2,
-      "prompt": "Cloud Agent の互換性制限として本文にあるものを2つ選べ。",
+      "prompt": "Cloud Agent の制限事項として正しいものを2つ選べ。",
       "options": [
         {
           "id": "A",
@@ -247,7 +247,7 @@
         "A",
         "B"
       ],
-      "explanation": "公式 Learn では、互換性制限として、GitHubホストの Ubuntu x64 ランナーが必要でセルフホスト ランナーはサポート外、任意モデル選択はできないと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/2-security-risks-limitations-copilot-code-agent"
+      "explanation": "Cloud Agent には対応ランナーや利用モデルに制約があります。任意の実行環境や任意モデルを自由に使えるわけではありません。"
     },
     {
       "questionNumber": 10,
@@ -307,30 +307,30 @@
       "questionNumber": 12,
       "type": "multiple",
       "selectionCount": 2,
-      "prompt": "Cloud Agent の進行状況を追跡する手段として本文にあるものを2つ選べ。",
+      "prompt": "Cloud Agent の活動を追跡しやすい手段を2つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "Pull request のタイムライン。"
+          "text": "GitHub の監査ログ。"
         },
         {
           "id": "B",
-          "text": "ライブ セッション ログ。"
+          "text": "Pull request のタイムライン。"
         },
         {
           "id": "C",
-          "text": "ローカル端末のシェル履歴だけ。"
+          "text": "開発者個人のブラウザ履歴。"
         },
         {
           "id": "D",
-          "text": "GitHub Pages のデプロイログだけ。"
+          "text": "GitHub Pages の公開ログ。"
         }
       ],
       "correctAnswers": [
         "A",
         "B"
       ],
-      "explanation": "公式 Learn では、進行状況は pull request タイムラインとライブ セッション ログで追跡できると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/3-assign-track-troubleshoot-copilot-code-agent-tasks"
+      "explanation": "Cloud Agent の活動は GitHub 側で追跡できます。監査ログや pull request のタイムラインを組み合わせることで、依頼内容と変更履歴を確認しやすくなります。"
     },
     {
       "questionNumber": 13,
@@ -389,7 +389,7 @@
     {
       "questionNumber": 15,
       "type": "single",
-      "prompt": "Copilot のPRでワークフローを実行する操作として本文にあるものはどれか。",
+      "prompt": "Cloud Agent の pull request でワークフロー実行を許可する操作として正しいものはどれか。",
       "options": [
         {
           "id": "A",
@@ -411,7 +411,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、Copilot PRでワークフローを実行するには、マージボックスで `Approve and run workflows` をクリックして承認すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/3-assign-track-troubleshoot-copilot-code-agent-tasks"
+      "explanation": "Cloud Agent が作成した pull request でも、必要に応じて人間がワークフロー実行を承認します。レビューと安全確認を挟むための運用です。"
     },
     {
       "questionNumber": 16,
@@ -526,7 +526,7 @@
     {
       "questionNumber": 20,
       "type": "single",
-      "prompt": "Cloud Agent の出力をマージ前に検証する方法として本文に合うものはどれか。",
+      "prompt": "Cloud Agent の変更をマージ前に検証する方法として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
@@ -548,12 +548,12 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、エージェントPRでは CI、ルールセット、テスト生成で品質を検証し、テスト、リンター、スキャンを実行すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/4-customize-extend-validate-copilot-code-agent"
+      "explanation": "Cloud Agent が作成した変更も、人間のレビューに加えて CI、ルールセット、テストやスキャンで検証することが重要です。下書き pull request の段階で十分に確認します。"
     },
     {
       "questionNumber": 21,
       "type": "single",
-      "prompt": "責任ある使用で、Cloud Agent に向いたタスクとして本文に合うものはどれか。",
+      "prompt": "Cloud Agent に向いたタスクとして最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
@@ -575,7 +575,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、Cloud Agent は、よくスコープされた低から中程度の複雑度の変更、バグ修正、小さな機能、リファクタリング、テスト、ドキュメントを効率よく進める用途として説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/5-responsible-use-github-copilot-code-agent-github"
+      "explanation": "Cloud Agent は、スコープが明確なバグ修正、小さな機能追加、リファクタリング、テストやドキュメント整備に向いています。曖昧で高リスクな全面刷新には不向きです。"
     },
     {
       "questionNumber": 22,
@@ -597,7 +597,7 @@
         },
         {
           "id": "D",
-          "text": "PR本文に埋め込んだ本番秘密情報。"
+          "text": "pull request の説明欄へ埋め込んだ本番秘密情報。"
         }
       ],
       "correctAnswers": [
@@ -636,29 +636,29 @@
     {
       "questionNumber": 24,
       "type": "single",
-      "prompt": "Cloud Agent の責任ある導入手順として本文のまとめに近いものはどれか。",
+      "prompt": "Cloud Agent が直接既定ブランチへ反映するのではなく下書き PR を作る理由として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "リポジトリで有効にし、小さな問題を割り当て、ログを監視し、PRコメントで反復し、CIで検証する。"
+          "text": "人間のレビュー、反復、CI 検証を挟めるようにするため。"
         },
         {
           "id": "B",
-          "text": "大規模な未定義タスクを最初に割り当て、ログを見ずにマージする。"
+          "text": "PRU を使わないようにするため。"
         },
         {
           "id": "C",
-          "text": "PRUとActions分数を追跡せず、費用はレビュー後にだけ確認する。"
+          "text": "ローカル IDE だけで作業するため。"
         },
         {
           "id": "D",
-          "text": "下書きPRではなく既定ブランチを直接更新させる。"
+          "text": "ブランチ保護を無効化するため。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、組織内でパイロットする準備として、有効化、小さな問題の割り当て、ログ監視、PRコメントでの反復、CI検証、価値の高い作業に戻る時間の測定が説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/5-responsible-use-github-copilot-code-agent-github"
+      "explanation": "下書き PR にすることで、Cloud Agent の変更を確認し、コメントで追加依頼し、CI で検証できます。直接反映より安全で追跡しやすい運用です。"
     },
     {
       "questionNumber": 25,
@@ -690,247 +690,247 @@
     {
       "questionNumber": 26,
       "type": "single",
-      "prompt": "演習で学ぶ内容として本文にあるものはどれか。",
+      "prompt": "リポジトリで Cloud Agent を使う前提条件として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "リポジトリでCloud Agentを有効にし、問題を割り当て、エージェントの進行状況を理解する。"
+          "text": "対応プランと GitHub Actions を使える GitHub ホストのリポジトリであること。"
         },
         {
           "id": "B",
-          "text": "MCPサーバーをPATでVS Codeに設定する。"
+          "text": "セルフホストランナーだけを使うこと。"
         },
         {
           "id": "C",
-          "text": "CopilotコードレビューのRulesetsだけを構成する。"
+          "text": "ローカル IDE に常時接続していること。"
         },
         {
           "id": "D",
-          "text": "Cloud AgentのOAuth対応Remote MCPサーバーを作成する。"
+          "text": "Copilot Free であること。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、演習では、リポジトリでCloud Agentを有効にする方法、問題の割り当て、進行状況の理解、ワークスペース最適化を扱うと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/6-exercise-expand-team-copilot-code-agent"
+      "explanation": "Cloud Agent は、対象プランと GitHub 側の実行環境を前提に動作します。GitHub Actions を利用できる GitHub ホストのリポジトリであることが重要です。"
     },
     {
       "questionNumber": 27,
       "type": "single",
-      "prompt": "演習で使うリポジトリについて本文に合うものはどれか。",
+      "prompt": "Cloud Agent が実際の作業実行に使う代表的な計算資源はどれか。",
       "options": [
         {
           "id": "A",
-          "text": "小さな課題を完了するためのパブリック GitHub テンプレート リポジトリへ移動する。"
+          "text": "GitHub Actions ランナー。"
         },
         {
           "id": "B",
-          "text": "ローカルにだけ存在する空のリポジトリで開始する。"
+          "text": "開発者のローカル IDE プロセス。"
         },
         {
           "id": "C",
-          "text": "Enterprise Managed User の個人用リポジトリでのみ開始する。"
+          "text": "GitHub Pages のビルド環境。"
         },
         {
           "id": "D",
-          "text": "GitHub以外のホストにあるミラーリポジトリを使う。"
+          "text": "Issue フォームの入力欄。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、演習では、GitHubで演習を開始するボタンから、小さな課題を完了するパブリック GitHub テンプレート リポジトリに移動すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/6-exercise-expand-team-copilot-code-agent"
+      "explanation": "Cloud Agent は GitHub 上の実行環境で作業し、その中心に GitHub Actions ランナーがあります。ローカル IDE に依存する仕組みではありません。"
     },
     {
       "questionNumber": 28,
       "type": "single",
-      "prompt": "演習完了後にMicrosoft Learnへ戻る目的として本文にあるものはどれか。",
+      "prompt": "Cloud Agent の権限モデルとして最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "簡単な知識チェック、学習内容の概要、モジュール修了バッジを確認する。"
+          "text": "スコープが制限された GITHUB_TOKEN を使って作業する。"
         },
         {
           "id": "B",
-          "text": "Actionsワークフローを編集して採点機能を置き換える。"
+          "text": "常にフル権限の個人アクセストークンを使う。"
         },
         {
           "id": "C",
-          "text": "GitHub MCP ServerのOAuth接続を再設定する。"
+          "text": "権限は不要で、匿名アクセスで private リポジトリを変更できる。"
         },
         {
           "id": "D",
-          "text": "PRUの月次アラートを設定する。"
+          "text": "PR ごとに必ず管理者トークンを発行する。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、GitHubで演習を完了した後、簡単な知識チェック、学習内容の概要、モジュール修了バッジのためにLearnへ戻ると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/6-exercise-expand-team-copilot-code-agent"
+      "explanation": "Cloud Agent は、必要な範囲に制限されたトークンで動くことでリスクを抑えます。常に広い権限を持つトークンを使う設計ではありません。"
     },
     {
       "questionNumber": 29,
       "type": "single",
-      "prompt": "演習でCloud Agentのワークスペース最適化として関係する本文の概念はどれか。",
+      "prompt": "Cloud Agent のファイアウォール設定が重要な理由として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "環境をカスタマイズし、依存関係や必要な準備を整えてエージェントが作業しやすくする。"
+          "text": "外部ネットワークへのアクセス範囲を絞り、不要な通信や情報流出リスクを抑えるため。"
         },
         {
           "id": "B",
-          "text": "セルフホスト ランナーへ切り替え、Ubuntu x64の制限をなくす。"
+          "text": "PR の作成速度だけを上げるため。"
         },
         {
           "id": "C",
-          "text": "OAuth必須のRemote MCPサーバーだけを接続する。"
+          "text": "Copilot のコメントを必須承認に変えるため。"
         },
         {
           "id": "D",
-          "text": "PRU消費を避けるためCIを停止する。"
+          "text": "ローカル Git 設定を同期するため。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、演習の到達点には、エージェントのワークスペースをカスタマイズして最適化することが含まれます。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/6-exercise-expand-team-copilot-code-agent"
+      "explanation": "ファイアウォールは、Cloud Agent がどこへ通信できるかを制御する重要なガードレールです。セキュリティとガバナンスの観点から欠かせません。"
     },
     {
       "questionNumber": 30,
       "type": "single",
-      "prompt": "演習で扱うCloud Agentの進行確認として適切なものはどれか。",
+      "prompt": "Cloud Agent が行った変更を確認する方法として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "エージェントが作成したPRやセッションログで進行状況を確認する。"
+          "text": "PR の差分、コミット履歴、セッションログを確認する。"
         },
         {
           "id": "B",
-          "text": "GitHub Pagesの公開URLだけで進行を判断する。"
+          "text": "ローカルの最近使ったファイル一覧だけを見る。"
         },
         {
           "id": "C",
-          "text": "ローカルIDEの未保存ファイルだけを見る。"
+          "text": "課金ページだけを見る。"
         },
         {
           "id": "D",
-          "text": "PRU請求画面だけでコードの進行を判断する。"
+          "text": "README の最終更新日時だけを見る。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、演習と前ユニットでは、エージェントの進行状況をPRタイムラインやセッションログで理解することが説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/6-exercise-expand-team-copilot-code-agent"
+      "explanation": "Cloud Agent の作業は GitHub 上に履歴として残ります。差分、コミット、セッションログを併せて確認すると、変更の意図と影響を把握しやすくなります。"
     },
     {
       "questionNumber": 31,
       "type": "single",
-      "prompt": "概要でCloud Agentに適した変更規模として説明されているものはどれか。",
+      "prompt": "Cloud Agent に委任するタスクとして適しているものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "よくスコープされた低〜中程度の複雑度の変更。"
+          "text": "よくスコープされた小〜中規模のバグ修正やテスト追加。"
         },
         {
           "id": "B",
-          "text": "数か月規模の未整理な移行プロジェクト全体。"
+          "text": "数か月規模の曖昧な全面刷新。"
         },
         {
           "id": "C",
-          "text": "権限設計や本番承認を含む組織統治そのもの。"
+          "text": "本番リリース承認の自動実行。"
         },
         {
           "id": "D",
-          "text": "GitHub外でホストされた全リポジトリの一括更新。"
+          "text": "組織全体の権限設計の最終決定。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、概要では、Cloud Agent がよくスコープされた低から中程度の複雑度の変更に適していると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/7-summary"
+      "explanation": "Cloud Agent は、範囲が明確で、レビューしやすい作業に向いています。曖昧で高リスクな判断まで任せるのは適切ではありません。"
     },
     {
       "questionNumber": 32,
       "type": "single",
-      "prompt": "概要でまとめられるセキュリティモデルの要素として正しいものはどれか。",
+      "prompt": "Cloud Agent でサポート対象外になりやすいものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "セキュリティで保護されたファイアウォール付きActions環境、ブランチ制限、承認ゲート。"
+          "text": "OAuth が必要な Remote MCP サーバー。"
         },
         {
           "id": "B",
-          "text": "ローカル端末だけでの実行、PRなし、承認ゲートなし。"
+          "text": "GitHub ホストの Ubuntu x64 ランナー。"
         },
         {
           "id": "C",
-          "text": "セルフホストランナー必須、任意ブランチpush、Actions自動承認。"
+          "text": "`copilot/` プレフィックスのブランチ。"
         },
         {
           "id": "D",
-          "text": "MCP OAuthサーバー必須、セッションログ非表示。"
+          "text": "下書き PR ベースの反復。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、概要では、ファイアウォールされたActions環境、ブランチ保護、承認ゲートなどのガードレールを適用すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/7-summary"
+      "explanation": "Cloud Agent は MCP を拡張できますが、OAuth を必要とする Remote MCP サーバーには制限があります。利用可能な拡張方法を見極める必要があります。"
     },
     {
       "questionNumber": 33,
       "type": "multiple",
       "selectionCount": 2,
-      "prompt": "概要で挙げられる拡張・カスタマイズ手段を2つ選べ。",
+      "prompt": "Cloud Agent のワークスペースをカスタマイズする方法を 2 つ選べ。",
       "options": [
         {
           "id": "A",
-          "text": "`copilot-setup-steps.yml`、環境変数・シークレット、より大きなランナー、LFS。"
+          "text": "`copilot-setup-steps.yml` を使う。"
         },
         {
           "id": "B",
-          "text": "GitHubやPlaywrightなどのMCPサーバー。"
+          "text": "必要な環境変数やシークレットを設定する。"
         },
         {
           "id": "C",
-          "text": "OAuth必須のRemote MCPサーバーのみ。"
+          "text": "既定ブランチへ直接 push できるようにする。"
         },
         {
           "id": "D",
-          "text": "既定ブランチへの直接push設定。"
+          "text": "レビュー承認を完全に省略する。"
         }
       ],
       "correctAnswers": [
         "A",
         "B"
       ],
-      "explanation": "公式 Learn では、概要では、`copilot-setup-steps.yml` や env vars/secret、大きなランナー、LFS による環境カスタマイズと、GitHubやPlaywrightなどのMCPサーバーによる拡張が整理されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/7-summary"
+      "explanation": "セットアップ用ワークフローや環境変数・シークレットは、Cloud Agent の作業環境を整える代表的な方法です。安全性を下げる方向の設定はカスタマイズの推奨手段ではありません。"
     },
     {
       "questionNumber": 34,
       "type": "single",
-      "prompt": "概要でPRUについて述べられる扱いはどれか。",
+      "prompt": "Cloud Agent 導入後に Actions 実行時間や PRU を追跡する主な理由として最も適切なものはどれか。",
       "options": [
         {
           "id": "A",
-          "text": "モデルリクエストごとに1つのプレミアムリクエストとして管理し、意図的に使う。"
+          "text": "コストと利用傾向を把握し、無理のない運用を続けるため。"
         },
         {
           "id": "B",
-          "text": "Cloud AgentではPRUを使わず、Actions分数だけを管理する。"
+          "text": "レビュー承認者を自動で決めるため。"
         },
         {
           "id": "C",
-          "text": "PRUはテスト生成にだけ使われ、モデル推論には関係しない。"
+          "text": "Issue のラベル色を変更するため。"
         },
         {
           "id": "D",
-          "text": "PRUは使い切るほど品質が上がるため、監視しない。"
+          "text": "ローカル IDE の補完速度を調整するため。"
         }
       ],
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、概要では、PRUをモデルリクエストごとに1つのプレミアムリクエストとして管理し、CIやルールセットとともに意図的に使うと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/7-summary"
+      "explanation": "Cloud Agent は実行時間とモデル利用の両面でコストが発生します。継続利用するには、使用量を可視化して適切に管理することが重要です。"
     },
     {
       "questionNumber": 35,
