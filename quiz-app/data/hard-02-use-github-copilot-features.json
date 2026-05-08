@@ -9,7 +9,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Premium requests 50/月、IDE Chat 50 messages/月、inline suggestions 2,000 completions/月"
+          "text": "Premium requests 50/月、IDE Chat 無制限、inline suggestions 2,000 completions/月"
         },
         {
           "id": "B",
@@ -17,7 +17,7 @@
         },
         {
           "id": "C",
-          "text": "Premium requests 50/月、IDE Chat 無制限、inline suggestions 2,000 completions/月"
+          "text": "Premium requests 50/月、IDE Chat 50 messages/月、inline suggestions 2,000 completions/月"
         },
         {
           "id": "D",
@@ -25,7 +25,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "正解は **A** です。公式のプラン比較では、Copilot Free は premium requests が 50/月、Copilot Chat in IDEs が 50 messages/月、real-time code suggestions が 2,000 completions/月とされています。\n\n出典: [Plans for GitHub Copilot](https://docs.github.com/en/copilot/get-started/plans)"
     },
@@ -37,19 +37,19 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot pull request summaries"
-        },
-        {
-          "id": "B",
-          "text": "Audit logs"
-        },
-        {
-          "id": "C",
           "text": "Content exclusion"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "Agent mode"
+        },
+        {
+          "id": "C",
+          "text": "Audit logs"
+        },
+        {
+          "id": "D",
+          "text": "Copilot pull request summaries"
         },
         {
           "id": "E",
@@ -58,8 +58,8 @@
       ],
       "correctAnswers": [
         "A",
-        "B",
-        "C"
+        "C",
+        "D"
       ],
       "explanation": "正解は **A、B、C** です。`Other features` には Copilot pull request summaries、Audit logs、Content exclusion、Copilot CLI、GitHub Spark などが並びます。Agent mode は `Agents`、Prompt files は `Customization` 側の項目です。\n\n出典: [Plans for GitHub Copilot](https://docs.github.com/en/copilot/get-started/plans)"
     },
@@ -70,7 +70,7 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub CLI の認証情報、OS のキーチェーン、`COPILOT_GITHUB_TOKEN`、`GH_TOKEN`、`GITHUB_TOKEN` の順"
+          "text": "`GITHUB_TOKEN`、`GH_TOKEN`、`COPILOT_GITHUB_TOKEN`、Classic PAT、SSH key の順"
         },
         {
           "id": "B",
@@ -78,7 +78,7 @@
         },
         {
           "id": "C",
-          "text": "`GITHUB_TOKEN`、`GH_TOKEN`、`COPILOT_GITHUB_TOKEN`、Classic PAT、SSH key の順"
+          "text": "GitHub CLI の認証情報、OS のキーチェーン、`COPILOT_GITHUB_TOKEN`、`GH_TOKEN`、`GITHUB_TOKEN` の順"
         },
         {
           "id": "D",
@@ -97,23 +97,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Classic PAT は Copilot CLI でサポートされ、追加権限なしで最優先される"
+          "text": "GitHub Apps user token は Copilot CLI では使えない"
         },
         {
           "id": "B",
-          "text": "Fine-grained PAT を使う場合は `Copilot Requests` 権限が必要で、Classic PAT はサポート対象ではない"
-        },
-        {
-          "id": "C",
           "text": "SSH key が Copilot CLI の標準認証方式である"
         },
         {
+          "id": "C",
+          "text": "Classic PAT は Copilot CLI でサポートされ、追加権限なしで最優先される"
+        },
+        {
           "id": "D",
-          "text": "GitHub Apps user token は Copilot CLI では使えない"
+          "text": "Fine-grained PAT を使う場合は `Copilot Requests` 権限が必要で、Classic PAT はサポート対象ではない"
         }
       ],
       "correctAnswers": [
-        "B"
+        "D"
       ],
       "explanation": "正解は **B** です。Copilot CLI で fine-grained PAT を使う場合は `Copilot Requests` 権限が必要です。Classic PAT は Copilot CLI の認証方式としてサポートされません。\n\n出典: [Authenticating GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/authenticate-copilot-cli)"
     },
@@ -125,11 +125,11 @@
       "options": [
         {
           "id": "A",
-          "text": "Linux"
+          "text": "Android の GitHub Mobile 内ターミナル"
         },
         {
           "id": "B",
-          "text": "macOS"
+          "text": "Linux"
         },
         {
           "id": "C",
@@ -137,17 +137,17 @@
         },
         {
           "id": "D",
-          "text": "iOS の GitHub Mobile 内ターミナル"
+          "text": "macOS"
         },
         {
           "id": "E",
-          "text": "Android の GitHub Mobile 内ターミナル"
+          "text": "iOS の GitHub Mobile 内ターミナル"
         }
       ],
       "correctAnswers": [
-        "A",
         "B",
-        "C"
+        "C",
+        "D"
       ],
       "explanation": "正解は **A、B、C** です。Copilot CLI は Linux、macOS、Windows では PowerShell および WSL からの利用をサポートしています。\n\n出典: [About GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli)"
     },
@@ -158,23 +158,23 @@
       "options": [
         {
           "id": "A",
-          "text": "trusted directories は Copilot CLI がどこでファイルを読み取り、変更し、実行できるかを制御する"
-        },
-        {
-          "id": "B",
           "text": "trusted directories を設定すると、すべてのパス外ファイルが GitHub により完全に保護されることが保証される"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "trusted directories は GitHub.com 上の repository visibility を変更する設定である"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "trusted directories は Copilot Chat in GitHub 専用で、CLI には関係しない"
+        },
+        {
+          "id": "D",
+          "text": "trusted directories は Copilot CLI がどこでファイルを読み取り、変更し、実行できるかを制御する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "正解は **A** です。trusted directories は Copilot CLI がファイルを読み取り、変更し、実行できる場所を制御します。ただしスコープは heuristic であり、外部ファイルがすべて保護される保証はないと説明されています。\n\n出典: [About GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli)"
     },
@@ -190,7 +190,7 @@
         },
         {
           "id": "B",
-          "text": "MCP servers"
+          "text": "Organization の所有者ロール"
         },
         {
           "id": "C",
@@ -202,13 +202,13 @@
         },
         {
           "id": "E",
-          "text": "Organization の所有者ロール"
+          "text": "MCP servers"
         }
       ],
       "correctAnswers": [
         "A",
-        "B",
-        "C"
+        "C",
+        "E"
       ],
       "explanation": "正解は **A、B、C** です。Copilot CLI は custom instructions、MCP servers、custom agents などでカスタマイズできます。custom instructions はプロジェクトの文脈や検証方法を与え、MCP は外部データやツールへのアクセスを与え、custom agents はタスク特化の Copilot を作るために使います。\n\n出典: [About GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli)"
     },
@@ -219,23 +219,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot がタスクを完全自律実行し、ユーザーはどのファイルを編集するか選ばない"
-        },
-        {
-          "id": "B",
-          "text": "ユーザーが Copilot に変更を許可するファイルを選び、各ターン後に提案された編集を受け入れるか判断する"
-        },
-        {
-          "id": "C",
           "text": "コード変更前に読み取り専用ツールだけで計画を作るモードである"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "GitHub.com 上の cloud agent 専用で、IDE では利用できない"
+        },
+        {
+          "id": "C",
+          "text": "ユーザーが Copilot に変更を許可するファイルを選び、各ターン後に提案された編集を受け入れるか判断する"
+        },
+        {
+          "id": "D",
+          "text": "Copilot がタスクを完全自律実行し、ユーザーはどのファイルを編集するか選ばない"
         }
       ],
       "correctAnswers": [
-        "B"
+        "C"
       ],
       "explanation": "正解は **B** です。Edit mode は、ユーザーが編集対象ファイルを選び、各反復でコンテキストを与え、提案された編集を受け入れるかどうかを判断するモードです。より自律的なのは Agent mode、計画先行なのは Plan mode です。\n\n出典: [Asking GitHub Copilot questions in your IDE](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide)"
     },
@@ -247,29 +247,29 @@
       "options": [
         {
           "id": "A",
-          "text": "コード変更前に、タスクを調査して実装計画を作る"
+          "text": "pull request を自動マージするための GitHub.com 専用モードである"
         },
         {
           "id": "B",
-          "text": "計画がレビューされ承認されるまで、コード変更は行わない"
+          "text": "コード変更前に、タスクを調査して実装計画を作る"
         },
         {
           "id": "C",
-          "text": "読み取り専用のツールやコードベース分析を使って計画を組み立てる"
-        },
-        {
-          "id": "D",
           "text": "承認なしに各ステップを自動適用することが唯一の目的である"
         },
         {
+          "id": "D",
+          "text": "読み取り専用のツールやコードベース分析を使って計画を組み立てる"
+        },
+        {
           "id": "E",
-          "text": "pull request を自動マージするための GitHub.com 専用モードである"
+          "text": "計画がレビューされ承認されるまで、コード変更は行わない"
         }
       ],
       "correctAnswers": [
-        "A",
         "B",
-        "C"
+        "D",
+        "E"
       ],
       "explanation": "正解は **A、B、C** です。Plan mode は、コード変更前に読み取り専用の調査と分析で実装計画を作り、ユーザーがレビューして承認するまでコード変更しません。\n\n出典: [Asking GitHub Copilot questions in your IDE](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide)"
     },
@@ -280,15 +280,15 @@
       "options": [
         {
           "id": "A",
-          "text": "Agent mode はユーザーが編集対象ファイルを常に明示し、Edit mode は Copilot が自律的に決める"
+          "text": "Agent mode は GitHub Mobile 専用で、Edit mode は GitHub.com 専用である"
         },
         {
           "id": "B",
-          "text": "Agent mode は Copilot が自律的にタスク達成を進め、Edit mode はユーザーが編集対象や各ターンの受け入れをより細かく制御する"
+          "text": "Agent mode はユーザーが編集対象ファイルを常に明示し、Edit mode は Copilot が自律的に決める"
         },
         {
           "id": "C",
-          "text": "Agent mode は GitHub Mobile 専用で、Edit mode は GitHub.com 専用である"
+          "text": "Agent mode は Copilot が自律的にタスク達成を進め、Edit mode はユーザーが編集対象や各ターンの受け入れをより細かく制御する"
         },
         {
           "id": "D",
@@ -296,7 +296,7 @@
         }
       ],
       "correctAnswers": [
-        "B"
+        "C"
       ],
       "explanation": "正解は **B** です。Agent mode は Copilot が自律的にタスクを達成するモードで、Edit mode はユーザーが編集対象ファイルや各ターンの編集採否をより細かく制御します。\n\n出典: [Asking GitHub Copilot questions in your IDE](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide)"
     }

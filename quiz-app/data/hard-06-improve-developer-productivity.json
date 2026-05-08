@@ -9,7 +9,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Generate unit tests for this function. Validate both success and failure, and include edge cases."
+          "text": "Change repository visibility and then create tests from the billing settings."
         },
         {
           "id": "B",
@@ -21,11 +21,11 @@
         },
         {
           "id": "D",
-          "text": "Change repository visibility and then create tests from the billing settings."
+          "text": "Generate unit tests for this function. Validate both success and failure, and include edge cases."
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "正解は **A** です。公式 Cookbook の unit test 例では、成功と失敗の両方を検証し、edge cases を含めるよう依頼しています。単なる happy path だけでは試験範囲の「edge cases と assertions」観点を満たしにくいです。\n\n出典: [Generating unit tests](https://docs.github.com/en/copilot/tutorials/copilot-chat-cookbook/testing-code/generate-unit-tests)"
     },
@@ -37,15 +37,15 @@
       "options": [
         {
           "id": "A",
-          "text": "XSS、SQL injection、CSRF などの common vulnerabilities の検出や修正提案に役立つ"
+          "text": "包括的な security analysis として Copilot Chat だけに依存すべきではなく、code scanning の利用がより徹底した確認につながる"
         },
         {
           "id": "B",
-          "text": "parameterized queries、input validation、hard-coded sensitive data の回避などの secure coding practices と組み合わせるべきである"
+          "text": "Copilot Chat の security analysis は repository の 2FA 設定だけを確認する"
         },
         {
           "id": "C",
-          "text": "包括的な security analysis として Copilot Chat だけに依存すべきではなく、code scanning の利用がより徹底した確認につながる"
+          "text": "XSS、SQL injection、CSRF などの common vulnerabilities の検出や修正提案に役立つ"
         },
         {
           "id": "D",
@@ -53,13 +53,13 @@
         },
         {
           "id": "E",
-          "text": "Copilot Chat の security analysis は repository の 2FA 設定だけを確認する"
+          "text": "parameterized queries、input validation、hard-coded sensitive data の回避などの secure coding practices と組み合わせるべきである"
         }
       ],
       "correctAnswers": [
         "A",
-        "B",
-        "C"
+        "C",
+        "E"
       ],
       "explanation": "正解は **A、B、C** です。Copilot Chat は common vulnerabilities の発見と修正提案に役立ちますが、包括的な security analysis として単独依存すべきではありません。公式ドキュメントは、より徹底した確認には code scanning を使うことを勧めています。\n\n出典: [Finding existing vulnerabilities in code](https://docs.github.com/en/copilot/tutorials/copilot-chat-cookbook/analyze-security/find-vulnerabilities)"
     },
@@ -74,11 +74,11 @@
         },
         {
           "id": "B",
-          "text": "実行速度を上げるため、必ずすべてのテストと入力検証を削除させる"
+          "text": "パフォーマンス問題は Copilot Chat では扱えないため、billing API だけを見る"
         },
         {
           "id": "C",
-          "text": "パフォーマンス問題は Copilot Chat では扱えないため、billing API だけを見る"
+          "text": "実行速度を上げるため、必ずすべてのテストと入力検証を削除させる"
         },
         {
           "id": "D",
@@ -98,29 +98,29 @@
       "options": [
         {
           "id": "A",
-          "text": "複雑または十分に文書化されていないコードの理解を助ける説明を生成する"
-        },
-        {
-          "id": "B",
-          "text": "将来の参照のためにコードへコメントやドキュメントを追加する支援をする"
-        },
-        {
-          "id": "C",
           "text": "COBOL など古いコードでも、対象コードを prompt に含めて説明・ドキュメント化を依頼できる"
         },
         {
-          "id": "D",
+          "id": "B",
+          "text": "Copilot Chat は古い言語や複雑なコードには一切利用できない"
+        },
+        {
+          "id": "C",
           "text": "レガシーコードを検出すると repository を自動的に削除する"
         },
         {
+          "id": "D",
+          "text": "複雑または十分に文書化されていないコードの理解を助ける説明を生成する"
+        },
+        {
           "id": "E",
-          "text": "Copilot Chat は古い言語や複雑なコードには一切利用できない"
+          "text": "将来の参照のためにコードへコメントやドキュメントを追加する支援をする"
         }
       ],
       "correctAnswers": [
         "A",
-        "B",
-        "C"
+        "D",
+        "E"
       ],
       "explanation": "正解は **A、B、C** です。公式 Cookbook は、複雑または未文書化のレガシーコードを理解しやすくし、将来の参照のためにドキュメント化する用途を示しています。例では COBOL のコードにコメントを追加する prompt が使われています。\n\n出典: [Documenting legacy code](https://docs.github.com/en/copilot/tutorials/copilot-chat-cookbook/document-code/document-legacy-code)"
     },
@@ -131,11 +131,11 @@
       "options": [
         {
           "id": "A",
-          "text": "変更点の潜在的な問題や改善点の発見を支援するが、指摘の検証や最終判断は人間が行う"
+          "text": "Copilot がレビューした PR は、テストや人間のレビューなしで必ず merge してよい"
         },
         {
           "id": "B",
-          "text": "Copilot がレビューした PR は、テストや人間のレビューなしで必ず merge してよい"
+          "text": "Copilot code review は code changes を読まないため、開発者生産性とは関係しない"
         },
         {
           "id": "C",
@@ -143,11 +143,11 @@
         },
         {
           "id": "D",
-          "text": "Copilot code review は code changes を読まないため、開発者生産性とは関係しない"
+          "text": "変更点の潜在的な問題や改善点の発見を支援するが、指摘の検証や最終判断は人間が行う"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "正解は **A** です。Copilot code review は問題発見や改善提案に役立つ補助機能ですが、誤検知や不正確な提案があり得るため、出力を検証した上で判断する必要があります。\n\n出典: [Responsible use of GitHub Copilot code review](https://docs.github.com/en/copilot/responsible-use/code-review)"
     },
@@ -159,15 +159,15 @@
       "options": [
         {
           "id": "A",
-          "text": "目的を先に示し、必要条件を具体化する"
+          "text": "意図を曖昧にし、前提や制約を省略する"
         },
         {
           "id": "B",
-          "text": "複雑なタスクを小さく分ける"
+          "text": "関連コードや例を提示する"
         },
         {
           "id": "C",
-          "text": "関連コードや例を提示する"
+          "text": "複雑なタスクを小さく分ける"
         },
         {
           "id": "D",
@@ -175,14 +175,14 @@
         },
         {
           "id": "E",
-          "text": "意図を曖昧にし、前提や制約を省略する"
+          "text": "目的を先に示し、必要条件を具体化する"
         }
       ],
       "correctAnswers": [
-        "A",
         "B",
         "C",
-        "D"
+        "D",
+        "E"
       ],
       "explanation": "正解は **A、B、C、D** です。生産性向上では、Copilot に任せる前に prompt を具体化し、タスクを分解し、関連コードや例を示し、出力をレビューして反復することが重要です。\n\n出典: [Prompt engineering for GitHub Copilot Chat](https://docs.github.com/en/copilot/concepts/prompting/prompt-engineering)"
     },
@@ -193,23 +193,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot CLI はファイル変更や shell command 実行を代行できるため、承認を求められた command は注意深くレビューする"
-        },
-        {
-          "id": "B",
           "text": "Copilot CLI が提案する command はすべて検証済みなので、review せず自動承認すべきである"
         },
         {
+          "id": "B",
+          "text": "Copilot CLI は GitHub Mobile 上でのみ動作するため、local file access のリスクはない"
+        },
+        {
           "id": "C",
-          "text": "Copilot CLI は読み取り専用で、ファイル変更や shell command 実行はできない"
+          "text": "Copilot CLI はファイル変更や shell command 実行を代行できるため、承認を求められた command は注意深くレビューする"
         },
         {
           "id": "D",
-          "text": "Copilot CLI は GitHub Mobile 上でのみ動作するため、local file access のリスクはない"
+          "text": "Copilot CLI は読み取り専用で、ファイル変更や shell command 実行はできない"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "正解は **A** です。Copilot CLI はユーザーに代わってファイル変更や shell command 実行を行えるため、tool 実行の承認プロンプトでは command を注意深くレビューする必要があります。\n\n出典: [About GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli)"
     },
@@ -221,7 +221,7 @@
       "options": [
         {
           "id": "A",
-          "text": "unit tests の生成"
+          "text": "end-to-end tests の作成"
         },
         {
           "id": "B",
@@ -229,15 +229,15 @@
         },
         {
           "id": "C",
-          "text": "end-to-end tests の作成"
+          "text": "unit tests の生成"
         },
         {
           "id": "D",
-          "text": "repository owner の自動変更"
+          "text": "organization billing plan の自動 downgrade"
         },
         {
           "id": "E",
-          "text": "organization billing plan の自動 downgrade"
+          "text": "repository owner の自動変更"
         }
       ],
       "correctAnswers": [
@@ -254,15 +254,15 @@
       "options": [
         {
           "id": "A",
-          "text": "Analyze this code for potential security vulnerabilities and suggest fixes."
+          "text": "Disable code scanning because Copilot is always comprehensive."
         },
         {
           "id": "B",
-          "text": "Ignore sanitization and render all user input as HTML."
+          "text": "Analyze this code for potential security vulnerabilities and suggest fixes."
         },
         {
           "id": "C",
-          "text": "Disable code scanning because Copilot is always comprehensive."
+          "text": "Ignore sanitization and render all user input as HTML."
         },
         {
           "id": "D",
@@ -270,7 +270,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "正解は **A** です。公式 Cookbook の例では、対象コードに対して potential security vulnerabilities を分析し、fixes を提案するよう Copilot Chat に依頼しています。XSS の例では `innerHTML` の危険性を説明し、より安全な代替を提案しています。\n\n出典: [Finding existing vulnerabilities in code](https://docs.github.com/en/copilot/tutorials/copilot-chat-cookbook/analyze-security/find-vulnerabilities)"
     },
@@ -286,7 +286,7 @@
         },
         {
           "id": "B",
-          "text": "critical / sensitive な用途では特に慎重に検証する"
+          "text": "生成コードに hard-coded sensitive data が含まれても、Copilot が生成したなら安全である"
         },
         {
           "id": "C",
@@ -298,13 +298,13 @@
         },
         {
           "id": "E",
-          "text": "生成コードに hard-coded sensitive data が含まれても、Copilot が生成したなら安全である"
+          "text": "critical / sensitive な用途では特に慎重に検証する"
         }
       ],
       "correctAnswers": [
         "A",
-        "B",
-        "C"
+        "C",
+        "E"
       ],
       "explanation": "正解は **A、B、C** です。Copilot の出力には不正確さや安全でない提案があり得るため、レビューとテストが必要です。特に sensitive な用途では慎重に確認し、security では code scanning などの専用機能も組み合わせるべきです。\n\n出典: [Responsible use of GitHub Copilot inline suggestions](https://docs.github.com/en/copilot/responsible-use/copilot-code-completion), [Finding existing vulnerabilities in code](https://docs.github.com/en/copilot/tutorials/copilot-chat-cookbook/analyze-security/find-vulnerabilities)"
     }

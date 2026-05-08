@@ -14,25 +14,25 @@
         },
         {
           "id": "B",
-          "text": "Organization owners"
-        },
-        {
-          "id": "C",
           "text": "Enterprise owners"
         },
         {
+          "id": "C",
+          "text": "匿名ユーザー"
+        },
+        {
           "id": "D",
-          "text": "Repository の Maintain role のユーザー"
+          "text": "Organization owners"
         },
         {
           "id": "E",
-          "text": "匿名ユーザー"
+          "text": "Repository の Maintain role のユーザー"
         }
       ],
       "correctAnswers": [
         "A",
         "B",
-        "C"
+        "D"
       ],
       "explanation": "正解は **A、B、C** です。content exclusion settings を管理できるのは repository administrators、organization owners、enterprise owners です。Maintain role のユーザーは repository の content exclusion settings を閲覧できますが、編集はできません。\n\n出典: [Excluding content from GitHub Copilot](https://docs.github.com/en/copilot/how-tos/configure-content-exclusion/exclude-content-from-copilot)"
     },
@@ -47,15 +47,15 @@
         },
         {
           "id": "B",
-          "text": "path は JSON object のみで記述し、comment は一切書けない"
-        },
-        {
-          "id": "C",
           "text": "path は regular expression のみ対応し、fnmatch は使えない"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "path は repository root の `.gitignore` にだけ書ける"
+        },
+        {
+          "id": "D",
+          "text": "path は JSON object のみで記述し、comment は一切書けない"
         }
       ],
       "correctAnswers": [
@@ -71,7 +71,7 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub website と GitHub Mobile での content exclusion は public preview であり、変更される可能性がある"
+          "text": "content exclusion は Visual Studio Code など editor の Copilot Chat の Edit mode と Agent mode では現在サポートされていない"
         },
         {
           "id": "B",
@@ -79,7 +79,7 @@
         },
         {
           "id": "C",
-          "text": "content exclusion は Visual Studio Code など editor の Copilot Chat の Edit mode と Agent mode では現在サポートされていない"
+          "text": "GitHub website と GitHub Mobile での content exclusion は public preview であり、変更される可能性がある"
         },
         {
           "id": "D",
@@ -105,11 +105,11 @@
       "options": [
         {
           "id": "A",
-          "text": "クライアントは現在の repository URL を GitHub server に送り、server は正しい policy を返す。これらの URL はどこにも logged されない"
+          "text": "クライアントは除外対象ファイルの全文を常に GitHub server に送り、URL は audit log に保存される"
         },
         {
           "id": "B",
-          "text": "クライアントは除外対象ファイルの全文を常に GitHub server に送り、URL は audit log に保存される"
+          "text": "クライアントは現在の repository URL を GitHub server に送り、server は正しい policy を返す。これらの URL はどこにも logged されない"
         },
         {
           "id": "C",
@@ -121,7 +121,7 @@
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "正解は **A** です。content exclusion 設定後、クライアントは現在の repository URL を GitHub server に送って正しい policy を受け取ります。公式ドキュメントでは、これらの URL はどこにも logged されないと説明されています。\n\n出典: [Content exclusion for GitHub Copilot](https://docs.github.com/en/copilot/concepts/context/content-exclusion)"
     },
@@ -133,30 +133,30 @@
       "options": [
         {
           "id": "A",
-          "text": "organization の Copilot seat information and settings を取得する"
-        },
-        {
-          "id": "B",
-          "text": "organization の Copilot seat assignments を一覧する"
-        },
-        {
-          "id": "C",
           "text": "organization の Copilot subscription に teams を追加する"
         },
         {
-          "id": "D",
+          "id": "B",
+          "text": "GitHub Copilot の model weights を直接ダウンロードする"
+        },
+        {
+          "id": "C",
           "text": "organization の Copilot subscription から teams を削除する"
         },
         {
+          "id": "D",
+          "text": "organization の Copilot seat assignments を一覧する"
+        },
+        {
           "id": "E",
-          "text": "GitHub Copilot の model weights を直接ダウンロードする"
+          "text": "organization の Copilot seat information and settings を取得する"
         }
       ],
       "correctAnswers": [
         "A",
-        "B",
         "C",
-        "D"
+        "D",
+        "E"
       ],
       "explanation": "正解は **A、B、C、D** です。Copilot user management REST API には、organization の seat information/settings 取得、seat assignments 一覧、teams の subscription 追加・削除などの管理操作があります。model weights の取得 API ではありません。\n\n出典: [REST API endpoints for Copilot user management](https://docs.github.com/en/rest/copilot/copilot-user-management)"
     },
@@ -167,23 +167,23 @@
       "options": [
         {
           "id": "A",
-          "text": "organization owner だけが Copilot seats を購入でき、organization は Copilot Business または Enterprise subscription と configured suggestion matching policy を持つ必要がある"
+          "text": "endpoint は Copilot seat を追加せず、repository labels だけを更新する"
         },
         {
           "id": "B",
-          "text": "repository の write 権限があれば誰でも実行でき、Copilot subscription は不要である"
-        },
-        {
-          "id": "C",
           "text": "GitHub Copilot Free の個人アカウントだけが実行できる"
         },
         {
+          "id": "C",
+          "text": "repository の write 権限があれば誰でも実行でき、Copilot subscription は不要である"
+        },
+        {
           "id": "D",
-          "text": "endpoint は Copilot seat を追加せず、repository labels だけを更新する"
+          "text": "organization owner だけが Copilot seats を購入でき、organization は Copilot Business または Enterprise subscription と configured suggestion matching policy を持つ必要がある"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "正解は **A** です。この endpoint は指定 team のメンバー向けに Copilot seats を購入するもので、organization owner のみが実行できます。organization は Copilot Business または Enterprise subscription と suggestion matching policy の設定を持つ必要があります。\n\n出典: [REST API endpoints for Copilot user management](https://docs.github.com/en/rest/copilot/copilot-user-management)"
     },
@@ -195,30 +195,30 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub App user access tokens が使える"
-        },
-        {
-          "id": "B",
           "text": "GitHub App installation access tokens が使える"
         },
         {
-          "id": "C",
-          "text": "Fine-grained personal access tokens が使える"
+          "id": "B",
+          "text": "SSH key だけで実行でき、organization permissions は不要である"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "fine-grained token には `GitHub Copilot Business` organization permissions (write) または `Administration` organization permissions (write) のいずれかが必要である"
         },
         {
+          "id": "D",
+          "text": "Fine-grained personal access tokens が使える"
+        },
+        {
           "id": "E",
-          "text": "SSH key だけで実行でき、organization permissions は不要である"
+          "text": "GitHub App user access tokens が使える"
         }
       ],
       "correctAnswers": [
         "A",
-        "B",
         "C",
-        "D"
+        "D",
+        "E"
       ],
       "explanation": "正解は **A、B、C、D** です。この endpoint は GitHub App user access tokens、GitHub App installation access tokens、fine-grained personal access tokens で利用できます。また、fine-grained token には `GitHub Copilot Business` organization permissions (write) または `Administration` organization permissions (write) のいずれかが必要です。\n\n出典: [REST API endpoints for Copilot user management](https://docs.github.com/en/rest/copilot/copilot-user-management)"
     },
@@ -229,23 +229,23 @@
       "options": [
         {
           "id": "A",
-          "text": "生成候補は content filters を通り、設定に応じて public code と一致する suggestions が block または annotate される"
-        },
-        {
-          "id": "B",
           "text": "Copilot は public code と一致する suggestions を生成する可能性が絶対にないため、matching filter は存在しない"
         },
         {
+          "id": "B",
+          "text": "生成候補は content filters を通り、設定に応じて public code と一致する suggestions が block または annotate される"
+        },
+        {
           "id": "C",
-          "text": "content filters は harmful/offensive/insecure code には関与せず、billing plan だけを判定する"
+          "text": "public code matching は repository visibility を private にする機能である"
         },
         {
           "id": "D",
-          "text": "public code matching は repository visibility を private にする機能である"
+          "text": "content filters は harmful/offensive/insecure code には関与せず、billing plan だけを判定する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "B"
       ],
       "explanation": "正解は **A** です。Copilot inline suggestions は content filters を通り、harmful/offensive/insecure code をブロックします。ユーザー設定に応じて、public code に一致する suggestions を block または annotate することもあります。\n\n出典: [Responsible use of GitHub Copilot inline suggestions](https://docs.github.com/en/copilot/responsible-use/copilot-code-completion)"
     },
@@ -261,15 +261,15 @@
         },
         {
           "id": "B",
-          "text": "Copilot は probabilistic に新しいコードを生成するため、低確率ではあるが training set のコードと一致する suggestions があり得る"
+          "text": "Copilot が生成したコードはすべて security-sensitive applications に無検証で使える"
         },
         {
           "id": "C",
-          "text": "生成コードは syntactically / semantically に正しくない場合や、開発者の意図を正確に反映しない場合がある"
+          "text": "Copilot は probabilistic に新しいコードを生成するため、低確率ではあるが training set のコードと一致する suggestions があり得る"
         },
         {
           "id": "D",
-          "text": "Copilot が生成したコードはすべて security-sensitive applications に無検証で使える"
+          "text": "生成コードは syntactically / semantically に正しくない場合や、開発者の意図を正確に反映しない場合がある"
         },
         {
           "id": "E",
@@ -278,8 +278,8 @@
       ],
       "correctAnswers": [
         "A",
-        "B",
-        "C"
+        "C",
+        "D"
       ],
       "explanation": "正解は **A、B、C** です。Copilot の提案は不正確な場合があり、特に security-sensitive な用途では review and test が必要です。また、低確率ながら public training set と一致する suggestions が生成される可能性があります。\n\n出典: [Responsible use of GitHub Copilot inline suggestions](https://docs.github.com/en/copilot/responsible-use/copilot-code-completion)"
     },
@@ -291,11 +291,11 @@
       "options": [
         {
           "id": "A",
-          "text": "feature policy は Copilot feature の availability を制御する"
+          "text": "policy は GitHub Pages のテーマ色だけを制御する"
         },
         {
           "id": "B",
-          "text": "privacy policy は potentially sensitive action が allowed か blocked かを制御する"
+          "text": "feature policy は Copilot feature の availability を制御する"
         },
         {
           "id": "C",
@@ -303,17 +303,17 @@
         },
         {
           "id": "D",
-          "text": "policy は GitHub Pages のテーマ色だけを制御する"
+          "text": "enterprise-level policy は organization-level control に影響しない"
         },
         {
           "id": "E",
-          "text": "enterprise-level policy は organization-level control に影響しない"
+          "text": "privacy policy は potentially sensitive action が allowed か blocked かを制御する"
         }
       ],
       "correctAnswers": [
-        "A",
         "B",
-        "C"
+        "C",
+        "E"
       ],
       "explanation": "正解は **A、B、C** です。Copilot policies は feature、privacy、models に分類され、機能可用性、sensitive action の可否、追加モデルの可用性を制御します。enterprise-level policy が定義されると organization-level control は無効になります。\n\n出典: [GitHub Copilot policies to control availability of features and models](https://docs.github.com/en/copilot/concepts/policies)"
     }

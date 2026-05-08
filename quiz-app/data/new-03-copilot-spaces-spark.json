@@ -9,11 +9,11 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot Business または Copilot Enterprise ライセンスを持つユーザーのみ"
+          "text": "GitHub Pro または Team プランのユーザーのみ"
         },
         {
           "id": "B",
-          "text": "Copilot ライセンス（Copilot Free を含む）を持つすべてのユーザー"
+          "text": "Copilot Business または Copilot Enterprise ライセンスを持つユーザーのみ"
         },
         {
           "id": "C",
@@ -21,11 +21,11 @@
         },
         {
           "id": "D",
-          "text": "GitHub Pro または Team プランのユーザーのみ"
+          "text": "Copilot ライセンス（Copilot Free を含む）を持つすべてのユーザー"
         }
       ],
       "correctAnswers": [
-        "B"
+        "D"
       ],
       "explanation": "Copilot Spaces はすべての Copilot プランで利用できます。Copilot Free ユーザーも作成・使用可能ですが、Space 内の質問は毎月のチャット制限にカウントされます。\n\n📖 公式ドキュメント「[About GitHub Copilot Spaces](https://docs.github.com/en/copilot/concepts/context/spaces)」には「Anyone with a Copilot license, including Copilot Free, can create and use Spaces.」と記載されているため、正解は **B** です。"
     },
@@ -44,15 +44,15 @@
         },
         {
           "id": "C",
-          "text": "`https://github.com/copilot/spaces`"
+          "text": "`https://github.com/settings/copilot`"
         },
         {
           "id": "D",
-          "text": "`https://github.com/settings/copilot`"
+          "text": "`https://github.com/copilot/spaces`"
         }
       ],
       "correctAnswers": [
-        "C"
+        "D"
       ],
       "explanation": "Copilot Space を新規作成するには、GitHub の専用 URL にアクセスして「Create space」をクリックします。\n\n📖 公式ドキュメント「[Creating GitHub Copilot Spaces](https://docs.github.com/en/copilot/how-tos/provide-context/use-copilot-spaces/create-copilot-spaces)」には「To create a space, go to https://github.com/copilot/spaces, and click Create space.」と記載されているため、正解は **C** です。"
     },
@@ -63,7 +63,7 @@
       "options": [
         {
           "id": "A",
-          "text": "ビュー専用（view-only）"
+          "text": "組織メンバーのみ閲覧できる"
         },
         {
           "id": "B",
@@ -71,15 +71,15 @@
         },
         {
           "id": "C",
-          "text": "組織メンバーのみ閲覧できる"
+          "text": "リンクを知っているユーザーは編集できる"
         },
         {
           "id": "D",
-          "text": "リンクを知っているユーザーは編集できる"
+          "text": "ビュー専用（view-only）"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "個人アカウントが所有する Space をパブリック共有した場合、デフォルトではビュー専用（view-only）になります。閲覧者は自分がアクセスできるソースのみを表示できます。\n\n📖 公式ドキュメント「[About GitHub Copilot Spaces](https://docs.github.com/en/copilot/concepts/context/spaces)」には「Publicly shared spaces are view-only by default.」と記載されているため、正解は **A** です。"
     },
@@ -90,23 +90,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Space の共有設定を変更する"
+          "text": "Space に添付ファイルを追加する"
         },
         {
           "id": "B",
-          "text": "Space の名前や説明を更新する"
-        },
-        {
-          "id": "C",
           "text": "Space に質問を送信して回答を得る"
         },
         {
+          "id": "C",
+          "text": "Space の名前や説明を更新する"
+        },
+        {
           "id": "D",
-          "text": "Space に添付ファイルを追加する"
+          "text": "Space の共有設定を変更する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "組織所有の Space において、Editor ロールはコンテンツの追加・編集が可能ですが、共有設定の変更（Space の公開範囲の変更）は Admin ロールにのみ許可された操作です。\n\n📖 公式ドキュメント「[About GitHub Copilot Spaces](https://docs.github.com/en/copilot/concepts/context/spaces)」には「you decide which level of access you want to grant other members (admin, editor, viewer)」と記載されており、共有設定変更は admin 権限が必要なため、正解は **A** です。"
     },
@@ -117,23 +117,23 @@
       "options": [
         {
           "id": "A",
-          "text": "リポジトリを検索し、質問に回答するために最も関連性の高いコンテンツのみを取得する"
-        },
-        {
-          "id": "B",
           "text": "リポジトリ全体をメモリに読み込み、すべてのクエリに使用する"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "リポジトリの README のみを参照する"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "デフォルトブランチの最新コミットのみを参照する"
+        },
+        {
+          "id": "D",
+          "text": "リポジトリを検索し、質問に回答するために最も関連性の高いコンテンツのみを取得する"
         }
       ],
       "correctAnswers": [
-        "A"
+        "D"
       ],
       "explanation": "リポジトリを添付した場合、Copilot はプロジェクト全体をメモリに読み込むのではなく、検索して最も関連性の高いコンテンツのみを取得します。大規模リポジトリの質問応答に適した方式です。\n\n📖 公式ドキュメント「[Creating GitHub Copilot Spaces](https://docs.github.com/en/copilot/how-tos/provide-context/use-copilot-spaces/create-copilot-spaces)」には「When you attach a repository, Copilot doesn't load the entire project into memory. Instead, it searches the repository and retrieves only the most relevant content needed to answer your question.」と記載されているため、正解は **A** です。"
     },
@@ -144,23 +144,23 @@
       "options": [
         {
           "id": "A",
-          "text": "ファイルの完全な内容がコンテキストウィンドウに読み込まれ、すべてのクエリに使用される"
+          "text": "ファイルの最初の 1000 文字のみが使用される"
         },
         {
           "id": "B",
-          "text": "ファイルの要約のみが Copilot のコンテキストに追加される"
-        },
-        {
-          "id": "C",
           "text": "ファイルはインデックス化されるが、参照は任意"
         },
         {
+          "id": "C",
+          "text": "ファイルの完全な内容がコンテキストウィンドウに読み込まれ、すべてのクエリに使用される"
+        },
+        {
           "id": "D",
-          "text": "ファイルの最初の 1000 文字のみが使用される"
+          "text": "ファイルの要約のみが Copilot のコンテキストに追加される"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "個別ファイルを添付すると、ファイルの内容全体がコンテキストウィンドウに読み込まれ、その Space のすべてのクエリで使用されます。特定のドキュメントを常に参照させたい場合に適しています。\n\n📖 公式ドキュメント「[Creating GitHub Copilot Spaces](https://docs.github.com/en/copilot/how-tos/provide-context/use-copilot-spaces/create-copilot-spaces)」には「When you attach a file, its full contents are loaded into Copilot's context window and considered for every query in that space.」と記載されているため、正解は **A** です。"
     },
@@ -171,23 +171,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot の学習データを追加する"
-        },
-        {
-          "id": "B",
           "text": "Copilot が使用する SQL クエリのテンプレート"
         },
         {
+          "id": "B",
+          "text": "Copilot が質問に答える際に集中すべき内容・得意分野・避けるべき内容を記述するフリーテキスト"
+        },
+        {
           "id": "C",
-          "text": "スペースに追加するリポジトリの URL リスト"
+          "text": "Copilot の学習データを追加する"
         },
         {
           "id": "D",
-          "text": "Copilot が質問に答える際に集中すべき内容・得意分野・避けるべき内容を記述するフリーテキスト"
+          "text": "スペースに追加するリポジトリの URL リスト"
         }
       ],
       "correctAnswers": [
-        "D"
+        "B"
       ],
       "explanation": "Instructions はフリーテキストで、Copilot が Space 内で何に注力すべきか、どのようなタスクを支援すべきか、何を避けるべきかを記述するものです。Sources とは異なり、Copilot の応答の「方向性」を制御します。\n\n📖 公式ドキュメント「[Creating GitHub Copilot Spaces](https://docs.github.com/en/copilot/how-tos/provide-context/use-copilot-spaces/create-copilot-spaces)」には「Instructions: Free text that describes what Copilot should focus on within this space. Include its areas of expertise, what kinds of tasks it should help with, and what it should avoid.」と記載されているため、正解は **D** です。"
     },
@@ -202,7 +202,7 @@
         },
         {
           "id": "B",
-          "text": "Copilot が自動的にタグ付けに使用する"
+          "text": "他のユーザーが Space のコンテキストを理解するのに役立つが、Copilot の応答には影響しない"
         },
         {
           "id": "C",
@@ -210,11 +210,11 @@
         },
         {
           "id": "D",
-          "text": "他のユーザーが Space のコンテキストを理解するのに役立つが、Copilot の応答には影響しない"
+          "text": "Copilot が自動的にタグ付けに使用する"
         }
       ],
       "correctAnswers": [
-        "D"
+        "B"
       ],
       "explanation": "Space の説明（description）は、他のユーザーがその Space のコンテキストを理解するのに役立ちますが、Copilot の応答品質や内容には影響しません。\n\n📖 公式ドキュメント「[Creating GitHub Copilot Spaces](https://docs.github.com/en/copilot/how-tos/provide-context/use-copilot-spaces/create-copilot-spaces)」には「This does not affect the responses Copilot gives in the space, but it can help others understand the context of the space.」と記載されているため、正解は **D** です。"
     },
@@ -225,23 +225,23 @@
       "options": [
         {
           "id": "A",
-          "text": "カウントされない（Space 内の質問は無制限）"
-        },
-        {
-          "id": "B",
           "text": "Space の所有者のクォータにカウントされる"
         },
         {
+          "id": "B",
+          "text": "毎月のチャット制限にカウントされる"
+        },
+        {
           "id": "C",
-          "text": "API クォータとは別に管理される専用クォータにカウントされる"
+          "text": "カウントされない（Space 内の質問は無制限）"
         },
         {
           "id": "D",
-          "text": "毎月のチャット制限にカウントされる"
+          "text": "API クォータとは別に管理される専用クォータにカウントされる"
         }
       ],
       "correctAnswers": [
-        "D"
+        "B"
       ],
       "explanation": "Space 内で送信した質問は Copilot Chat リクエストとしてカウントされます。Copilot Free ユーザーの場合、この使用量は毎月のチャット制限にカウントされます。\n\n📖 公式ドキュメント「[About GitHub Copilot Spaces](https://docs.github.com/en/copilot/concepts/context/spaces)」には「If you're a Copilot Free user, this usage counts toward your monthly chat limit.」と記載されているため、正解は **D** です。"
     },
@@ -252,11 +252,11 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub Enterprise Cloud のサブスクリプション"
+          "text": "GitHub MCP サーバーのセットアップと `copilot_spaces` ツールセットの有効化"
         },
         {
           "id": "B",
-          "text": "GitHub MCP サーバーのセットアップと `copilot_spaces` ツールセットの有効化"
+          "text": "Copilot Business 以上のライセンス"
         },
         {
           "id": "C",
@@ -264,11 +264,11 @@
         },
         {
           "id": "D",
-          "text": "Copilot Business 以上のライセンス"
+          "text": "GitHub Enterprise Cloud のサブスクリプション"
         }
       ],
       "correctAnswers": [
-        "B"
+        "A"
       ],
       "explanation": "IDE で Spaces を使用するには、GitHub MCP サーバーをセットアップし、`copilot_spaces` ツールセットを有効化する必要があります。このツールセットはデフォルト設定には含まれないため、明示的に設定する必要があります。\n\n📖 公式ドキュメント「[Using GitHub Copilot Spaces](https://docs.github.com/en/copilot/how-tos/provide-context/use-copilot-spaces/use-copilot-spaces)」には「Set up the remote GitHub MCP server for your IDE\" and \"Configure the set up of the remote GitHub MCP server so that the Spaces toolset is enabled.」と記載されているため、正解は **B** です。"
     },
@@ -279,23 +279,23 @@
       "options": [
         {
           "id": "A",
-          "text": "リポジトリコンテキストはサポートされない"
-        },
-        {
-          "id": "B",
           "text": "最大 5 つの Space しか参照できない"
         },
         {
+          "id": "B",
+          "text": "組織所有の Space は IDE から参照できない"
+        },
+        {
           "id": "C",
-          "text": "画像ファイルは参照できない"
+          "text": "リポジトリコンテキストはサポートされない"
         },
         {
           "id": "D",
-          "text": "組織所有の Space は IDE から参照できない"
+          "text": "画像ファイルは参照できない"
         }
       ],
       "correctAnswers": [
-        "A"
+        "C"
       ],
       "explanation": "IDE で Spaces を使用する場合、リポジトリコンテキストはサポートされていません。Space 内の他のすべてのソースとインストラクションにはアクセスできます。\n\n📖 公式ドキュメント「[Using GitHub Copilot Spaces](https://docs.github.com/en/copilot/how-tos/provide-context/use-copilot-spaces/use-copilot-spaces)」には「When using Spaces in your IDE, repository context is not supported. You will have access to all other sources and instructions from the space.」と記載されているため、正解は **A** です。"
     },
@@ -310,19 +310,19 @@
         },
         {
           "id": "B",
-          "text": "通常のチャットモード"
+          "text": "エージェントモード（Agent mode）のみ"
         },
         {
           "id": "C",
-          "text": "デバッグモード"
+          "text": "通常のチャットモード"
         },
         {
           "id": "D",
-          "text": "エージェントモード（Agent mode）のみ"
+          "text": "デバッグモード"
         }
       ],
       "correctAnswers": [
-        "D"
+        "B"
       ],
       "explanation": "Spaces は GitHub MCP サーバー経由でアクセスされるため、IDE では必ずエージェントモード（Agent mode）で使用する必要があります。\n\n📖 公式ドキュメント「[Using GitHub Copilot Spaces](https://docs.github.com/en/copilot/how-tos/provide-context/use-copilot-spaces/use-copilot-spaces)」には「Note that Spaces can only be used in agent mode in your IDE, since spaces are accessed via the GitHub MCP server.」と記載されているため、正解は **D** です。"
     },
@@ -333,23 +333,23 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub Pages"
+          "text": "Azure Container Apps (ACA)"
         },
         {
           "id": "B",
-          "text": "GitHub Actions ランナー"
-        },
-        {
-          "id": "C",
           "text": "AWS Lambda"
         },
         {
+          "id": "C",
+          "text": "GitHub Actions ランナー"
+        },
+        {
           "id": "D",
-          "text": "Azure Container Apps (ACA)"
+          "text": "GitHub Pages"
         }
       ],
       "correctAnswers": [
-        "D"
+        "A"
       ],
       "explanation": "GitHub Spark で作成したアプリはすべて Azure Container Apps (ACA) によってホストおよびデプロイされます。\n\n📖 公式ドキュメント「[About GitHub Spark](https://docs.github.com/en/copilot/concepts/spark)」には「All sparks are hosted and deployed by Azure Container Apps (ACA).」と記載されているため、正解は **D** です。"
     },
@@ -387,23 +387,23 @@
       "options": [
         {
           "id": "A",
-          "text": "GitHub の内部 PostgreSQL"
-        },
-        {
-          "id": "B",
-          "text": "Firebase Realtime Database"
-        },
-        {
-          "id": "C",
           "text": "Azure Cosmos DB（マネージドキーバリューストア）"
         },
         {
-          "id": "D",
+          "id": "B",
+          "text": "GitHub の内部 PostgreSQL"
+        },
+        {
+          "id": "C",
           "text": "Amazon DynamoDB"
+        },
+        {
+          "id": "D",
+          "text": "Firebase Realtime Database"
         }
       ],
       "correctAnswers": [
-        "C"
+        "A"
       ],
       "explanation": "Spark のマネージドデータストアは Azure Cosmos DB で実行されるキーバリューストアです。小さなレコードを対象としており、1 エントリーあたり最大 512 KB という制限があります。\n\n📖 公式ドキュメント「[About GitHub Spark](https://docs.github.com/en/copilot/concepts/spark)」には「The data store runs on Azure (Cosmos DB) and it's intended for small records (up to 512 KB per entry).」と記載されているため、正解は **C** です。"
     },
@@ -414,7 +414,7 @@
       "options": [
         {
           "id": "A",
-          "text": "128 KB"
+          "text": "1 MB"
         },
         {
           "id": "B",
@@ -426,7 +426,7 @@
         },
         {
           "id": "D",
-          "text": "1 MB"
+          "text": "128 KB"
         }
       ],
       "correctAnswers": [
@@ -441,23 +441,23 @@
       "options": [
         {
           "id": "A",
-          "text": "1 リクエスト"
-        },
-        {
-          "id": "B",
-          "text": "2 リクエスト"
-        },
-        {
-          "id": "C",
           "text": "10 リクエスト"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "4 リクエスト"
+        },
+        {
+          "id": "C",
+          "text": "1 リクエスト"
+        },
+        {
+          "id": "D",
+          "text": "2 リクエスト"
         }
       ],
       "correctAnswers": [
-        "D"
+        "B"
       ],
       "explanation": "GitHub Spark の自然言語プロンプト 1 回あたり、4 つの Copilot プレミアムリクエストが消費されます。Spark 従量課金は GitHub の課金プラットフォームで監視できます。\n\n📖 公式ドキュメント「[About GitHub Spark](https://docs.github.com/en/copilot/concepts/spark)」には「Each natural-language prompt in Spark consumes four premium requests.」と記載されているため、正解は **D** です。"
     },
@@ -468,7 +468,7 @@
       "options": [
         {
           "id": "A",
-          "text": "メールアドレスとパスワード"
+          "text": "GitHub アカウントでのサインイン"
         },
         {
           "id": "B",
@@ -476,7 +476,7 @@
         },
         {
           "id": "C",
-          "text": "GitHub アカウントでのサインイン"
+          "text": "メールアドレスとパスワード"
         },
         {
           "id": "D",
@@ -484,7 +484,7 @@
         }
       ],
       "correctAnswers": [
-        "C"
+        "A"
       ],
       "explanation": "Spark には組み込み認証として、ユーザーが GitHub アカウントでサインインする仕組みが備わっています。これにより開発者がセキュリティを別途実装する必要がありません。\n\n📖 公式ドキュメント「[About GitHub Spark](https://docs.github.com/en/copilot/concepts/spark)」には「Spark has built-in authentication, since users need to sign in with their GitHub account to access your app.」と記載されているため、正解は **C** です。"
     },
@@ -499,7 +499,7 @@
         },
         {
           "id": "B",
-          "text": "GitHub Actions"
+          "text": "Gitpod"
         },
         {
           "id": "C",
@@ -507,7 +507,7 @@
         },
         {
           "id": "D",
-          "text": "Gitpod"
+          "text": "GitHub Actions"
         }
       ],
       "correctAnswers": [
@@ -522,7 +522,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Spark 自体が完全に利用できなくなる"
+          "text": "Spark はプレビューモードでのみ動作する"
         },
         {
           "id": "B",
@@ -530,11 +530,11 @@
         },
         {
           "id": "C",
-          "text": "Spark はプレビューモードでのみ動作する"
+          "text": "管理者が手動で許可した機能のみ使用できる"
         },
         {
           "id": "D",
-          "text": "管理者が手動で許可した機能のみ使用できる"
+          "text": "Spark 自体が完全に利用できなくなる"
         }
       ],
       "correctAnswers": [
@@ -549,23 +549,23 @@
       "options": [
         {
           "id": "A",
-          "text": "自分にのみ表示（プライベート）"
-        },
-        {
-          "id": "B",
-          "text": "特定の GitHub 組織メンバーに表示"
-        },
-        {
-          "id": "C",
           "text": "すべての GitHub ユーザーに表示"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "特定の IP アドレス範囲からのみアクセス可能"
+        },
+        {
+          "id": "C",
+          "text": "自分にのみ表示（プライベート）"
+        },
+        {
+          "id": "D",
+          "text": "特定の GitHub 組織メンバーに表示"
         }
       ],
       "correctAnswers": [
-        "D"
+        "B"
       ],
       "explanation": "Spark の可視性オプションは「自分のみ（プライベート）」「特定の組織メンバー」「すべての GitHub ユーザー」の 3 種類のみです。IP アドレスによるアクセス制限は Spark の機能として存在しません。\n\n📖 公式ドキュメント「[About GitHub Spark](https://docs.github.com/en/copilot/concepts/spark)」には「Private to you only / Visible to members of a specific organization on GitHub / Visible to all GitHub users」の 3 つの可視性オプションのみが記載されているため、正解は **D** です。"
     },
@@ -576,7 +576,7 @@
       "options": [
         {
           "id": "A",
-          "text": "アプリのコードが他のユーザーから閲覧できなくなる"
+          "text": "アプリが検索エンジンにインデックスされなくなる"
         },
         {
           "id": "B",
@@ -584,11 +584,11 @@
         },
         {
           "id": "C",
-          "text": "アプリが検索エンジンにインデックスされなくなる"
+          "text": "GitHub Actions が無効化される"
         },
         {
           "id": "D",
-          "text": "GitHub Actions が無効化される"
+          "text": "アプリのコードが他のユーザーから閲覧できなくなる"
         }
       ],
       "correctAnswers": [
@@ -603,23 +603,23 @@
       "options": [
         {
           "id": "A",
-          "text": "作成者のみがアクセスできる"
+          "text": "読み取り専用で公開される"
         },
         {
           "id": "B",
-          "text": "組織メンバーのみがアクセスできる"
+          "text": "作成者のみがアクセスできる"
         },
         {
           "id": "C",
-          "text": "公開された Spark のすべてのユーザーと共有される"
+          "text": "組織メンバーのみがアクセスできる"
         },
         {
           "id": "D",
-          "text": "読み取り専用で公開される"
+          "text": "公開された Spark のすべてのユーザーと共有される"
         }
       ],
       "correctAnswers": [
-        "C"
+        "D"
       ],
       "explanation": "デフォルト設定では、Spark のデータストアは公開された Spark のすべてのユーザーと共有されます。公開前に個人情報や機密データを必ず削除するよう警告されています。\n\n📖 公式ドキュメント「[About GitHub Spark](https://docs.github.com/en/copilot/concepts/spark)」には「By default, your spark's data store is shared for all users of the published spark.」と記載されているため、正解は **C** です。"
     },
@@ -630,23 +630,23 @@
       "options": [
         {
           "id": "A",
-          "text": "Spark から変更のみ、リポジトリに反映される（一方向同期）"
-        },
-        {
-          "id": "B",
           "text": "リポジトリから変更のみ、Spark に反映される（一方向同期）"
         },
         {
+          "id": "B",
+          "text": "Spark から変更のみ、リポジトリに反映される（一方向同期）"
+        },
+        {
           "id": "C",
-          "text": "Spark またはリポジトリのメインブランチでの変更が、両方の場所に自動反映される（双方向同期）"
+          "text": "同期はされず、手動でエクスポート・インポートが必要"
         },
         {
           "id": "D",
-          "text": "同期はされず、手動でエクスポート・インポートが必要"
+          "text": "Spark またはリポジトリのメインブランチでの変更が、両方の場所に自動反映される（双方向同期）"
         }
       ],
       "correctAnswers": [
-        "C"
+        "D"
       ],
       "explanation": "Spark とリポジトリの間には双方向の同期があり、Spark またはリポジトリのメインブランチで行われた変更は両方の場所に自動的に反映されます。\n\n📖 公式ドキュメント「[About GitHub Spark](https://docs.github.com/en/copilot/concepts/spark)」には「There's a two-way sync between your spark and the repository, so changes made in either Spark or the main branch of your repository are automatically reflected in both places.」と記載されているため、正解は **C** です。"
     },
@@ -657,7 +657,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Spark のコードをレビューするため"
+          "text": "GitHub Actions のワークフローを生成するため"
         },
         {
           "id": "B",
@@ -665,11 +665,11 @@
         },
         {
           "id": "C",
-          "text": "アプリのパフォーマンス監視に使用するため"
+          "text": "Spark のコードをレビューするため"
         },
         {
           "id": "D",
-          "text": "GitHub Actions のワークフローを生成するため"
+          "text": "アプリのパフォーマンス監視に使用するため"
         }
       ],
       "correctAnswers": [
@@ -684,15 +684,15 @@
       "options": [
         {
           "id": "A",
-          "text": "メンバーは読み取り専用でアクセスできる"
-        },
-        {
-          "id": "B",
           "text": "メンバーはリンクを知っていればアクセスできる"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "Space は他の組織メンバーから非表示になる"
+        },
+        {
+          "id": "C",
+          "text": "メンバーは読み取り専用でアクセスできる"
         },
         {
           "id": "D",
@@ -700,7 +700,7 @@
         }
       ],
       "correctAnswers": [
-        "C"
+        "B"
       ],
       "explanation": "組織所有の Space では、組織メンバーに「No access」を付与するとその Space は他のメンバーから完全に非表示になる。Admin・Editor・Viewer のいずれかを付与した場合と異なり、Space の存在すら見えなくなる。\n\n📖 公式ドキュメント「[Collaborating with others using GitHub Copilot Spaces](https://docs.github.com/en/copilot/using-github-copilot/copilot-spaces/collaborating-with-your-team-using-copilot-spaces)」には「Alternatively, you can choose to grant \"No access\" to organization members, and keep the space hidden.」と記載されているため、正解は **C** です。"
     },
@@ -711,23 +711,23 @@
       "options": [
         {
           "id": "A",
-          "text": "古いバージョンが保持され、手動で更新が必要"
-        },
-        {
-          "id": "B",
           "text": "変更に応じて自動的に更新される"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "変更通知が送られるが、更新は手動"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "Space を削除して再作成する必要がある"
+        },
+        {
+          "id": "D",
+          "text": "古いバージョンが保持され、手動で更新が必要"
         }
       ],
       "correctAnswers": [
-        "B"
+        "A"
       ],
       "explanation": "Copilot Space に追加した GitHub ベースのソース（ファイル・リポジトリ等）は、元のコンテンツが変更されると自動的に更新される。手動での再添付や Space の再作成は不要で、Copilot は常に最新の内容を参照できる。\n\n📖 公式ドキュメント「[About GitHub Copilot Spaces](https://docs.github.com/en/copilot/concepts/context/spaces)」には「GitHub files and other GitHub-based sources added to a space are automatically updated as they change, making Copilot an evergreen expert in your project.」と記載されているため、正解は **B** です。"
     },
@@ -742,11 +742,11 @@
         },
         {
           "id": "B",
-          "text": "`https://api.githubcopilot.com/mcp/x/copilot_spaces`"
+          "text": "`https://mcp.github.com/copilot/spaces`"
         },
         {
           "id": "C",
-          "text": "`https://mcp.github.com/copilot/spaces`"
+          "text": "`https://api.githubcopilot.com/mcp/x/copilot_spaces`"
         },
         {
           "id": "D",
@@ -754,7 +754,7 @@
         }
       ],
       "correctAnswers": [
-        "B"
+        "C"
       ],
       "explanation": "IDE の GitHub MCP サーバーで Spaces ツールセットのみを提供する専用 URL は `https://api.githubcopilot.com/mcp/x/copilot_spaces` である。この設定では他のデフォルト MCP 機能は含まれない。\n\n📖 公式ドキュメント「[Using GitHub Copilot Spaces](https://docs.github.com/en/copilot/how-tos/provide-context/use-copilot-spaces/use-copilot-spaces)」には「Alternatively, you can use the dedicated Spaces toolset URL: `https://api.githubcopilot.com/mcp/x/copilot_spaces`. Note that this configuration provides only Spaces tools, without other default GitHub MCP server functionality.」と記載されているため、正解は **B** です。"
     },
@@ -769,11 +769,11 @@
         },
         {
           "id": "B",
-          "text": "すべてのブランチを横断的に検索"
+          "text": "最新のリリースタグ"
         },
         {
           "id": "C",
-          "text": "最新のリリースタグ"
+          "text": "すべてのブランチを横断的に検索"
         },
         {
           "id": "D",
@@ -792,23 +792,23 @@
       "options": [
         {
           "id": "A",
-          "text": "失われる（リポジトリ作成時点からの変更のみが記録される）"
-        },
-        {
-          "id": "B",
           "text": "リポジトリに追加され、作成以降のすべての変更とコミットの完全な記録が得られる"
         },
         {
+          "id": "B",
+          "text": "アーカイブされ、プルリクエストで取り込む必要がある"
+        },
+        {
           "id": "C",
-          "text": "別ブランチとして保存される"
+          "text": "失われる（リポジトリ作成時点からの変更のみが記録される）"
         },
         {
           "id": "D",
-          "text": "アーカイブされ、プルリクエストで取り込む必要がある"
+          "text": "別ブランチとして保存される"
         }
       ],
       "correctAnswers": [
-        "B"
+        "A"
       ],
       "explanation": "Spark とリポジトリを接続する前に Spark 上で行った変更も、リポジトリ作成後にすべてリポジトリに追加される。これにより Spark 作成当初からの変更・コミットの完全な記録が得られる。\n\n📖 公式ドキュメント「[GitHub Spark](https://docs.github.com/en/copilot/concepts/spark)」には「Any changes made to your spark prior to repository creation will be added to your repository so you have a full record of all changes and commits made to your spark since its creation.」と記載されているため、正解は **B** です。"
     },
@@ -819,30 +819,30 @@
       "options": [
         {
           "id": "A",
-          "text": "ファイル・フォルダー・GitHub リポジトリ"
+          "text": "外部 Web サイトの URL（GitHub 外）"
         },
         {
           "id": "B",
-          "text": "GitHub コンテンツの URL（プルリクエスト・イシュー等）"
-        },
-        {
-          "id": "C",
-          "text": "ローカルマシンからのファイルアップロード（画像・テキスト・リッチドキュメント・スプレッドシート）"
-        },
-        {
-          "id": "D",
           "text": "フリーテキスト（トランスクリプト・メモ等）"
         },
         {
+          "id": "C",
+          "text": "ファイル・フォルダー・GitHub リポジトリ"
+        },
+        {
+          "id": "D",
+          "text": "GitHub コンテンツの URL（プルリクエスト・イシュー等）"
+        },
+        {
           "id": "E",
-          "text": "外部 Web サイトの URL（GitHub 外）"
+          "text": "ローカルマシンからのファイルアップロード（画像・テキスト・リッチドキュメント・スプレッドシート）"
         }
       ],
       "correctAnswers": [
-        "A",
         "B",
         "C",
-        "D"
+        "D",
+        "E"
       ],
       "explanation": "Space のソースとして追加できるのは「ファイル・フォルダー・GitHub リポジトリ」「GitHub コンテンツの URL」「ローカルファイルアップロード」「フリーテキスト」の 4 種類。外部 Web サイト（GitHub 外）の URL を直接ソースとして追加する機能はドキュメントに記載されていない。\n\n📖 公式ドキュメント「[Creating GitHub Copilot Spaces](https://docs.github.com/en/copilot/how-tos/provide-context/use-copilot-spaces/create-copilot-spaces)」には「To add sources, click Add sources, then choose one of the following options: Add files and repositories / Link files, pull requests, and issues / Upload a file / Add text content」と記載されているため、正解は **A・B・C・D** です。",
       "selectionCount": 4
@@ -854,30 +854,30 @@
       "options": [
         {
           "id": "A",
-          "text": "Admin（管理者）"
-        },
-        {
-          "id": "B",
-          "text": "Editor（エディター）"
-        },
-        {
-          "id": "C",
-          "text": "Viewer（ビューアー）"
-        },
-        {
-          "id": "D",
           "text": "No access（アクセス権なし）"
         },
         {
-          "id": "E",
+          "id": "B",
+          "text": "Viewer（ビューアー）"
+        },
+        {
+          "id": "C",
+          "text": "Editor（エディター）"
+        },
+        {
+          "id": "D",
           "text": "Owner（オーナー）"
+        },
+        {
+          "id": "E",
+          "text": "Admin（管理者）"
         }
       ],
       "correctAnswers": [
         "A",
         "B",
         "C",
-        "D"
+        "E"
       ],
       "explanation": "組織所有 Space で設定できるメンバーロールは Admin・Editor・Viewer・No access の 4 種類。「Owner」という独立したロールは存在せず、Space の所有は組織に帰属する。\n\n📖 公式ドキュメント「[Collaborating with others using GitHub Copilot Spaces](https://docs.github.com/en/copilot/using-github-copilot/copilot-spaces/collaborating-with-your-team-using-copilot-spaces)」には「you decide which level of access you want to grant other members (admin, editor, viewer). Alternatively, you can choose to grant \"No access\" to organization members, and keep the space hidden.」と記載されているため、正解は **A・B・C・D** です。",
       "selectionCount": 4
@@ -889,29 +889,29 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot からより関連性の高い具体的な応答が得られる"
-        },
-        {
-          "id": "B",
-          "text": "知識をチームと共有して、繰り返しの質問を減らせる"
-        },
-        {
-          "id": "C",
-          "text": "チャット履歴の外部でも有効なセルフサービスのコンテキストでオンボーディングを支援できる"
-        },
-        {
-          "id": "D",
           "text": "Copilot の API コストが自動的に 50% 削減される"
         },
         {
-          "id": "E",
+          "id": "B",
+          "text": "Copilot からより関連性の高い具体的な応答が得られる"
+        },
+        {
+          "id": "C",
           "text": "タスクに必要なものを 1 か所に集めてフローを維持できる"
+        },
+        {
+          "id": "D",
+          "text": "知識をチームと共有して、繰り返しの質問を減らせる"
+        },
+        {
+          "id": "E",
+          "text": "チャット履歴の外部でも有効なセルフサービスのコンテキストでオンボーディングを支援できる"
         }
       ],
       "correctAnswers": [
-        "A",
         "B",
         "C",
+        "D",
         "E"
       ],
       "explanation": "Copilot Spaces の利点として、より関連性の高い回答の取得・フロー維持・チームとの知識共有・チャット履歴外でのコンテキスト提供の 4 点が挙げられている。API コスト削減についての記述はない。\n\n📖 公式ドキュメント「[About GitHub Copilot Spaces](https://docs.github.com/en/copilot/concepts/context/spaces)」には「Get more relevant, specific answers from Copilot. / Stay in flow by collecting what you need for a task in one place. / Reduce repeated questions by sharing knowledge with your team. / Support onboarding and reuse with self-service context that lives beyond chat history.」と記載されているため、正解は **A・B・C・E** です。",
@@ -928,15 +928,15 @@
         },
         {
           "id": "B",
-          "text": "特定の GitHub 組織のメンバーに表示"
+          "text": "特定の GitHub ユーザー（ユーザー名指定）にのみ表示"
         },
         {
           "id": "C",
-          "text": "すべての GitHub ユーザーに表示"
+          "text": "特定の GitHub 組織のメンバーに表示"
         },
         {
           "id": "D",
-          "text": "特定の GitHub ユーザー（ユーザー名指定）にのみ表示"
+          "text": "すべての GitHub ユーザーに表示"
         },
         {
           "id": "E",
@@ -945,8 +945,8 @@
       ],
       "correctAnswers": [
         "A",
-        "B",
         "C",
+        "D",
         "E"
       ],
       "explanation": "Spark の可視性オプションは「自分のみ（プライベート）」「特定の GitHub 組織メンバー」「すべての GitHub ユーザー」の 3 種類。さらにオプションで「read-only」として公開できる。特定のユーザー名を指定した共有は Spark の機能として提供されていない。\n\n📖 公式ドキュメント「[GitHub Spark](https://docs.github.com/en/copilot/concepts/spark)」には「you can choose from the following visibility options: Private to you only / Visible to members of a specific organization on GitHub / Visible to all GitHub users. Optionally, you can publish your spark as 'read-only'」と記載されているため、正解は **A・B・C・E** です。",
@@ -959,11 +959,11 @@
       "options": [
         {
           "id": "A",
-          "text": "コーディングの知識なしに自然言語でアプリを構築できる"
+          "text": "ワンクリックでアプリをデプロイできる"
         },
         {
           "id": "B",
-          "text": "データベース設定なしに自動でマネージドデータストアが設定される"
+          "text": "コーディングの知識なしに自然言語でアプリを構築できる"
         },
         {
           "id": "C",
@@ -971,18 +971,18 @@
         },
         {
           "id": "D",
-          "text": "ワンクリックでアプリをデプロイできる"
+          "text": "任意のクラウドプロバイダーへのデプロイが可能"
         },
         {
           "id": "E",
-          "text": "任意のクラウドプロバイダーへのデプロイが可能"
+          "text": "データベース設定なしに自動でマネージドデータストアが設定される"
         }
       ],
       "correctAnswers": [
         "A",
         "B",
         "C",
-        "D"
+        "E"
       ],
       "explanation": "Spark の主なメリットはコーディング不要のアプリ構築・マネージドデータストアの自動設定・GitHub アカウント認証の組み込み・ワンクリックデプロイの 4 点。デプロイ先は Azure Container Apps (ACA) に固定されており、任意のクラウドプロバイダーへのデプロイはできない。\n\n📖 公式ドキュメント「[GitHub Spark](https://docs.github.com/en/copilot/concepts/spark)」には「You don't need to know how to code to build an app with Spark. / If Spark detects the need to store data in your app, it will automatically set up a managed key-value store. / Spark has built-in authentication, since users need to sign in with their GitHub account. / Spark comes with a fully integrated runtime environment that allows you to deploy your app in one click. All sparks are hosted and deployed by Azure Container Apps (ACA).」と記載されているため、正解は **A・B・C・D** です。",
       "selectionCount": 4
@@ -994,7 +994,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Spark から直接 GitHub Codespace を開くことができる"
+          "text": "Codespace での変更は Spark に反映されないため、別途コミットが必要"
         },
         {
           "id": "B",
@@ -1002,21 +1002,21 @@
         },
         {
           "id": "C",
-          "text": "Codespace では Copilot のすべての機能（エージェントモードを含む）にアクセスできる"
+          "text": "Spark のリポジトリを作成するとリポジトリとの双方向同期が始まる"
         },
         {
           "id": "D",
-          "text": "Codespace での変更は Spark に反映されないため、別途コミットが必要"
+          "text": "Spark から直接 GitHub Codespace を開くことができる"
         },
         {
           "id": "E",
-          "text": "Spark のリポジトリを作成するとリポジトリとの双方向同期が始まる"
+          "text": "Codespace では Copilot のすべての機能（エージェントモードを含む）にアクセスできる"
         }
       ],
       "correctAnswers": [
-        "A",
         "B",
         "C",
+        "D",
         "E"
       ],
       "explanation": "Spark と Codespace は自動同期されており、Codespace を開くと Copilot のすべての機能（エージェントモード含む）にアクセスできる。リポジトリを作成するとメインブランチとの双方向同期も開始される。「Codespace での変更は Spark に反映されない」という D の記述は誤り。\n\n📖 公式ドキュメント「[GitHub Spark](https://docs.github.com/en/copilot/concepts/spark)」には「You can open a GitHub codespace directly from Spark / There's automatic syncing between the codespace and Spark / When you open your spark in a GitHub codespace, you have access to all of Copilot's capabilities, including Copilot Chat and Copilot agent mode. / There's a two-way sync between your spark and the repository.」と記載されているため、正解は **A・B・C・E** です。",
@@ -1029,30 +1029,30 @@
       "options": [
         {
           "id": "A",
-          "text": "「Add files and repositories」でファイル・フォルダー・リポジトリを追加する"
-        },
-        {
-          "id": "B",
-          "text": "「Link files, pull requests, and issues」で GitHub コンテンツの URL を貼り付ける"
-        },
-        {
-          "id": "C",
           "text": "「Upload a file」でローカルファイルをアップロードする"
         },
         {
-          "id": "D",
+          "id": "B",
+          "text": "「Add files and repositories」でファイル・フォルダー・リポジトリを追加する"
+        },
+        {
+          "id": "C",
           "text": "「Add text content」でフリーテキストを入力・貼り付ける"
         },
         {
-          "id": "E",
+          "id": "D",
           "text": "「Connect database」でデータベース接続を設定する"
+        },
+        {
+          "id": "E",
+          "text": "「Link files, pull requests, and issues」で GitHub コンテンツの URL を貼り付ける"
         }
       ],
       "correctAnswers": [
         "A",
         "B",
         "C",
-        "D"
+        "E"
       ],
       "explanation": "Space にソースを追加する際の操作オプションは「Add files and repositories」「Link files, pull requests, and issues」「Upload a file」「Add text content」の 4 つ。データベース接続機能（Connect database）はドキュメントに記載されていない。\n\n📖 公式ドキュメント「[Creating GitHub Copilot Spaces](https://docs.github.com/en/copilot/how-tos/provide-context/use-copilot-spaces/create-copilot-spaces)」には「To add sources, click Add sources, then choose one of the following options: Add files and repositories / Link files, pull requests, and issues / Upload a file / Add text content」と記載されているため、正解は **A・B・C・D** です。",
       "selectionCount": 4
@@ -1068,25 +1068,25 @@
         },
         {
           "id": "B",
-          "text": "Spark は React と TypeScript の固定スタックを使用する"
-        },
-        {
-          "id": "C",
-          "text": "公開された Spark のデータストアはデフォルトで全ユーザーと共有される"
-        },
-        {
-          "id": "D",
           "text": "Spark で作成したアプリは GitHub Pages にのみデプロイできる"
         },
         {
-          "id": "E",
+          "id": "C",
+          "text": "Spark は React と TypeScript の固定スタックを使用する"
+        },
+        {
+          "id": "D",
           "text": "Codespaces が無効な企業環境では、Codespace を開くことができない"
+        },
+        {
+          "id": "E",
+          "text": "公開された Spark のデータストアはデフォルトで全ユーザーと共有される"
         }
       ],
       "correctAnswers": [
         "A",
-        "B",
         "C",
+        "D",
         "E"
       ],
       "explanation": "Spark の制限として、React+TypeScript の固定スタック・外部ライブラリの互換性非保証・デフォルトでの全ユーザーとのデータストア共有・Codespaces 無効時の Codespace 使用不可がある。デプロイ先は Azure Container Apps であり GitHub Pages ではない（D は誤り）。\n\n📖 公式ドキュメント「[GitHub Spark](https://docs.github.com/en/copilot/concepts/spark)」には「Spark uses an opinionated stack (React, TypeScript) for reliability. / You can add external libraries, but compatibility with Spark's SDK isn't guaranteed. / By default, your spark's data store is shared for all users of the published spark. / If your enterprise disables Codespaces, users can still access the Spark interface but won't be able to open the underlying codespace.」と記載されているため、正解は **A・B・C・E** です。",
@@ -1099,7 +1099,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Copilot ライセンスに含まれており、既存のエンタープライズアクセスポリシーを尊重する"
+          "text": "すべてのユーザーの Spark 利用が自動的にログに記録され、監査できる"
         },
         {
           "id": "B",
@@ -1107,21 +1107,21 @@
         },
         {
           "id": "C",
-          "text": "Spark の従量課金は Copilot プレミアムリクエストから引き出され、GitHub 課金プラットフォームで監視できる"
+          "text": "アイデアを数時間で検証できるイノベーションの加速が可能"
         },
         {
           "id": "D",
-          "text": "すべてのユーザーの Spark 利用が自動的にログに記録され、監査できる"
+          "text": "Spark の従量課金は Copilot プレミアムリクエストから引き出され、GitHub 課金プラットフォームで監視できる"
         },
         {
           "id": "E",
-          "text": "アイデアを数時間で検証できるイノベーションの加速が可能"
+          "text": "Copilot ライセンスに含まれており、既存のエンタープライズアクセスポリシーを尊重する"
         }
       ],
       "correctAnswers": [
-        "A",
         "B",
         "C",
+        "D",
         "E"
       ],
       "explanation": "エンタープライズが Spark を有効化するメリットとして、Copilot ライセンスに含まれた一元的な制御・ガバナンスとセキュリティの継承・Copilot Premium リクエスト経由のコスト管理・アイデアの迅速な検証の 4 点が挙げられている。自動監査ログの記述はない。\n\n📖 公式ドキュメント「[GitHub Spark](https://docs.github.com/en/copilot/concepts/spark)」には「Spark is included in the Copilot license and respects existing enterprise access policies. / Built on GitHub and Azure, sparks inherit enterprise-grade reliability, authentication, and compliance. / Spark consumption draws from Copilot premium requests, which you can monitor through the GitHub billing platform. / Teams can validate ideas in hours instead of months, without relying on fragmented toolchains.」と記載されているため、正解は **A・B・C・E** です。",
@@ -1134,11 +1134,11 @@
       "options": [
         {
           "id": "A",
-          "text": "Instructions（インストラクション）"
+          "text": "Workflows（ワークフロー）"
         },
         {
           "id": "B",
-          "text": "Sources（ソース）"
+          "text": "Instructions（インストラクション）"
         },
         {
           "id": "C",
@@ -1150,12 +1150,12 @@
         },
         {
           "id": "E",
-          "text": "Workflows（ワークフロー）"
+          "text": "Sources（ソース）"
         }
       ],
       "correctAnswers": [
-        "A",
-        "B"
+        "B",
+        "E"
       ],
       "explanation": "Space に追加できるコンテキストの種類は「Instructions（Copilot が集中すべき内容を記述するフリーテキスト）」と「Sources（より関連性の高い回答のための情報源）」の 2 種類のみ。Permissions・Templates・Workflows はコンテキストタイプとして存在しない。\n\n📖 公式ドキュメント「[Creating GitHub Copilot Spaces](https://docs.github.com/en/copilot/how-tos/provide-context/use-copilot-spaces/create-copilot-spaces)」には「You can add two types of context to your space: Instructions (Free text that describes what Copilot should focus on within this space) / Sources (This context will be used to provide more relevant answers to your questions.)」と記載されているため、正解は **A・B** です。",
       "selectionCount": 2
@@ -1167,30 +1167,30 @@
       "options": [
         {
           "id": "A",
-          "text": "個人アカウント所有の Space はパブリックに共有できる"
-        },
-        {
-          "id": "B",
           "text": "組織所有の Space は組織メンバーに Admin・Editor・Viewer のいずれかのロールで共有できる"
         },
         {
+          "id": "B",
+          "text": "組織所有の Space は「No access」を設定して組織メンバーから非表示にできる"
+        },
+        {
           "id": "C",
-          "text": "パブリック共有された個人 Space はデフォルトでビュー専用"
+          "text": "個人アカウント所有の Space はパブリックに共有できる"
         },
         {
           "id": "D",
-          "text": "Space の閲覧者は、自分がアクセスできないソースも Space 経由でアクセスできる"
+          "text": "パブリック共有された個人 Space はデフォルトでビュー専用"
         },
         {
           "id": "E",
-          "text": "組織所有の Space は「No access」を設定して組織メンバーから非表示にできる"
+          "text": "Space の閲覧者は、自分がアクセスできないソースも Space 経由でアクセスできる"
         }
       ],
       "correctAnswers": [
         "A",
         "B",
         "C",
-        "E"
+        "D"
       ],
       "explanation": "パブリック共有された個人 Space はデフォルトでビュー専用であり、閲覧者は自分がアクセスできるソースのみを閲覧できる。「アクセス権外のソースも Space 経由でアクセスできる」という D の記述は誤り。\n\n📖 公式ドキュメント「[Collaborating with others using GitHub Copilot Spaces](https://docs.github.com/en/copilot/using-github-copilot/copilot-spaces/collaborating-with-your-team-using-copilot-spaces)」には「Publicly shared spaces are view-only by default, and viewers can only see sources that they have access to.」と記載されているため、正解は **A・B・C・E** です。",
       "selectionCount": 4
@@ -1202,24 +1202,24 @@
       "options": [
         {
           "id": "A",
-          "text": "MCP 設定の `X-MCP-Toolsets` ヘッダーに `copilot_spaces` を追加する（`default,copilot_spaces`）"
-        },
-        {
-          "id": "B",
-          "text": "専用 URL `https://api.githubcopilot.com/mcp/x/copilot_spaces` を使用する（Spaces のみ）"
-        },
-        {
-          "id": "C",
           "text": "IDE の設定メニューから「Enable Copilot Spaces」を有効化する"
         },
         {
-          "id": "D",
+          "id": "B",
+          "text": "MCP 設定の `X-MCP-Toolsets` ヘッダーに `copilot_spaces` を追加する（`default,copilot_spaces`）"
+        },
+        {
+          "id": "C",
           "text": "GitHub.com のアカウント設定から MCP Spaces を有効化する"
+        },
+        {
+          "id": "D",
+          "text": "専用 URL `https://api.githubcopilot.com/mcp/x/copilot_spaces` を使用する（Spaces のみ）"
         }
       ],
       "correctAnswers": [
-        "A",
-        "B"
+        "B",
+        "D"
       ],
       "explanation": "IDE の GitHub MCP サーバーで Spaces を有効化する方法は 2 種類。Spaces ツールセットはデフォルト設定に含まれないため明示的な設定が必要。IDE の設定メニューや GitHub.com のアカウント設定から有効化するオプションはドキュメントに記載されていない。\n\n📖 公式ドキュメント「[Using GitHub Copilot Spaces](https://docs.github.com/en/copilot/how-tos/provide-context/use-copilot-spaces/use-copilot-spaces)」には「The Spaces toolset is not included in the default configuration, so you must explicitly enable it using the `X-MCP-Toolsets` header (e.g. \"X-MCP-Toolsets\": \"default,copilot_spaces\"). Alternatively, you can use the dedicated Spaces toolset URL: `https://api.githubcopilot.com/mcp/x/copilot_spaces`.」と記載されているため、正解は **A・B** です。",
       "selectionCount": 2
@@ -1235,25 +1235,25 @@
         },
         {
           "id": "B",
-          "text": "エージェントモードで Copilot Chat を使用する際に利用できる"
-        },
-        {
-          "id": "C",
-          "text": "`list_copilot_spaces` はスペース名や所有者を指定しない場合に、条件に合う Space を自動的に検索する"
-        },
-        {
-          "id": "D",
           "text": "これらのツールはデフォルトの GitHub MCP サーバー設定に含まれている"
         },
         {
-          "id": "E",
+          "id": "C",
           "text": "IDE のツールリストでこれらのツールを確認・有効化できる"
+        },
+        {
+          "id": "D",
+          "text": "エージェントモードで Copilot Chat を使用する際に利用できる"
+        },
+        {
+          "id": "E",
+          "text": "`list_copilot_spaces` はスペース名や所有者を指定しない場合に、条件に合う Space を自動的に検索する"
         }
       ],
       "correctAnswers": [
         "A",
-        "B",
         "C",
+        "D",
         "E"
       ],
       "explanation": "`get_copilot_space` と `list_copilot_spaces` は `copilot_spaces` ツールセットに含まれており、デフォルト設定には含まれない（D は誤り）。エージェントモードでのみ使用可能で、IDE のツールリストで確認・有効化できる。\n\n📖 公式ドキュメント「[Using GitHub Copilot Spaces](https://docs.github.com/en/copilot/how-tos/provide-context/use-copilot-spaces/use-copilot-spaces)」には「Note that Spaces can only be used in agent mode in your IDE / to confirm that the Spaces tools are enabled, click the tools icon and confirm that the `get_copilot_space` and `list_copilot_spaces` tools are listed and enabled. / Copilot will automatically use the `list_copilot_spaces` tool to find spaces that match the name or text you provide.」と記載されているため、正解は **A・B・C・E** です。",
@@ -1266,19 +1266,19 @@
       "options": [
         {
           "id": "A",
-          "text": "オンボーディング: コード・ドキュメント・図・チェックリストをまとめた Space で新しい開発者を支援"
-        },
-        {
-          "id": "B",
           "text": "システム知識: 認証や CI パイプラインなど複雑なシステムの Space を作成して参照"
         },
         {
-          "id": "C",
+          "id": "B",
           "text": "スタイルガイドやレビューチェックリスト: 標準とサンプルをまとめた Space で Copilot が参照"
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "自動デプロイ: Space に含めたスクリプトを使って自動的にデプロイを実行"
+        },
+        {
+          "id": "D",
+          "text": "オンボーディング: コード・ドキュメント・図・チェックリストをまとめた Space で新しい開発者を支援"
         },
         {
           "id": "E",
@@ -1288,7 +1288,7 @@
       "correctAnswers": [
         "A",
         "B",
-        "C",
+        "D",
         "E"
       ],
       "explanation": "ドキュメントに記載されているユースケースはオンボーディング・システム知識・スタイルガイドの 3 種類と、他のユーザーをエディターとして追加しての共同リソース更新。自動デプロイはドキュメントに記載されていない。\n\n📖 公式ドキュメント「[Collaborating with others using GitHub Copilot Spaces](https://docs.github.com/en/copilot/using-github-copilot/copilot-spaces/collaborating-with-your-team-using-copilot-spaces)」には「Onboarding: Share a space with code, documentation, diagrams, and checklists... Make other people editors so anyone can update the included resources. / System knowledge: Create a space for a complex system or workflow (like authentication or CI pipelines). / Style guides or review checklists: Document standards and examples in a space that Copilot can reference.」と記載されているため、正解は **A・B・C・E** です。",
@@ -1301,30 +1301,30 @@
       "options": [
         {
           "id": "A",
-          "text": "プルリクエスト"
-        },
-        {
-          "id": "B",
-          "text": "イシュー"
-        },
-        {
-          "id": "C",
           "text": "プロジェクトボード"
         },
         {
-          "id": "D",
+          "id": "B",
           "text": "GitHub Actions（CI/CD ワークフロー）"
         },
         {
-          "id": "E",
+          "id": "C",
           "text": "GitHub Packages"
+        },
+        {
+          "id": "D",
+          "text": "プルリクエスト"
+        },
+        {
+          "id": "E",
+          "text": "イシュー"
         }
       ],
       "correctAnswers": [
         "A",
         "B",
-        "C",
-        "D"
+        "D",
+        "E"
       ],
       "explanation": "Spark のリポジトリ作成後はプルリクエスト・イシュー・プロジェクトボード・GitHub Actions（CI/CD ワークフロー）といった標準の GitHub 機能が利用できる。GitHub Packages についての記述はドキュメントにない。\n\n📖 公式ドキュメント「[GitHub Spark](https://docs.github.com/en/copilot/concepts/spark)」には「you can use all the standard GitHub features such as pull requests, issues, and project boards to manage your spark development process, as well as leverage GitHub Actions for CI/CD workflows.」と記載されているため、正解は **A・B・C・D** です。",
       "selectionCount": 4
@@ -1336,15 +1336,15 @@
       "options": [
         {
           "id": "A",
-          "text": "自然言語プロンプトで変更を指示する"
+          "text": "コードを直接編集する"
         },
         {
           "id": "B",
-          "text": "Spark のビジュアルツールを使用して変更する"
+          "text": "自然言語プロンプトで変更を指示する"
         },
         {
           "id": "C",
-          "text": "コードを直接編集する"
+          "text": "Spark のビジュアルツールを使用して変更する"
         },
         {
           "id": "D",
@@ -1371,11 +1371,11 @@
       "options": [
         {
           "id": "A",
-          "text": "Spark が GitHub リポジトリに接続されていること"
+          "text": "クラウドエージェントはバグ修正・リファクタリング・テストカバレッジ向上などができる"
         },
         {
           "id": "B",
-          "text": "Copilot にイシューを割り当てるか、プルリクエスト作成を指示することで委任できる"
+          "text": "クラウドエージェントは Spark のプレビューパネルでのみ動作する"
         },
         {
           "id": "C",
@@ -1383,17 +1383,17 @@
         },
         {
           "id": "D",
-          "text": "クラウドエージェントは Spark のプレビューパネルでのみ動作する"
+          "text": "Spark が GitHub リポジトリに接続されていること"
         },
         {
           "id": "E",
-          "text": "クラウドエージェントはバグ修正・リファクタリング・テストカバレッジ向上などができる"
+          "text": "Copilot にイシューを割り当てるか、プルリクエスト作成を指示することで委任できる"
         }
       ],
       "correctAnswers": [
         "A",
-        "B",
         "C",
+        "D",
         "E"
       ],
       "explanation": "Copilot クラウドエージェントを使うには Spark が GitHub リポジトリに接続されている必要がある。Copilot にイシューを割り当てるか PR 作成を指示することで、バグ修正・リファクタリング・テストカバレッジ向上等のタスクがバックグラウンドで実行される。プレビューパネルに限定されるという制限はない（D は誤り）。\n\n📖 公式ドキュメント「[GitHub Spark](https://docs.github.com/en/copilot/concepts/spark)」には「Once your spark is connected to a GitHub repository, you can use Copilot cloud agent / With the cloud agent, you delegate specific tasks to Copilot (either by assigning an issue to Copilot, or prompting Copilot to create a pull request), and Copilot will autonomously work in the background to complete the task. Copilot cloud agent can fix bugs, refactor code, improve test coverage and more.」と記載されているため、正解は **A・B・C・E** です。",
@@ -1406,15 +1406,15 @@
       "options": [
         {
           "id": "A",
-          "text": "Space は個人アカウントまたは組織に属することができる"
+          "text": "お気に入りの Space にスターを付けて、後で簡単に見つけることができる"
         },
         {
           "id": "B",
-          "text": "Space の作成資格はユーザーベースであり、Copilot シートを付与する組織によって異なる"
+          "text": "Space が無効化されている組織でも、別の組織から Copilot シートを取得しているユーザーは Space を作成できる場合がある"
         },
         {
           "id": "C",
-          "text": "Space が無効化されている組織でも、別の組織から Copilot シートを取得しているユーザーは Space を作成できる場合がある"
+          "text": "Space は個人アカウントまたは組織に属することができる"
         },
         {
           "id": "D",
@@ -1422,7 +1422,7 @@
         },
         {
           "id": "E",
-          "text": "お気に入りの Space にスターを付けて、後で簡単に見つけることができる"
+          "text": "Space の作成資格はユーザーベースであり、Copilot シートを付与する組織によって異なる"
         }
       ],
       "correctAnswers": [
@@ -1441,15 +1441,15 @@
       "options": [
         {
           "id": "A",
-          "text": "Spaces は Copilot Free ユーザーを含むすべての Copilot ライセンスユーザーが利用できる"
+          "text": "Spaces は IDE の GitHub MCP サーバーを通じてアクセスできる"
         },
         {
           "id": "B",
-          "text": "Spaces は個人アカウント・組織の両方で所有・共有できる"
+          "text": "Spaces は Copilot Free ユーザーを含むすべての Copilot ライセンスユーザーが利用できる"
         },
         {
           "id": "C",
-          "text": "Spaces は IDE の GitHub MCP サーバーを通じてアクセスできる"
+          "text": "Spaces は個人アカウント・組織の両方で所有・共有できる"
         },
         {
           "id": "D",
@@ -1476,23 +1476,23 @@
       "options": [
         {
           "id": "A",
-          "text": "両方とも Copilot ライセンスに含まれている"
-        },
-        {
-          "id": "B",
           "text": "両方とも Azure のインフラを使用している"
         },
         {
-          "id": "C",
-          "text": "両方とも GitHub アカウントによる認証が必要"
-        },
-        {
-          "id": "D",
+          "id": "B",
           "text": "両方とも自然言語でコンテキストを追加・操作できる"
         },
         {
-          "id": "E",
+          "id": "C",
           "text": "両方とも GitHub との統合（リポジトリ・Codespaces 等）をサポートしている"
+        },
+        {
+          "id": "D",
+          "text": "両方とも GitHub アカウントによる認証が必要"
+        },
+        {
+          "id": "E",
+          "text": "両方とも Copilot ライセンスに含まれている"
         }
       ],
       "correctAnswers": [
