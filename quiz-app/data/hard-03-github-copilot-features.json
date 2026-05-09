@@ -27,7 +27,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "正解は **B** です。Copilot cloud agent は GitHub Actions による環境でリポジトリ調査、計画作成、ブランチへのコード変更、PR 作成まで進められます。一方、IDE の Agent mode はローカル開発環境に直接自律編集を行います。\n\n出典: [About GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/cloud-agent/about-cloud-agent)"
+      "explanation": "回答は 「Copilot cloud agent は GitHub Actions による環境でブランチに変更し、Agent mode はローカル開発環境に自律編集を行う」 です。Copilot cloud agent は GitHub Actions による環境でリポジトリ調査、計画作成、ブランチへのコード変更、PR 作成まで進められます。一方、IDE の Agent mode はローカル開発環境に直接自律編集を行います。\n\n📖 公式ドキュメント「[About GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/cloud-agent/about-cloud-agent)」には「Copilot cloud agent works autonomously in a GitHub Actions-powered environment to complete development tasks assigned through GitHub issues or GitHub Copilot Chat prompts. In contrast, agent mode in your IDE makes autonomous edits directly in your local development environment.」と記載されています。"
     },
     {
       "questionNumber": 2,
@@ -62,7 +62,7 @@
         "D",
         "E"
       ],
-      "explanation": "正解は **A、B、C、D** です。Copilot cloud agent は Pro、Pro+、Business、Enterprise で利用可能です。Copilot Free は対象に含まれていません。\n\n出典: [About GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/cloud-agent/about-cloud-agent)"
+      "explanation": "正しい選択肢は 「GitHub Copilot Pro」「GitHub Copilot Business」「GitHub Copilot Enterprise」「GitHub Copilot Pro+」 です。Copilot cloud agent は Pro、Pro+、Business、Enterprise で利用可能です。Copilot Free は対象に含まれていません。\n\n📖 公式ドキュメント「[About GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/cloud-agent/about-cloud-agent)」には「Copilot cloud agent is available with the GitHub Copilot Pro, GitHub Copilot Pro+, GitHub Copilot Business and GitHub Copilot Enterprise plans.」と記載されています。"
     },
     {
       "questionNumber": 3,
@@ -89,7 +89,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "正解は **B** です。Pro / Pro+ では Copilot cloud agent はデフォルト有効ですが、Business / Enterprise では管理者が有効化する必要があります。\n\n出典: [Managing access to GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/cloud-agent/access-management)"
+      "explanation": "回答は 「Business / Enterprise では管理者が有効化する必要があり、Pro / Pro+ ではデフォルト有効である」 です。Pro / Pro+ では Copilot cloud agent はデフォルト有効ですが、Business / Enterprise では管理者が有効化する必要があります。\n\n📖 公式ドキュメント「[Managing access to GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/cloud-agent/access-management)」には「If you are a GitHub Copilot Enterprise or GitHub Copilot Business subscriber, Copilot cloud agent is disabled by default and must be enabled by an administrator before it is available for use. If you are a GitHub Copilot Pro or Pro+ subscriber, Copilot cloud agent is enabled by default.」と記載されています。"
     },
     {
       "questionNumber": 4,
@@ -123,7 +123,7 @@
         "D",
         "E"
       ],
-      "explanation": "正解は **A、B、C** です。Copilot cloud agent は Issues などから新しい PR を作らせたり、既存 PR のコメントで `@copilot` に変更を依頼したり、VS Code などの入口からタスクを依頼できます。\n\n出典: [About GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/cloud-agent/about-cloud-agent)"
+      "explanation": "正しい選択肢は 「Visual Studio Code などの対応入口から PR 作成を依頼する」「既存 pull request のコメントで `@copilot` に変更を依頼する」「GitHub Issues などからタスクを依頼する」 です。Copilot cloud agent は Issues などから新しい PR を作らせたり、既存 PR のコメントで `@copilot` に変更を依頼したり、VS Code などの入口からタスクを依頼できます。\n\n📖 公式ドキュメント「[About GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/cloud-agent/about-cloud-agent)」には「Use the agents panel or other agents entry points on GitHub.com to have Copilot research, plan, and make code changes on a branch, then iterate before creating a pull request. Ask Copilot to open a new pull request from other entry points, including GitHub Issues and Visual Studio Code. Mention `@copilot` in a comment on an existing pull request to ask it to make changes.」と記載されています。"
     },
     {
       "questionNumber": 5,
@@ -150,7 +150,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "正解は **A** です。Copilot cloud agent では、GitHub MCP server と Playwright MCP server がデフォルトで構成されます。GitHub MCP server は GitHub データへのアクセス、Playwright MCP server は Web ページの読み取りや操作などを提供します。\n\n出典: [Model Context Protocol (MCP) and GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/cloud-agent/mcp-and-cloud-agent)"
+      "explanation": "回答は 「GitHub MCP server と Playwright MCP server」 です。Copilot cloud agent では、GitHub MCP server と Playwright MCP server がデフォルトで構成されます。GitHub MCP server は GitHub データへのアクセス、Playwright MCP server は Web ページの読み取りや操作などを提供します。\n\n📖 公式ドキュメント「[Model Context Protocol (MCP) and GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/cloud-agent/mcp-and-cloud-agent)」には「The following MCP servers are configured automatically for Copilot cloud agent: GitHub: The GitHub MCP server gives Copilot access to GitHub data like issues and pull requests. Playwright: The Playwright MCP server gives Copilot access to web pages, including the ability to read, interact and take screenshots.」と記載されています。"
     },
     {
       "questionNumber": 6,
@@ -185,7 +185,7 @@
         "D",
         "E"
       ],
-      "explanation": "正解は **A、B、C、D** です。Copilot cloud agent は MCP tools のみをサポートし、resources/prompts は対象外です。OAuth を使う remote MCP server は未サポートで、デフォルトの GitHub MCP は現在リポジトリへの読み取り専用 token を使います。利用可能な tools は Copilot が自律的に使いますが、これは全 write tool が無条件許可されるという意味ではありません。\n\n出典: [Model Context Protocol (MCP) and GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/cloud-agent/mcp-and-cloud-agent)"
+      "explanation": "正しい選択肢は 「デフォルトの GitHub MCP server は、現在の repository への読み取り専用アクセスを持つ特別にスコープされた token を使う」「設定された MCP tools は Copilot が自律的に使い、使用前に毎回ユーザー承認を求めるわけではない」「OAuth を使う remote MCP server の認証・認可は現在サポートしない」「MCP サーバーが提供する tools はサポートするが、resources や prompts はサポートしない」 です。Copilot cloud agent は MCP tools のみをサポートし、resources/prompts は対象外です。OAuth を使う remote MCP server は未サポートで、デフォルトの GitHub MCP は現在リポジトリへの読み取り専用 token を使います。利用可能な tools は Copilot が自律的に使いますが、これは全 write tool が無条件許可されるという意味ではありません。\n\n📖 公式ドキュメント「[Model Context Protocol (MCP) and GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/cloud-agent/mcp-and-cloud-agent)」には「By default, the GitHub MCP server connects to GitHub using a specially scoped token that only has read-only access to the current repository. Copilot will use available tools autonomously, and will not ask for approval before use. Copilot cloud agent only supports tools provided by MCP servers. It does not support resources or prompts. Copilot cloud agent does not currently support remote MCP servers that leverage OAuth for authentication and authorization.」と記載されています。"
     },
     {
       "questionNumber": 7,
@@ -212,7 +212,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "正解は **B** です。Copilot cloud agent の MCP 設定は、default servers の後に custom agent MCP settings、最後に repository-level configurations の順で処理されます。\n\n出典: [Model Context Protocol (MCP) and GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/cloud-agent/mcp-and-cloud-agent)"
+      "explanation": "回答は 「default servers、custom agent MCP settings、repository-level configurations の順」 です。Copilot cloud agent の MCP 設定は、default servers の後に custom agent MCP settings、最後に repository-level configurations の順で処理されます。\n\n📖 公式ドキュメント「[Model Context Protocol (MCP) and GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/cloud-agent/mcp-and-cloud-agent)」には「MCP servers configured in custom agents are available only to that specific agent and follow the same processing order as other MCP configurations, with custom agent MCP settings processed after default servers but before repository-level configurations.」と記載されています。"
     },
     {
       "questionNumber": 8,
@@ -246,7 +246,7 @@
         "D",
         "E"
       ],
-      "explanation": "正解は **A、B、C** です。Agent Skills は instructions、scripts、resources を含むフォルダーで、Copilot が関連時に読み込みます。Copilot cloud agent、Copilot CLI、VS Code の agent mode などで使われ、仕様はオープン標準です。\n\n出典: [About agent skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills)"
+      "explanation": "正しい選択肢は 「Copilot が関連すると判断したときに読み込める、instructions、scripts、resources を含むフォルダーである」「Agent Skills 仕様はオープン標準であり、Copilot 以外の AI システムでも使われる」「Copilot cloud agent、Copilot CLI、VS Code の agent mode などで使える」 です。Agent Skills は instructions、scripts、resources を含むフォルダーで、Copilot が関連時に読み込みます。Copilot cloud agent、Copilot CLI、VS Code の agent mode などで使われ、仕様はオープン標準です。\n\n📖 公式ドキュメント「[About agent skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills)」には「Agent skills are folders of instructions, scripts, and resources that Copilot can load when relevant to improve its performance in specialized tasks. The Agent Skills specification is an open standard, used by a range of different AI systems. Agent skills work with Copilot cloud agent, the GitHub Copilot CLI, and agent mode in Visual Studio Code.」と記載されています。"
     },
     {
       "questionNumber": 9,
@@ -273,7 +273,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "正解は **A** です。Project skills はリポジトリ固有のスキルとして `.github/skills`、`.claude/skills`、または `.agents/skills` に配置できます。\n\n出典: [Creating agent skills for GitHub Copilot](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-skills)"
+      "explanation": "回答は 「repository 内の `.github/skills`、`.claude/skills`、または `.agents/skills`」 です。Project skills はリポジトリ固有のスキルとして `.github/skills`、`.claude/skills`、または `.agents/skills` に配置できます。\n\n📖 公式ドキュメント「[Creating agent skills for GitHub Copilot](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-skills)」には「For project skills, specific to a single repository, create a `.github/skills`, `.claude/skills`, or `.agents/skills` directory in your repository.」と記載されています。"
     },
     {
       "questionNumber": 10,
@@ -307,7 +307,7 @@
         "D",
         "E"
       ],
-      "explanation": "正解は **A、B、C** です。MCP server は外部ツールやデータソースへの接続を増やすため、提供元の確認、必要最小限の tools 指定、設定内容の慎重なレビューが重要です。\n\n出典: [Model Context Protocol (MCP) and GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/cloud-agent/mcp-and-cloud-agent)"
+      "explanation": "正しい選択肢は 「設定内容をレビューし、権限を必要最小限にする」「サードパーティ MCP server を慎重にレビューしてから設定する」「必要な tools だけを指定し、不要な tools を公開しない」 です。MCP server は外部ツールやデータソースへの接続を増やすため、提供元の確認、必要最小限の tools 指定、設定内容の慎重なレビューが重要です。\n\n📖 公式ドキュメント「[Model Context Protocol (MCP) and GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/cloud-agent/mcp-and-cloud-agent)」には「Review the third-party MCP server thoroughly and ensure that it meets your organization’s requirements. Update the `tools` field in the MCP configuration with only the necessary tooling. Carefully review the configured MCP servers prior to saving the configuration to ensure the correct servers are configured for use.」と記載されています。"
     }
   ]
 }

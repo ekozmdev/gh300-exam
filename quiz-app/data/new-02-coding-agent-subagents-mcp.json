@@ -27,7 +27,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "Copilot クラウドエージェントは Pro、Pro+、Business、Enterprise の 4 つすべてのプランで利用できます。ただし Business / Enterprise では管理者による有効化が必要です。\n\n📖 公式ドキュメント「[Managing access to GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent/access-management)」には「Copilot cloud agent is available with the GitHub Copilot Pro, GitHub Copilot Pro+, GitHub Copilot Business and GitHub Copilot Enterprise plans」と記載されているため、正解は **A** です。"
+      "explanation": "Copilot クラウドエージェントは Pro、Pro+、Business、Enterprise の 4 つすべてのプランで利用できます。ただし Business / Enterprise では管理者による有効化が必要です。\n\n📖 公式ドキュメント「[Managing access to GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent/access-management)」には「Copilot cloud agent is available with the GitHub Copilot Pro, GitHub Copilot Pro+, GitHub Copilot Business and GitHub Copilot Enterprise plans」と記載されているため、回答は 「GitHub Copilot Pro 以上のすべてのプラン（Pro / Pro+ / Business / Enterprise）」 です。"
     },
     {
       "questionNumber": 2,
@@ -54,7 +54,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "Business / Enterprise プランでは Copilot クラウドエージェントはデフォルトで無効です。管理者が Organization レベルのポリシーで有効化してから、ユーザーが利用できるようになります。\n\n📖 公式ドキュメント「[Managing access to GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent/access-management)」には「If you are a GitHub Copilot Enterprise or GitHub Copilot Business subscriber, Copilot cloud agent is disabled by default and must be enabled by an administrator before it is available for use」と記載されているため、正解は **B** です。"
+      "explanation": "Business / Enterprise プランでは Copilot クラウドエージェントはデフォルトで無効です。管理者が Organization レベルのポリシーで有効化してから、ユーザーが利用できるようになります。\n\n📖 公式ドキュメント「[Managing access to GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent/access-management)」には「If you are a GitHub Copilot Enterprise or GitHub Copilot Business subscriber, Copilot cloud agent is disabled by default and must be enabled by an administrator before it is available for use」と記載されているため、回答は 「デフォルトで無効になっており、管理者が有効化する必要がある」 です。"
     },
     {
       "questionNumber": 3,
@@ -81,7 +81,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "Pro / Pro+ プランでは Copilot クラウドエージェントはデフォルトで有効になっており、追加の設定なしにすぐ利用できます。\n\n📖 公式ドキュメント「[Managing access to GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent/access-management)」には「If you are a GitHub Copilot Pro or Pro+ subscriber, Copilot cloud agent is enabled by default」と記載されているため、正解は **A** です。"
+      "explanation": "Pro / Pro+ プランでは Copilot クラウドエージェントはデフォルトで有効になっており、追加の設定なしにすぐ利用できます。\n\n📖 公式ドキュメント「[Managing access to GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent/access-management)」には「If you are a GitHub Copilot Pro or Pro+ subscriber, Copilot cloud agent is enabled by default」と記載されているため、回答は 「デフォルトで有効になっている」 です。"
     },
     {
       "questionNumber": 4,
@@ -108,7 +108,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "Copilot クラウドエージェントは GitHub Actions が提供するエフェメラル（使い捨て）の開発環境で動作します。タスクごとに独立した環境が起動され、完了後に破棄されます。\n\n📖 公式ドキュメント「[About GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/about-copilot-coding-agent)」には「Copilot cloud agent has access to its own ephemeral development environment, powered by GitHub Actions」と記載されているため、正解は **D** です。"
+      "explanation": "Copilot クラウドエージェントは GitHub Actions が提供するエフェメラル（使い捨て）の開発環境で動作します。タスクごとに独立した環境が起動され、完了後に破棄されます。\n\n📖 公式ドキュメント「[About GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/about-copilot-coding-agent)」には「Copilot cloud agent has access to its own ephemeral development environment, powered by GitHub Actions」と記載されているため、回答は 「GitHub Actions（エフェメラルな開発環境）」 です。"
     },
     {
       "questionNumber": 5,
@@ -135,7 +135,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "MCP はアプリケーションと LLM がコンテキストを共有する方法を定義するオープン標準です。特定の企業に依存しない標準化された接続方式で、AI モデルを様々なデータソースやツールに接続できます。\n\n📖 公式ドキュメント「[Model Context Protocol (MCP) and GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent/mcp-and-coding-agent)」には「The Model Context Protocol (MCP) is an open standard that defines how applications share context with large language models (LLMs)」と記載されているため、正解は **A** です。"
+      "explanation": "MCP はアプリケーションと LLM がコンテキストを共有する方法を定義するオープン標準です。特定の企業に依存しない標準化された接続方式で、AI モデルを様々なデータソースやツールに接続できます。\n\n📖 公式ドキュメント「[Model Context Protocol (MCP) and GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent/mcp-and-coding-agent)」には「The Model Context Protocol (MCP) is an open standard that defines how applications share context with large language models (LLMs)」と記載されているため、回答は 「アプリケーションが大規模言語モデル（LLM）とコンテキストを共有する方法を定義するオープン標準」 です。"
     },
     {
       "questionNumber": 6,
@@ -162,7 +162,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "MCP サーバーがリポジトリに設定されると、Copilot クラウドエージェントは使用可能なツールを自律的に使用します。使用前にユーザーへの承認を求めることはありません。\n\n📖 公式ドキュメント「[Model Context Protocol (MCP) and GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent/mcp-and-coding-agent)」には「Copilot will use available tools autonomously, and will not ask for approval before use」と記載されているため、正解は **C** です。"
+      "explanation": "MCP サーバーがリポジトリに設定されると、Copilot クラウドエージェントは使用可能なツールを自律的に使用します。使用前にユーザーへの承認を求めることはありません。\n\n📖 公式ドキュメント「[Model Context Protocol (MCP) and GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent/mcp-and-coding-agent)」には「Copilot will use available tools autonomously, and will not ask for approval before use」と記載されているため、回答は 「ツールを自律的に使用し、使用前に承認を求めない」 です。"
     },
     {
       "questionNumber": 7,
@@ -189,7 +189,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "デフォルトで自動設定される MCP サーバーは「GitHub MCP サーバー」と「Playwright MCP サーバー」の 2 つです。GitHub MCP サーバーは現在のリポジトリへの読み取り専用アクセス、Playwright はエージェント環境内の Web リソースへのアクセスを提供します。\n\n📖 公式ドキュメント「[Model Context Protocol (MCP) and GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent/mcp-and-coding-agent)」には「The following MCP servers are configured automatically for Copilot cloud agent: GitHub ... Playwright」と記載されているため、正解は **A** です。"
+      "explanation": "デフォルトで自動設定される MCP サーバーは「GitHub MCP サーバー」と「Playwright MCP サーバー」の 2 つです。GitHub MCP サーバーは現在のリポジトリへの読み取り専用アクセス、Playwright はエージェント環境内の Web リソースへのアクセスを提供します。\n\n📖 公式ドキュメント「[Model Context Protocol (MCP) and GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent/mcp-and-coding-agent)」には「The following MCP servers are configured automatically for Copilot cloud agent: GitHub ... Playwright」と記載されているため、回答は 「GitHub MCP サーバーと Playwright MCP サーバー」 です。"
     },
     {
       "questionNumber": 8,
@@ -216,7 +216,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "デフォルトでは GitHub MCP サーバーは、現在のリポジトリへの読み取り専用アクセス権のみを持つ特別にスコープされたトークンを使用します。より広いアクセスが必要な場合は別途カスタマイズが必要です。\n\n📖 公式ドキュメント「[Model Context Protocol (MCP) and GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent/mcp-and-coding-agent)」には「the GitHub MCP server connects to GitHub using a specially scoped token that only has read-only access to the current repository」と記載されているため、正解は **B** です。"
+      "explanation": "デフォルトでは GitHub MCP サーバーは、現在のリポジトリへの読み取り専用アクセス権のみを持つ特別にスコープされたトークンを使用します。より広いアクセスが必要な場合は別途カスタマイズが必要です。\n\n📖 公式ドキュメント「[Model Context Protocol (MCP) and GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent/mcp-and-coding-agent)」には「the GitHub MCP server connects to GitHub using a specially scoped token that only has read-only access to the current repository」と記載されているため、回答は 「現在のリポジトリへの読み取り専用アクセス」 です。"
     },
     {
       "questionNumber": 9,
@@ -243,7 +243,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "デフォルトでは Playwright MCP サーバーはエージェント環境内で `localhost` または `127.0.0.1` でアクセスできるリソースにのみアクセスできます。外部の Web サイトへのアクセスには追加設定が必要です。\n\n📖 公式ドキュメント「[Model Context Protocol (MCP) and GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent/mcp-and-coding-agent)」には「the Playwright MCP server is only able to access web resources hosted within Copilot's own environment, accessible on `localhost` or `127.0.0.1`」と記載されているため、正解は **C** です。"
+      "explanation": "デフォルトでは Playwright MCP サーバーはエージェント環境内で `localhost` または `127.0.0.1` でアクセスできるリソースにのみアクセスできます。外部の Web サイトへのアクセスには追加設定が必要です。\n\n📖 公式ドキュメント「[Model Context Protocol (MCP) and GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent/mcp-and-coding-agent)」には「the Playwright MCP server is only able to access web resources hosted within Copilot's own environment, accessible on `localhost` or `127.0.0.1`」と記載されているため、回答は 「エージェント自身の環境内でホストされる `localhost` / `127.0.0.1` のリソースのみ」 です。"
     },
     {
       "questionNumber": 10,
@@ -270,7 +270,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "MCP 設定で使用できる環境変数やシークレットの名前は `COPILOT_MCP_` で始まる必要があります。このプレフィックスがない変数は MCP 設定から参照できません。\n\n📖 公式ドキュメント「[Extending GitHub Copilot cloud agent with the Model Context Protocol (MCP)](https://docs.github.com/en/copilot/how-tos/agents/copilot-coding-agent/extending-copilot-coding-agent-with-mcp)」には「Only variables and secrets with names prefixed with `COPILOT_MCP_` will be available to your MCP configuration」と記載されているため、正解は **C** です。"
+      "explanation": "MCP 設定で使用できる環境変数やシークレットの名前は `COPILOT_MCP_` で始まる必要があります。このプレフィックスがない変数は MCP 設定から参照できません。\n\n📖 公式ドキュメント「[Extending GitHub Copilot cloud agent with the Model Context Protocol (MCP)](https://docs.github.com/en/copilot/how-tos/agents/copilot-coding-agent/extending-copilot-coding-agent-with-mcp)」には「Only variables and secrets with names prefixed with `COPILOT_MCP_` will be available to your MCP configuration」と記載されているため、回答は 「`COPILOT_MCP_`」 です。"
     },
     {
       "questionNumber": 11,
@@ -297,7 +297,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "MCP サーバーの設定は `mcpServers` オブジェクトを含む JSON 形式で記述します。リポジトリの Settings > Copilot > Cloud agent の「MCP configuration」セクションに直接入力します。\n\n📖 公式ドキュメント「[Extending GitHub Copilot cloud agent with the Model Context Protocol (MCP)](https://docs.github.com/en/copilot/how-tos/agents/copilot-coding-agent/extending-copilot-coding-agent-with-mcp)」には「The JSON must contain an `mcpServers` object」と記載されているため、正解は **D** です。"
+      "explanation": "MCP サーバーの設定は `mcpServers` オブジェクトを含む JSON 形式で記述します。リポジトリの Settings > Copilot > Cloud agent の「MCP configuration」セクションに直接入力します。\n\n📖 公式ドキュメント「[Extending GitHub Copilot cloud agent with the Model Context Protocol (MCP)](https://docs.github.com/en/copilot/how-tos/agents/copilot-coding-agent/extending-copilot-coding-agent-with-mcp)」には「The JSON must contain an `mcpServers` object」と記載されているため、回答は 「JSON 形式の設定（`mcpServers` オブジェクトを含む）」 です。"
     },
     {
       "questionNumber": 12,
@@ -324,7 +324,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "`type` フィールドには `\"local\"`、`\"stdio\"`、`\"http\"`、`\"sse\"` の 4 つの値が使用できます。ローカル起動とリモート HTTP/SSE 接続の両方をサポートしています。\n\n📖 公式ドキュメント「[Extending GitHub Copilot cloud agent with the Model Context Protocol (MCP)](https://docs.github.com/en/copilot/how-tos/agents/copilot-coding-agent/extending-copilot-coding-agent-with-mcp)」には「`type` (`string`): Copilot cloud agent accepts `\"local\"`, `\"stdio\"`, `\"http\"`, or `\"sse\"`」と記載されているため、正解は **B** です。"
+      "explanation": "`type` フィールドには `\"local\"`、`\"stdio\"`、`\"http\"`、`\"sse\"` の 4 つの値が使用できます。ローカル起動とリモート HTTP/SSE 接続の両方をサポートしています。\n\n📖 公式ドキュメント「[Extending GitHub Copilot cloud agent with the Model Context Protocol (MCP)](https://docs.github.com/en/copilot/how-tos/agents/copilot-coding-agent/extending-copilot-coding-agent-with-mcp)」には「`type` (`string`): Copilot cloud agent accepts `\"local\"`, `\"stdio\"`, `\"http\"`, or `\"sse\"`」と記載されているため、回答は 「`\"local\"`, `\"stdio\"`, `\"http\"`, `\"sse\"`」 です。"
     },
     {
       "questionNumber": 13,
@@ -351,7 +351,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "MCP 設定の処理順序は「デフォルトサーバー → カスタムエージェントの MCP 設定 → リポジトリレベルの設定」の順です。カスタムエージェントの設定はデフォルトの後、リポジトリレベルの前に処理されます。\n\n📖 公式ドキュメント「[Model Context Protocol (MCP) and GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent/mcp-and-coding-agent)」には「custom agent MCP settings processed after default servers but before repository-level configurations」と記載されているため、正解は **C** です。"
+      "explanation": "MCP 設定の処理順序は「デフォルトサーバー → カスタムエージェントの MCP 設定 → リポジトリレベルの設定」の順です。カスタムエージェントの設定はデフォルトの後、リポジトリレベルの前に処理されます。\n\n📖 公式ドキュメント「[Model Context Protocol (MCP) and GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent/mcp-and-coding-agent)」には「custom agent MCP settings processed after default servers but before repository-level configurations」と記載されているため、回答は 「デフォルトサーバー → カスタムエージェント → リポジトリレベル」 です。"
     },
     {
       "questionNumber": 14,
@@ -378,7 +378,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "Copilot クラウドエージェントは MCP サーバーが提供する「ツール」のみをサポートします。「リソース」と「プロンプト」はサポートされていません。\n\n📖 公式ドキュメント「[Model Context Protocol (MCP) and GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent/mcp-and-coding-agent)」には「Copilot cloud agent only supports tools provided by MCP servers. It does not support resources or prompts」と記載されているため、正解は **B** です。"
+      "explanation": "Copilot クラウドエージェントは MCP サーバーが提供する「ツール」のみをサポートします。「リソース」と「プロンプト」はサポートされていません。\n\n📖 公式ドキュメント「[Model Context Protocol (MCP) and GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent/mcp-and-coding-agent)」には「Copilot cloud agent only supports tools provided by MCP servers. It does not support resources or prompts」と記載されているため、回答は 「リソース（Resources）とプロンプト（Prompts）」 です。"
     },
     {
       "questionNumber": 15,
@@ -405,7 +405,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "Copilot クラウドエージェントは、認証・認可に OAuth を利用するリモート MCP サーバーを現在サポートしていません。API キーや静的トークンを使った認証は利用できます。\n\n📖 公式ドキュメント「[Model Context Protocol (MCP) and GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent/mcp-and-coding-agent)」には「Copilot cloud agent does not currently support remote MCP servers that leverage OAuth for authentication and authorization」と記載されているため、正解は **D** です。"
+      "explanation": "Copilot クラウドエージェントは、認証・認可に OAuth を利用するリモート MCP サーバーを現在サポートしていません。API キーや静的トークンを使った認証は利用できます。\n\n📖 公式ドキュメント「[Model Context Protocol (MCP) and GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent/mcp-and-coding-agent)」には「Copilot cloud agent does not currently support remote MCP servers that leverage OAuth for authentication and authorization」と記載されているため、回答は 「OAuth を利用した認証・認可」 です。"
     },
     {
       "questionNumber": 16,
@@ -432,7 +432,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "Agent Skills は指示、スクリプト、リソースを含むフォルダで、Copilot が関連すると判断したときに読み込み、特殊なタスクのパフォーマンスを向上させます。オープン標準（agentskills）に基づいています。\n\n📖 公式ドキュメント「[About agent skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills)」には「Agent skills are folders of instructions, scripts, and resources that Copilot can load when relevant to improve its performance in specialized tasks」と記載されているため、正解は **B** です。"
+      "explanation": "Agent Skills は指示、スクリプト、リソースを含むフォルダで、Copilot が関連すると判断したときに読み込み、特殊なタスクのパフォーマンスを向上させます。オープン標準（agentskills）に基づいています。\n\n📖 公式ドキュメント「[About agent skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills)」には「Agent skills are folders of instructions, scripts, and resources that Copilot can load when relevant to improve its performance in specialized tasks」と記載されているため、回答は 「Copilot が関連する場合に読み込める指示・スクリプト・リソースのフォルダ」 です。"
     },
     {
       "questionNumber": 17,
@@ -459,7 +459,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "スキルファイルは必ず `SKILL.md` という名前にする必要があります。他の名前では Copilot はスキルとして認識しません。\n\n📖 公式ドキュメント「[Creating agent skills for GitHub Copilot](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-skills)」には「Skill files must be named `SKILL.md`」と記載されているため、正解は **C** です。"
+      "explanation": "スキルファイルは必ず `SKILL.md` という名前にする必要があります。他の名前では Copilot はスキルとして認識しません。\n\n📖 公式ドキュメント「[Creating agent skills for GitHub Copilot](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-skills)」には「Skill files must be named `SKILL.md`」と記載されているため、回答は 「`SKILL.md`」 です。"
     },
     {
       "questionNumber": 18,
@@ -486,7 +486,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "`SKILL.md` のフロントマターで必須なのは `name`（スキルの一意な識別子）と `description`（スキルの説明）の 2 つです。`license` と `allowed-tools` は省略可能です。\n\n📖 公式ドキュメント「[Creating agent skills for GitHub Copilot](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-skills)」には「name (required): A unique identifier for the skill ... description (required): A description of what the skill does ... license (optional)」と記載されているため、正解は **A** です。"
+      "explanation": "`SKILL.md` のフロントマターで必須なのは `name`（スキルの一意な識別子）と `description`（スキルの説明）の 2 つです。`license` と `allowed-tools` は省略可能です。\n\n📖 公式ドキュメント「[Creating agent skills for GitHub Copilot](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-skills)」には「name (required): A unique identifier for the skill ... description (required): A description of what the skill does ... license (optional)」と記載されているため、回答は 「`name` と `description` のみ」 です。"
     },
     {
       "questionNumber": 19,
@@ -513,7 +513,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "プロジェクトスキル（リポジトリ固有）は `.github/skills`、`.claude/skills`、または `.agents/skills` のいずれかに配置します。`~/.copilot/skills` などはプロジェクトをまたいで共有される個人スキル用です。\n\n📖 公式ドキュメント「[Creating agent skills for GitHub Copilot](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-skills)」には「For project skills, specific to a single repository, create and use a `.github/skills`, `.claude/skills`, or `.agents/skills` directory in your repository」と記載されているため、正解は **A** です。"
+      "explanation": "プロジェクトスキル（リポジトリ固有）は `.github/skills`、`.claude/skills`、または `.agents/skills` のいずれかに配置します。`~/.copilot/skills` などはプロジェクトをまたいで共有される個人スキル用です。\n\n📖 公式ドキュメント「[Creating agent skills for GitHub Copilot](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-skills)」には「For project skills, specific to a single repository, create and use a `.github/skills`, `.claude/skills`, or `.agents/skills` directory in your repository」と記載されているため、回答は 「`.github/skills`、`.claude/skills`、または `.agents/skills`」 です。"
     },
     {
       "questionNumber": 20,
@@ -540,7 +540,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "個人スキルはホームディレクトリの `~/.copilot/skills`、`~/.claude/skills`、または `~/.agents/skills` に配置します。プロジェクトをまたいで共有されます。\n\n📖 公式ドキュメント「[Creating agent skills for GitHub Copilot](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-skills)」には「For personal skills, shared across projects, create and use a `~/.copilot/skills`, `~/.claude/skills`, or `~/.agents/skills` directory in your home directory」と記載されているため、正解は **A** です。"
+      "explanation": "個人スキルはホームディレクトリの `~/.copilot/skills`、`~/.claude/skills`、または `~/.agents/skills` に配置します。プロジェクトをまたいで共有されます。\n\n📖 公式ドキュメント「[Creating agent skills for GitHub Copilot](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-skills)」には「For personal skills, shared across projects, create and use a `~/.copilot/skills`, `~/.claude/skills`, or `~/.agents/skills` directory in your home directory」と記載されているため、回答は 「`~/.copilot/skills`、`~/.claude/skills`、または `~/.agents/skills`」 です。"
     },
     {
       "questionNumber": 21,
@@ -567,7 +567,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "スキルのサブディレクトリ名は小文字でなければならず、スペースにはハイフンを使用する必要があります（例: `webapp-testing`、`image-convert`）。\n\n📖 公式ドキュメント「[Creating agent skills for GitHub Copilot](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-skills)」には「Skill subdirectory names should be lowercase and use hyphens for spaces」と記載されているため、正解は **D** です。"
+      "explanation": "スキルのサブディレクトリ名は小文字でなければならず、スペースにはハイフンを使用する必要があります（例: `webapp-testing`、`image-convert`）。\n\n📖 公式ドキュメント「[Creating agent skills for GitHub Copilot](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-skills)」には「Skill subdirectory names should be lowercase and use hyphens for spaces」と記載されているため、回答は 「小文字で、スペースにはハイフンを使用する」 です。"
     },
     {
       "questionNumber": 22,
@@ -594,7 +594,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "`shell` や `bash` を `allowed-tools` に指定すると、ターミナルコマンド実行の確認ステップが削除されます。攻撃者が制御するスキルやプロンプトインジェクションが環境内で任意のコマンドを実行できるリスクがあるため、信頼できるスキルにのみ使用するべきです。\n\n📖 公式ドキュメント「[Creating agent skills for GitHub Copilot](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-skills)」には「Pre-approving `shell` or `bash` removes the confirmation step for running terminal commands and can allow attacker-controlled skills or prompt injections to execute arbitrary commands in your environment」と記載されているため、正解は **A** です。"
+      "explanation": "`shell` や `bash` を `allowed-tools` に指定すると、ターミナルコマンド実行の確認ステップが削除されます。攻撃者が制御するスキルやプロンプトインジェクションが環境内で任意のコマンドを実行できるリスクがあるため、信頼できるスキルにのみ使用するべきです。\n\n📖 公式ドキュメント「[Creating agent skills for GitHub Copilot](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-skills)」には「Pre-approving `shell` or `bash` removes the confirmation step for running terminal commands and can allow attacker-controlled skills or prompt injections to execute arbitrary commands in your environment」と記載されているため、回答は 「ターミナルコマンド実行の確認ステップが削除され、任意のコマンドが自動実行される可能性がある」 です。"
     },
     {
       "questionNumber": 23,
@@ -621,7 +621,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot がスキルの使用を選択すると、`SKILL.md` ファイルがエージェントのコンテキストに挿入されます。エージェントはそこに記載された指示にアクセスし、スキルのディレクトリに含まれているスクリプトや例を使用できます。\n\n📖 公式ドキュメント「[Creating agent skills for GitHub Copilot](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-skills)」には「When Copilot chooses to use a skill, the `SKILL.md` file will be injected in the agent's context, giving the agent access to your instructions」と記載されているため、正解は **D** です。"
+      "explanation": "Copilot がスキルの使用を選択すると、`SKILL.md` ファイルがエージェントのコンテキストに挿入されます。エージェントはそこに記載された指示にアクセスし、スキルのディレクトリに含まれているスクリプトや例を使用できます。\n\n📖 公式ドキュメント「[Creating agent skills for GitHub Copilot](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-skills)」には「When Copilot chooses to use a skill, the `SKILL.md` file will be injected in the agent's context, giving the agent access to your instructions」と記載されているため、回答は 「`SKILL.md` ファイルがエージェントのコンテキストに挿入される」 です。"
     },
     {
       "questionNumber": 24,
@@ -648,7 +648,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "Agent Skills 仕様は `agentskills/agentskills` リポジトリで管理されているオープン標準であり、Copilot 以外のさまざまな AI システムでも使用されます。\n\n📖 公式ドキュメント「[About agent skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills)」には「The Agent Skills specification is an open standard, used by a range of different AI systems」と記載されているため、正解は **C** です。"
+      "explanation": "Agent Skills 仕様は `agentskills/agentskills` リポジトリで管理されているオープン標準であり、Copilot 以外のさまざまな AI システムでも使用されます。\n\n📖 公式ドキュメント「[About agent skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills)」には「The Agent Skills specification is an open standard, used by a range of different AI systems」と記載されているため、回答は 「`agentskills/agentskills` で管理されているオープン標準」 です。"
     },
     {
       "questionNumber": 25,
@@ -675,7 +675,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot の開発環境をカスタマイズする設定ファイルは `.github/workflows/copilot-setup-steps.yml` に配置します。GitHub Actions ワークフローファイルとして扱われます。\n\n📖 公式ドキュメント「[Extending GitHub Copilot cloud agent with the Model Context Protocol (MCP)](https://docs.github.com/en/copilot/how-tos/agents/copilot-coding-agent/extending-copilot-coding-agent-with-mcp)」には「Add a `.github/workflows/copilot-setup-steps.yml` Actions workflow file in your repository if you do not already have one」と記載されているため、正解は **D** です。"
+      "explanation": "Copilot の開発環境をカスタマイズする設定ファイルは `.github/workflows/copilot-setup-steps.yml` に配置します。GitHub Actions ワークフローファイルとして扱われます。\n\n📖 公式ドキュメント「[Extending GitHub Copilot cloud agent with the Model Context Protocol (MCP)](https://docs.github.com/en/copilot/how-tos/agents/copilot-coding-agent/extending-copilot-coding-agent-with-mcp)」には「Add a `.github/workflows/copilot-setup-steps.yml` Actions workflow file in your repository if you do not already have one」と記載されているため、回答は 「`.github/workflows/copilot-setup-steps.yml`」 です。"
     },
     {
       "questionNumber": 26,
@@ -702,7 +702,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "ジョブは必ず `copilot-setup-steps` という名前にしなければ Copilot に認識されません。この名前でなければセットアップステップは実行されません。\n\n📖 公式ドキュメント「[Customizing the development environment for GitHub Copilot cloud agent](https://docs.github.com/en/copilot/customizing-copilot/customizing-the-development-environment-for-copilot-coding-agent)」には「The job MUST be called `copilot-setup-steps` or it will not be picked up by Copilot.」と記載されているため、正解は **C** です。"
+      "explanation": "ジョブは必ず `copilot-setup-steps` という名前にしなければ Copilot に認識されません。この名前でなければセットアップステップは実行されません。\n\n📖 公式ドキュメント「[Customizing the development environment for GitHub Copilot cloud agent](https://docs.github.com/en/copilot/customizing-copilot/customizing-the-development-environment-for-copilot-coding-agent)」には「The job MUST be called `copilot-setup-steps` or it will not be picked up by Copilot.」と記載されているため、回答は 「`copilot-setup-steps`」 です。"
     },
     {
       "questionNumber": 27,
@@ -729,7 +729,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "`copilot-setup-steps.yml` の `timeout-minutes` に設定できる最大値は 59 分です。これを超える値を設定しようとしても無視されます。\n\n📖 公式ドキュメント「[Customizing the development environment for GitHub Copilot cloud agent](https://docs.github.com/en/copilot/customizing-copilot/customizing-the-development-environment-for-copilot-coding-agent)」には「timeout-minutes (maximum value: 59)」と記載されているため、正解は **B** です。"
+      "explanation": "`copilot-setup-steps.yml` の `timeout-minutes` に設定できる最大値は 59 分です。これを超える値を設定しようとしても無視されます。\n\n📖 公式ドキュメント「[Customizing the development environment for GitHub Copilot cloud agent](https://docs.github.com/en/copilot/customizing-copilot/customizing-the-development-environment-for-copilot-coding-agent)」には「timeout-minutes (maximum value: 59)」と記載されているため、回答は 「59 分」 です。"
     },
     {
       "questionNumber": 28,
@@ -756,7 +756,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "`copilot-setup-steps.yml` はデフォルトブランチに存在しない限りトリガーされません。他のブランチだけに存在しても Copilot のセットアップには使用されません。\n\n📖 公式ドキュメント「[Customizing the development environment for GitHub Copilot cloud agent](https://docs.github.com/en/copilot/customizing-copilot/customizing-the-development-environment-for-copilot-coding-agent)」には「The `copilot-setup-steps.yml` workflow won't trigger unless it's present on your default branch.」と記載されているため、正解は **B** です。"
+      "explanation": "`copilot-setup-steps.yml` はデフォルトブランチに存在しない限りトリガーされません。他のブランチだけに存在しても Copilot のセットアップには使用されません。\n\n📖 公式ドキュメント「[Customizing the development environment for GitHub Copilot cloud agent](https://docs.github.com/en/copilot/customizing-copilot/customizing-the-development-environment-for-copilot-coding-agent)」には「The `copilot-setup-steps.yml` workflow won't trigger unless it's present on your default branch.」と記載されているため、回答は 「デフォルトブランチに存在していなければ動作しない」 です。"
     },
     {
       "questionNumber": 29,
@@ -783,7 +783,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Copilot クラウドエージェントはデフォルトで Ubuntu Linux ベースの開発環境を使用します。Windows 環境に切り替えることも可能ですが、デフォルトは Ubuntu です。\n\n📖 公式ドキュメント「[Customizing the development environment for GitHub Copilot cloud agent](https://docs.github.com/en/copilot/customizing-copilot/customizing-the-development-environment-for-copilot-coding-agent)」には「By default, Copilot uses an Ubuntu Linux-based development environment.」と記載されているため、正解は **D** です。"
+      "explanation": "Copilot クラウドエージェントはデフォルトで Ubuntu Linux ベースの開発環境を使用します。Windows 環境に切り替えることも可能ですが、デフォルトは Ubuntu です。\n\n📖 公式ドキュメント「[Customizing the development environment for GitHub Copilot cloud agent](https://docs.github.com/en/copilot/customizing-copilot/customizing-the-development-environment-for-copilot-coding-agent)」には「By default, Copilot uses an Ubuntu Linux-based development environment.」と記載されているため、回答は 「Ubuntu Linux」 です。"
     },
     {
       "questionNumber": 30,
@@ -810,7 +810,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "セッション実行中にステアリング入力を行うと、メッセージごとに 1 つのプレミアムリクエストが消費されます。\n\n📖 公式ドキュメント「[Manage agents](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/manage-agents)」には「Steering uses one premium request per message.」と記載されているため、正解は **B** です。"
+      "explanation": "セッション実行中にステアリング入力を行うと、メッセージごとに 1 つのプレミアムリクエストが消費されます。\n\n📖 公式ドキュメント「[Manage agents](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/manage-agents)」には「Steering uses one premium request per message.」と記載されているため、回答は 「メッセージごとに 1 つのプレミアムリクエストが使用される」 です。"
     },
     {
       "questionNumber": 31,
@@ -844,7 +844,7 @@
         "C",
         "E"
       ],
-      "explanation": "Copilot クラウドエージェントはリポジトリ調査・実装プラン作成・バグ修正・テスト改善・ドキュメント更新・技術的負債への対処・マージコンフリクト解消が可能です。ただし、1 回の実行で複数のリポジトリにまたがってコード変更することはできません（C は誤り）。\n\n📖 公式ドキュメント「[About assigning tasks to Copilot cloud agent](https://docs.github.com/en/copilot/using-github-copilot/coding-agent/about-assigning-tasks-to-copilot)」には「Copilot cloud agent can: Research a repository, Create implementation plans, Fix bugs, Improve test coverage, Update documentation, Address technical debt, Resolve merge conflicts」および「Copilot cannot make changes across multiple repositories in one run.」と記載されているため、正解は **A・B・D・E** です。",
+      "explanation": "Copilot クラウドエージェントはリポジトリ調査・実装プラン作成・バグ修正・テスト改善・ドキュメント更新・技術的負債への対処・マージコンフリクト解消が可能です。ただし、1 回の実行で複数のリポジトリにまたがってコード変更することはできません。\n\n📖 公式ドキュメント「[About assigning tasks to Copilot cloud agent](https://docs.github.com/en/copilot/using-github-copilot/coding-agent/about-assigning-tasks-to-copilot)」には「Copilot cloud agent can: Research a repository, Create implementation plans, Fix bugs, Improve test coverage, Update documentation, Address technical debt, Resolve merge conflicts」および「Copilot cannot make changes across multiple repositories in one run.」と記載されているため、正しい選択肢は 「マージコンフリクトを解消する」「ドキュメントを更新し、技術的負債に対処する」「バグを修正し、テストカバレッジを改善する」「リポジトリのコードを調査して実装プランを作成する」 です。",
       "selectionCount": 4
     },
     {
@@ -879,7 +879,7 @@
         "D",
         "E"
       ],
-      "explanation": "エージェントは「1 リポジトリ・1 ブランチ・1 PR のみ」に制限され、コンテンツ除外設定を無視してファイルを参照・更新できるという制限があります（C は制限として正しい）。GitHub 以外のコードホスティングプラットフォームでは動作しないため E は誤りです。\n\n📖 公式ドキュメント「[About assigning tasks to Copilot cloud agent](https://docs.github.com/en/copilot/using-github-copilot/coding-agent/about-assigning-tasks-to-copilot)」には「Copilot can only make changes in the repository specified」「Copilot can only work on one branch at a time and can open exactly one pull request」「Copilot cloud agent doesn't account for content exclusions」と記載されているため、正解は **A・B・C・D** です。",
+      "explanation": "エージェントは「1 リポジトリ・1 ブランチ・1 PR のみ」に制限され、コンテンツ除外設定を無視してファイルを参照・更新できるという制限があります。GitHub 以外のコードホスティングプラットフォームでは動作しないため E は誤りです。\n\n📖 公式ドキュメント「[About assigning tasks to Copilot cloud agent](https://docs.github.com/en/copilot/using-github-copilot/coding-agent/about-assigning-tasks-to-copilot)」には「Copilot can only make changes in the repository specified」「Copilot can only work on one branch at a time and can open exactly one pull request」「Copilot cloud agent doesn't account for content exclusions」と記載されているため、正しい選択肢は 「1 度に作業できるブランチは 1 つのみ」「タスクごとに作成できるプルリクエストは最大 1 つ」「1 回の実行で変更できるリポジトリは 1 つのみ」「コンテンツ除外設定の対象ファイルも参照・更新できてしまう」 です。",
       "selectionCount": 4
     },
     {
@@ -914,7 +914,7 @@
         "D",
         "E"
       ],
-      "explanation": "タスク開始のエントリポイントは、Issues へのアサイン・Copilot Chat の `/task` コマンド・[Agents] タブ・PR コメントでの `@copilot` メンションの 4 つです。GitHub CLI の `gh copilot agent` コマンド（D）は公式ドキュメントに記載されていません。\n\n📖 公式ドキュメント「[Asking GitHub Copilot to create a pull request](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-a-pr)」には「You can ask Copilot to create a new pull request from: GitHub Issues, The agents tab or panel, Copilot Chat」および「Mention `@copilot` in a comment on an existing pull request to ask it to make changes.」と記載されているため、正解は **A・B・C・E** です。",
+      "explanation": "タスク開始のエントリポイントは、Issues へのアサイン・Copilot Chat の `/task` コマンド・[Agents] タブ・PR コメントでの `@copilot` メンションの 4 つです。GitHub CLI の `gh copilot agent` コマンドは公式ドキュメントに記載されていません。\n\n📖 公式ドキュメント「[Asking GitHub Copilot to create a pull request](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-a-pr)」には「You can ask Copilot to create a new pull request from: GitHub Issues, The agents tab or panel, Copilot Chat」および「Mention `@copilot` in a comment on an existing pull request to ask it to make changes.」と記載されているため、正しい選択肢は 「Copilot Chat で `/task` コマンドを使用」「リポジトリの [Agents] タブ」「既存のプルリクエストのコメントで `@copilot` をメンション」「GitHub Issues でエージェントをアサイン」 です。",
       "selectionCount": 4
     },
     {
@@ -950,7 +950,7 @@
         "D",
         "E"
       ],
-      "explanation": "GitHub CLI・GitHub Mobile・Visual Studio Code・Raycast・JetBrains IDEs のすべてからCopilot クラウドエージェントのセッションを追跡できます。\n\n📖 公式ドキュメント「[Manage agents](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/manage-agents)」には「Copilot cloud agent sessions can also be tracked from the GitHub CLI, GitHub Mobile, Visual Studio Code, Raycast, and JetBrains IDEs.」と記載されているため、正解は **A・B・C・D・E** です。",
+      "explanation": "GitHub CLI・GitHub Mobile・Visual Studio Code・Raycast・JetBrains IDEs のすべてからCopilot クラウドエージェントのセッションを追跡できます。\n\n📖 公式ドキュメント「[Manage agents](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/manage-agents)」には「Copilot cloud agent sessions can also be tracked from the GitHub CLI, GitHub Mobile, Visual Studio Code, Raycast, and JetBrains IDEs.」と記載されているため、正しい選択肢は 「Visual Studio Code」「GitHub CLI」「JetBrains IDE」「GitHub Mobile」「Raycast」 です。",
       "selectionCount": 5
     },
     {
@@ -984,7 +984,7 @@
         "C",
         "E"
       ],
-      "explanation": "リポジトリのオプトアウトができるのは、エンタープライズ管理者（すべてのリポジトリ）、Organization オーナー（組織所有リポジトリ）、ユーザー（ユーザー所有リポジトリ）の 3 者です。コラボレーターや Billing Manager には権限がありません。\n\n📖 公式ドキュメント「[Managing access to GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent/access-management)」には「Enterprise administrators and organization owners (for organization-owned repositories) and users (for user-owned repositories) can opt out repositories」と記載されているため、正解は **A・B・C** です。",
+      "explanation": "リポジトリのオプトアウトができるのは、エンタープライズ管理者（すべてのリポジトリ）、Organization オーナー（組織所有リポジトリ）、ユーザー（ユーザー所有リポジトリ）の 3 者です。コラボレーターや Billing Manager には権限がありません。\n\n📖 公式ドキュメント「[Managing access to GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent/access-management)」には「Enterprise administrators and organization owners (for organization-owned repositories) and users (for user-owned repositories) can opt out repositories」と記載されているため、正しい選択肢は 「ユーザー（ユーザー所有リポジトリの場合）」「Organization オーナー（組織所有リポジトリの場合）」「エンタープライズ管理者」 です。",
       "selectionCount": 3
     },
     {
@@ -1018,7 +1018,7 @@
         "D",
         "E"
       ],
-      "explanation": "Agent Skills は Copilot クラウドエージェント、GitHub Copilot CLI、Visual Studio Code のエージェントモードで動作します。Xcode や JetBrains は現時点でサポートされていません。\n\n📖 公式ドキュメント「[About agent skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills)」には「Agent skills work with Copilot cloud agent, the GitHub Copilot CLI, and agent mode in Visual Studio Code.」と記載されているため、正解は **A・B・C** です。",
+      "explanation": "Agent Skills は Copilot クラウドエージェント、GitHub Copilot CLI、Visual Studio Code のエージェントモードで動作します。Xcode や JetBrains は現時点でサポートされていません。\n\n📖 公式ドキュメント「[About agent skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills)」には「Agent skills work with Copilot cloud agent, the GitHub Copilot CLI, and agent mode in Visual Studio Code.」と記載されているため、正しい選択肢は 「Visual Studio Code のエージェントモード」「Copilot クラウドエージェント」「GitHub Copilot CLI（コマンドラインインターフェース）」 です。",
       "selectionCount": 3
     },
     {
@@ -1053,7 +1053,7 @@
         "D",
         "E"
       ],
-      "explanation": "SKILL.md のフロントマターには `name`（必須）・`description`（必須）・`license`（省略可能）・`allowed-tools`（省略可能）の 4 フィールドが存在します。`version` フィールドは公式ドキュメントに記載がなく存在しません。\n\n📖 公式ドキュメント「[Creating agent skills for GitHub Copilot](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-skills)」には「name (required): A unique identifier for the skill, description (required): A description of what the skill does, license (optional), allowed-tools (optional)」と記載されているため、正解は **A・B・C・D** です。",
+      "explanation": "SKILL.md のフロントマターには `name`（必須）・`description`（必須）・`license`（省略可能）・`allowed-tools`（省略可能）の 4 フィールドが存在します。`version` フィールドは公式ドキュメントに記載がなく存在しません。\n\n📖 公式ドキュメント「[Creating agent skills for GitHub Copilot](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-skills)」には「name (required): A unique identifier for the skill, description (required): A description of what the skill does, license (optional), allowed-tools (optional)」と記載されているため、正しい選択肢は 「`allowed-tools`（省略可能）」「`name`（必須）」「`description`（必須）」「`license`（省略可能）」 です。",
       "selectionCount": 4
     },
     {
@@ -1087,7 +1087,7 @@
         "C",
         "E"
       ],
-      "explanation": "プロジェクトスキルの有効な配置先は `.github/skills`・`.claude/skills`・`.agents/skills` の 3 つです。`.copilot/skills` はホームディレクトリ配下（`~/.copilot/skills`）でのみ個人スキルとして有効であり、リポジトリ内の `.copilot/skills` は正式な配置先ではありません。\n\n📖 公式ドキュメント「[Creating agent skills for GitHub Copilot](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-skills)」には「For project skills, specific to a single repository, create and use a `.github/skills`, `.claude/skills`, or `.agents/skills` directory in your repository.」と記載されているため、正解は **A・B・C** です。",
+      "explanation": "プロジェクトスキルの有効な配置先は `.github/skills`・`.claude/skills`・`.agents/skills` の 3 つです。`.copilot/skills` はホームディレクトリ配下（`~/.copilot/skills`）でのみ個人スキルとして有効であり、リポジトリ内の `.copilot/skills` は正式な配置先ではありません。\n\n📖 公式ドキュメント「[Creating agent skills for GitHub Copilot](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-skills)」には「For project skills, specific to a single repository, create and use a `.github/skills`, `.claude/skills`, or `.agents/skills` directory in your repository.」と記載されているため、正しい選択肢は 「`.agents/skills`」「`.github/skills`」「`.claude/skills`」 です。",
       "selectionCount": 3
     },
     {
@@ -1122,7 +1122,7 @@
         "D",
         "E"
       ],
-      "explanation": "`copilot-setup-steps.yml` でカスタマイズできるのは `steps`・`permissions`・`runs-on`・`services`・`snapshot`・`timeout-minutes` のみです。`strategy`（マトリックス戦略）はこのリストに含まれておらず、設定しても無視されます。\n\n📖 公式ドキュメント「[Customizing the development environment for GitHub Copilot cloud agent](https://docs.github.com/en/copilot/customizing-copilot/customizing-the-development-environment-for-copilot-coding-agent)」には「you can only customize the following settings of the `copilot-setup-steps` job: steps, permissions, runs-on, services, snapshot, timeout-minutes (maximum value: 59)」と記載されているため、正解は **A・B・C・D** です。",
+      "explanation": "`copilot-setup-steps.yml` でカスタマイズできるのは `steps`・`permissions`・`runs-on`・`services`・`snapshot`・`timeout-minutes` のみです。`strategy`（マトリックス戦略）はこのリストに含まれておらず、設定しても無視されます。\n\n📖 公式ドキュメント「[Customizing the development environment for GitHub Copilot cloud agent](https://docs.github.com/en/copilot/customizing-copilot/customizing-the-development-environment-for-copilot-coding-agent)」には「you can only customize the following settings of the `copilot-setup-steps` job: steps, permissions, runs-on, services, snapshot, timeout-minutes (maximum value: 59)」と記載されているため、正しい選択肢は 「`runs-on`」「`steps`」「`timeout-minutes`（最大 59 分）」「`permissions`」 です。",
       "selectionCount": 4
     },
     {
@@ -1156,7 +1156,7 @@
         "B",
         "E"
       ],
-      "explanation": "Copilot クラウドエージェントと互換性があるのは Ubuntu x64 Linux と Windows 64-bit ランナーのみです。macOS（C）と ARM64（D）は非対応です。セルフホストは ARC 管理の Ubuntu x64 が推奨されます。\n\n📖 公式ドキュメント「[Customizing the development environment for GitHub Copilot cloud agent](https://docs.github.com/en/copilot/customizing-copilot/customizing-the-development-environment-for-copilot-coding-agent)」には「Copilot cloud agent is only compatible with Ubuntu x64 Linux and Windows 64-bit runners. Runners with macOS or other operating systems are not supported.」と記載されているため、正解は **A・B・E** です。",
+      "explanation": "Copilot クラウドエージェントと互換性があるのは Ubuntu x64 Linux と Windows 64-bit ランナーのみです。macOSと ARM64は非対応です。セルフホストは ARC 管理の Ubuntu x64 が推奨されます。\n\n📖 公式ドキュメント「[Customizing the development environment for GitHub Copilot cloud agent](https://docs.github.com/en/copilot/customizing-copilot/customizing-the-development-environment-for-copilot-coding-agent)」には「Copilot cloud agent is only compatible with Ubuntu x64 Linux and Windows 64-bit runners. Runners with macOS or other operating systems are not supported.」と記載されているため、正しい選択肢は 「セルフホストの Ubuntu x64 ランナー」「Windows 64-bit ランナー」「Ubuntu x64 Linux ランナー」 です。",
       "selectionCount": 3
     },
     {
@@ -1191,7 +1191,7 @@
         "D",
         "E"
       ],
-      "explanation": "`copilot-setup-steps.yml` はツールのプリインストール・大型ランナーへの切り替え・セルフホストランナーの使用・Windows 環境への切り替えなどに使用できます。Copilot のシステムプロンプトカスタマイズ（E）はカスタム指示（Custom Instructions）で行うものであり、setup steps ファイルの用途ではありません。\n\n📖 公式ドキュメント「[Customizing the development environment for GitHub Copilot cloud agent](https://docs.github.com/en/copilot/customizing-copilot/customizing-the-development-environment-for-copilot-coding-agent)」には「Preinstall tools or dependencies in Copilot's environment, Upgrade from standard GitHub-hosted GitHub Actions runners to larger runners, Run on GitHub Actions self-hosted runners, Give Copilot a Windows development environment」と記載されているため、正解は **A・B・C・D** です。",
+      "explanation": "`copilot-setup-steps.yml` はツールのプリインストール・大型ランナーへの切り替え・セルフホストランナーの使用・Windows 環境への切り替えなどに使用できます。Copilot のシステムプロンプトカスタマイズはカスタム指示で行うものであり、setup steps ファイルの用途ではありません。\n\n📖 公式ドキュメント「[Customizing the development environment for GitHub Copilot cloud agent](https://docs.github.com/en/copilot/customizing-copilot/customizing-the-development-environment-for-copilot-coding-agent)」には「Preinstall tools or dependencies in Copilot's environment, Upgrade from standard GitHub-hosted GitHub Actions runners to larger runners, Run on GitHub Actions self-hosted runners, Give Copilot a Windows development environment」と記載されているため、正しい選択肢は 「ツールや依存関係の事前インストール」「Windows 開発環境への切り替え」「標準ランナーより大きな GitHub Actions ランナーへのアップグレード」「セルフホストランナーの使用設定」 です。",
       "selectionCount": 4
     },
     {
@@ -1220,7 +1220,7 @@
         "A",
         "D"
       ],
-      "explanation": "Copilot クラウドエージェントは GitHub Actions の分数と Copilot プレミアムリクエストを消費します。月次の利用許可範囲内であれば追加コストは発生しません。\n\n📖 公式ドキュメント「[About assigning tasks to Copilot cloud agent](https://docs.github.com/en/copilot/using-github-copilot/coding-agent/about-assigning-tasks-to-copilot)」には「Copilot cloud agent uses GitHub Actions minutes and Copilot premium requests.」と記載されているため、正解は **A・B** です。",
+      "explanation": "Copilot クラウドエージェントは GitHub Actions の分数と Copilot プレミアムリクエストを消費します。月次の利用許可範囲内であれば追加コストは発生しません。\n\n📖 公式ドキュメント「[About assigning tasks to Copilot cloud agent](https://docs.github.com/en/copilot/using-github-copilot/coding-agent/about-assigning-tasks-to-copilot)」には「Copilot cloud agent uses GitHub Actions minutes and Copilot premium requests.」と記載されているため、正しい選択肢は 「Copilot プレミアムリクエスト」「GitHub Actions の分数（minutes）」 です。",
       "selectionCount": 2
     },
     {
@@ -1254,7 +1254,7 @@
         "C",
         "E"
       ],
-      "explanation": "カスタムエージェントはリポジトリ・Organization・エンタープライズの 3 つから選択できます。GitHub Marketplace や Extensions ストアからは選択しません。\n\n📖 公式ドキュメント「[Manage agents](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/manage-agents)」には「You can select an existing custom agent from your repository, organization, or enterprise.」と記載されているため、正解は **A・B・C** です。",
+      "explanation": "カスタムエージェントはリポジトリ・Organization・エンタープライズの 3 つから選択できます。GitHub Marketplace や Extensions ストアからは選択しません。\n\n📖 公式ドキュメント「[Manage agents](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/manage-agents)」には「You can select an existing custom agent from your repository, organization, or enterprise.」と記載されているため、正しい選択肢は 「現在のリポジトリ」「Organization」「Enterprise」 です。",
       "selectionCount": 3
     },
     {
@@ -1284,7 +1284,7 @@
         "B",
         "D"
       ],
-      "explanation": "アーカイブは「停止されたセッション」にのみ行えます。手順は「セッションを開く → 右上メニューから Archive session を選択 → Yes, archive をクリック」の 3 ステップです。実行中のセッションを直接アーカイブすることはできません（D は誤り）。\n\n📖 公式ドキュメント「[Manage agents](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/manage-agents)」には「Sessions that have been stopped can be archived to remove them from the sessions list.」と記載されているため、正解は **A・B・C** です。",
+      "explanation": "アーカイブは「停止されたセッション」にのみ行えます。手順は「セッションを開く → 右上メニューから Archive session を選択 → Yes, archive をクリック」の 3 ステップです。実行中のセッションを直接アーカイブすることはできません。\n\n📖 公式ドキュメント「[Manage agents](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/manage-agents)」には「Sessions that have been stopped can be archived to remove them from the sessions list.」と記載されているため、正しい選択肢は 「アーカイブするセッション（停止済み）を開く」「右上のメニューから「アーカイブセッション」を選択する」「確認ダイアログで「はい、アーカイブ」をクリックする」 です。",
       "selectionCount": 3
     },
     {
@@ -1318,7 +1318,7 @@
         "D",
         "E"
       ],
-      "explanation": "MCP 設定でサポートされている変数参照構文は `$VAR`・`${VAR}`・`${VAR:-default}` の 3 パターンです。Windows スタイルの `%VAR%`（D）やシェル置換の `$(VAR)`（E）はサポートされていません。\n\n📖 公式ドキュメント「[Extending GitHub Copilot cloud agent with the Model Context Protocol (MCP)](https://docs.github.com/en/copilot/how-tos/agents/copilot-coding-agent/extending-copilot-coding-agent-with-mcp)」には「The following syntax patterns are supported: $VAR ($COPILOT_MCP_API_KEY), ${VAR} (${COPILOT_MCP_API_KEY}), ${VAR:-default} (${COPILOT_MCP_API_KEY:-fallback_value})」と記載されているため、正解は **A・B・C** です。",
+      "explanation": "MCP 設定でサポートされている変数参照構文は `$VAR`・`${VAR}`・`${VAR:-default}` の 3 パターンです。Windows スタイルの `%VAR%`やシェル置換の `$(VAR)`はサポートされていません。\n\n📖 公式ドキュメント「[Extending GitHub Copilot cloud agent with the Model Context Protocol (MCP)](https://docs.github.com/en/copilot/how-tos/agents/copilot-coding-agent/extending-copilot-coding-agent-with-mcp)」には「The following syntax patterns are supported: $VAR ($COPILOT_MCP_API_KEY), ${VAR} (${COPILOT_MCP_API_KEY}), ${VAR:-default} (${COPILOT_MCP_API_KEY:-fallback_value})」と記載されているため、正しい選択肢は 「`$COPILOT_MCP_API_KEY`」「`${COPILOT_MCP_API_KEY:-fallback_value}`」「`${COPILOT_MCP_API_KEY}`」 です。",
       "selectionCount": 3
     },
     {
@@ -1354,7 +1354,7 @@
         "D",
         "E"
       ],
-      "explanation": "Copilot クラウドエージェントのカスタマイズ方法は「カスタム指示・MCP サーバー・カスタムエージェント・Hooks・Skills」の 5 つすべてが公式ドキュメントに記載されています。\n\n📖 公式ドキュメント「[About assigning tasks to Copilot cloud agent](https://docs.github.com/en/copilot/using-github-copilot/coding-agent/about-assigning-tasks-to-copilot)」には「Custom instructions, Model Context Protocol (MCP) servers, Custom agents, Hooks, Skills」の 5 つのカスタマイズ方法が記載されているため、正解は **A・B・C・D・E** です。",
+      "explanation": "Copilot クラウドエージェントのカスタマイズ方法は「カスタム指示・MCP サーバー・カスタムエージェント・Hooks・Skills」の 5 つすべてが公式ドキュメントに記載されています。\n\n📖 公式ドキュメント「[About assigning tasks to Copilot cloud agent](https://docs.github.com/en/copilot/using-github-copilot/coding-agent/about-assigning-tasks-to-copilot)」には「Custom instructions, Model Context Protocol (MCP) servers, Custom agents, Hooks, Skills」の 5 つのカスタマイズ方法が記載されているため、正しい選択肢は 「MCP サーバーで追加のデータソースやツールへのアクセスを付与する」「カスタム指示でコーディング基準などを伝える」「Hooks（フック）でエージェント実行の特定ポイントにカスタムシェルコマンドを挿入する」「カスタムエージェントで特定タスク専用の Copilot を作成する」「Agent Skills で特殊タスクの実行方法を教える」 です。",
       "selectionCount": 5
     },
     {
@@ -1383,7 +1383,7 @@
         "B",
         "C"
       ],
-      "explanation": "公式ドキュメントで言及されているコミュニティリソースは `anthropics/skills` リポジトリと`github/awesome-copilot` コレクションの 2 つのみです。\n\n📖 公式ドキュメント「[About agent skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills)」には「you can use skills shared online, for example in the `anthropics/skills` repository or GitHub's community created `github/awesome-copilot` collection.」と記載されているため、正解は **A・B** です。",
+      "explanation": "公式ドキュメントで言及されているコミュニティリソースは `anthropics/skills` リポジトリと`github/awesome-copilot` コレクションの 2 つのみです。\n\n📖 公式ドキュメント「[About agent skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills)」には「you can use skills shared online, for example in the `anthropics/skills` repository or GitHub's community created `github/awesome-copilot` collection.」と記載されているため、正しい選択肢は 「`anthropics/skills`」「`github/awesome-copilot`」 です。",
       "selectionCount": 2
     },
     {
@@ -1416,7 +1416,7 @@
         "A",
         "D"
       ],
-      "explanation": "サードパーティのコーディングエージェントは GitHub Copilot Pro+ と Copilot Enterprise プランでのみ利用できます。Free・Pro・Business では利用できません。\n\n📖 公式ドキュメント「[Manage agents](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/manage-agents)」には「Third-party coding agents are available in the GitHub Copilot Pro+ and Copilot Enterprise plans.」と記載されているため、正解は **C・E** です。",
+      "explanation": "サードパーティのコーディングエージェントは GitHub Copilot Pro+ と Copilot Enterprise プランでのみ利用できます。Free・Pro・Business では利用できません。\n\n📖 公式ドキュメント「[Manage agents](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/manage-agents)」には「Third-party coding agents are available in the GitHub Copilot Pro+ and Copilot Enterprise plans.」と記載されているため、正しい選択肢は 「GitHub Copilot Enterprise」「GitHub Copilot Pro+」 です。",
       "selectionCount": 2
     },
     {
@@ -1451,7 +1451,7 @@
         "D",
         "E"
       ],
-      "explanation": "D（「デフォルトでは書き込みツールのアクセス権を持つ」）は誤りです。ベストプラクティスとして、サードパーティサーバーのレビュー・必要最小限のツール指定・設定前の慎重な確認・パフォーマンスへの影響考慮が推奨されます。\n\n📖 公式ドキュメント「[Model Context Protocol (MCP) and GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent/mcp-and-coding-agent)」には「By default, Copilot cloud agent does not have access to write MCP server tools.」および「Enabling third-party MCP servers for use may impact the performance of the agent and the quality of the outputs.」と記載されているため、正解は **A・B・C・E** です。",
+      "explanation": "D（「デフォルトでは書き込みツールのアクセス権を持つ」）は誤りです。ベストプラクティスとして、サードパーティサーバーのレビュー・必要最小限のツール指定・設定前の慎重な確認・パフォーマンスへの影響考慮が推奨されます。\n\n📖 公式ドキュメント「[Model Context Protocol (MCP) and GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent/mcp-and-coding-agent)」には「By default, Copilot cloud agent does not have access to write MCP server tools.」および「Enabling third-party MCP servers for use may impact the performance of the agent and the quality of the outputs.」と記載されているため、正しい選択肢は 「サードパーティ製 MCP サーバーを有効にする前に十分にレビューする」「構成を保存する前に、設定した MCP サーバーを慎重に確認する」「`tools` フィールドには必要最小限のツールだけを指定する（`*` でのすべて許可は慎重に）」「サードパーティ MCP サーバーの使用はエージェントのパフォーマンスや出力品質に影響する可能性がある」 です。",
       "selectionCount": 4
     },
     {
@@ -1485,7 +1485,7 @@
         "B",
         "D"
       ],
-      "explanation": "Copilot クラウドエージェントは GitHub Actions 環境で自律的に動作し、リポジトリ調査・プラン作成・コード変更・PR 作成を担います。IDE エージェントモードはローカル環境に直接変更を加えます。クラウドエージェントはオフライン動作不可（D は誤り）、IDE エージェントモードは GitHub Actions を使用しません（E は誤り）。\n\n📖 公式ドキュメント「[About assigning tasks to Copilot cloud agent](https://docs.github.com/en/copilot/using-github-copilot/coding-agent/about-assigning-tasks-to-copilot)」には「Copilot cloud agent works autonomously in a GitHub Actions-powered environment... agent mode in your IDE makes autonomous edits directly in your local development environment.」と記載されているため、正解は **A・B・C** です。",
+      "explanation": "Copilot クラウドエージェントは GitHub Actions 環境で自律的に動作し、リポジトリ調査・プラン作成・コード変更・PR 作成を担います。IDE エージェントモードはローカル環境に直接変更を加えます。クラウドエージェントはオフライン動作不可、IDE エージェントモードは GitHub Actions を使用しません。\n\n📖 公式ドキュメント「[About assigning tasks to Copilot cloud agent](https://docs.github.com/en/copilot/using-github-copilot/coding-agent/about-assigning-tasks-to-copilot)」には「Copilot cloud agent works autonomously in a GitHub Actions-powered environment... agent mode in your IDE makes autonomous edits directly in your local development environment.」と記載されているため、正しい選択肢は 「Copilot クラウドエージェントはリポジトリの調査・プラン作成・ブランチへのコード変更・PR 作成まで担う」「IDE のエージェントモードはローカル開発環境に直接変更を加える」「Copilot クラウドエージェントは GitHub Actions 環境で自律的に動作する」 です。",
       "selectionCount": 3
     }
   ]

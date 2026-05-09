@@ -27,7 +27,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "正解は **A** です。公式のプラン比較では、Copilot Free は premium requests が 50/月、Copilot Chat in IDEs が 50 messages/月、real-time code suggestions が 2,000 completions/月とされています。\n\n出典: [Plans for GitHub Copilot](https://docs.github.com/en/copilot/get-started/plans)"
+      "explanation": "回答は 「Premium requests 50/月、IDE Chat 50 messages/月、inline suggestions 2,000 completions/月」 です。公式のプラン比較では、Copilot Free は premium requests が 50/月、Copilot Chat in IDEs が 50 messages/月、real-time code suggestions が 2,000 completions/月とされています。\n\n📖 公式ドキュメント「[Plans for GitHub Copilot](https://docs.github.com/en/copilot/get-started/plans)」には「Premium requests: 50 per month. Copilot Chat in IDEs: 50 messages per month. Real-time code suggestions with included models: 2000 completions per month.」と記載されています。"
     },
     {
       "questionNumber": 2,
@@ -61,7 +61,7 @@
         "C",
         "D"
       ],
-      "explanation": "正解は **A、B、C** です。`Other features` には Copilot pull request summaries、Audit logs、Content exclusion、Copilot CLI、GitHub Spark などが並びます。Agent mode は `Agents`、Prompt files は `Customization` 側の項目です。\n\n出典: [Plans for GitHub Copilot](https://docs.github.com/en/copilot/get-started/plans)"
+      "explanation": "正しい選択肢は 「Content exclusion」「Audit logs」「Copilot pull request summaries」 です。`Other features` には Copilot pull request summaries、Audit logs、Content exclusion、Copilot CLI、GitHub Spark などが並びます。Agent mode は `Agents`、Prompt files は `Customization` 側の項目です。\n\n📖 公式ドキュメント「[Plans for GitHub Copilot](https://docs.github.com/en/copilot/get-started/plans)」には「Under \"Other features,\" the table includes \"Copilot pull request summaries,\" \"Audit logs,\" and \"Content exclusion.\" Under \"Customization,\" the table includes \"Prompt files,\" and under \"Agents,\" the table includes \"Agent mode.\"」と記載されています。"
     },
     {
       "questionNumber": 3,
@@ -88,7 +88,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "正解は **B** です。Copilot CLI は環境変数の `COPILOT_GITHUB_TOKEN`、`GH_TOKEN`、`GITHUB_TOKEN` をこの順で確認し、その後に保存済み OAuth トークンや GitHub CLI のトークンを使います。\n\n出典: [Authenticating GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/authenticate-copilot-cli)"
+      "explanation": "回答は 「`COPILOT_GITHUB_TOKEN`、`GH_TOKEN`、`GITHUB_TOKEN`、OS のキーチェーン、GitHub CLI の認証情報の順」 です。Copilot CLI は環境変数の `COPILOT_GITHUB_TOKEN`、`GH_TOKEN`、`GITHUB_TOKEN` をこの順で確認し、その後に保存済み OAuth トークンや GitHub CLI のトークンを使います。\n\n📖 公式ドキュメント「[Authenticating GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/authenticate-copilot-cli)」には「When you run a command, Copilot CLI checks for credentials in the following order: 1. COPILOT_GITHUB_TOKEN environment variable 2. GH_TOKEN environment variable 3. GITHUB_TOKEN environment variable 4. OAuth token from the system keychain 5. GitHub CLI (gh auth token) fallback.」と記載されています。"
     },
     {
       "questionNumber": 4,
@@ -115,7 +115,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "正解は **B** です。Copilot CLI で fine-grained PAT を使う場合は `Copilot Requests` 権限が必要です。Classic PAT は Copilot CLI の認証方式としてサポートされません。\n\n出典: [Authenticating GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/authenticate-copilot-cli)"
+      "explanation": "回答は 「Fine-grained PAT を使う場合は `Copilot Requests` 権限が必要で、Classic PAT はサポート対象ではない」 です。Copilot CLI で fine-grained PAT を使う場合は `Copilot Requests` 権限が必要です。Classic PAT は Copilot CLI の認証方式としてサポートされません。\n\n📖 公式ドキュメント「[Authenticating GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/authenticate-copilot-cli)」には「Fine-grained PAT: Must be owned by your personal account (not an organization) with the Copilot Requests account permission. Classic PAT: Not supported by Copilot CLI.」と記載されています。"
     },
     {
       "questionNumber": 5,
@@ -149,7 +149,7 @@
         "C",
         "D"
       ],
-      "explanation": "正解は **A、B、C** です。Copilot CLI は Linux、macOS、Windows では PowerShell および WSL からの利用をサポートしています。\n\n出典: [About GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli)"
+      "explanation": "正しい選択肢は 「Linux」「Windows の PowerShell または WSL」「macOS」 です。Copilot CLI は Linux、macOS、Windows では PowerShell および WSL からの利用をサポートしています。\n\n📖 公式ドキュメント「[About GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli)」には「Supported operating systems: Linux, macOS, Windows from within Powershell and Windows Subsystem for Linux (WSL).」と記載されています。"
     },
     {
       "questionNumber": 6,
@@ -176,7 +176,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "正解は **A** です。trusted directories は Copilot CLI がファイルを読み取り、変更し、実行できる場所を制御します。ただしスコープは heuristic であり、外部ファイルがすべて保護される保証はないと説明されています。\n\n出典: [About GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli)"
+      "explanation": "回答は 「trusted directories は Copilot CLI がどこでファイルを読み取り、変更し、実行できるかを制御する」 です。trusted directories は Copilot CLI がファイルを読み取り、変更し、実行できる場所を制御します。ただしスコープは heuristic であり、外部ファイルがすべて保護される保証はないと説明されています。\n\n📖 公式ドキュメント「[About GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli)」には「Trusted directories control where Copilot CLI can read, modify, and execute files. Scoping of permissions is heuristic and GitHub does not guarantee that all files outside trusted directories will be protected.」と記載されています。"
     },
     {
       "questionNumber": 7,
@@ -210,7 +210,7 @@
         "C",
         "E"
       ],
-      "explanation": "正解は **A、B、C** です。Copilot CLI は custom instructions、MCP servers、custom agents などでカスタマイズできます。custom instructions はプロジェクトの文脈や検証方法を与え、MCP は外部データやツールへのアクセスを与え、custom agents はタスク特化の Copilot を作るために使います。\n\n出典: [About GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli)"
+      "explanation": "正しい選択肢は 「Custom instructions」「Custom agents」「MCP servers」 です。Copilot CLI は custom instructions、MCP servers、custom agents などでカスタマイズできます。custom instructions はプロジェクトの文脈や検証方法を与え、MCP は外部データやツールへのアクセスを与え、custom agents はタスク特化の Copilot を作るために使います。\n\n📖 公式ドキュメント「[About GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli)」には「Custom instructions allow you to give Copilot additional context on your project and how to build, test and validate its changes. MCP servers allow you to give Copilot access to different data sources and tools. Custom agents allow you to create different specialized versions of Copilot for different tasks.」と記載されています。"
     },
     {
       "questionNumber": 8,
@@ -237,7 +237,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "正解は **B** です。Edit mode は、ユーザーが編集対象ファイルを選び、各反復でコンテキストを与え、提案された編集を受け入れるかどうかを判断するモードです。より自律的なのは Agent mode、計画先行なのは Plan mode です。\n\n出典: [Asking GitHub Copilot questions in your IDE](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide)"
+      "explanation": "回答は 「ユーザーが Copilot に変更を許可するファイルを選び、各ターン後に提案された編集を受け入れるか判断する」 です。Edit mode は、ユーザーが編集対象ファイルを選び、各反復でコンテキストを与え、提案された編集を受け入れるかどうかを判断するモードです。より自律的なのは Agent mode、計画先行なのは Plan mode です。\n\n📖 公式ドキュメント「[Asking GitHub Copilot questions in your IDE](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide)」には「Use edit mode when you want more granular control over the edits that Copilot proposes. In edit mode, you choose which files Copilot can make changes to, provide context to Copilot with each iteration, and decide whether or not to accept the suggested edits after each turn.」と記載されています。"
     },
     {
       "questionNumber": 9,
@@ -271,7 +271,7 @@
         "D",
         "E"
       ],
-      "explanation": "正解は **A、B、C** です。Plan mode は、コード変更前に読み取り専用の調査と分析で実装計画を作り、ユーザーがレビューして承認するまでコード変更しません。\n\n出典: [Asking GitHub Copilot questions in your IDE](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide)"
+      "explanation": "正しい選択肢は 「コード変更前に、タスクを調査して実装計画を作る」「読み取り専用のツールやコードベース分析を使って計画を組み立てる」「計画がレビューされ承認されるまで、コード変更は行わない」 です。Plan mode は、コード変更前に読み取り専用の調査と分析で実装計画を作り、ユーザーがレビューして承認するまでコード変更しません。\n\n📖 公式ドキュメント「[Asking GitHub Copilot questions in your IDE](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide)」には「Plan mode helps you to create detailed implementation plans before executing them. The plan agent does not make any code changes until the plan is reviewed and approved by you. The plan agent is designed to research the task comprehensively using read-only tools and codebase analysis to identify requirements and constraints.」と記載されています。"
     },
     {
       "questionNumber": 10,
@@ -298,7 +298,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "正解は **B** です。Agent mode は Copilot が自律的にタスクを達成するモードで、Edit mode はユーザーが編集対象ファイルや各ターンの編集採否をより細かく制御します。\n\n出典: [Asking GitHub Copilot questions in your IDE](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide)"
+      "explanation": "回答は 「Agent mode は Copilot が自律的にタスク達成を進め、Edit mode はユーザーが編集対象や各ターンの受け入れをより細かく制御する」 です。Agent mode は Copilot が自律的にタスクを達成するモードで、Edit mode はユーザーが編集対象ファイルや各ターンの編集採否をより細かく制御します。\n\n📖 公式ドキュメント「[Asking GitHub Copilot questions in your IDE](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide)」には「Edit mode lets Copilot make controlled edits to multiple files. Use edit mode when you want more granular control over the edits that Copilot proposes. Agent mode lets Copilot autonomously accomplish a set task.」と記載されています。"
     }
   ]
 }

@@ -27,7 +27,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "対話型セッションを開始するには `copilot` とだけ入力します。`gh copilot` は旧来の gh 拡張コマンドであり、新しいスタンドアロン CLI は `copilot` コマンドを直接使います。\n\n📖 公式ドキュメント「[About GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli)」には「To start an interactive session, enter `copilot`.」と記載されているため、正解は **A** です。"
+      "explanation": "対話型セッションを開始するには `copilot` とだけ入力します。`gh copilot` は旧来の gh 拡張コマンドであり、新しいスタンドアロン CLI は `copilot` コマンドを直接使います。\n\n📖 公式ドキュメント「[About GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli)」には「To start an interactive session, enter `copilot`.」と記載されているため、回答は 「`copilot`」 です。"
     },
     {
       "questionNumber": 2,
@@ -54,7 +54,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "`Shift+Tab` キーを押すことで **ask/execute モードとプランモード**の2つを切り替えます。プランモードでは、Copilot はコードを書く前に実装計画を作成し、明確な質問を行います。\n\n📖 公式ドキュメント「[About GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli)」には「The interactive interface has two modes. In addition to the default ask/execute mode there is also a plan mode … Press Shift+Tab to cycle between modes.」と記載されているため、正解は **C** です。"
+      "explanation": "`Shift+Tab` キーを押すことで **ask/execute モードとプランモード**の2つを切り替えます。プランモードでは、Copilot はコードを書く前に実装計画を作成し、明確な質問を行います。\n\n📖 公式ドキュメント「[About GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli)」には「The interactive interface has two modes. In addition to the default ask/execute mode there is also a plan mode … Press Shift+Tab to cycle between modes.」と記載されているため、回答は 「`Shift+Tab`」 です。"
     },
     {
       "questionNumber": 3,
@@ -81,7 +81,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "`-p` または `--prompt` オプションにプロンプトを渡すと、CLI はタスクを完了して終了するプログラムモードで動作します。例: `copilot -p \"Show me this week's commits\"` のように使います。\n\n📖 公式ドキュメント「[About GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli)」には「To use the CLI programmatically, include the `-p` or `--prompt` command-line option in your command.」と記載されているため、正解は **C** です。"
+      "explanation": "`-p` または `--prompt` オプションにプロンプトを渡すと、CLI はタスクを完了して終了するプログラムモードで動作します。例: `copilot -p \"Show me this week's commits\"` のように使います。\n\n📖 公式ドキュメント「[About GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli)」には「To use the CLI programmatically, include the `-p` or `--prompt` command-line option in your command.」と記載されているため、回答は 「`-p` または `--prompt`」 です。"
     },
     {
       "questionNumber": 4,
@@ -108,7 +108,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "優先順位は `COPILOT_GITHUB_TOKEN` > `GH_TOKEN` > `GITHUB_TOKEN` > システムキーチェーン（OAuth トークン）> GitHub CLI フォールバック の順です。環境変数は保存済み OAuth トークンを自動的に上書きします。\n\n📖 公式ドキュメント「[Authenticate GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/authenticate-copilot-cli)」には「Copilot CLI checks for credentials in the following order: 1. `COPILOT_GITHUB_TOKEN` 2. `GH_TOKEN` 3. `GITHUB_TOKEN` 4. OAuth token from the system keychain 5. GitHub CLI (`gh auth token`) fallback」と記載されているため、正解は **D** です。"
+      "explanation": "優先順位は `COPILOT_GITHUB_TOKEN` > `GH_TOKEN` > `GITHUB_TOKEN` > システムキーチェーン（OAuth トークン）> GitHub CLI フォールバック の順です。環境変数は保存済み OAuth トークンを自動的に上書きします。\n\n📖 公式ドキュメント「[Authenticate GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/authenticate-copilot-cli)」には「Copilot CLI checks for credentials in the following order: 1. `COPILOT_GITHUB_TOKEN` 2. `GH_TOKEN` 3. `GITHUB_TOKEN` 4. OAuth token from the system keychain 5. GitHub CLI (`gh auth token`) fallback」と記載されているため、回答は 「`COPILOT_GITHUB_TOKEN` → `GH_TOKEN` → `GITHUB_TOKEN` → システムキーチェーン → GitHub CLI フォールバック」 です。"
     },
     {
       "questionNumber": 5,
@@ -135,7 +135,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "設定ファイルは `~/.copilot/config.json` に保存されます。Windows の場合は `$HOME\\.copilot\\config.json` です。`COPILOT_HOME` 環境変数でこの場所を変更することもできます。\n\n📖 公式ドキュメント「[Configure GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/configure-copilot-cli)」には「Open the CLI's `config.json` file. By default, it's stored in a `.copilot` folder under your home directory — macOS/Linux: `~/.copilot/config.json`」と記載されているため、正解は **A** です。"
+      "explanation": "設定ファイルは `~/.copilot/config.json` に保存されます。Windows の場合は `$HOME\\.copilot\\config.json` です。`COPILOT_HOME` 環境変数でこの場所を変更することもできます。\n\n📖 公式ドキュメント「[Configure GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/configure-copilot-cli)」には「Open the CLI's `config.json` file. By default, it's stored in a `.copilot` folder under your home directory — macOS/Linux: `~/.copilot/config.json`」と記載されているため、回答は 「`~/.copilot/config.json`」 です。"
     },
     {
       "questionNumber": 6,
@@ -162,7 +162,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "Classic PAT（`ghp_` プレフィックス）は Copilot CLI ではサポートされていません。使用できるのは OAuth トークン（`gho_`）、Fine-grained PAT（`github_pat_`）、GitHub Apps ユーザートークン（`ghu_`）です。\n\n📖 公式ドキュメント「[Authenticate GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/authenticate-copilot-cli)」には「Classic PAT | `ghp_` | No | Not supported by Copilot CLI」と記載されているため、正解は **D** です。"
+      "explanation": "Classic PAT（`ghp_` プレフィックス）は Copilot CLI ではサポートされていません。使用できるのは OAuth トークン（`gho_`）、Fine-grained PAT（`github_pat_`）、GitHub Apps ユーザートークン（`ghu_`）です。\n\n📖 公式ドキュメント「[Authenticate GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/authenticate-copilot-cli)」には「Classic PAT | `ghp_` | No | Not supported by Copilot CLI」と記載されているため、回答は 「`ghp_` プレフィックスの Classic PAT」 です。"
     },
     {
       "questionNumber": 7,
@@ -189,7 +189,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "`--deny-tool` は `--allow-all-tools` および `--allow-tool` よりも常に優先されます。例えば `copilot --allow-all-tools --deny-tool='shell(rm)'` とすると、rm コマンド以外はすべて許可されます。\n\n📖 公式ドキュメント「[Configure GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/configure-copilot-cli)」には「Use `--deny-tool` to prevent Copilot from using a specific tool. This option takes precedence over the `--allow-all-tools` and `--allow-tool` options.」と記載されているため、正解は **D** です。"
+      "explanation": "`--deny-tool` は `--allow-all-tools` および `--allow-tool` よりも常に優先されます。例えば `copilot --allow-all-tools --deny-tool='shell(rm)'` とすると、rm コマンド以外はすべて許可されます。\n\n📖 公式ドキュメント「[Configure GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/configure-copilot-cli)」には「Use `--deny-tool` to prevent Copilot from using a specific tool. This option takes precedence over the `--allow-all-tools` and `--allow-tool` options.」と記載されているため、回答は 「`--deny-tool` が優先される」 です。"
     },
     {
       "questionNumber": 8,
@@ -216,7 +216,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "`/review` スラッシュコマンドを使うと、CLI を離れることなく Copilot がコードの変更を分析します。コミット前に素早くフィードバックを得るために使えます。プロンプト・パス・ファイルパターンを指定してレビュースコープを絞り込めます。\n\n📖 公式ドキュメント「[Requesting a code review with GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/use-copilot-cli-agents/agentic-code-review)」には「You can use the `/review` slash command to have Copilot analyze code changes without leaving the CLI. This lets you get quick feedback on your changes prior to committing.」と記載されているため、正解は **B** です。"
+      "explanation": "`/review` スラッシュコマンドを使うと、CLI を離れることなく Copilot がコードの変更を分析します。コミット前に素早くフィードバックを得るために使えます。プロンプト・パス・ファイルパターンを指定してレビュースコープを絞り込めます。\n\n📖 公式ドキュメント「[Requesting a code review with GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/use-copilot-cli-agents/agentic-code-review)」には「You can use the `/review` slash command to have Copilot analyze code changes without leaving the CLI. This lets you get quick feedback on your changes prior to committing.」と記載されているため、回答は 「コードの変更を分析してフィードバックを提供する」 です。"
     },
     {
       "questionNumber": 9,
@@ -243,7 +243,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "会話がトークン制限の 95% に近づくと、Copilot はワークフローを中断することなくバックグラウンドで履歴を自動的に圧縮します。これにより実質的に無限のセッションが可能になります。\n\n📖 公式ドキュメント「[About GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli)」には「When your conversation approaches 95% of the token limit, Copilot automatically compresses your history in the background without interrupting your workflow.」と記載されているため、正解は **D** です。"
+      "explanation": "会話がトークン制限の 95% に近づくと、Copilot はワークフローを中断することなくバックグラウンドで履歴を自動的に圧縮します。これにより実質的に無限のセッションが可能になります。\n\n📖 公式ドキュメント「[About GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli)」には「When your conversation approaches 95% of the token limit, Copilot automatically compresses your history in the background without interrupting your workflow.」と記載されているため、回答は 「95%」 です。"
     },
     {
       "questionNumber": 10,
@@ -270,7 +270,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "`copilot --continue` を使うと、最後に閉じたローカルセッションを即座に再開できます。`copilot --resume` はセッションピッカーを表示し、複数のセッションから選択できます。\n\n📖 公式ドキュメント「[Chronicle - Using Copilot CLI Session Data](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/chronicle)」には「To quickly resume the most recently closed local session, enter this in your terminal: `copilot --continue`」と記載されているため、正解は **C** です。"
+      "explanation": "`copilot --continue` を使うと、最後に閉じたローカルセッションを即座に再開できます。`copilot --resume` はセッションピッカーを表示し、複数のセッションから選択できます。\n\n📖 公式ドキュメント「[Chronicle - Using Copilot CLI Session Data](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/chronicle)」には「To quickly resume the most recently closed local session, enter this in your terminal: `copilot --continue`」と記載されているため、回答は 「`copilot --continue`」 です。"
     },
     {
       "questionNumber": 11,
@@ -297,7 +297,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "`/session` スラッシュコマンドで現在の対話型セッションの ID を確認できます。セッション ID は対話型セッションを終了するときにも表示されます。\n\n📖 公式ドキュメント「[Chronicle - Using Copilot CLI Session Data](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/chronicle)」には「You can find the ID of a current interactive session by using the `/session` slash command. The session ID is also displayed when you exit an interactive session.」と記載されているため、正解は **A** です。"
+      "explanation": "`/session` スラッシュコマンドで現在の対話型セッションの ID を確認できます。セッション ID は対話型セッションを終了するときにも表示されます。\n\n📖 公式ドキュメント「[Chronicle - Using Copilot CLI Session Data](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/chronicle)」には「You can find the ID of a current interactive session by using the `/session` slash command. The session ID is also displayed when you exit an interactive session.」と記載されているため、回答は 「`/session`」 です。"
     },
     {
       "questionNumber": 12,
@@ -324,7 +324,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "ファイルパスを指定しない場合、Markdown ファイルは現在の作業ディレクトリに `copilot-session-SESSIONID.md` という名前で保存されます（SESSIONID は実際のセッション ID）。\n\n📖 公式ドキュメント「[Chronicle - Using Copilot CLI Session Data](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/chronicle)」には「If you don't specify a file path, the Markdown file is saved in the current working directory with the name `copilot-session-SESSIONID.md`.」と記載されているため、正解は **A** です。"
+      "explanation": "ファイルパスを指定しない場合、Markdown ファイルは現在の作業ディレクトリに `copilot-session-SESSIONID.md` という名前で保存されます（SESSIONID は実際のセッション ID）。\n\n📖 公式ドキュメント「[Chronicle - Using Copilot CLI Session Data](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/chronicle)」には「If you don't specify a file path, the Markdown file is saved in the current working directory with the name `copilot-session-SESSIONID.md`.」と記載されているため、回答は 「`copilot-session-SESSIONID.md`」 です。"
     },
     {
       "questionNumber": 13,
@@ -351,7 +351,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "`/chronicle standup` はデフォルトで過去24時間のセッションに基づいてスタンドアップレポートを生成します。`/chronicle standup for the last 3 days` のように期間を指定してカスタマイズすることもできます。\n\n📖 公式ドキュメント「[Chronicle - Using Copilot CLI Session Data](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/chronicle)」には「This generates a short report based on your Copilot CLI sessions, by default from the last 24 hours.」と記載されているため、正解は **D** です。"
+      "explanation": "`/chronicle standup` はデフォルトで過去24時間のセッションに基づいてスタンドアップレポートを生成します。`/chronicle standup for the last 3 days` のように期間を指定してカスタマイズすることもできます。\n\n📖 公式ドキュメント「[Chronicle - Using Copilot CLI Session Data](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/chronicle)」には「This generates a short report based on your Copilot CLI sessions, by default from the last 24 hours.」と記載されているため、回答は 「過去24時間」 です。"
     },
     {
       "questionNumber": 14,
@@ -378,7 +378,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "Copilot CLI はすべてのセッションのデータを `~/.copilot/session-state/` ディレクトリに保存します。各セッションのデータにはプロンプト、応答、使用ツール、変更ファイルの詳細が含まれます。\n\n📖 公式ドキュメント「[Chronicle - Using Copilot CLI Session Data](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/chronicle)」には「Copilot CLI stores the data from your CLI sessions locally on your machine … in the `~/.copilot/session-state/` directory.」と記載されているため、正解は **B** です。"
+      "explanation": "Copilot CLI はすべてのセッションのデータを `~/.copilot/session-state/` ディレクトリに保存します。各セッションのデータにはプロンプト、応答、使用ツール、変更ファイルの詳細が含まれます。\n\n📖 公式ドキュメント「[Chronicle - Using Copilot CLI Session Data](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/chronicle)」には「Copilot CLI stores the data from your CLI sessions locally on your machine … in the `~/.copilot/session-state/` directory.」と記載されているため、回答は 「`~/.copilot/session-state/`」 です。"
     },
     {
       "questionNumber": 15,
@@ -405,7 +405,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "他の Chronicle 機能と異なり、`/chronicle improve` のスコープは**現在のリポジトリまたは作業ディレクトリに限定**されます。これにより、推奨事項が現在のプロジェクトに関連したものになります。\n\n📖 公式ドキュメント「[Chronicle - Using Copilot CLI Session Data](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/chronicle)」には「Unlike other times Copilot uses your session data … the scope of the `improve` subcommand is limited to data for the current repository or working directory.」と記載されているため、正解は **D** です。"
+      "explanation": "他の Chronicle 機能と異なり、`/chronicle improve` のスコープは**現在のリポジトリまたは作業ディレクトリに限定**されます。これにより、推奨事項が現在のプロジェクトに関連したものになります。\n\n📖 公式ドキュメント「[Chronicle - Using Copilot CLI Session Data](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/chronicle)」には「Unlike other times Copilot uses your session data … the scope of the `improve` subcommand is limited to data for the current repository or working directory.」と記載されているため、回答は 「現在のリポジトリ/作業ディレクトリのみ」 です。"
     },
     {
       "questionNumber": 16,
@@ -432,7 +432,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "`--allow-all`（エイリアス: `--yolo`）は `--allow-all-tools`（ツール承認をスキップ）、`--allow-all-paths`（パス検証を無効化）、`--allow-all-urls`（URL 検証を無効化）の3つを組み合わせたフラグです。\n\n📖 公式ドキュメント「[Configure GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/configure-copilot-cli)」には「To allow all tools, paths and URLs, use `--allow-all`, or its alias, `--yolo`. This flag combines: `--allow-all-tools` … `--allow-all-paths` … `--allow-all-urls`」と記載されているため、正解は **A** です。"
+      "explanation": "`--allow-all`（エイリアス: `--yolo`）は `--allow-all-tools`（ツール承認をスキップ）、`--allow-all-paths`（パス検証を無効化）、`--allow-all-urls`（URL 検証を無効化）の3つを組み合わせたフラグです。\n\n📖 公式ドキュメント「[Configure GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/configure-copilot-cli)」には「To allow all tools, paths and URLs, use `--allow-all`, or its alias, `--yolo`. This flag combines: `--allow-all-tools` … `--allow-all-paths` … `--allow-all-urls`」と記載されているため、回答は 「`--allow-all-tools`, `--allow-all-paths`, `--allow-all-urls`」 です。"
     },
     {
       "questionNumber": 17,
@@ -459,7 +459,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "`@` に続けてファイルへの相対パスを入力します。例: `Explain @config/ci/ci-required-checks.yml` や `Fix the bug in @src/app.js`。入力中はパス補完も機能します。\n\n📖 公式ドキュメント「[Using GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/use-copilot-cli-agents/overview)」には「To add a specific file to your prompt, use `@` followed by the relative path to the file. For example: `Explain @config/ci/ci-required-checks.yml`」と記載されているため、正解は **C** です。"
+      "explanation": "`@` に続けてファイルへの相対パスを入力します。例: `Explain @config/ci/ci-required-checks.yml` や `Fix the bug in @src/app.js`。入力中はパス補完も機能します。\n\n📖 公式ドキュメント「[Using GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/use-copilot-cli-agents/overview)」には「To add a specific file to your prompt, use `@` followed by the relative path to the file. For example: `Explain @config/ci/ci-required-checks.yml`」と記載されているため、回答は 「`@`」 です。"
     },
     {
       "questionNumber": 18,
@@ -486,7 +486,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "`!` をプロンプトの先頭に付けると、モデルを呼び出すことなくシェルコマンドを直接実行できます。例: `!git clone https://github.com/github/copilot-cli`。\n\n📖 公式ドキュメント「[Using GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/use-copilot-cli-agents/overview)」には「You can prepend your input with `!` to directly run shell commands, without making a call to the model.」と記載されているため、正解は **B** です。"
+      "explanation": "`!` をプロンプトの先頭に付けると、モデルを呼び出すことなくシェルコマンドを直接実行できます。例: `!git clone https://github.com/github/copilot-cli`。\n\n📖 公式ドキュメント「[Using GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/use-copilot-cli-agents/overview)」には「You can prepend your input with `!` to directly run shell commands, without making a call to the model.」と記載されているため、回答は 「`!`」 です。"
     },
     {
       "questionNumber": 19,
@@ -513,7 +513,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "`COPILOT_HOME` 環境変数を設定することで、設定ファイル（`config.json`）の保存場所をデフォルトの `~/.copilot/` から変更できます。\n\n📖 公式ドキュメント「[Configure GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/configure-copilot-cli)」には「You can change the config location by setting the `COPILOT_HOME` environment variable.」と記載されているため、正解は **A** です。"
+      "explanation": "`COPILOT_HOME` 環境変数を設定することで、設定ファイル（`config.json`）の保存場所をデフォルトの `~/.copilot/` から変更できます。\n\n📖 公式ドキュメント「[Configure GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/configure-copilot-cli)」には「You can change the config location by setting the `COPILOT_HOME` environment variable.」と記載されているため、回答は 「`COPILOT_HOME`」 です。"
     },
     {
       "questionNumber": 20,
@@ -540,7 +540,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "Copilot CLI はすべての Copilot プランで使用できます。ただし、組織から Copilot を受け取る場合は、組織の設定で Copilot CLI ポリシーが有効になっている必要があります。\n\n📖 公式ドキュメント「[About GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli)」には「GitHub Copilot CLI is available with all Copilot plans. If you receive Copilot from an organization, the Copilot CLI policy must be enabled in the organization's settings.」と記載されているため、正解は **C** です。"
+      "explanation": "Copilot CLI はすべての Copilot プランで使用できます。ただし、組織から Copilot を受け取る場合は、組織の設定で Copilot CLI ポリシーが有効になっている必要があります。\n\n📖 公式ドキュメント「[About GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli)」には「GitHub Copilot CLI is available with all Copilot plans. If you receive Copilot from an organization, the Copilot CLI policy must be enabled in the organization's settings.」と記載されているため、回答は 「すべての Copilot プラン」 です。"
     },
     {
       "questionNumber": 21,
@@ -567,7 +567,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "デフォルトでは、Copilot CLI は**現在の作業ディレクトリ、そのサブディレクトリ、およびシステム一時ディレクトリ**にアクセスできます。`--allow-all-paths` フラグで検証を無効化、`--disallow-temp-dir` で一時ディレクトリへのアクセスを禁止できます。\n\n📖 公式ドキュメント「[Configure GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/configure-copilot-cli)」には「By default, Copilot CLI can access the current working directory, its subdirectories, and the system temp directory.」と記載されているため、正解は **B** です。"
+      "explanation": "デフォルトでは、Copilot CLI は**現在の作業ディレクトリ、そのサブディレクトリ、およびシステム一時ディレクトリ**にアクセスできます。`--allow-all-paths` フラグで検証を無効化、`--disallow-temp-dir` で一時ディレクトリへのアクセスを禁止できます。\n\n📖 公式ドキュメント「[Configure GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/configure-copilot-cli)」には「By default, Copilot CLI can access the current working directory, its subdirectories, and the system temp directory.」と記載されているため、回答は 「現在の作業ディレクトリ、そのサブディレクトリ、システム一時ディレクトリ」 です。"
     },
     {
       "questionNumber": 22,
@@ -594,7 +594,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "`~/.copilot/config.json` の `trusted_folders` 配列を編集することで、永続的に信頼するディレクトリを管理できます。ディレクトリを信頼するとセキュリティに影響があるため、慎重に設定する必要があります。\n\n📖 公式ドキュメント「[Configure GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/configure-copilot-cli)」には「Edit the contents of the `trusted_folders` array.」と記載されているため、正解は **D** です。"
+      "explanation": "`~/.copilot/config.json` の `trusted_folders` 配列を編集することで、永続的に信頼するディレクトリを管理できます。ディレクトリを信頼するとセキュリティに影響があるため、慎重に設定する必要があります。\n\n📖 公式ドキュメント「[Configure GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/configure-copilot-cli)」には「Edit the contents of the `trusted_folders` array.」と記載されているため、回答は 「`trusted_folders`」 です。"
     },
     {
       "questionNumber": 23,
@@ -621,7 +621,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "Copilot がまだ処理中の状態で Esc キーを押すと、**現在実行中の操作が停止**されます。ツールの権限要求ダイアログでは、Esc は「いいえ」（別の方法を指示する）を選択した場合と同じ動作をします。\n\n📖 公式ドキュメント「[Using GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/use-copilot-cli-agents/overview)」には「If you enter a prompt and then decide you want to stop Copilot from completing the task while it is still 'Thinking,' press Esc.」と記載されているため、正解は **D** です。"
+      "explanation": "Copilot がまだ処理中の状態で Esc キーを押すと、**現在実行中の操作が停止**されます。ツールの権限要求ダイアログでは、Esc は「いいえ」（別の方法を指示する）を選択した場合と同じ動作をします。\n\n📖 公式ドキュメント「[Using GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/use-copilot-cli-agents/overview)」には「If you enter a prompt and then decide you want to stop Copilot from completing the task while it is still 'Thinking,' press Esc.」と記載されているため、回答は 「現在実行中の操作が停止される」 です。"
     },
     {
       "questionNumber": 24,
@@ -648,7 +648,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "macOS では OAuth トークンは **Keychain Access** に保存されます。Windows は Credential Manager、Linux は libsecret（GNOME Keyring, KWallet）が使われます。システムキーチェーンが利用できない場合は `~/.copilot/config.json` のプレーンテキストに保存するよう求められます。\n\n📖 公式ドキュメント「[Authenticate GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/authenticate-copilot-cli)」には「Platform: macOS | Keychain: Keychain Access … if the system keychain is unavailable … the CLI prompts you to store the token in a plaintext configuration file at `~/.copilot/config.json`.」と記載されているため、正解は **B** です。"
+      "explanation": "macOS では OAuth トークンは **Keychain Access** に保存されます。Windows は Credential Manager、Linux は libsecret（GNOME Keyring, KWallet）が使われます。システムキーチェーンが利用できない場合は `~/.copilot/config.json` のプレーンテキストに保存するよう求められます。\n\n📖 公式ドキュメント「[Authenticate GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/authenticate-copilot-cli)」には「Platform: macOS | Keychain: Keychain Access … if the system keychain is unavailable … the CLI prompts you to store the token in a plaintext configuration file at `~/.copilot/config.json`.」と記載されているため、回答は 「Keychain Access（キーチェーンアクセス）」 です。"
     },
     {
       "questionNumber": 25,
@@ -675,7 +675,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "Fine-grained PAT を Copilot CLI で使用するには、**\"Copilot Requests\"** 権限を付与する必要があります。この権限がないと認証が失敗します。\n\n📖 公式ドキュメント「[Authenticate GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/authenticate-copilot-cli)」には「Fine-grained PAT | `github_pat_` | Yes | Must include required permissions **Copilot Requests**」と記載されているため、正解は **C** です。"
+      "explanation": "Fine-grained PAT を Copilot CLI で使用するには、**\"Copilot Requests\"** 権限を付与する必要があります。この権限がないと認証が失敗します。\n\n📖 公式ドキュメント「[Authenticate GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/authenticate-copilot-cli)」には「Fine-grained PAT | `github_pat_` | Yes | Must include required permissions **Copilot Requests**」と記載されているため、回答は 「\"Copilot Requests\"」 です。"
     },
     {
       "questionNumber": 26,
@@ -702,7 +702,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "`/share gist` コマンドはセッションの内容を GitHub.com 上の**プライベート gist** として保存します。パブリックではなくプライベートな gist として作成されるため、URL を知っている人だけがアクセスできます。\n\n📖 公式ドキュメント「[Using GitHub Copilot CLI session data](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/chronicle)」には「You can save the content of the current session as either a Markdown file or a **private gist** on GitHub.com.（セッションの内容を Markdown ファイルまたは GitHub.com 上のプライベート gist として保存できます）」と記載されているため、正解は **B** です。"
+      "explanation": "`/share gist` コマンドはセッションの内容を GitHub.com 上の**プライベート gist** として保存します。パブリックではなくプライベートな gist として作成されるため、URL を知っている人だけがアクセスできます。\n\n📖 公式ドキュメント「[Using GitHub Copilot CLI session data](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/chronicle)」には「You can save the content of the current session as either a Markdown file or a **private gist** on GitHub.com.（セッションの内容を Markdown ファイルまたは GitHub.com 上のプライベート gist として保存できます）」と記載されているため、回答は 「プライベート」 です。"
     },
     {
       "questionNumber": 27,
@@ -729,7 +729,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "`/chronicle` コマンドなどの実験的機能は、`/experimental on` スラッシュコマンドまたは `--experimental` コマンドラインオプションを使用した場合のみ利用できます。Beta フラグや Enterprise ライセンスだけでは有効化できません。\n\n📖 公式ドキュメント「[Using GitHub Copilot CLI session data](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/chronicle)」には「The /chronicle command...are currently experimental features and are only available if you have used the `/experimental on` slash command, or the `--experimental` command line option.（`/chronicle` コマンドは実験的機能であり、`/experimental on` スラッシュコマンドまたは `--experimental` コマンドラインオプションを使用した場合のみ利用できます）」と記載されているため、正解は **A** です。"
+      "explanation": "`/chronicle` コマンドなどの実験的機能は、`/experimental on` スラッシュコマンドまたは `--experimental` コマンドラインオプションを使用した場合のみ利用できます。Beta フラグや Enterprise ライセンスだけでは有効化できません。\n\n📖 公式ドキュメント「[Using GitHub Copilot CLI session data](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/chronicle)」には「The /chronicle command...are currently experimental features and are only available if you have used the `/experimental on` slash command, or the `--experimental` command line option.（`/chronicle` コマンドは実験的機能であり、`/experimental on` スラッシュコマンドまたは `--experimental` コマンドラインオプションを使用した場合のみ利用できます）」と記載されているため、回答は 「`--experimental` フラグまたは `/experimental on` コマンド」 です。"
     },
     {
       "questionNumber": 28,
@@ -756,7 +756,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "Copilot CLI はセッション履歴の構造化データを `~/.copilot/session-store.db` というローカルの **SQLite** データベースに保存します。このデータベースは `/chronicle` コマンドや過去セッションへの質問応答に使用されます。\n\n📖 公式ドキュメント「[GitHub Copilot CLI configuration directory](https://docs.github.com/en/copilot/reference/copilot-cli-reference/cli-config-dir-reference)」には「session-store.db — A SQLite database used by the CLI for cross-session data such as checkpoint indexing and search.（セッション間データ用の SQLite データベース）」と記載されているため、正解は **C** です。"
+      "explanation": "Copilot CLI はセッション履歴の構造化データを `~/.copilot/session-store.db` というローカルの **SQLite** データベースに保存します。このデータベースは `/chronicle` コマンドや過去セッションへの質問応答に使用されます。\n\n📖 公式ドキュメント「[GitHub Copilot CLI configuration directory](https://docs.github.com/en/copilot/reference/copilot-cli-reference/cli-config-dir-reference)」には「session-store.db — A SQLite database used by the CLI for cross-session data such as checkpoint indexing and search.（セッション間データ用の SQLite データベース）」と記載されているため、回答は 「SQLite」 です。"
     },
     {
       "questionNumber": 29,
@@ -783,7 +783,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "`gh copilot suggest` の `-t`（`--target`）フラグには `shell`（シェルコマンド）、`git`（Git 操作）、`gh`（GitHub CLI コマンド）の 3 種類を指定できます。デフォルト値は `shell` です。\n\n📖 公式ドキュメント「[Using GitHub Copilot in the CLI](https://docs.github.com/en/copilot/github-copilot-in-the-cli/using-github-copilot-in-the-cli)」には「`gh copilot suggest` accepts a `--target` (`-t`) flag specifying the target shell type: `shell`, `git`, or `gh`, defaulting to `shell`.（`--target` フラグには `shell`、`git`、`gh` を指定でき、デフォルトは `shell`）」と記載されているため、正解は **B** です。"
+      "explanation": "`gh copilot suggest` の `-t`（`--target`）フラグには `shell`（シェルコマンド）、`git`（Git 操作）、`gh`（GitHub CLI コマンド）の 3 種類を指定できます。デフォルト値は `shell` です。\n\n📖 公式ドキュメント「[Using GitHub Copilot in the CLI](https://docs.github.com/en/copilot/github-copilot-in-the-cli/using-github-copilot-in-the-cli)」には「`gh copilot suggest` accepts a `--target` (`-t`) flag specifying the target shell type: `shell`, `git`, or `gh`, defaulting to `shell`.（`--target` フラグには `shell`、`git`、`gh` を指定でき、デフォルトは `shell`）」と記載されているため、回答は 「`shell`, `git`, `gh`」 です。"
     },
     {
       "questionNumber": 30,
@@ -810,7 +810,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "Windows では PowerShell と WSL（Windows Subsystem for Linux）の両方でサポートされています。Windows Terminal 単独では記載されていません。\n\n📖 公式ドキュメント「[About GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli)」には「Supported operating systems: Linux / macOS / Windows from within Powershell and Windows Subsystem for Linux (WSL).（サポートされる OS として Windows では PowerShell と WSL が列挙されています）」と記載されているため、正解は **C** です。"
+      "explanation": "Windows では PowerShell と WSL（Windows Subsystem for Linux）の両方でサポートされています。Windows Terminal 単独では記載されていません。\n\n📖 公式ドキュメント「[About GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli)」には「Supported operating systems: Linux / macOS / Windows from within Powershell and Windows Subsystem for Linux (WSL).（サポートされる OS として Windows では PowerShell と WSL が列挙されています）」と記載されているため、回答は 「PowerShell と WSL」 です。"
     },
     {
       "questionNumber": 31,
@@ -843,7 +843,7 @@
         "B",
         "C"
       ],
-      "explanation": "Copilot CLI がサポートする認証方法は「OAuth デバイスフロー」「環境変数（`COPILOT_GITHUB_TOKEN` など）」「GitHub CLI へのフォールバック（`gh auth token`）」の 3 つです。SSH キーと Classic PAT（`ghp_`）は認証方法としてサポートされていません。\n\n📖 公式ドキュメント「[Authenticating GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/authenticate-copilot-cli)」には「GitHub Copilot CLI supports three authentication methods: OAuth device flow / Environment variables / GitHub CLI fallback.（OAuth デバイスフロー、環境変数、GitHub CLI フォールバックの 3 種類の認証方法をサポートします）」と記載されているため、正解は **A, B, D** です。",
+      "explanation": "Copilot CLI がサポートする認証方法は「OAuth デバイスフロー」「環境変数（`COPILOT_GITHUB_TOKEN` など）」「GitHub CLI へのフォールバック（`gh auth token`）」の 3 つです。SSH キーと Classic PAT（`ghp_`）は認証方法としてサポートされていません。\n\n📖 公式ドキュメント「[Authenticating GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/authenticate-copilot-cli)」には「GitHub Copilot CLI supports three authentication methods: OAuth device flow / Environment variables / GitHub CLI fallback.（OAuth デバイスフロー、環境変数、GitHub CLI フォールバックの 3 種類の認証方法をサポートします）」と記載されているため、正しい選択肢は 「OAuth デバイスフロー（対話型の既定の方法）」「環境変数（`COPILOT_GITHUB_TOKEN` など）」「GitHub CLI へのフォールバック（`gh auth token`）」 です。",
       "selectionCount": 3
     },
     {
@@ -877,7 +877,7 @@
         "C",
         "E"
       ],
-      "explanation": "OAuth トークン（`gho_`）、Fine-grained PAT（`github_pat_`）、GitHub Apps ユーザーとサーバー間トークン（`ghu_`）がサポートされます。Classic PAT（`ghp_`）は公式ドキュメントで明示的に「No」と記載されています。\n\n📖 公式ドキュメント「[Authenticating GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/authenticate-copilot-cli)」には「Classic PAT — `ghp_` — Supported: No — Not supported by Copilot CLI.（Classic PAT は Copilot CLI でサポートされていません）」と記載されているため、正解は **A, B, D** です。",
+      "explanation": "OAuth トークン（`gho_`）、Fine-grained PAT（`github_pat_`）、GitHub Apps ユーザーとサーバー間トークン（`ghu_`）がサポートされます。Classic PAT（`ghp_`）は公式ドキュメントで明示的に「No」と記載されています。\n\n📖 公式ドキュメント「[Authenticating GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/authenticate-copilot-cli)」には「Classic PAT — `ghp_` — Supported: No — Not supported by Copilot CLI.」と記載されているため、正しい選択肢は 「GitHub Apps ユーザーとサーバー間トークン（`ghu_` プレフィックス）」「OAuth トークン（`gho_` プレフィックス）」「Fine-grained PAT（`github_pat_` プレフィックス）」 です。",
       "selectionCount": 3
     },
     {
@@ -912,7 +912,7 @@
         "D",
         "E"
       ],
-      "explanation": "`/chronicle` がサポートするサブコマンドは `standup`、`tips`、`improve`、`reindex` の 4 つです。`history` というサブコマンドは存在せず、過去の履歴への質問はフリーフォームで直接行います。\n\n📖 公式ドキュメント「[Using GitHub Copilot CLI session data](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/chronicle)」には「/chronicle subcommands: standup（スタンドアップレポート生成）/ tips（パーソナライズされたヒント） / improve（カスタム指示の改善提案）/ reindex（セッションストアの再インデックス）」と記載されているため、正解は **A, B, C, D** です。",
+      "explanation": "`/chronicle` がサポートするサブコマンドは `standup`、`tips`、`improve`、`reindex` の 4 つです。`history` というサブコマンドは存在せず、過去の履歴への質問はフリーフォームで直接行います。\n\n📖 公式ドキュメント「[Using GitHub Copilot CLI session data](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/chronicle)」には「/chronicle subcommands: standup（スタンドアップレポート生成）/ tips（パーソナライズされたヒント） / improve（カスタム指示の改善提案）/ reindex（セッションストアの再インデックス）」と記載されているため、正しい選択肢は 「`reindex`」「`standup`」「`improve`」「`tips`」 です。",
       "selectionCount": 4
     },
     {
@@ -941,7 +941,7 @@
         "A",
         "D"
       ],
-      "explanation": "`/share` コマンドは `gist`（GitHub.com のプライベート gist として保存）と `file`（Markdown ファイルとして保存）の 2 つのオプションをサポートします。メール送信や Slack 投稿の機能はありません。\n\n📖 公式ドキュメント「[Using GitHub Copilot CLI session data](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/chronicle)」には「To share a session as a gist, type `/share gist`. To export the session conversation as a Markdown file, type `/share file [PATH-TO-FILE]`.（セッションは gist またはファイルの 2 種類で共有できます）」と記載されているため、正解は **A, B** です。",
+      "explanation": "`/share` コマンドは `gist`（GitHub.com のプライベート gist として保存）と `file`（Markdown ファイルとして保存）の 2 つのオプションをサポートします。メール送信や Slack 投稿の機能はありません。\n\n📖 公式ドキュメント「[Using GitHub Copilot CLI session data](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/chronicle)」には「To share a session as a gist, type `/share gist`. To export the session conversation as a Markdown file, type `/share file [PATH-TO-FILE]`.（セッションは gist またはファイルの 2 種類で共有できます）」と記載されているため、正しい選択肢は 「`file`（Markdown ファイルとして保存）」「`gist`（GitHub.com のプライベート gist として保存）」 です。",
       "selectionCount": 2
     },
     {
@@ -977,7 +977,7 @@
         "D",
         "E"
       ],
-      "explanation": "コマンドラインからは `--continue`（最近のセッション）、`--resume`（ピッカー表示）、`--resume SESSION-ID`（特定セッション）で再開できます。対話型セッション中は `/resume`（ピッカー表示）や `/resume SESSION-ID`（特定セッション）も使用でき、5 つすべての方法が有効です。\n\n📖 公式ドキュメント「[Using GitHub Copilot CLI session data](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/chronicle)」には「From the command line, run `copilot --continue` to resume your most recent session. `copilot --resume` opens a session picker. `copilot --resume SESSION-ID` jumps straight into it. During an interactive session, type `/resume` to switch to a different session, or `/resume SESSION-ID` to jump to a specific session.（コマンドラインと対話型セッションの両方から合計 5 種類の方法で再開できます）」と記載されているため、正解は **A, B, C, D, E** です。",
+      "explanation": "コマンドラインからは `--continue`（最近のセッション）、`--resume`（ピッカー表示）、`--resume SESSION-ID`（特定セッション）で再開できます。対話型セッション中は `/resume`（ピッカー表示）や `/resume SESSION-ID`（特定セッション）も使用でき、5 つすべての方法が有効です。\n\n📖 公式ドキュメント「[Using GitHub Copilot CLI session data](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/chronicle)」には「From the command line, run `copilot --continue` to resume your most recent session. `copilot --resume` opens a session picker. `copilot --resume SESSION-ID` jumps straight into it. During an interactive session, type `/resume` to switch to a different session, or `/resume SESSION-ID` to jump to a specific session.（コマンドラインと対話型セッションの両方から合計 5 種類の方法で再開できます）」と記載されているため、正しい選択肢は 「対話型セッション中に `/resume SESSION-ID` を使用（特定のセッションへジャンプ）」「`copilot --resume SESSION-ID`（特定のセッションを直接再開）」「対話型セッション中に `/resume` を使用（別のセッションに切り替え）」「`copilot --resume`（セッションピッカーを表示）」「`copilot --continue`（最後のセッションを即座に再開）」 です。",
       "selectionCount": 5
     },
     {
@@ -1011,7 +1011,7 @@
         "C",
         "D"
       ],
-      "explanation": "Copilot CLI は Linux、macOS、Windows（PowerShell または WSL 経由）をサポートします。iOS と Android はサポートされていません。\n\n📖 公式ドキュメント「[About GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli)」には「Supported operating systems: Linux / macOS / Windows from within Powershell and Windows Subsystem for Linux (WSL).（サポートされる OS は Linux、macOS、Windows（PowerShell/WSL 経由）のみです）」と記載されているため、正解は **A, B, C** です。",
+      "explanation": "Copilot CLI は Linux、macOS、Windows（PowerShell または WSL 経由）をサポートします。iOS と Android はサポートされていません。\n\n📖 公式ドキュメント「[About GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli)」には「Supported operating systems: Linux / macOS / Windows from within Powershell and Windows Subsystem for Linux (WSL).（サポートされる OS は Linux、macOS、Windows（PowerShell/WSL 経由）のみです）」と記載されているため、正しい選択肢は 「macOS」「Linux」「Windows（PowerShell または WSL 経由）」 です。",
       "selectionCount": 3
     },
     {
@@ -1046,7 +1046,7 @@
         "D",
         "E"
       ],
-      "explanation": "Copilot CLI はセッションの「ユーザーのプロンプト」「Copilot の応答」「使用されたツール」「変更されたファイルの詳細」をローカルに記録します。ネットワークトラフィックログは記録されません。\n\n📖 公式ドキュメント「[About GitHub Copilot CLI session data](https://docs.github.com/en/enterprise-cloud@latest/copilot/concepts/agents/copilot-cli/chronicle)」には「Every time you use Copilot CLI, a complete set of data about your session—including your prompts, Copilot's responses, the tools that were used, and details of files that were modified—is recorded on your local machine.（プロンプト、応答、使用ツール、変更ファイルの詳細がローカルに記録されます）」と記載されているため、正解は **A, B, C, D** です。",
+      "explanation": "Copilot CLI はセッションの「ユーザーのプロンプト」「Copilot の応答」「使用されたツール」「変更されたファイルの詳細」をローカルに記録します。ネットワークトラフィックログは記録されません。\n\n📖 公式ドキュメント「[About GitHub Copilot CLI session data](https://docs.github.com/en/enterprise-cloud@latest/copilot/concepts/agents/copilot-cli/chronicle)」には「Every time you use Copilot CLI, a complete set of data about your session—including your prompts, Copilot's responses, the tools that were used, and details of files that were modified—is recorded on your local machine.（プロンプト、応答、使用ツール、変更ファイルの詳細がローカルに記録されます）」と記載されているため、正しい選択肢は 「ユーザーのプロンプト」「使用されたツール」「変更されたファイルの詳細」「Copilot の応答」 です。",
       "selectionCount": 4
     },
     {
@@ -1080,7 +1080,7 @@
         "C",
         "E"
       ],
-      "explanation": "`--allow-all`（または `--yolo`）は `--allow-all-tools`、`--allow-all-paths`、`--allow-all-urls` の 3 つを組み合わせたショートカットフラグです。`--allow-all-files` や `--allow-all-domains` は存在しません。\n\n📖 公式ドキュメント「[Configure GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/configure-copilot-cli)」には「To allow all tools, paths and URLs, use `--allow-all`, or its alias, `--yolo`. This flag combines: `--allow-all-tools` / `--allow-all-paths` / `--allow-all-urls`.（このフラグは 3 つのフラグを組み合わせたものです）」と記載されているため、正解は **A, B, C** です。",
+      "explanation": "`--allow-all`（または `--yolo`）は `--allow-all-tools`、`--allow-all-paths`、`--allow-all-urls` の 3 つを組み合わせたショートカットフラグです。`--allow-all-files` や `--allow-all-domains` は存在しません。\n\n📖 公式ドキュメント「[Configure GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/configure-copilot-cli)」には「To allow all tools, paths and URLs, use `--allow-all`, or its alias, `--yolo`. This flag combines: `--allow-all-tools` / `--allow-all-paths` / `--allow-all-urls`.（このフラグは 3 つのフラグを組み合わせたものです）」と記載されているため、正しい選択肢は 「`--allow-all-paths`」「`--allow-all-tools`」「`--allow-all-urls`」 です。",
       "selectionCount": 3
     },
     {
@@ -1115,7 +1115,7 @@
         "D",
         "E"
       ],
-      "explanation": "`--allow-all-tools`、`--allow-tool`、`--deny-tool`、`--available-tools` がツール権限の制御に使用できます。`--block-tool` は存在せず、ツールの拒否には `--deny-tool` を使います。\n\n📖 公式ドキュメント「[Configure GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/configure-copilot-cli)」には「Use `--allow-all-tools` to allow any tool / `--allow-tool` to allow a specific tool / `--deny-tool` to prevent a specific tool / `--available-tools` to restrict Copilot to a specific set of tools.（4 種類のフラグでツール権限を細かく制御できます）」と記載されているため、正解は **A, B, C, D** です。",
+      "explanation": "`--allow-all-tools`、`--allow-tool`、`--deny-tool`、`--available-tools` がツール権限の制御に使用できます。`--block-tool` は存在せず、ツールの拒否には `--deny-tool` を使います。\n\n📖 公式ドキュメント「[Configure GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/configure-copilot-cli)」には「Use `--allow-all-tools` to allow any tool / `--allow-tool` to allow a specific tool / `--deny-tool` to prevent a specific tool / `--available-tools` to restrict Copilot to a specific set of tools.（4 種類のフラグでツール権限を細かく制御できます）」と記載されているため、正しい選択肢は 「`--allow-all-tools`」「`--available-tools`」「`--deny-tool`」「`--allow-tool`」 です。",
       "selectionCount": 4
     },
     {
@@ -1150,7 +1150,7 @@
         "D",
         "E"
       ],
-      "explanation": "セッションデータにより「以前のセッションの再開」「過去の作業に関する質問」「`/chronicle standup` によるレポート生成」「`/chronicle improve` によるカスタム指示改善提案」が可能になります。セッションデータは GitHub.com に自動同期されません（D は誤り）。\n\n📖 公式ドキュメント「[About GitHub Copilot CLI session data](https://docs.github.com/en/enterprise-cloud@latest/copilot/concepts/agents/copilot-cli/chronicle)」には「This session data allows you to: Resume previous sessions / Use the /chronicle slash command to generate standup reports, get personalized tips, and receive suggestions for improving your .github/copilot-instructions.md file / Ask Copilot questions about your past interactions. （セッションデータによって再開・質問・chronicle コマンドが利用できます。GitHub.com への自動同期は行われません）」と記載されているため、正解は **A, B, C, E** です。",
+      "explanation": "セッションデータにより「以前のセッションの再開」「過去の作業に関する質問」「`/chronicle standup` によるレポート生成」「`/chronicle improve` によるカスタム指示改善提案」が可能になります。セッションデータは GitHub.com に自動同期されません。\n\n📖 公式ドキュメント「[About GitHub Copilot CLI session data](https://docs.github.com/en/enterprise-cloud@latest/copilot/concepts/agents/copilot-cli/chronicle)」には「This session data allows you to: Resume previous sessions / Use the /chronicle slash command to generate standup reports, get personalized tips, and receive suggestions for improving your .github/copilot-instructions.md file / Ask Copilot questions about your past interactions. （セッションデータによって再開・質問・chronicle コマンドが利用できます。GitHub.com への自動同期は行われません）」と記載されているため、正しい選択肢は 「以前のセッションの再開」「`/chronicle improve` でカスタム指示の改善提案を得る」「`/chronicle standup` でスタンドアップレポートを生成」「過去の作業について Copilot に質問できる」 です。",
       "selectionCount": 4
     },
     {
@@ -1185,7 +1185,7 @@
         "C",
         "E"
       ],
-      "explanation": "`gh copilot suggest` は `-t` フラグで `shell`/`git`/`gh` を指定でき（デフォルトは `shell`）、`gh copilot explain` はコマンドの動作を説明し、`gh copilot alias` は `ghcs`・`ghce` エイリアスを生成します。E は誤りで、`gh copilot` は GitHub CLI（`gh`）が必要です。\n\n📖 公式ドキュメント「[Using GitHub Copilot in the CLI](https://docs.github.com/en/copilot/github-copilot-in-the-cli/using-github-copilot-in-the-cli)」には「`gh copilot suggest` — Use `-t` / `--target` to specify the target type (`shell`, `git`, or `gh`; default: `shell`). `gh copilot explain` explains a command. `gh copilot alias` generates shell aliases `ghcs` and `ghce`.（suggest/explain/alias コマンドが提供され、gh CLI が必要です）」と記載されているため、正解は **A, B, C, D** です。",
+      "explanation": "`gh copilot suggest` は `-t` フラグで `shell`/`git`/`gh` を指定でき（デフォルトは `shell`）、`gh copilot explain` はコマンドの動作を説明し、`gh copilot alias` は `ghcs`・`ghce` エイリアスを生成します。E は誤りで、`gh copilot` は GitHub CLI（`gh`）が必要です。\n\n📖 公式ドキュメント「[Using GitHub Copilot in the CLI](https://docs.github.com/en/copilot/github-copilot-in-the-cli/using-github-copilot-in-the-cli)」には「`gh copilot suggest` — Use `-t` / `--target` to specify the target type (`shell`, `git`, or `gh`; default: `shell`). `gh copilot explain` explains a command. `gh copilot alias` generates shell aliases `ghcs` and `ghce`.（suggest/explain/alias コマンドが提供され、gh CLI が必要です）」と記載されているため、正しい選択肢は 「`gh copilot explain` は指定したコマンドの意味や動作を説明する」「`gh copilot alias` はシェル関数のエイリアスを生成し、`ghcs`（suggest）や `ghce`（explain）として使える」「`gh copilot suggest` の `-t` フラグのデフォルト値は `shell`」「`gh copilot suggest` では `-t` フラグでコマンドの種類（shell/git/gh）を指定できる」 です。",
       "selectionCount": 4
     },
     {
@@ -1221,7 +1221,7 @@
         "D",
         "E"
       ],
-      "explanation": "カスタム指示、MCP サーバー、カスタムエージェント、フック、スキルすべてがCopilot CLI のカスタマイズオプションとして公式ドキュメントに記載されています。\n\n📖 公式ドキュメント「[About GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli)」には「Customizing GitHub Copilot CLI: Custom instructions / MCP servers / Custom agents / Hooks / Skills.（カスタム指示、MCP サーバー、カスタムエージェント、フック、スキルの 5 つがカスタマイズオプションです）」と記載されているため、正解は **A, B, C, D, E** です。",
+      "explanation": "カスタム指示、MCP サーバー、カスタムエージェント、フック、スキルすべてがCopilot CLI のカスタマイズオプションとして公式ドキュメントに記載されています。\n\n📖 公式ドキュメント「[About GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli)」には「Customizing GitHub Copilot CLI: Custom instructions / MCP servers / Custom agents / Hooks / Skills.（カスタム指示、MCP サーバー、カスタムエージェント、フック、スキルの 5 つがカスタマイズオプションです）」と記載されているため、正しい選択肢は 「フック（Hooks）」「カスタム指示（`.github/copilot-instructions.md`）」「スキル（Skills）」「カスタムエージェント」「MCP（Model Context Protocol）サーバー」 です。",
       "selectionCount": 5
     },
     {
@@ -1255,7 +1255,7 @@
         "B",
         "E"
       ],
-      "explanation": "Copilot CLI はトークン制限の 95% 到達時に自動圧縮（Auto-compaction）、`/compact` による手動圧縮、`/context` によるトークン使用量確認を提供します。クラウドへの自動保存や定期的な自動要約機能は存在しません。\n\n📖 公式ドキュメント「[About GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli)」には「Auto-compaction: When your conversation approaches 95% of the token limit, Copilot automatically compresses your history in the background. Manual control: Use `/compact` to manually compress context anytime. Visualize usage: The `/context` command shows a detailed token usage breakdown.（95% 到達時の自動圧縮、/compact による手動圧縮、/context による可視化の 3 機能が記載されています）」と記載されているため、正解は **A, B, C** です。",
+      "explanation": "Copilot CLI はトークン制限の 95% 到達時に自動圧縮、`/compact` による手動圧縮、`/context` によるトークン使用量確認を提供します。クラウドへの自動保存や定期的な自動要約機能は存在しません。\n\n📖 公式ドキュメント「[About GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/about-copilot-cli)」には「Auto-compaction: When your conversation approaches 95% of the token limit, Copilot automatically compresses your history in the background. Manual control: Use `/compact` to manually compress context anytime. Visualize usage: The `/context` command shows a detailed token usage breakdown.（95% 到達時の自動圧縮、/compact による手動圧縮、/context による可視化の 3 機能が記載されています）」と記載されているため、正しい選択肢は 「手動圧縮のための `/compact` コマンド」「トークン使用量を確認するための `/context` コマンド」「トークン制限の 95% で自動圧縮（バックグラウンドで実行）」 です。",
       "selectionCount": 3
     },
     {
@@ -1289,7 +1289,7 @@
         "D",
         "E"
       ],
-      "explanation": "`/chronicle tips` は実際のプロンプトとツール使用状況を分析し、利用可能なすべての CLI 機能とクロスリファレンスして 3〜5 個のパーソナライズされた推奨事項を提供します。コード品質メトリクスやセキュリティ脆弱性レポートの機能はありません。\n\n📖 公式ドキュメント「[Using GitHub Copilot CLI session data](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/chronicle)」には「/chronicle tips analyzes your recent sessions... provides 3–5 personalized recommendations. Copilot examines your actual prompts, the tools you use, and the features you haven't tried yet. It cross-references this with the full set of available CLI features.（実際の使用状況を分析して 3〜5 個の推奨事項を提供し、すべての CLI 機能とクロスリファレンスします）」と記載されているため、正解は **A, B, C** です。",
+      "explanation": "`/chronicle tips` は実際のプロンプトとツール使用状況を分析し、利用可能なすべての CLI 機能とクロスリファレンスして 3〜5 個のパーソナライズされた推奨事項を提供します。コード品質メトリクスやセキュリティ脆弱性レポートの機能はありません。\n\n📖 公式ドキュメント「[Using GitHub Copilot CLI session data](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/chronicle)」には「/chronicle tips analyzes your recent sessions... provides 3–5 personalized recommendations. Copilot examines your actual prompts, the tools you use, and the features you haven't tried yet. It cross-references this with the full set of available CLI features.（実際の使用状況を分析して 3〜5 個の推奨事項を提供し、すべての CLI 機能とクロスリファレンスします）」と記載されているため、正しい選択肢は 「利用可能なすべての CLI 機能とクロスリファレンスを行う」「3〜5個のパーソナライズされた推奨事項を提供する」「実際のプロンプトとツール使用状況を分析する」 です。",
       "selectionCount": 3
     },
     {
@@ -1324,7 +1324,7 @@
         "D",
         "E"
       ],
-      "explanation": "`/chronicle standup` はブランチ名、達成したこと、参照された PR や Issue、完了ステータス（Done/In Progress）を出力します。タスクごとの所要時間（D）は含まれません。\n\n📖 公式ドキュメント「[Using GitHub Copilot CLI session data](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/chronicle)」には「Copilot looks at which branches you worked on, what you accomplished, and any GitHub pull requests or issues you referenced. It groups the output by completion status.（ブランチ名・達成内容・PR/Issue・完了ステータスでグループ化して出力します）」と記載されているため、正解は **A, B, C, E** です。",
+      "explanation": "`/chronicle standup` はブランチ名、達成したこと、参照された PR や Issue、完了ステータスを出力します。タスクごとの所要時間は含まれません。\n\n📖 公式ドキュメント「[Using GitHub Copilot CLI session data](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/chronicle)」には「Copilot looks at which branches you worked on, what you accomplished, and any GitHub pull requests or issues you referenced. It groups the output by completion status.（ブランチ名・達成内容・PR/Issue・完了ステータスでグループ化して出力します）」と記載されているため、正しい選択肢は 「参照された GitHub の PR や Issue」「達成したこと」「完了ステータス」「作業したブランチ名」 です。",
       "selectionCount": 4
     },
     {
@@ -1353,7 +1353,7 @@
         "B",
         "C"
       ],
-      "explanation": "パスアクセス許可は `--allow-all-paths`（全パスへのアクセスを許可）と `--disallow-temp-dir`（一時ディレクトリへのアクセスを拒否）で制御できます。`--restrict-path` や `--deny-path` は公式ドキュメントに存在しません。\n\n📖 公式ドキュメント「[Configure GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/configure-copilot-cli)」には「To disable path verification and allow access to any path, use the `--allow-all-paths` flag. To disallow access to the temp directory, use `--disallow-temp-dir`.（パスアクセス許可を制御するフラグは `--allow-all-paths` と `--disallow-temp-dir` の 2 つです）」と記載されているため、正解は **A, B** です。",
+      "explanation": "パスアクセス許可は `--allow-all-paths`（全パスへのアクセスを許可）と `--disallow-temp-dir`（一時ディレクトリへのアクセスを拒否）で制御できます。`--restrict-path` や `--deny-path` は公式ドキュメントに存在しません。\n\n📖 公式ドキュメント「[Configure GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/configure-copilot-cli)」には「To disable path verification and allow access to any path, use the `--allow-all-paths` flag. To disallow access to the temp directory, use `--disallow-temp-dir`.（パスアクセス許可を制御するフラグは `--allow-all-paths` と `--disallow-temp-dir` の 2 つです）」と記載されているため、正しい選択肢は 「`--allow-all-paths`」「`--disallow-temp-dir`」 です。",
       "selectionCount": 2
     },
     {
@@ -1388,7 +1388,7 @@
         "C",
         "E"
       ],
-      "explanation": "コマンドラインからは `--allow-all` または `--yolo` フラグで、対話型セッション中は `/allow-all` または `/yolo` スラッシュコマンドで全権限を許可できます。`--auto-approve` は存在しません（E は誤り）。\n\n📖 公式ドキュメント「[Configure GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/configure-copilot-cli)」には「To allow all tools, paths and URLs, use `--allow-all`, or its alias, `--yolo`. During an interactive session, you can also enable all permissions with the `/allow-all` or `/yolo` slash commands.（コマンドラインは --allow-all/--yolo、対話型セッションは /allow-all//yolo で全権限を許可できます）」と記載されているため、正解は **A, B, C, D** です。",
+      "explanation": "コマンドラインからは `--allow-all` または `--yolo` フラグで、対話型セッション中は `/allow-all` または `/yolo` スラッシュコマンドで全権限を許可できます。`--auto-approve` は存在しません。\n\n📖 公式ドキュメント「[Configure GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/configure-copilot-cli)」には「To allow all tools, paths and URLs, use `--allow-all`, or its alias, `--yolo`. During an interactive session, you can also enable all permissions with the `/allow-all` or `/yolo` slash commands.（コマンドラインは --allow-all/--yolo、対話型セッションは /allow-all//yolo で全権限を許可できます）」と記載されているため、正しい選択肢は 「コマンドライン起動時: `copilot --yolo`」「コマンドライン起動時: `copilot --allow-all`」「対話型セッション中: `/allow-all` スラッシュコマンド」「対話型セッション中: `/yolo` スラッシュコマンド」 です。",
       "selectionCount": 4
     },
     {
@@ -1423,7 +1423,7 @@
         "C",
         "D"
       ],
-      "explanation": "Fine-grained PAT には「Copilot Requests」権限が必要で `github_pat_` プレフィックスを持ち、環境変数経由で使用可能で CI/CD などの非対話型環境に最適です。Classic PAT（`ghp_`）はサポートされないため「Classic PAT と同様にサポートされる」という D は誤りです。\n\n📖 公式ドキュメント「[Authenticating GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/authenticate-copilot-cli)」には「Fine-grained PAT — `github_pat_` — Supported: Yes — Must include required permissions **Copilot Requests**. For non-interactive environments, you can authenticate by setting an environment variable. This is ideal for CI/CD pipelines, containers, or headless servers.（Fine-grained PAT は Copilot Requests 権限が必要で非対話型環境に最適です。 Classic PAT は非サポートです）」と記載されているため、正解は **A, B, C, E** です。",
+      "explanation": "Fine-grained PAT には「Copilot Requests」権限が必要で `github_pat_` プレフィックスを持ち、環境変数経由で使用可能で CI/CD などの非対話型環境に最適です。Classic PAT（`ghp_`）はサポートされないため「Classic PAT と同様にサポートされる」という D は誤りです。\n\n📖 公式ドキュメント「[Authenticating GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/authenticate-copilot-cli)」には「Fine-grained PAT — `github_pat_` — Supported: Yes — Must include required permissions **Copilot Requests**. For non-interactive environments, you can authenticate by setting an environment variable. This is ideal for CI/CD pipelines, containers, or headless servers.（Fine-grained PAT は Copilot Requests 権限が必要で非対話型環境に最適です。 Classic PAT は非サポートです）」と記載されているため、正しい選択肢は 「環境変数（`COPILOT_GITHUB_TOKEN` など）経由で使用可能」「\"Copilot Requests\" 権限が必要」「CI/CD パイプラインやコンテナなどの非対話型環境に最適」「`github_pat_` プレフィックスを持つ」 です。",
       "selectionCount": 4
     },
     {
@@ -1458,7 +1458,7 @@
         "C",
         "D"
       ],
-      "explanation": "`/review` はコミット前にコードの変更についてフィードバックを受けられ、プロンプト・パス・ファイルパターンによるスコープ絞り込みが可能です。問題の自動修正は行いません（E は誤り）。\n\n📖 公式ドキュメント「[Requesting a code review with GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/use-copilot-cli-agents/agentic-code-review)」には「You can use the `/review` slash command to have Copilot analyze code changes without leaving the CLI. This lets you get quick feedback on your changes prior to committing. Type `/review` and optionally specify a prompt, path, or file pattern to narrow the review scope.（コミット前のフィードバック取得、プロンプト・パス・ファイルパターンによるスコープ絞り込みが可能です）」と記載されているため、正解は **A, B, C, D** です。",
+      "explanation": "`/review` はコミット前にコードの変更についてフィードバックを受けられ、プロンプト・パス・ファイルパターンによるスコープ絞り込みが可能です。問題の自動修正は行いません。\n\n📖 公式ドキュメント「[Requesting a code review with GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/use-copilot-cli-agents/agentic-code-review)」には「You can use the `/review` slash command to have Copilot analyze code changes without leaving the CLI. This lets you get quick feedback on your changes prior to committing. Type `/review` and optionally specify a prompt, path, or file pattern to narrow the review scope.（コミット前のフィードバック取得、プロンプト・パス・ファイルパターンによるスコープ絞り込みが可能です）」と記載されているため、正しい選択肢は 「パスを指定してレビュースコープを絞り込める」「コミット前にコードの変更についてフィードバックを受けられる」「プロンプトを指定してレビュースコープを絞り込める」「ファイルパターンを指定してレビュースコープを絞り込める」 です。",
       "selectionCount": 4
     },
     {
@@ -1493,7 +1493,7 @@
         "C",
         "D"
       ],
-      "explanation": "セッションファイルは `~/.copilot/session-state/` に保存され、セッションストアはローカルの SQLite データベース（`~/.copilot/session-store.db`）です。データはサーバーに自動同期されず（C は誤り）、セッションディレクトリの削除で個別削除でき、全削除後は `/chronicle reindex` による再インデックスが必要です。\n\n📖 公式ドキュメント「[About GitHub Copilot CLI session data](https://docs.github.com/en/enterprise-cloud@latest/copilot/concepts/agents/copilot-cli/chronicle)」には「Every Copilot CLI session is persisted as a set of files in the `~/.copilot/session-state/` directory... Copilot CLI stores structured session data in a local SQLite database. All session data is stored locally in your home directory... Nothing is uploaded or shared. If you want to remove data for a particular CLI session, you can delete the relevant session directory. You can clear all session data by deleting everything under `~/.copilot/session-state/`. After doing this you must manually reindex the session store.（セッションデータはローカルのみに保存され、削除後は reindex が必要です）」と記載されているため、正解は **A, B, D, E** です。",
+      "explanation": "セッションファイルは `~/.copilot/session-state/` に保存され、セッションストアはローカルの SQLite データベース（`~/.copilot/session-store.db`）です。データはサーバーに自動同期されず、セッションディレクトリの削除で個別削除でき、全削除後は `/chronicle reindex` による再インデックスが必要です。\n\n📖 公式ドキュメント「[About GitHub Copilot CLI session data](https://docs.github.com/en/enterprise-cloud@latest/copilot/concepts/agents/copilot-cli/chronicle)」には「Every Copilot CLI session is persisted as a set of files in the `~/.copilot/session-state/` directory... Copilot CLI stores structured session data in a local SQLite database. All session data is stored locally in your home directory... Nothing is uploaded or shared. If you want to remove data for a particular CLI session, you can delete the relevant session directory. You can clear all session data by deleting everything under `~/.copilot/session-state/`. After doing this you must manually reindex the session store.（セッションデータはローカルのみに保存され、削除後は reindex が必要です）」と記載されているため、正しい選択肢は 「セッションファイルは `~/.copilot/session-state/` に保存される」「特定セッションのデータを削除するには、そのセッションのディレクトリを削除する」「`~/.copilot/session-state/` 以下をすべて削除するとデータをクリアできるが、その後 `/chronicle reindex` による再インデックスが必要」「セッションストアはローカルの SQLite データベースである」 です。",
       "selectionCount": 4
     }
   ]

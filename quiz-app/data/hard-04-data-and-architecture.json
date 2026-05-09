@@ -35,7 +35,7 @@
         "C",
         "E"
       ],
-      "explanation": "正解は **A、B、C、D** です。content exclusion は Copilot が特定ファイルにアクセス・利用する範囲を制限します。inline suggestions、他ファイルへの文脈提供、Copilot Chat、Copilot code review に影響しますが、ファイル自体を削除する機能ではありません。\n\n出典: [Content exclusion for GitHub Copilot](https://docs.github.com/en/copilot/concepts/context/content-exclusion)"
+      "explanation": "正しい選択肢は 「影響を受けるファイルの内容は、GitHub Copilot Chat の応答にも使われない」「影響を受けるファイルは Copilot code review のレビュー対象にならない」「影響を受けるファイルの内容は、他ファイルの inline suggestions にも使われない」「影響を受けるファイルでは inline suggestions が利用できない」 です。content exclusion は Copilot が特定ファイルにアクセス・利用する範囲を制限します。inline suggestions、他ファイルへの文脈提供、Copilot Chat、Copilot code review に影響しますが、ファイル自体を削除する機能ではありません。\n\n📖 公式ドキュメント「[Content exclusion for GitHub Copilot](https://docs.github.com/en/copilot/concepts/context/content-exclusion)」には「When you exclude content from Copilot:\n* Inline suggestions will not be available in the affected files.\n* The content in affected files will not inform inline suggestions in other files.\n* The content in affected files will not inform GitHub Copilot Chat's responses.\n* Affected files will not be reviewed in a Copilot code review.」と記載されています。"
     },
     {
       "questionNumber": 2,
@@ -62,7 +62,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "正解は **B** です。公式ドキュメントでは、IDE が間接的に提供する型情報や hover 定義、build configuration などの semantic information を Copilot が使う可能性があると説明されています。また、現在 content exclusions は symlink や remote filesystem 上の repository には適用されません。\n\n出典: [Content exclusion for GitHub Copilot](https://docs.github.com/en/copilot/concepts/context/content-exclusion)"
+      "explanation": "回答は 「IDE が間接的に提供する型情報、hover 定義、build configuration などの semantic information が使われる可能性がある」 です。公式ドキュメントでは、IDE が間接的に提供する型情報や hover 定義、build configuration などの semantic information を Copilot が使う可能性があると説明されています。また、現在 content exclusions は symlink や remote filesystem 上の repository には適用されません。\n\n📖 公式ドキュメント「[Content exclusion for GitHub Copilot](https://docs.github.com/en/copilot/concepts/context/content-exclusion)」には「It's possible that Copilot may use semantic information from an excluded file if the information is provided by the IDE indirectly. Examples of such content include type information and hover-over definitions for symbols used in code, as well as general project properties such as build configuration information. Currently, content exclusions do not apply to symbolic links (symlinks) and repositories located on remote filesystems.」と記載されています。"
     },
     {
       "questionNumber": 3,
@@ -96,7 +96,7 @@
         "B",
         "C"
       ],
-      "explanation": "正解は **A、B、C** です。Copilot CLI は session を resume して会話履歴を読み込めます。session は Markdown file や private gist に共有でき、`/chronicle` は standup、tips、custom instructions 改善案、reindex などの subcommand を提供します。\n\n出典: [Using GitHub Copilot CLI session data](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/chronicle)"
+      "explanation": "正しい選択肢は 「`/resume` で過去の session を選び、会話履歴を読み込んで続きから作業できる」「`/chronicle` は session history から standup、tips、custom instructions 改善案などを生成できる」「`/share gist` で現在の session 内容を GitHub.com 上の private gist として保存できる」 です。Copilot CLI は session を resume して会話履歴を読み込めます。session は Markdown file や private gist に共有でき、`/chronicle` は standup、tips、custom instructions 改善案、reindex などの subcommand を提供します。\n\n📖 公式ドキュメント「[Using GitHub Copilot CLI session data](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/chronicle)」には「Resume previous sessions and pick up right where you left off. Use the `/chronicle` slash command to generate standup reports, get personalized tips, and receive suggestions for improving your `.github/copilot-instructions.md` file. You can save the content of the current session as either a Markdown file or a private gist on GitHub.com.」と記載されています。"
     },
     {
       "questionNumber": 4,
@@ -123,7 +123,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "正解は **A** です。`/chronicle standup` は既定では直近 24 時間の Copilot CLI sessions をもとに、作業 branch、達成内容、参照した PR/Issue、リンクされた PR の状態などをまとめます。\n\n出典: [Using GitHub Copilot CLI session data](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/chronicle)"
+      "explanation": "回答は 「直近 24 時間を既定として Copilot CLI sessions をもとに、作業した branch、達成内容、参照した PR/Issue などを短いレポートにする」 です。`/chronicle standup` は既定では直近 24 時間の Copilot CLI sessions をもとに、作業 branch、達成内容、参照した PR/Issue、リンクされた PR の状態などをまとめます。\n\n📖 公式ドキュメント「[Using GitHub Copilot CLI session data](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-cli/chronicle)」には「This generates a short report based on your Copilot CLI sessions, by default from the last 24 hours. Copilot looks at which branches you worked on, what you accomplished, and any GitHub pull requests or issues you referenced. It groups the output by completion status, with each item labeled by its branch, and checks the current status of any linked pull requests.」と記載されています。"
     },
     {
       "questionNumber": 5,
@@ -157,7 +157,7 @@
         "C",
         "E"
       ],
-      "explanation": "正解は **A、B、C** です。Copilot policies は feature policy、privacy policy、models policy に分類されます。feature policy は機能可用性、privacy policy は潜在的に sensitive なアクションの可否、models policy は追加モデルの可用性を制御します。\n\n出典: [GitHub Copilot policies to control availability of features and models](https://docs.github.com/en/copilot/concepts/policies)"
+      "explanation": "正しい選択肢は 「Feature policy」「Privacy policy」「Models policy」 です。Copilot policies は feature policy、privacy policy、models policy に分類されます。feature policy は機能可用性、privacy policy は潜在的に sensitive なアクションの可否、models policy は追加モデルの可用性を制御します。\n\n📖 公式ドキュメント「[GitHub Copilot policies to control availability of features and models](https://docs.github.com/en/copilot/concepts/policies)」には「Policies are grouped into different types.\n* Feature policy: Defines the availability of a Copilot feature.\n* Privacy policy: Defines whether a potentially sensitive action is allowed or not.\n* Models policy: Defines the availability of models beyond the basic models provided with Copilot, which may incur additional costs.」と記載されています。"
     },
     {
       "questionNumber": 6,
@@ -184,7 +184,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "正解は **A** です。organization-level の feature/model policy では、`Unconfigured` は設定を選ぶまで placeholder として扱われ、その organization では disabled として扱われます。privacy policy では `Allowed` / `Blocked` という表現が使われます。\n\n出典: [GitHub Copilot policies to control availability of features and models](https://docs.github.com/en/copilot/concepts/policies)"
+      "explanation": "回答は 「明示的に選択するまで、その organization では disabled として扱われる」 です。organization-level の feature/model policy では、`Unconfigured` は設定を選ぶまで placeholder として扱われ、その organization では disabled として扱われます。privacy policy では `Allowed` / `Blocked` という表現が使われます。\n\n📖 公式ドキュメント「[GitHub Copilot policies to control availability of features and models](https://docs.github.com/en/copilot/concepts/policies)」には「* Unconfigured - A placeholder, which is removed once you have defined a setting. The policy is treated as disabled for this organization until you select an option.」と記載されています。"
     },
     {
       "questionNumber": 7,
@@ -211,7 +211,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "正解は **B** です。enterprise level で policy が定義されると、その policy は全ユーザーに適用され、organization level での control は disabled になります。\n\n出典: [GitHub Copilot policies to control availability of features and models](https://docs.github.com/en/copilot/concepts/policies)"
+      "explanation": "回答は 「enterprise-level policy が定義されると、その policy は全ユーザーに適用され、organization-level の control は無効になる」 です。enterprise level で policy が定義されると、その policy は全ユーザーに適用され、organization level での control は disabled になります。\n\n📖 公式ドキュメント「[GitHub Copilot policies to control availability of features and models](https://docs.github.com/en/copilot/concepts/policies)」には「If a policy is defined at the enterprise level, the policy applies to all users and control of the policy is disabled at the organization level.」と記載されています。"
     },
     {
       "questionNumber": 8,
@@ -245,7 +245,7 @@
         "B",
         "E"
       ],
-      "explanation": "正解は **A、B、C** です。Copilot code review はコード変更と関連コンテキストから prompt を作り、PR タイトル・本文や custom instructions を使う場合があります。応答は自然言語やコード提案として表示されます。\n\n出典: [Responsible use of GitHub Copilot code review](https://docs.github.com/en/copilot/responsible-use/code-review)"
+      "explanation": "正しい選択肢は 「コード変更と関連コンテキストから prompt が作成される」「応答は自然言語またはコード提案として表示されることがある」「pull request のタイトルや本文、custom instructions が使われることがある」 です。Copilot code review はコード変更と関連コンテキストから prompt を作り、PR タイトル・本文や custom instructions を使う場合があります。応答は自然言語やコード提案として表示されます。\n\n📖 公式ドキュメント「[Responsible use of GitHub Copilot code review](https://docs.github.com/en/copilot/responsible-use/code-review)」には「The code changes are combined with other relevant, contextual information (for example, the pull request’s title and body on GitHub), and any custom instructions that have been defined, to form a prompt, and that prompt is sent to a large language model. The language model generates a response based on its analysis of the input prompt. This response can take the form of natural language suggestions and code suggestions.」と記載されています。"
     },
     {
       "questionNumber": 9,
@@ -272,7 +272,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "正解は **B** です。Copilot Chat は回答を読みやすく整形し、必要に応じて使用した context へのリンクを含めます。また、input prompts と output completions は content filters を通ります。\n\n出典: [Responsible use of GitHub Copilot Chat in GitHub](https://docs.github.com/en/copilot/responsible-use/chat-in-github)"
+      "explanation": "回答は 「回答は整形され、質問によっては使った source code files、issues、Bing 検索結果、documentation などへのリンクを含む場合がある。入力と出力は content filters を通る」 です。Copilot Chat は回答を読みやすく整形し、必要に応じて使用した context へのリンクを含めます。また、input prompts と output completions は content filters を通ります。\n\n📖 公式ドキュメント「[Responsible use of GitHub Copilot Chat in GitHub](https://docs.github.com/en/copilot/responsible-use/chat-in-github)」には「The response generated by Copilot Chat is formatted and presented to the user. Depending upon the type of question from the user, links to context that the model used when generating a response, such as source code files, issues, Bing search results, or documentation, may also be provided. Input prompts and output completions are run through content filters.」と記載されています。"
     },
     {
       "questionNumber": 10,
@@ -306,7 +306,7 @@
         "C",
         "D"
       ],
-      "explanation": "正解は **A、B、C** です。content exclusion 設定後、クライアントは現在の repository URL を送って適切な policy を取得しますが、URL はログに記録されません。また、Copilot CLI、Copilot cloud agent、IDE の Agent mode は content exclusion をサポートしないと説明されています。\n\n出典: [Content exclusion for GitHub Copilot](https://docs.github.com/en/copilot/concepts/context/content-exclusion), [Excluding content from GitHub Copilot](https://docs.github.com/en/copilot/how-tos/configure-content-exclusion/exclude-content-from-copilot)"
+      "explanation": "正しい選択肢は 「送信される repository URL はログに記録されない」「クライアントは現在の repository URL を GitHub server に送り、server は該当 policy を返す」「Copilot CLI、Copilot cloud agent、IDE の Agent mode は content exclusion をサポートしない」 です。content exclusion 設定後、クライアントは現在の repository URL を送って適切な policy を取得しますが、URL はログに記録されません。また、Copilot CLI、Copilot cloud agent、IDE の Agent mode は content exclusion をサポートしないと説明されています。\n\n📖 公式ドキュメント「[Content exclusion for GitHub Copilot](https://docs.github.com/en/copilot/concepts/context/content-exclusion)」には「After you configure content exclusion, the client (for example, the Copilot extension for VS Code) sends the current repository URL to the GitHub server so that the server can return the correct policy to the client. These URLs are not logged anywhere.」と記載されています。\n\n📖 公式ドキュメント「[Excluding content from GitHub Copilot](https://docs.github.com/en/copilot/how-tos/configure-content-exclusion/exclude-content-from-copilot)」には「GitHub Copilot CLI, Copilot cloud agent, and Agent mode in Copilot Chat in IDEs, do not support content exclusion.」と記載されています。"
     }
   ]
 }
