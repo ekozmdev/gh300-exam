@@ -27,7 +27,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、エージェント モードは単なるオートコンプリートではなく、ワークスペース全体を理解し、タスクを動的に処理し、自身の出力を反復して改善すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/2-what-is-agent-mode"
+      "explanation": "公式 Learn では、エージェント モードは単なるオートコンプリートではなく、ワークスペース全体を理解し、タスクを動的に処理し、自身の出力を反復して改善すると説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot エージェント モードとは](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/2-what-is-agent-mode)」には「コードを提案するだけでなく、ワークスペース全体を理解し、タスクを動的に処理し、独自の出力を反復処理してソリューションを改善します。」と記載されています。"
     },
     {
       "questionNumber": 2,
@@ -110,7 +110,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、Copilot Edits は特定目標に合わせて複数ファイル変更を適用する機能、エージェント モードは開発タスクを動的に調整し反復できる機能として説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/2-what-is-agent-mode"
+      "explanation": "公式 Learn では、Copilot Edits は特定目標に合わせて複数ファイル変更を適用する機能、エージェント モードは開発タスクを動的に調整し反復できる機能として説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot エージェント モードとは](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/2-what-is-agent-mode)」には「より広範で構造化された変更が必要な場合、Copilot Edits を使用すると、特定の目標に合わせて複数のファイルに変更を適用できるため、大規模な更新プログラムを効率的に実装しやすくなります。最後に、エージェント モードでは、開発タスクを動的に調整することで、自動化を次のレベルに進めることができます。」と記載されています。"
     },
     {
       "questionNumber": 5,
@@ -274,7 +274,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、自己復旧の例では、エラー原因の検出、修正ソリューションの適用、成功までのテスト再実行が説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/3-explore-the-power"
+      "explanation": "公式 Learn では、自己復旧の例では、エラー原因の検出、修正ソリューションの適用、成功までのテスト再実行が説明されています。\n\n📖 公式ドキュメント「[自律開発支援の力を探る](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/3-explore-the-power)」には「エラーの原因を検出します。修正ソリューションを適用する。成功するまでテストを再実行する」と記載されています。"
     },
     {
       "questionNumber": 11,
@@ -683,7 +683,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、概要と本文全体では、プロジェクトのドキュメントやコンテキストを活用し、エージェント モードで自律的に進めながら開発者が制御を保つことが重要だと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/6-summary"
+      "explanation": "公式 Learn では、概要と本文全体では、プロジェクトのドキュメントやコンテキストを活用し、エージェント モードで自律的に進めながら開発者が制御を保つことが重要だと説明されています。\n\n📖 公式ドキュメント「[概要](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-agent-mode/6-summary)」には「エージェント モードでは、GitHub Codespaces と Visual Studio Code と共に、プロジェクトのドキュメント、コンテキスト、分析情報を使用して、改善を自律的に推進し、問題を修正し、新機能を開発します。」と記載されています。"
     }
   ]
 }

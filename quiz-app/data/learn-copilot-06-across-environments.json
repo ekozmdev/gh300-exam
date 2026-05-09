@@ -27,7 +27,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、コード補完は IDE 内で動作し、自動提案、複数候補ペイン、さまざまなコーディングスタイルへの対応を提供すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/2-code-completion-with-git-hub-copilot"
+      "explanation": "公式 Learn では、コード補完は IDE 内で動作し、自動提案、複数候補ペイン、さまざまなコーディングスタイルへの対応を提供すると説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot でのコード補完](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/2-code-completion-with-git-hub-copilot)」には「GitHub Copilot コード補完機能は、コードを記述してレビューする IDE 内で直接機能します。 GitHub Copilot は、Visual Studio Code や JetBrains などのエディターとシームレスに統合され、自動提案、複数提案ペイン、さまざまなコーディング スタイルのサポートなどの機能を提供します。」と記載されています。"
     },
     {
       "questionNumber": 2,
@@ -56,7 +56,7 @@
         "A",
         "B"
       ],
-      "explanation": "公式 Learn では、サポート言語、自動提案、複数候補ペイン、コーディングスタイル、コメント活用などが紹介されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/2-code-completion-with-git-hub-copilot"
+      "explanation": "公式 Learn では、サポート言語、自動提案、複数候補ペイン、コーディングスタイル、コメント活用などが紹介されています。\n\n📖 公式ドキュメント「[GitHub Copilot でのコード補完](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/2-code-completion-with-git-hub-copilot)」には「このユニットでは、以下の内容について説明します。 GitHub Copilot でサポートされている言語。 自動提案。 複数提案ペイン。」と記載されています。"
     },
     {
       "questionNumber": 3,
@@ -83,7 +83,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、Windows または Linux では Alt+] で次、Alt+[ で前の提案に移動できると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/2-code-completion-with-git-hub-copilot"
+      "explanation": "公式 Learn では、Windows または Linux では Alt+] で次、Alt+[ で前の提案に移動できると説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot でのコード補完](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/2-code-completion-with-git-hub-copilot)」には「Windows または Linux:Alt + ] (次)、Alt + [ (前)」と記載されています。"
     },
     {
       "questionNumber": 4,
@@ -110,7 +110,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、Copilot はコメントの意図を解釈し、関数実装、コード補完、変数名、アルゴリズム選択などの提案に利用すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/2-code-completion-with-git-hub-copilot"
+      "explanation": "公式 Learn では、Copilot はコメントの意図を解釈し、関数実装、コード補完、変数名、アルゴリズム選択などの提案に利用すると説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot でのコード補完](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/2-code-completion-with-git-hub-copilot)」には「関数の実装: コメント内に関数の説明がある場合、Copilot はその説明に基づいて実装全体を提案できます。」と記載されています。"
     },
     {
       "questionNumber": 5,
@@ -164,7 +164,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "公式 Learn では、Copilot Chat は開発環境内の対話型 AI アシスタントとして、コード生成、デバッグ、説明、スラッシュコマンド、エージェント利用を扱うと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/3-git-hub-copilot-chat"
+      "explanation": "公式 Learn では、Copilot Chat は開発環境内の対話型 AI アシスタントとして、コード生成、デバッグ、説明、スラッシュコマンド、エージェント利用を扱うと説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot チャット](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/3-git-hub-copilot-chat)」には「GitHub Copilot Chat は GitHub Copilot エコシステムの高度な機能であり、開発者に開発環境内で直接対話型の会話型 AI アシスタントを提供するように設計されています。」と記載されています。"
     },
     {
       "questionNumber": 7,
@@ -193,7 +193,7 @@
         "B",
         "C"
       ],
-      "explanation": "公式 Learn では、Scope referencing として #file: によるファイル参照、Environment References として @terminal の利用が説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/3-git-hub-copilot-chat"
+      "explanation": "公式 Learn では、Scope referencing として #file: によるファイル参照、Environment References として @terminal の利用が説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot チャット](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/3-git-hub-copilot-chat)」には「ファイル参照: 質問内の特定のファイルを指定するには、ファイル名の前に `#file:` を追加します。 たとえば、\"@terminalこのエラーを修正するにはどうすればよいですか?\" では、Copilot がターミナル出力を分析し、関連するソリューションを提案できます。」と記載されています。"
     },
     {
       "questionNumber": 8,
@@ -220,7 +220,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、/explain は選択したコードの説明を得るためのスラッシュコマンドとして説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/3-git-hub-copilot-chat"
+      "explanation": "公式 Learn では、/explain は選択したコードの説明を得るためのスラッシュコマンドとして説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot チャット](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/3-git-hub-copilot-chat)」には「`/explain:` 選択したコードの説明を提供します。」と記載されています。"
     },
     {
       "questionNumber": 9,
@@ -247,7 +247,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、プレミアムモデルは高度な推論に適する一方、標準モデルより多くの PRU を消費するため、月間許容量を考慮して選ぶと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/3-git-hub-copilot-chat"
+      "explanation": "公式 Learn では、プレミアムモデルは高度な推論に適する一方、標準モデルより多くの PRU を消費するため、月間許容量を考慮して選ぶと説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot チャット](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/3-git-hub-copilot-chat)」には「Premium モデル (o1-preview、o1-mini): 複雑な問題に対して強化された推論機能を提供する。 要求ごとに 2 つの PRU を消費する (標準レートの 2 倍)。」と記載されています。"
     },
     {
       "questionNumber": 10,
@@ -274,7 +274,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、@vscode は Visual Studio Code のデバッグや設定変更など IDE 関連の質問に使うエージェントとして説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/3-git-hub-copilot-chat"
+      "explanation": "公式 Learn では、@vscode は Visual Studio Code のデバッグや設定変更など IDE 関連の質問に使うエージェントとして説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot チャット](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/3-git-hub-copilot-chat)」には「`@vscode:` このエージェントを使用して、IDE 内で設定をデバッグまたは変更する方法など、Visual Studio Code に関連する質問ができます。」と記載されています。"
     },
     {
       "questionNumber": 11,
@@ -301,7 +301,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "公式 Learn では、GitHub.com ではリポジトリ探索、pull request 支援、issue 管理、共同コードレビューに Copilot を使う文脈が説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/4-git-hub-copilot-github-web"
+      "explanation": "公式 Learn では、GitHub.com ではリポジトリ探索、pull request 支援、issue 管理、共同コードレビューに Copilot を使う文脈が説明されています。\n\n📖 公式ドキュメント「[GitHub.com 上の GitHub Copilot](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/4-git-hub-copilot-github-web)」には「GitHub Web インターフェイスでリポジトリ、問題、pull request、ディスカッションを操作する際に、Copilot の機能を利用してワークフローを合理化し、コラボレーションを強化できます。」と記載されています。"
     },
     {
       "questionNumber": 12,
@@ -330,7 +330,7 @@
         "A",
         "B"
       ],
-      "explanation": "公式 Learn では、GitHub.com 上ではリポジトリ理解や pull request 関連作業の支援が中心的な利用例として扱われます。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/4-git-hub-copilot-github-web"
+      "explanation": "公式 Learn では、GitHub.com 上ではリポジトリ理解や pull request 関連作業の支援が中心的な利用例として扱われます。\n\n📖 公式ドキュメント「[GitHub.com 上の GitHub Copilot](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/4-git-hub-copilot-github-web)」には「**リポジトリ ページ** - コード、ドキュメント、およびプロジェクト構造の説明を取得。 **問題と pull request** - 要約の生成、解決策の提案、返答の下書き。」と記載されています。"
     },
     {
       "questionNumber": 13,
@@ -357,7 +357,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、GitHub.com の Copilot は GitHub 上のリポジトリや PR などの文脈で支援するもので、ローカルファイルシステムを無制限に読む機能ではありません。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/4-git-hub-copilot-github-web"
+      "explanation": "公式 Learn では、GitHub.com の Copilot は GitHub 上のリポジトリや PR などの文脈で支援するもので、ローカルファイルシステムを無制限に読む機能ではありません。\n\n📖 公式ドキュメント「[GitHub.com 上の GitHub Copilot](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/4-git-hub-copilot-github-web)」には「Copilot は GitHub Web インターフェイスに全体を通じて統合されており、さまざまなコンテキストでチャット ボタンやインラインの提案として表示されます。」と記載されています。"
     },
     {
       "questionNumber": 14,
@@ -384,7 +384,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、PRU の使用量、月間許容量、レート制限は GitHub Copilot ドキュメントで確認する必要があると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/4-git-hub-copilot-github-web"
+      "explanation": "公式 Learn では、PRU の使用量、月間許容量、レート制限は GitHub Copilot ドキュメントで確認する必要があると説明されています。\n\n📖 公式ドキュメント「[GitHub.com 上の GitHub Copilot](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/4-git-hub-copilot-github-web)」には「PR 概要の生成と高度なプル要求アシスタンス機能では、Premium 要求ユニット (PRU) が使用されます。 通常、PR サマリーを生成するには、変更の複雑さとサイズに応じて 1 から 2 個の PRU を使用します。」と記載されています。"
     },
     {
       "questionNumber": 15,
@@ -411,7 +411,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、GitHub.com ではリポジトリ、issue、pull request、ディスカッション、コードレビュー、Actions エラー説明など Web インターフェイス上の文脈で Copilot を使うと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/4-git-hub-copilot-github-web"
+      "explanation": "公式 Learn では、GitHub.com ではリポジトリ、issue、pull request、ディスカッション、コードレビュー、Actions エラー説明など Web インターフェイス上の文脈で Copilot を使うと説明されています。\n\n📖 公式ドキュメント「[GitHub.com 上の GitHub Copilot](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/4-git-hub-copilot-github-web)」には「このユニットで取り上げる内容は次のとおりです。 リポジトリの探索とドキュメント。 pull request の支援。 問題の管理。 コード レビューとコラボレーション。 GitHub Actions での GitHub Copilot エラーの説明。」と記載されています。"
     },
     {
       "questionNumber": 16,
@@ -438,7 +438,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "公式 Learn では、Copilot CLI はターミナル内でコマンド説明やシェルコマンド提案を行い、GitHub 認証を使いつつ GitHub CLI とは独立して動作すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/5-git-hub-copilot-for-the-command-line"
+      "explanation": "公式 Learn では、Copilot CLI はターミナル内でコマンド説明やシェルコマンド提案を行い、GitHub 認証を使いつつ GitHub CLI とは独立して動作すると説明されています。\n\n📖 公式ドキュメント「[コマンド ライン用の GitHub Copilot](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/5-git-hub-copilot-for-the-command-line)」には「**GitHub Copilot CLI** は、コマンド ラインに直接 Copilot を取り込み、コマンドを説明したり、自然言語からシェル コマンドを提案したり、ファイルやプロジェクトを安全かつ対話的に操作するのに役立ちます。 Copilot CLI では GitHub 認証が使用され、GitHub CLI とは別に実行されますが、既存の資格情報が使用されます。」と記載されています。"
     },
     {
       "questionNumber": 17,
@@ -467,7 +467,7 @@
         "B",
         "C"
       ],
-      "explanation": "公式 Learn では、対話モードは copilot、ワンショットプロンプトは copilot -i の例が示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/5-git-hub-copilot-for-the-command-line"
+      "explanation": "公式 Learn では、対話モードは copilot、ワンショットプロンプトは copilot -i の例が示されています。\n\n📖 公式ドキュメント「[コマンド ライン用の GitHub Copilot](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/5-git-hub-copilot-for-the-command-line)」には「**対話型モード**で Copilot CLI を起動します。 `copilot`。 完全な対話型モードに入らない **ワンショット プロンプト** の場合: `copilot -i \"explain brew install git\"`。」と記載されています。"
     },
     {
       "questionNumber": 18,
@@ -494,7 +494,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "公式 Learn では、/explain <command> は任意のシェルコマンドの説明を求めるための共通スラッシュコマンドとして説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/5-git-hub-copilot-for-the-command-line"
+      "explanation": "公式 Learn では、/explain <command> は任意のシェルコマンドの説明を求めるための共通スラッシュコマンドとして説明されています。\n\n📖 公式ドキュメント「[コマンド ライン用の GitHub Copilot](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/5-git-hub-copilot-for-the-command-line)」には「`/explain <command>` シェル コマンドについて説明するように Copilot に依頼する」と記載されています。"
     },
     {
       "questionNumber": 19,
@@ -521,7 +521,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、CLI のスラッシュコマンドはセッション制御コマンドで、設定や制御は自然言語プロンプトで置き換えられないと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/5-git-hub-copilot-for-the-command-line"
+      "explanation": "公式 Learn では、CLI のスラッシュコマンドはセッション制御コマンドで、設定や制御は自然言語プロンプトで置き換えられないと説明されています。\n\n📖 公式ドキュメント「[コマンド ライン用の GitHub Copilot](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/5-git-hub-copilot-for-the-command-line)」には「スラッシュ コマンドを自然言語プロンプトに置き換えることはできません。 セッションの設定と構成を制御する唯一の方法です。」と記載されています。"
     },
     {
       "questionNumber": 20,
@@ -548,7 +548,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、Copilot CLI は初回起動時に現在フォルダーを信頼するか確認し、効果的な使用のヒントとして実行前に必ずコマンドを確認することが示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/5-git-hub-copilot-for-the-command-line"
+      "explanation": "公式 Learn では、Copilot CLI は初回起動時に現在フォルダーを信頼するか確認し、効果的な使用のヒントとして実行前に必ずコマンドを確認することが示されています。\n\n📖 公式ドキュメント「[コマンド ライン用の GitHub Copilot](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/5-git-hub-copilot-for-the-command-line)」には「初回起動時に、Copilot は現在のフォルダー内のファイルを信頼するかどうかを確認します。 Copilot はセッション中にこのディレクトリ内のファイルを読み取り、変更、または実行できるため、信頼できる場所でのみ続行します。 実行前に必ずコマンドを確認してください。」と記載されています。"
     },
     {
       "questionNumber": 21,
@@ -604,7 +604,7 @@
         "A",
         "D"
       ],
-      "explanation": "公式 Learn では、Copilot Chat の文脈では /fix や /tests などが定型タスクを指定するスラッシュコマンドとして扱われます。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/6-knowledge-check"
+      "explanation": "公式 Learn では、Copilot Chat の文脈では /fix や /tests などが定型タスクを指定するスラッシュコマンドとして扱われます。\n\n📖 公式ドキュメント「[GitHub Copilot チャット](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/3-git-hub-copilot-chat)」には「`/fix:` 選択したコードの問題の修正を提案します。 `/tests:` 選択したコードのユニット テストを自動的に作成します。」と記載されています。"
     },
     {
       "questionNumber": 23,
@@ -631,7 +631,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、/tests は選択したコードの単体テストを自動作成するためのスラッシュコマンドとして説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/6-knowledge-check"
+      "explanation": "公式 Learn では、/tests は選択したコードの単体テストを自動作成するためのスラッシュコマンドとして説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot チャット](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/3-git-hub-copilot-chat)」には「`/tests:` 選択したコードのユニット テストを自動的に作成します。」と記載されています。"
     },
     {
       "questionNumber": 24,
@@ -658,7 +658,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、CLI で許可ディレクトリを表示するのは /list-dirs であり、/doc は Copilot Chat のドキュメント生成系コマンドです。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/6-knowledge-check"
+      "explanation": "公式 Learn では、CLI で許可ディレクトリを表示するのは /list-dirs であり、/doc は Copilot Chat のドキュメント生成系コマンドです。\n\n📖 公式ドキュメント「[コマンド ライン用の GitHub Copilot](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/5-git-hub-copilot-for-the-command-line)」には「`/exit` 対話モードを終了する。 `/model <model>` 使用する AI モデルを選択する。 `/theme [auto|dark|light]` ターミナル テーマを変更する。 `/list-dirs` ファイル操作で許可されているディレクトリを表示する。」と記載されています。"
     },
     {
       "questionNumber": 25,
@@ -685,7 +685,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、高度なエージェントや複雑操作はより多くの PRU を消費する場合があると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/6-knowledge-check"
+      "explanation": "公式 Learn では、高度なエージェントや複雑操作はより多くの PRU を消費する場合があると説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot チャット](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/3-git-hub-copilot-chat)」には「単純なクエリでは通常、1 PRU が使用されますが、複雑なワークスペース分析またはプロジェクト生成では 2 ~ 5 個の PRU を使用できます。」と記載されています。"
     },
     {
       "questionNumber": 26,
@@ -768,7 +768,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、学習目標では、Copilot Chat の提案の関連性を高めるためにスコープ参照、スラッシュコマンド、エージェントを使うことが示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/7-summary"
+      "explanation": "公式 Learn では、学習目標では、Copilot Chat の提案の関連性を高めるためにスコープ参照、スラッシュコマンド、エージェントを使うことが示されています。\n\n📖 公式ドキュメント「[概要](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/7-summary)」には「スコープ参照、スラッシュ コマンド、および Copilot エージェントを使用して、Copilot チャットの応答を改善します。」と記載されています。"
     },
     {
       "questionNumber": 29,
@@ -795,7 +795,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、まとめでは、IDE、Chat、GitHub.com、CLI それぞれの文脈で Copilot を使い分けることが整理されています。Homebrew によるインストールは Copilot CLI ユニットの内容です。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/7-summary"
+      "explanation": "公式 Learn では、まとめでは、IDE、Chat、GitHub.com、CLI それぞれの文脈で Copilot を使い分けることが整理されています。Homebrew によるインストールは Copilot CLI ユニットの内容です。\n\n📖 公式ドキュメント「[概要](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-across-environments/7-summary)」には「効率的なコード補完のために GitHub Copilot の自動提案と複数の提案ウィンドウを利用する方法について説明します。 GitHub Copilot Chat を効果的に使用して、複雑なコード生成、デバッグ 支援、およびコードの説明を行います。 コマンドの説明や提案の取得など、コマンド ライン インターフェイスを使用して GitHub Copilot と対話します。」と記載されています。"
     },
     {
       "questionNumber": 30,

@@ -27,7 +27,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、プロンプト エンジニアリングは、GitHub Copilot などの AI システムをガイドする明確な指示を作成するプロセスだと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/2-prompt-engineering-foundations-best-practices"
+      "explanation": "公式 Learn では、プロンプト エンジニアリングは、GitHub Copilot などの AI システムをガイドする明確な指示を作成するプロセスだと説明されています。\n\n📖 公式ドキュメント「[プロンプト エンジニアリングの基礎とベスト プラクティス](https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/2-prompt-engineering-foundations-best-practices)」には「プロンプト エンジニアリングとは、プロジェクト固有のニーズに合わせて、コンテキストに適したコードを調整して生成できるように GitHub Copilot などの AI システムをガイドするための明確な指示を作成するプロセスです。」と記載されています。"
     },
     {
       "questionNumber": 2,
@@ -66,7 +66,7 @@
         "D",
         "F"
       ],
-      "explanation": "公式 Learn では、4 つの S は、単一、具体的、短くする、周囲環境です。安全性や速度はこの 4S の構成要素ではありません。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/2-prompt-engineering-foundations-best-practices"
+      "explanation": "公式 Learn では、4 つの S は、単一、具体的、短くする、周囲環境です。安全性や速度はこの 4S の構成要素ではありません。\n\n📖 公式ドキュメント「[プロンプト エンジニアリングの基礎とベスト プラクティス](https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/2-prompt-engineering-foundations-best-practices)」には「具体的な戦略を調べる前に、まず、以下の 4 つの S に要約されるプロンプト エンジニアリングの基本原則を理解しましょう。」と記載されています。"
     },
     {
       "questionNumber": 3,
@@ -93,7 +93,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、周囲環境では、わかりやすいファイル名を使い、関連ファイルを開いたままにして Copilot に豊富なコンテキストを提供すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/2-prompt-engineering-foundations-best-practices"
+      "explanation": "公式 Learn では、周囲環境では、わかりやすいファイル名を使い、関連ファイルを開いたままにして Copilot に豊富なコンテキストを提供すると説明されています。\n\n📖 公式ドキュメント「[プロンプト エンジニアリングの基礎とベスト プラクティス](https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/2-prompt-engineering-foundations-best-practices)」には「周囲環境 (Surround): わかりやすいファイル名を使い、関連ファイルを開いたままにします。 これにより、Copilot に豊富なコンテキストが提供され、よりカスタマイズされたコード候補が得られます。」と記載されています。"
     },
     {
       "questionNumber": 4,
@@ -120,7 +120,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "公式 Learn では、ワンショット学習は、単一の例を与えて、特定のパターンと規則に従うコンテキスト対応の応答を生成する助けにすると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/2-prompt-engineering-foundations-best-practices"
+      "explanation": "公式 Learn では、ワンショット学習は、単一の例を与えて、特定のパターンと規則に従うコンテキスト対応の応答を生成する助けにすると説明されています。\n\n📖 公式ドキュメント「[プロンプト エンジニアリングの基礎とベスト プラクティス](https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/2-prompt-engineering-foundations-best-practices)」には「このアプローチでは、単一の例が与えられ、特定のパターンと規則に従うコンテキスト対応の応答をより多く生成するモデルを支援します。」と記載されています。"
     },
     {
       "questionNumber": 5,
@@ -147,7 +147,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、長い会話履歴は非効率でコストがかかるため、コンテキストを要約する、重要な詳細でリセットする、前の作業への簡潔な参照を使うと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/2-prompt-engineering-foundations-best-practices"
+      "explanation": "公式 Learn では、長い会話履歴は非効率でコストがかかるため、コンテキストを要約する、重要な詳細でリセットする、前の作業への簡潔な参照を使うと説明されています。\n\n📖 公式ドキュメント「[プロンプト エンジニアリングの基礎とベスト プラクティス](https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/2-prompt-engineering-foundations-best-practices)」には「詳細なコンテキストは、Copilot が要件を理解するのに役立ちますが、長い会話履歴を維持すると、処理の面で非効率的でコストがかかる可能性があります。 会話が長くなったときにコンテキストを要約する。」と記載されています。"
     },
     {
       "questionNumber": 6,
@@ -228,7 +228,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、プロンプトは GitHub 所有の Microsoft Azure テナント上のプロキシに渡され、プロンプト ハッキングなどを阻止するためにトラフィックがフィルター処理されると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/3-github-copilot-user-prompt-process-flow"
+      "explanation": "公式 Learn では、プロンプトは GitHub 所有の Microsoft Azure テナント上のプロキシに渡され、プロンプト ハッキングなどを阻止するためにトラフィックがフィルター処理されると説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot ユーザー プロンプト プロセス フロー](https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/3-github-copilot-user-prompt-process-flow)」には「このプロキシでトラフィックがフィルター処理されるので、プロンプトのハッキングや、モデルがコード提案を生成する方法の詳細を明らかにするようにシステムを操作するという試みは阻止されます。」と記載されています。"
     },
     {
       "questionNumber": 9,
@@ -257,7 +257,7 @@
         "B",
         "D"
       ],
-      "explanation": "公式 Learn では、有害性フィルタリングでは、ヘイト スピーチなどの不適切なコンテンツや個人データが含まれたりレベル上げされたりしないようにすると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/3-github-copilot-user-prompt-process-flow"
+      "explanation": "公式 Learn では、有害性フィルタリングでは、ヘイト スピーチなどの不適切なコンテンツや個人データが含まれたりレベル上げされたりしないようにすると説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot ユーザー プロンプト プロセス フロー](https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/3-github-copilot-user-prompt-process-flow)」には「Copilot には、ヘイト スピーチや不快感を与える言葉など、有害または不快感を与える可能性のある不適切なコンテンツの取り込みを検出して防止するためのアルゴリズムが採用されています。 Copilot は、ユーザーのプライバシーとデータのセキュリティを保護するために、名前、住所、ID 番号などの個人データを積極的に除外します。」と記載されています。"
     },
     {
       "questionNumber": 10,
@@ -284,7 +284,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、一般公開されているコードとの一致フィルターは省略可能で、150 文字を超える提案が GitHub の公開コードによく似ている場合に返さないようにできると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/3-github-copilot-user-prompt-process-flow"
+      "explanation": "公式 Learn では、一般公開されているコードとの一致フィルターは省略可能で、150 文字を超える提案が GitHub の公開コードによく似ている場合に返さないようにできると説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot ユーザー プロンプト プロセス フロー](https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/3-github-copilot-user-prompt-process-flow)」には「管理者は、Copilot からの 150 文字を超える提案が GitHub で一般公開されている既存のコードによく似ている場合にその提案を返さないようにするフィルターを、必要に応じて有効にすることができます。」と記載されています。"
     },
     {
       "questionNumber": 11,
@@ -311,7 +311,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、コード エディター内の Copilot は、コード提案のためのプロンプトを基本モデルのトレーニング用に保持せず、提案を返したら破棄すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/4-github-copilot-data"
+      "explanation": "公式 Learn では、コード エディター内の Copilot は、コード提案のためのプロンプトを基本モデルのトレーニング用に保持せず、提案を返したら破棄すると説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot データ](https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/4-github-copilot-data)」には「コード エディター内の GitHub Copilot では、基本モデルをトレーニングする上で、提案を示す目的で使用するコードやその他のコンテキストなどのプロンプトを保持しません。 提案を返したら、プロンプトを破棄します。」と記載されています。"
     },
     {
       "questionNumber": 12,
@@ -338,7 +338,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、GitHub Copilot Individual のサブスクライバーは、GitHub とのプロンプトの共有をオプトアウトできると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/4-github-copilot-data"
+      "explanation": "公式 Learn では、GitHub Copilot Individual のサブスクライバーは、GitHub とのプロンプトの共有をオプトアウトできると説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot データ](https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/4-github-copilot-data)」には「GitHub Copilot Individual のサブスクライバーは、GitHub とのプロンプトの共有をオプトアウトできます。そうしない場合、それは GitHub の基本モデルを微調整するために使用されます。」と記載されています。"
     },
     {
       "questionNumber": 13,
@@ -394,7 +394,7 @@
         "B",
         "D"
       ],
-      "explanation": "公式 Learn では、Copilot Chat は、直接の質問、コード関連の要求、自由回答式クエリ、コンテキスト プロンプトなどを処理すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/4-github-copilot-data"
+      "explanation": "公式 Learn では、Copilot Chat は、直接の質問、コード関連の要求、自由回答式クエリ、コンテキスト プロンプトなどを処理すると説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot データ](https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/4-github-copilot-data)」には「直接の質問: コーディングの概念、ライブラリ、または問題のトラブルシューティングについて具体的な質問をすることができます。 コンテキスト プロンプト: コード スニペットを指定したり、特定のコーディング シナリオを記述したりして、カスタマイズされた支援を求めることができます。」と記載されています。"
     },
     {
       "questionNumber": 15,
@@ -421,7 +421,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、Copilot Chat は 4K トークンのコンテキスト ウィンドウで動作すると説明され、制限を踏まえて複雑な問題を小さく分割したり関連コードを提供したりすることが推奨されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/4-github-copilot-data"
+      "explanation": "公式 Learn では、Copilot Chat は 4K トークンのコンテキスト ウィンドウで動作すると説明され、制限を踏まえて複雑な問題を小さく分割したり関連コードを提供したりすることが推奨されています。\n\n📖 公式ドキュメント「[GitHub Copilot データ](https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/4-github-copilot-data)」には「Copilot Chat は現在、4K トークンのコンテキスト ウィンドウで動作しており、標準的な Copilot と比較して、ユーザー クエリを理解し、応答するために、より広範なスコープを提供します。 複雑な問題をより小さく焦点を絞ったクエリに分割したり、関連するコード スニペットを提供したりすることで、正確で有用な応答を提供するモデルの能力が大幅に向上します。」と記載されています。"
     },
     {
       "questionNumber": 16,
@@ -448,7 +448,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、LLM は、人間の言語を理解、生成、操作するために設計およびトレーニングされた人工知能モデルだと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/5-github-copilot-large-language-models"
+      "explanation": "公式 Learn では、LLM は、人間の言語を理解、生成、操作するために設計およびトレーニングされた人工知能モデルだと説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot 大規模言語モデル (LLM)](https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/5-github-copilot-large-language-models)」には「大規模言語モデル (LLM) は、人間の言語を理解、生成、操作するために設計およびトレーニングされた人工知能モデルです。」と記載されています。"
     },
     {
       "questionNumber": 17,
@@ -475,7 +475,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、GitHub Copilot では LLM が現在のファイルだけでなく、IDE 内の他の開いているファイルやタブも考慮してコード補完を生成すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/5-github-copilot-large-language-models"
+      "explanation": "公式 Learn では、GitHub Copilot では LLM が現在のファイルだけでなく、IDE 内の他の開いているファイルやタブも考慮してコード補完を生成すると説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot 大規模言語モデル (LLM)](https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/5-github-copilot-large-language-models)」には「GitHub Copilot では、LLM を利用してコンテキストに対応したコード提案が提供されます。 LLM は、現在のファイルだけでなく、IDE 内の他の開いているファイルやタブも考慮して、正確で関連するコード補完を生成します。」と記載されています。"
     },
     {
       "questionNumber": 18,
@@ -502,7 +502,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、微調整は、ソース モデルの知識とパラメーターを使いながら、ターゲット データセットでモデルを特定のタスクや分野に向けて調整するプロセスだと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/5-github-copilot-large-language-models"
+      "explanation": "公式 Learn では、微調整は、ソース モデルの知識とパラメーターを使いながら、ターゲット データセットでモデルを特定のタスクや分野に向けて調整するプロセスだと説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot 大規模言語モデル (LLM)](https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/5-github-copilot-large-language-models)」には「これには、ソース モデルと呼ばれる大規模な事前トレーニング済みデータセットから得られた知識とパラメーターを使用しながら、ターゲット データセットと呼ばれる、より小さなタスク固有のデータセットでモデルをトレーニングする必要があります。」と記載されています。"
     },
     {
       "questionNumber": 19,
@@ -529,7 +529,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "公式 Learn では、LoRA は、すべてを変更する代わりに事前トレーニング済みモデルの各レイヤーへ小さなトレーニング可能パーツを追加し、元のモデルを同じままにするため時間とリソースを節約すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/5-github-copilot-large-language-models"
+      "explanation": "公式 Learn では、LoRA は、すべてを変更する代わりに事前トレーニング済みモデルの各レイヤーへ小さなトレーニング可能パーツを追加し、元のモデルを同じままにするため時間とリソースを節約すると説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot 大規模言語モデル (LLM)](https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/5-github-copilot-large-language-models)」には「LoRA では、すべてを変更する代わりに、事前トレーニング済みモデルの各レイヤーに小さなトレーニング可能なパーツが追加されます。 元のモデルは同じままであるため、時間とリソースが節約されます。」と記載されています。"
     },
     {
       "questionNumber": 20,
@@ -556,7 +556,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、従来の完全な微調整はニューラル ネットワークのすべての部分をトレーニングすることを意味し、LoRA は少ない動的パーツで良い結果を得る代替手段だと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/5-github-copilot-large-language-models"
+      "explanation": "公式 Learn では、従来の完全な微調整はニューラル ネットワークのすべての部分をトレーニングすることを意味し、LoRA は少ない動的パーツで良い結果を得る代替手段だと説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot 大規模言語モデル (LLM)](https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/5-github-copilot-large-language-models)」には「従来の完全な微調整は、低速でリソースに大きく依存する場合があるニューラル ネットワークのすべての部分をトレーニングすることを意味します。 しかし、LoRA (低ランク適応) ファインチューニングは、巧妙な代替手段です。」と記載されています。"
     },
     {
       "questionNumber": 21,
@@ -828,7 +828,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "公式 Learn では、関連情報には、GitHub Copilot の背後にある LLM、プロンプト・ヒント・ユース ケース、Copilot がデータを処理する方法が挙げられています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/7-summary"
+      "explanation": "公式 Learn では、関連情報には、GitHub Copilot の背後にある LLM、プロンプト・ヒント・ユース ケース、Copilot がデータを処理する方法が挙げられています。\n\n📖 公式ドキュメント「[まとめ](https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/7-summary)」には「GitHub 内: GitHub Copilot の背後にある大規模言語モデル (LLM) の操作 - GitHub ブログ。 GitHub Copilot の使用方法: プロンプト、ヒント、ユース ケース - GitHub ブログ。 GitHub copilot がデータを処理する方法。」と記載されています。"
     }
   ]
 }

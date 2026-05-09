@@ -27,7 +27,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "公式 Learn では、管理ポリシー機能の表で、コンテンツの除外は Business と Enterprise に含まれ、Free/Pro には含まれないと示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/2-explore-github-copilot-plans-associated-management-customization-features"
+      "explanation": "公式 Learn では、管理ポリシー機能の表で、コンテンツの除外は Business と Enterprise に含まれ、Free/Pro には含まれないと示されています。\n\n📖 公式ドキュメント「[GitHub Copilot プランとそれぞれに関連する管理とカスタマイズの機能の探索](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/2-explore-github-copilot-plans-associated-management-customization-features)」には「たとえば、より堅牢なプライバシー制御を提供するプランは GitHub Copilot Business と Enterprise だけです。これらの制御には、GitHub Copilot 分析から特定のファイルを除外したり、詳細な監査ログにアクセスしたり、IP 補償を提供したりする機能が含まれます。」と記載されています。"
     },
     {
       "questionNumber": 2,
@@ -54,7 +54,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、カスタマイズ機能では、プライベートコードベースに合わせたチャットの調整と、組織コンテキストに合わせたナレッジベースのアタッチが Enterprise のみになっています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/2-explore-github-copilot-plans-associated-management-customization-features"
+      "explanation": "公式 Learn では、カスタマイズ機能では、プライベートコードベースに合わせたチャットの調整と、組織コンテキストに合わせたナレッジベースのアタッチが Enterprise のみになっています。\n\n📖 公式ドキュメント「[GitHub Copilot プランとそれぞれに関連する管理とカスタマイズの機能の探索](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/2-explore-github-copilot-plans-associated-management-customization-features)」には「プライベート コードベースに合わせてチャットの会話を調整する ❌ ❌ ✅\n組織のコンテキストに合わせてチャットにナレッジ ベースをアタッチする ❌ ❌ ✅」と記載されています。"
     },
     {
       "questionNumber": 3,
@@ -137,7 +137,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、管理ポリシー機能の表では、GitHub Enterprise Cloud が必要という項目が Enterprise にのみ該当すると示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/2-explore-github-copilot-plans-associated-management-customization-features"
+      "explanation": "公式 Learn では、管理ポリシー機能の表では、GitHub Enterprise Cloud が必要という項目が Enterprise にのみ該当すると示されています。\n\n📖 公式ドキュメント「[GitHub Copilot プランとそれぞれに関連する管理とカスタマイズの機能の探索](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/2-explore-github-copilot-plans-associated-management-customization-features)」には「GitHub Enterprise Cloud が必要 ❌ ❌ ✅」と記載されています。"
     },
     {
       "questionNumber": 6,
@@ -164,7 +164,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、Business と Enterprise には IP 補償が含まれ、GitHub が法的責任を負うには Matching public code 設定をブロックする必要があると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/3-github-copilot-contractual-protections-disabling-matching-public-code"
+      "explanation": "公式 Learn では、Business と Enterprise には IP 補償が含まれ、GitHub が法的責任を負うには Matching public code 設定をブロックする必要があると説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot での契約上の保護と、一致するパブリック コードの無効化について調べる](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/3-github-copilot-contractual-protections-disabling-matching-public-code)」には「GitHub Copilot の Business と Enterprise プランには IP 補償が含まれており、Copilot の提案の使用に関連する知的財産請求に対する法的保護を提供します。GitHub が法的責任を負うには、Matching public code（一致するパブリック コード）設定をブロックする必要があります。」と記載されています。"
     },
     {
       "questionNumber": 7,
@@ -218,7 +218,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、組織が提供するシートでは、個人アカウント側のトグルはロックされ、組織のポリシーを反映すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/3-github-copilot-contractual-protections-disabling-matching-public-code"
+      "explanation": "公式 Learn では、組織が提供するシートでは、個人アカウント側のトグルはロックされ、組織のポリシーを反映すると説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot での契約上の保護と、一致するパブリック コードの無効化について調べる](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/3-github-copilot-contractual-protections-disabling-matching-public-code)」には「シートが組織によって割り当てられている場合、トグルはロックされており、組織のポリシーを反映しています。」と記載されています。"
     },
     {
       "questionNumber": 9,
@@ -246,7 +246,7 @@
         "B",
         "C"
       ],
-      "explanation": "公式 Learn では、組織管理者向け手順では、[コード、計画、自動化] 配下の [Copilot] から [機能] を開き、[プライバシー] セクションで設定すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/3-github-copilot-contractual-protections-disabling-matching-public-code",
+      "explanation": "公式 Learn では、組織管理者向け手順では、[コード、計画、自動化] 配下の [Copilot] から [機能] を開き、[プライバシー] セクションで設定すると説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot での契約上の保護と、一致するパブリック コードの無効化について調べる](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/3-github-copilot-contractual-protections-disabling-matching-public-code)」には「左側のサイドバーで、[コード、計画、自動化] の下の [Copilot] をクリックします。\n[機能] をクリックし、[プライバシー] セクションまでスクロールします。」と記載されています。",
       "selectionCount": 2
     },
     {
@@ -301,7 +301,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "公式 Learn では、リポジトリでは、リポジトリの [設定] から [コード & オートメーション] セクションの [Copilot] を選び、除外するファイルまたはディレクトリを指定すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/4-manage-content-exclusions"
+      "explanation": "公式 Learn では、リポジトリでは、リポジトリの [設定] から [コード & オートメーション] セクションの [Copilot] を選び、除外するファイルまたはディレクトリを指定すると説明されています。\n\n📖 公式ドキュメント「[コンテンツの除外を管理する](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/4-manage-content-exclusions)」には「リポジトリ名の下にある [設定] を選びます。サイドバーの [コード & オートメーション] セクションで、[Copilot] を選択します。 [除外するリポジトリとパス] セクションで、Copilot の提案から除外するファイルまたはディレクトリを指定します。」と記載されています。"
     },
     {
       "questionNumber": 12,
@@ -328,7 +328,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、GitHub Copilot からコンテンツを除外すると、影響を受けるファイルでコード入力候補を利用できなくなると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/4-manage-content-exclusions"
+      "explanation": "公式 Learn では、GitHub Copilot からコンテンツを除外すると、影響を受けるファイルでコード入力候補を利用できなくなると説明されています。\n\n📖 公式ドキュメント「[コンテンツの除外を管理する](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/4-manage-content-exclusions)」には「影響を受けるファイルで、コードの入力候補を利用できなくなります。」と記載されています。"
     },
     {
       "questionNumber": 13,
@@ -467,7 +467,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、除外の適用の遅れとして、設定が既に読み込まれている IDE では変更が有効になるまで最大 30 分かかることがあると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/5-troubleshoot-common-issues-with-github-copilot"
+      "explanation": "公式 Learn では、除外の適用の遅れとして、設定が既に読み込まれている IDE では変更が有効になるまで最大 30 分かかることがあると説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot に関する一般的な問題のトラブルシューティング](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/5-troubleshoot-common-issues-with-github-copilot)」には「コンテンツの除外を追加または変更した後、設定が既に読み込まれている IDE 上でその変更が有効になるまでに最大で 30 分かかることがあります。」と記載されています。"
     },
     {
       "questionNumber": 18,
@@ -494,7 +494,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "公式 Learn では、コンテンツ除外がファイルに適用される場合、ステータス バーの GitHub Copilot アイコンに斜線が表示されると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/5-troubleshoot-common-issues-with-github-copilot"
+      "explanation": "公式 Learn では、コンテンツ除外がファイルに適用される場合、ステータス バーの GitHub Copilot アイコンに斜線が表示されると説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot に関する一般的な問題のトラブルシューティング](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-management-and-customizations/5-troubleshoot-common-issues-with-github-copilot)」には「GitHub Copilot のコンテンツの除外がファイルに適用される場合は、GitHub Copilot アイコンに斜線が表示されます。」と記載されています。"
     },
     {
       "questionNumber": 19,

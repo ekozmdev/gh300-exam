@@ -27,7 +27,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、メソッドのシグネチャと本文を指定した場合、入力パラメーターと予想される出力値に対応するテストケースを提案できると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/2-examine-github-copilot-support-unit-tests"
+      "explanation": "公式 Learn では、メソッドのシグネチャと本文を指定した場合、入力パラメーターと予想される出力値に対応するテストケースを提案できると説明されています。\n\n📖 公式ドキュメント「[単体テスト ツールと環境を確認する](https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/2-examine-github-copilot-support-unit-tests)」には「たとえば、メソッドのシグネチャと本文を指定した場合、GitHub Copilot Chatでは、入力パラメーターと予想される出力値に対応するテスト ケースを提案できます。」と記載されています。"
     },
     {
       "questionNumber": 2,
@@ -83,7 +83,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、テストフレームワークを設定する手順では、チャット入力フィールドに /setupTests コマンドを入力すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/2-examine-github-copilot-support-unit-tests"
+      "explanation": "公式 Learn では、テストフレームワークを設定する手順では、チャット入力フィールドに /setupTests コマンドを入力すると説明されています。\n\n📖 公式ドキュメント「[単体テスト ツールと環境を確認する](https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/2-examine-github-copilot-support-unit-tests)」には「チャット入力フィールドに `/setupTests` コマンドを入力します。」と記載されています。"
     },
     {
       "questionNumber": 4,
@@ -164,7 +164,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、テストの生成スマートアクションは、現在のファイル内のコードを分析し、コードの構造と動作に基づいてテストケースを生成すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/3-create-unit-tests-generate-tests-smart-action"
+      "explanation": "公式 Learn では、テストの生成スマートアクションは、現在のファイル内のコードを分析し、コードの構造と動作に基づいてテストケースを生成すると説明されています。\n\n📖 公式ドキュメント「[テストの生成スマート アクションを使用して単体テストを作成する](https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/3-create-unit-tests-generate-tests-smart-action)」には「現在のファイル内のコードを分析し、コードの構造と動作に基づいてテスト ケースを生成します。」と記載されています。"
     },
     {
       "questionNumber": 7,
@@ -191,7 +191,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、ファイルの単体テスト生成手順では、コードエディター内を右クリックし、[コードの生成]、[テストの生成] を選択すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/3-create-unit-tests-generate-tests-smart-action"
+      "explanation": "公式 Learn では、ファイルの単体テスト生成手順では、コードエディター内を右クリックし、[コードの生成]、[テストの生成] を選択すると説明されています。\n\n📖 公式ドキュメント「[テストの生成スマート アクションを使用して単体テストを作成する](https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/3-create-unit-tests-generate-tests-smart-action)」には「コード エディター内を右クリックし、[コードの生成] を選択し、[テストの生成] を選択します。」と記載されています。"
     },
     {
       "questionNumber": 8,
@@ -245,7 +245,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、選択範囲の単体テスト生成では、対象コードブロックを選択し、右クリックから [コードの生成]、[テストの生成] を選択すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/3-create-unit-tests-generate-tests-smart-action"
+      "explanation": "公式 Learn では、選択範囲の単体テスト生成では、対象コードブロックを選択し、右クリックから [コードの生成]、[テストの生成] を選択すると説明されています。\n\n📖 公式ドキュメント「[テストの生成スマート アクションを使用して単体テストを作成する](https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/3-create-unit-tests-generate-tests-smart-action)」には「テストするコード ブロックを選択します。 選択したコードを右クリックし、[コードの生成] を選択し、[テストの生成] を選択します。」と記載されています。"
     },
     {
       "questionNumber": 10,
@@ -326,7 +326,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、インラインチャットの手順では、Ctrl + I キーボードショートカットでインラインチャットセッションを開くと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/4-create-unit-tests-inline-chat"
+      "explanation": "公式 Learn では、インラインチャットの手順では、Ctrl + I キーボードショートカットでインラインチャットセッションを開くと説明されています。\n\n📖 公式ドキュメント「[インライン チャットを使用して単体テストを作成する](https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/4-create-unit-tests-inline-chat)」には「Ctrl + I キーボード ショートカットを使用して、インライン チャット セッションを開きます。」と記載されています。"
     },
     {
       "questionNumber": 13,
@@ -353,7 +353,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、注記では、ファイルがアクティブなチャットエージェントセッションの一部の場合、Ctrl+I により [チャットにファイルを追加] または [チャットに選択範囲を追加] が生成されると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/4-create-unit-tests-inline-chat"
+      "explanation": "公式 Learn では、注記では、ファイルがアクティブなチャットエージェントセッションの一部の場合、Ctrl+I により [チャットにファイルを追加] または [チャットに選択範囲を追加] が生成されると説明されています。\n\n📖 公式ドキュメント「[インライン チャットを使用して単体テストを作成する](https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/4-create-unit-tests-inline-chat)」には「ファイルがアクティブなチャット エージェント セッションの一部である場合は、Ctrl キーを押しながら I キーを押すと、[チャットにファイルを追加] または [チャットに選択範囲を追加] オプションが生成されます。」と記載されています。"
     },
     {
       "questionNumber": 14,
@@ -380,7 +380,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "公式 Learn では、例示プロンプトでは、/tests でメソッドの単体テストを生成し、成功と失敗の両方を検証しエッジケースを含めるよう求めています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/4-create-unit-tests-inline-chat"
+      "explanation": "公式 Learn では、例示プロンプトでは、/tests でメソッドの単体テストを生成し、成功と失敗の両方を検証しエッジケースを含めるよう求めています。\n\n📖 公式ドキュメント「[インライン チャットを使用して単体テストを作成する](https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/4-create-unit-tests-inline-chat)」には「例: \"/tests このメソッドの単体テストを生成します。 成功と失敗の両方を検証し、エッジ ケースを含めます。\"」と記載されています。"
     },
     {
       "questionNumber": 15,
@@ -488,7 +488,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、Plan エージェントは、コードを記述する前に構造化されたステップバイステップの実装計画を作成するために最適化されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/5-create-unit-tests-chat-view-modes"
+      "explanation": "公式 Learn では、Plan エージェントは、コードを記述する前に構造化されたステップバイステップの実装計画を作成するために最適化されています。\n\n📖 公式ドキュメント「[チャット ビュー モードを使用して単体テストを作成する](https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/5-create-unit-tests-chat-view-modes)」には「Plan エージェントは、コードを記述する前に、構造化されたステップ バイ ステップの実装計画を作成するために最適化されています。」と記載されています。"
     },
     {
       "questionNumber": 19,
@@ -543,7 +543,7 @@
         "A",
         "B"
       ],
-      "explanation": "公式 Learn では、Agent の手順では、利用可能なツールを構成でき、エージェントが提案するツール呼び出しやターミナルコマンドを確認または拒否できると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/5-create-unit-tests-chat-view-modes",
+      "explanation": "公式 Learn では、Agent の手順では、利用可能なツールを構成でき、エージェントが提案するツール呼び出しやターミナルコマンドを確認または拒否できると説明されています。\n\n📖 公式ドキュメント「[チャット ビュー モードを使用して単体テストを作成する](https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/5-create-unit-tests-chat-view-modes)」には「要求への応答に使用するツールを選択できます。 たとえば、テスト エクスプローラー ツールを選択してテストを実行したり、ターミナル ツールを選択してコマンドを実行したりできます。 エージェントが提案するツールの呼び出しとターミナル コマンドを確認または拒否できます。」と記載されています。",
       "selectionCount": 2
     },
     {
@@ -953,7 +953,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、概要の追加参考資料には、C# 開発キットを使用したテストが含まれています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/8-summary"
+      "explanation": "公式 Learn では、概要の追加参考資料には、C# 開発キットを使用したテストが含まれています。\n\n📖 公式ドキュメント「[概要](https://learn.microsoft.com/ja-jp/training/modules/develop-unit-tests-using-github-copilot-tools/8-summary)」には「C# 開発キットを使用したテスト」と記載されています。"
     }
   ]
 }

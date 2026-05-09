@@ -27,7 +27,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、Space は名前と構成を与えることで、Copilot が明確に定義されたスコープ内で動作する再利用可能なワークスペースになると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/2-create-first-space"
+      "explanation": "公式 Learn では、Space は名前と構成を与えることで、Copilot が明確に定義されたスコープ内で動作する再利用可能なワークスペースになると説明されています。\n\n📖 公式ドキュメント「[最初のスペースの作成](https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/2-create-first-space)」には「スペースの作成はシンプルですが強力です。名前を付け、構成すると、Copilot が明確に定義されたスコープ内で動作する再利用可能なワークスペースになります。」と記載されています。"
     },
     {
       "questionNumber": 2,
@@ -56,7 +56,7 @@
         "A",
         "C"
       ],
-      "explanation": "公式 Learn では、このユニットの学習項目には、Space の作成と命名、個人所有と組織所有の違いが含まれます。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/2-create-first-space"
+      "explanation": "公式 Learn では、このユニットの学習項目には、Space の作成と命名、個人所有と組織所有の違いが含まれます。\n\n📖 公式ドキュメント「[最初のスペースの作成](https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/2-create-first-space)」には「このユニットでは、次の内容について説明します。スペースを作成し、見つけやすいように明確に名前を付ける方法。個人所有のスペースと組織所有のスペースの違い。」と記載されています。"
     },
     {
       "questionNumber": 3,
@@ -83,7 +83,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、説明は Copilot の回答には影響しないものの、他の人が Space のコンテキストを理解する助けになるとされています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/2-create-first-space"
+      "explanation": "公式 Learn では、説明は Copilot の回答には影響しないものの、他の人が Space のコンテキストを理解する助けになるとされています。\n\n📖 公式ドキュメント「[最初のスペースの作成](https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/2-create-first-space)」には「必要に応じて、説明を追加します。これは、Copilot が空間で提供する応答には影響しませんが、他のユーザーが空間のコンテキストを理解するのに役立ちます。」と記載されています。"
     },
     {
       "questionNumber": 4,
@@ -110,7 +110,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、添付できるものとしてファイル、フォルダー、issue、pull request、アップロード、テキストコンテンツが示されますが、拡張機能の @メンション実行は含まれません。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/2-create-first-space"
+      "explanation": "公式 Learn では、添付できるものとしてファイル、フォルダー、issue、pull request、アップロード、テキストコンテンツが示されますが、拡張機能の @メンション実行は含まれません。\n\n📖 公式ドキュメント「[最初のスペースの作成](https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/2-create-first-space)」には「添付ファイルを追加するには、次のいずれかのオプションを選択します。ファイルとフォルダーを添付する。プル要求と問題をリンクする。ファイルをアップロードする。テキスト コンテンツを追加する。」と記載されています。"
     },
     {
       "questionNumber": 5,
@@ -137,7 +137,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、Attachments は質問への関連性を高めるコンテキストであり、Spaces はリポジトリの main ブランチの最新コードを参照すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/2-create-first-space"
+      "explanation": "公式 Learn では、Attachments は質問への関連性を高めるコンテキストであり、Spaces はリポジトリの main ブランチの最新コードを参照すると説明されています。\n\n📖 公式ドキュメント「[最初のスペースの作成](https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/2-create-first-space)」には「添付ファイルは、質問に対してより関連性の高い回答を提供するために使用されます。さらに、スペースは常にリポジトリのメイン ブランチ上の最新バージョンのコードを参照します。」と記載されています。"
     },
     {
       "questionNumber": 6,
@@ -164,7 +164,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "公式 Learn では、可視性は利用範囲に応じて設定し、リンク共有や組織レベルの閲覧・カタログ、目的に基づくタイトルと説明で検出可能性を高めると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/3-share-discover-govern"
+      "explanation": "公式 Learn では、可視性は利用範囲に応じて設定し、リンク共有や組織レベルの閲覧・カタログ、目的に基づくタイトルと説明で検出可能性を高めると説明されています。\n\n📖 公式ドキュメント「[共有、検出可能性、ガバナンス](https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/3-share-discover-govern)」には「成功したスペースは見つけやすく、安全に共有できます。スペースを作成するときは、他のユーザーが使用する範囲に応じて可視性を設定します。スペースをリンクで共有し、利用可能な場合は、組織レベルの閲覧またはカタログに依存して、検出可能性を向上させます。」と記載されています。"
     },
     {
       "questionNumber": 7,
@@ -193,7 +193,7 @@
         "A",
         "D"
       ],
-      "explanation": "公式 Learn では、目的主導のタイトル、短い説明、スコープや対象者、期待される出力の明記が発見性を高める方法として説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/3-share-discover-govern"
+      "explanation": "公式 Learn では、目的主導のタイトル、短い説明、スコープや対象者、期待される出力の明記が発見性を高める方法として説明されています。\n\n📖 公式ドキュメント「[共有、検出可能性、ガバナンス](https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/3-share-discover-govern)」には「明確で目的に基づくタイトルと、対象ユーザー、予想される出力を示す簡単な説明を使用して、チームメイトが使用するタイミングをすぐに把握できるようにします。」と記載されています。"
     },
     {
       "questionNumber": 8,
@@ -220,7 +220,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、Space は GitHub の既存アクセス許可に従い、新しいアクセスを許可せず、閲覧者が既に閲覧権を持つコンテンツだけを表示すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/3-share-discover-govern"
+      "explanation": "公式 Learn では、Space は GitHub の既存アクセス許可に従い、新しいアクセスを許可せず、閲覧者が既に閲覧権を持つコンテンツだけを表示すると説明されています。\n\n📖 公式ドキュメント「[共有、検出可能性、ガバナンス](https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/3-share-discover-govern)」には「セキュリティは、GitHub の既存のアクセス許可に従います。スペースは新しいアクセスを許可しません。閲覧者が既に閲覧権を持っているコンテンツのみが表示されます。」と記載されています。"
     },
     {
       "questionNumber": 9,
@@ -247,7 +247,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "公式 Learn では、ブランチ固有または履歴の文脈が必要な場合は、参照を絞る、短い例を加える、または正確な内容をテキストファイルで添付する方法が示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/3-share-discover-govern"
+      "explanation": "公式 Learn では、ブランチ固有または履歴の文脈が必要な場合は、参照を絞る、短い例を加える、または正確な内容をテキストファイルで添付する方法が示されています。\n\n📖 公式ドキュメント「[共有、検出可能性、ガバナンス](https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/3-share-discover-govern)」には「ブランチ固有のガイダンスまたは履歴スナップショットが必要な場合は、関連するファイルへの参照を絞り込み、フリー テキストで簡単な例を追加するか、環境でサポートされている場合は、正確なコンテンツをキャプチャするテキスト ファイルを添付することを検討してください。」と記載されています。"
     },
     {
       "questionNumber": 10,
@@ -274,7 +274,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "公式 Learn では、軽量だが意図的なガバナンスとして、所有者、使い方メモ、代表例、命名規則、レビュー周期を設けることが説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/3-share-discover-govern"
+      "explanation": "公式 Learn では、軽量だが意図的なガバナンスとして、所有者、使い方メモ、代表例、命名規則、レビュー周期を設けることが説明されています。\n\n📖 公式ドキュメント「[共有、検出可能性、ガバナンス](https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/3-share-discover-govern)」には「ガバナンスは軽量でありながら、意図的に運用することが重要です。スペースを保持する所有者を割り当て、名前付け規則を確立し、古いソースを排除し、命令を現実に合わせて維持するための周期を確認します。」と記載されています。"
     },
     {
       "questionNumber": 11,
@@ -301,7 +301,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、回答を根拠づけるため、質問は添付したソースに密接に絞ることが推奨されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/6-working-guide-space"
+      "explanation": "公式 Learn では、回答を根拠づけるため、質問は添付したソースに密接に絞ることが推奨されています。\n\n📖 公式ドキュメント「[宇宙で働く際のすべきこととすべきでないこと](https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/6-working-guide-space)」には「質問の範囲は、添付したソース (ファイル、問題、プル要求、メモ) に厳密に設定してください。そのため、回答は固定されます。」と記載されています。"
     },
     {
       "questionNumber": 12,
@@ -330,7 +330,7 @@
         "B",
         "C"
       ],
-      "explanation": "公式 Learn では、@メンションは通知や拡張機能実行にならず、機密データは free-text notes へ貼り付けず、権限管理されたファイルリンク等を使うべきだと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/6-working-guide-space"
+      "explanation": "公式 Learn では、@メンションは通知や拡張機能実行にならず、機密データは free-text notes へ貼り付けず、権限管理されたファイルリンク等を使うべきだと説明されています。\n\n📖 公式ドキュメント「[宇宙で働く際のすべきこととすべきでないこと](https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/6-working-guide-space)」には「スペース内のユーザーや他の Copilot 拡張機能を @メンションしないでください。ユーザーのメンションでは誰にも通知されません。また、Space チャットから拡張機能を呼び出すことはできません。機密データをフリーテキスト ノートに貼り付けないでください。」と記載されています。"
     },
     {
       "questionNumber": 13,
@@ -357,7 +357,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、意図確認、具体的制約、実行可能なコード・クエリ・コマンド、含まれるソースへの参照を組み合わせるとよいと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/6-working-guide-space"
+      "explanation": "公式 Learn では、意図確認、具体的制約、実行可能なコード・クエリ・コマンド、含まれるソースへの参照を組み合わせるとよいと説明されています。\n\n📖 公式ドキュメント「[宇宙で働く際のすべきこととすべきでないこと](https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/6-working-guide-space)」には「最初に意図を確認してから、具体的な制約 (形式、時間範囲、ファイル パス、または考慮するセクション) で絞り込みます。実行可能なコード、クエリ、またはコマンドを要求し、役に立つ場合は、追跡可能性のために含まれているソースへの参照を要求します。」と記載されています。"
     },
     {
       "questionNumber": 14,
@@ -384,7 +384,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、Space が単一ジョブを超えたりコンテキスト制限に近づいたりした場合は、ソースを減らすか小さな Space に分割すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/6-working-guide-space"
+      "explanation": "公式 Learn では、Space が単一ジョブを超えたりコンテキスト制限に近づいたりした場合は、ソースを減らすか小さな Space に分割すると説明されています。\n\n📖 公式ドキュメント「[宇宙で働く際のすべきこととすべきでないこと](https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/6-working-guide-space)」には「スペースが単一のジョブの範囲を超えて広がったり、モデルコンテキストの制限を超えたりしないようにしてください。サイズの警告や回答品質の低下に遭遇した場合は、ソースを減らすか、複数の小さなスペースに分割して精度と予測可能性を回復してください。」と記載されています。"
     },
     {
       "questionNumber": 15,
@@ -411,7 +411,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "公式 Learn では、バージョン管理されたファイルにリンクすると既定ブランチの変化を反映でき、重要なソースや例を先に置くことも推奨されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/6-working-guide-space"
+      "explanation": "公式 Learn では、バージョン管理されたファイルにリンクすると既定ブランチの変化を反映でき、重要なソースや例を先に置くことも推奨されています。\n\n📖 公式ドキュメント「[宇宙で働く際のすべきこととすべきでないこと](https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/6-working-guide-space)」には「コンテキストを最新の状態に保ち、順序を整えておいてください。バージョン管理されたファイルをリンクして、スペースが進化するにつれてリポジトリの既定のブランチを反映し、最も重要なソースや例を導きます。」と記載されています。"
     },
     {
       "questionNumber": 16,
@@ -575,7 +575,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "公式 Learn では、モジュール評価では、狭くスコープされたトピックで一貫性と再現性のある回答が必要な場合に Space が適するとされています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/5-knowledge-check"
+      "explanation": "公式 Learn では、モジュール評価では、狭くスコープされたトピックで一貫性と再現性のある回答が必要な場合に Space が適するとされています。\n\n📖 公式ドキュメント「[モジュールの評価](https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/5-knowledge-check)」には「GitHub Copilot Space は、一般的なチャットやリポジトリ全体のチャットよりも優れた選択肢であるのはいつですか? 厳密に範囲を指定したトピックで一貫性のある再現可能な回答が必要な場合。」と記載されています。"
     },
     {
       "questionNumber": 22,
@@ -604,7 +604,7 @@
         "A",
         "B"
       ],
-      "explanation": "公式 Learn では、評価問題では、個人または組織所有を選べること、説明は人間の読者向けであることが正しい内容として扱われています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/5-knowledge-check"
+      "explanation": "公式 Learn では、評価問題では、個人または組織所有を選べること、説明は人間の読者向けであることが正しい内容として扱われています。\n\n📖 公式ドキュメント「[モジュールの評価](https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/5-knowledge-check)」には「スペースの所有権と説明についての正しい記述はどれですか? 個人または組織の所有権 (使用可能な場合) を選択でき、説明は人間の読者向けです。」と記載されています。"
     },
     {
       "questionNumber": 23,
@@ -631,7 +631,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "公式 Learn では、評価問題では、Copilot 拡張機能の @メンションは Space で使えるコンテキスト追加ではないとされています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/5-knowledge-check"
+      "explanation": "公式 Learn では、評価問題では、Copilot 拡張機能の @メンションは Space で使えるコンテキスト追加ではないとされています。\n\n📖 公式ドキュメント「[モジュールの評価](https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/5-knowledge-check)」には「スペース内で Copilot の使用可能なコンテキストを追加しないアクションはどれですか? Copilot 拡張機能を Space チャットで実行できるように、@メンションします。」と記載されています。"
     },
     {
       "questionNumber": 24,
@@ -658,7 +658,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、モジュール評価では、Space は GitHub 権限を反映し、閲覧者が既に見られる内容だけを扱うとされています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/5-knowledge-check"
+      "explanation": "公式 Learn では、モジュール評価では、Space は GitHub 権限を反映し、閲覧者が既に見られる内容だけを扱うとされています。\n\n📖 公式ドキュメント「[モジュールの評価](https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/5-knowledge-check)」には「スペースは、セキュリティとリンクされたアイテムへのアクセスをどのように処理しますか? Space は GitHub のアクセス許可を反映し、ビューアーが既に表示できる内容のみを表示します。」と記載されています。"
     },
     {
       "questionNumber": 25,
@@ -685,7 +685,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "公式 Learn では、評価問題では、サイズ警告や曖昧な回答が出る場合、ソースを減らすか Space を小さく分割することが最善とされています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/5-knowledge-check"
+      "explanation": "公式 Learn では、評価問題では、サイズ警告や曖昧な回答が出る場合、ソースを減らすか Space を小さく分割することが最善とされています。\n\n📖 公式ドキュメント「[モジュールの評価](https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/5-knowledge-check)」には「Space でサイズに関する警告や、回答の曖昧さが増していることに気付きます。最善の次のステップは何ですか? ソースを減らすか、スペースを小さい単一ジョブのスペースに分割する。」と記載されています。"
     },
     {
       "questionNumber": 26,
@@ -712,7 +712,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、Spaces はコードファイル、ドキュメント、issue、pull request など焦点を絞ったソースをキュレーションし、曖昧さを減らして応答の予測可能性と品質を高めると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/7-summary"
+      "explanation": "公式 Learn では、Spaces はコードファイル、ドキュメント、issue、pull request など焦点を絞ったソースをキュレーションし、曖昧さを減らして応答の予測可能性と品質を高めると説明されています。\n\n📖 公式ドキュメント「[概要](https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/7-summary)」には「コード ファイル、ドキュメント、問題、プル要求など、集中したソース セットをキュレーションすることで、スペースはあいまいさを軽減し、Copilot の応答の予測可能性と品質を向上させます。」と記載されています。"
     },
     {
       "questionNumber": 27,
@@ -768,7 +768,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、まとめでは、GitHub の既存権限モデルを活用することで、コンプライアンスを保ちながら知識を安全に共有しやすくなると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/7-summary"
+      "explanation": "公式 Learn では、まとめでは、GitHub の既存権限モデルを活用することで、コンプライアンスを保ちながら知識を安全に共有しやすくなると説明されています。\n\n📖 公式ドキュメント「[概要](https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/7-summary)」には「スペースは、GitHub の既存のアクセス許可モデルを利用してコラボレーションとガバナンスを強化し、コンプライアンスを維持しながら、知識を安全に共有しやすくします。」と記載されています。"
     },
     {
       "questionNumber": 29,
@@ -822,7 +822,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、まとめでは、Spaces が専門知識のスケール、認知負荷の軽減、生産性向上に役立つと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/7-summary"
+      "explanation": "公式 Learn では、まとめでは、Spaces が専門知識のスケール、認知負荷の軽減、生産性向上に役立つと説明されています。\n\n📖 公式ドキュメント「[概要](https://learn.microsoft.com/ja-jp/training/modules/introduction-copilot-spaces/7-summary)」には「Copilot Spaces は、組織が専門知識をスケーリングし、認知負荷を軽減し、開発と運用のワークフロー全体で生産性を向上させるのに役立ちます。」と記載されています。"
     }
   ]
 }

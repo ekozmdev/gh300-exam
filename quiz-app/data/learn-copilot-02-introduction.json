@@ -27,7 +27,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、GitHub Copilot は、すべての一般的なプログラミング言語で動作する AI ペア プログラマを提供するサービスだと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/2-github-copilot-your-ai-pair-programmer"
+      "explanation": "公式 Learn では、GitHub Copilot は、すべての一般的なプログラミング言語で動作する AI ペア プログラマを提供するサービスだと説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot、AI ペア プログラマ](https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/2-github-copilot-your-ai-pair-programmer)」には「GitHub Copilot は、すべての一般的なプログラミング言語で動作する AI ペア プログラマを提供するサービスです。」と記載されています。"
     },
     {
       "questionNumber": 2,
@@ -56,7 +56,7 @@
         "A",
         "D"
       ],
-      "explanation": "公式 Learn では、調査結果として、新しいコードの 46% が AI によって記述され、開発者の全体的な生産性が 55% 速くなったことなどが挙げられています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/2-github-copilot-your-ai-pair-programmer"
+      "explanation": "公式 Learn では、調査結果として、新しいコードの 46% が AI によって記述され、開発者の全体的な生産性が 55% 速くなったことなどが挙げられています。\n\n📖 公式ドキュメント「[GitHub Copilot、AI ペア プログラマ](https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/2-github-copilot-your-ai-pair-programmer)」には「リリース以来、開発者は GitHub Copilot の使用中に次の利点を報告してきました。新しいコードの 46% が AI によって記述されるようになった。開発者の全体的な生産性が 55% 速くなった。」と記載されています。"
     },
     {
       "questionNumber": 3,
@@ -90,7 +90,7 @@
         "D",
         "E"
       ],
-      "explanation": "公式 Learn では、VS Code、Visual Studio、Vim/Neovim、JetBrains スイートの IDE 用の拡張機能として利用できると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/2-github-copilot-your-ai-pair-programmer"
+      "explanation": "公式 Learn では、VS Code、Visual Studio、Vim/Neovim、JetBrains スイートの IDE 用の拡張機能として利用できると説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot、AI ペア プログラマ](https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/2-github-copilot-your-ai-pair-programmer)」には「GitHub Copilot は、VS Code、Visual Studio、Vim/Neovim、および JetBrains スイートの IDE 用の拡張機能として利用できます。」と記載されています。"
     },
     {
       "questionNumber": 4,
@@ -117,7 +117,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、Business は、Copilot アクセスを管理し、追加のセキュリティとコンプライアンス機能の恩恵を受けたい組織向けだと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/2-github-copilot-your-ai-pair-programmer"
+      "explanation": "公式 Learn では、Business は、Copilot アクセスを管理し、追加のセキュリティとコンプライアンス機能の恩恵を受けたい組織向けだと説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot、AI ペア プログラマ](https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/2-github-copilot-your-ai-pair-programmer)」には「GitHub Copilot Business は、Copilot アクセスを管理し、追加のセキュリティとコンプライアンス機能の恩恵を受けたい組織向けです。」と記載されています。"
     },
     {
       "questionNumber": 5,
@@ -144,7 +144,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "公式 Learn では、Enterprise には Business の全機能に加え、プライベート コードに基づく候補、GitHub Enterprise Cloud 統合、AI 検索、組織全体のカスタマイズなどが含まれます。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/2-github-copilot-your-ai-pair-programmer"
+      "explanation": "公式 Learn では、Enterprise には Business の全機能に加え、プライベート コードに基づく候補、GitHub Enterprise Cloud 統合、AI 検索、組織全体のカスタマイズなどが含まれます。\n\n📖 公式ドキュメント「[GitHub Copilot、AI ペア プログラマ](https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/2-github-copilot-your-ai-pair-programmer)」には「GitHub Copilot Enterprise は、高度な機能、より深い統合、強化されたパーソナル化を必要とする大規模な組織や企業向けに設計されています。主な機能: すべてのビジネス機能、内部/プライベート コードに基づいてカスタマイズされたコード候補、GitHub Enterprise Cloud との統合、コードベース全体での AI を利用した検索とドキュメントの生成。」と記載されています。"
     },
     {
       "questionNumber": 6,
@@ -232,7 +232,7 @@
         "D",
         "E"
       ],
-      "explanation": "公式 Learn では、一般的なスラッシュ コマンドとして /explain、/suggest、/tests、/comment が示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/3-interacting-with-copilot"
+      "explanation": "公式 Learn では、一般的なスラッシュ コマンドとして /explain、/suggest、/tests、/comment が示されています。\n\n📖 公式ドキュメント「[Copilot と対話する](https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/3-interacting-with-copilot)」には「一般的なスラッシュ コマンドとその使用方法を次に示します。/explain - 選択したコードの説明を提供します。/suggest - 現在のコンテキストに基づいてコード提案を提供します。/tests - 選択した関数またはクラスの単体テストを生成します。」と記載されています。"
     },
     {
       "questionNumber": 9,
@@ -259,7 +259,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、Copilot は自然言語処理を利用してコメントをコードに変換し、必要な機能をコメントで記述するとコードを生成すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/3-interacting-with-copilot"
+      "explanation": "公式 Learn では、Copilot は自然言語処理を利用してコメントをコードに変換し、必要な機能をコメントで記述するとコードを生成すると説明されています。\n\n📖 公式ドキュメント「[Copilot と対話する](https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/3-interacting-with-copilot)」には「Copilot は、自然言語処理を利用してコメントをコードに変換します。必要な機能をコメントで記述できます。Enter キーを選択すると、Copilot は記述に基づいてコードを生成します。」と記載されています。"
     },
     {
       "questionNumber": 10,
@@ -367,7 +367,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、無効化時には、補完機能をグローバルに無効にするか、指定した言語に対して無効にするかを VS Code が尋ねると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/4-setup-configure-troubleshoot"
+      "explanation": "公式 Learn では、無効化時には、補完機能をグローバルに無効にするか、指定した言語に対して無効にするかを VS Code が尋ねると説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot の設定、構成、トラブルシューティング](https://learn.microsoft.com/ja-jp/training/modules/introduction-to-github-copilot/4-setup-configure-troubleshoot)」には「GitHub Copilot を無効にすると、補完機能の無効化をグローバルに行うか、現在編集しているファイルの言語に対して行うかを VS Code から尋ねられます。GitHub Copilot の補完機能をグローバルに無効にするには、[Disable completions] を選択します。指定した言語に対して GitHub Copilot の補完機能を無効にするには、[Disable completions for LANGUAGE] を選択します。」と記載されています。"
     },
     {
       "questionNumber": 14,

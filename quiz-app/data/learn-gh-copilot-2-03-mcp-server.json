@@ -137,7 +137,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、GitHub-hosted server は、Dockerや手動構成ファイルなしで複雑なセットアップを避け、ワークフローを統合できると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/2-simplify-workflow"
+      "explanation": "公式 Learn では、GitHub-hosted server は、Dockerや手動構成ファイルなしで複雑なセットアップを避け、ワークフローを統合できると説明されています。\n\n📖 公式ドキュメント「[GitHub MCP サーバーを使用して AI ワークフローを簡素化する](https://learn.microsoft.com/ja-jp/training/modules/mcp-server/2-simplify-workflow)」には「GitHub でホストされるサーバーへの接続は、Docker ファイルや構成ファイルを必要とせずに、迅速かつ簡単に行うことができます。 Web やモバイル全体で GitHub Copilot チャットなどの AI ツールを使用して、プロジェクトの成長に合わせてスケーリングできます。」と記載されています。"
     },
     {
       "questionNumber": 6,
@@ -164,7 +164,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、OAuth方式では、VS CodeのCommand Paletteから `MCP: Add Server`、HTTP、`https://api.githubcopilot.com/mcp/` の順に設定し、ブラウザーでGitHubへ認可すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/3-configure-connect"
+      "explanation": "公式 Learn では、OAuth方式では、VS CodeのCommand Paletteから `MCP: Add Server`、HTTP、`https://api.githubcopilot.com/mcp/` の順に設定し、ブラウザーでGitHubへ認可すると説明されています。\n\n📖 公式ドキュメント「[VS Code での GitHub MCP サーバーの構成、接続、および使用](https://learn.microsoft.com/ja-jp/training/modules/mcp-server/3-configure-connect)」には「「MCP: サーバーの追加」と入力し、Enter キーを押します。 一覧から [ HTTP (HTTP または Server-Sent イベント)] を選択します。 [ サーバー URL ] フィールドに「 https://api.githubcopilot.com/mcp/」と入力し、Enter キーを押します。」と記載されています。"
     },
     {
       "questionNumber": 7,
@@ -220,7 +220,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、PAT方式の例では、`Authorization` ヘッダーに `Bearer ${input:github_token}` を指定し、入力プロンプトでトークンを受け取る構成が示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/3-configure-connect"
+      "explanation": "公式 Learn では、PAT方式の例では、`Authorization` ヘッダーに `Bearer ${input:github_token}` を指定し、入力プロンプトでトークンを受け取る構成が示されています。\n\n📖 公式ドキュメント「[VS Code での GitHub MCP サーバーの構成、接続、および使用](https://learn.microsoft.com/ja-jp/training/modules/mcp-server/3-configure-connect)」には「構成ファイルに次を追加します。 \"headers\": { \"Authorization\": \"Bearer ${input:github_token}\" }。次に、トークンを安全に入力するための入力プロンプトを追加します。」と記載されています。"
     },
     {
       "questionNumber": 9,
@@ -301,7 +301,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、Copilot Chatで使うには、Agent modeに切り替え、Select toolsからMCP Server toolsを有効にすると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/4-use-github-copilot-chat"
+      "explanation": "公式 Learn では、Copilot Chatで使うには、Agent modeに切り替え、Select toolsからMCP Server toolsを有効にすると説明されています。\n\n📖 公式ドキュメント「[Copilot チャットでの GitHub MCP サーバーの使用](https://learn.microsoft.com/ja-jp/training/modules/mcp-server/4-use-github-copilot-chat)」には「Visual Studio Code で Copilot チャットを開き、エージェント モードに切り替えて MCP サーバー ツールをアクティブにします。 [ツールの選択] をクリックして、使用可能なすべての MCP サーバー機能を表示します。」と記載されています。"
     },
     {
       "questionNumber": 12,
@@ -384,7 +384,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、ベストプラクティスとして、目標を明確にし、コンテキストを提供し、境界を設定し、大きな変更前に計画を要約させることが説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/4-use-github-copilot-chat"
+      "explanation": "公式 Learn では、ベストプラクティスとして、目標を明確にし、コンテキストを提供し、境界を設定し、大きな変更前に計画を要約させることが説明されています。\n\n📖 公式ドキュメント「[Copilot チャットでの GitHub MCP サーバーの使用](https://learn.microsoft.com/ja-jp/training/modules/mcp-server/4-use-github-copilot-chat)」には「確認を求める: 大きな変更を加える前に、Copilot に計画を要約して、承認または調整できるようにします。」と記載されています。"
     },
     {
       "questionNumber": 15,
@@ -411,7 +411,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "公式 Learn では、Copilot ChatではSelect toolsからMCP Server toolsを選んで有効化する流れが示されており、本文のベストプラクティスでも境界設定が推奨されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/4-use-github-copilot-chat"
+      "explanation": "公式 Learn では、Copilot ChatではSelect toolsからMCP Server toolsを選んで有効化する流れが示されており、本文のベストプラクティスでも境界設定が推奨されています。\n\n📖 公式ドキュメント「[Copilot チャットでの GitHub MCP サーバーの使用](https://learn.microsoft.com/ja-jp/training/modules/mcp-server/4-use-github-copilot-chat)」には「境界を設定する: Copilot が計画を中止する (まだ変更を加えない) 場合は、次の状態にします。 アクティブな MCP ツールを制限することもできます。」と記載されています。"
     },
     {
       "questionNumber": 16,
@@ -791,7 +791,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、概要と構成ユニットでは、OAuth、PAT、Dockerの設定方法と一般的な問題のトラブルシューティングが扱われています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/mcp-server/7-summary"
+      "explanation": "公式 Learn では、概要と構成ユニットでは、OAuth、PAT、Dockerの設定方法と一般的な問題のトラブルシューティングが扱われています。\n\n📖 公式ドキュメント「[概要](https://learn.microsoft.com/ja-jp/training/modules/mcp-server/7-summary)」には「OAuth、個人用アクセス トークン (PAT)、または Docker を使用して、Visual Studio Code で GitHub MCP サーバーを設定します。 セットアップに関する一般的な問題を確実にトラブルシューティングします。」と記載されています。"
     },
     {
       "questionNumber": 30,

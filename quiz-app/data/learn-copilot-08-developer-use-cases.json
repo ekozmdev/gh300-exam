@@ -54,7 +54,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "公式 Learn では、Copilot はエディター内のアシスタンス、クイックリファレンス、コード補完により、オンライン検索やドキュメント確認への切り替えを減らすと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/2-boost-developer-productivity"
+      "explanation": "Copilot は IDE 内で API やライブラリの呼び出しとパラメーターを提案し、オンライン検索やドキュメント確認のためのコンテキスト切り替えを減らせます。\n\n📖 公式ドキュメント「[AI を使用して開発者の生産性を向上させる](https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/2-boost-developer-productivity)」には「GitHub Copilot はコードの提案を IDE 内で直接提供するので、解決方法をオンラインで検索する必要性が最小限になります。API またはライブラリを使っているとき、GitHub Copilot はメソッドの正しい呼び出しとパラメーターを提案できるので、ドキュメントを調べる必要性が減ります。」と記載されています。"
     },
     {
       "questionNumber": 3,
@@ -110,7 +110,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "公式 Learn では、新しいマイクロサービスでは、要件コメントに基づいて Docker 構成、CI/CD パイプライン、基本的な監視設定などを含む構造を生成できる例が示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/2-boost-developer-productivity"
+      "explanation": "新しいマイクロサービスの立ち上げでは、要件コメントから Docker 構成や CI/CD などの周辺構成までまとめて生成できる点が高度な定型自動化の例です。\n\n📖 公式ドキュメント「[AI を使用して開発者の生産性を向上させる](https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/2-boost-developer-productivity)」には「たとえば、新しいマイクロサービスを構築する場合、Copilot は、サービス要件に関するいくつかの説明的なコメントに基づいて、Docker 構成、CI/CD パイプライン ファイル、基本的な監視設定など、プロジェクト構造全体を生成できます。」と記載されています。"
     },
     {
       "questionNumber": 5,
@@ -164,7 +164,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、コード生成と補完では、あいまいなシナリオで複数のコード提案が提供され、開発者が適切なものを選べると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/3-align-with-developer-preferences"
+      "explanation": "Copilot はあいまいな状況でも複数の候補を提示できるため、開発者が最適な実装を選びやすくなります。\n\n📖 公式ドキュメント「[開発者の好みに合わせる](https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/3-align-with-developer-preferences)」には「あいまいなシナリオに直面した場合、GitHub Copilot を使用すると、複数のコード提案が提供され、開発者は最も適切なオプションを選択できます。」と記載されています。"
     },
     {
       "questionNumber": 7,
@@ -220,7 +220,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、最新の構文の提案として、JavaScript ECMAScript などでより簡潔でパフォーマンスの高い言語機能を提案できると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/3-align-with-developer-preferences"
+      "explanation": "リファクタリング支援では、JavaScript ECMAScript のように進化する言語で最新構文を提案できる点が重要です。\n\n📖 公式ドキュメント「[開発者の好みに合わせる](https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/3-align-with-developer-preferences)」には「構文が進化している言語 (JavaScript ECMAScript など) の場合、GitHub Copilot は、より簡潔でパフォーマンスの高い最新の言語機能を提案できます。」と記載されています。"
     },
     {
       "questionNumber": 9,
@@ -274,7 +274,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、統合された開発エクスペリエンスでは、GitHub Copilot が最小限の構成で効果的に機能し、開発者の好みに合うと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/3-align-with-developer-preferences"
+      "explanation": "ここでいう最小構成とは、複雑なセットアップなしでも Copilot が既存の開発環境で有効に機能することです。\n\n📖 公式ドキュメント「[開発者の好みに合わせる](https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/3-align-with-developer-preferences)」には「広範なセットアップを必要とする多くの AI ツールとは異なり、GitHub Copilot は最小限の構成で効果的に機能し、\"it just works\" ツールに対する開発者の好みを尊重します。」と記載されています。"
     },
     {
       "questionNumber": 11,
@@ -301,7 +301,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、要件分析では、Copilot は要件を直接収集しないものの、ユーザーストーリーを初期の関数またはクラス定義へ変換する支援ができると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/4-ai-software-development-lifecycle"
+      "explanation": "要件分析では、Copilot は要件そのものを収集するのではなく、ユーザーストーリーを初期実装の形に落とし込む支援を行います。\n\n📖 公式ドキュメント「[ソフトウェア開発ライフサイクル (SDLC) における AI](https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/4-ai-software-development-lifecycle)」には「GitHub Copilot は要件を直接収集しませんが、要件を初期コード構造に変換するのに役立ちます。ユーザー ストーリーを初期の関数またはクラス定義に変換し、開発の出発点を提供します。」と記載されています。"
     },
     {
       "questionNumber": 12,
@@ -357,7 +357,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、テストと品質保証では、テスト対象コードの予想される動作に基づいて適切なアサーションを提案すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/4-ai-software-development-lifecycle"
+      "explanation": "テストと品質保証では、アサーションの提案はテスト対象コードがどう振る舞うべきかという期待に基づきます。\n\n📖 公式ドキュメント「[ソフトウェア開発ライフサイクル (SDLC) における AI](https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/4-ai-software-development-lifecycle)」には「テスト対象のコードの予想される動作に基づいて、適切なアサーションを提案します。」と記載されています。"
     },
     {
       "questionNumber": 14,
@@ -384,7 +384,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、品質ゲートは、開発パイプラインを進める前にコードが標準を満たしていることを確認する自動品質チェックとして説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/4-ai-software-development-lifecycle"
+      "explanation": "品質ゲートは、パイプラインを先に進める前にコード品質を自動チェックする仕組みです。\n\n📖 公式ドキュメント「[ソフトウェア開発ライフサイクル (SDLC) における AI](https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/4-ai-software-development-lifecycle)」には「開発パイプラインを進める前に、コードが標準を満たしていることを確認する自動品質チェックを作成します。」と記載されています。"
     },
     {
       "questionNumber": 15,
@@ -438,7 +438,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、言語とフレームワークの特定性では、Copilot の有効性が言語やフレームワークによって異なる場合があると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/5-understand-limitations-measure-impact"
+      "explanation": "Copilot の有効性は一律ではなく、扱う言語やフレームワークによって差が出ることがあります。\n\n📖 公式ドキュメント「[制限事項を理解し、影響を測定する](https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/5-understand-limitations-measure-impact)」には「GitHub Copilot の有効性は、プログラミング言語やフレームワークによって異なる場合があります。」と記載されています。"
     },
     {
       "questionNumber": 17,
@@ -494,7 +494,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、使用状況メトリック REST API は、入力候補、チャットの対話、ユーザーエンゲージメントなどの毎日の使用状況に関する分析情報を提供すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/5-understand-limitations-measure-impact"
+      "explanation": "使用状況メトリック REST API では、入力候補やチャット利用などの日次利用状況を把握できます。\n\n📖 公式ドキュメント「[制限事項を理解し、影響を測定する](https://learn.microsoft.com/ja-jp/training/modules/developer-use-cases-for-ai-with-github-copilot/5-understand-limitations-measure-impact)」には「これらのメトリックでは、さまざまなエディターと言語にわたる入力候補、チャットの対話、ユーザー エンゲージメントなど、GitHub Copilot の毎日の使用状況に関する分析情報が提供されます。」と記載されています。"
     },
     {
       "questionNumber": 19,

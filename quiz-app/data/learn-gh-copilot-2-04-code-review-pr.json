@@ -191,7 +191,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、Copilot は数秒以内に、承認や拒否ではなくコメントレビューを生成し、マージをブロックするのではなく人間のレビュー担当者に有用なコンテキストを追加すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/3-copilot-reviewer-github"
+      "explanation": "公式 Learn では、Copilot は数秒以内に、承認や拒否ではなくコメントレビューを生成し、マージをブロックするのではなく人間のレビュー担当者に有用なコンテキストを追加すると説明されています。\n\n📖 公式ドキュメント「[GitHub.com でのレビュー担当者としての Copilot の使用](https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/3-copilot-reviewer-github)」には「数秒以内に、Copilot は承認や拒否ではなくコメント レビューを生成するため、マージをブロックするのではなく、人間のレビュー担当者にとって貴重なコンテキストを追加します。」と記載されています。"
     },
     {
       "questionNumber": 8,
@@ -220,7 +220,7 @@
         "A",
         "D"
       ],
-      "explanation": "公式 Learn では、Copilotのコメントはチームメイトのコメントと同じように扱え、関連コード行に残された提案を確認し、修正を適用できます。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/3-copilot-reviewer-github"
+      "explanation": "公式 Learn では、Copilotのコメントはチームメイトのコメントと同じように扱え、関連コード行に残された提案を確認し、修正を適用できます。\n\n📖 公式ドキュメント「[GitHub.com でのレビュー担当者としての Copilot の使用](https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/3-copilot-reviewer-github)」には「レビューコメントはチームメイトのものと同じように見えて動作します。あなたはそれらに反応したり、解決したり、コメントしたりすることができます。」と記載されています。"
     },
     {
       "questionNumber": 9,
@@ -301,7 +301,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、VS CodeまたはJetBrains IDEでは、PRを開く前にCopilotへレビューを依頼でき、問題を早期に修正して後のレビューのノイズを減らせると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/4-issues-early-automated-reviews-copilot"
+      "explanation": "公式 Learn では、VS CodeまたはJetBrains IDEでは、PRを開く前にCopilotへレビューを依頼でき、問題を早期に修正して後のレビューのノイズを減らせると説明されています。\n\n📖 公式ドキュメント「[Copilot で問題を早期にキャッチし、レビューを自動化する](https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/4-issues-early-automated-reviews-copilot)」には「VS Code または JetBrains IDE では、コミットする前に変更を確認するように Copilot に要求できます。開発者は、同僚から指摘されるのを待たずに、コードをプッシュする前に問題を修正することで、後のレビューにおけるノイズを減らします。」と記載されています。"
     },
     {
       "questionNumber": 12,
@@ -411,7 +411,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、リポジトリのBranch rulesetで、マージ前のpull request要求を有効化し、展開されたオプションでCopilotからpull request reviewを要求すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/4-issues-early-automated-reviews-copilot"
+      "explanation": "公式 Learn では、リポジトリのBranch rulesetで、マージ前のpull request要求を有効化し、展開されたオプションでCopilotからpull request reviewを要求すると説明されています。\n\n📖 公式ドキュメント「[Copilot で問題を早期にキャッチし、レビューを自動化する](https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/4-issues-early-automated-reviews-copilot)」には「［分岐ルール］で、［マージする前に pull request を要求する］をオンにします。展開されたオプションで、［Copilot から pull request review を要求する］を選択します。」と記載されています。"
     },
     {
       "questionNumber": 16,
@@ -548,7 +548,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、シナリオでは、簡単なドキュメント変更にはPRU以外の要求を使い、運用環境に影響するコードへPRU-powered reviewを予約することで使用量を下げると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/5-impact-optimization-premium-request-units"
+      "explanation": "公式 Learn では、シナリオでは、簡単なドキュメント変更にはPRU以外の要求を使い、運用環境に影響するコードへPRU-powered reviewを予約することで使用量を下げると説明されています。\n\n📖 公式ドキュメント「[影響の測定と Premium 要求ユニット (PRU) の最適化](https://learn.microsoft.com/ja-jp/training/modules/code-reviews-pull-requests-github-copilot/5-impact-optimization-premium-request-units)」には「大規模または高リスクの変更に対するプレミアム レビューを予約する。単純な編集のために標準的なCopilotの提案に依存しています。」と記載されています。"
     },
     {
       "questionNumber": 21,

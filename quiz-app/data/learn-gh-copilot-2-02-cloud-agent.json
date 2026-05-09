@@ -27,7 +27,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、Cloud Agent は GitHub 自体の内部で実行される自律的な開発アシスタントで、明確なスコープのタスクに対してブランチ作成、探索、実装計画、コード下書きを行うと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/1-understand-enable-github-copilot-code-agent"
+      "explanation": "公式 Learn では、Cloud Agent は GitHub 自体の内部で実行される自律的な開発アシスタントで、明確なスコープのタスクに対してブランチ作成、探索、実装計画、コード下書きを行うと説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot Cloud エージェントの理解と有効化](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/1-understand-enable-github-copilot-code-agent)」には「GitHub Copilot Cloud Agent は、GitHub 自体の内部で実行される自律的な開発アシスタントです。 IDE でのみユーザーとペアリングするのではなく、エージェントはバックグラウンド のチームメイトのように機能します。 バグ修正、増分機能、ドキュメントの更新など、明確なスコープのタスクを提供すると、ブランチが作成され、コードベースが探索され、実装計画が生成され、コードの下書きが行われます。」と記載されています。"
     },
     {
       "questionNumber": 2,
@@ -110,7 +110,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、Cloud Agent は GitHub Actions を利用した環境で自律実行され、Visual Studio / VS Code のエージェント モードはIDEセッションで自律的なローカル編集を行うと区別されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/1-understand-enable-github-copilot-code-agent"
+      "explanation": "公式 Learn では、Cloud Agent は GitHub Actions を利用した環境で自律実行され、Visual Studio / VS Code のエージェント モードはIDEセッションで自律的なローカル編集を行うと区別されています。\n\n📖 公式ドキュメント「[GitHub Copilot Cloud エージェントの理解と有効化](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/1-understand-enable-github-copilot-code-agent)」には「クラウド エージェント: GitHub Actions を利用した環境で自律的に実行され、問題または Copilot Chat を使用して割り当てる開発タスクを完了します。 エージェント モード (Copilot 編集): IDE セッションで自律的なローカル編集を直接実行します。」と記載されています。"
     },
     {
       "questionNumber": 5,
@@ -164,7 +164,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、組み込み保護として、エージェントは `copilot/` で始まるブランチのみを作成・pushでき、ブランチ保護と必要なチェックは引き続き適用されると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/2-security-risks-limitations-copilot-code-agent"
+      "explanation": "公式 Learn では、組み込み保護として、エージェントは `copilot/` で始まるブランチのみを作成・pushでき、ブランチ保護と必要なチェックは引き続き適用されると説明されています。\n\n📖 公式ドキュメント「[Copilot Cloud Agent のセキュリティ、リスク、および制限事項](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/2-security-risks-limitations-copilot-code-agent)」には「ブランチの制限 - copilot/で始まるブランチのみを作成してプッシュでき、すべてのブランチ保護と必要なチェックが引き続き適用されます。」と記載されています。"
     },
     {
       "questionNumber": 7,
@@ -218,7 +218,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、機密情報へのアクセスリスクの緩和として、エージェントのインターネット アクセスは既定でファイアウォールにより制限され、ポリシーに応じてカスタマイズまたは無効化できると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/2-security-risks-limitations-copilot-code-agent"
+      "explanation": "公式 Learn では、機密情報へのアクセスリスクの緩和として、エージェントのインターネット アクセスは既定でファイアウォールにより制限され、ポリシーに応じてカスタマイズまたは無効化できると説明されています。\n\n📖 公式ドキュメント「[Copilot Cloud Agent のセキュリティ、リスク、および制限事項](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/2-security-risks-limitations-copilot-code-agent)」には「エージェントのインターネット アクセスは、既定でファイアウォールによって制限されます。ポリシーごとにファイアウォールをカスタマイズまたは無効にすることができます。」と記載されています。"
     },
     {
       "questionNumber": 9,
@@ -274,7 +274,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "公式 Learn では、外部コラボレーター ルールとして、エージェントの下書きPRではActions実行前に書き込みアクセス権を持つユーザーの承認が必要で、PR要求者本人は承認できないと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/2-security-risks-limitations-copilot-code-agent"
+      "explanation": "公式 Learn では、外部コラボレーター ルールとして、エージェントの下書きPRではActions実行前に書き込みアクセス権を持つユーザーの承認が必要で、PR要求者本人は承認できないと説明されています。\n\n📖 公式ドキュメント「[Copilot Cloud Agent のセキュリティ、リスク、および制限事項](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/2-security-risks-limitations-copilot-code-agent)」には「エージェントからの下書き PR では、アクションの実行前に書き込みアクセス許可を持つユーザーによる承認が必要です。 PR を要求したユーザーは、それを承認できません。」と記載されています。"
     },
     {
       "questionNumber": 11,
@@ -301,7 +301,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、Issue割り当て後、Copilot は受け付けを示し、専用ブランチとIssueにリンクされた下書きPRを作成し、セッションで作業を進めると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/3-assign-track-troubleshoot-copilot-code-agent-tasks"
+      "explanation": "公式 Learn では、Issue割り当て後、Copilot は受け付けを示し、専用ブランチとIssueにリンクされた下書きPRを作成し、セッションで作業を進めると説明されています。\n\n📖 公式ドキュメント「[Copilot Cloud Agent タスクの割り当て、追跡、トラブルシューティング](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/3-assign-track-troubleshoot-copilot-code-agent-tasks)」には「Copilot に問題を割り当てると、エージェントは問題に対する 👀 の反応を追加することによってそれを確認します。 その後、専用の `copilot/` ブランチを作成し、問題にリンクされた下書きプル要求を開き、GitHub Actions を利用した環境内でエージェント セッションを開始します。」と記載されています。"
     },
     {
       "questionNumber": 12,
@@ -357,7 +357,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、エージェントPRでは、pull request コメントで `@copilot` をメンションして作業を反復処理するよう依頼できると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/3-assign-track-troubleshoot-copilot-code-agent-tasks"
+      "explanation": "公式 Learn では、エージェントPRでは、pull request コメントで `@copilot` をメンションして作業を反復処理するよう依頼できると説明されています。\n\n📖 公式ドキュメント「[Copilot Cloud Agent タスクの割り当て、追跡、トラブルシューティング](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/3-assign-track-troubleshoot-copilot-code-agent-tasks)」には「変更を要求するために pull request コメントに @copilot メンションします。 リポジトリへの書き込みアクセス許可を持つユーザーからのコメントのみが処理されます。」と記載されています。"
     },
     {
       "questionNumber": 14,
@@ -384,7 +384,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "公式 Learn では、トラブルシューティングでは、エージェントの可用性、リポジトリや組織での有効化、タスクのスコープを確認する項目が説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/3-assign-track-troubleshoot-copilot-code-agent-tasks"
+      "explanation": "公式 Learn では、トラブルシューティングでは、エージェントの可用性、リポジトリや組織での有効化、タスクのスコープを確認する項目が説明されています。\n\n📖 公式ドキュメント「[Copilot Cloud Agent タスクの割り当て、追跡、トラブルシューティング](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/3-assign-track-troubleshoot-copilot-code-agent-tasks)」には「対象プラン (Pro、Pro+、Business、Enterprise) を使用していることを確認します。 エージェントが組織/リポジトリ レベルで無効になっていないことを確認します。 機能ページを確認してください: `github.com/settings/copilot/features`。」と記載されています。"
     },
     {
       "questionNumber": 15,
@@ -438,7 +438,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "公式 Learn では、エージェント環境をカスタマイズするには、既定ブランチに `.github/workflows/copilot-setup-steps.yml` を作成すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/4-customize-extend-validate-copilot-code-agent"
+      "explanation": "公式 Learn では、エージェント環境をカスタマイズするには、既定ブランチに `.github/workflows/copilot-setup-steps.yml` を作成すると説明されています。\n\n📖 公式ドキュメント「[Copilot Cloud エージェントのカスタマイズ、拡張、検証](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/4-customize-extend-validate-copilot-code-agent)」には「リポジトリの既定のブランチに `.github/workflows/copilot-setup-steps.yml` を作成します。 ワークフローでは、 `copilot-setup-steps`という名前の 1 つのジョブを定義する必要があります。」と記載されています。"
     },
     {
       "questionNumber": 17,
@@ -467,7 +467,7 @@
         "B",
         "C"
       ],
-      "explanation": "公式 Learn では、許可キーとして `steps`、`permissions`、`runs-on`、`container`、`services`、`snapshot`、`timeout-minutes` が挙げられています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/4-customize-extend-validate-copilot-code-agent"
+      "explanation": "公式 Learn では、許可キーとして `steps`、`permissions`、`runs-on`、`container`、`services`、`snapshot`、`timeout-minutes` が挙げられています。\n\n📖 公式ドキュメント「[Copilot Cloud エージェントのカスタマイズ、拡張、検証](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/4-customize-extend-validate-copilot-code-agent)」には「`copilot-setup-steps` ジョブに許可されている構成キー: `steps, permissions, runs-on, container, services, snapshot, timeout-minutes` (≤ 59)。」と記載されています。"
     },
     {
       "questionNumber": 18,
@@ -494,7 +494,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、`copilot-setup-steps` ジョブの許可キーに `timeout-minutes` が含まれ、値は59以下である必要があると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/4-customize-extend-validate-copilot-code-agent"
+      "explanation": "公式 Learn では、`copilot-setup-steps` ジョブの許可キーに `timeout-minutes` が含まれ、値は59以下である必要があると説明されています。\n\n📖 公式ドキュメント「[Copilot Cloud エージェントのカスタマイズ、拡張、検証](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/4-customize-extend-validate-copilot-code-agent)」には「`copilot-setup-steps` ジョブに許可されている構成キー: `steps, permissions, runs-on, container, services, snapshot, timeout-minutes` (≤ 59)。」と記載されています。"
     },
     {
       "questionNumber": 19,
@@ -521,7 +521,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、Cloud Agent は MCP tools のみをサポートし、OAuthを必要とする Remote MCP サーバーはサポートされないと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/4-customize-extend-validate-copilot-code-agent"
+      "explanation": "公式 Learn では、Cloud Agent は MCP tools のみをサポートし、OAuthを必要とする Remote MCP サーバーはサポートされないと説明されています。\n\n📖 公式ドキュメント「[Copilot Cloud エージェントのカスタマイズ、拡張、検証](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/4-customize-extend-validate-copilot-code-agent)」には「Copilot Cloud Agent では、MCP ツールのみがサポートされます (リソースやプロンプトはサポートされません)。 OAuth を必要とするリモート MCP サーバーはサポートされていません。」と記載されています。"
     },
     {
       "questionNumber": 20,
@@ -604,7 +604,7 @@
         "B",
         "D"
       ],
-      "explanation": "公式 Learn では、責任ある使用では、セキュリティ、ガバナンス、支出として、ブランチ保護、承認ゲート、Actions実行時間、PRUを管理すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/5-responsible-use-github-copilot-code-agent-github"
+      "explanation": "公式 Learn では、責任ある使用では、セキュリティ、ガバナンス、支出として、ブランチ保護、承認ゲート、Actions実行時間、PRUを管理すると説明されています。\n\n📖 公式ドキュメント「[概要](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/7-summary)」には「セキュリティ、ガバナンス、支出を制御します。ブランチ保護、承認ゲート、アクション実行時間、PRU（モデルリクエストごとに1つのプレミアムリクエスト）を管理します。」と記載されています。"
     },
     {
       "questionNumber": 23,
@@ -631,7 +631,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、Cloud Agent は下書きPRを開き、`@copilot` で変更を確認・要求しながら反復すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/5-responsible-use-github-copilot-code-agent-github"
+      "explanation": "公式 Learn では、Cloud Agent は下書きPRを開き、`@copilot` で変更を確認・要求しながら反復すると説明されています。\n\n📖 公式ドキュメント「[GitHub.com での GitHub Copilot Cloud Agent の責任ある使用](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/5-responsible-use-github-copilot-code-agent-github)」には「pull request 内でコメントを付けるか、エージェントに明示的にメンション (**@copilot**) することで、エージェントにフィードバックを提供できます。 そうすると、そのフィードバックはエージェントから言語モデルに再送信され、さらに分析されます。 エージェントは、フィードバックに基づいて変更を完了すると、更新された変更でコメントに応答します。」と記載されています。"
     },
     {
       "questionNumber": 24,
@@ -685,7 +685,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、Cloud Agent の作業はGitHubのコミット、セッションログ、PR履歴に表示され、透明性とコラボレーションの機会が生まれると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/5-responsible-use-github-copilot-code-agent-github"
+      "explanation": "公式 Learn では、Cloud Agent の作業はGitHubのコミット、セッションログ、PR履歴に表示され、透明性とコラボレーションの機会が生まれると説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot Cloud エージェントの理解と有効化](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/1-understand-enable-github-copilot-code-agent)」には「作業は、追跡可能性のためにセッション ログと PR 履歴に表示されます。 これにより、透明性とコラボレーションの機会が生まれます。チームメイトは各ステップを見て、必要に応じて飛び込むことができます。」と記載されています。"
     },
     {
       "questionNumber": 26,
@@ -957,7 +957,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、概要では、リポジトリで有効化し小さな問題を割り当てた後、ログ監視、PRコメントでの反復、CI検証に加え、価値の高い作業に戻る時間を測定すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/7-summary"
+      "explanation": "公式 Learn では、概要では、リポジトリで有効化し小さな問題を割り当てた後、ログ監視、PRコメントでの反復、CI検証に加え、価値の高い作業に戻る時間を測定すると説明されています。\n\n📖 公式ドキュメント「[概要](https://learn.microsoft.com/ja-jp/training/modules/github-copilot-code-agent/7-summary)」には「リポジトリで有効にする、小さな問題を割り当てる、ログを監視する、PR コメントを反復処理する、CI を使用して検証する、価値の高い作業に戻る時間を測定する。」と記載されています。"
     }
   ]
 }

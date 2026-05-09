@@ -27,7 +27,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、AI リスク軽減にはガバナンス、透明性、人による監視が不可欠だと説明されています。ほかの選択肢は別原則の要素や性能観点であり、この箇所のリスク軽減策そのものではありません。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/2-manage-ai-risks"
+      "explanation": "公式 Learn では、AI リスク軽減にはガバナンス、透明性、人による監視が不可欠だと説明されています。ほかの選択肢は別原則の要素や性能観点であり、この箇所のリスク軽減策そのものではありません。\n\n📖 公式ドキュメント「[AI リスクを軽減する](https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/2-manage-ai-risks)」には「これらのリスクを軽減するには、堅牢なガバナンス フレームワークを実装し、AI プロセスの透明性を確保し、人による監視を組み込むことが不可欠です。」と記載されています。"
     },
     {
       "questionNumber": 2,
@@ -54,7 +54,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、責任ある AI は、安全で信頼できる倫理的な方法で AI システムを開発、評価、デプロイするアプローチだと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/2-manage-ai-risks"
+      "explanation": "公式 Learn では、責任ある AI は、安全で信頼できる倫理的な方法で AI システムを開発、評価、デプロイするアプローチだと説明されています。\n\n📖 公式ドキュメント「[AI リスクを軽減する](https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/2-manage-ai-risks)」には「責任ある AI とは、安全で信頼できる倫理的な方法で人工知能システムを開発、評価、デプロイするためのアプローチです。」と記載されています。"
     },
     {
       "questionNumber": 3,
@@ -83,7 +83,7 @@
         "A",
         "D"
       ],
-      "explanation": "公式 Learn では、AI システムの意思決定が解釈しにくいこと、偏った意思決定やプライバシー侵害などの有害な結果がリスクとして挙げられています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/2-manage-ai-risks"
+      "explanation": "公式 Learn では、AI システムの意思決定が解釈しにくいこと、偏った意思決定やプライバシー侵害などの有害な結果がリスクとして挙げられています。\n\n📖 公式ドキュメント「[AI リスクを軽減する](https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/2-manage-ai-risks)」には「主な懸念事項の 1 つは、AI システムが解釈が困難な意思決定を行うことがあり、その結果、透明性と説明責任の欠如につながる場合があることです。 さらに、AI は、偏った意思決定やプライバシーの侵害など、意図しない有害な結果をもたらす可能性があります。」と記載されています。"
     },
     {
       "questionNumber": 4,
@@ -110,7 +110,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、責任ある AI は、人とその目標をシステム設計の中心に保ち、公平性、信頼性、透明性などの価値を尊重すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/2-manage-ai-risks"
+      "explanation": "公式 Learn では、責任ある AI は、人とその目標をシステム設計の中心に保ち、公平性、信頼性、透明性などの価値を尊重すると説明されています。\n\n📖 公式ドキュメント「[AI リスクを軽減する](https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/2-manage-ai-risks)」には「つまり、人とその目標をシステム設計の決定の中心に保ち、公平性、信頼性、透明性などの永続的な価値を尊重することを意味します。」と記載されています。"
     },
     {
       "questionNumber": 5,
@@ -137,7 +137,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、ガバナンス、透明性、人による監視によって、AI の利点を活用しながら潜在的な悪影響を最小限に抑えると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/2-manage-ai-risks"
+      "explanation": "公式 Learn では、ガバナンス、透明性、人による監視によって、AI の利点を活用しながら潜在的な悪影響を最小限に抑えると説明されています。\n\n📖 公式ドキュメント「[AI リスクを軽減する](https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/2-manage-ai-risks)」には「そうすることで、組織は AI の利点を活用しながら、潜在的な悪影響を最小限に抑えることができます。」と記載されています。"
     },
     {
       "questionNumber": 6,
@@ -171,7 +171,7 @@
         "C",
         "D"
       ],
-      "explanation": "公式 Learn では、6 原則は、公平性、信頼性と安全性、プライバシーとセキュリティ、包括性、透明性、アカウンタビリティです。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/3-six-principles-of-responsible-ai"
+      "explanation": "公式 Learn では、6 原則は、公平性、信頼性と安全性、プライバシーとセキュリティ、包括性、透明性、アカウンタビリティです。\n\n📖 公式ドキュメント「[Microsoft と GitHub の責任ある AI の 6 つの原則](https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/3-six-principles-of-responsible-ai)」には「**公平性:** AI システムでは、すべてのユーザーを公平に扱う必要があります。 **信頼性と安全性:** AI システムを確実かつ安全に実行する必要があります。 **包括性:** AI システムはすべての人を支援し、ユーザーを関与させる必要があります。」と記載されています。"
     },
     {
       "questionNumber": 7,
@@ -198,7 +198,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、公平性では、偏りを検出して不公平な影響を軽減するため、トレーニング データ確認、バランスの取れたサンプルでのテスト、敵対的デバイアスなどが説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/3-six-principles-of-responsible-ai"
+      "explanation": "公式 Learn では、公平性では、偏りを検出して不公平な影響を軽減するため、トレーニング データ確認、バランスの取れたサンプルでのテスト、敵対的デバイアスなどが説明されています。\n\n📖 公式ドキュメント「[Microsoft と GitHub の責任ある AI の 6 つの原則](https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/3-six-principles-of-responsible-ai)」には「偏りを検出して不公平な影響を軽減するために、次のような手法を採用します。 トレーニング データの確認。 バランスの取れた人口統計サンプルを使用したモデルのテスト。」と記載されています。"
     },
     {
       "questionNumber": 8,
@@ -225,7 +225,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、信頼性と安全性では、システムが意図どおり一貫して動作し、予期しない状況に安全に対応して有害な操作を阻止することが説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/3-six-principles-of-responsible-ai"
+      "explanation": "公式 Learn では、信頼性と安全性では、システムが意図どおり一貫して動作し、予期しない状況に安全に対応して有害な操作を阻止することが説明されています。\n\n📖 公式ドキュメント「[Microsoft と GitHub の責任ある AI の 6 つの原則](https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/3-six-principles-of-responsible-ai)」には「これらのシステムは、設計どおりに機能し、予期しない状況に安全に対応して、有害な操作を阻止する必要があります。」と記載されています。"
     },
     {
       "questionNumber": 9,
@@ -252,7 +252,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、データ収集前の許可、使用方法の説明、必要なデータのみの収集、仮名化や集約による匿名化が説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/3-six-principles-of-responsible-ai"
+      "explanation": "公式 Learn では、データ収集前の許可、使用方法の説明、必要なデータのみの収集、仮名化や集約による匿名化が説明されています。\n\n📖 公式ドキュメント「[Microsoft と GitHub の責任ある AI の 6 つの原則](https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/3-six-principles-of-responsible-ai)」には「データを収集する前にユーザーの許可を得る。 AI が作業するために必要なデータのみを収集する。 ID を保護するには、仮名化や集約などの方法を使用します。」と記載されています。"
     },
     {
       "questionNumber": 10,
@@ -279,7 +279,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、透明性は検証フレームワーク、設計選択、機能と制限、ログや監査による理解可能性に関係します。アカウンタビリティは AI 作成者や展開会社がシステムの動作と運用に責任を負うことです。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/3-six-principles-of-responsible-ai"
+      "explanation": "公式 Learn では、透明性は検証フレームワーク、設計選択、機能と制限、ログや監査による理解可能性に関係します。アカウンタビリティは AI 作成者や展開会社がシステムの動作と運用に責任を負うことです。\n\n📖 公式ドキュメント「[Microsoft と GitHub の責任ある AI の 6 つの原則](https://learn.microsoft.com/ja-jp/training/modules/responsible-ai-with-github-copilot/3-six-principles-of-responsible-ai)」には「透明性では、AI システムは理解可能であり、かつ解釈可能である必要があることを強調しています。 説明責任の原則では、AI の作成者はシステムの動作方法に対して責任を負う必要があると記載されています。 Microsoft によれば、AI システムはユーザーに対して説明責任を負う必要があり、AI システムを展開する会社はその運用に責任を負う必要があります。」と記載されています。"
     },
     {
       "questionNumber": 11,

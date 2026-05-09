@@ -27,7 +27,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、高度な機能は既存コードの理解、ドキュメント作成、テスト、修正などを対話的に支援するものとして説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/2-advanced-github-copilot-features"
+      "explanation": "公式 Learn では、高度な機能は既存コードの理解、ドキュメント作成、テスト、修正などを対話的に支援するものとして説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot の高度な機能](https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/2-advanced-github-copilot-features)」には「バグの修正やテストの記述などのタスクは時間がかかる可能性がありますが、同時に、ほとんどのプロジェクトで必要になります。 幸運なことに、GitHub Copilot には、これらのタスクをより簡単かつ効率的にできる高度な機能がいくつかあります。」と記載されています。"
     },
     {
       "questionNumber": 2,
@@ -83,7 +83,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、テスト生成に使う具体的なスラッシュコマンドとして /tests が説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/2-advanced-github-copilot-features"
+      "explanation": "公式 Learn では、テスト生成に使う具体的なスラッシュコマンドとして /tests が説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot の高度な機能](https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/2-advanced-github-copilot-features)」には「たとえば、`/tests` スラッシュ コマンドはテストの記述に役立ちますが、`/docs` コマンドはドキュメントの記述を目的としています。」と記載されています。"
     },
     {
       "questionNumber": 4,
@@ -110,7 +110,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、チャットまたはインラインチャットで使える例として、/tests はテストの記述、/docs はドキュメントの記述を目的とすると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/2-advanced-github-copilot-features"
+      "explanation": "公式 Learn では、チャットまたはインラインチャットで使える例として、/tests はテストの記述、/docs はドキュメントの記述を目的とすると説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot の高度な機能](https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/2-advanced-github-copilot-features)」には「たとえば、`/tests` スラッシュ コマンドはテストの記述に役立ちますが、`/docs` コマンドはドキュメントの記述を目的としています。」と記載されています。"
     },
     {
       "questionNumber": 5,
@@ -220,7 +220,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、演習後には不要な Codespaces リソースを削除して利用時間の消費を避ける注意が示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/3-exercise-setup"
+      "explanation": "公式 Learn では、演習後には不要な Codespaces リソースを削除して利用時間の消費を避ける注意が示されています。\n\n📖 公式ドキュメント「[まとめ](https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/7-summary)」には「毎月の GitHub Codespaces 時間すべてを消費しないようにするには、リポジトリに変更をアップロードした後にすべてのリソースを削除することが重要です。」と記載されています。"
     },
     {
       "questionNumber": 9,
@@ -274,7 +274,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、Web アプリケーションが正常に起動すると、ターミナルの [ポート] タブで Codespace 内のポート 8000 のサーバー実行を確認すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/3-exercise-setup"
+      "explanation": "公式 Learn では、Web アプリケーションが正常に起動すると、ターミナルの [ポート] タブで Codespace 内のポート 8000 のサーバー実行を確認すると説明されています。\n\n📖 公式ドキュメント「[演習 - Visual Studio Code と GitHub Copilot の提案を使用して、Python で開発する](https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/3-exercise-setup)」には「Web アプリケーションが正常に起動すると、ターミナルの [ **ポート** ] タブに、Codespace 内のポート 8000 でサーバーが実行されていることを示すメッセージが表示されます。」と記載されています。"
     },
     {
       "questionNumber": 11,
@@ -301,7 +301,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "公式 Learn では、既存プロジェクトでのコード修正、機能実装、ドキュメントやテスト作成、ターミナルコマンド操作に Copilot を使う方法を扱うと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/4-applied-copilot-techniques"
+      "explanation": "公式 Learn では、既存プロジェクトでのコード修正、機能実装、ドキュメントやテスト作成、ターミナルコマンド操作に Copilot を使う方法を扱うと説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot の応用手法](https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/4-applied-copilot-techniques)」には「コードの修正や機能の実装を行う場合、ドキュメントやテストを作成したり、ターミナル コマンドを操作したりする必要があります。 GitHub Copilot を使用してこれを実現できるいくつかの方法を見てみましょう。」と記載されています。"
     },
     {
       "questionNumber": 12,
@@ -330,7 +330,7 @@
         "A",
         "B"
       ],
-      "explanation": "公式 Learn では、/explain はコード説明、/fix は問題の修正提案に使うコマンドとして説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/4-applied-copilot-techniques"
+      "explanation": "公式 Learn では、/explain はコード説明、/fix は問題の修正提案に使うコマンドとして説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot の応用手法](https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/4-applied-copilot-techniques)」には「コードを選択し、Windows で **Ctrl + I** キーを使用するか、Mac で **Command+i** キーを使用した後に、インライン チャットと `/fix` スラッシュ コマンドを使用してコードの修正の支援を GitHub Copilot に依頼できます。 `/explain`: コードに関する説明を取得します。」と記載されています。"
     },
     {
       "questionNumber": 13,
@@ -357,7 +357,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、インラインチャットは、コードエディター内で選択コードに対する質問や変更依頼を行える対話機能として説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/4-applied-copilot-techniques"
+      "explanation": "公式 Learn では、インラインチャットは、コードエディター内で選択コードに対する質問や変更依頼を行える対話機能として説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot の高度な機能](https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/2-advanced-github-copilot-features)」には「インライン チャットを使用する利点の 1 つは、コンテキストを切り替えるために別のウィンドウに移動する必要がないことです。 提案と対話は、コードの近くで行われます。」と記載されています。"
     },
     {
       "questionNumber": 14,
@@ -384,7 +384,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、/explain は選択したコードや指定ファイルの説明を得るために使うと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/4-applied-copilot-techniques"
+      "explanation": "公式 Learn では、/explain は選択したコードや指定ファイルの説明を得るために使うと説明されています。\n\n📖 公式ドキュメント「[GitHub Copilot の応用手法](https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/4-applied-copilot-techniques)」には「`/explain`: コードに関する説明を取得します。」と記載されています。"
     },
     {
       "questionNumber": 15,
@@ -411,7 +411,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "公式 Learn では、Dockerfile 作成例では、最初の依頼で意図に合わない場合、Python の Virtual Environment を使うなど具体的な手順を指定してプロンプトを書き換える例が示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/4-applied-copilot-techniques"
+      "explanation": "公式 Learn では、Dockerfile 作成例では、最初の依頼で意図に合わない場合、Python の Virtual Environment を使うなど具体的な手順を指定してプロンプトを書き換える例が示されています。\n\n📖 公式ドキュメント「[GitHub Copilot の応用手法](https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/4-applied-copilot-techniques)」には「たとえば、_Dockerfile_ を作成するときに特定の手順を使用するように GitHub Copilot に依頼できます。 `Help me create a Dockerfile to package this project but make sure you are using a Virtual Environment for Python.`」と記載されています。"
     },
     {
       "questionNumber": 16,
@@ -521,7 +521,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、新しいルートを作成した後、コードを選択し、Spain を country/region として使う `/tests help me to create a new test for this route that uses Spain as the country/region.` というプロンプトでテスト作成を依頼すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/5-exercise-update-a-web-api"
+      "explanation": "公式 Learn では、新しいルートを作成した後、コードを選択し、Spain を country/region として使う `/tests help me to create a new test for this route that uses Spain as the country/region.` というプロンプトでテスト作成を依頼すると説明されています。\n\n📖 公式ドキュメント「[演習 - GitHub Copilot を使用して Python Web API を更新する](https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/5-exercise-update-a-web-api)」には「次のプロンプトで、インライン チャットまたは専用のチャット ペインを使用できます。 `/tests help me to create a new test for this route that uses Spain as the country/region.`」と記載されています。"
     },
     {
       "questionNumber": 20,
@@ -739,7 +739,7 @@
         "B",
         "C"
       ],
-      "explanation": "公式 Learn では、到達目標として、チャット、エージェント、インラインチャット、スラッシュコマンドを使うこと、Copilot Chat でコンテキスト対応の支援を得ることが示されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/7-summary"
+      "explanation": "公式 Learn では、到達目標として、チャット、エージェント、インラインチャット、スラッシュコマンドを使うこと、Copilot Chat でコンテキスト対応の支援を得ることが示されています。\n\n📖 公式ドキュメント「[まとめ](https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/7-summary)」には「コーディング タスクの遂行をより柔軟にする、チャット、エージェント、インライン チャット、スラッシュ コマンドなどの GitHub Copilot 機能を使用します。 GitHub Copilot Chat を使用して、プロジェクトで作業し、関連する出力を生成するときにコンテキスト対応の支援を提供します。」と記載されています。"
     },
     {
       "questionNumber": 28,
@@ -766,7 +766,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "公式 Learn では、まとめでは、GitHub の Codespaces で対象インスタンスを見つけ、3 点メニューから [削除] を選択して Codespace インスタンスを削除すると説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/7-summary"
+      "explanation": "公式 Learn では、まとめでは、GitHub の Codespaces で対象インスタンスを見つけ、3 点メニューから [削除] を選択して Codespace インスタンスを削除すると説明されています。\n\n📖 公式ドキュメント「[まとめ](https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/7-summary)」には「一覧から Codespace インスタンスを見つけて、3 つのドットのメニューを選択してオプションを表示します。 [ **削除** ] を選択して Codespace インスタンスを削除します。」と記載されています。"
     },
     {
       "questionNumber": 29,
@@ -793,7 +793,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "公式 Learn では、まとめの注記では、リポジトリに変更をコミットしないとすべての作業が失われるため、Codespace インスタンスを削除する前に変更をコミットしてプッシュすることが重要だと説明されています。\n\n参照: https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/7-summary"
+      "explanation": "公式 Learn では、まとめの注記では、リポジトリに変更をコミットしないとすべての作業が失われるため、Codespace インスタンスを削除する前に変更をコミットしてプッシュすることが重要だと説明されています。\n\n📖 公式ドキュメント「[まとめ](https://learn.microsoft.com/ja-jp/training/modules/advanced-github-copilot/7-summary)」には「リポジトリに変更をコミットしないと、すべての作業が失われます。 したがって、Codespace インスタンスを削除する前に、変更をコミットしてプッシュすることが重要です。」と記載されています。"
     },
     {
       "questionNumber": 30,
