@@ -26,14 +26,16 @@ function renderMarkdown(markdown: string): ReactNode {
     if (headingMatch) {
       const HeadingTag =
         headingMatch[1].length === 1 ? 'h3' : headingMatch[1].length === 2 ? 'h4' : 'h5'
-      return <HeadingTag key={blockIndex}>{renderInlineMarkdown(headingMatch[2])}</HeadingTag>
+      return <HeadingTag key={blockIndex}>{renderInlineMarkdown(headingMatch[2], `${blockIndex}-heading`)}</HeadingTag>
     }
 
     if (isUnorderedList) {
       return (
         <ul key={blockIndex}>
           {lines.map((line, lineIndex) => (
-            <li key={`${blockIndex}-${lineIndex}`}>{renderInlineMarkdown(line.replace(/^[-*]\s+/, ''))}</li>
+            <li key={`${blockIndex}-${lineIndex}`}>
+              {renderInlineMarkdown(line.replace(/^[-*]\s+/, ''), `${blockIndex}-${lineIndex}`)}
+            </li>
           ))}
         </ul>
       )
@@ -44,7 +46,7 @@ function renderMarkdown(markdown: string): ReactNode {
         <ol key={blockIndex}>
           {lines.map((line, lineIndex) => (
             <li key={`${blockIndex}-${lineIndex}`}>
-              {renderInlineMarkdown(line.replace(/^\d+\.\s+/, ''))}
+              {renderInlineMarkdown(line.replace(/^\d+\.\s+/, ''), `${blockIndex}-${lineIndex}`)}
             </li>
           ))}
         </ol>
@@ -55,15 +57,18 @@ function renderMarkdown(markdown: string): ReactNode {
       <p key={blockIndex}>
         {lines.flatMap((line, lineIndex) =>
           lineIndex === 0
-            ? renderInlineMarkdown(line)
-            : [<br key={`${blockIndex}-${lineIndex}-br`} />, ...renderInlineMarkdown(line)],
+            ? renderInlineMarkdown(line, `${blockIndex}-${lineIndex}`)
+            : [
+                <br key={`${blockIndex}-${lineIndex}-br`} />,
+                ...renderInlineMarkdown(line, `${blockIndex}-${lineIndex}`),
+              ],
         )}
       </p>
     )
   })
 }
 
-function renderInlineMarkdown(text: string): ReactNode[] {
+function renderInlineMarkdown(text: string, keyPrefix: string): ReactNode[] {
   const nodes: ReactNode[] = []
   const tokenPattern = /(\*\*[^*]+\*\*|`[^`]+`|\[[^\]]+\]\([^)]+\)|\*[^*]+\*)/g
   let lastIndex = 0
@@ -77,14 +82,14 @@ function renderInlineMarkdown(text: string): ReactNode[] {
     const token = match[0]
 
     if (token.startsWith('**') && token.endsWith('**')) {
-      nodes.push(<strong key={`${match.index}-strong`}>{token.slice(2, -2)}</strong>)
+      nodes.push(<strong key={`${keyPrefix}-${match.index}-strong`}>{token.slice(2, -2)}</strong>)
     } else if (token.startsWith('`') && token.endsWith('`')) {
-      nodes.push(<code key={`${match.index}-code`}>{token.slice(1, -1)}</code>)
+      nodes.push(<code key={`${keyPrefix}-${match.index}-code`}>{token.slice(1, -1)}</code>)
     } else if (token.startsWith('[')) {
       const parsed = token.match(/^\[([^\]]+)\]\(([^)]+)\)$/)
       if (parsed) {
         nodes.push(
-          <a key={`${match.index}-link`} href={parsed[2]} target="_blank" rel="noreferrer">
+          <a key={`${keyPrefix}-${match.index}-link`} href={parsed[2]} target="_blank" rel="noreferrer">
             {parsed[1]}
           </a>,
         )
@@ -92,7 +97,7 @@ function renderInlineMarkdown(text: string): ReactNode[] {
         nodes.push(token)
       }
     } else if (token.startsWith('*') && token.endsWith('*')) {
-      nodes.push(<em key={`${match.index}-em`}>{token.slice(1, -1)}</em>)
+      nodes.push(<em key={`${keyPrefix}-${match.index}-em`}>{token.slice(1, -1)}</em>)
     } else {
       nodes.push(token)
     }
