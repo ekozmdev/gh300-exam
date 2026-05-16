@@ -611,7 +611,7 @@ function QuestionActions({
         前の問題
       </button>
       <button type="button" className="ghost-button" onClick={onResetAnswer}>
-        回答をやり直す
+        クリア
       </button>
       {!submitted ? (
         <button type="button" className="primary-button" onClick={onSubmit} disabled={!canSubmit}>
